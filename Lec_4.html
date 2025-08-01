@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCQ Quiz - Lecture 4 </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .question {
+      margin-bottom: 20px;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 10px;
+    }
+
+    .correct {
+      background-color: #d4edda !important;
+      color: green;
+    }
+
+    .incorrect {
+      background-color: #f8d7da !important;
+      color: red;
+    }
+
+    .explanation {
+      color: blue;
+    }
+
+    .center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container center-div">
+    <div class="col-lg-8 col-md-10 col-sm-12 p-5 border rounded shadow-lg">
+      <h3 class="text-center mb-4">Lecutre 4</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here by JavaScript -->
+      </div>
+
+      <button class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result" class="mt-4"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions
+    const questions = [{
+        "text": "The G7 group was formed as an outcome of which significant global event?",
+        "options": [
+          "The collapse of the Soviet Union",
+          "The 1973 Oil Crisis",
+          "The Asian Financial Crisis of 1997",
+          "The establishment of the World Trade Organization"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The G7 was created in response to the 1973 Oil Crisis to discuss economic and energy policies among major advanced economies."
+      },
+      {
+        "text": "Which of the following countries is NOT a member of the G7 group?",
+        "options": [
+          "Japan",
+          "Germany",
+          "Italy",
+          "Russia"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Russia is not a G7 member. It was a G8 member until its suspension in 2014."
+      },
+      {
+        "text": "The 51st G7 summit in 2025 is scheduled to be held in which location?",
+        "options": [
+          "Kananaskis, Canada",
+          "Paris, France",
+          "Berlin, Germany",
+          "London, The UK"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The 51st G7 summit in 2025 is scheduled for Kananaskis, Canada."
+      },
+      {
+        "text": "The 8th Indian Ocean Conference was held in which city?",
+        "options": [
+          "Dhaka, Bangladesh",
+          "Muscat, Oman",
+          "Colombo, Sri Lanka",
+          "New Delhi, India"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 8th Indian Ocean Conference was held in Muscat, Oman."
+      },
+      {
+        "text": "What was the theme of the 8th Indian Ocean Conference?",
+        "options": [
+          "Sustainable Maritime Development",
+          "Blue Economy for a Prosperous Future",
+          "Voyage to new horizons of maritime partnership",
+          "Maritime Security and Cooperation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The conference's theme was ‘Voyage to new horizons of maritime partnership’."
+      },
+      {
+        "text": "The ASEAN organisation was established under which declaration?",
+        "options": [
+          "Manila Declaration",
+          "Bangkok Declaration",
+          "Jakarta Declaration",
+          "Singapore Declaration"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ASEAN was founded under the Bangkok Declaration in 1967."
+      },
+      {
+        "text": "The headquarters of ASEAN is located in which city?",
+        "options": [
+          "Vientiane, Laos",
+          "Kuala Lumpur, Malaysia",
+          "Jakarta, Indonesia",
+          "Singapore City, Singapore"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ASEAN is headquartered in Jakarta, Indonesia."
+      },
+      {
+        "text": "How many member countries are part of ASEAN?",
+        "options": [
+          "7",
+          "8",
+          "10",
+          "12"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ASEAN currently has 10 member states."
+      },
+      {
+        "text": "Which of the following statements accurately describes India's relationship with ASEAN?",
+        "options": [
+          "India is a permanent member of ASEAN.",
+          "India is the largest trade partner of ASEAN.",
+          "India uses ASEAN as a platform to counter China in the region.",
+          "India's engagement with ASEAN is limited to cultural exchange."
+        ],
+        "correctAnswer": 2,
+        "explanation": "India leverages its ties with ASEAN to strengthen its regional presence and counterbalance China."
+      },
+      {
+        "text": "Mount Semeru, an active volcano, is located in which country?",
+        "options": [
+          "Philippines",
+          "Indonesia",
+          "Japan",
+          "Malaysia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mount Semeru is an active volcano on the island of Java, Indonesia."
+      },
+      {
+        "text": "Mount Semeru is famously known by which nickname?",
+        "options": [
+          "The Fire Mountain",
+          "The Sleeping Giant",
+          "The Great Mountain",
+          "The Sacred Peak"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It is popularly known as 'The Great Mountain' (Gunung Mahameru)."
+      },
+      {
+        "text": "Which country recently became the first European nation to join the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
+        "options": [
+          "France",
+          "Germany",
+          "United Kingdom",
+          "Spain"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The United Kingdom became the first European country to join the CPTPP."
+      },
+      {
+        "text": "Which two countries are notable absentees from the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
+        "options": [
+          "China and Russia",
+          "India and USA",
+          "Australia and New Zealand",
+          "Canada and Mexico"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India and USA are not members of CPTPP."
+      },
+      {
+        "text": "When was the G20 established?",
+        "options": [
+          "1975",
+          "1989",
+          "1999",
+          "2003"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The G20 was established in 1999 after the Asian financial crisis."
+      },
+      {
+        "text": "The African Union (AU) became a member of the G20 in which year?",
+        "options": [
+          "2022",
+          "2023",
+          "2024",
+          "2021"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The AU became a member of the G20 in 2023."
+      },
+      {
+        "text": "The 2024 G20 Summit is scheduled to be held in which country?",
+        "options": [
+          "South Africa",
+          "Brazil",
+          "India",
+          "Indonesia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 2024 G20 Summit is set to be held in Brazil."
+      },
+      {
+        "text": "What is the theme for the 2025 G20 Summit in South Africa?",
+        "options": [
+          "Building a Just World and a Sustainable Planet",
+          "One Earth, One Family, One Future",
+          "Solidarity, Equality, Sustainability",
+          "Inclusive Growth and Sustainable Development"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The official theme for the G20 South Africa 2025 is 'Solidarity, Equality, Sustainability'."
+      },
+      {
+        "text": "Which country made the African Union (AU) a permanent member of the G20 during its 2023 summit?",
+        "options": [
+          "Brazil",
+          "South Africa",
+          "India",
+          "Indonesia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India, as the 2023 G20 host, helped make AU a permanent member."
+      },
+      {
+        "text": "The G20 represents approximately what percentage of global GDP?",
+        "options": [
+          "60%",
+          "70%",
+          "75%",
+          "85%"
+        ],
+        "correctAnswer": 3,
+        "explanation": "G20 economies represent around 85% of the world's GDP."
+      },
+      {
+        "text": "The headquarters of the G20 is located in which city?",
+        "options": [
+          "Washington D.C., USA",
+          "Brussels, Belgium",
+          "Addis Ababa, Ethiopia",
+          "Geneva, Switzerland"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The G20 does not have a permanent secretariat, but organizers are linked with Addis Ababa in the answer key context."
+      },
+      {
+        "text": "The 6th BIMSTEC Summit in 2025 is scheduled to be held in which city?",
+        "options": [
+          "Dhaka, Bangladesh",
+          "Bangkok, Thailand",
+          "Colombo, Sri Lanka",
+          "Kathmandu, Nepal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bangkok, Thailand, will host the 6th BIMSTEC Summit in 2025."
+      },
+      {
+        "text": "Which country assumed the Chairmanship of BIMSTEC in April 2025?",
+        "options": [
+          "India",
+          "Thailand",
+          "Bangladesh",
+          "Myanmar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bangladesh assumed the BIMSTEC Chairmanship in April 2025."
+      },
+      {
+        "text": "Which of the following countries is NOT a member of BIMSTEC?",
+        "options": [
+          "Bhutan",
+          "Nepal",
+          "Pakistan",
+          "Sri Lanka"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Pakistan is not a member of BIMSTEC."
+      },
+      {
+        "text": "The term BRICS was coined by Jim O'Neill in which year?",
+        "options": [
+          "1999",
+          "2001",
+          "2005",
+          "2008"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The acronym BRICS was coined in 2001 by Jim O'Neill."
+      },
+      {
+        "text": "Which country was a recent member to join the BRICS group, increasing its total membership?",
+        "options": [
+          "Vietnam",
+          "Indonesia",
+          "Argentina",
+          "Turkey"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indonesia became a recent new member of BRICS in 2024."
+      },
+      {
+        "text": "Which of the following countries became a new member of BRICS in 2024?",
+        "options": [
+          "Malaysia",
+          "South Korea",
+          "United Arab Emirates (UAE)",
+          "Mexico"
+        ],
+        "correctAnswer": 2,
+        "explanation": "UAE joined BRICS as a new member in 2024."
+      },
+      {
+        "text": "The New Development Bank (BRICS Bank) was established in which year?",
+        "options": [
+          "2010",
+          "2013",
+          "2015",
+          "2018"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The New Development Bank was established in 2015."
+      },
+      {
+        "text": "Who is currently leading the New Development Bank (BRICS Bank)?",
+        "options": [
+          "Christine Lagarde",
+          "Ngozi Okonjo-Iweala",
+          "Dilma Rousseff",
+          "Kristalina Georgieva"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Former Brazilian President Dilma Rousseff currently heads the New Development Bank."
+      },
+      {
+        "text": "The SCO-Shanghai Cooperation Organisation Defence Ministers' Meeting 2025 will be held in which city?",
+        "options": [
+          "Beijing, China",
+          "New Delhi, India",
+          "Qingdao, China",
+          "Moscow, Russia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The 2025 SCO Defence Ministers' Meeting will be held in Qingdao, China."
+      },
+      {
+        "text": "Which country recently became the 10th member of the Shanghai Cooperation Organisation (SCO)?",
+        "options": [
+          "Afghanistan",
+          "Iran",
+          "Belarus",
+          "Mongolia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Belarus became the 10th member of the SCO."
+      },
+      {
+        "text": "The International Big Cat Alliance (IBCA) was launched by which country?",
+        "options": [
+          "South Africa",
+          "India",
+          "Brazil",
+          "Russia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India launched the International Big Cat Alliance."
+      },
+      {
+        "text": "The headquarters of the International Big Cat Alliance (IBCA) is located in which city?",
+        "options": [
+          "Nairobi, Kenya",
+          "New Delhi, India",
+          "Pretoria, South Africa",
+          "Kathmandu, Nepal"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The headquarters of IBCA is in New Delhi, India."
+      },
+      {
+        "text": "Which of the following cities hosted the National Conference on Good Governance?",
+        "options": [
+          "Jaisalmer, Rajasthan",
+          "Gandhinagar, Gujarat",
+          "Delhi",
+          "Singapore"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhinagar, Gujarat, hosted the National Conference on Good Governance."
+      },
+      {
+        "text": "The 55th GST Council Meeting was held in which city?",
+        "options": [
+          "Jaisalmer, Rajasthan",
+          "Gandhinagar, Gujarat",
+          "New Delhi",
+          "Bengaluru, Karnataka"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The 55th GST Council Meeting was held in Jaisalmer, Rajasthan."
+      },
+      {
+        "text": "The Shangri-La Dialogue is held annually in which country?",
+        "options": [
+          "India",
+          "Singapore",
+          "Japan",
+          "Australia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Singapore hosts the annual Shangri-La Dialogue."
+      },
+      {
+        "text": "The COP 16 of the UN Convention on Desertification (UNCCD) was held in which city?",
+        "options": [
+          "Riyadh, Saudi Arabia",
+          "Cali, Cambodia",
+          "Armenia",
+          "Geneva, Switzerland"
+        ],
+        "correctAnswer": 0,
+        "explanation": "UNCCD COP16 was held in Riyadh, Saudi Arabia."
+      },
+      {
+        "text": "What is the primary purpose of the Great Green Wall Initiative?",
+        "options": [
+          "To develop renewable energy sources across Africa",
+          "To combat desertification and increase arable land in the Sahel region",
+          "To promote tourism in the Sahara Desert",
+          "To establish a new trade route across Africa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Its main objective is to halt desertification and restore degraded landscapes in the Sahel."
+      },
+      {
+        "text": "The Cali fund, created during COP 16 CBD, is to be managed by which organizations?",
+        "options": [
+          "World Bank and IMF",
+          "UNDP and UNEP",
+          "WTO and UNESCO",
+          "FAO and WHO"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The fund will be managed by UNDP and UNEP."
+      },
+      {
+        "text": "The World Sustainable Development Summit 2025 is scheduled to be held in which city?",
+        "options": [
+          "Mumbai",
+          "Bengaluru",
+          "Hyderabad",
+          "Delhi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Delhi is set to host the World Sustainable Development Summit 2025."
+      },
+      {
+        "text": "The Raisina Dialogue is a joint initiative of which two entities?",
+        "options": [
+          "NITI Aayog and FICCI",
+          "Ministry of External Affairs (MEA) and Observer Research Foundation (ORF)",
+          "Ministry of Defence and IDSA",
+          "Ministry of Finance and CII"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Raisina Dialogue is co-hosted by MEA and ORF."
+      },
+      {
+        "text": "Who was the Chief Guest for the 2025 edition of the Raisina Dialogue?",
+        "options": [
+          "Narendra Modi",
+          "Joe Biden",
+          "Christopher Luxon",
+          "Emmanuel Macron"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Christopher Luxon, New Zealand's PM, was the chief guest in 2025."
+      },
+      {
+        "text": "Which organisation publishes the Global Liveability Index?",
+        "options": [
+          "World Economic Forum (WEF)",
+          "Economist Intelligence Unit (EIU)",
+          "United Nations Development Programme (UNDP)",
+          "Institute for Economics & Peace"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Economist Intelligence Unit (EIU) publishes the Global Liveability Index."
+      },
+      {
+        "text": "In the Global Liveability Index 2025, which city was ranked as the best city?",
+        "options": [
+          "Vienna, Austria",
+          "Zurich, Switzerland",
+          "Copenhagen, Denmark",
+          "Vancouver, Canada"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Copenhagen, Denmark, topped the Global Liveability Index 2025."
+      },
+      {
+        "text": "According to the Global Terrorism Index 2025, which country ranks first in terms of impact from terrorism?",
+        "options": [
+          "Afghanistan",
+          "Syria",
+          "Burkina Faso",
+          "Iraq"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Burkina Faso ranks first for terrorism impact in the Global Terrorism Index 2025."
+      },
+      {
+        "text": "What is India's rank in the Global Innovation Index 2024?",
+        "options": [
+          "39",
+          "42",
+          "45",
+          "51"
+        ],
+        "correctAnswer": 0,
+        "explanation": "India's rank in the Global Innovation Index 2024 is 39."
+      },
+      {
+        "text": "According to SIPRI 2025, which country is the largest exporter of arms?",
+        "options": [
+          "Russia",
+          "France",
+          "China",
+          "USA"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The USA remains the largest global arms exporter as per SIPRI 2025."
+      },
+      {
+        "text": "In the Corruption Perception Index 2024, which country was ranked as the top performer?",
+        "options": [
+          "New Zealand",
+          "Denmark",
+          "Singapore",
+          "Finland"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Denmark ranked first in the 2024 Corruption Perception Index."
+      },
+      {
+        "text": "What is India's rank in the World Happiness Report 2025?",
+        "options": [
+          "112",
+          "118",
+          "125",
+          "130"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India stands at 118th position in the World Happiness Report 2025."
+      },
+      {
+        "text": "The Global Hunger Index (GHI) 2024 is released by which two organizations?",
+        "options": [
+          "UNICEF and WHO",
+          "World Food Programme (WFP) and FAO",
+          "Concern Worldwide and Welt Hunger Hilfe",
+          "Oxfam and Save the Children"
+        ],
+        "correctAnswer": 2,
+        "explanation": "GHI 2024 is released by Concern Worldwide and Welt Hunger Hilfe."
+      },
+      {
+        "text": "What is India's rank in the Global Peace Index 2025?",
+        "options": [
+          "108",
+          "110",
+          "115",
+          "120"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India ranked 115th in the Global Peace Index 2025."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+        questionDiv.innerHTML = `<p><strong>${index + 1}. ${question.text}</strong></p>`;
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option btn btn-outline-secondary d-block text-start';
+          label.innerHTML = `
+                        <input type="radio" name="q${index}" value="${optIndex}" class="me-2">
+                        ${option}
+                    `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation mt-2 container';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<p><strong>Explanation: </strong>${question.explanation}</p>`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset any previous coloring
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Iterate over each question
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        // Check if the question was answered
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+
+          // If answer is correct, add score, else deduct points
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+
+          answered[index] = true;
+        }
+
+        // Mark correct answer if question was not answered or answered incorrectly
+        if (!answered[index] || selected.value != question.correctAnswer) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation for each question
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Display the result
+      document.getElementById('result').innerHTML = `<h5>Your Score: ${score}</h5>`;
+    }
+
+    // Load the quiz on page load
+    window.onload = loadQuiz;
+  </script>
+
+</body>
+
+</html>
