@@ -2,608 +2,670 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>MCQ Quiz - Lecture 10</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    .question {
-      margin-bottom: 20px;
+    body {
+      background-color: #f8f9fa;
     }
 
-    .option {
-      cursor: pointer;
-      padding: 10px;
-    }
-
-    .correct {
-      background-color: #d4edda !important;
-      color: green;
-    }
-
-    .incorrect {
-      background-color: #f8d7da !important;
-      color: red;
-    }
-
-    .explanation {
-      color: blue;
-    }
-
-    .center-div {
+    .container.center-div {
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
     }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 
 <body>
-
   <div class="container center-div">
-    <div class="col-lg-8 col-md-10 col-sm-12 p-5 border rounded shadow-lg">
-      <h3 class="text-center mb-4">Lecutre 10</h3>
+    <div class="quiz-box">
+      <h3 class="text-center">Lecture 10</h3>
       <div id="quiz-container">
-        <!-- Questions will be inserted here by JavaScript -->
+        <!-- Questions will be inserted here -->
       </div>
-
-      <button class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
-      <div id="result" class="mt-4"></div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
     </div>
   </div>
 
   <script>
-    // Quiz questions
+    // Quiz questions array
     const questions = [{
-        "text": "The National Maritime Heritage Complex (NMHC) is being developed by which Ministry?",
+        "text": "Madhav Gadgil was awarded the UN Champions of Earth Lifetime Award 2024 for his contributions to which primary field?",
         "options": [
-          "Ministry of Culture",
-          "Ministry of Tourism",
-          "Ministry of Ports, Shipping and Waterways",
-          "Ministry of External Affairs"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The NMHC is being developed by the Ministry of Ports, Shipping and Waterways at Lothal, Gujarat."
-      },
-      {
-        "text": "Lothal, the site of the National Maritime Heritage Complex, dates back to approximately what period?",
-        "options": [
-          "1500 BCE",
-          "2000 BCE",
-          "2600 BCE",
-          "3000 BCE"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Lothal flourished as an Indus Valley site around 2600 BCE."
-      },
-      {
-        "text": "Who is credited with the discovery of the oldest known manmade dockyard at Lothal?",
-        "options": [
-          "J. P. Joshi",
-          "S. R. Rao",
-          "John Marshall",
-          "R. D. Banerji"
+          "Economic development and poverty alleviation",
+          "Environmental conservation and biodiversity preservation",
+          "Space exploration and technological innovation",
+          "Human rights advocacy and social justice"
         ],
         "correctAnswer": 1,
-        "explanation": "S. R. Rao discovered Lothal in 1954, revealing the world's earliest known dockyard."
+        "explanation": "He is recognized for his work in environmental conservation and biodiversity preservation."
       },
       {
-        "text": "Dholavira, known for its unique water harvesting system, is located in which region?",
+        "text": "In which year was the Western Ghats Ecology Expert Panel (WGEAP) appointed by the Union Ministry of Environment and Forests?",
         "options": [
-          "Saurashtra",
-          "Kutch",
-          "Malwa",
-          "Konkan"
+          "2008",
+          "2010",
+          "2012",
+          "2014"
         ],
         "correctAnswer": 1,
-        "explanation": "Dholavira is located on Khadir Bet island in the Kutch region of Gujarat."
+        "explanation": "The WGEAP, chaired by Gadgil, was appointed in 2010."
       },
       {
-        "text": "Which of the following describes Dholavira's status among UNESCO World Heritage Sites?",
+        "text": "Which of the following activities was specifically recommended against in the Gadgil's Report (2011) concerning the Western Ghats?",
         "options": [
-          "39th UNESCO World Heritage Site",
-          "40th UNESCO World Heritage Site",
-          "41st UNESCO World Heritage Site",
-          "42nd UNESCO World Heritage Site"
+          "Agroforestry and organic farming",
+          "Quarrying, mining, and hydro projects",
+          "Ecotourism and sustainable tourism",
+          "Renewable energy projects like solar farms"
         ],
         "correctAnswer": 1,
-        "explanation": "Dholavira was inscribed as India's 40th UNESCO World Heritage Site."
+        "explanation": "The Gadgil Report specifically recommended against quarrying, mining, and hydro projects."
       },
       {
-        "text": "The Maratha Military Landscapes of India, designated as India's 44th World Heritage Site, are spread across which states?",
+        "text": "The Kasturi Rangan Committee (2012), formed after Gadgil’s report, designated what percentage of the Western Ghats area as an eco-sensitive zone?",
         "options": [
-          "Maharashtra and Karnataka",
-          "Maharashtra and Madhya Pradesh",
-          "Maharashtra and Goa",
-          "Maharashtra and Tamil Nadu"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Maratha Military Landscapes are spread across Maharashtra and Tamil Nadu (Gingee Fort)."
-      },
-      {
-        "text": "Which of the following forts is part of the Maratha Military Landscapes of India and is located in Tamil Nadu?",
-        "options": [
-          "Salher",
-          "Shivneri",
-          "Gingee Fort",
-          "Vijaydurg"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Gingee Fort is the Maratha fort located in Tamil Nadu."
-      },
-      {
-        "text": "World Heritage Day is observed annually on what date?",
-        "options": [
-          "22nd April",
-          "18th April",
-          "5th June",
-          "10th December"
-        ],
-        "correctAnswer": 1,
-        "explanation": "World Heritage Day is celebrated worldwide on 18th April annually."
-      },
-      {
-        "text": "What is the theme for World Heritage Day 2025?",
-        "options": [
-          "Sustainable Heritage for Future Generations",
-          "Heritage and Climate Change: A Global Challenge",
-          "Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions",
-          "Preserving Our Shared Cultural Heritage"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 2025 theme is 'Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions.'"
-      },
-      {
-        "text": "In which year was the World Heritage Convention adopted by UNESCO?",
-        "options": [
-          "1968",
-          "1970",
-          "1972",
-          "1975"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The World Heritage Convention was adopted by UNESCO in 1972."
-      },
-      {
-        "text": "What is India's global ranking for the number of World Heritage Sites?",
-        "options": [
-          "4th",
-          "5th",
-          "6th",
-          "7th"
-        ],
-        "correctAnswer": 2,
-        "explanation": "India ranks 6th globally in the number of World Heritage Sites."
-      },
-      {
-        "text": "How many nations have ratified the World Heritage Convention, 1972?",
-        "options": [
-          "180",
-          "190",
-          "196",
-          "200"
-        ],
-        "correctAnswer": 2,
-        "explanation": "As of now, 196 nations have ratified the convention."
-      },
-      {
-        "text": "Which site was inscribed as India's 43rd World Heritage Site?",
-        "options": [
-          "Great Living Chola Temples",
-          "Group of Monuments at Hampi",
-          "Moidams of Charaideo, Assam",
-          "Kakatiya Rudreshwara (Ramappa) Temple"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Moidams of Charaideo, Assam, was inscribed as the 43rd site."
-      },
-      {
-        "text": "Which of the following was among the first sites from India inscribed in the World Heritage List in 1983?",
-        "options": [
-          "Qutb Minar",
-          "Humayun's Tomb",
-          "Ajanta Caves",
-          "Red Fort Complex"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Ajanta Caves were among the first Indian sites inscribed in 1983."
-      },
-      {
-        "text": "How many sites are currently on India's Tentative List for World Heritage status?",
-        "options": [
-          "50",
-          "55",
-          "60",
-          "62"
-        ],
-        "correctAnswer": 3,
-        "explanation": "India currently has 62 sites on its Tentative List."
-      },
-      {
-        "text": "Where was the 46th World Heritage Committee Meeting held?",
-        "options": [
-          "Paris, France",
-          "Delhi, India",
-          "Beijing, China",
-          "Rome, Italy"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The 46th meeting was held in Delhi, India."
-      },
-      {
-        "text": "Who is the current Director-General of UNESCO?",
-        "options": [
-          "Antonio Guterres",
-          "Tedros Adhanom Ghebreyesus",
-          "Audrey Azoulay",
-          "Kristalina Georgieva"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Audrey Azoulay is the current Director-General of UNESCO."
-      },
-      {
-        "text": "Who was appointed as the 10th President of the International Olympic Committee (IOC)?",
-        "options": [
-          "Thomas Bach",
-          "Kirsty Coventry",
-          "Gianni Infantino",
-          "Sepp Blatter"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Kirsty Coventry was appointed as the 10th IOC President."
-      },
-      {
-        "text": "Kirsty Coventry is the first female and first African to hold the post of IOC President. In which sport is she a two-time Olympic gold medallist?",
-        "options": [
-          "Athletics",
-          "Gymnastics",
-          "Swimming",
-          "Rowing"
-        ],
-        "correctAnswer": 2,
-        "explanation": "She is a two-time Olympic gold medallist in swimming."
-      },
-      {
-        "text": "Who is the current Chairman of the Indian Olympic Association?",
-        "options": [
-          "Anurag Thakur",
-          "Narinder Batra",
-          "PT Usha",
-          "Abhinav Bindra"
-        ],
-        "correctAnswer": 2,
-        "explanation": "PT Usha is the current Chairman of the Indian Olympic Association."
-      },
-      {
-        "text": "Who currently holds the position of ICC Chairman?",
-        "options": [
-          "Greg Barclay",
-          "Sourav Ganguly",
-          "Jay Shah",
-          "Geoff Allardice"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Jay Shah is the current ICC Chairman."
-      },
-      {
-        "text": "The 2026 Winter Olympics are scheduled to be held in which city?",
-        "options": [
-          "Beijing, China",
-          "Vancouver, Canada",
-          "Milan-Cortina, Italy",
-          "Pyeongchang, South Korea"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 2026 Winter Olympics will be held in Milan-Cortina, Italy."
-      },
-      {
-        "text": "Who was elected as the President of the 80th UN General Assembly session?",
-        "options": [
-          "Annalena Baerbock",
-          "António Guterres",
-          "Volkan Bozkir",
-          "Abdullah Shahid"
+          "37%",
+          "50%",
+          "64%",
+          "75%"
         ],
         "correctAnswer": 0,
-        "explanation": "Annalena Baerbock was elected President of the 80th UNGA session."
+        "explanation": "The Kasturi Rangan Committee designated 37% as an eco-sensitive zone."
       },
       {
-        "text": "Shaikha Al-Nowais has been appointed as the Secretary-General of which international organization?",
+        "text": "Which of the following states is NOT listed as a state through which the Western Ghats span?",
         "options": [
-          "UN Children's Fund (UNICEF)",
-          "UN World Tourism Organization (UNWTO)",
-          "World Health Organization (WHO)",
-          "International Monetary Fund (IMF)"
+          "Gujarat",
+          "Andhra Pradesh",
+          "Karnataka",
+          "Tamil Nadu"
         ],
         "correctAnswer": 1,
-        "explanation": "Shaikha Al-Nowais is Secretary-General of the UNWTO."
+        "explanation": "Andhra Pradesh is not intersected by the Western Ghats."
       },
       {
-        "text": "Shaikha Al-Nowais is the first woman globally and the first from which country to hold the post of UNWTO Secretary-General?",
+        "text": "Which National Park is located in Tamil Nadu, according to the provided information regarding the Western Ghats region?",
         "options": [
-          "Qatar",
-          "Saudi Arabia",
-          "United Arab Emirates",
-          "Bahrain"
+          "Silent Valley NP",
+          "Wayanad NP",
+          "Mudumalai NP",
+          "Bandipur TR"
         ],
         "correctAnswer": 2,
-        "explanation": "She is the first woman and the first from UAE to hold this post."
+        "explanation": "Mudumalai National Park is in Tamil Nadu."
       },
       {
-        "text": "Dhudmaras, a village selected by the UNWTO for its Best Tourism Village Upgrade programme, is situated in which state of India?",
+        "text": "What is the area of India's largest conservation reserve, located in Spiti Valley?",
+        "options": [
+          "1,200 square kilometers",
+          "1,585 square kilometers",
+          "1,800 square kilometers",
+          "2,000 square kilometers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Spiti Valley Conservation Reserve covers 1,585 sq.km."
+      },
+      {
+        "text": "The Snow Leopard, found in several Indian states, is often known by which evocative name?",
+        "options": [
+          "The White Phantom",
+          "The Ghost of the Mountains",
+          "The Silent Hunter",
+          "The Glacier Beast"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Snow Leopard is called the 'Ghost of the Mountains'."
+      },
+      {
+        "text": "Who is the first Indian to win the Ramsar Award for Wetland Wise Use?",
+        "options": [
+          "Varsha Deshpande",
+          "Jayshree Vencatesan",
+          "Madhav Gadgil",
+          "Arundhati Roy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jayshree Vencatesan is the first Indian recipient."
+      },
+      {
+        "text": "As of July 29, 2025, what is the total number of Ramsar Sites in India?",
+        "options": [
+          "75",
+          "85",
+          "91",
+          "100"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India currently (2025) has 91 Ramsar sites."
+      },
+      {
+        "text": "In which year did the Ramsar Convention come into force?",
+        "options": [
+          "1971",
+          "1975",
+          "1982",
+          "1991"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Ramsar Convention came into force in 1975."
+      },
+      {
+        "text": "Which of the following were the first Ramsar Sites in India?",
+        "options": [
+          "Sundarbans and Vembannur",
+          "Kanwar Lake and Nagi Dam",
+          "Chilika (Odisha) and Keoladeo (Rajasthan)",
+          "Udhwa Bird Sanctuary and Nakti Dam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Chilika and Keoladeo were India's first Ramsar sites."
+      },
+      {
+        "text": "India’s first Teal Carbon Study is being conducted at which Ramsar Site?",
+        "options": [
+          "Sundarbans",
+          "Keoladeo National Park",
+          "Chilika Lake",
+          "Kanwar Lake"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Keoladeo National Park hosts India's first Teal Carbon Study."
+      },
+      {
+        "text": "Which Indian state has the maximum number of Ramsar Sites?",
         "options": [
           "Odisha",
-          "Madhya Pradesh",
-          "Chhattisgarh",
-          "Jharkhand"
+          "West Bengal",
+          "Tamil Nadu",
+          "Rajasthan"
         ],
         "correctAnswer": 2,
-        "explanation": "Dhudmaras is located in Chhattisgarh."
+        "explanation": "Tamil Nadu leads with the most Ramsar Sites."
       },
       {
-        "text": "Dhudmaras village is located in the heart of which National Park?",
+        "text": "What is the location of India's largest Ramsar Site?",
         "options": [
-          "Indravati National Park",
-          "Guru Ghasidas National Park",
-          "Kanger Valley National Park",
-          "Sanjay National Park"
+          "Tamil Nadu",
+          "Odisha",
+          "West Bengal",
+          "Himachal Pradesh"
         ],
         "correctAnswer": 2,
-        "explanation": "It lies within the Kanger Valley National Park."
+        "explanation": "West Bengal has India's largest Ramsar Site."
       },
       {
-        "text": "Who was appointed as the 7th Secretary-General of the Commonwealth?",
+        "text": "Operation Olivia is an initiative by the Indian Coast Guard primarily aimed at protecting which marine species?",
         "options": [
-          "Patricia Scotland",
-          "Kamalesh Sharma",
-          "Shirley Ayorkor Botchwey",
-          "Emeka Anyaoku"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Shirley Ayorkor Botchwey is the 7th Secretary-General."
-      },
-      {
-        "text": "Which two countries were the last to join the Commonwealth in 2022?",
-        "options": [
-          "Rwanda and Mozambique",
-          "Gambia and Maldives",
-          "Gabon and Togo",
-          "Samoa and Vanuatu"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Gabon and Togo joined the Commonwealth in 2022."
-      },
-      {
-        "text": "Which is the smallest member country of the Commonwealth of Nations by area/population?",
-        "options": [
-          "Tuvalu",
-          "Nauru",
-          "San Marino",
-          "Monaco"
+          "Green Sea Turtles",
+          "Olive Ridley Turtles",
+          "Leatherback Turtles",
+          "Hawksbill Turtles"
         ],
         "correctAnswer": 1,
-        "explanation": "Nauru is the smallest member of the Commonwealth."
+        "explanation": "It is focused on Olive Ridley Turtles."
       },
       {
-        "text": "India secured the historic mandate for the Presidency of the International Institute of Administrative Sciences (IIAS) for which period?",
+        "text": "Yala Glacier, located in Nepal, is forecasted to vanish by which year due to rapid retreat?",
         "options": [
-          "2024-2027",
-          "2025-2028",
-          "2026-2029",
-          "2027-2030"
+          "2030",
+          "2035",
+          "2040",
+          "2050"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Yala Glacier may disappear by 2040."
+      },
+      {
+        "text": "India's First Bio Bank for Animal Conservation is located at which facility?",
+        "options": [
+          "National Zoological Park, Delhi",
+          "Arignar Anna Zoological Park, Chennai",
+          "Padmaja Naidu Himalayan Zoological Park, Darjeeling",
+          "Mysore Zoo, Karnataka"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It is at the Padmaja Naidu Himalayan Zoological Park in Darjeeling."
+      },
+      {
+        "text": "What is the IUCN Status of the Ganges River Dolphin?",
+        "options": [
+          "Critically Endangered",
+          "Endangered",
+          "Vulnerable",
+          "Least Concern"
         ],
         "correctAnswer": 1,
-        "explanation": "India was elected IIAS President for 2025-2028."
+        "explanation": "The Ganges River Dolphin is classified as Endangered."
       },
       {
-        "text": "The election to the post of IIAS President was held by ballot process for the first time in how many years of the institution's history?",
+        "text": "When is Dolphin Day celebrated in India?",
         "options": [
-          "50 years",
-          "75 years",
-          "100 years",
-          "125 years"
+          "5th September",
+          "5th October",
+          "5th November",
+          "5th December"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India celebrates Dolphin Day on 5th October."
+      },
+      {
+        "text": "The \"Smart Laboratory on Clean Rivers (SLCR) Project\" in Banaras is a collaboration between NMCG, IIT (BHU), and which other country?",
+        "options": [
+          "Germany",
+          "Japan",
+          "Denmark",
+          "France"
         ],
         "correctAnswer": 2,
-        "explanation": "The ballot election was a first in 100 years of IIAS history."
+        "explanation": "Denmark is the international collaborator in this project."
       },
       {
-        "text": "As per the UK-Mauritius treaty concerning the Chagos Islands, what is the annual payment by the UK to Mauritius?",
+        "text": "The \"Ek Desh Ek Dhadkan\" initiative, launched by the Ministry of Culture, aims to primarily achieve which objective?",
         "options": [
-          "$100 million",
-          "$120 million",
-          "$136 million",
-          "$150 million"
+          "Promote cultural exchange programs",
+          "Honour brave hearts and foster patriotism",
+          "Preserve ancient monuments",
+          "Develop new artistic talents"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It honours brave hearts and fosters patriotism."
+      },
+      {
+        "text": "As a result of the Government’s RRB Consolidation Drive (Phase 4), the number of RRBs has been reduced to how many?",
+        "options": [
+          "43",
+          "35",
+          "28",
+          "22"
         ],
         "correctAnswer": 2,
-        "explanation": "The UK pays Mauritius $136 million annually under the treaty."
+        "explanation": "The number of RRBs has been reduced to 28."
       },
       {
-        "text": "The UK will lease the Chagos Islands from Mauritius for how many years as per the treaty?",
+        "text": "What is the ownership structure of Regional Rural Banks (RRBs) by the Central Government?",
         "options": [
-          "50 years",
-          "75 years",
-          "99 years",
-          "100 years"
+          "15%",
+          "35%",
+          "50%",
+          "75%"
         ],
         "correctAnswer": 2,
-        "explanation": "Lease duration for Chagos Islands is 99 years."
+        "explanation": "Central government owns 50% in RRBs."
       },
       {
-        "text": "The US Military Base is located on which island within the Chagos Archipelago?",
+        "text": "Operation Mahadev is a counterterrorism initiative primarily aimed at eliminating terrorists linked to which specific event?",
         "options": [
-          "Peros Banhos",
-          "Salomon Islands",
-          "Diego Garcia",
-          "Great Chagos Bank"
+          "Mumbai Attacks 2008",
+          "Uri Attack 2016",
+          "April 2025 Pahalgam Attack",
+          "Pulwama Attack 2019"
         ],
         "correctAnswer": 2,
-        "explanation": "Diego Garcia hosts the US military base."
+        "explanation": "Operation Mahadev targets terrorists behind the April 2025 Pahalgam Attack."
       },
       {
-        "text": "Which country is noted as the first to adopt India's Jan Aushadhi Scheme?",
+        "text": "Which country carried out Operation Red Weeding, aimed at eliminating top officials of Iran's military forces?",
         "options": [
-          "Sri Lanka",
-          "Bangladesh",
-          "Nepal",
-          "Mauritius"
+          "United States",
+          "Israel",
+          "United Kingdom",
+          "Saudi Arabia"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Israel conducted Operation Red Weeding."
+      },
+      {
+        "text": "Which NTPC plant is the first in the world to convert carbon dioxide into methanol?",
+        "options": [
+          "NTPC Kaniha",
+          "NTPC Dadri",
+          "NTPC Vindhyachal",
+          "NTPC Ramagundam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "NTPC Vindhyachal is the pioneer in this conversion."
+      },
+      {
+        "text": "India’s first biomanufacturing institute, focused on producing biofertilizers and biopesticides, is located in which city?",
+        "options": [
+          "Mohali",
+          "Bengaluru",
+          "Pune",
+          "Hyderabad"
+        ],
+        "correctAnswer": 0,
+        "explanation": "India's first biomanufacturing institute is in Mohali, Punjab."
+      },
+      {
+        "text": "The \"State of Global Climate Report\" is given by which international organization?",
+        "options": [
+          "United Nations Environment Programme (UNEP)",
+          "Intergovernmental Panel on Climate Change (IPCC)",
+          "World Meteorological Organization (WMO)",
+          "World Health Organization (WHO)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "WMO releases the State of Global Climate report."
+      },
+      {
+        "text": "In the Environmental Performance Index 2024, what was India's rank out of 180 countries?",
+        "options": [
+          "1st",
+          "80th",
+          "120th",
+          "176th"
         ],
         "correctAnswer": 3,
-        "explanation": "Mauritius was the first country to adopt the scheme."
+        "explanation": "India was ranked 176th out of 180."
       },
       {
-        "text": "Who is the author of the autobiography titled \"Diyasalai\"?",
+        "text": "The LiFE (Lifestyle for Environment) Initiative was introduced at which major international conference?",
         "options": [
-          "Kailash Satyarthi",
-          "Arun Shourie",
-          "Deepa Malik",
-          "Amitabh Kant"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Kailash Satyarthi authored \"Diyasalai.\""
-      },
-      {
-        "text": "The book \"Why Bharat Matters\" is authored by whom?",
-        "options": [
-          "P. Chidambaram",
-          "S. Jaishankar",
-          "Nirmala Sitharaman",
-          "Amit Shah"
+          "COP21 in Paris",
+          "COP26 in Glasgow",
+          "COP27 in Sharm El Sheikh",
+          "COP28 in Dubai"
         ],
         "correctAnswer": 1,
-        "explanation": "S. Jaishankar wrote \"Why Bharat Matters.\""
+        "explanation": "LiFE was introduced at COP26, Glasgow."
       },
       {
-        "text": "Who wrote the book \"How India Scaled Mt G20: The Inside Story of the G20 Presidency\"?",
+        "text": "India’s first underwater museum and artificial coral reef is located in which district of Maharashtra?",
         "options": [
-          "Shashi Tharoor",
-          "Amitabh Kant",
-          "Arvind Subramanian",
-          "Raghuram Rajan"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Amitabh Kant is the author."
-      },
-      {
-        "text": "\"I Am Gopichand\" is a book by which author?",
-        "options": [
-          "Pullela Gopichand",
-          "P Hinduja",
-          "Sachin Tendulkar",
-          "Sania Mirza"
-        ],
-        "correctAnswer": 1,
-        "explanation": "P Hinduja authored \"I Am Gopichand.\""
-      },
-      {
-        "text": "Which book among the following is authored by Salman Rushdie?",
-        "options": [
-          "The World After Gaza",
-          "Knife",
-          "My Beloved Life",
-          "Orbital"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Salman Rushdie wrote \"Knife.\""
-      },
-      {
-        "text": "Who is the author of \"Janta ki Kahani\"?",
-        "options": [
-          "Shri Bandaru Dattatreya",
-          "Ram Nath Kovind",
-          "Venkaiah Naidu",
-          "Om Birla"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Shri Bandaru Dattatreya authored \"Janta ki Kahani.\""
-      },
-      {
-        "text": "The book \"Ramanujan: Journey of a Great Mathematician\" is co-authored by Arun Singhal and whom?",
-        "options": [
-          "C. N. R. Rao",
-          "Devendra Kumar Sharma",
-          "V. Srinivas",
-          "P. C. Mahalanobis"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Devendra Kumar Sharma co-authored the book."
-      },
-      {
-        "text": "Which book is attributed to K. Arumugam?",
-        "options": [
-          "Life on Mars",
-          "March of Glory",
-          "PMO: Prime Minister’s Office",
-          "The Kashmir Shawl"
-        ],
-        "correctAnswer": 1,
-        "explanation": "K. Arumugam authored \"March of Glory.\""
-      },
-      {
-        "text": "The book \"Indian Renaissance: The Modi Decade\" is written by whom?",
-        "options": [
-          "Aishwarya Pandit",
-          "S. Jaishankar",
-          "Sanjeev Chopra",
-          "Pankaj Mishra"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Aishwarya Pandit wrote this book."
-      },
-      {
-        "text": "Who authored the book \"Dalai Lama: Secret to Happiness\"?",
-        "options": [
-          "Dr. Dinesh Shahra",
-          "Amitava Kumar",
-          "Kuldeep Gupta",
-          "Bhim Singh"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Dr. Dinesh Shahra is the author."
-      },
-      {
-        "text": "\"Ed Finds a Home\" is a book by which well-known personality?",
-        "options": [
-          "Priyanka Chopra",
-          "Deepika Padukone",
-          "Alia Bhatt",
-          "Katrina Kaif"
+          "Mumbai",
+          "Ratnagiri",
+          "Sindhudurg",
+          "Raigad"
         ],
         "correctAnswer": 2,
-        "explanation": "Alia Bhatt authored \"Ed Finds a Home.\""
+        "explanation": "Sindhudurg is home to India's first underwater museum and artificial coral reef."
       },
       {
-        "text": "Who is the author of \"A Different Kind of Power\"?",
+        "text": "Which Indian city has been recognized by WHO as an Age-Friendly City, becoming the second city after Kochi to achieve this?",
         "options": [
-          "Angela Merkel",
-          "Jacinda Ardern",
-          "Hillary Clinton",
-          "Theresa May"
+          "Thiruvananthapuram",
+          "Kozhikode",
+          "Bengaluru",
+          "Chennai"
         ],
         "correctAnswer": 1,
-        "explanation": "Jacinda Ardern wrote \"A Different Kind of Power.\""
+        "explanation": "Kozhikode was declared an Age-Friendly City by WHO."
       },
       {
-        "text": "\"The Chief Minister and the Spy\" is a book written by whom?",
+        "text": "Varsha Deshpande, an advocate from Satara, Maharashtra, was awarded the 2025 UN Population Award for her advocacy in which area?",
         "options": [
-          "A. S. Dulat",
-          "R. N. Kao",
-          "Ajit Doval",
-          "Vikram Sood"
+          "Environmental sustainability",
+          "Gender equality and reproductive rights",
+          "Child labour eradication",
+          "Literacy promotion"
         ],
-        "correctAnswer": 0,
-        "explanation": "A. S. Dulat authored this book."
+        "correctAnswer": 1,
+        "explanation": "She is recognized for her work in gender equality and reproductive rights."
       },
       {
-        "text": "Who co-authored \"Jamsetji Tata\"?",
+        "text": "Which district in India has become the first to meet its entire power demand using solar energy?",
         "options": [
-          "R. Gopalakrishnan & Harish Bhatt",
-          "Nandan Nilekani & Rohini Nilekani",
-          "J. R. D. Tata & Ratan Tata",
-          "Azim Premji & Shiv Nadar"
+          "Leh",
+          "Diu",
+          "Kutch",
+          "Jaisalmer"
         ],
-        "correctAnswer": 0,
-        "explanation": "R. Gopalakrishnan and Harish Bhatt co-authored the book."
+        "correctAnswer": 1,
+        "explanation": "Diu is the first such district."
+      },
+      {
+        "text": "As per the provided data, which three states contribute to 71% of India's total solar installations?",
+        "options": [
+          "Madhya Pradesh, Uttar Pradesh, Odisha",
+          "Rajasthan, Gujarat, Tamil Nadu",
+          "Maharashtra, Karnataka, Andhra Pradesh",
+          "Punjab, Haryana, Himachal Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rajasthan, Gujarat, and Tamil Nadu account for 71% of solar installations."
+      },
+      {
+        "text": "Which is the first legislative assembly in India to run entirely on solar power?",
+        "options": [
+          "Gujarat Legislative Assembly",
+          "Rajasthan Legislative Assembly",
+          "Delhi Legislative Assembly",
+          "Karnataka Legislative Assembly"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Delhi Legislative Assembly is fully solar-powered."
+      },
+      {
+        "text": "India has a target to achieve Net Zero Emissions by which year?",
+        "options": [
+          "2030",
+          "2040",
+          "2050",
+          "2070"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Net zero emissions by 2070 is India's deadline."
+      },
+      {
+        "text": "The first Geothermal Project in Northeast India is located in which state?",
+        "options": [
+          "Assam",
+          "Sikkim",
+          "Arunachal Pradesh",
+          "Meghalaya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Arunachal Pradesh hosts the first such project."
+      },
+      {
+        "text": "Telangana became the first state to notify the categorization of Scheduled Castes (SCs) after a landmark Supreme Court judgment in which case?",
+        "options": [
+          "Kesavananda Bharati vs State of Kerala",
+          "Minerva Mills vs Union of India",
+          "State of Punjab vs Davinder Singh",
+          "S.R. Bommai vs Union of India"
+        ],
+        "correctAnswer": 2,
+        "explanation": "This was post the State of Punjab vs Davinder Singh verdict."
+      },
+      {
+        "text": "What is India's total installed power capacity as of June 2025?",
+        "options": [
+          "235.7 GW",
+          "350 GW",
+          "476 GW",
+          "500 GW"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It is 476 GW as of June 2025."
+      },
+      {
+        "text": "What is India's global ranking in terms of Renewable Energy installed capacity?",
+        "options": [
+          "2nd",
+          "3rd",
+          "4th",
+          "5th"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India ranks 4th globally in installed renewable energy."
+      },
+      {
+        "text": "Which non-fossil fuel source contributes the most to India's non-fossil capacity?",
+        "options": [
+          "Hydel",
+          "Wind",
+          "Solar",
+          "Nuclear"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Solar has the largest share among non-fossil fuels in India."
+      },
+      {
+        "text": "Which company developed the largest floating solar power plant in Omkareshwar, MP, as of January 2025?",
+        "options": [
+          "Adani Green Energy",
+          "ReNew Power",
+          "TATA Power",
+          "Azure Power"
+        ],
+        "correctAnswer": 2,
+        "explanation": "TATA Power built the floating solar plant."
+      },
+      {
+        "text": "India has a target to achieve how much nuclear capacity by 2047?",
+        "options": [
+          "8180 MW",
+          "20 GW",
+          "50 GW",
+          "100 GW"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The target by 2047 is 100 GW of nuclear capacity."
+      },
+      {
+        "text": "Which of the following nuclear power plants is located in Uttar Pradesh?",
+        "options": [
+          "Kaiga",
+          "Tarapur",
+          "Narora",
+          "Kakrapar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Narora Nuclear Power Plant is in Uttar Pradesh."
+      },
+      {
+        "text": "Which mountain in New Zealand has been granted legal human rights, considered an ancestor by the Maori people?",
+        "options": [
+          "Mount Cook",
+          "Mount Ruapehu",
+          "Mount Taranaki",
+          "Mount Tongariro"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mount Taranaki holds this unique legal status."
+      },
+      {
+        "text": "Which airport is recognized as India's first zero waste airport?",
+        "options": [
+          "Indira Gandhi International Airport, Delhi",
+          "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+          "Ahilyabai Holkar Airport, Indore",
+          "Kempegowda International Airport, Bengaluru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Indore's airport is India's first zero waste airport."
+      },
+      {
+        "text": "\"La Prensa\" was awarded the UNESCO World Press Freedom Prize 2025 for being Nicaragua's oldest newspaper and raising voices against wrong.",
+        "options": [
+          "La Nacion",
+          "El Heraldo",
+          "La Prensa",
+          "El Nuevo Diario"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"La Prensa\" is the correct answer."
+      },
+      {
+        "text": "What is the primary objective of \"Mission Mausam,\" a ₹2000 crore scheme by the Ministry of Earth Science?",
+        "options": [
+          "Enhance India's space exploration capabilities",
+          "Improve India's weather and forecasting by 2026",
+          "Promote sustainable agriculture practices",
+          "Develop new oceanographic research vessels"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mission Mausam's primary goal is to improve weather forecasting by 2026."
       }
     ]
 
@@ -617,23 +679,26 @@
       questions.forEach((question, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
-        questionDiv.innerHTML = `<p><strong>${index + 1}. ${question.text}</strong></p>`;
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
 
         question.options.forEach((option, optIndex) => {
           const label = document.createElement('label');
-          label.className = 'option btn btn-outline-secondary d-block text-start';
+          label.className = 'option';
           label.innerHTML = `
-                        <input type="radio" name="q${index}" value="${optIndex}" class="me-2">
-                        ${option}
-                    `;
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
           questionDiv.appendChild(label);
         });
 
         const explanationDiv = document.createElement('div');
-        explanationDiv.className = 'explanation mt-2 container';
+        explanationDiv.className = 'explanation';
         explanationDiv.id = `explanation${index}`;
         explanationDiv.style.display = 'none';
-        explanationDiv.innerHTML = `<p><strong>Explanation: </strong>${question.explanation}</p>`;
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
         questionDiv.appendChild(explanationDiv);
 
         quizContainer.appendChild(questionDiv);
@@ -643,24 +708,24 @@
     function submitQuiz() {
       const quizContainer = document.getElementById('quiz-container');
       const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
       let answered = new Array(questions.length).fill(false);
       score = 0;
 
-      // Reset any previous coloring
+      // Reset previous feedback styles
       inputs.forEach(input => {
         input.parentElement.classList.remove('correct', 'incorrect');
       });
 
-      // Iterate over each question
+      // Check answers and calculate score
       questions.forEach((question, index) => {
         const selected = document.querySelector(`input[name="q${index}"]:checked`);
         const options = document.querySelectorAll(`input[name="q${index}"]`);
 
-        // Check if the question was answered
         if (selected) {
           const selectedValue = parseInt(selected.value);
+          answered[index] = true;
 
-          // If answer is correct, add score, else deduct points
           if (selectedValue === question.correctAnswer) {
             score += 1;
             selected.parentElement.classList.add('correct');
@@ -668,27 +733,27 @@
             score -= 0.34;
             selected.parentElement.classList.add('incorrect');
           }
-
-          answered[index] = true;
         }
 
-        // Mark correct answer if question was not answered or answered incorrectly
-        if (!answered[index] || selected.value != question.correctAnswer) {
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
           options[question.correctAnswer].parentElement.classList.add('correct');
         }
 
-        // Show explanation for each question
+        // Show explanation
         document.getElementById(`explanation${index}`).style.display = 'block';
       });
 
-      // Display the result
-      document.getElementById('result').innerHTML = `<h5>Your Score: ${score}</h5>`;
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
     }
 
-    // Load the quiz on page load
+    // Load quiz questions when page loads
     window.onload = loadQuiz;
   </script>
-
 </body>
 
 </html>

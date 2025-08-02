@@ -2,608 +2,670 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MCQ Quiz - Lecture 8 </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MCQ Quiz - Lecture 7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    .question {
-      margin-bottom: 20px;
+    body {
+      background-color: #f8f9fa;
     }
 
-    .option {
-      cursor: pointer;
-      padding: 10px;
-    }
-
-    .correct {
-      background-color: #d4edda !important;
-      color: green;
-    }
-
-    .incorrect {
-      background-color: #f8d7da !important;
-      color: red;
-    }
-
-    .explanation {
-      color: blue;
-    }
-
-    .center-div {
+    .container.center-div {
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
     }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 
 <body>
-
   <div class="container center-div">
-    <div class="col-lg-8 col-md-10 col-sm-12 p-5 border rounded shadow-lg">
-      <h3 class="text-center mb-4">Lecutre 8</h3>
+    <div class="quiz-box">
+      <h3 class="text-center">Lecture 7</h3>
       <div id="quiz-container">
-        <!-- Questions will be inserted here by JavaScript -->
+        <!-- Questions will be inserted here -->
       </div>
-
-      <button class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
-      <div id="result" class="mt-4"></div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
     </div>
   </div>
 
   <script>
-    // Quiz questions
+    // Quiz questions array
     const questions = [{
-        "text": "The National Maritime Heritage Complex (NMHC) is being developed by which Ministry?",
+        "text": "Operation Yuttha Bodin, a major land and air offensive, was launched by the army of which country?",
         "options": [
-          "Ministry of Culture",
-          "Ministry of Tourism",
-          "Ministry of Ports, Shipping and Waterways",
-          "Ministry of External Affairs"
+          "India",
+          "Cambodia",
+          "Thailand",
+          "Vietnam"
         ],
         "correctAnswer": 2,
-        "explanation": "The NMHC is being developed by the Ministry of Ports, Shipping and Waterways at Lothal, Gujarat."
+        "explanation": "Operation Yuttha Bodin was launched by the Thai army."
       },
       {
-        "text": "Lothal, the site of the National Maritime Heritage Complex, dates back to approximately what period?",
+        "text": "Yashoda AI, India's first Artificial Intelligence literacy campaign for rural women, was launched by which organisation?",
         "options": [
-          "1500 BCE",
-          "2000 BCE",
-          "2600 BCE",
-          "3000 BCE"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Lothal flourished as an Indus Valley site around 2600 BCE."
-      },
-      {
-        "text": "Who is credited with the discovery of the oldest known manmade dockyard at Lothal?",
-        "options": [
-          "J. P. Joshi",
-          "S. R. Rao",
-          "John Marshall",
-          "R. D. Banerji"
+          "NITI Aayog",
+          "National Commission for Women (NCW)",
+          "Ministry of Women and Child Development",
+          "Indian Council of Agricultural Research (ICAR)"
         ],
         "correctAnswer": 1,
-        "explanation": "S. R. Rao discovered Lothal in 1954, revealing the world's earliest known dockyard."
+        "explanation": "NCW launched the Yashoda AI campaign for rural women."
       },
       {
-        "text": "Dholavira, known for its unique water harvesting system, is located in which region?",
+        "text": "What is the primary objective of the Yashoda AI initiative?",
         "options": [
-          "Saurashtra",
-          "Kutch",
-          "Malwa",
-          "Konkan"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Dholavira is located on Khadir Bet island in the Kutch region of Gujarat."
-      },
-      {
-        "text": "Which of the following describes Dholavira's status among UNESCO World Heritage Sites?",
-        "options": [
-          "39th UNESCO World Heritage Site",
-          "40th UNESCO World Heritage Site",
-          "41st UNESCO World Heritage Site",
-          "42nd UNESCO World Heritage Site"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Dholavira was inscribed as India's 40th UNESCO World Heritage Site."
-      },
-      {
-        "text": "The Maratha Military Landscapes of India, designated as India's 44th World Heritage Site, are spread across which states?",
-        "options": [
-          "Maharashtra and Karnataka",
-          "Maharashtra and Madhya Pradesh",
-          "Maharashtra and Goa",
-          "Maharashtra and Tamil Nadu"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Maratha Military Landscapes are spread across Maharashtra and Tamil Nadu (Gingee Fort)."
-      },
-      {
-        "text": "Which of the following forts is part of the Maratha Military Landscapes of India and is located in Tamil Nadu?",
-        "options": [
-          "Salher",
-          "Shivneri",
-          "Gingee Fort",
-          "Vijaydurg"
+          "To provide financial literacy to rural women.",
+          "To promote digital health services in rural areas.",
+          "To democratise AI education for women, especially in rural areas.",
+          "To develop AI-powered tools for agricultural productivity."
         ],
         "correctAnswer": 2,
-        "explanation": "Gingee Fort is the Maratha fort located in Tamil Nadu."
+        "explanation": "The aim is to democratise and expand AI education for rural women."
       },
       {
-        "text": "World Heritage Day is observed annually on what date?",
+        "text": "Sagarmala Finance Corporation Ltd. (SMFCL) is India's first Non-Banking Financial Company (NBFC) dedicated to which sector?",
         "options": [
-          "22nd April",
-          "18th April",
-          "5th June",
-          "10th December"
-        ],
-        "correctAnswer": 1,
-        "explanation": "World Heritage Day is celebrated worldwide on 18th April annually."
-      },
-      {
-        "text": "What is the theme for World Heritage Day 2025?",
-        "options": [
-          "Sustainable Heritage for Future Generations",
-          "Heritage and Climate Change: A Global Challenge",
-          "Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions",
-          "Preserving Our Shared Cultural Heritage"
+          "Agriculture Sector",
+          "Renewable Energy Sector",
+          "Maritime Sector",
+          "Micro, Small, and Medium Enterprises (MSME) Sector"
         ],
         "correctAnswer": 2,
-        "explanation": "The 2025 theme is 'Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions.'"
+        "explanation": "SMFCL is dedicated to the Maritime Sector."
       },
       {
-        "text": "In which year was the World Heritage Convention adopted by UNESCO?",
+        "text": "Who inaugurated the Sagarmala Finance Corporation Ltd. (SMFCL)?",
         "options": [
-          "1968",
-          "1970",
-          "1972",
-          "1975"
+          "The Prime Minister of India",
+          "The Minister of Finance",
+          "The Union Minister for Ports, Shipping and Waterways",
+          "The Governor of the Reserve Bank of India"
         ],
         "correctAnswer": 2,
-        "explanation": "The World Heritage Convention was adopted by UNESCO in 1972."
+        "explanation": "The Union Minister for Ports, Shipping and Waterways inaugurated SMFCL."
       },
       {
-        "text": "What is India's global ranking for the number of World Heritage Sites?",
+        "text": "According to a Supreme Court judgement, digital access to e-governance and welfare delivery systems is now considered part of which fundamental right under Article 21?",
         "options": [
-          "4th",
-          "5th",
-          "6th",
-          "7th"
+          "Right to Education",
+          "Right to Freedom of Speech and Expression",
+          "Right to Life and Liberty",
+          "Right to Constitutional Remedies"
         ],
         "correctAnswer": 2,
-        "explanation": "India ranks 6th globally in the number of World Heritage Sites."
+        "explanation": "Digital access is now part of the Right to Life and Liberty (Article 21)."
       },
       {
-        "text": "How many nations have ratified the World Heritage Convention, 1972?",
+        "text": "Which of the following cases were involved in the Supreme Court's judgement declaring digital access as a part of Article 21?\n    1. Pragya Prasun v. Union of India\n    2. Amnar Jain v. Union of India\n    3. Maneka Gandhi v. Union of India Select the correct option:",
         "options": [
-          "180",
-          "190",
-          "196",
-          "200"
-        ],
-        "correctAnswer": 2,
-        "explanation": "As of now, 196 nations have ratified the convention."
-      },
-      {
-        "text": "Which site was inscribed as India's 43rd World Heritage Site?",
-        "options": [
-          "Great Living Chola Temples",
-          "Group of Monuments at Hampi",
-          "Moidams of Charaideo, Assam",
-          "Kakatiya Rudreshwara (Ramappa) Temple"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Moidams of Charaideo, Assam, was inscribed as the 43rd site."
-      },
-      {
-        "text": "Which of the following was among the first sites from India inscribed in the World Heritage List in 1983?",
-        "options": [
-          "Qutb Minar",
-          "Humayun's Tomb",
-          "Ajanta Caves",
-          "Red Fort Complex"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Ajanta Caves were among the first Indian sites inscribed in 1983."
-      },
-      {
-        "text": "How many sites are currently on India's Tentative List for World Heritage status?",
-        "options": [
-          "50",
-          "55",
-          "60",
-          "62"
-        ],
-        "correctAnswer": 3,
-        "explanation": "India currently has 62 sites on its Tentative List."
-      },
-      {
-        "text": "Where was the 46th World Heritage Committee Meeting held?",
-        "options": [
-          "Paris, France",
-          "Delhi, India",
-          "Beijing, China",
-          "Rome, Italy"
-        ],
-        "correctAnswer": 1,
-        "explanation": "The 46th meeting was held in Delhi, India."
-      },
-      {
-        "text": "Who is the current Director-General of UNESCO?",
-        "options": [
-          "Antonio Guterres",
-          "Tedros Adhanom Ghebreyesus",
-          "Audrey Azoulay",
-          "Kristalina Georgieva"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Audrey Azoulay is the current Director-General of UNESCO."
-      },
-      {
-        "text": "Who was appointed as the 10th President of the International Olympic Committee (IOC)?",
-        "options": [
-          "Thomas Bach",
-          "Kirsty Coventry",
-          "Gianni Infantino",
-          "Sepp Blatter"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Kirsty Coventry was appointed as the 10th IOC President."
-      },
-      {
-        "text": "Kirsty Coventry is the first female and first African to hold the post of IOC President. In which sport is she a two-time Olympic gold medallist?",
-        "options": [
-          "Athletics",
-          "Gymnastics",
-          "Swimming",
-          "Rowing"
-        ],
-        "correctAnswer": 2,
-        "explanation": "She is a two-time Olympic gold medallist in swimming."
-      },
-      {
-        "text": "Who is the current Chairman of the Indian Olympic Association?",
-        "options": [
-          "Anurag Thakur",
-          "Narinder Batra",
-          "PT Usha",
-          "Abhinav Bindra"
-        ],
-        "correctAnswer": 2,
-        "explanation": "PT Usha is the current Chairman of the Indian Olympic Association."
-      },
-      {
-        "text": "Who currently holds the position of ICC Chairman?",
-        "options": [
-          "Greg Barclay",
-          "Sourav Ganguly",
-          "Jay Shah",
-          "Geoff Allardice"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Jay Shah is the current ICC Chairman."
-      },
-      {
-        "text": "The 2026 Winter Olympics are scheduled to be held in which city?",
-        "options": [
-          "Beijing, China",
-          "Vancouver, Canada",
-          "Milan-Cortina, Italy",
-          "Pyeongchang, South Korea"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 2026 Winter Olympics will be held in Milan-Cortina, Italy."
-      },
-      {
-        "text": "Who was elected as the President of the 80th UN General Assembly session?",
-        "options": [
-          "Annalena Baerbock",
-          "António Guterres",
-          "Volkan Bozkir",
-          "Abdullah Shahid"
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
         ],
         "correctAnswer": 0,
-        "explanation": "Annalena Baerbock was elected President of the 80th UNGA session."
+        "explanation": "The cases were Pragya Prasun v. Union of India and Amnar Jain v. Union of India."
       },
       {
-        "text": "Shaikha Al-Nowais has been appointed as the Secretary-General of which international organization?",
+        "text": "The judgement stating 'Right to digital access is the part of Article 21' specifically involved an issue related to KYC verification requiring what?",
         "options": [
-          "UN Children's Fund (UNICEF)",
-          "UN World Tourism Organization (UNWTO)",
-          "World Health Organization (WHO)",
-          "International Monetary Fund (IMF)"
+          "Biometric authentication",
+          "Visual signature",
+          "Aadhaar card details",
+          "Proof of address"
         ],
         "correctAnswer": 1,
-        "explanation": "Shaikha Al-Nowais is Secretary-General of the UNWTO."
+        "explanation": "The issue involved KYC verification requiring a visual signature."
       },
       {
-        "text": "Shaikha Al-Nowais is the first woman globally and the first from which country to hold the post of UNWTO Secretary-General?",
+        "text": "In which landmark case was the scope of Article 21 expanded to include 'Due process of law' and the interpretation that 'Right to life = Right to a dignified life'?",
         "options": [
-          "Qatar",
-          "Saudi Arabia",
-          "United Arab Emirates",
-          "Bahrain"
+          "K.S. Puttaswamy v. Union of India",
+          "Pragya Prasun v. Union of India",
+          "Maneka Gandhi v. Union of India",
+          "Amnar Jain v. Union of India"
         ],
         "correctAnswer": 2,
-        "explanation": "She is the first woman and the first from UAE to hold this post."
+        "explanation": "Maneka Gandhi v. Union of India expanded Article 21."
       },
       {
-        "text": "Dhudmaras, a village selected by the UNWTO for its Best Tourism Village Upgrade programme, is situated in which state of India?",
+        "text": "The K.S. Puttaswamy v. Union of India (2017) judgement declared which of the following as a Fundamental Right under Article 21?",
         "options": [
-          "Odisha",
+          "Right to Information",
+          "Right to Privacy",
+          "Right to Work",
+          "Right to Property"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The judgment declared Right to Privacy a Fundamental Right."
+      },
+      {
+        "text": "Which country's constitution is associated with the concept of 'Procedure Established by Law' according to the provided information?",
+        "options": [
+          "USA",
+          "Japan",
+          "India",
+          "UK"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Japanese constitution is associated with 'Procedure Established by Law'."
+      },
+      {
+        "text": "The concept of 'Due process of law' finds its constitutional reference in which country's constitution?",
+        "options": [
+          "India",
+          "Japan",
+          "USA",
+          "UK"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Due process of law is associated with the USA constitution."
+      },
+      {
+        "text": "Axiom Mission 4 is operated by Axiom Space, a private US company. It collaborates with which of the following agencies/organisations?\n    1. NASA\n    2. SpaceX\n    3. ISRO Select the correct code:",
+        "options": [
+          "1 and 2 only",
+          "2 and 3 only",
+          "1 and 3 only",
+          "1, 2 and 3"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Axiom Mission 4 collaborates with NASA, SpaceX, and ISRO."
+      },
+      {
+        "text": "Who is the first Indian to go to the International Space Station (ISS) as part of Axiom Mission 4?",
+        "options": [
+          "Rakesh Sharma",
+          "Shubhanshu Shukla",
+          "V. Narayanan",
+          "Oleg Kononenko"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Shubhanshu Shukla is the first Indian to visit the ISS on Axiom Mission 4."
+      },
+      {
+        "text": "Who was the first Indian to go into space, preceding Shubhanshu Shukla?",
+        "options": [
+          "Kalpana Chawla",
+          "Sunita Williams",
+          "Rakesh Sharma",
+          "Ravish Malhotra"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rakesh Sharma was the first Indian in space."
+      },
+      {
+        "text": "The crew members for Axiom Mission 4 mentioned in the notes include astronauts from which countries?",
+        "options": [
+          "USA, Poland, Hungary",
+          "USA, Russia, Poland",
+          "USA, Hungary, France",
+          "USA, Poland, Germany"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Crew includes astronauts from the USA, Poland, and Hungary."
+      },
+      {
+        "text": "What is ISRO's target year for the first crewed Gaganyaan Mission?",
+        "options": [
+          "2025",
+          "2027",
+          "2030",
+          "2035"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The target is for Gaganyaan's first crewed mission by 2027."
+      },
+      {
+        "text": "By which year does ISRO aim to establish the Bhartiya Antariksha Station?",
+        "options": [
+          "2030",
+          "2035",
+          "2040",
+          "2050"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ISRO aims for the Indian Space Station by 2035."
+      },
+      {
+        "text": "What is ISRO's target year for its Moon Mission?",
+        "options": [
+          "2030",
+          "2035",
+          "2040",
+          "2045"
+        ],
+        "correctAnswer": 2,
+        "explanation": "ISRO aims for a lunar mission by 2040."
+      },
+      {
+        "text": "Who is currently the Chairman of ISRO, as per the provided information?",
+        "options": [
+          "S. Somanath",
+          "K. Sivan",
+          "V. Narayanan",
+          "A.S. Kiran Kumar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "V. Narayanan is currently ISRO Chairman."
+      },
+      {
+        "text": "India exported its first ready-to-drink GI-tagged fig juice to which country?",
+        "options": [
+          "Germany",
+          "France",
+          "Poland",
+          "United Kingdom"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The first GI fig juice was exported to Poland."
+      },
+      {
+        "text": "Purandar Figs, used for the GI-tagged fig juice, are primarily grown in which region of India?",
+        "options": [
+          "Nashik district, Maharashtra",
+          "Pune district, Maharashtra",
+          "Mysuru district, Karnataka",
+          "Chittoor district, Andhra Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Purandar Figs are grown in Pune district, Maharashtra."
+      },
+      {
+        "text": "What is the validity period for a Geographical Indication (GI) tag?",
+        "options": [
+          "5 years",
+          "10 years",
+          "15 years",
+          "20 years"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A GI tag is valid for 10 years."
+      },
+      {
+        "text": "Which was the first product in India to receive a GI tag?",
+        "options": [
+          "Basmati Rice",
+          "Mysore Silk",
+          "Darjeeling Tea",
+          "Kanchipuram Silk"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Darjeeling Tea was the first GI-tagged product in India."
+      },
+      {
+        "text": "By 2030, what is the target number of GI products for India?",
+        "options": [
+          "5,000",
+          "7,500",
+          "10,000",
+          "12,000"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India targets 10,000 GI products by 2030."
+      },
+      {
+        "text": "Which Indian state has the maximum number of GI tags, followed by Tamil Nadu?",
+        "options": [
+          "Karnataka",
+          "Kerala",
+          "Uttar Pradesh",
+          "Maharashtra"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Uttar Pradesh has the most GI tags among Indian states."
+      },
+      {
+        "text": "Oleg Kononenko, who set a new world record for cumulative time spent in space (1,000 days), is a cosmonaut from which country?",
+        "options": [
+          "USA",
+          "Russia",
+          "China",
+          "Germany"
+        ],
+        "correctAnswer": 1,
+        "explanation": "He is a Russian cosmonaut."
+      },
+      {
+        "text": "The NASA mission 'Europa Clipper' has the objective to study which celestial body?",
+        "options": [
+          "Mars",
+          "Jupiter’s moon Europa",
+          "Saturn’s moon Titan",
+          "The Sun"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Europa Clipper will study Jupiter’s moon Europa."
+      },
+      {
+        "text": "The Khelo India University Games 2025 are scheduled to be held in which Indian state?",
+        "options": [
+          "Bihar",
+          "Rajasthan",
           "Madhya Pradesh",
-          "Chhattisgarh",
-          "Jharkhand"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Dhudmaras is located in Chhattisgarh."
-      },
-      {
-        "text": "Dhudmaras village is located in the heart of which National Park?",
-        "options": [
-          "Indravati National Park",
-          "Guru Ghasidas National Park",
-          "Kanger Valley National Park",
-          "Sanjay National Park"
-        ],
-        "correctAnswer": 2,
-        "explanation": "It lies within the Kanger Valley National Park."
-      },
-      {
-        "text": "Who was appointed as the 7th Secretary-General of the Commonwealth?",
-        "options": [
-          "Patricia Scotland",
-          "Kamalesh Sharma",
-          "Shirley Ayorkor Botchwey",
-          "Emeka Anyaoku"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Shirley Ayorkor Botchwey is the 7th Secretary-General."
-      },
-      {
-        "text": "Which two countries were the last to join the Commonwealth in 2022?",
-        "options": [
-          "Rwanda and Mozambique",
-          "Gambia and Maldives",
-          "Gabon and Togo",
-          "Samoa and Vanuatu"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Gabon and Togo joined the Commonwealth in 2022."
-      },
-      {
-        "text": "Which is the smallest member country of the Commonwealth of Nations by area/population?",
-        "options": [
-          "Tuvalu",
-          "Nauru",
-          "San Marino",
-          "Monaco"
+          "Uttar Pradesh"
         ],
         "correctAnswer": 1,
-        "explanation": "Nauru is the smallest member of the Commonwealth."
+        "explanation": "The Games are planned in Rajasthan."
       },
       {
-        "text": "India secured the historic mandate for the Presidency of the International Institute of Administrative Sciences (IIAS) for which period?",
+        "text": "Who is the current Chairman of the State Bank of India (SBI) and also elected as Chairman of the Indian Bank Association?",
         "options": [
-          "2024-2027",
-          "2025-2028",
-          "2026-2029",
-          "2027-2030"
+          "Tuhin Kant Pandey",
+          "Challa Sreenivasulu Shetty",
+          "Ashish Khanna",
+          "Rajiv Memani"
         ],
         "correctAnswer": 1,
-        "explanation": "India was elected IIAS President for 2025-2028."
+        "explanation": "Challa Sreenivasulu Shetty is the current SBI Chairman."
       },
       {
-        "text": "The election to the post of IIAS President was held by ballot process for the first time in how many years of the institution's history?",
+        "text": "Tuhin Kant Pandey is the new Chairman of which regulatory body?",
         "options": [
-          "50 years",
-          "75 years",
-          "100 years",
-          "125 years"
+          "Reserve Bank of India (RBI)",
+          "Securities and Exchange Board of India (SEBI)",
+          "Insurance Regulatory and Development Authority of India (IRDAI)",
+          "Pension Fund Regulatory and Development Authority (PFRDA)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "He is the new Chairman of SEBI."
+      },
+      {
+        "text": "Who is the Director General of the International Solar Alliance (ISA)?",
+        "options": [
+          "S Mahendra Dev",
+          "Dr Ajay Kumar",
+          "Ashish Khanna",
+          "Alok Joshi"
         ],
         "correctAnswer": 2,
-        "explanation": "The ballot election was a first in 100 years of IIAS history."
+        "explanation": "Ashish Khanna is the present Director General of ISA."
       },
       {
-        "text": "As per the UK-Mauritius treaty concerning the Chagos Islands, what is the annual payment by the UK to Mauritius?",
+        "text": "Nikita Porwal, who won Femina Miss India 2024, hails from which Indian state?",
         "options": [
-          "$100 million",
-          "$120 million",
-          "$136 million",
-          "$150 million"
+          "Uttar Pradesh",
+          "Rajasthan",
+          "Madhya Pradesh",
+          "Maharashtra"
         ],
         "correctAnswer": 2,
-        "explanation": "The UK pays Mauritius $136 million annually under the treaty."
+        "explanation": "Nikita Porwal is from Madhya Pradesh."
       },
       {
-        "text": "The UK will lease the Chagos Islands from Mauritius for how many years as per the treaty?",
+        "text": "Victoria Kjær Theilvig, Miss Universe 2024, represents which country?",
         "options": [
-          "50 years",
-          "75 years",
-          "99 years",
-          "100 years"
+          "Sweden",
+          "Denmark",
+          "Norway",
+          "Finland"
+        ],
+        "correctAnswer": 1,
+        "explanation": "She is from Denmark."
+      },
+      {
+        "text": "The Securities and Exchange Board of India (SEBI) is a statutory body established in which year?",
+        "options": [
+          "1988",
+          "1992",
+          "1995",
+          "2002"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SEBI was established as a statutory body in 1992."
+      },
+      {
+        "text": "When was the International Solar Alliance (ISA) launched?",
+        "options": [
+          "2010 at COP15",
+          "2012 at COP18",
+          "2015 at COP21",
+          "2018 at COP24"
         ],
         "correctAnswer": 2,
-        "explanation": "Lease duration for Chagos Islands is 99 years."
+        "explanation": "ISA was launched at COP21 in 2015."
       },
       {
-        "text": "The US Military Base is located on which island within the Chagos Archipelago?",
+        "text": "Which country became the 123rd member to join the International Solar Alliance (ISA)?",
         "options": [
-          "Peros Banhos",
-          "Salomon Islands",
-          "Diego Garcia",
-          "Great Chagos Bank"
+          "Brazil",
+          "Australia",
+          "Angola",
+          "Egypt"
         ],
         "correctAnswer": 2,
-        "explanation": "Diego Garcia hosts the US military base."
+        "explanation": "Angola became the 123rd ISA member."
       },
       {
-        "text": "Which country is noted as the first to adopt India's Jan Aushadhi Scheme?",
+        "text": "India’s first World Peace Centre has been inaugurated at Gurugram. It was established by which organisation?",
         "options": [
-          "Sri Lanka",
-          "Bangladesh",
-          "Nepal",
-          "Mauritius"
+          "Art of Living Foundation",
+          "Brahma Kumaris",
+          "Ahimsa Vishwa Bharti",
+          "Ramakrishna Mission"
         ],
-        "correctAnswer": 3,
-        "explanation": "Mauritius was the first country to adopt the scheme."
+        "correctAnswer": 2,
+        "explanation": "Ahimsa Vishwa Bharti inaugurated the World Peace Centre."
       },
       {
-        "text": "Who is the author of the autobiography titled \"Diyasalai\"?",
+        "text": "IPS Parag Jain has been appointed as the new RAW Chief. He is known as the brain behind which operation?",
         "options": [
-          "Kailash Satyarthi",
-          "Arun Shourie",
-          "Deepa Malik",
-          "Amitabh Kant"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Kailash Satyarthi authored \"Diyasalai.\""
-      },
-      {
-        "text": "The book \"Why Bharat Matters\" is authored by whom?",
-        "options": [
-          "P. Chidambaram",
-          "S. Jaishankar",
-          "Nirmala Sitharaman",
-          "Amit Shah"
+          "Operation Vijay",
+          "Operation Sindoor",
+          "Operation Cactus",
+          "Operation Meghdoot"
         ],
         "correctAnswer": 1,
-        "explanation": "S. Jaishankar wrote \"Why Bharat Matters.\""
+        "explanation": "He is the master strategist of Operation Sindoor."
       },
       {
-        "text": "Who wrote the book \"How India Scaled Mt G20: The Inside Story of the G20 Presidency\"?",
-        "options": [
-          "Shashi Tharoor",
-          "Amitabh Kant",
-          "Arvind Subramanian",
-          "Raghuram Rajan"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Amitabh Kant is the author."
-      },
-      {
-        "text": "\"I Am Gopichand\" is a book by which author?",
-        "options": [
-          "Pullela Gopichand",
-          "P Hinduja",
-          "Sachin Tendulkar",
-          "Sania Mirza"
-        ],
-        "correctAnswer": 1,
-        "explanation": "P Hinduja authored \"I Am Gopichand.\""
-      },
-      {
-        "text": "Which book among the following is authored by Salman Rushdie?",
-        "options": [
-          "The World After Gaza",
-          "Knife",
-          "My Beloved Life",
-          "Orbital"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Salman Rushdie wrote \"Knife.\""
-      },
-      {
-        "text": "Who is the author of \"Janta ki Kahani\"?",
-        "options": [
-          "Shri Bandaru Dattatreya",
-          "Ram Nath Kovind",
-          "Venkaiah Naidu",
-          "Om Birla"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Shri Bandaru Dattatreya authored \"Janta ki Kahani.\""
-      },
-      {
-        "text": "The book \"Ramanujan: Journey of a Great Mathematician\" is co-authored by Arun Singhal and whom?",
-        "options": [
-          "C. N. R. Rao",
-          "Devendra Kumar Sharma",
-          "V. Srinivas",
-          "P. C. Mahalanobis"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Devendra Kumar Sharma co-authored the book."
-      },
-      {
-        "text": "Which book is attributed to K. Arumugam?",
-        "options": [
-          "Life on Mars",
-          "March of Glory",
-          "PMO: Prime Minister’s Office",
-          "The Kashmir Shawl"
-        ],
-        "correctAnswer": 1,
-        "explanation": "K. Arumugam authored \"March of Glory.\""
-      },
-      {
-        "text": "The book \"Indian Renaissance: The Modi Decade\" is written by whom?",
-        "options": [
-          "Aishwarya Pandit",
-          "S. Jaishankar",
-          "Sanjeev Chopra",
-          "Pankaj Mishra"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Aishwarya Pandit wrote this book."
-      },
-      {
-        "text": "Who authored the book \"Dalai Lama: Secret to Happiness\"?",
-        "options": [
-          "Dr. Dinesh Shahra",
-          "Amitava Kumar",
-          "Kuldeep Gupta",
-          "Bhim Singh"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Dr. Dinesh Shahra is the author."
-      },
-      {
-        "text": "\"Ed Finds a Home\" is a book by which well-known personality?",
+        "text": "Who among the following is the Brand Ambassador of Maldives Tourism?",
         "options": [
           "Priyanka Chopra",
           "Deepika Padukone",
-          "Alia Bhatt",
-          "Katrina Kaif"
+          "Katrina Kaif",
+          "Alia Bhatt"
         ],
         "correctAnswer": 2,
-        "explanation": "Alia Bhatt authored \"Ed Finds a Home.\""
+        "explanation": "Katrina Kaif is the brand ambassador for Maldives Tourism."
       },
       {
-        "text": "Who is the author of \"A Different Kind of Power\"?",
+        "text": "Which sportsperson is the Brand Ambassador for Audi?",
         "options": [
-          "Angela Merkel",
-          "Jacinda Ardern",
-          "Hillary Clinton",
-          "Theresa May"
+          "Virat Kohli",
+          "Rohit Sharma",
+          "Neeraj Chopra",
+          "P.V. Sindhu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Neeraj Chopra is the brand ambassador for Audi."
+      },
+      {
+        "text": "Who is the President of the Asian Development Bank (ADB)?",
+        "options": [
+          "Takehiko Nakao",
+          "Masatsugu Asakawa",
+          "Masato Kanda",
+          "Jin Liqun"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Masato Kanda is the current ADB President."
+      },
+      {
+        "text": "Which country is the newest member to join the Asian Development Bank (ADB)?",
+        "options": [
+          "Israel",
+          "Saudi Arabia",
+          "Turkey",
+          "South Korea"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Israel is the newest member of ADB."
+      },
+      {
+        "text": "Who is the current Prime Minister of Japan, as per the given information?",
+        "options": [
+          "Fumio Kishida",
+          "Shinzo Abe",
+          "Yoshihide Suga",
+          "Ishiba"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Ishiba is the current Prime Minister of Japan."
+      },
+      {
+        "text": "Prabowo Subianto, who was the Chief Guest at Republic Day 2025, is the President of which country?",
+        "options": [
+          "Malaysia",
+          "Singapore",
+          "Indonesia",
+          "Philippines"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Prabowo Subianto is the President of Indonesia."
+      },
+      {
+        "text": "Who has been appointed as the new Secretary General of NATO?",
+        "options": [
+          "Jens Stoltenberg",
+          "Mark Rutte",
+          "Emmanuel Macron",
+          "Ursula von der Leyen"
         ],
         "correctAnswer": 1,
-        "explanation": "Jacinda Ardern wrote \"A Different Kind of Power.\""
+        "explanation": "Mark Rutte is the new NATO Secretary General."
       },
       {
-        "text": "\"The Chief Minister and the Spy\" is a book written by whom?",
+        "text": "Which article of NATO's founding treaty pertains to Collective Defence?",
         "options": [
-          "A. S. Dulat",
-          "R. N. Kao",
-          "Ajit Doval",
-          "Vikram Sood"
+          "Article 3",
+          "Article 4",
+          "Article 5",
+          "Article 6"
         ],
-        "correctAnswer": 0,
-        "explanation": "A. S. Dulat authored this book."
+        "correctAnswer": 2,
+        "explanation": "Article 5 is the collective defence clause of NATO."
       },
       {
-        "text": "Who co-authored \"Jamsetji Tata\"?",
+        "text": "Shri Gyanesh Kumar has been appointed as the 26th Chief Election Commissioner (CEC) of India. What is the tenure for a Chief Election Commissioner?",
         "options": [
-          "R. Gopalakrishnan & Harish Bhatt",
-          "Nandan Nilekani & Rohini Nilekani",
-          "J. R. D. Tata & Ratan Tata",
-          "Azim Premji & Shiv Nadar"
+          "5 years or until 62 years of age",
+          "6 years or until 62 years of age",
+          "5 years or until 65 years of age",
+          "6 years or until 65 years of age"
         ],
-        "correctAnswer": 0,
-        "explanation": "R. Gopalakrishnan and Harish Bhatt co-authored the book."
+        "correctAnswer": 3,
+        "explanation": "Tenure is 6 years or until the age of 65."
+      },
+      {
+        "text": "Who is the new Chairman of the National Human Rights Commission (NHRC), as per the recent appointments?",
+        "options": [
+          "Madan B. Lokur",
+          "V. Ramasubramanian",
+          "Sanjay Malhotra",
+          "Shri Bhuvnesh Kumar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "V. Ramasubramanian is the new NHRC Chairman."
+      },
+      {
+        "text": "What is the constitutional article associated with the Comptroller and Auditor General (CAG) of India?",
+        "options": [
+          "Article 124",
+          "Article 148",
+          "Article 155",
+          "Article 167"
+        ],
+        "correctAnswer": 1,
+        "explanation": "CAG of India is constituted under Article 148."
       }
     ]
 
@@ -617,23 +679,26 @@
       questions.forEach((question, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
-        questionDiv.innerHTML = `<p><strong>${index + 1}. ${question.text}</strong></p>`;
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
 
         question.options.forEach((option, optIndex) => {
           const label = document.createElement('label');
-          label.className = 'option btn btn-outline-secondary d-block text-start';
+          label.className = 'option';
           label.innerHTML = `
-                        <input type="radio" name="q${index}" value="${optIndex}" class="me-2">
-                        ${option}
-                    `;
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
           questionDiv.appendChild(label);
         });
 
         const explanationDiv = document.createElement('div');
-        explanationDiv.className = 'explanation mt-2 container';
+        explanationDiv.className = 'explanation';
         explanationDiv.id = `explanation${index}`;
         explanationDiv.style.display = 'none';
-        explanationDiv.innerHTML = `<p><strong>Explanation: </strong>${question.explanation}</p>`;
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
         questionDiv.appendChild(explanationDiv);
 
         quizContainer.appendChild(questionDiv);
@@ -643,24 +708,24 @@
     function submitQuiz() {
       const quizContainer = document.getElementById('quiz-container');
       const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
       let answered = new Array(questions.length).fill(false);
       score = 0;
 
-      // Reset any previous coloring
+      // Reset previous feedback styles
       inputs.forEach(input => {
         input.parentElement.classList.remove('correct', 'incorrect');
       });
 
-      // Iterate over each question
+      // Check answers and calculate score
       questions.forEach((question, index) => {
         const selected = document.querySelector(`input[name="q${index}"]:checked`);
         const options = document.querySelectorAll(`input[name="q${index}"]`);
 
-        // Check if the question was answered
         if (selected) {
           const selectedValue = parseInt(selected.value);
+          answered[index] = true;
 
-          // If answer is correct, add score, else deduct points
           if (selectedValue === question.correctAnswer) {
             score += 1;
             selected.parentElement.classList.add('correct');
@@ -668,27 +733,27 @@
             score -= 0.34;
             selected.parentElement.classList.add('incorrect');
           }
-
-          answered[index] = true;
         }
 
-        // Mark correct answer if question was not answered or answered incorrectly
-        if (!answered[index] || selected.value != question.correctAnswer) {
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
           options[question.correctAnswer].parentElement.classList.add('correct');
         }
 
-        // Show explanation for each question
+        // Show explanation
         document.getElementById(`explanation${index}`).style.display = 'block';
       });
 
-      // Display the result
-      document.getElementById('result').innerHTML = `<h5>Your Score: ${score}</h5>`;
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
     }
 
-    // Load the quiz on page load
+    // Load quiz questions when page loads
     window.onload = loadQuiz;
   </script>
-
 </body>
 
 </html>
