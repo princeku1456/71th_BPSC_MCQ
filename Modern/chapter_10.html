@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>First Phase of Revolutionary Activities (1907-1917)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">First Phase of Revolutionary Activities (1907-1917)</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "What was a primary characteristic of the surge of revolutionary activities in India during the period 1907-1917?",
+        "options": [
+          "A strong focus on constitutional reforms.",
+          "An emphasis on non-violent civil disobedience.",
+          "A belief that the British must be expelled physically by force.",
+          "A programme to subvert the loyalties of the entire British Indian Army through mass action."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The revolutionaries believed that the British must be expelled by physical force, not just reforms or non-violence."
+      },
+      {
+        "text": "The revolutionary programme adopted by some Indian nationalists during this phase was inspired by the methods of which international groups?",
+        "options": [
+          "American colonists and French revolutionaries.",
+          "Russian nihilists and Irish nationalists.",
+          "Chinese communists and German socialists.",
+          "Italian unificationists and Japanese imperialists."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Russian nihilists and Irish nationalists' revolutionary methods inspired the Indian revolutionaries."
+      },
+      {
+        "text": "In which year were the first revolutionary groups in Bengal organised, notably in Midnapore by Jnanendranath Basu?",
+        "options": [
+          "1900",
+          "1902",
+          "1905",
+          "1907"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The first revolutionary groups in Bengal were organised in 1902."
+      },
+      {
+        "text": "Which weekly journal was started by the Anushilan Samiti in Bengal?",
+        "options": [
+          "Karma Yogin",
+          "Bande Mataram",
+          "Yugantar",
+          "Sandhya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Anushilan Samiti started the weekly journal Yugantar."
+      },
+      {
+        "text": "Who among the following were key figures in organising a secret society that covered areas of Punjab, Delhi, and United Provinces?",
+        "options": [
+          "Barindra Kumar Ghosh and Ullaskar Dutt",
+          "Pulin Das and Jatin Mukherjee",
+          "Rashbehari Bose and Sachin Sanyal",
+          "Ramprasad Bismil and Ashfaqullah Khan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rashbehari Bose and Sachin Sanyal organised secret societies covering Punjab, Delhi, and UP."
+      },
+      {
+        "text": "In 1908, Prafulla Chaki and Khudiram Bose threw a bomb at a carriage intending to target which British official?",
+        "options": [
+          "Viceroy Hardinge",
+          "Lieutenant-Governor Sri Andrew Fraser",
+          "Judge Kingsford",
+          "Curzon-Wyllie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They targeted Judge Kingsford in 1908."
+      },
+      {
+        "text": "The Alipore Conspiracy Case is also known by which other names?",
+        "options": [
+          "Delhi Conspiracy Trial or Lahore Conspiracy Case.",
+          "Manicktolla bomb conspiracy or Muraripukur conspiracy.",
+          "Kakori Robbery or Chittagong Armoury Raid.",
+          "Nasik Conspiracy or Poona Murder Case."
+        ],
+        "correctAnswer": 1,
+        "explanation": "It is also called the Manicktolla bomb conspiracy or Muraripukur conspiracy."
+      },
+      {
+        "text": "For what purpose was the Barrah dacoity organised by the Dacca Anushilan group under Pulin Das in 1908?",
+        "options": [
+          "To disrupt railway communications.",
+          "To assassinate British officials.",
+          "To raise funds for revolutionary activities.",
+          "To distribute revolutionary pamphlets."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Barrah dacoity was organised to raise funds for revolution."
+      },
+      {
+        "text": "Which Viceroy was the target of a spectacular bomb attack staged by Rashbehari Bose and Sachin Sanyal in Chandni Chowk?",
+        "options": [
+          "Lord Curzon",
+          "Lord Minto",
+          "Lord Hardinge",
+          "Lord Chelmsford"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Hardinge was attacked in Chandni Chowk."
+      },
+      {
+        "text": "The attempt by revolutionaries to bring about an all-India insurrection during the First World War came to be known as what?",
+        "options": [
+          "The Red Fort Conspiracy",
+          "The Great Indian Mutiny Plan",
+          "The German Plot or Zimmerman Plan",
+          "The Silk Letter Conspiracy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was called the German Plot or Zimmerman Plan."
+      },
+      {
+        "text": "Which revolutionary leader from Bengal was shot and died a hero's death in Balasore after the failure of the German plot?",
+        "options": [
+          "Barindra Kumar Ghosh",
+          "Jatin Mukherjee",
+          "Prafulla Chaki",
+          "Khudiram Bose"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jatin Mukherjee died in Balasore after the failed plot."
+      },
+      {
+        "text": "The newspapers and journals like Kal, Sandhya, and Yugantar were associated with which aspect of the revolutionary movement in Bengal?",
+        "options": [
+          "Promoting moderate nationalism.",
+          "Publishing government circulars.",
+          "Disseminating revolutionary ideology.",
+          "Advocating for economic reforms."
+        ],
+        "correctAnswer": 2,
+        "explanation": "These newspapers spread revolutionary ideology."
+      },
+      {
+        "text": "A stated drawback of the revolutionary activities in Bengal was their overemphasis on Hindu religion, which resulted in what?",
+        "options": [
+          "A strong alliance with the Moderate faction of the Congress.",
+          "The alienation of Christian missionaries.",
+          "Keeping the Muslims aloof from the movement.",
+          "Deterioration of relations with other regional revolutionary groups."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Muslims were largely kept aloof from the movement due to this overemphasis."
+      },
+      {
+        "text": "Who organised the Ramosi Peasant Force in Maharashtra in 1879?",
+        "options": [
+          "V.D. Savarkar",
+          "Bal Gangadhar Tilak",
+          "Vasudev Balwant Phadke",
+          "Damodar Chapekar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Vasudev Balwant Phadke organised the Ramosi Peasant Force."
+      },
+      {
+        "text": "The Chapekar brothers, Damodar and Balkrishna, were responsible for the murder of which British officials in Poona in 1897?",
+        "options": [
+          "Viceroy Hardinge and his secretary.",
+          "Plague Commissioner Rand and Lt. Ayerst.",
+          "Collector Jackson and his assistant.",
+          "Curzon-Wyllie and Dr. Lalkaka."
+        ],
+        "correctAnswer": 1,
+        "explanation": "They murdered Plague Commissioner Rand and Lt. Ayerst."
+      },
+      {
+        "text": "V.D. Savarkar and his brother organised which secret society that later merged with Abhinav Bharat?",
+        "options": [
+          "Anushilan Samiti",
+          "Mitra Mela",
+          "Hindustan Republican Association",
+          "Ghadar Party"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Savarkar brothers founded Mitra Mela, later merged with Abhinav Bharat."
+      },
+      {
+        "text": "Which publication was associated with Lala Lajpat Rai in Punjab, contributing to the fuelling of extremism there?",
+        "options": [
+          "Bharat Mata",
+          "The Indian Sociologist",
+          "Punjabee",
+          "The Ghadr"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The journal Punjabee was associated with Lala Lajpat Rai."
+      },
+      {
+        "text": "Who was Ajit Singh, a key figure in Punjab's extremist movement, related to?",
+        "options": [
+          "Bhagat Singh's uncle",
+          "Lala Hardayal's brother",
+          "Sachin Sanyal's cousin",
+          "Rashbehari Bose's mentor"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ajit Singh was Bhagat Singh's uncle."
+      },
+      {
+        "text": "Which prominent revolutionary leader from Punjab was involved as one of the leading figures of the Ghadr Revolution and later played an important part in the founding of the Indian National Army?",
+        "options": [
+          "Bhagat Singh",
+          "Sukhdev",
+          "Rashbehari Bose",
+          "Sardar Ajit Singh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rashbehari Bose was a key figure in both Ghadr Revolution and INA."
+      },
+      {
+        "text": "Who established the India House in London and published the journal The Indian Sociologist?",
+        "options": [
+          "Madam Bhikaji Cama",
+          "Madanlal Dhingra",
+          "Shyamji Krishnavarma",
+          "Lala Hardayal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Shyamji Krishnavarma founded India House and The Indian Sociologist in London."
+      },
+      {
+        "text": "What act of revolutionary violence was Madanlal Dhingra responsible for in 1909?",
+        "options": [
+          "Throwing a bomb in the Central Legislative Assembly.",
+          "Murdering the Plague Commissioner in Poona.",
+          "Assassinating the India Office bureaucrat Curzon-Wyllie.",
+          "Derailed a train carrying a British official."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dhingra assassinated Curzon-Wyllie in London in 1909."
+      },
+      {
+        "text": "Where was the headquarters of the Ghadr Party located?",
+        "options": [
+          "London",
+          "Paris",
+          "San Francisco",
+          "Tokyo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Ghadr Party headquarters were in San Francisco."
+      },
+      {
+        "text": "Which incident in 1914, involving a ship carrying Indian immigrants, encouraged the Ghadr Party's plans for a violent attack to oust British rule in India?",
+        "options": [
+          "The sinking of the Lusitania.",
+          "The Komagata Maru incident.",
+          "The Black Hole of Calcutta incident.",
+          "The Opium Wars."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Komagata Maru incident inspired the Ghadr Party."
+      },
+      {
+        "text": "The Ghadrites fixed which date for an armed revolt in Ferozepur, Lahore, and Rawalpindi garrisons?",
+        "options": [
+          "January 26, 1915",
+          "February 21, 1915",
+          "April 13, 1915",
+          "August 15, 1915"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The armed revolt was planned for February 21, 1915."
+      },
+      {
+        "text": "The suppression of the Ghadrite revolt was aided by which wartime legislation?",
+        "options": [
+          "The Rowlatt Act, 1919",
+          "The Defence of India Rules, 1915",
+          "The Vernacular Press Act, 1878",
+          "The Indian Councils Act, 1909"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Defence of India Rules, 1915, helped suppress the revolt."
+      },
+      {
+        "text": "Which of the following radical pan-Islamists were interned for years during the First World War?",
+        "options": [
+          "Bal Gangadhar Tilak and Annie Besant",
+          "Ali brothers, Maulana Azad, and Hasrat Mohani",
+          "Mahatma Gandhi and Jawaharlal Nehru",
+          "Bhagat Singh and Sukhdev"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ali brothers, Maulana Azad, and Hasrat Mohani were interned."
+      },
+      {
+        "text": "The Berlin Committee for Indian Independence, established in 1915, included which of these prominent figures?",
+        "options": [
+          "Dadabhai Naoroji and Surendranath Banerjea",
+          "Gopal Krishna Gokhale and Mahadeo Govind Ranade",
+          "Virendranath Chattopadhyay, Bhupendranath Dutta, and Lala Hardayal",
+          "Subhash Chandra Bose and Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The committee included Virendranath Chattopadhyay, Bhupendranath Dutta, and Lala Hardayal."
+      },
+      {
+        "text": "A notable mutiny occurred in Singapore on February 15, 1915, involving which military units?",
+        "options": [
+          "Royal Indian Navy ratings.",
+          "Punjabi Muslim 5th Light Infantry and the 36th Sikh battalion.",
+          "Gurkha regiments.",
+          "British Indian artillery divisions."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The mutiny involved the Punjabi Muslim 5th Light Infantry and 36th Sikh battalion."
+      },
+      {
+        "text": "What caused a temporary respite in revolutionary activity after 1917?",
+        "options": [
+          "The establishment of the Indian National Congress.",
+          "The immediate transfer of power to Indians.",
+          "Release of prisoners under Defence of India Rules and Montagu's August 1917 statement.",
+          "The complete suppression of all revolutionary groups."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Release of prisoners and Montagu's August 1917 statement caused a lull."
+      },
+      {
+        "text": "The revolutionary activities during this phase were characterised by their aim to:",
+        "options": [
+          "Achieve self-government through peaceful constitutional means.",
+          "Gain international diplomatic recognition for India's independence.",
+          "Strike terror in the hearts of the rulers and inspire patriotic youth.",
+          "Integrate all sections of Indian society into a single political party."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Their aim was to strike terror and inspire youth."
+      },
+      {
+        "text": "Which city was one of the early centres of bomb manufacture in Maharashtra?",
+        "options": [
+          "Bombay",
+          "Madras",
+          "Calcutta",
+          "Delhi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Bombay was an early bomb-making centre in Maharashtra."
+      },
+      {
+        "text": "The 'taxicab dacoities' and 'boat dacoities' were methods used by which revolutionary group in Bengal to raise funds?",
+        "options": [
+          "Anushilan Samiti",
+          "Jugantar party",
+          "Dacca Anushilan",
+          "Hindustan Republican Association"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jugantar party used these innovative fundraising methods."
+      },
+      {
+        "text": "Which leader of the Dacca Anushilan organised the Barrah dacoity for funding revolutionary activities?",
+        "options": [
+          "Barindra Kumar Ghosh",
+          "Jatin Mukherjee",
+          "Pulin Das",
+          "Sachin Sanyal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Barrah dacoity was organised by Pulin Das."
+      },
+      {
+        "text": "The Delhi Conspiracy trial resulted from the bomb attack on which British official?",
+        "options": [
+          "Plague Commissioner Rand",
+          "Judge Kingsford",
+          "Viceroy Hardinge",
+          "Curzon-Wyllie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The trial was for the bomb attack on Viceroy Hardinge."
+      },
+      {
+        "text": "The revolutionary groups in Bengal were first organised in 1902 in which district?",
+        "options": [
+          "Calcutta",
+          "Dacca",
+          "Midnapore",
+          "Muraripukur"
+        ],
+        "correctAnswer": 2,
+        "explanation": "First revolutionary groups in Bengal were formed in Midnapore."
+      },
+      {
+        "text": "Which international event in 1914, besides the Komagata Maru incident, encouraged the Ghadr party's plans?",
+        "options": [
+          "The Russian Revolution",
+          "The outbreak of the First World War",
+          "The American Civil War",
+          "The Chinese Revolution"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The outbreak of the First World War inspired Ghadr plans."
+      },
+      {
+        "text": "Who assassinated the India Office bureaucrat Curzon-Wyllie in London in 1909?",
+        "options": [
+          "Udham Singh",
+          "Sardar Ajit Singh",
+          "Madanlal Dhingra",
+          "V.D. Savarkar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Madanlal Dhingra assassinated Curzon-Wyllie in 1909."
+      },
+      {
+        "text": "The Anjuman-i-Mohisban-i-Watan in Lahore, with its journal Bharat Mata, was organised by whom?",
+        "options": [
+          "Lala Lajpat Rai",
+          "Ajit Singh",
+          "Bhagat Singh",
+          "Sohan Singh Bhakna"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ajit Singh organised Anjuman-i-Mohisban-i-Watan and Bharat Mata."
+      },
+      {
+        "text": "What was the original name of the secret society founded by V.D. Savarkar and his brother, which later merged with Abhinav Bharat?",
+        "options": [
+          "Abhinav Society",
+          "Hindu Mela",
+          "Mitra Mela",
+          "Swadesh Bandhab Samiti"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Their society was called Mitra Mela."
+      },
+      {
+        "text": "Which of the following was NOT a centre of bomb manufacture identified in Maharashtra during this period?",
+        "options": [
+          "Nasik",
+          "Poona",
+          "Bombay",
+          "Surat"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Surat was not a bomb manufacture centre in Maharashtra."
+      },
+      {
+        "text": "What was the primary goal of the revolutionary activities, as opposed to aiming for a violent mass revolution or subverting the army?",
+        "options": [
+          "To engage in public debates on constitutional reforms.",
+          "To strike terror in the hearts of the rulers.",
+          "To form an alternative government in exile.",
+          "To negotiate with the British government for greater autonomy."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Primary aim was to strike terror in the rulers."
+      },
+      {
+        "text": "Who was the leader and inspirer of the Anushilan Samiti, one of the first revolutionary groups in Bengal?",
+        "options": [
+          "Jnanendranath Basu",
+          "Barindra Kumar Ghosh",
+          "Promotha Mitter",
+          "Jatindranath Banerjee"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Promotha Mitter was a leading spirit of Anushilan Samiti."
+      },
+      {
+        "text": "Which of the following was NOT a common theme of revolutionary activities during this phase?",
+        "options": [
+          "Individual heroic action.",
+          "Financial dacoities for funds.",
+          "Promoting inter-communal harmony through religious synthesis.",
+          "Assassination of oppressive officials."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Promoting religious harmony was not a central revolutionary theme."
+      },
+      {
+        "text": "Which foreign country was a base for revolutionary activities led by Madam Bhikaji Cama, where she made international contacts?",
+        "options": [
+          "Germany",
+          "Japan",
+          "France",
+          "United States"
+        ],
+        "correctAnswer": 2,
+        "explanation": "France was the base for Bhikaji Cama's activities."
+      },
+      {
+        "text": "The Komagata Maru ship was carrying immigrants from Singapore to which destination when it was turned back?",
+        "options": [
+          "San Francisco",
+          "London",
+          "Vancouver",
+          "Paris"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Komagata Maru was headed for Vancouver."
+      },
+      {
+        "text": "What was the name of the place near Calcutta where the conflict with the police resulted in 22 deaths after the Komagata Maru incident?",
+        "options": [
+          "Diamond Harbour",
+          "Budge Budge",
+          "Barrackpore",
+          "Hooghly"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Budge Budge incident resulted in 22 deaths."
+      },
+      {
+        "text": "The Defence of India Rules, 1915, were used to suppress which specific event mentioned in the chapter?",
+        "options": [
+          "The Chapekar brothers' assassinations.",
+          "The Barrah dacoity.",
+          "The Ghadrites' armed revolt plans.",
+          "The Alipore Conspiracy."
+        ],
+        "correctAnswer": 2,
+        "explanation": "They suppressed the Ghadrites' armed revolt plans."
+      },
+      {
+        "text": "The 'German Plot' or 'Zimmerman Plan' was an attempt by revolutionaries to achieve what?",
+        "options": [
+          "Secure arms from Germany.",
+          "Bring about an all-India insurrection.",
+          "Form a government in exile in Germany.",
+          "Forge an alliance between Germany and the Ghadr Party."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The plan was to incite an all-India insurrection."
+      },
+      {
+        "text": "Which newspaper from Punjab was known for its extremist views and publication related to land revenue and irrigation tax issues?",
+        "options": [
+          "Bharat Mata",
+          "The Indian Sociologist",
+          "Punjabee",
+          "The Ghadr"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Punjabee was known for such publications."
+      },
+      {
+        "text": "What was the main reason cited for the temporary lull in revolutionary activities after 1917, besides the release of prisoners and Gandhi's arrival?",
+        "options": [
+          "The British government agreed to immediate independence.",
+          "There was a talk of constitutional reforms, such as Montagu's August 1917 statement.",
+          "Revolutionary leaders decided to pursue only political agitation.",
+          "The revolutionary groups ran out of funds and members."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Montagu's statement of constitutional reforms brought a lull in the movement."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

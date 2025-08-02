@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Era of Militant Nationalism (1905-1909)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Era of Militant Nationalism (1905-1909)</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which of the following factors contributed to the growth of militant nationalism in India?",
+        "options": [
+          "Universal satisfaction with the British rule",
+          "Economic prosperity in the 1890s",
+          "Disillusionment with the true nature of British rule",
+          "Government granting more rights to Indians"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Disillusionment with British rule made many Indians turn toward militant nationalism."
+      },
+      {
+        "text": "The economic miseries of the 1890s, including severe famines and bubonic plague, contributed to which aspect of nationalist sentiment?",
+        "options": [
+          "Increased trust in British administration",
+          "Exposure of the exploitative character of colonial rule",
+          "Promotion of British goods in India",
+          "Decline in nationalist activities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Widespread economic distress exposed the exploitative nature of colonial rule."
+      },
+      {
+        "text": "Who among the following repeatedly urged nationalists to rely on the character and capacities of the Indian people?",
+        "options": [
+          "James Mill",
+          "M.G. Ranade",
+          "Gopal Krishna Gokhale",
+          "Tilak, Aurobindo, and Bipin Chandra Pal"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Tilak, Aurobindo, and Bipin Chandra Pal advocated for self-reliance and national spirit."
+      },
+      {
+        "text": "The spread of education led to increased awareness but also what negative consequence for the educated class?",
+        "options": [
+          "Increased job opportunities",
+          "Growth in agricultural output",
+          "Rise in unemployment and underemployment",
+          "Greater satisfaction with British policies"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Educated Indians faced rising unemployment and underemployment."
+      },
+      {
+        "text": "Which international event demonstrated the possibility of an Asian nation defeating a major European power, influencing Indian nationalism?",
+        "options": [
+          "The American Civil War (1861-1865)",
+          "Japan's victory over Russia in 1905",
+          "The French Revolution (1789)",
+          "The Industrial Revolution in Britain"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Japan’s 1905 victory over Russia inspired Indian nationalists."
+      },
+      {
+        "text": "The reactionary policies of Lord Curzon included all of the following EXCEPT:",
+        "options": [
+          "Refusal to recognise India as a nation",
+          "Insulting Indian nationalists and intelligentsia",
+          "The annulment of the Partition of Bengal",
+          "Enacting the Official Secrets Act"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Curzon initiated, not annulled, the Partition of Bengal."
+      },
+      {
+        "text": "A key tenet of the militant school of thought was:",
+        "options": [
+          "Reliance on petitions and prayers",
+          "Advocacy for constitutional agitation",
+          "Hatred for foreign rule and pursuit of swaraj as the goal",
+          "Exclusion of the masses from political action"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Militants called for swaraj and opposed foreign rule."
+      },
+      {
+        "text": "The Swadeshi and Boycott Movement was a direct outcome of which British decision?",
+        "options": [
+          "Introduction of the Indian Councils Act of 1909",
+          "The partition of Bengal",
+          "The Rowlatt Act",
+          "The Cripps Mission"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Partition of Bengal in 1905 sparked the Swadeshi and Boycott Movement."
+      },
+      {
+        "text": "When was the Partition of Bengal officially enacted?",
+        "options": [
+          "1903",
+          "1906",
+          "October 16, 1905",
+          "December 30, 1905"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The official enactment was on October 16, 1905."
+      },
+      {
+        "text": "What was the real motive behind the British plan to partition Bengal, according to the source?",
+        "options": [
+          "To improve administrative efficiency",
+          "To strengthen Bengali identity",
+          "To weaken Bengal, the nerve centre of Indian nationalism, by dividing Bengalis",
+          "To promote industrial development in eastern Bengal"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The main motive was to divide and weaken nationalist sentiment."
+      },
+      {
+        "text": "During the anti-partition campaign under the Moderates (1903-05), what was the scope of the boycott initially proclaimed in Calcutta Townhall?",
+        "options": [
+          "Boycott of all government institutions",
+          "Boycott of foreign goods only",
+          "Boycott of British services and courts",
+          "Boycott of educational institutions"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The initial call was for boycott of foreign goods."
+      },
+      {
+        "text": "In the Calcutta session of the Congress in 1906, what was declared as the goal of the Indian National Congress?",
+        "options": [
+          "Complete independence",
+          "Dominion status or swaraj like the United Kingdom or the colonies",
+          "Economic self-reliance",
+          "Hindu-Muslim unity"
+        ],
+        "correctAnswer": 1,
+        "explanation": "INC declared dominion status or swaraj as its goal."
+      },
+      {
+        "text": "Which song spontaneously became the theme song of the Swadeshi Movement?",
+        "options": [
+          "Jana Gana Mana",
+          "Saare Jahan Se Achha",
+          "Vande Mataram",
+          "Amar Sonar Bangla"
+        ],
+        "correctAnswer": 2,
+        "explanation": "“Vande Mataram” became the theme song."
+      },
+      {
+        "text": "Rabindranath Tagore composed \"Amar Sonar Bangla\" during the Swadeshi Movement. What is its current significance?",
+        "options": [
+          "It is the national anthem of India.",
+          "It is the national anthem of present-day Bangladesh.",
+          "It is a devotional song for the Tilak Fund.",
+          "It is a protest song against the Rowlatt Act."
+        ],
+        "correctAnswer": 1,
+        "explanation": "“Amar Sonar Bangla” is now the national anthem of Bangladesh."
+      },
+      {
+        "text": "Beyond the boycott of foreign goods, the Extremists called for 'passive resistance' which included:",
+        "options": [
+          "Joining government service",
+          "Boycott of legislative councils and government titles",
+          "Promoting foreign trade",
+          "Cooperation with British administration"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Extremists urged boycott of councils and titles (passive resistance)."
+      },
+      {
+        "text": "Who famously stated, \"Political freedom is the lifebreath of a nation,\" during the militant nationalist phase?",
+        "options": [
+          "Balgangadhar Tilak",
+          "Bipin Chandra Pal",
+          "Aurobindo Ghose",
+          "Lala Lajpat Rai"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aurobindo Ghose made this influential statement."
+      },
+      {
+        "text": "The 'Samitis' or volunteer corps, such as the Swadesh Bandhab Samiti, were organized by whom?",
+        "options": [
+          "Gopal Krishna Gokhale",
+          "Ashwini Kumar Dutta",
+          "Dadabhai Naoroji",
+          "Surendranath Banerjea"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ashwini Kumar Dutta organised the Swadesh Bandhab Samiti."
+      },
+      {
+        "text": "Which festival was imaginatively used by Tilak to popularise the Swadeshi message?",
+        "options": [
+          "Diwali",
+          "Holi",
+          "Ganapati and Shivaji festivals",
+          "Durga Puja"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tilak enhanced political mobilization through Ganapati and Shivaji festivals."
+      },
+      {
+        "text": "The programme of Swadeshi or National Education saw the establishment of institutions like:",
+        "options": [
+          "Calcutta University",
+          "Shantiniketan and Bengal National College",
+          "Fort William College",
+          "Mayo College"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Institutions like Shantiniketan and Bengal National College were established."
+      },
+      {
+        "text": "In the cultural sphere, Abanindranath Tagore of the Bengal School of Painting broke away from Victorian naturalism, drawing inspiration from:",
+        "options": [
+          "European Impressionism",
+          "Ajanta, Mughal, and Rajput paintings",
+          "Contemporary British art",
+          "Chinese landscape art"
+        ],
+        "correctAnswer": 1,
+        "explanation": "He drew on Ajanta, Mughal, and Rajput traditions."
+      },
+      {
+        "text": "What was the role of students in the Swadeshi Movement?",
+        "options": [
+          "They mostly remained aloof from political activities.",
+          "They actively propagated and practised swadeshi.",
+          "They supported government policies to maintain order.",
+          "They formed committees to negotiate with the British."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Students were active in promoting and practicing swadeshi."
+      },
+      {
+        "text": "How did the participation of upper and middle-class Muslims generally manifest during the Swadeshi Movement?",
+        "options": [
+          "They actively joined the movement in large numbers.",
+          "They were primarily led by Nawab Salimullah of Dacca and supported the partition.",
+          "They formed independent revolutionary groups.",
+          "They contributed financially to the Tilak Swaraj Fund."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Most were led by Nawab Salimullah and supported the partition."
+      },
+      {
+        "text": "When was the All India Muslim League propped up?",
+        "options": [
+          "December 30, 1905",
+          "October 16, 1905",
+          "1906 (exact date not given, but earlier than Dec 30)",
+          "1907"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Muslim League was formed on December 30, 1905."
+      },
+      {
+        "text": "The Partition of Bengal was annulled in which year?",
+        "options": [
+          "1907",
+          "1909",
+          "1911",
+          "1913"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Annulment occurred in 1911."
+      },
+      {
+        "text": "What was a significant administrative change that accompanied the annulment of the Partition of Bengal?",
+        "options": [
+          "Creation of a separate province for Bengal",
+          "Shifting of the capital to Delhi",
+          "Grant of dominion status to India",
+          "Introduction of communal electorates"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The capital shifted from Calcutta to Delhi in 1911."
+      },
+      {
+        "text": "Which of the following was a major weakness of the Swadeshi Movement?",
+        "options": [
+          "Its widespread success across all social classes",
+          "Its strong, unified leadership structure",
+          "Its failure to create an effective organisation or party structure",
+          "Its ability to sustain a high-pitch mass movement for an extended period"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A major weakness was the lack of a lasting organisation."
+      },
+      {
+        "text": "The Surat Split of 1907 involved a division between which two factions within the Indian National Congress?",
+        "options": [
+          "Liberals and Conservatives",
+          "Moderates and Extremists",
+          "Hindus and Muslims",
+          "Peasants and Zamindars"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates and Extremists split at Surat."
+      },
+      {
+        "text": "The Extremists wanted the 1907 Congress session to be held in which city?",
+        "options": [
+          "Surat",
+          "Calcutta",
+          "Nagpur",
+          "Madras"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Extremists preferred Nagpur for the session venue."
+      },
+      {
+        "text": "Who became the president of the Indian National Congress at the Surat session in 1907?",
+        "options": [
+          "Balgangadhar Tilak",
+          "Lala Lajpat Rai",
+          "Dadabhai Naoroji",
+          "Rashbehari Ghosh"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Rashbehari Ghosh was president at Surat."
+      },
+      {
+        "text": "Which of the following laws was not brought into force by the government to check anti-government activity after the Swadeshi Movement?",
+        "options": [
+          "Seditious Meetings Act, 1907",
+          "Indian Newspapers Act, 1908",
+          "Criminal Law Amendment Act, 1908",
+          "Rowlatt Act, 1919"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Rowlatt Act was passed much later (1919)."
+      },
+      {
+        "text": "Balgangadhar Tilak was sentenced to six years' transportation to Mandalay for sedition in which year?",
+        "options": [
+          "1907",
+          "1908",
+          "1909",
+          "1910"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tilak was convicted in 1908."
+      },
+      {
+        "text": "The government's strategy towards the nationalists, following the Swadeshi and Boycott Movement, was described as:",
+        "options": [
+          "Policy of complete non-interference",
+          "Policy of total repression only",
+          "Policy of 'rallying them' or 'carrot and stick'",
+          "Policy of immediate grant of self-government"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The British used a 'carrot and stick' approach."
+      },
+      {
+        "text": "Which group, led by the Agha Khan in October 1906, met Lord Minto and demanded separate electorates?",
+        "options": [
+          "Hindu Mahasabha",
+          "Simla Deputation of Muslim elites",
+          "Deccan Agricultural Association",
+          "Swarajists"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Simla Deputation, led by the Aga Khan, demanded separate electorates."
+      },
+      {
+        "text": "The Morley-Minto Reforms are also known as:",
+        "options": [
+          "The Indian Independence Act of 1909",
+          "The Government of India Act of 1909",
+          "The Montagu-Chelmsford Reforms",
+          "The Indian Councils Act of 1909"
+        ],
+        "correctAnswer": 3,
+        "explanation": "They are properly called the Indian Councils Act, 1909."
+      },
+      {
+        "text": "A key feature of the Morley-Minto Reforms of 1909 was the establishment of:",
+        "options": [
+          "Direct elections for all members of the councils",
+          "Complete responsible government at the centre",
+          "Separate electorates for Muslims for election to the central council",
+          "Abolition of the viceroy's executive council"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Separate electorates for Muslims were introduced."
+      },
+      {
+        "text": "Under the Morley-Minto Reforms of 1909, what was the power of legislatures regarding the budget?",
+        "options": [
+          "They could vote on the budget and propose amendments.",
+          "They could only discuss the budget, not vote upon it.",
+          "They had full control over budget allocation.",
+          "The budget was entirely decided by Indian members."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Legislatures could only discuss, not vote, on the budget."
+      },
+      {
+        "text": "What was Lord Morley's stated view regarding colonial self-government for India after the 1909 reforms?",
+        "options": [
+          "He believed it was suitable for India.",
+          "He made it clear it was not suitable for India.",
+          "He stated it would be granted within five years.",
+          "He remained neutral on the subject."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Morley insisted colonial self-government was not suitable for India."
+      },
+      {
+        "text": "The goal of the Indian National Congress declared in the Calcutta session (1906) was \"self-government or swaraj like the United Kingdom or the colonies.\" This reflected the influence of which approach?",
+        "options": [
+          "Militant Nationalism",
+          "Moderate Nationalism",
+          "Revolutionary Terrorism",
+          "Subaltern Approach"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The moderates’ approach was reflected in that resolution."
+      },
+      {
+        "text": "The Swadeshi Movement was primarily initiated to protest against:",
+        "options": [
+          "High taxation",
+          "Economic drain",
+          "The partition of Bengal",
+          "Lack of representation in legislative councils"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It began as a reaction to the Partition of Bengal."
+      },
+      {
+        "text": "Who were the early nationalist economists whose writings exposed the exploitative character of colonial rule?",
+        "options": [
+          "James Mill and Vincent Smith",
+          "Dadabhai Naoroji and R.C. Dutt",
+          "Karl Marx and Antonio Gramsci",
+          "Lord Curzon and Lord Minto"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dadabhai Naoroji and R.C. Dutt exposed colonial exploitation."
+      },
+      {
+        "text": "What type of political action was advocated by the Militant School of Thought during this period?",
+        "options": [
+          "Constitutional agitation and dialogue",
+          "Direct political action, including mass inclusion and personal sacrifices",
+          "Secret negotiations with the British Crown",
+          "Reliance on judicial reforms only"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Militants advocated direct, mass-based action."
+      },
+      {
+        "text": "Which administrative measure of Curzon particularly angered Indian nationalists and contributed to the growth of militant nationalism?",
+        "options": [
+          "Introduction of local self-government",
+          "Expansion of the Indian Civil Service",
+          "The Partition of Bengal",
+          "Grant of more powers to provincial councils"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Partition of Bengal in 1905 angered nationalists."
+      },
+      {
+        "text": "The \"Three 'P's\" (prayer, petition, protest) refers to the methods of which group of nationalists?",
+        "options": [
+          "Revolutionaries",
+          "Extremists",
+          "Moderates",
+          "Socialists"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates relied on ‘prayer, petition, and protest.’"
+      },
+      {
+        "text": "Which Indian was the first to be appointed to the Viceroy's executive council, as a result of the Morley-Minto Reforms of 1909?",
+        "options": [
+          "Gopal Krishna Gokhale",
+          "Balgangadhar Tilak",
+          "Satyendra Prasad Sinha",
+          "Muhammad Ali Jinnah"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Satyendra Prasad Sinha was the first Indian member."
+      },
+      {
+        "text": "What was a significant impact of the Swadeshi Movement on the national movement?",
+        "options": [
+          "It led to the immediate grant of dominion status.",
+          "It reduced patriotism to an academic pastime.",
+          "It marked the emergence of all major trends of the national movement.",
+          "It unified all religious communities under a single political banner."
+        ],
+        "correctAnswer": 2,
+        "explanation": "All major national movement trends emerged during Swadeshi Movement."
+      },
+      {
+        "text": "What was a notable contribution of women to the Swadeshi Movement?",
+        "options": [
+          "They joined the civil services in large numbers.",
+          "They gave up purdah and offered ornaments for the Tilak Fund.",
+          "They formed separate political parties for women's rights.",
+          "They campaigned for increased British imports."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Women played a huge role, giving up purdah and personal valuables."
+      },
+      {
+        "text": "The term 'Atma Shakti' (Self-Reliance) was strongly emphasised during which movement?",
+        "options": [
+          "Non-Cooperation Movement",
+          "Civil Disobedience Movement",
+          "Swadeshi Movement",
+          "Quit India Movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Atma Shakti was a Swadeshi Movement ideal."
+      },
+      {
+        "text": "The split in the Indian National Congress at Surat in 1907 was due to differences over:",
+        "options": [
+          "The choice of national language",
+          "The goal of the Congress and the methods of political action",
+          "The representation of Muslims in the legislature",
+          "Economic policies and land reforms"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The split was over methods and the Congress' goal."
+      },
+      {
+        "text": "Which of the following acts allowed magistrates to confiscate press property that published objectionable material likely to cause incitement to murder or acts of violence?",
+        "options": [
+          "Seditious Meetings Act, 1907",
+          "Indian Newspapers Act, 1908",
+          "Criminal Law Amendment Act, 1908",
+          "Vernacular Press Act, 1878"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Indian Newspapers Act, 1908, enabled such confiscation."
+      },
+      {
+        "text": "Despite some Muslims participating, most upper and middle-class Muslims were led by whom in supporting the Partition of Bengal?",
+        "options": [
+          "Muhammad Ali Jinnah",
+          "Maulana Abul Kalam Azad",
+          "Nawab Salimullah of Dacca",
+          "Aga Khan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Nawab Salimullah of Dacca led the majority in supporting the partition."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

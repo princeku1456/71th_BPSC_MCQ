@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Socio-Cultural Reform Movements</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Socio-Cultural Reform Movements</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Raja Rammohan Roy is often referred to as the:",
+        "options": [
+          "Father of Indian Nationalism",
+          "Grand Old Man of India",
+          "Father of Indian Renaissance",
+          "Architect of Indian Constitution"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Raja Rammohan Roy is widely known as the 'Father of Indian Renaissance' for his role in socio-religious reform."
+      },
+      {
+        "text": "Which of the following works were authored by Raja Rammohan Roy?",
+        "options": [
+          "Satyarth Prakash and Anand Math",
+          "Gift to Monotheists and Precepts of Jesus",
+          "Gulamgiri and Sarvajanik Satyadharma",
+          "Rast Goftar and Indian Spectator"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Raja Rammohan Roy wrote 'Gift to Monotheists' and 'Precepts of Jesus'."
+      },
+      {
+        "text": "The Atmiya Sabha was established by Raja Rammohan Roy in Calcutta in which year?",
+        "options": [
+          "1809",
+          "1814",
+          "1828",
+          "1839"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Atmiya Sabha was established by Raja Rammohan Roy in 1814."
+      },
+      {
+        "text": "The Brahmo Sabha, later renamed Brahmo Samaj, was founded by Raja Rammohan Roy in:",
+        "options": [
+          "1814",
+          "1825",
+          "1828",
+          "1830"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Raja Rammohan Roy founded the Brahmo Sabha in 1828."
+      },
+      {
+        "text": "Which prominent personality organised the Dharma Sabha to counter the propaganda of the Brahmo Samaj?",
+        "options": [
+          "Debendranath Tagore",
+          "Keshab Chandra Sen",
+          "Raja Radhakant Deb",
+          "Ishwar Chandra Vidyasagar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Raja Radhakant Deb organised the Dharma Sabha against the Brahmo Samaj."
+      },
+      {
+        "text": "Which of the following was a key tenet of the Brahmo Samaj as founded by Raja Rammohan Roy?",
+        "options": [
+          "Belief in divine avataras",
+          "Advocacy of idol worship",
+          "Denunciation of polytheism",
+          "Acceptance of scriptural infallibility"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Brahmo Samaj denounced polytheism and idol worship."
+      },
+      {
+        "text": "The Hindu Widows' Remarriage Act was passed in which year, largely due to the efforts of Ishwar Chandra Vidyasagar?",
+        "options": [
+          "1829",
+          "1856",
+          "1872",
+          "1891"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Hindu Widows' Remarriage Act was enacted in 1856, largely due to Vidyasagar's efforts."
+      },
+      {
+        "text": "Henry Vivian Derozio was a prominent figure of the Young Bengal Movement and taught at which institution?",
+        "options": [
+          "Hindu College",
+          "Vedanta College",
+          "Calcutta Madrasah",
+          "Fort William College"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Derozio taught at Hindu College, Kolkata."
+      },
+      {
+        "text": "Who is considered the \"Father of Marathi journalism\" for starting newspapers like Darpan and Digdarshan?",
+        "options": [
+          "Gopalhari Deshmukh",
+          "Gopal Ganesh Agarkar",
+          "Balshastri Jambhekar",
+          "Jyotiba Phule"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Balshastri Jambhekar is the Father of Marathi journalism."
+      },
+      {
+        "text": "The Paramahansa Mandali, a secret society for Hindu reform, was founded by:",
+        "options": [
+          "Atmaram Pandurang",
+          "Dadoba Pandurang",
+          "Mahadeo Govind Ranade",
+          "Narayan Malhar Joshi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Paramahansa Mandali was founded by Dadoba Pandurang."
+      },
+      {
+        "text": "The Satyashodhak Samaj was founded by Jyotiba Phule with the primary aim of:",
+        "options": [
+          "Spreading Sanskrit education",
+          "Promoting Sanskritic Hinduism",
+          "Social service and education among women and lower castes",
+          "Advocating for brahminical rituals"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Satyashodhak Samaj aimed at uplifting women and lower castes through education."
+      },
+      {
+        "text": "Gopalhari Deshmukh wrote for the weekly Prabhakar under which pen name?",
+        "options": [
+          "Lokmanya",
+          "Lokahitawadi",
+          "Maharatta",
+          "Sudharak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gopalhari Deshmukh used the pen name Lokahitawadi."
+      },
+      {
+        "text": "Gopal Krishna Gokhale founded the Servants of India Society in which year?",
+        "options": [
+          "1897",
+          "1905",
+          "1908",
+          "1920"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gokhale founded the Servants of India Society in 1905."
+      },
+      {
+        "text": "The Ramakrishna Mission was founded by Swami Vivekananda in:",
+        "options": [
+          "1875",
+          "1886",
+          "1893",
+          "1897"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Swami Vivekananda founded the Ramakrishna Mission in 1897."
+      },
+      {
+        "text": "The slogan \"Service of man is the service of God\" is attributed to which socio-religious reformer?",
+        "options": [
+          "Swami Vivekananda",
+          "Ramakrishna Paramahamsa",
+          "Dayananda Saraswati",
+          "Raja Rammohan Roy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The slogan is attributed to Swami Vivekananda."
+      },
+      {
+        "text": "Which of the following statements about Swami Vivekananda is correct?",
+        "options": [
+          "He believed knowledge without action was essential.",
+          "He made a great impression at the Parliament of Religions in Chicago in 1893.",
+          "He founded the Ramakrishna Mission before Ramakrishna's death.",
+          "His message was primarily based on Abrahamic religious texts."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Swami Vivekananda is renowned for his speech at the 1893 Parliament of Religions, Chicago."
+      },
+      {
+        "text": "The Arya Samaj was founded by Dayananda Saraswati in Bombay in:",
+        "options": [
+          "1861",
+          "1873",
+          "1875",
+          "1887"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Arya Samaj was founded in 1875."
+      },
+      {
+        "text": "The famous work \"Satyarth Prakash\" contains the views of which reformer?",
+        "options": [
+          "Raja Rammohan Roy",
+          "Swami Vivekananda",
+          "Dayananda Saraswati",
+          "Sir Syed Ahmed Khan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Satyarth Prakash outlines the philosophy of Dayananda Saraswati."
+      },
+      {
+        "text": "The slogan \"Back to the Vedas\" was given by:",
+        "options": [
+          "Ramakrishna Paramahamsa",
+          "Swami Vivekananda",
+          "Dayananda Saraswati",
+          "Annie Besant"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dayananda Saraswati gave the slogan 'Back to the Vedas'."
+      },
+      {
+        "text": "The Dayananda Anglo-Vedic (D.A.V.) College was established in Lahore in:",
+        "options": [
+          "1875",
+          "1886",
+          "1897",
+          "1908"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DAV College, Lahore, was established in 1886."
+      },
+      {
+        "text": "The shuddhi (purification) movement for reconversion to Hinduism was started by which organisation?",
+        "options": [
+          "Brahmo Samaj",
+          "Prarthana Samaj",
+          "Arya Samaj",
+          "Ramakrishna Mission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Arya Samaj started the shuddhi movement."
+      },
+      {
+        "text": "Behramji M. Malabari founded Seva Sadan in 1908 and his efforts led to the enactment of which significant legislation?",
+        "options": [
+          "Hindu Widows' Remarriage Act",
+          "Age of Consent Act",
+          "Child Marriage Restraint Act",
+          "Religious Disabilities Act"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Malabari's campaigning resulted in the Age of Consent Act (1891)."
+      },
+      {
+        "text": "The Dev Samaj, a religious and social reform society, was founded in Lahore by:",
+        "options": [
+          "Shiv Narayan Agnihotri Sadan",
+          "Tulsi Ram",
+          "Sree Narayana Guru Swamy",
+          "Mirza Ghulam Ahmad"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Dev Samaj was founded by Shiv Narayan Agnihotri in 1887 in Lahore."
+      },
+      {
+        "text": "The Radhaswami Movement was founded by Tulsi Ram, also known as Shiv Dayal Saheb, in:",
+        "options": [
+          "1851",
+          "1861",
+          "1875",
+          "1889"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Radhaswami Movement was founded in 1861 by Shiv Dayal Saheb (Tulsi Ram)."
+      },
+      {
+        "text": "The SNDP movement among the Ezhavas of Kerala was started by:",
+        "options": [
+          "E.V. Ramaswamy Naicker",
+          "Jyotiba Phule",
+          "Sree Narayana Guru Swamy",
+          "T.K. Madhavan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sree Narayana Guru Swamy started the SNDP movement for Ezhavas."
+      },
+      {
+        "text": "The Vokkaliga Sangha in Mysore launched an anti-brahmin movement in which year?",
+        "options": [
+          "1890",
+          "1905",
+          "1915",
+          "1925"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The anti-brahmin movement by Vokkaliga Sangha began in 1905."
+      },
+      {
+        "text": "The Justice Movement in Madras Presidency aimed to secure jobs and legislature representation for:",
+        "options": [
+          "Brahmins",
+          "Non-brahmins",
+          "Depressed classes",
+          "Muslims"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The movement fought for the rights of non-brahmins."
+      },
+      {
+        "text": "The Self-Respect Movement, aiming at the rejection of brahminical religion, was started by:",
+        "options": [
+          "C.N. Mudaliar",
+          "T.M. Nair",
+          "P. Tyagaraja",
+          "E.V. Ramaswamy Naicker"
+        ],
+        "correctAnswer": 3,
+        "explanation": "E.V. Ramaswamy Naicker started the Self-Respect Movement."
+      },
+      {
+        "text": "The Vaikom Satyagraha (1924) in Kerala, demanding access to Hindu temples and roads for untouchables, was led by:",
+        "options": [
+          "T.K. Madhavan",
+          "K.P. Kesava",
+          "Sree Narayana Guru",
+          "B.R. Ambedkar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "K.P. Kesava led the 1924 Vaikom Satyagraha."
+      },
+      {
+        "text": "The Indian Social Conference was founded by:",
+        "options": [
+          "Gopal Krishna Gokhale and Dadabhai Naoroji",
+          "M.G. Ranade and Raghunath Rao",
+          "Surendranath Banerjea and Anand Mohan Bose",
+          "Annie Besant and B.G. Tilak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "M.G. Ranade and Raghunath Rao founded the Indian Social Conference."
+      },
+      {
+        "text": "The Wahabi/Walliullah Movement was inspired by the preachings of Shah Walliullah of which city?",
+        "options": [
+          "Mecca",
+          "Medina",
+          "Delhi",
+          "Bareilly"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Shah Walliullah preached in Delhi."
+      },
+      {
+        "text": "The Faraizi Movement, with an emphasis on Islamic pillars of faith, was founded by:",
+        "options": [
+          "Haji Shariatullah",
+          "Dudu Mian",
+          "Abdul Wahab",
+          "Syed Ahmed Barelvi"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Haji Shariatullah founded the Faraizi Movement."
+      },
+      {
+        "text": "Which Muslim reform movement originated from India and was founded by Mirza Ghulam Ahmad in 1889?",
+        "options": [
+          "Wahabi Movement",
+          "Faraizi Movement",
+          "Ahmadiyya Movement",
+          "Aligarh Movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Ahmadiyya Movement was founded by Mirza Ghulam Ahmad."
+      },
+      {
+        "text": "Sir Syed Ahmed Khan founded the Mohammedan Anglo-Oriental College (later Aligarh Muslim University) in Aligarh in:",
+        "options": [
+          "1866",
+          "1875",
+          "1889",
+          "1902"
+        ],
+        "correctAnswer": 1,
+        "explanation": "MAO College was founded in 1875 by Sir Syed Ahmed Khan."
+      },
+      {
+        "text": "The magazine \"Tahdhib-ul-Akhlaq\" was brought out by:",
+        "options": [
+          "Maulana Azad",
+          "Sir Syed Ahmed Khan",
+          "Shibli Numani",
+          "Mohammad Qasim Nanotavi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sir Syed Ahmed Khan launched 'Tahdhib-ul-Akhlaq'."
+      },
+      {
+        "text": "The Deoband School (Darul Uloom) was organised by orthodox Muslim ulema and founded by Mohammad Qasim Nanotavi and:",
+        "options": [
+          "Sir Syed Ahmed Khan",
+          "Rashid Ahmed Gangohi",
+          "Shibli Numani",
+          "Maulana Abul Kalam Azad"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rashid Ahmed Gangohi co-founded Darul Uloom with Qasim Nanotavi."
+      },
+      {
+        "text": "The Rahnumai Mazdayasnan Sabha, for the regeneration of Parsis and restoration of Zoroastrianism, was founded in:",
+        "options": [
+          "1830",
+          "1851",
+          "1873",
+          "1908"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Sabha was founded in 1851."
+      },
+      {
+        "text": "The newspaper \"Rast Goftar\" (Truth-Teller) was associated with which reform movement?",
+        "options": [
+          "Aligarh Movement",
+          "Sikh Reform Movements",
+          "Parsi Reform Movements",
+          "Brahmo Samaj"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Rast Goftar' was related to Parsi reform."
+      },
+      {
+        "text": "The Singh Sabha Movement was founded at Amritsar in 1873 with objectives including promoting modern Western education for Sikhs and:",
+        "options": [
+          "Establishing an independent Sikh state.",
+          "Countering proselytising activities of other religious groups.",
+          "Merging with the Indian National Congress.",
+          "Revival of traditional Sikh martial arts."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Singh Sabha Movement countered missionary activities and focused on education."
+      },
+      {
+        "text": "The Akali movement, also known as the Gurudwara Reform Movement, aimed at liberating Sikh gurudwaras from the control of:",
+        "options": [
+          "British authorities",
+          "Corrupt Udasi mahants",
+          "Muslim invaders",
+          "Hindu priests"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was directed against the control by corrupt Udasi mahants."
+      },
+      {
+        "text": "The Sikh Gurudwaras Act which gave control of gurudwaras to the Sikh masses was passed in:",
+        "options": [
+          "1873",
+          "1909",
+          "1922",
+          "1925"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Sikh Gurudwaras Act was passed in 1925."
+      },
+      {
+        "text": "The Theosophical Society was founded in New York City in 1875 by Madame H.P. Blavatsky and:",
+        "options": [
+          "Annie Besant",
+          "Colonel M.S. Olcott",
+          "Swami Vivekananda",
+          "Dayananda Saraswati"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Colonel Henry Steel Olcott co-founded the Theosophical Society."
+      },
+      {
+        "text": "The headquarters of the Theosophical Society were shifted to Adyar, Madras, in which year?",
+        "options": [
+          "1875",
+          "1882",
+          "1893",
+          "1897"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The headquarters moved to Adyar in 1882."
+      },
+      {
+        "text": "Which of the following beliefs were accepted by the Theosophical Movement?",
+        "options": [
+          "Monotheism and divine avataras",
+          "Christian rites and traditional Indian learning",
+          "Reincarnation and karma",
+          "Idol worship and caste system"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Theosophy accepts reincarnation and karma."
+      },
+      {
+        "text": "Which of the following was not a negative aspect of the socio-religious reform movements?",
+        "options": [
+          "Narrow social base",
+          "Over-emphasis on religious and philosophical aspects",
+          "Arrest of the process of evolution of a composite culture",
+          "Creation of a favourable social climate for modernisation"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Creation of a positive climate for modernisation was a positive aspect."
+      },
+      {
+        "text": "Which of the following correctly pairs a reformer with their primary focus area in social reform?",
+        "options": [
+          "Raja Rammohan Roy - Widow Remarriage",
+          "Ishwar Chandra Vidyasagar - Abolition of Sati",
+          "Jyotiba Phule - Women's education and lower caste upliftment",
+          "Dayananda Saraswati - Religious universalism"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Phule was known for promoting women's education and upliftment of backward classes."
+      },
+      {
+        "text": "The Age of Consent Act (1891) was enacted due to the relentless efforts of which Parsi reformer?",
+        "options": [
+          "Dadabhai Naoroji",
+          "K.R. Cama",
+          "S.S. Bengalee",
+          "B.M. Malabari"
+        ],
+        "correctAnswer": 3,
+        "explanation": "B.M. Malabari campaigned for the Age of Consent Act."
+      },
+      {
+        "text": "Which reform movement is described as \"revivalist in form though not in content\"?",
+        "options": [
+          "Brahmo Samaj",
+          "Prarthana Samaj",
+          "Arya Samaj",
+          "Ramakrishna Mission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Arya Samaj is described as 'revivalist in form, not in content.'"
+      },
+      {
+        "text": "What was a common point of contention for many social reform movements regarding women's status?",
+        "options": [
+          "Advocating for purdah system",
+          "Supporting female infanticide",
+          "Opposing widow remarriage",
+          "Attacking polygamy and child marriage"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Attacks on polygamy and child marriage were common aims."
+      },
+      {
+        "text": "The Hindu Widows' Remarriage Act, 1856, was primarily the result of the efforts of:",
+        "options": [
+          "Raja Rammohan Roy",
+          "Keshab Chandra Sen",
+          "Ishwar Chandra Vidyasagar",
+          "Mahadeo Govind Ranade"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ishwar Chandra Vidyasagar led the movement for widow remarriage."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

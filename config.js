@@ -79,12 +79,12 @@ const subjectsConfig = {
                 name: 'Advent of the Europeans in India',
                 file: 'Modern/chapter_3.html'
             },
-             {
+            {
                 id: 'chapter2',
                 name: 'Expansion and Consolidation of British Power in India',
                 file: 'Modern/chapter_4.html'
             },
-             {
+            {
                 id: 'chapter3',
                 name: 'People’s Resistance Against British Before 1857',
                 file: 'Modern/chapter_5.html'
@@ -92,6 +92,22 @@ const subjectsConfig = {
                 id: 'chapter4',
                 name: 'The Revolt of 1857',
                 file: 'Modern/chapter_6.html'
+            }, {
+                id: 'chapter5',
+                name: 'Socio-Cultural Reform Movements',
+                file: 'Modern/chapter_7.html'
+            }, {
+                id: 'chapte6',
+                name: 'Indian National Congress Foundation and the Moderate Phase',
+                file: 'Modern/chapter_8.html'
+            }, {
+                id: 'chapter7',
+                name: 'Era of Militant Nationalism (1905-1909)',
+                file: 'Modern/chapter_9.html'
+            }, {
+                id: 'chapter8',
+                name: 'First Phase of Revolutionary Activities (1907-1917)',
+                file: 'Modern/chapter_10.html'
             }
         ]
     },

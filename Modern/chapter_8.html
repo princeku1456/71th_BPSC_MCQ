@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Indian National Congress Foundation and the Moderate Phase</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Indian National Congress Foundation and the Moderate Phase</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Who among the following was a retired English civil servant credited with mobilising leading intellectuals for the formation of the Indian National Congress?",
+        "options": [
+          "Lord Dufferin",
+          "Womesh Chandra Bonnerjee",
+          "A.O. Hume",
+          "Surendranath Banerjea"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A.O. Hume, a retired English civil servant, is credited with mobilising Indian intellectuals for the formation of the Indian National Congress."
+      },
+      {
+        "text": "In which city was the first session of the Indian National Congress held in December 1885?",
+        "options": [
+          "Calcutta",
+          "Madras",
+          "Bombay",
+          "Delhi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The first session was held in Bombay (now Mumbai) in December 1885."
+      },
+      {
+        "text": "Who presided over the first session of the Indian National Congress?",
+        "options": [
+          "Dadabhai Naoroji",
+          "Womesh Chandra Bonnerjee",
+          "Surendranath Banerjea",
+          "A.O. Hume"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Womesh Chandra Bonnerjee was the first President of the Indian National Congress."
+      },
+      {
+        "text": "How many delegates attended the first session of the Indian National Congress?",
+        "options": [
+          "50",
+          "65",
+          "72",
+          "88"
+        ],
+        "correctAnswer": 2,
+        "explanation": "72 delegates attended the first INC session."
+      },
+      {
+        "text": "Which Indian woman graduate addressed the Congress session in 1890?",
+        "options": [
+          "Sarojini Naidu",
+          "Kadambini Ganguly",
+          "Annie Besant",
+          "Cornelia Sorabji"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kadambini Ganguly was the first Indian woman graduate to address the Congress in 1890."
+      },
+      {
+        "text": "According to the 'Safety Valve Theory', what was A.O. Hume's primary idea behind forming the Congress?",
+        "options": [
+          "To promote Indian self-rule",
+          "To create a forum for open dissent",
+          "To serve as a channel for releasing growing Indian discontent",
+          "To establish a loyalist organization"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The 'Safety Valve Theory' holds that Congress was meant to peacefully release growing Indian discontent."
+      },
+      {
+        "text": "Which Viceroy is mentioned in connection with A.O. Hume regarding the 'Safety Valve Theory'?",
+        "options": [
+          "Lord Ripon",
+          "Lord Curzon",
+          "Lord Dufferin",
+          "Lord Lytton"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Dufferin is often linked to A.O. Hume and the 'Safety Valve Theory'."
+      },
+      {
+        "text": "Modern Indian historians, like Bipin Chandra, largely dispute the 'Safety Valve Theory'. What alternative role do they suggest Hume played for Congress leaders?",
+        "options": [
+          "A figurehead for British loyalty",
+          "A 'lightning conductor' to unite nationalist forces",
+          "A mere spectator to Indian political developments",
+          "An economic advisor"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They view Hume as a 'lightning conductor' who helped unite the nationalist leadership."
+      },
+      {
+        "text": "Which of the following was NOT an aim or objective of the Indian National Congress as stated in the source?",
+        "options": [
+          "To found a democratic, nationalist movement",
+          "To promote armed revolution against British rule",
+          "To politicise and politically educate people",
+          "To develop and propagate an anti-colonial nationalist ideology"
+        ],
+        "correctAnswer": 1,
+        "explanation": "INC's objectives did not involve promoting armed revolution."
+      },
+      {
+        "text": "What was one of the key objectives of the early Congress regarding national unity?",
+        "options": [
+          "To promote religious conversion",
+          "To foster unity among people irrespective of religion",
+          "To establish a Hindu-majority political front",
+          "To create exclusive regional identities"
+        ],
+        "correctAnswer": 1,
+        "explanation": "A key objective was unity among Indians irrespective of religion."
+      },
+      {
+        "text": "The 'Era of Moderates' in Indian nationalism is generally considered to be during which period?",
+        "options": [
+          "1885-1905",
+          "1905-1915",
+          "1870-1885",
+          "1915-1925"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The Moderate phase spanned 1885-1905."
+      },
+      {
+        "text": "Which of the following leaders is NOT associated with the Moderate phase of the Indian National Congress?",
+        "options": [
+          "Dadabhai Naoroji",
+          "Pherozshah Mehta",
+          "B.G. Tilak",
+          "S.N. Banerjea"
+        ],
+        "correctAnswer": 2,
+        "explanation": "B.G. Tilak belonged to the Extremist phase, not the Moderates."
+      },
+      {
+        "text": "What was the characteristic political methodology of the Moderates?",
+        "options": [
+          "Revolutionary violence",
+          "Non-violent non-cooperation",
+          "Constitutional agitation within the confines of law",
+          "Secret underground activities"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Their method was constitutional agitation—working within the law."
+      },
+      {
+        "text": "The Moderates employed a 'two-pronged methodology'. What were its two main aspects?",
+        "options": [
+          "Armed rebellion and economic boycott",
+          "Creating public opinion and persuading the British Government for reforms",
+          "Appealing to the masses and forming a parallel government",
+          "Diplomatic negotiations and international lobbying"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They created public opinion and worked to persuade the government for reforms."
+      },
+      {
+        "text": "What term was popularly used to describe the Moderates' method of political activity?",
+        "options": [
+          "Direct Action",
+          "Passive Resistance",
+          "Prayer and Petition",
+          "Civil Disobedience"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Prayer and petition\" described the Moderates' usual activities."
+      },
+      {
+        "text": "Who among the Moderate nationalists proposed the \"drain theory\" to explain British exploitation of India?",
+        "options": [
+          "M.G. Ranade",
+          "G.K. Gokhale",
+          "Dadabhai Naoroji",
+          "R.C. Dutt"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dadabhai Naoroji proposed the influential drain theory."
+      },
+      {
+        "text": "What economic consequence of British rule did the Moderates highlight in their critique?",
+        "options": [
+          "Promotion of modern industrialization in India",
+          "Development of a self-sufficient Indian economy",
+          "Destruction of the self-sufficient Indian economy",
+          "Equitable distribution of wealth"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates highlighted the destruction of India's self-sufficient economy."
+      },
+      {
+        "text": "Until which year did the legislative councils in India have no real official power, according to the source?",
+        "options": [
+          "1892",
+          "1909",
+          "1920",
+          "1885"
+        ],
+        "correctAnswer": 2,
+        "explanation": "No real official power existed until 1920."
+      },
+      {
+        "text": "How many Indians were nominated to the legislative councils between 1862 and 1892?",
+        "options": [
+          "10",
+          "25",
+          "45",
+          "100"
+        ],
+        "correctAnswer": 2,
+        "explanation": "45 Indians were nominated to legislative councils in this period."
+      },
+      {
+        "text": "The nationalist demands for constitutional reforms during the Moderate phase primarily centred around which two aspects?",
+        "options": [
+          "Abolition of councils and creation of a constituent assembly",
+          "Expansion and reform of councils",
+          "Complete independence and parliamentary democracy",
+          "Separation of powers and universal suffrage"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Demands were mainly for expansion and reforms of legislative councils."
+      },
+      {
+        "text": "What was the long-term objective of the early nationalists concerning self-government?",
+        "options": [
+          "Benevolent despotism",
+          "Total independence through violence",
+          "Democratic self-government",
+          "Limited autonomy under British supervision"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The goal was achieving democratic self-government."
+      },
+      {
+        "text": "Which Act raised the number of additional members in the Imperial and Provincial Legislative Councils?",
+        "options": [
+          "Indian Councils Act 1861",
+          "Indian Councils Act 1892",
+          "Morley-Minto Reforms 1909",
+          "Government of India Act 1919"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Indian Councils Act 1892 expanded council membership."
+      },
+      {
+        "text": "Under the Indian Councils Act 1892, what was a significant change regarding the budget in the legislative councils?",
+        "options": [
+          "It could be voted upon by Indian members.",
+          "Any amendments to it could be proposed.",
+          "It could be discussed, but not voted upon or amended.",
+          "Indian members had full control over its allocation."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The budget could be discussed, but not amended or voted upon."
+      },
+      {
+        "text": "Which limitation was placed on asking questions in the legislative councils under the Indian Councils Act 1892?",
+        "options": [
+          "Questions could not be asked on financial matters.",
+          "Only written questions were allowed.",
+          "Supplementaries could not be asked.",
+          "Questions could only be asked by official members."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Supplementary questions were not allowed under the Act."
+      },
+      {
+        "text": "Despite the reforms of 1892, who retained their majority in the councils, making the non-official voice ineffective?",
+        "options": [
+          "Indian members",
+          "Elected members",
+          "Officials",
+          "Princely state representatives"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Officials retained council majorities."
+      },
+      {
+        "text": "Which of the following was a key demand of the Moderates regarding general administrative reforms?",
+        "options": [
+          "Abolition of the civil service",
+          "Complete independence of the judiciary",
+          "Indianisation of government service",
+          "Reduction in welfare expenditure"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A major Moderate demand was Indianisation of services."
+      },
+      {
+        "text": "The Moderates criticized the British bureaucracy for being:",
+        "options": [
+          "Too efficient",
+          "Too centralized",
+          "Tyrannical and expensive",
+          "Too inclusive of Indians"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was seen as tyrannical and expensive by the Moderates."
+      },
+      {
+        "text": "What was a specific demand of the Moderates concerning Indian labour abroad?",
+        "options": [
+          "Repatriation of all Indian labourers",
+          "Formation of Indian trade unions abroad",
+          "Better treatment for Indian labour in other British colonies",
+          "Restrictions on Indian emigration"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They pressed for better treatment of Indian labour in other British colonies."
+      },
+      {
+        "text": "According to the source, the early nationalists were able to create a wide:",
+        "options": [
+          "Political divide",
+          "Financial crisis",
+          "National awakening",
+          "Religious movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Early nationalists led to a broad national awakening."
+      },
+      {
+        "text": "What was the primary character of the political work of the early nationalists?",
+        "options": [
+          "Based on revolutionary theories",
+          "Based on hard realities",
+          "Based on religious scriptures",
+          "Based on foreign ideologies"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was mainly based on the hard realities of their time."
+      },
+      {
+        "text": "How did the early nationalists contribute to the future of the national movement?",
+        "options": [
+          "By advocating immediate armed struggle",
+          "By creating a solid base for a more vigorous, militant, mass-based movement",
+          "By forming a parallel government",
+          "By collaborating fully with the British administration"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They laid the foundation for a future mass-based movement."
+      },
+      {
+        "text": "Why did the early nationalists fail to widen the democratic base of the movement by not including the masses?",
+        "options": [
+          "They feared mass violence.",
+          "They believed heterogeneous elements had to be welded into a nation first.",
+          "The British government forbade mass participation.",
+          "They lacked the necessary resources for mass mobilization."
+        ],
+        "correctAnswer": 1,
+        "explanation": "They thought the masses first had to be united into a nation."
+      },
+      {
+        "text": "How did the later nationalists differ from the Moderates regarding the role of the masses?",
+        "options": [
+          "Later nationalists were also hesitant to involve the masses.",
+          "Later nationalists focused solely on elite participation.",
+          "Later nationalists differed precisely on the point of mass inclusion.",
+          "Later nationalists aimed to exclude certain communities from the masses."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The inclusion of the masses was a key difference for later nationalists."
+      },
+      {
+        "text": "What was the British Indian Government's attitude towards the Congress from its beginning?",
+        "options": [
+          "Supportive",
+          "Neutral",
+          "Hostile",
+          "Indifferent"
+        ],
+        "correctAnswer": 2,
+        "explanation": "British authorities were hostile to Congress from the outset."
+      },
+      {
+        "text": "What derogatory term did the government use to refer to the nationalists?",
+        "options": [
+          "Loyal subjects",
+          "Reformist thinkers",
+          "\"Seditious brahmins\", \"disloyal babus\"",
+          "Political agitators"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Nationalists were derided as 'seditious brahmins' and 'disloyal babus.'"
+      },
+      {
+        "text": "Who referred to the Congress as \"a factory of sedition\"?",
+        "options": [
+          "A.O. Hume",
+          "Lord Curzon",
+          "Lord Dufferin",
+          "Lord Ripon"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Dufferin called the Congress a 'factory of sedition.'"
+      },
+      {
+        "text": "What policy did the government employ to divide the nationalists?",
+        "options": [
+          "Policy of assimilation",
+          "Policy of direct rule",
+          "Policy of 'carrot and stick'",
+          "Policy of economic incentives"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They utilized a 'carrot and stick' (reward-punishment) strategy."
+      },
+      {
+        "text": "The Moderates' belief in 'liberalism' meant their adherence to:",
+        "options": [
+          "Radical revolutionary ideas",
+          "Constitutional and peaceful means",
+          "Socialistic economic policies",
+          "Exclusive religious practices"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Moderates followed constitutional, peaceful methods (liberalism)."
+      },
+      {
+        "text": "The main architects of the Indian National Conference, which later merged with the Indian National Congress, were:",
+        "options": [
+          "Dadabhai Naoroji and W.C. Bonnerjee",
+          "Surendranath Banerjea and Ananda Mohan Bose",
+          "Pherozshah Mehta and D.E. Wacha",
+          "A.O. Hume and Lord Dufferin"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Surendranath Banerjea and Ananda Mohan Bose headed the Indian National Conference."
+      },
+      {
+        "text": "Which significant event in 1885 led to the foundation of the Indian National Congress?",
+        "options": [
+          "The Vernacular Press Act",
+          "The first session held in Bombay",
+          "The Ilbert Bill controversy",
+          "The retirement of A.O. Hume"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The foundation event was the first INC session in Bombay."
+      },
+      {
+        "text": "The Moderates aimed to persuade the British Government and public opinion to introduce what in India?",
+        "options": [
+          "Military expansion",
+          "Industrial development",
+          "Political reforms",
+          "Religious conversions"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Political reforms were sought by the Moderates."
+      },
+      {
+        "text": "The term \"drain theory\" developed by Moderate nationalists primarily focused on:",
+        "options": [
+          "The drainage of water resources in India",
+          "The economic exploitation of India by Britain",
+          "The flow of British capital into India",
+          "The drain of talent from India to Britain"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The 'drain theory' highlighted economic exploitation by Britain."
+      },
+      {
+        "text": "Which of the following was NOT a general administrative reform demanded by the Moderates?",
+        "options": [
+          "Separation of judicial from executive functions",
+          "Criticism of aggressive foreign policy",
+          "Demand for increase in expenditure on military",
+          "Call for increase in expenditure on welfare"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates did not ask for higher military expenditure."
+      },
+      {
+        "text": "The early nationalists are described as representing the most:",
+        "options": [
+          "Conservative forces",
+          "Reactionary elements",
+          "Progressive forces",
+          "Religious fundamentalists"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Early nationalists were the most progressive elements of Indian society then."
+      },
+      {
+        "text": "The political work of early nationalists was essential because it exposed the:",
+        "options": [
+          "Philanthropic nature of British rule",
+          "Basically exploitative character of colonial rule",
+          "Democratic intentions of the British",
+          "Efficiency of the British administration"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They exposed colonial rule as fundamentally exploitative."
+      },
+      {
+        "text": "What was the view of the Moderates regarding the inclusion of 'heterogeneous elements' (masses) in the political sphere?",
+        "options": [
+          "They should be included immediately.",
+          "They should be excluded permanently.",
+          "They had to be welded into a nation first.",
+          "They were incapable of political participation."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Moderates wanted the masses unified as a nation before participation."
+      },
+      {
+        "text": "The British government tried to divide the nationalists on the basis of:",
+        "options": [
+          "Class",
+          "Language",
+          "Region",
+          "Religion"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The divisive policy was often based on religion."
+      },
+      {
+        "text": "The Indian Councils Act of 1892 was seen by the Congress as the \"root of all other reforms\" because it was related to:",
+        "options": [
+          "Economic policies",
+          "Council reforms",
+          "Social welfare",
+          "Military restructuring"
+        ],
+        "correctAnswer": 1,
+        "explanation": "1892's Act was considered the foundation for further council reforms."
+      },
+      {
+        "text": "What kind of members were Indians associated as in the legislative bodies after the Indian Councils Act of 1861?",
+        "options": [
+          "Official members",
+          "Elected representatives",
+          "Non-officials from elite sections",
+          "Nominated members from all social strata"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Indians were mostly 'non-officials' from elite backgrounds."
+      },
+      {
+        "text": "Which of these individuals was NOT explicitly named as a leader of the Moderate phase (1885-1905) in the provided text?",
+        "options": [
+          "D.E. Wacha",
+          "W.C. Bonnerjea",
+          "Gopal Krishna Gokhale",
+          "S.N. Banerjea"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gopal Krishna Gokhale is not named in the provided text as a Moderate leader."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>
