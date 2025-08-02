@@ -11,7 +11,7 @@ const subjectsConfig = {
                 name: 'Current Affairs',
                 description: 'Explore questions from Bihar and India CA',
                 chapters: [
-                    { id: 'chapter1_1', name: 'Lecture 1', file: 'Lec_1.html' },
+                    { id: 'chapter1_1', name: 'Lecture 1', file: '/CA/Lec_1.html' },
                     { id: 'chapter1_2', name: 'Lecture 2', file: 'Lec_2.html' },
                     { id: 'chapter1_3', name: 'Lecture 3', file: 'Lec_3.html' },
                     { id: 'chapter1_4', name: 'Lecture 4', file: 'Lec_4.html' },
