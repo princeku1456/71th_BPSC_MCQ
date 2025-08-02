@@ -48,6 +48,26 @@ const subjectsConfig = {
                 id: 'chapter2_4',
                 name: 'Current Affairs - Lecture 8', // Corrected duplicate id
                 file: 'CA/Lec_8.html'
+            },
+            {
+                id: 'chapter11',
+                name: 'Current Affairs - Lecture 8', // Corrected duplicate id
+                file: 'CA/Lec_9.html'
+            },
+            {
+                id: 'chapter12',
+                name: 'Current Affairs - Lecture 8', // Corrected duplicate id
+                file: 'CA/Lec_10.html'
+            },
+            {
+                id: 'chapter13',
+                name: 'Current Affairs - Lecture 8', // Corrected duplicate id
+                file: 'CA/Lec_11.html'
+            },
+            {
+                id: 'chapter14',
+                name: 'Current Affairs - Lecture 8', // Corrected duplicate id
+                file: 'CA/Lec_12.html'
             }
         ]
     }
