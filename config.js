@@ -4,7 +4,7 @@ const subjectsConfig = {
     CurrentAffair: {
         name: 'Current Affair',
         description: 'Explore MCQs',
-        color: 'dark',
+        color: 'primary',
         icon: '📰 🗞️ 📢',
         // Flattening all chapters directly under history, no intermediate topics
         chapters: [
