@@ -2,608 +2,670 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MCQ Quiz - Lecture 7 </title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MCQ Quiz - Lecture 7</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
-    .question {
-      margin-bottom: 20px;
+    body {
+      background-color: #f8f9fa;
     }
 
-    .option {
-      cursor: pointer;
-      padding: 10px;
-    }
-
-    .correct {
-      background-color: #d4edda !important;
-      color: green;
-    }
-
-    .incorrect {
-      background-color: #f8d7da !important;
-      color: red;
-    }
-
-    .explanation {
-      color: blue;
-    }
-
-    .center-div {
+    .container.center-div {
       display: flex;
       justify-content: center;
       align-items: center;
       min-height: 100vh;
     }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
   </style>
 </head>
 
 <body>
-
   <div class="container center-div">
-    <div class="col-lg-8 col-md-10 col-sm-12 p-5 border rounded shadow-lg">
-      <h3 class="text-center mb-4">Lecutre 7</h3>
+    <div class="quiz-box">
+      <h3 class="text-center">Lecture 7</h3>
       <div id="quiz-container">
-        <!-- Questions will be inserted here by JavaScript -->
+        <!-- Questions will be inserted here -->
       </div>
-
-      <button class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
-      <div id="result" class="mt-4"></div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
     </div>
   </div>
 
   <script>
-    // Quiz questions
+    // Quiz questions array
     const questions = [{
-        "text": "The National Maritime Heritage Complex (NMHC) is being developed by which Ministry?",
+        "text": "Which of the following Indian entries were mentioned as notable inclusions in the UNESCO Memory of the World Register prior to the recent additions of Bhagavad Gita and Natyashastra?",
         "options": [
-          "Ministry of Culture",
-          "Ministry of Tourism",
-          "Ministry of Ports, Shipping and Waterways",
-          "Ministry of External Affairs"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The NMHC is being developed by the Ministry of Ports, Shipping and Waterways at Lothal, Gujarat."
-      },
-      {
-        "text": "Lothal, the site of the National Maritime Heritage Complex, dates back to approximately what period?",
-        "options": [
-          "1500 BCE",
-          "2000 BCE",
-          "2600 BCE",
-          "3000 BCE"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Lothal flourished as an Indus Valley site around 2600 BCE."
-      },
-      {
-        "text": "Who is credited with the discovery of the oldest known manmade dockyard at Lothal?",
-        "options": [
-          "J. P. Joshi",
-          "S. R. Rao",
-          "John Marshall",
-          "R. D. Banerji"
+          "Works of Kalidasa",
+          "Rig Veda",
+          "Arthashastra",
+          "Ramayana"
         ],
         "correctAnswer": 1,
-        "explanation": "S. R. Rao discovered Lothal in 1954, revealing the world's earliest known dockyard."
+        "explanation": "The Rig Veda was already included in UNESCO's Memory of the World Register before Bhagavad Gita and Natyashastra."
       },
       {
-        "text": "Dholavira, known for its unique water harvesting system, is located in which region?",
+        "text": "The Natyashastra is believed to have been compiled by which ancient scholar around the 2nd century BCE?",
         "options": [
-          "Saurashtra",
-          "Kutch",
-          "Malwa",
-          "Konkan"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Dholavira is located on Khadir Bet island in the Kutch region of Gujarat."
-      },
-      {
-        "text": "Which of the following describes Dholavira's status among UNESCO World Heritage Sites?",
-        "options": [
-          "39th UNESCO World Heritage Site",
-          "40th UNESCO World Heritage Site",
-          "41st UNESCO World Heritage Site",
-          "42nd UNESCO World Heritage Site"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Dholavira was inscribed as India's 40th UNESCO World Heritage Site."
-      },
-      {
-        "text": "The Maratha Military Landscapes of India, designated as India's 44th World Heritage Site, are spread across which states?",
-        "options": [
-          "Maharashtra and Karnataka",
-          "Maharashtra and Madhya Pradesh",
-          "Maharashtra and Goa",
-          "Maharashtra and Tamil Nadu"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The Maratha Military Landscapes are spread across Maharashtra and Tamil Nadu (Gingee Fort)."
-      },
-      {
-        "text": "Which of the following forts is part of the Maratha Military Landscapes of India and is located in Tamil Nadu?",
-        "options": [
-          "Salher",
-          "Shivneri",
-          "Gingee Fort",
-          "Vijaydurg"
+          "Ved Vyas",
+          "Valmiki",
+          "Bharatmuni",
+          "Patanjali"
         ],
         "correctAnswer": 2,
-        "explanation": "Gingee Fort is the Maratha fort located in Tamil Nadu."
+        "explanation": "Bharatmuni is credited with compiling the Natyashastra around the 2nd century BCE."
       },
       {
-        "text": "World Heritage Day is observed annually on what date?",
+        "text": "The Bhagavad Gita is primarily presented as a dialogue between Lord Krishna and which warrior on the battlefield of Kurukshetra?",
         "options": [
-          "22nd April",
-          "18th April",
-          "5th June",
-          "10th December"
+          "Duryodhana",
+          "Arjuna",
+          "Bhima",
+          "Yudhisthira"
         ],
         "correctAnswer": 1,
-        "explanation": "World Heritage Day is celebrated worldwide on 18th April annually."
+        "explanation": "The Bhagavad Gita is a dialogue between Lord Krishna and Arjuna."
       },
       {
-        "text": "What is the theme for World Heritage Day 2025?",
+        "text": "Operation SINDOOR, an Indian retaliation operation, was launched in which specific month and year?",
         "options": [
-          "Sustainable Heritage for Future Generations",
-          "Heritage and Climate Change: A Global Challenge",
-          "Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions",
-          "Preserving Our Shared Cultural Heritage"
+          "April 2025",
+          "May 2025",
+          "June 2025",
+          "March 2025"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Operation SINDOOR took place in May 2025."
+      },
+      {
+        "text": "What was the name of Pakistan's retaliatory operation following India's Operation SINDOOR?",
+        "options": [
+          "Operation Eagle Strike",
+          "Operation Swift Retort",
+          "Operation Bunyan al-Marsoos",
+          "Operation Zarb-e-Azb"
         ],
         "correctAnswer": 2,
-        "explanation": "The 2025 theme is 'Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions.'"
+        "explanation": "Pakistan responded with Operation Bunyan al-Marsoos."
       },
       {
-        "text": "In which year was the World Heritage Convention adopted by UNESCO?",
+        "text": "Mumbai's Carnac Bridge was renamed subsequent to Operation SINDOOR. What is its new designation?",
         "options": [
-          "1968",
+          "Swatantrata Bridge",
+          "Vijay Bridge",
+          "Sindoor Bridge",
+          "Dhruv Bridge"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The bridge was renamed Sindoor Bridge."
+      },
+      {
+        "text": "According to the statement by ISRO Chairman V. Narayanan in May, approximately how many satellites are consistently operating for strategic defense purposes?",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "15"
+        ],
+        "correctAnswer": 2,
+        "explanation": "There are about 10 satellites operating for strategic defense."
+      },
+      {
+        "text": "The SCALP missile, with a full form of Storm Shadow, is classified as which type of missile?",
+        "options": [
+          "Surface-to-Air Missile",
+          "Air-Launched Cruise Missile",
+          "Ballistic Missile",
+          "Anti-Tank Guided Missile"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SCALP (Storm Shadow) is an air-launched cruise missile."
+      },
+      {
+        "text": "What is the stated speed range of the BRAHMOS supersonic cruise missile?",
+        "options": [
+          "Mach 1.0–1.5",
+          "Mach 2.0–2.5",
+          "Mach 2.8–3.0",
+          "Mach 3.5–4.0"
+        ],
+        "correctAnswer": 2,
+        "explanation": "BRAHMOS travels at supersonic speeds of Mach 2.8–3.0."
+      },
+      {
+        "text": "The S-400 Defence System is colloquially known by which nickname in India?",
+        "options": [
+          "Trishul Chakra",
+          "Sudarshan Chakra",
+          "Agni Chakra",
+          "Vajra Chakra"
+        ],
+        "correctAnswer": 1,
+        "explanation": "S-400 is referred to as Sudarshan Chakra in India."
+      },
+      {
+        "text": "Operation Ganga was specifically undertaken by India for the evacuation of its nationals during which international conflict?",
+        "options": [
+          "Syria Civil War",
+          "Russia–Ukraine war",
+          "Yemen Civil War",
+          "Afghanistan War"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Operation Ganga was for evacuating Indians from Ukraine during the Russia–Ukraine war."
+      },
+      {
+        "text": "What was the primary objective of Operation Sindhu, launched by India, as mentioned in the context of recent conflicts?",
+        "options": [
+          "Rescue mission during an earthquake",
+          "Evacuation during the Iran–Israel war",
+          "Anti-narcotics operation",
+          "Disaster relief in Haiti"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Operation Sindhu was an evacuation during the Iran–Israel war."
+      },
+      {
+        "text": "BHISHM Cubes, with a full form of Bharat Health Initiative for Sahyog, Hita & Maitri, are primarily known as what innovative medical infrastructure?",
+        "options": [
+          "Advanced satellite communication devices",
+          "Portable Hospitals",
+          "Rapid deployment drone systems",
+          "Specialised medical research labs"
+        ],
+        "correctAnswer": 1,
+        "explanation": "BHISHM Cubes are portable hospitals."
+      },
+      {
+        "text": "Which specific Indian agency launched Operation MED MAX, an international anti-drug operation?",
+        "options": [
+          "Central Bureau of Investigation (CBI)",
+          "Research and Analysis Wing (RAW)",
+          "Narcotics Control Bureau (NCB)",
+          "Directorate of Revenue Intelligence (DRI)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The NCB (Narcotics Control Bureau) launched Operation MED MAX."
+      },
+      {
+        "text": "Operation Rising Lion was a key military operation carried out by which country, targeting Iran?",
+        "options": [
+          "Iran",
+          "USA",
+          "Israel",
+          "India"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Israel conducted Operation Rising Lion targeting Iran."
+      },
+      {
+        "text": "Operation True Promise 3 was launched as a major missile retaliation against Israel by which nation?",
+        "options": [
+          "Israel",
+          "USA",
+          "Iran",
+          "Russia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Iran launched Operation True Promise 3 against Israel."
+      },
+      {
+        "text": "The Strait of Hormuz holds significant strategic importance due to the transportation of what percentage of global Liquefied Natural Gas (LNG) through it?",
+        "options": [
+          "10%",
+          "20%",
+          "30%",
+          "40%"
+        ],
+        "correctAnswer": 2,
+        "explanation": "30% of global LNG passes through the Strait of Hormuz."
+      },
+      {
+        "text": "The Bab el-Mandeb Strait is geographically positioned between Yemen on the Arabian Peninsula and which two countries in the Horn of Africa?",
+        "options": [
+          "Somalia and Kenya",
+          "Sudan and Ethiopia",
+          "Djibouti and Eritrea",
+          "Egypt and Libya"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bab el-Mandeb lies between Yemen and Djibouti and Eritrea."
+      },
+      {
+        "text": "In which year was the Indus Waters Treaty, brokered by the World Bank, officially signed?",
+        "options": [
+          "1950",
+          "1960",
           "1970",
-          "1972",
-          "1975"
+          "1980"
         ],
-        "correctAnswer": 2,
-        "explanation": "The World Heritage Convention was adopted by UNESCO in 1972."
+        "correctAnswer": 1,
+        "explanation": "The Indus Waters Treaty was signed in 1960."
       },
       {
-        "text": "What is India's global ranking for the number of World Heritage Sites?",
+        "text": "Under the provisions of the Indus Waters Treaty, what percentage of the combined waters is allocated for India's beneficial use?",
         "options": [
-          "4th",
-          "5th",
-          "6th",
-          "7th"
-        ],
-        "correctAnswer": 2,
-        "explanation": "India ranks 6th globally in the number of World Heritage Sites."
-      },
-      {
-        "text": "How many nations have ratified the World Heritage Convention, 1972?",
-        "options": [
-          "180",
-          "190",
-          "196",
-          "200"
-        ],
-        "correctAnswer": 2,
-        "explanation": "As of now, 196 nations have ratified the convention."
-      },
-      {
-        "text": "Which site was inscribed as India's 43rd World Heritage Site?",
-        "options": [
-          "Great Living Chola Temples",
-          "Group of Monuments at Hampi",
-          "Moidams of Charaideo, Assam",
-          "Kakatiya Rudreshwara (Ramappa) Temple"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Moidams of Charaideo, Assam, was inscribed as the 43rd site."
-      },
-      {
-        "text": "Which of the following was among the first sites from India inscribed in the World Heritage List in 1983?",
-        "options": [
-          "Qutb Minar",
-          "Humayun's Tomb",
-          "Ajanta Caves",
-          "Red Fort Complex"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Ajanta Caves were among the first Indian sites inscribed in 1983."
-      },
-      {
-        "text": "How many sites are currently on India's Tentative List for World Heritage status?",
-        "options": [
-          "50",
-          "55",
-          "60",
-          "62"
+          "80%",
+          "50%",
+          "40%",
+          "20%"
         ],
         "correctAnswer": 3,
-        "explanation": "India currently has 62 sites on its Tentative List."
+        "explanation": "India is allocated about 20% of the combined waters."
       },
       {
-        "text": "Where was the 46th World Heritage Committee Meeting held?",
+        "text": "Which of the following rivers is classified as a Western River under the Indus Waters Treaty, with its waters primarily allocated to Pakistan?",
         "options": [
-          "Paris, France",
-          "Delhi, India",
-          "Beijing, China",
-          "Rome, Italy"
+          "Ravi",
+          "Beas",
+          "Satluj",
+          "Chenab"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Chenab is a Western River allocated to Pakistan under the treaty."
+      },
+      {
+        "text": "The Bhakra Nangal Project, a major Indian undertaking, is constructed on which of the Eastern Rivers allocated to India?",
+        "options": [
+          "Beas",
+          "Satluj",
+          "Ravi",
+          "Yamuna"
         ],
         "correctAnswer": 1,
-        "explanation": "The 46th meeting was held in Delhi, India."
+        "explanation": "Bhakra Nangal Project is built on the Satluj."
       },
       {
-        "text": "Who is the current Director-General of UNESCO?",
+        "text": "What is the approximate total length of the Indira Gandhi Canal, also known as the Rajasthan Canal?",
         "options": [
-          "Antonio Guterres",
-          "Tedros Adhanom Ghebreyesus",
-          "Audrey Azoulay",
-          "Kristalina Georgieva"
+          "350 km",
+          "450 km",
+          "550 km",
+          "650 km"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The total length of the Indira Gandhi Canal is approximately 650 km."
+      },
+      {
+        "text": "How many distinct chapters does the sacred text Bhagavad Gita comprise?",
+        "options": [
+          "12",
+          "16",
+          "18",
+          "24"
         ],
         "correctAnswer": 2,
-        "explanation": "Audrey Azoulay is the current Director-General of UNESCO."
+        "explanation": "The Bhagavad Gita consists of 18 chapters."
       },
       {
-        "text": "Who was appointed as the 10th President of the International Olympic Committee (IOC)?",
+        "text": "The manuscript of Natyashastra is officially safeguarded at which renowned institution?",
         "options": [
-          "Thomas Bach",
-          "Kirsty Coventry",
-          "Gianni Infantino",
-          "Sepp Blatter"
+          "National Archives of India",
+          "Bhandarkar Oriental Research Institute",
+          "Asiatic Society, Kolkata",
+          "Saraswati Mahal Library"
         ],
         "correctAnswer": 1,
-        "explanation": "Kirsty Coventry was appointed as the 10th IOC President."
+        "explanation": "Bhandarkar Oriental Research Institute preserves the Natyashastra manuscript."
       },
       {
-        "text": "Kirsty Coventry is the first female and first African to hold the post of IOC President. In which sport is she a two-time Olympic gold medallist?",
+        "text": "In what year was the UNESCO Memory of the World Programme, aimed at safeguarding documentary heritage, officially initiated?",
         "options": [
-          "Athletics",
-          "Gymnastics",
-          "Swimming",
-          "Rowing"
+          "1982",
+          "1992",
+          "2002",
+          "2012"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The UNESCO Memory of the World Programme was initiated in 1992."
+      },
+      {
+        "text": "The Phalgam attack, which prompted India's Operation SINDOOR, took place on which specific date?",
+        "options": [
+          "22 March 2025",
+          "22 April 2025",
+          "7 May 2025",
+          "11 May 2025"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Phalgam attack occurred on 22 April 2025."
+      },
+      {
+        "text": "The Indian retaliation phase of Operation SINDOOR was executed and completed in approximately how many minutes?",
+        "options": [
+          "15 minutes",
+          "23 minutes",
+          "30 minutes",
+          "45 minutes"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The retaliation was completed in 23 minutes."
+      },
+      {
+        "text": "Who was the Director General of Military Operations (DGMO) specifically named as directing the Indian retaliation during Operation SINDOOR?",
+        "options": [
+          "Chief of Army Staff",
+          "National Security Advisor",
+          "DGMO Rajeev Ghai",
+          "Defence Minister"
         ],
         "correctAnswer": 2,
-        "explanation": "She is a two-time Olympic gold medallist in swimming."
+        "explanation": "DGMO Rajeev Ghai directed the Indian retaliation."
       },
       {
-        "text": "Who is the current Chairman of the Indian Olympic Association?",
+        "text": "Muridke, one of the locations targeted in Operation SINDOOR, is identified as the headquarters of which prominent terrorist organization?",
         "options": [
-          "Anurag Thakur",
-          "Narinder Batra",
-          "PT Usha",
-          "Abhinav Bindra"
+          "Jaish-e-Mohammed (JeM)",
+          "Hizbul Mujahideen (HM)",
+          "Lashkar-e-Taiba (LeT)",
+          "Al-Qaeda"
         ],
         "correctAnswer": 2,
-        "explanation": "PT Usha is the current Chairman of the Indian Olympic Association."
+        "explanation": "Muridke is the headquarters of Lashkar-e-Taiba (LeT)."
       },
       {
-        "text": "Who currently holds the position of ICC Chairman?",
+        "text": "The HAMMER Bomb, known for its highly agile and modular design, is developed by which French Defence Company?",
         "options": [
-          "Greg Barclay",
-          "Sourav Ganguly",
-          "Jay Shah",
-          "Geoff Allardice"
+          "Dassault Aviation",
+          "Thales Group",
+          "SAFRAN",
+          "MBDA"
         ],
         "correctAnswer": 2,
-        "explanation": "Jay Shah is the current ICC Chairman."
+        "explanation": "SAFRAN develops the HAMMER Bomb."
       },
       {
-        "text": "The 2026 Winter Olympics are scheduled to be held in which city?",
+        "text": "The BRAHMOS missile's name is a portmanteau derived from which two rivers?",
         "options": [
-          "Beijing, China",
-          "Vancouver, Canada",
-          "Milan-Cortina, Italy",
-          "Pyeongchang, South Korea"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The 2026 Winter Olympics will be held in Milan-Cortina, Italy."
-      },
-      {
-        "text": "Who was elected as the President of the 80th UN General Assembly session?",
-        "options": [
-          "Annalena Baerbock",
-          "António Guterres",
-          "Volkan Bozkir",
-          "Abdullah Shahid"
+          "Brahmaputra and Moscow River",
+          "Ganga and Volga River",
+          "Godavari and Rhine River",
+          "Yamuna and Danube River"
         ],
         "correctAnswer": 0,
-        "explanation": "Annalena Baerbock was elected President of the 80th UNGA session."
+        "explanation": "BRAHMOS is derived from Brahmaputra and Moscow rivers."
       },
       {
-        "text": "Shaikha Al-Nowais has been appointed as the Secretary-General of which international organization?",
+        "text": "The AKASH Missile System is accurately classified as what type of missile?",
         "options": [
-          "UN Children's Fund (UNICEF)",
-          "UN World Tourism Organization (UNWTO)",
-          "World Health Organization (WHO)",
-          "International Monetary Fund (IMF)"
+          "Air-to-Air Missile",
+          "Short Range Surface-to-Air Missile (SAM)",
+          "Anti-Ship Missile",
+          "Ballistic Missile Defence"
         ],
         "correctAnswer": 1,
-        "explanation": "Shaikha Al-Nowais is Secretary-General of the UNWTO."
+        "explanation": "AKASH is a short range Surface-to-Air Missile (SAM) system."
       },
       {
-        "text": "Shaikha Al-Nowais is the first woman globally and the first from which country to hold the post of UNWTO Secretary-General?",
+        "text": "Operation Indravati was specifically launched by India for the evacuation of its citizens due to violence in which country?",
         "options": [
-          "Qatar",
+          "Ukraine",
+          "Afghanistan",
+          "Haiti",
+          "Syria"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Operation Indravati was for the evacuation from Haiti."
+      },
+      {
+        "text": "What was the primary purpose of India's Operation Devi Shakti?",
+        "options": [
+          "Evacuation during Russia–Ukraine war",
+          "Afghanistan evacuation during Taliban takeover",
+          "Rescue mission during Turkey–Syria Earthquake",
+          "Evacuation due to Haiti violence"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Operation Devi Shakti evacuated Indians during the Afghanistan Taliban takeover."
+      },
+      {
+        "text": "What is the correct full form of the medical initiative known as BHISHM Cubes?",
+        "options": [
+          "Bharat Health Initiative for Support, Help & Medicine",
+          "Bharat Hospital Infrastructure for Sahyog, Hita & Maitri",
+          "Bharat Health Initiative for Sahyog, Hita & Maitri",
+          "Biomedical Health Innovation for Safety, Hygiene & Medical"
+        ],
+        "correctAnswer": 2,
+        "explanation": "BHISHM Cubes stand for Bharat Health Initiative for Sahyog, Hita & Maitri."
+      },
+      {
+        "text": "The stated objective of Operation Midnight Hammer, carried out by the USA against Iran, was to achieve what specific military goal?",
+        "options": [
+          "Secure strategic oil fields",
+          "Cripple Iranian military infrastructure",
+          "Negotiate a peace treaty",
+          "Conduct humanitarian aid operations"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The objective was to cripple Iranian military infrastructure."
+      },
+      {
+        "text": "The Strait of Hormuz is bordered on its southern side by which two nations?",
+        "options": [
+          "Saudi Arabia and Qatar",
+          "UAE and Oman",
+          "Kuwait and Bahrain",
+          "Pakistan and Iran"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Strait is bordered south by UAE and Oman."
+      },
+      {
+        "text": "Which of the following countries is explicitly mentioned as bordering the Red Sea?",
+        "options": [
+          "Iraq",
+          "Jordan",
           "Saudi Arabia",
-          "United Arab Emirates",
-          "Bahrain"
+          "Lebanon"
         ],
         "correctAnswer": 2,
-        "explanation": "She is the first woman and the first from UAE to hold this post."
+        "explanation": "Saudi Arabia borders the Red Sea."
       },
       {
-        "text": "Dhudmaras, a village selected by the UNWTO for its Best Tourism Village Upgrade programme, is situated in which state of India?",
+        "text": "The India–UAE Civil Nuclear Energy Agreement specifically involves the Barakah Nuclear Plant, located in which city of the UAE?",
         "options": [
-          "Odisha",
-          "Madhya Pradesh",
-          "Chhattisgarh",
-          "Jharkhand"
+          "Dubai",
+          "Sharjah",
+          "Abu Dhabi",
+          "Fujairah"
         ],
         "correctAnswer": 2,
-        "explanation": "Dhudmaras is located in Chhattisgarh."
+        "explanation": "Barakah Plant is located in Abu Dhabi."
       },
       {
-        "text": "Dhudmaras village is located in the heart of which National Park?",
+        "text": "The UAE has introduced a 10-year Blue Residency Visa primarily for which category of individuals?",
         "options": [
-          "Indravati National Park",
-          "Guru Ghasidas National Park",
-          "Kanger Valley National Park",
-          "Sanjay National Park"
-        ],
-        "correctAnswer": 2,
-        "explanation": "It lies within the Kanger Valley National Park."
-      },
-      {
-        "text": "Who was appointed as the 7th Secretary-General of the Commonwealth?",
-        "options": [
-          "Patricia Scotland",
-          "Kamalesh Sharma",
-          "Shirley Ayorkor Botchwey",
-          "Emeka Anyaoku"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Shirley Ayorkor Botchwey is the 7th Secretary-General."
-      },
-      {
-        "text": "Which two countries were the last to join the Commonwealth in 2022?",
-        "options": [
-          "Rwanda and Mozambique",
-          "Gambia and Maldives",
-          "Gabon and Togo",
-          "Samoa and Vanuatu"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Gabon and Togo joined the Commonwealth in 2022."
-      },
-      {
-        "text": "Which is the smallest member country of the Commonwealth of Nations by area/population?",
-        "options": [
-          "Tuvalu",
-          "Nauru",
-          "San Marino",
-          "Monaco"
+          "Students and Researchers",
+          "Professionals, NGO workers, and experts working in green industries",
+          "Athletes and Artists",
+          "Investors and Entrepreneurs"
         ],
         "correctAnswer": 1,
-        "explanation": "Nauru is the smallest member of the Commonwealth."
+        "explanation": "The Blue Residency Visa is meant for professionals, NGO workers, and sustainability experts."
       },
       {
-        "text": "India secured the historic mandate for the Presidency of the International Institute of Administrative Sciences (IIAS) for which period?",
+        "text": "Which international organization played the role of a broker in the negotiation and signing of the Indus Waters Treaty?",
         "options": [
-          "2024-2027",
-          "2025-2028",
-          "2026-2029",
-          "2027-2030"
-        ],
-        "correctAnswer": 1,
-        "explanation": "India was elected IIAS President for 2025-2028."
-      },
-      {
-        "text": "The election to the post of IIAS President was held by ballot process for the first time in how many years of the institution's history?",
-        "options": [
-          "50 years",
-          "75 years",
-          "100 years",
-          "125 years"
+          "United Nations",
+          "International Monetary Fund (IMF)",
+          "World Bank",
+          "Asian Development Bank (ADB)"
         ],
         "correctAnswer": 2,
-        "explanation": "The ballot election was a first in 100 years of IIAS history."
+        "explanation": "World Bank brokered the Indus Waters Treaty."
       },
       {
-        "text": "As per the UK-Mauritius treaty concerning the Chagos Islands, what is the annual payment by the UK to Mauritius?",
+        "text": "The Indus Waters Treaty was formally signed at which specific city?",
         "options": [
-          "$100 million",
-          "$120 million",
-          "$136 million",
-          "$150 million"
+          "Lahore",
+          "New Delhi",
+          "Karachi",
+          "Washington D.C."
         ],
         "correctAnswer": 2,
-        "explanation": "The UK pays Mauritius $136 million annually under the treaty."
+        "explanation": "The Indus Waters Treaty was signed in Karachi."
       },
       {
-        "text": "The UK will lease the Chagos Islands from Mauritius for how many years as per the treaty?",
+        "text": "The Indira Gandhi Canal, also known as the Rajasthan Canal, makes its entry into Rajasthan at which specific point?",
         "options": [
-          "50 years",
-          "75 years",
-          "99 years",
-          "100 years"
+          "Bikaner",
+          "Jaisalmer",
+          "Hanumangarh",
+          "Jodhpur"
         ],
         "correctAnswer": 2,
-        "explanation": "Lease duration for Chagos Islands is 99 years."
+        "explanation": "The canal enters Rajasthan at Hanumangarh."
       },
       {
-        "text": "The US Military Base is located on which island within the Chagos Archipelago?",
+        "text": "The Natyaveda, an oral tradition from which Natyashastra is derived, is believed to contain how many verses?",
         "options": [
-          "Peros Banhos",
-          "Salomon Islands",
-          "Diego Garcia",
-          "Great Chagos Bank"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Diego Garcia hosts the US military base."
-      },
-      {
-        "text": "Which country is noted as the first to adopt India's Jan Aushadhi Scheme?",
-        "options": [
-          "Sri Lanka",
-          "Bangladesh",
-          "Nepal",
-          "Mauritius"
+          "700",
+          "7,000",
+          "18,000",
+          "36,000"
         ],
         "correctAnswer": 3,
-        "explanation": "Mauritius was the first country to adopt the scheme."
+        "explanation": "The Natyaveda oral tradition is said to contain 36,000 verses."
       },
       {
-        "text": "Who is the author of the autobiography titled \"Diyasalai\"?",
+        "text": "As of the provided information, approximately how many entries are included worldwide in the UNESCO Memory of the World Register?",
         "options": [
-          "Kailash Satyarthi",
-          "Arun Shourie",
-          "Deepa Malik",
-          "Amitabh Kant"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Kailash Satyarthi authored \"Diyasalai.\""
-      },
-      {
-        "text": "The book \"Why Bharat Matters\" is authored by whom?",
-        "options": [
-          "P. Chidambaram",
-          "S. Jaishankar",
-          "Nirmala Sitharaman",
-          "Amit Shah"
-        ],
-        "correctAnswer": 1,
-        "explanation": "S. Jaishankar wrote \"Why Bharat Matters.\""
-      },
-      {
-        "text": "Who wrote the book \"How India Scaled Mt G20: The Inside Story of the G20 Presidency\"?",
-        "options": [
-          "Shashi Tharoor",
-          "Amitabh Kant",
-          "Arvind Subramanian",
-          "Raghuram Rajan"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Amitabh Kant is the author."
-      },
-      {
-        "text": "\"I Am Gopichand\" is a book by which author?",
-        "options": [
-          "Pullela Gopichand",
-          "P Hinduja",
-          "Sachin Tendulkar",
-          "Sania Mirza"
-        ],
-        "correctAnswer": 1,
-        "explanation": "P Hinduja authored \"I Am Gopichand.\""
-      },
-      {
-        "text": "Which book among the following is authored by Salman Rushdie?",
-        "options": [
-          "The World After Gaza",
-          "Knife",
-          "My Beloved Life",
-          "Orbital"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Salman Rushdie wrote \"Knife.\""
-      },
-      {
-        "text": "Who is the author of \"Janta ki Kahani\"?",
-        "options": [
-          "Shri Bandaru Dattatreya",
-          "Ram Nath Kovind",
-          "Venkaiah Naidu",
-          "Om Birla"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Shri Bandaru Dattatreya authored \"Janta ki Kahani.\""
-      },
-      {
-        "text": "The book \"Ramanujan: Journey of a Great Mathematician\" is co-authored by Arun Singhal and whom?",
-        "options": [
-          "C. N. R. Rao",
-          "Devendra Kumar Sharma",
-          "V. Srinivas",
-          "P. C. Mahalanobis"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Devendra Kumar Sharma co-authored the book."
-      },
-      {
-        "text": "Which book is attributed to K. Arumugam?",
-        "options": [
-          "Life on Mars",
-          "March of Glory",
-          "PMO: Prime Minister’s Office",
-          "The Kashmir Shawl"
-        ],
-        "correctAnswer": 1,
-        "explanation": "K. Arumugam authored \"March of Glory.\""
-      },
-      {
-        "text": "The book \"Indian Renaissance: The Modi Decade\" is written by whom?",
-        "options": [
-          "Aishwarya Pandit",
-          "S. Jaishankar",
-          "Sanjeev Chopra",
-          "Pankaj Mishra"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Aishwarya Pandit wrote this book."
-      },
-      {
-        "text": "Who authored the book \"Dalai Lama: Secret to Happiness\"?",
-        "options": [
-          "Dr. Dinesh Shahra",
-          "Amitava Kumar",
-          "Kuldeep Gupta",
-          "Bhim Singh"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Dr. Dinesh Shahra is the author."
-      },
-      {
-        "text": "\"Ed Finds a Home\" is a book by which well-known personality?",
-        "options": [
-          "Priyanka Chopra",
-          "Deepika Padukone",
-          "Alia Bhatt",
-          "Katrina Kaif"
+          "Less than 100",
+          "Around 250",
+          "Over 570",
+          "Over 1000"
         ],
         "correctAnswer": 2,
-        "explanation": "Alia Bhatt authored \"Ed Finds a Home.\""
+        "explanation": "There are over 570 entries worldwide in the UNESCO Memory of the World Register."
       },
       {
-        "text": "Who is the author of \"A Different Kind of Power\"?",
+        "text": "Which river was identified as being in the vicinity of the Phalgam attack, which was claimed by the Resistance Front?",
         "options": [
-          "Angela Merkel",
-          "Jacinda Ardern",
-          "Hillary Clinton",
-          "Theresa May"
+          "Jhelum River",
+          "Lidder River",
+          "Chenab River",
+          "Ravi River"
         ],
         "correctAnswer": 1,
-        "explanation": "Jacinda Ardern wrote \"A Different Kind of Power.\""
+        "explanation": "The Phalgam attack occurred near the Lidder River."
       },
       {
-        "text": "\"The Chief Minister and the Spy\" is a book written by whom?",
+        "text": "One of the strategic defense roles performed by ISRO's satellites, as stated by its chairman, includes surveillance over which specific geographical area?",
         "options": [
-          "A. S. Dulat",
-          "R. N. Kao",
-          "Ajit Doval",
-          "Vikram Sood"
+          "Western coastline",
+          "Southern peninsula",
+          "Entire northern region",
+          "Eastern borders"
         ],
-        "correctAnswer": 0,
-        "explanation": "A. S. Dulat authored this book."
+        "correctAnswer": 2,
+        "explanation": "ISRO satellites provide coverage over the entire northern region."
       },
       {
-        "text": "Who co-authored \"Jamsetji Tata\"?",
+        "text": "What is the stated missile engagement range of the S-400 Defence System, developed with Russian technology?",
         "options": [
-          "R. Gopalakrishnan & Harish Bhatt",
-          "Nandan Nilekani & Rohini Nilekani",
-          "J. R. D. Tata & Ratan Tata",
-          "Azim Premji & Shiv Nadar"
+          "200 km",
+          "300 km",
+          "400 km",
+          "600 km"
         ],
-        "correctAnswer": 0,
-        "explanation": "R. Gopalakrishnan and Harish Bhatt co-authored the book."
+        "correctAnswer": 2,
+        "explanation": "The S-400 system has a maximum engagement range of 400 km."
+      },
+      {
+        "text": "What is the official election symbol of the Plurals party, founded by Pushpam Priya Chaudhary?",
+        "options": [
+          "Lotus",
+          "Whistle",
+          "Elephant",
+          "Bicycle"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The official election symbol of the Plurals party is the Whistle."
       }
     ]
 
@@ -617,23 +679,26 @@
       questions.forEach((question, index) => {
         const questionDiv = document.createElement('div');
         questionDiv.className = 'question';
-        questionDiv.innerHTML = `<p><strong>${index + 1}. ${question.text}</strong></p>`;
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
 
         question.options.forEach((option, optIndex) => {
           const label = document.createElement('label');
-          label.className = 'option btn btn-outline-secondary d-block text-start';
+          label.className = 'option';
           label.innerHTML = `
-                        <input type="radio" name="q${index}" value="${optIndex}" class="me-2">
-                        ${option}
-                    `;
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
           questionDiv.appendChild(label);
         });
 
         const explanationDiv = document.createElement('div');
-        explanationDiv.className = 'explanation mt-2 container';
+        explanationDiv.className = 'explanation';
         explanationDiv.id = `explanation${index}`;
         explanationDiv.style.display = 'none';
-        explanationDiv.innerHTML = `<p><strong>Explanation: </strong>${question.explanation}</p>`;
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
         questionDiv.appendChild(explanationDiv);
 
         quizContainer.appendChild(questionDiv);
@@ -643,24 +708,24 @@
     function submitQuiz() {
       const quizContainer = document.getElementById('quiz-container');
       const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
       let answered = new Array(questions.length).fill(false);
       score = 0;
 
-      // Reset any previous coloring
+      // Reset previous feedback styles
       inputs.forEach(input => {
         input.parentElement.classList.remove('correct', 'incorrect');
       });
 
-      // Iterate over each question
+      // Check answers and calculate score
       questions.forEach((question, index) => {
         const selected = document.querySelector(`input[name="q${index}"]:checked`);
         const options = document.querySelectorAll(`input[name="q${index}"]`);
 
-        // Check if the question was answered
         if (selected) {
           const selectedValue = parseInt(selected.value);
+          answered[index] = true;
 
-          // If answer is correct, add score, else deduct points
           if (selectedValue === question.correctAnswer) {
             score += 1;
             selected.parentElement.classList.add('correct');
@@ -668,27 +733,27 @@
             score -= 0.34;
             selected.parentElement.classList.add('incorrect');
           }
-
-          answered[index] = true;
         }
 
-        // Mark correct answer if question was not answered or answered incorrectly
-        if (!answered[index] || selected.value != question.correctAnswer) {
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
           options[question.correctAnswer].parentElement.classList.add('correct');
         }
 
-        // Show explanation for each question
+        // Show explanation
         document.getElementById(`explanation${index}`).style.display = 'block';
       });
 
-      // Display the result
-      document.getElementById('result').innerHTML = `<h5>Your Score: ${score}</h5>`;
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
     }
 
-    // Load the quiz on page load
+    // Load quiz questions when page loads
     window.onload = loadQuiz;
   </script>
-
 </body>
 
 </html>
