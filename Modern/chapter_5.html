@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>People’s Resistance Against British Before 1857</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">People’s Resistance Against British Before 1857</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [
+      {
+        "text": "According to the sources, why did people often choose to take up arms against the British before 1857?",
+        "options": [
+          "To expand their territorial control and establish new kingdoms.",
+          "Due to the British promoting indigenous industries.",
+          "Because colonial law and judiciary safeguarded government interests, leaving no other options.",
+          "In response to the British encouraging local self-governance."
+        ],
+        "correctAnswer": 2,
+        "explanation": "People resorted to arms because colonial law and judiciary safeguarded British interests, leaving no other option."
+      },
+      {
+        "text": "Which of the following was a causative factor for people's uprisings against the British before 1857?",
+        "options": [
+          "Introduction of progressive social reforms",
+          "Stable land revenue settlements and reduced taxes",
+          "Expansion of revenue administration over tribal lands and loss of their hold over agricultural land",
+          "Promotion of local self-sufficiency and indigenous industry"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Loss of tribal land and expansion of revenue administration angered people and triggered uprisings."
+      },
+      {
+        "text": "Who were the typical leaders of civil uprisings as described in the sources?",
+        "options": [
+          "Newly emerging middle-class intellectuals",
+          "Deposed native rulers or their descendants, former zamindars, landlords, and poligars",
+          "Christian missionaries and foreign merchants",
+          "Industrial capitalists and urban workers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Civil uprisings were often led by traditional elites like deposed rulers, zamindars, and poligars."
+      },
+      {
+        "text": "What major cause of civil uprisings involved the ego of traditional zamindars and poligars being hurt?",
+        "options": [
+          "Introduction of advanced British education",
+          "Preservation of traditional social hierarchies",
+          "Rapid changes in economy, administration, and land revenue systems",
+          "Encouragement of cultural exchange programs"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rapid changes by the British hurt the ego and position of traditional elites."
+      },
+      {
+        "text": "The Sanyasi Revolt or Fakir Rebellion (1763-1800) was primarily a response to which of the following?",
+        "options": [
+          "Imposition of a new trade tariff",
+          "The disastrous famine of 1770 and harsh British economic order",
+          "British interference in religious rituals",
+          "Military conscription policies"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The devastating famine of 1770 and economic exploitation by the British led to the Sanyasi/Fakir Rebellion."
+      },
+      {
+        "text": "Who was credited with subduing the Sanyasi Revolt after prolonged action?",
+        "options": [
+          "Lord Cornwallis",
+          "Robert Clive",
+          "Warren Hastings",
+          "William Bentinck"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Warren Hastings is credited with quelling the Sanyasi Revolt."
+      },
+      {
+        "text": "Which female figure's participation is specifically recognised in the early resistances against the British during the Sanyasi Revolt?",
+        "options": [
+          "Rani Lakshmibai",
+          "Devi Chaudhurani",
+          "Begum Hazrat Mahal",
+          "Ahilyabai Holkar"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Devi Chaudhurani was a prominent female figure in the early anti-British resistance."
+      },
+      {
+        "text": "The revolt in Midnapore and Dhalbhum (1766-74) was triggered by a change in which British policy?",
+        "options": [
+          "Introduction of a new land revenue system in 1772",
+          "Restriction on traditional hunting rights",
+          "Abolition of the local judiciary",
+          "Imposition of direct British administration in 1760"
+        ],
+        "correctAnswer": 0,
+        "explanation": "The introduction of a new land revenue system in 1772 led to the revolt in Midnapore and Dhalbhum."
+      },
+      {
+        "text": "The Revolt of Moamarias (1769-99) posed a significant challenge to the authority of which kingdom?",
+        "options": [
+          "Mughal Empire",
+          "Maratha Confederacy",
+          "Ahom kings of Assam",
+          "Mysore Sultanate"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Ahom kings of Assam faced the brunt of the Moamarias Revolt."
+      },
+      {
+        "text": "What was the main issue that led to the Civil Uprisings in Gorakhpur, Basti, and Bahraich in 1781?",
+        "options": [
+          "Introduction of a new legal code",
+          "Major Alexander Hannay's oppression and excessive revenue demand as an izaradar",
+          "British attempt to establish permanent military garrisons",
+          "Religious conversion attempts by Christian missionaries"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The oppressive izaradar Major Alexander Hannay's revenue extortion led to these uprisings."
+      },
+      {
+        "text": "The Raja of Vizianagaram's revolt in 1794 was primarily due to the East India Company's demand for:",
+        "options": [
+          "Military assistance",
+          "Control over trade routes",
+          "A tribute of three lakh rupees",
+          "Cession of coastal territories"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The East India Company's demand of three lakh rupees tribute sparked the revolt."
+      },
+      {
+        "text": "Dhundia Wagh, a local Maratha leader, organized an anti-British force in Bednur (1799-1800) and was ultimately killed fighting against whose forces?",
+        "options": [
+          "Robert Clive",
+          "Lord Cornwallis",
+          "Lord Wellesley",
+          "Warren Hastings"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dhundia Wagh was killed by Lord Wellesley's forces."
+      },
+      {
+        "text": "The \"Massacre of Benares\" (1799) involved the killing of a British resident by which Nawab of Awadh?",
+        "options": [
+          "Saadat Ali Khan II",
+          "Wazir Ali Khan",
+          "Asaf-ud-Daula",
+          "Shuja-ud-Daulah"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Wazir Ali Khan was involved in the 'Massacre of Benares'."
+      },
+      {
+        "text": "Who was the zamindar of Gumsur who openly rebelled and defied public authorities by refusing to pay revenues in 1800?",
+        "options": [
+          "Dhananjaya Bhanj",
+          "Strikara Bhanj",
+          "Jlani Deo",
+          "Jagannath Deo"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Strikara Bhanj was the rebel zamindar of Gumsur."
+      },
+      {
+        "text": "The Poligars' Revolt (1795-1805) in South India was a stiff resistance to the British after the Nawab of Arcot gave control of which provinces to the East India Company?",
+        "options": [
+          "Carnatic and Mysore",
+          "Tinneveli and the Carnatic Provinces",
+          "Malabar and Konkan",
+          "Coromandel and Northern Circars"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tinneveli and Carnatic provinces' handover to EIC led to the Poligars' Revolt."
+      },
+      {
+        "text": "Who led the insurrection of the Poligars of Panjalankurichi between 1795 and 1799?",
+        "options": [
+          "Diwan Velu Thampi",
+          "Kattabomman Nayakan",
+          "Narayan Deo",
+          "Umaji Naik"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kattabomman Nayakan led the Poligar insurrection at Panjalankurichi."
+      },
+      {
+        "text": "What was 'Kaval', an ancient institution of Tamil Nadu, whose collection fees became a point of rebellion for poligars in North Arcot (1803-05)?",
+        "options": [
+          "A land tax",
+          "A watch or protection fee",
+          "A temple donation",
+          "A trade tariff"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Kaval' was a watch or protection fee, collection of which led to rebellion."
+      },
+      {
+        "text": "The Jats of Haryana fortified themselves in which town during their rebellion in 1809?",
+        "options": [
+          "Delhi",
+          "Bhiwani",
+          "Panipat",
+          "Rohtak"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Jats prepared defences in Bhiwani during their rebellion."
+      },
+      {
+        "text": "Diwan Velu Thampi's Revolt (1808-1809) in Travancore was sparked by the East India Company's harsh conditions and the meddling of whom in the state's internal affairs?",
+        "options": [
+          "The Governor-General",
+          "The British Resident",
+          "The Commander-in-Chief",
+          "The Secretary of State"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The intervention of the British Resident in Travancore's internal affairs sparked the revolt."
+      },
+      {
+        "text": "The Kundara Proclamation, calling for armed resistance against the British, was associated with which revolt?",
+        "options": [
+          "Paika Rebellion",
+          "Poligars' Revolt",
+          "Diwan Velu Thampi's Revolt",
+          "Kutch Rebellion"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Diwan Velu Thampi's Kundara Proclamation called for armed resistance."
+      },
+      {
+        "text": "Lakshaman Dawa and Darya Singh were killadars (fort commanders) involved in disturbances in which region (1808-12)?",
+        "options": [
+          "Gujarat",
+          "Bundelkhand",
+          "Awadh",
+          "Odisha"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Lakshaman Dawa and Darya Singh were involved in Bundelkhand disturbances."
+      },
+      {
+        "text": "The Kutch or Cutch Rebellion (1816-1832) saw Maharaja Bharamal II raising Arab and African troops for what purpose?",
+        "options": [
+          "To suppress local banditry",
+          "To remove the British interference in internal feuds",
+          "To expand his territory",
+          "To aid the British in their wars"
+        ],
+        "correctAnswer": 1,
+        "explanation": "He raised troops to end British interference in internal feuds."
+      },
+      {
+        "text": "What was the immediate cause of the Rising at Bareilly in 1816?",
+        "options": [
+          "Forced cultivation of indigo",
+          "Imposition of the police tax",
+          "Religious conversion attempts",
+          "Dispossession of zamindars"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The imposition of police tax triggered the Bareilly rising."
+      },
+      {
+        "text": "Dayaram, a talukdar of several villages in Aligarh district, led an upsurge in Hathras (1817) due to which main reason?",
+        "options": [
+          "British support for rival talukdars",
+          "Introduction of a new judicial system",
+          "Progressively increasing high revenues",
+          "Prohibition of certain trade activities"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dayaram rebelled against progressively increasing revenue demands."
+      },
+      {
+        "text": "The Paika Rebellion (1817) took place in which region of India?",
+        "options": [
+          "Bengal",
+          "Maharashtra",
+          "Odisha",
+          "Kerala"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Paika Rebellion occurred in Odisha."
+      },
+      {
+        "text": "The Paikas of Odisha traditionally enjoyed what kind of land tenure for their military service and policing functions?",
+        "options": [
+          "Commercial lease",
+          "Rent-free land tenures",
+          "Sharecropping agreements",
+          "Fixed-term tenancy"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Paikas held rent-free tenures for their service."
+      },
+      {
+        "text": "Who was the military chief of the Raja of Khurda who led a sundry army of Paikas in the 1817 rebellion?",
+        "options": [
+          "Gomdhar Konwar",
+          "Bakshi Jagabandhu Bidyadhar",
+          "Buddho Bhagat",
+          "Chakra Bisoi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bakshi Jagabandhu led the Paika Rebellion."
+      },
+      {
+        "text": "The Waghera Rising (1818-1820) in Okha Mandal was driven by resentment against alien rule and exactions from which local power, supported by the British?",
+        "options": [
+          "The Nizam of Hyderabad",
+          "The Gaekwad of Baroda",
+          "The Peshwa of Poona",
+          "The Holkars of Indore"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The rising was mainly against the Gaekwad of Baroda, backed by the British."
+      },
+      {
+        "text": "The Ahom Revolt (1828) in Assam was a protest against the British attempt to:",
+        "options": [
+          "Introduce new religious practices",
+          "Impose a new tax on tea plantations",
+          "Incorporate Ahom territories into the Company’s dominion",
+          "Disarm the local Ahom militia"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The revolt opposed incorporation of Ahom territories into Company dominion."
+      },
+      {
+        "text": "Who was the Ahom prince who rebelled against the British in 1828?",
+        "options": [
+          "Madari Pasi",
+          "Gomdhar Konwar",
+          "Ram Singh",
+          "Syed Ahmed"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gomdhar Konwar was the rebelling Ahom prince."
+      },
+      {
+        "text": "The Surat Salt Agitations (1840s) were a public protest against:",
+        "options": [
+          "British monopoly over opium trade",
+          "Government's decision to raise the salt duty",
+          "Restrictions on cotton textile exports",
+          "Introduction of new currency"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Agitations were against increase of salt duty by the British."
+      },
+      {
+        "text": "The Gadkaris, a hereditary military class, revolted in Kolhapur and Savantvadi due to:",
+        "options": [
+          "Religious persecution",
+          "Facing the spectre of unemployment and dismantling of their forts",
+          "Forced agricultural labor",
+          "Suppression of their traditional festivals"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gadkaris revolted due to risk of unemployment and fort destruction."
+      },
+      {
+        "text": "The Wahabi Movement, inspired by Abdul Wahab of Saudi Arabia and Shah Waliullah of Delhi, chose which location as a base for operations for declaring jihad?",
+        "options": [
+          "Delhi",
+          "Calcutta",
+          "Sithana in the north-western tribal belt",
+          "Bareilly"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sithana, in the north-western tribal belt, was their operational base."
+      },
+      {
+        "text": "After 1849, the Wahabis' attacks primarily targeted whom?",
+        "options": [
+          "Sikh kingdom of Punjab",
+          "Indigenous rulers",
+          "The English dominion in India",
+          "Portuguese settlements"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Post-1849, Wahabis targeted the English dominion and British authorities."
+      },
+      {
+        "text": "The Kuka Movement, founded in 1840 by Bhagat Jawahar Mal, originated in which region?",
+        "options": [
+          "Eastern Bengal",
+          "Malabar",
+          "Western Punjab",
+          "Chotanagpur"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Kuka movement started in Western Punjab."
+      },
+      {
+        "text": "The Narkelberia Uprising saw Mir Nithar Ali (Titu Mir) inspire Muslim tenants in West Bengal to rise against:",
+        "options": [
+          "Sikh rulers",
+          "Landlords who imposed a beard-tax and British indigo planters",
+          "Maratha chieftains",
+          "Mughal tax collectors"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mir Nithar Ali led an uprising against landlords (beard-tax) and indigo planters."
+      },
+      {
+        "text": "The Pagal Panthis, a semi-religious group mainly constituting the Hajong and Garo tribes, refused to pay which of the following?",
+        "options": [
+          "Trade tariffs",
+          "Pilgrim tax",
+          "Rent above a certain limit",
+          "Police tax"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Pagal Panthis refused rent above a set limit."
+      },
+      {
+        "text": "Dadu Mian (1819-60) was a prominent leader of which peasant movement, known for organizing a paramilitary force and establishing its own law courts?",
+        "options": [
+          "Moplah Uprisings",
+          "Faraizi Revolt",
+          "Wahabi Movement",
+          "Kuka Movement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dadu Mian was a key figure in the Faraizi movement."
+      },
+      {
+        "text": "The Moplah Uprisings in Malabar were primarily caused by grievances related to:",
+        "options": [
+          "Land tenure, high rents, and oppressive exactions",
+          "Religious discrimination by the British",
+          "Interference in their traditional fishing rights",
+          "British refusal to allow their participation in administration"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Land tenure insecurity, high rents and exactions were the main causes."
+      },
+      {
+        "text": "What was one of the key differences in causes for mainland tribal revolts compared to North-Eastern tribal revolts?",
+        "options": [
+          "Mainland revolts were solely against land revenue, while North-Eastern were not.",
+          "North-Eastern movements were not forest-based, unlike many mainland revolts.",
+          "Mainland revolts were led by messiah-like figures, which was absent in the North-East.",
+          "North-Eastern tribes had modern weapons, unlike mainland tribes."
+        ],
+        "correctAnswer": 1,
+        "explanation": "North-Eastern tribal uprisings were not focused on forest issues, unlike those in the mainland."
+      },
+      {
+        "text": "The Chuar Uprising or Revolt of the Jungle Mahal involved aboriginal tribesmen who were primarily:",
+        "options": [
+          "Traders and merchants",
+          "Farmers and hunters",
+          "Artisans and craftsmen",
+          "Fishermen and boatmen"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Chuar Uprising was composed mainly of tribal farmers and hunters."
+      },
+      {
+        "text": "The Kol Mutiny (1831) in Chotanagpur was initiated due to:",
+        "options": [
+          "Imposition of Christian missionaries",
+          "Large-scale transfers of land from Kol headmen to outsiders",
+          "British attempts to abolish their tribal councils",
+          "Recruitment of tribals into the British army"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Large-scale transfer of land from Kol headmen to outsiders sparked the mutiny."
+      },
+      {
+        "text": "Which two brothers led the Santhal Rebellion (1855-56), proclaiming an end to Company rule?",
+        "options": [
+          "Digambar Biswas and Bishnu Biswas",
+          "Sidhu and Kanhu",
+          "Buddho Bhagat and Jatra Oraon",
+          "Chakra Bisoi and Tomma Sora"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sidhu and Kanhu were the main leaders of the Santhal Rebellion."
+      },
+      {
+        "text": "The Khond Uprisings (1837-1856) were led by a young raja named:",
+        "options": [
+          "Dhundia Wagh",
+          "Narayan Deo",
+          "Chakra Bisoi",
+          "Bhukhan Singh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Chakra Bisoi led the Khond Uprisings."
+      },
+      {
+        "text": "The Koya Revolts in the eastern Godavari track occurred multiple times between 1803 and 1862, with a significant uprising in 1879-80 under whose leadership?",
+        "options": [
+          "Birsa Munda",
+          "Tomma Sora",
+          "Komaram Bheem",
+          "Alluri Sitarama Raju"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tomma Sora led the prominent Koya rebellion in 1879-80."
+      },
+      {
+        "text": "The Ramosi Risings (1822, 1825-26) in the Western Ghats were led by Chittur Singh, and later by Umaji Naik of Poona and his supporter:",
+        "options": [
+          "Nana Patil",
+          "Darya Singh",
+          "Bapu Trimbakji Sawant",
+          "Madari Pasi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bapu Trimbakji Sawant was Umaji Naik's main supporter."
+      },
+      {
+        "text": "The Khasi Uprising of the North-East was organised under Tirath Singh against the East India Company's plan to:",
+        "options": [
+          "Introduce new land revenue policies",
+          "Build a road linking the Brahmaputra Valley with Sylhet",
+          "Annex Khasi territories",
+          "Promote English education"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Tirath Singh opposed the road construction connecting Brahmaputra Valley and Sylhet."
+      },
+      {
+        "text": "What was one of the causes of discontent among sepoys leading to mutinies before 1857?",
+        "options": [
+          "Increase in their emoluments compared to British counterparts",
+          "Promotion based on merit and not seniority",
+          "Lord Canning’s General Service Enlistment Act (1856) which decreed future recruits had to serve anywhere",
+          "Greater autonomy in their religious practices"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The General Service Enlistment Act forced sepoys to serve abroad, which bred discontent."
+      },
+      {
+        "text": "Which of the following was a notable weakness of the people's uprisings against the British before 1857?",
+        "options": [
+          "Strong national impulse and common effort",
+          "Highly coordinated and well-organised leadership",
+          "Leadership was semi-feudal in character, backward-looking, and traditional",
+          "Superior methods and arms used by the fighters"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The movements were hamstrung by traditional, backward-looking semi-feudal leadership."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

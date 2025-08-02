@@ -65,5 +65,34 @@ const subjectsConfig = {
                 file: 'CA/Lec_11.html'
             }
         ]
-    }
+    },
+    ModernHistory: {
+        name: 'Modern History',
+        description: 'Explore MCQs',
+        color: 'success',
+        icon: '🔍📜⏳',
+        // Flattening all chapters directly under history, no intermediate topics
+        chapters: [
+            // Current Affairs
+            {
+                id: 'chapter1',
+                name: 'Advent of the Europeans in India',
+                file: 'Modern/chapter_3.html'
+            },
+             {
+                id: 'chapter2',
+                name: 'Expansion and Consolidation of British Power in India',
+                file: 'Modern/chapter_4.html'
+            },
+             {
+                id: 'chapter3',
+                name: 'People’s Resistance Against British Before 1857',
+                file: 'Modern/chapter_5.html'
+            }, {
+                id: 'chapter4',
+                name: 'The Revolt of 1857',
+                file: 'Modern/chapter_6.html'
+            }
+        ]
+    },
 };
