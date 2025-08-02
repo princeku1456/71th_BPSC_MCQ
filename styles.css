@@ -1,0 +1,54 @@
+.topic-card {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.topic-card:hover {
+    transform: translateY(-5px);
+}
+.chapter-card {
+    transition: transform 0.3s ease;
+    cursor: default;
+}
+.chapter-card:hover {
+    transform: translateY(-3px);
+}
+.back-btn {
+    margin-bottom: 20px;
+}
+.quiz-section {
+    min-height: 80vh;
+}
+
+.quiz-iframe {
+    width: 100%;
+    height: 80vh;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz-specific styles for when not using iframe */
+.question {
+    margin-bottom: 20px;
+}
+.option {
+    cursor: pointer;
+    padding: 10px;
+}
+.correct {
+    background-color: #d4edda !important;
+    color: green;
+}
+.incorrect {
+    background-color: #f8d7da !important;
+    color: red;
+}
+.explanation {
+    color: blue;
+}
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
