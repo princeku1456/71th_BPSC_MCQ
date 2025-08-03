@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Non-Cooperation Movement and Khilafat Aandolan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Non-Cooperation Movement and Khilafat Aandolan</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "In which period did the Khilafat and Non-Cooperation movements primarily take place in India?",
+        "options": [
+          "1905-1910",
+          "1914-1918",
+          "1919-1922",
+          "1925-1930"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The main phase of the Khilafat and Non-Cooperation movements was from 1919 to 1922."
+      },
+      {
+        "text": "What was the common programme of action adopted by both the Khilafat and Non-Cooperation movements?",
+        "options": [
+          "Armed rebellion",
+          "Violent protests",
+          "Non-violent non-cooperation",
+          "Constitutional agitation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Both movements adopted the path of non-violent non-cooperation as the principal course of action."
+      },
+      {
+        "text": "Which of the following factors contributed to the widespread discontent in India around 1919, leading to mass movements?",
+        "options": [
+          "Economic prosperity and surplus production",
+          "Introduction of Montagu-Chelmsford Reforms and the Rowlatt Act",
+          "British withdrawal from India and establishment of self-rule",
+          "Decline in prices and increased foreign investment"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Discontent was fuelled by the contrasting introduction of the Montagu-Chelmsford Reforms and the oppressive Rowlatt Act."
+      },
+      {
+        "text": "The Khilafat issue emerged due to the British treatment of which country after the First World War?",
+        "options": [
+          "Persia",
+          "Afghanistan",
+          "Turkey",
+          "Egypt"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The issue arose due to dissatisfaction with British policy towards Turkey after World War I."
+      },
+      {
+        "text": "Who was regarded by Muslims worldwide as their spiritual leader, whose removal from power sparked the Khilafat issue?",
+        "options": [
+          "Sultan-e-Azam",
+          "Imam-e-Hind",
+          "Khalifa",
+          "Amir-ul-Momineen"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Khalifa (the Caliph of Turkey) was seen as the spiritual head for Muslims."
+      },
+      {
+        "text": "Which two prominent leaders, often referred to as 'Ali brothers', led the Khilafat Movement?",
+        "options": [
+          "Abul Kalam Azad and Ajmal Khan",
+          "Shaukat Ali and Muhammad Ali",
+          "Hasrat Mohani and Jinnah",
+          "Khan Abdul Gaffar Khan and Majhar-ul-Haq"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Ali brothers, Shaukat Ali and Muhammad Ali, spearheaded the Khilafat Movement."
+      },
+      {
+        "text": "At the All India Khilafat Conference held in November 1919 in Delhi, what specific programme of action was approved?",
+        "options": [
+          "Non-payment of taxes",
+          "Boycott of British goods",
+          "Resignation from government services",
+          "Formation of parallel governments"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The conference formally endorsed the boycott of British goods."
+      },
+      {
+        "text": "What was Mahatma Gandhi's role in the All India Khilafat Committee?",
+        "options": [
+          "He was an adviser.",
+          "He was the secretary.",
+          "He was the president.",
+          "He was an observer."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi was elected president of the All India Khilafat Committee."
+      },
+      {
+        "text": "Which treaty, signed in May 1920, led to the complete dismemberment of Turkey and further intensified the Khilafat issue?",
+        "options": [
+          "Treaty of Versailles",
+          "Treaty of Lausanne",
+          "Treaty of Sevres",
+          "Treaty of Ankara"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Treaty of Sevres resulted in the partitioning of Turkey."
+      },
+      {
+        "text": "In September 1920, the Congress approved a non-cooperation programme at a special session held in which city?",
+        "options": [
+          "Nagpur",
+          "Ahmedabad",
+          "Calcutta",
+          "Madras"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A special Congress session in Calcutta approved the programme in September 1920."
+      },
+      {
+        "text": "Which of the following was NOT part of the initial non-cooperation programme approved by the Congress?",
+        "options": [
+          "Boycott of government schools and colleges",
+          "Boycott of foreign cloth",
+          "Mass civil disobedience including non-payment of taxes",
+          "Boycott of law courts"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mass civil disobedience including non-payment of taxes was not a part of the initial programme."
+      },
+      {
+        "text": "At the Nagpur session of the Indian National Congress in December 1920, what was declared as the aim of the Congress through peaceful and legitimate means?",
+        "options": [
+          "Dominion Status",
+          "Responsible Government",
+          "Swaraj",
+          "Complete Independence"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The aim of the Congress was declared as 'Swaraj' (self-rule)."
+      },
+      {
+        "text": "What important organisational change was introduced in the Indian National Congress at the Nagpur session in December 1920?",
+        "options": [
+          "Establishment of district-level committees",
+          "Creation of the Congress Working Committee (CWC) with 15 members",
+          "Formation of an all-India youth wing",
+          "Introduction of a new membership fee structure"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Formation of the Congress Working Committee (CWC) with 15 members was the key change."
+      },
+      {
+        "text": "Which prominent leader was initially sceptical of an alliance with Muslim leaders over a religious issue and of satyagraha as a political instrument?",
+        "options": [
+          "Lala Lajpat Rai",
+          "Bal Gangadhar Tilak",
+          "Sardar Vallabhbhai Patel",
+          "Motilal Nehru"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bal Gangadhar Tilak initially had reservations about such an alliance and about satyagraha."
+      },
+      {
+        "text": "What significant fund was oversubscribed during the Non-Cooperation Movement, collecting one crore rupees?",
+        "options": [
+          "Swadeshi Fund",
+          "Khilafat Fund",
+          "Tilak Swaraj Fund",
+          "National Education Fund"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Tilak Swaraj Fund exceeded its target of one crore rupees."
+      },
+      {
+        "text": "Approximately how many national schools and colleges were established during the Non-Cooperation Movement?",
+        "options": [
+          "200",
+          "400",
+          "600",
+          "800"
+        ],
+        "correctAnswer": 3,
+        "explanation": "About 800 national institutions were established during the movement."
+      },
+      {
+        "text": "Which of the following educational institutions was NOT mentioned as being organised under the leadership of nationalist figures during the movement?",
+        "options": [
+          "Jamia Millia at Aligarh",
+          "Kashi Vidyapeeth",
+          "Delhi University",
+          "Gujarat Vidyapeeth"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Delhi University was a government institution and not a nationalist one."
+      },
+      {
+        "text": "In July 1921, the Ali brothers gave a call for which specific action by Muslims, which was later echoed by Gandhi and the Congress?",
+        "options": [
+          "Joining the British Army",
+          "Resigning from the Army",
+          "Participating in local elections",
+          "Forming a separate political party"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They called for Muslims to resign from the British Army."
+      },
+      {
+        "text": "Who provided solid support for the Non-Cooperation Movement in Bihar?",
+        "options": [
+          "J.B. Kripalani",
+          "Rajendra Prasad",
+          "Maulana Azad",
+          "C. Rajagopalachari"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dr. Rajendra Prasad was the key leader in Bihar."
+      },
+      {
+        "text": "Which group from the Indian business community supported the economic boycott aspect of the movement?",
+        "options": [
+          "Only small traders",
+          "Those who benefited from emphasis on swadeshi",
+          "British trading houses",
+          "European industrialists"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The group that benefited from swadeshi - mainly Indian businessmen - supported the boycott."
+      },
+      {
+        "text": "What was a notable contribution of women during the Non-Cooperation Movement?",
+        "options": [
+          "They took up arms against the British.",
+          "They started their own parallel government.",
+          "They gave up purdah and offered ornaments for the Tilak Fund.",
+          "They exclusively focused on literary activities."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Women contributed ornaments, funds, and participated in public life by giving up purdah."
+      },
+      {
+        "text": "What was the date of the Chauri Chaura Incident?",
+        "options": [
+          "January 26, 1922",
+          "February 5, 1922",
+          "March 10, 1922",
+          "April 13, 1922"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The violent incident at Chauri Chaura happened on February 5, 1922."
+      },
+      {
+        "text": "How many policemen were killed in the violence during the Chauri Chaura Incident?",
+        "options": [
+          "10",
+          "15",
+          "22",
+          "30"
+        ],
+        "correctAnswer": 2,
+        "explanation": "22 policemen lost their lives during the incident."
+      },
+      {
+        "text": "Why did Mahatma Gandhi decide to withdraw the Non-Cooperation Movement after the Chauri Chaura Incident?",
+        "options": [
+          "He felt the movement had achieved all its goals.",
+          "He believed the people had not fully understood the method of non-violence.",
+          "The British government had agreed to all demands.",
+          "The Muslim League withdrew its support."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi realized people did not fully grasp non-violence, prompting the movement's withdrawal."
+      },
+      {
+        "text": "Which significant event in Turkey in 1924 led to the dissipation of the Khilafat question?",
+        "options": [
+          "Signing of a new trade agreement",
+          "Establishment of a monarchy",
+          "Abolition of the caliphate",
+          "Formation of a secular republic"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The abolition of the caliphate ended the Khilafat issue's relevance."
+      },
+      {
+        "text": "Which of the following nationalist leaders expressed bewilderment at Gandhi’s decision to withdraw the movement after Chauri Chaura?",
+        "options": [
+          "Sardar Vallabhbhai Patel",
+          "Jawaharlal Nehru",
+          "Rajendra Prasad",
+          "Mahatma Gandhi's close followers"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jawaharlal Nehru was among those who questioned the withdrawal."
+      },
+      {
+        "text": "What did Gandhi do in March 1922 after withdrawing the movement?",
+        "options": [
+          "He started a new movement.",
+          "He was arrested and sentenced to six years in jail.",
+          "He retired from politics.",
+          "He went on an indefinite fast."
+        ],
+        "correctAnswer": 1,
+        "explanation": "In March 1922, Gandhi was arrested and sentenced to jail."
+      },
+      {
+        "text": "One of the myths shattered by the Non-Cooperation Khilafat Movement was that British rule was 'invincible'. What was the other myth?",
+        "options": [
+          "British rule was in the interest of Indians.",
+          "British rule was supported by all Indians.",
+          "British rule was economically beneficial.",
+          "British rule was benevolent and just."
+        ],
+        "correctAnswer": 0,
+        "explanation": "The movement also disproved the notion that British rule benefited Indians."
+      },
+      {
+        "text": "Which of the following was NOT among the leaders who left the Congress after the Nagpur session in December 1920 due to disagreements over the non-cooperation programme?",
+        "options": [
+          "Mohammad Ali Jinnah",
+          "Annie Besant",
+          "B.C. Pal",
+          "Motilal Nehru"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Motilal Nehru did not leave the Congress after the Nagpur session."
+      },
+      {
+        "text": "What was the initial stance of the Congress on the proposed form of political action for the Khilafat-Non-Cooperation programme?",
+        "options": [
+          "Fully united and in immediate agreement",
+          "Divided and not united",
+          "Strongly in favour of violent action",
+          "Indifferent to the issue"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Congress was initially divided over the course of action."
+      },
+      {
+        "text": "In which month and year did a joint Hindu-Muslim deputation sent to the viceroy prove abortive, leading to further agitation?",
+        "options": [
+          "January 1920",
+          "March 1920",
+          "Early 1920",
+          "July 1920"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A joint deputation in early 1920 failed to achieve its objectives."
+      },
+      {
+        "text": "What was the purpose of the picketing of shops during the Non-Cooperation Movement?",
+        "options": [
+          "To sell foreign liquor",
+          "To support local businesses",
+          "To promote foreign trade",
+          "To oppose the sale of foreign liquor and cloth"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Shops were picketed to protest the sale of foreign liquor and cloth."
+      },
+      {
+        "text": "Who was the leader responsible for organising strikes in tea plantations, steamer services, and Assam-Bengal Railways during the movement?",
+        "options": [
+          "Subhash Bose",
+          "J.M. Sengupta",
+          "Lala Lajpat Rai",
+          "C.R. Das"
+        ],
+        "correctAnswer": 1,
+        "explanation": "J.M. Sengupta led these strikes in Bengal and Assam."
+      },
+      {
+        "text": "Which local struggle involved the Sikh agitation for the removal of mahants in Punjab?",
+        "options": [
+          "Awadh Kisan Movement",
+          "Eka Movement",
+          "Sikh agitation for the removal of mahants in Punjab",
+          "Moplah Uprisings"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The answer directly reflects the context: Sikh agitation for removal of mahants."
+      },
+      {
+        "text": "What did the peasants participating in the Non-Cooperation Movement often express their feelings against?",
+        "options": [
+          "Only the British",
+          "Only their Indian masters and oppressors",
+          "Both the British and their Indian masters and oppressors",
+          "Only the moneylenders"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Peasants were discontented with both colonial and Indian exploitation."
+      },
+      {
+        "text": "Talks between Gandhi and the Viceroy, Reading, broke down in May 1921. What did Gandhi realise the government was trying to do?",
+        "options": [
+          "Offer substantial political reforms",
+          "Drive a wedge between him and the Khilafat leaders",
+          "Prepare for an immediate transfer of power",
+          "Seek his unconditional support for the government"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi realised the British were trying to create differences with Khilafat leaders."
+      },
+      {
+        "text": "What did Gandhi threaten to launch from Bardoli in February 1922 if certain demands were not met?",
+        "options": [
+          "A hunger strike",
+          "Civil disobedience",
+          "An armed revolt",
+          "A peaceful procession"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi threatened civil disobedience if his two demands weren’t met."
+      },
+      {
+        "text": "Which two specific demands did Gandhi make for political prisoners and press controls in February 1922?",
+        "options": [
+          "Release of political prisoners and reduction of taxes",
+          "Removal of press controls and increase in wages",
+          "Release of political prisoners and removal of press controls",
+          "Reforms in police and judicial systems"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi demanded release of political prisoners and removal of press controls."
+      },
+      {
+        "text": "Before the Chauri Chaura incident, what was the immediate cause of the crowd's agitation against the police?",
+        "options": [
+          "Imposition of a new tax",
+          "Arrest of their leader",
+          "Campaign against liquor sale and high food prices",
+          "Dispute over land ownership"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The crowd was provoked by police actions during their campaign against liquor and food prices."
+      },
+      {
+        "text": "How did the nationalist leaders like C.R. Das and Motilal Nehru react to Gandhi's decision to withdraw the movement after Chauri Chaura?",
+        "options": [
+          "They fully supported it.",
+          "They expressed bewilderment.",
+          "They immediately launched a new movement.",
+          "They retired from active politics."
+        ],
+        "correctAnswer": 1,
+        "explanation": "They were bewildered by the sudden withdrawal of the movement."
+      },
+      {
+        "text": "One of the reasons Gandhi cited for withdrawal was that people had not fully understood non-violence. What was another key reason related to the colonizers?",
+        "options": [
+          "They were willing to negotiate.",
+          "They would use incidents of violence as an excuse for state repression.",
+          "They were planning to leave India soon.",
+          "They were too weak to continue the fight."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi believed the British would use violence to justify further repression."
+      },
+      {
+        "text": "What was the nature of the consolidation of the emergence of a radical nationalist trend among Muslims due to the Khilafat issue?",
+        "options": [
+          "It was limited to traditional scholars.",
+          "It included both younger generations and traditional scholars.",
+          "It was only among the older generation.",
+          "It led to a decline in nationalist sentiment."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Both traditional and younger Muslims became radicalized through the Khilafat issue."
+      },
+      {
+        "text": "Which group of Muslims notably participated overwhelmingly in the Non-Cooperation Movement, despite overall decline in Muslim participation in some areas?",
+        "options": [
+          "Muslim League members",
+          "The weaving community in Bihar, Delhi and Lucknow",
+          "Landlords in North India",
+          "Businessmen in Calcutta"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The weaving community was a notable participant group."
+      },
+      {
+        "text": "What was a key benefit for the Indian business group from the Non-Cooperation Movement?",
+        "options": [
+          "Increased foreign investment",
+          "Monopoly over British goods",
+          "Benefit from the nationalists' emphasis on swadeshi",
+          "Tax exemptions from the British government"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Businesses benefited greatly from the swadeshi movement's stress on indigenous goods."
+      },
+      {
+        "text": "Which of the following was NOT a reason for Gandhi getting Congress approval for his programme of political action?",
+        "options": [
+          "Opportunity to cement Hindu-Muslim unity",
+          "Congress was gaining faith in constitutional struggle",
+          "Masses were eager to express their discontent",
+          "The Treaty of Sevres dismembered Turkey"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Congress, in fact, was losing rather than gaining faith in constitutional methods."
+      },
+      {
+        "text": "How did the Non-Cooperation Movement impact the fear of colonial rule among the masses?",
+        "options": [
+          "It increased their fear.",
+          "It had no effect on their fear.",
+          "It led them to lose their fear.",
+          "It only affected the elite's fear."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The movement helped dispel the widespread fear of colonial rule among the people."
+      },
+      {
+        "text": "The Non-Cooperation Movement introduced a shift in the orientation of the national movement towards which group?",
+        "options": [
+          "The intelligentsia",
+          "The elite classes",
+          "The masses",
+          "The bureaucracy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The focus of the national movement shifted strongly towards the masses."
+      },
+      {
+        "text": "In which region were instances of lower-class militancy seen in the tribal belt during the Non-Cooperation Movement?",
+        "options": [
+          "Champaran",
+          "Saran",
+          "Chhotanagpur",
+          "Bardoli"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Tribal militancy was notably observed in Chhotanagpur during this era."
+      },
+      {
+        "text": "What was the title of the volunteer brigade organised by Khan Abdul Gaffar Khan, popularly known as 'Red-Shirts'?",
+        "options": [
+          "Kisan Sewa Dal",
+          "Bharat Sevak Samaj",
+          "Khudai Khidmatgars",
+          "Hind Sevak Sangh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Khudai Khidmatgars were called 'Red-Shirts' led by Khan Abdul Gaffar Khan."
+      },
+      {
+        "text": "What happened to the Muslim League's stance after the Allahabad conference in June 1920 regarding the non-cooperation programme?",
+        "options": [
+          "It opposed the programme.",
+          "It decided to give full support.",
+          "It remained neutral.",
+          "It formed its own separate movement."
+        ],
+        "correctAnswer": 1,
+        "explanation": "After the Allahabad conference, the Muslim League decided to support the programme."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

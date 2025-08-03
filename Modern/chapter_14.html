@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simon Commission and the Nehru Report</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Simon Commission and the Nehru Report</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which provision of the Government of India Act, 1919, stipulated the appointment of a commission ten years later to study the constitutional situation in India?",
+        "options": [
+          "Section 124A",
+          "Article 31B",
+          "A specific clause within the Act",
+          "The preamble of the Act"
+        ],
+        "correctAnswer": 2,
+        "explanation": "A specific clause in the Government of India Act, 1919, provided for such a commission."
+      },
+      {
+        "text": "When was the Simon Commission appointed by the British government?",
+        "options": [
+          "November 1925",
+          "February 1927",
+          "November 1927",
+          "May 1930"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Simon Commission was appointed in November 1927."
+      },
+      {
+        "text": "What was a significant characteristic of the Simon Commission's composition that led to widespread Indian protest?",
+        "options": [
+          "It had a majority of Indian members.",
+          "It was an all-white commission with seven British members.",
+          "It was chaired by an Indian judge.",
+          "It included representatives from various Indian political parties."
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was an all-white, all-British member commission."
+      },
+      {
+        "text": "Who was the chairman of the Simon Commission?",
+        "options": [
+          "Lord Birkenhead",
+          "Lord Irwin",
+          "Sir John Simon",
+          "Clement Attlee"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sir John Simon chaired the Simon Commission."
+      },
+      {
+        "text": "What was the primary objective of the Simon Commission as stated by the British government?",
+        "options": [
+          "To grant immediate dominion status to India.",
+          "To recommend further constitutional reforms for India.",
+          "To assess the economic impact of British rule.",
+          "To investigate the causes of the 1857 Revolt."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Simon Commission was to recommend further constitutional reforms."
+      },
+      {
+        "text": "Who was the Conservative Secretary of State for India responsible for the appointment of the Simon Commission?",
+        "options": [
+          "Lord Curzon",
+          "Lord Minto",
+          "Lord Birkenhead",
+          "Edwin Montagu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Birkenhead was the Secretary of State at the time."
+      },
+      {
+        "text": "How did the Indian National Congress respond to the appointment of the Simon Commission in its Madras session of 1927?",
+        "options": [
+          "It welcomed the commission with conditions.",
+          "It decided to cooperate with the commission.",
+          "It resolved to boycott the commission \"at every stage and in every form.\"",
+          "It proposed alternative Indian members for the commission."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Congress resolved to boycott the commission at every stage."
+      },
+      {
+        "text": "What did the Congress declare as its goal in the Madras session of 1927, alongside its decision to boycott the Simon Commission?",
+        "options": [
+          "Provincial autonomy",
+          "Dominion status",
+          "Complete independence",
+          "Responsible government"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Demanded Complete Independence."
+      },
+      {
+        "text": "Which of the following groups did not support the boycott of the Simon Commission?",
+        "options": [
+          "Liberals of the Hindu Mahasabha",
+          "Majority faction of the Muslim League under Jinnah",
+          "Muhammad Shafi faction of the Muslim League",
+          "Jawaharlal Nehru and Subhash Bose"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Muhammad Shafi’s faction participated in the commission."
+      },
+      {
+        "text": "When did the Simon Commission land in Bombay, leading to countrywide protests?",
+        "options": [
+          "January 1, 1928",
+          "February 3, 1928",
+          "May 10, 1929",
+          "August 15, 1930"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Simon Commission landed in Bombay on February 3, 1928."
+      },
+      {
+        "text": "Which slogan became synonymous with the protests against the Simon Commission?",
+        "options": [
+          "'Swaraj is my birthright'",
+          "'Inquilab Zindabad'",
+          "'Simon Go Back'",
+          "'Do or Die'"
+        ],
+        "correctAnswer": 2,
+        "explanation": "\"Simon Go Back\" was the main slogan."
+      },
+      {
+        "text": "Which two leaders emerged as prominent figures of the new wave of youth and student protests during the Simon Commission's visit?",
+        "options": [
+          "Mahatma Gandhi and Sardar Patel",
+          "Bal Gangadhar Tilak and Bipin Chandra Pal",
+          "Jawaharlal Nehru and Subhash Bose",
+          "C.R. Das and Motilal Nehru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jawaharlal Nehru and Subhash Bose emerged as leaders."
+      },
+      {
+        "text": "Which of the following radical groups reflected the new ideas emerging during the Simon Commission protests?",
+        "options": [
+          "Indian National Army",
+          "All India Kisan Sabha",
+          "Punjab Naujawan Bharat Sabha",
+          "Servants of India Society"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Punjab Naujawan Bharat Sabha represented radicalism."
+      },
+      {
+        "text": "Who was appointed by the Bombay Legislative Council to work with the Simon Commission and argued for 'universal adult franchise'?",
+        "options": [
+          "Lala Lajpat Rai",
+          "Dr. B.R. Ambedkar",
+          "M.R. Jayakar",
+          "Tej Bahadur Sapru"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dr. B.R. Ambedkar demanded universal adult franchise."
+      },
+      {
+        "text": "What specific demand did Dr. B.R. Ambedkar make regarding the depressed classes in his memorandum to the Simon Commission?",
+        "options": [
+          "Integration with the Hindu community",
+          "Treatment as a distinct and independent minority",
+          "Abolition of all reservations",
+          "Joint electorates without reserved seats"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ambedkar advocated treatment as a distinct minority."
+      },
+      {
+        "text": "Who famously stated, \"The blows, which fell on me today, are the last nails driven into the coffin of British Imperialism,\" after being lathi-charged during a Simon Commission protest?",
+        "options": [
+          "Jawaharlal Nehru",
+          "G.B. Pant",
+          "Lala Lajpat Rai",
+          "Bhagat Singh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lala Lajpat Rai said this after the lathi charge."
+      },
+      {
+        "text": "What was one of the significant impacts of the Simon Commission's appointment on the Indian national movement?",
+        "options": [
+          "It led to a period of political inactivity.",
+          "It created dissensions between the Congress and the Muslim League.",
+          "It gave a stimulus to radical forces and provided an issue for mass action.",
+          "It strengthened the moderate faction within the Congress."
+        ],
+        "correctAnswer": 2,
+        "explanation": "It gave a new issue and pushed radicalism."
+      },
+      {
+        "text": "What challenge did Lord Birkenhead issue to Indian politicians, which led to the drafting of the Nehru Report?",
+        "options": [
+          "To achieve complete independence by a set date.",
+          "To form a united front against British rule.",
+          "To produce an agreed constitution for India.",
+          "To hold immediate general elections."
+        ],
+        "correctAnswer": 2,
+        "explanation": "He challenged Indians to draw their own constitution."
+      },
+      {
+        "text": "When did the All Parties Conference meet to draft a constitution, in response to Lord Birkenhead's challenge?",
+        "options": [
+          "August 1927",
+          "February 1928",
+          "December 1929",
+          "May 1930"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It first met in February 1928."
+      },
+      {
+        "text": "Who chaired the committee responsible for drafting the Nehru Report?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Mahatma Gandhi",
+          "Motilal Nehru",
+          "Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Motilal Nehru chaired the committee."
+      },
+      {
+        "text": "What was the primary goal for the future Indian constitution as favoured by the majority in the Nehru Committee?",
+        "options": [
+          "Complete independence",
+          "Absolute monarchy",
+          "Dominion status",
+          "A unitary system without provincial autonomy"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dominion status was recommended."
+      },
+      {
+        "text": "Which of the following was a key recommendation of the Nehru Report regarding the communal question?",
+        "options": [
+          "Retention of separate electorates for Muslims.",
+          "Rejection of separate electorates.",
+          "Special electorates for all minorities.",
+          "Formation of communal political parties."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Nehru Report rejected separate electorates."
+      },
+      {
+        "text": "The Nehru Report recommended the reservation of seats for Muslims in which areas?",
+        "options": [
+          "Only in Muslim majority provinces.",
+          "Only at the Centre and in provinces where they were in minority.",
+          "In all provinces, regardless of population.",
+          "No reservations were recommended."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Only in provinces where they were in minority and in the Centre."
+      },
+      {
+        "text": "How many fundamental rights were included in the recommendations of the Nehru Report?",
+        "options": [
+          "Ten",
+          "Fifteen",
+          "Nineteen",
+          "Twenty-five"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The report included nineteen fundamental rights."
+      },
+      {
+        "text": "The Nehru Report advocated for complete dissociation of the State from what?",
+        "options": [
+          "Military affairs",
+          "Economic policies",
+          "Religion",
+          "International relations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Complete dissociation of the State from Religion."
+      },
+      {
+        "text": "What was a key feature of the political structure proposed by the Nehru Report concerning provincial powers?",
+        "options": [
+          "Complete central control over provinces.",
+          "Responsible government in provinces.",
+          "Governors to exercise absolute power.",
+          "No provincial legislatures."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Called for responsible government in provinces."
+      },
+      {
+        "text": "Which of the following was NOT among the Delhi Proposals of the Muslim League in 1927 for demands to be incorporated into the draft constitution?",
+        "options": [
+          "Joint electorates with reserved seats for Muslims.",
+          "Separate electorates for Muslims in all provinces.",
+          "One-third representation to Muslims in Central Legislative Assembly.",
+          "Formation of three new Muslim majority provinces."
+        ],
+        "correctAnswer": 1,
+        "explanation": "They sought joint, not separate, electorates in the Delhi Proposals."
+      },
+      {
+        "text": "The Muslim League's Delhi Proposals (1927) asked for the formation of which three new Muslim majority provinces?",
+        "options": [
+          "Punjab, Bengal, and Assam",
+          "Sindh, Baluchistan, and North-West Frontier Province",
+          "Bihar, Orissa, and United Provinces",
+          "Madras, Bombay, and Central Provinces"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sindh, Baluchistan and NWFP were demanded as separate provinces."
+      },
+      {
+        "text": "What was the Hindu Mahasabha's stance on the creation of new Muslim-majority provinces, as proposed by some Muslim leaders?",
+        "options": [
+          "It fully supported the proposal.",
+          "It remained neutral on the issue.",
+          "It was opposed to the proposals.",
+          "It demanded Hindu-majority provinces in return."
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was opposed to the new Muslim-majority provinces."
+      },
+      {
+        "text": "In the compromises proposed within the Nehru Report regarding communal representation, where were reservations for Muslims suggested?",
+        "options": [
+          "Only where they were in majority.",
+          "Everywhere with separate electorates.",
+          "Only where they were in minority.",
+          "No reservations were allowed at all."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Reservations recommended only where Muslims were in minority."
+      },
+      {
+        "text": "At the All Parties Conference in Calcutta, Jinnah proposed three amendments on behalf of the Muslim League. Which of these was one of his proposals?",
+        "options": [
+          "Complete abolition of reserved seats.",
+          "Residual powers to the central government.",
+          "One-third representation to Muslims in the central legislature.",
+          "Equal representation for all communities in every province."
+        ],
+        "correctAnswer": 2,
+        "explanation": "One-third representation in central legislature was proposed by Jinnah."
+      },
+      {
+        "text": "Jinnah's Fourteen Points (March 1929) outlined his demands for constitutional reforms. Which of these was a core demand?",
+        "options": [
+          "A unitary constitution for India.",
+          "Abolition of provincial autonomy.",
+          "Federal Constitution with residual powers to provinces.",
+          "Restriction of Muslim representation to population share."
+        ],
+        "correctAnswer": 2,
+        "explanation": "He demanded a federal constitution with residual powers to provinces."
+      },
+      {
+        "text": "According to Jinnah's Fourteen Points, what kind of electorates were demanded for Muslims?",
+        "options": [
+          "Joint electorates",
+          "Separate electorates",
+          "Mixed electorates",
+          "Open electorates"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Separate electorates for Muslims was a central demand."
+      },
+      {
+        "text": "Which condition, from Jinnah's Fourteen Points, stipulated that no constitutional amendment should be made by the centre without the concurrence of the states?",
+        "options": [
+          "Provincial autonomy",
+          "Federal Constitution",
+          "Protection of Muslim rights",
+          "No constitutional amendment by the centre without the concurrence of the states constituting the Indian federation."
+        ],
+        "correctAnswer": 3,
+        "explanation": "No amendment at Centre without states' concurrence."
+      },
+      {
+        "text": "Besides the Muslim League, Hindu Mahasabha, and Sikh communalists, which other section found the Nehru Report unsatisfactory?",
+        "options": [
+          "The Moderates within the Congress.",
+          "The older leadership like Motilal Nehru.",
+          "The younger section led by Jawaharlal Nehru and Subhash Bose.",
+          "The British government officials."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Young nationalists led by Nehru and Bose found it unsatisfactory."
+      },
+      {
+        "text": "What organization was jointly set up by Jawaharlal Nehru and Subhash Bose after they rejected the idea of dominion status in the Nehru Report?",
+        "options": [
+          "Congress Socialist Party",
+          "Forward Bloc",
+          "Independence for India League",
+          "All India Youth Congress"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They set up the Independence for India League."
+      },
+      {
+        "text": "The Simon Commission's recommendations of May 1930 included the proposal to abolish dyarchy and establish what in the provinces?",
+        "options": [
+          "Unitary government",
+          "Direct British rule",
+          "Representative government with autonomy",
+          "Puppet governments controlled by the Centre"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Recommended Representative government with autonomy."
+      },
+      {
+        "text": "Which of these was a recommendation of the Simon Commission regarding the central government?",
+        "options": [
+          "Full parliamentary responsibility at the centre.",
+          "Governor-general to have minimal powers.",
+          "Rejection of parliamentary responsibility at the centre.",
+          "Formation of a cabinet responsible to the legislature."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rejected Parliament responsibility at the Centre."
+      },
+      {
+        "text": "The Simon Commission recommended the separation of which two regions from Bombay and India, respectively?",
+        "options": [
+          "Bengal and Bihar",
+          "Punjab and Kashmir",
+          "Sindh and Burma",
+          "Orissa and Assam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sindh from Bombay, Burma from India."
+      },
+      {
+        "text": "How did the Simon Commission propose to address the issue of communal representation in its recommendations?",
+        "options": [
+          "Abolish all separate electorates.",
+          "Retain and extend separate communal electorates.",
+          "Introduce joint electorates with reserved seats.",
+          "Grant universal adult franchise without any communal consideration."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Retain and extend separate communal electorates."
+      },
+      {
+        "text": "Which commission, set up to investigate the 'seditious conspiracy' of the Indian people, led to the controversial Rowlatt Act?",
+        "options": [
+          "Hunter Committee",
+          "Mudiman Commission",
+          "Rowlatt Commission",
+          "Lee Commission"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rowlatt Commission led to the Rowlatt Act."
+      },
+      {
+        "text": "The Simon Commission mentioned the need for Indian army to be what?",
+        "options": [
+          "Mechanized",
+          "Enlarged",
+          "Indianised",
+          "Integrated with British army"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Simon Commission said army should be Indianised."
+      },
+      {
+        "text": "Which report, published in March 1933 and debated in the British Parliament, was a direct outcome of the Third Round Table Conference?",
+        "options": [
+          "Nehru Report",
+          "Simon Commission Report",
+          "White Paper on Constitutional Reforms",
+          "Gandhi-Irwin Pact"
+        ],
+        "correctAnswer": 2,
+        "explanation": "White Paper on Constitutional Reforms (1933) came after the conference."
+      },
+      {
+        "text": "Which prominent Indian leader supported the government on the issue of the Simon Commission, unlike the majority Congress stance?",
+        "options": [
+          "Muhammad Shafi",
+          "M.R. Jayakar",
+          "Tej Bahadur Sapru",
+          "B.S. Moonje"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Muhammad Shafi supported the government."
+      },
+      {
+        "text": "The appointment of the Simon Commission also accepted Lord Birkenhead's challenge to Indian politicians to produce an agreed constitution. What was the Indian response that materialized from this challenge?",
+        "options": [
+          "The Gandhi-Irwin Pact",
+          "The Lucknow Pact",
+          "The Nehru Report",
+          "The Cripps Mission proposals"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Nehru Report (1928) was the response."
+      },
+      {
+        "text": "What specific power did the Simon Commission recommend for the Governor in provinces regarding internal security and administrative matters?",
+        "options": [
+          "To consult with the provincial legislature.",
+          "To act on discretionary power.",
+          "To surrender all powers to elected ministers.",
+          "To seek approval from the Central Government."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Commission recommended Governors have discretionary powers."
+      },
+      {
+        "text": "The Nehru Report advocated for what kind of structure for the princely states within the proposed Indian constitution?",
+        "options": [
+          "Independent entities",
+          "Integrated into existing provinces",
+          "On a federal basis",
+          "Under direct British rule"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It suggested a federal structure for princely states."
+      },
+      {
+        "text": "The Nehru Report suggested the creation of provinces based on what principle?",
+        "options": [
+          "Economic viability",
+          "Historical boundaries",
+          "Administrative convenience",
+          "Linguistic divisions"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Recommended creation of provinces along linguistic lines."
+      },
+      {
+        "text": "What was the main point of contention for the young nationalists like Nehru and Bose regarding the Nehru Report?",
+        "options": [
+          "Its advocacy for separate electorates.",
+          "Its call for a unitary government.",
+          "Its acceptance of dominion status instead of complete independence.",
+          "Its rejection of fundamental rights."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Disappointed with dominion status, wanted complete independence."
+      },
+      {
+        "text": "The Simon Commission recommended the grant of local legislatures to which two specific regions that were not provinces?",
+        "options": [
+          "Sindh and Burma",
+          "Punjab and Bengal",
+          "North-West Frontier Province and Baluchistan",
+          "Delhi and Assam"
+        ],
+        "correctAnswer": 2,
+        "explanation": "NWFP and Baluchistan were recommended to have legislatures."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

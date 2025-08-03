@@ -10,57 +10,57 @@ const subjectsConfig = {
         chapters: [
             // Current Affairs
             {
-                id: 'chapter1',
+                id: 'CaChapter1',
                 name: 'Current Affairs - Lecture 1',
                 file: 'CA/Lec_1.html'
             },
             {
-                id: 'chapter2',
+                id: 'CaChapter2',
                 name: 'Current Affairs - Lecture 2',
                 file: 'CA/Lec_2.html'
             },
             {
-                id: 'chapter3',
+                id: 'CaChapter3',
                 name: 'Current Affairs - Lecture 3',
                 file: 'CA/Lec_3.html'
             },
             {
-                id: 'chapter4',
+                id: 'CaChapter4',
                 name: 'Current Affairs - Lecture 4',
                 file: 'CA/Lec_4.html'
             },
             {
-                id: 'chapter5',
+                id: 'CaChapter5',
                 name: 'Current Affairs - Lecture 5',
                 file: 'CA/Lec_5.html'
             },
             {
-                id: 'chapter6',
+                id: 'CaChapter6',
                 name: 'Current Affairs - Lecture 6',
                 file: 'CA/Lec_6.html'
             },
             {
-                id: 'chapter7',
+                id: 'CaChapter7',
                 name: 'Current Affairs - Lecture 7',
                 file: 'CA/Lec_7.html'
             },
             {
-                id: 'chapter8',
+                id: 'CaChapter8',
                 name: 'Current Affairs - Lecture 8', // Corrected duplicate id
                 file: 'CA/Lec_8.html'
             },
             {
-                id: 'chapter9',
+                id: 'CaChapter9',
                 name: 'Current Affairs - Lecture 9', // Corrected duplicate id
                 file: 'CA/Lec_9.html'
             },
             {
-                id: 'chapter10',
+                id: 'CaChapter10',
                 name: 'Current Affairs - Lecture 10', // Corrected duplicate id
                 file: 'CA/Lec_10.html'
             },
             {
-                id: 'chapter11',
+                id: 'CaChapter11',
                 name: 'Current Affairs - Lecture 11', // Corrected duplicate id
                 file: 'CA/Lec_11.html'
             }
@@ -108,6 +108,46 @@ const subjectsConfig = {
                 id: 'chapter8',
                 name: 'First Phase of Revolutionary Activities (1907-1917)',
                 file: 'Modern/chapter_10.html'
+            }, {
+                id: 'chapter9',
+                name: 'Emergence of Gandhi',
+                file: 'Modern/chapter_11.html'
+            }, {
+                id: 'chapter10',
+                name: 'Non-Cooperation Movement and Khilafat Aandolan',
+                file: 'Modern/chapter_12.html'
+            }, {
+                id: 'chapter11',
+                name: 'Emergence of Swarajists, Socialist Ideas, Revolutionary Activities',
+                file: 'Modern/chapter_13.html'
+            }, {
+                id: 'chapter12',
+                name: 'Simon Commission and the Nehru Report',
+                file: 'Modern/chapter_14.html'
+            }, {
+                id: 'chapter13',
+                name: 'Civil Disobedience Movement and Round Table Conferences',
+                file: 'Modern/chapter_15.html'
+            }, {
+                id: 'chapter14',
+                name: 'Debates on the Future Strategy after Civil Disobedience Movement',
+                file: 'Modern/chapter_16.html'
+            }, {
+                id: 'chapter15',
+                name: 'Nationalist Response in the Wake of World War II',
+                file: 'Modern/chapter_17.html'
+            }, {
+                id: 'chapter16',
+                name: 'Quit India Movement, Demand for Pakistan, and the INA',
+                file: 'Modern/chapter_18.html'
+            }, {
+                id: 'chapter17',
+                name: 'Constitutional, Administrative and Judicial Developments',
+                file: 'Modern/chapter_19.html'
+            }, {
+                id: 'chapter18',
+                name: 'Development of Indian Press',
+                file: 'Modern/chapter_20.html'
             }
         ]
     },

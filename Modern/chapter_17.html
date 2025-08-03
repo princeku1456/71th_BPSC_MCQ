@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nationalist Response in the Wake of World War II</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <h3 class="text-center">Nationalist Response in the Wake of World War II</h3>
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "What was Mahatma Gandhi's initial belief regarding the Congress before the launch of a new mass movement, as stated in Chapter 22?",
+        "options": [
+          "The Congress should immediately initiate a new struggle.",
+          "The Congress should first streamline its organisational structure.",
+          "The Congress should form a coalition with other political parties.",
+          "The Congress should focus exclusively on constitutional negotiations."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi initially emphasized the need to streamline the organizational structure before starting a new mass struggle."
+      },
+      {
+        "text": "Which of the following best describes India's nationalist response to British involvement in the First World War, as per the provided text?",
+        "options": [
+          "Unconditional support for the British Empire from all factions.",
+          "Opposition from Moderates and support from Extremists.",
+          "Moderates supporting the empire, Extremists supporting war efforts for self-government, and Revolutionaries waging war on British rule.",
+          "Complete non-cooperation from all political groups."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderates supported the empire, Extremists saw it as leverage for self-government, and Revolutionaries opposed British rule."
+      },
+      {
+        "text": "Who among the following was the president of the Bengal Provincial Congress Committee, actively working for youth organisation and the trade union movement?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Mahatma Gandhi",
+          "Subhash Chandra Bose",
+          "Motilal Nehru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Subhash Chandra Bose held this role and was active in youth and trade union mobilization."
+      },
+      {
+        "text": "At which session was Subhash Chandra Bose unanimously elected president of the Congress, adopting a resolution to give moral support to princely states' agitations?",
+        "options": [
+          "Lucknow (1916)",
+          "Calcutta (1920)",
+          "Haripura (1938)",
+          "Tripuri (1939)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bose was unanimously elected at the Haripura session, 1938."
+      },
+      {
+        "text": "Who was the candidate supported by Mahatma Gandhi for the Congress presidency in 1939, whose defeat Gandhi famously declared as his own?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Sardar Vallabhbhai Patel",
+          "Abul Kalam Azad",
+          "Pattabhi Sitaramayya"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Gandhi supported Sitaramayya, who lost to Subhash Bose."
+      },
+      {
+        "text": "What was one of Subhash Bose's accusations against the Congress Working Committee leaders at the Tripuri session in 1939?",
+        "options": [
+          "Their lack of commitment to mass movements.",
+          "Their readiness to compromise with the government on the matter of federation.",
+          "Their failure to adequately address agrarian issues.",
+          "Their over-reliance on non-violent methods."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bose accused CWC leaders of being ready to compromise with the government over the federation issue."
+      },
+      {
+        "text": "What was Subhash Bose's stance regarding the international crisis and its exploitation for India's independence, as articulated at the Tripuri session?",
+        "options": [
+          "He advocated for a neutral stance, avoiding foreign entanglements.",
+          "He believed that India should align with the British to gain post-war concessions.",
+          "He felt that advantage should be taken of the international crisis to strive for independence.",
+          "He suggested that India should wait for the crisis to pass before resuming nationalist activities."
+        ],
+        "correctAnswer": 2,
+        "explanation": "He believed India should exploit the crisis for its own independence."
+      },
+      {
+        "text": "Following Subhash Bose's resignation from the Congress president's post in April 1939, who was elected as his successor?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Abul Kalam Azad",
+          "Rajendra Prasad",
+          "Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dr. Rajendra Prasad succeeded Bose as Congress President."
+      },
+      {
+        "text": "What was the name of the new party formed by Subhash Bose within the Congress after his resignation from the presidency?",
+        "options": [
+          "Swarajya Party",
+          "Forward Bloc",
+          "Communist Party of India",
+          "Indian Independence League"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bose founded the Forward Bloc within the Congress."
+      },
+      {
+        "text": "Which of the following statements accurately reflects Mahatma Gandhi's view on violence as a means to achieve independence?",
+        "options": [
+          "He considered it a necessary evil in certain circumstances.",
+          "He believed it was a clumsy weapon that created more problems than it solved.",
+          "He advocated for selective violence against oppressors.",
+          "He viewed it as a legitimate last resort when all other methods failed."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi believed that violence was a clumsy and problematic weapon."
+      },
+      {
+        "text": "Subhash Bose believed that civil disobedience campaigns needed to be accompanied by what for a total revolution?",
+        "options": [
+          "Intensive constitutional negotiations.",
+          "Widespread constructive work.",
+          "A movement aimed at total revolution that was prepared, if necessary, to use violence.",
+          "International diplomatic pressure."
+        ],
+        "correctAnswer": 2,
+        "explanation": "He sought a total revolution, with violence if necessary, to force change."
+      },
+      {
+        "text": "Which of the following best describes Subhash Bose's approach to 'means and ends' in the struggle for freedom?",
+        "options": [
+          "He believed that means and ends should be equally good.",
+          "He focused on the result, believing in seizing any opportunity available to carry forward the struggle.",
+          "He insisted on strict adherence to non-violent methods regardless of the outcome.",
+          "He advocated for a gradual approach, prioritising the purity of means over the speed of achieving ends."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bose emphasized taking advantage of all opportunities to achieve the end goal."
+      },
+      {
+        "text": "What was Subhash Bose's stance on taking help from Axis powers during the freedom struggle?",
+        "options": [
+          "He had strong reservations due to their fascist ideologies.",
+          "He had no compunction in taking their help to advance the struggle for freedom.",
+          "He explicitly rejected any alliance with them.",
+          "He only considered their help if it was non-military."
+        ],
+        "correctAnswer": 1,
+        "explanation": "He was pragmatic and had no hesitation in using their support."
+      },
+      {
+        "text": "Which statement accurately describes Subhash Bose's view on the form of government for independent India?",
+        "options": [
+          "He envisioned a stateless society based on Ramrajya.",
+          "He initially expressed support for democracy, but later opined on a state of 'authoritarian character'.",
+          "He advocated for a pre-modern, morally-enlightened, and apolitical Indian state.",
+          "He believed in a parliamentary monarchy."
+        ],
+        "correctAnswer": 1,
+        "explanation": "He initially supported democracy but later favored a strong, possibly authoritarian state."
+      },
+      {
+        "text": "What was the name of the provisional government proclaimed by Subhash Bose on October 21, 1943?",
+        "options": [
+          "Provisional Government of India",
+          "Azad Hind Government",
+          "Swaraj Government of India",
+          "Provisional Government of Azad Hind"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The official proclamation was of the 'Provisional Government of Azad Hind.'"
+      },
+      {
+        "text": "What was the core idea behind Mahatma Gandhi's concept of 'Ramrajya' as an ideal state?",
+        "options": [
+          "A highly centralised socialist state.",
+          "A powerful, militarised nation.",
+          "A stateless utopia without a representative government, army, or police force.",
+          "A constitutional monarchy with limited powers."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi's 'Ramrajya' was a stateless, non-violent, harmonious society."
+      },
+      {
+        "text": "Regarding the military, what was Mahatma Gandhi's general stance?",
+        "options": [
+          "He was deeply attracted to military discipline.",
+          "He was against the military on the whole, but not against defensive war.",
+          "He advocated for a large, strong military force.",
+          "He believed a military was essential for maintaining order in a free India."
+        ],
+        "correctAnswer": 1,
+        "explanation": "He opposed militarism but was not against defensive war."
+      },
+      {
+        "text": "How did Mahatma Gandhi view the economy, as described in the provided text?",
+        "options": [
+          "He advocated for large-scale industrialisation and state control.",
+          "He supported capitalism with some social regulations.",
+          "He wanted a decentralised economy without state control, dismissing both capitalism and Western socialism.",
+          "He believed in a mixed economy with significant public sector presence."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi favored a decentralized, self-sustaining economy."
+      },
+      {
+        "text": "What was Subhash Bose's perspective on economic freedom and modernization?",
+        "options": [
+          "He believed economic freedom was secondary to political freedom.",
+          "He advocated for a \"back to the roots\" vision, similar to Gandhi.",
+          "He considered economic freedom the essence of social and political freedom and was in favour of modernisation.",
+          "He was against industrialisation in any form."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bose believed in modernization and that economic freedom was vital."
+      },
+      {
+        "text": "How did Mahatma Gandhi relate religion to his political and social ideas?",
+        "options": [
+          "He viewed religion as a personal matter, separate from politics.",
+          "He used religion to create divisions and promote specific beliefs.",
+          "He was primarily a man of religion, using it as the basis for all his ideas, stating it's a binding force.",
+          "He rejected religious influence in public life."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi viewed religion as an all-encompassing moral force in public life."
+      },
+      {
+        "text": "What was Subhash Bose's approach to incorporating religious diversity within the Indian National Army (INA)?",
+        "options": [
+          "He strictly adhered to one religious ideology.",
+          "The INA was a mixture of various religions, races, and castes with total social equality of all soldiers.",
+          "He excluded religious practices from the military.",
+          "He promoted a specific religious outlook for soldiers."
+        ],
+        "correctAnswer": 1,
+        "explanation": "INA under Bose had total inter-religious equality."
+      },
+      {
+        "text": "What was one of Mahatma Gandhi's main goals for society concerning caste, as mentioned in the text?",
+        "options": [
+          "Abolition of the varna system entirely.",
+          "Eradicating untouchability while maintaining the varna distinctions of the caste system.",
+          "Promoting inter-caste marriages to eliminate caste.",
+          "Establishing a caste-less society through legislation."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi focused on eradicating untouchability but not the varna system itself."
+      },
+      {
+        "text": "How did Subhash Bose envision change regarding the traditional social hierarchy and caste system in India?",
+        "options": [
+          "Through gradual reform and persuasion.",
+          "By maintaining the existing social order.",
+          "Through a socialist revolution that would bring an end to the traditional social hierarchy.",
+          "By re-interpreting ancient texts to justify the caste system."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bose envisioned a socialist revolution ending hierarchical caste."
+      },
+      {
+        "text": "What was a notable action taken by Subhash Bose regarding women's participation in the Indian National Army (INA)?",
+        "options": [
+          "He restricted women to non-combat roles.",
+          "He formed a women's regiment, the Rani of Jhansi Regiment.",
+          "He believed women should only focus on domestic duties.",
+          "He did not specifically recruit women into the INA."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bose formed the Rani of Jhansi Regiment for women."
+      },
+      {
+        "text": "Which of the following best describes Mahatma Gandhi's view on the English system of education in India?",
+        "options": [
+          "He fully supported it as a means of modernisation.",
+          "He was against it, advocating for an integrated approach focusing on vocational training.",
+          "He believed it should be reformed to include more religious studies.",
+          "He had no strong opinion on the matter."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi opposed English-based education, supporting vocational/basic education."
+      },
+      {
+        "text": "What was Subhash Bose's advocacy regarding education for an industrial India?",
+        "options": [
+          "Emphasis on basic education for all.",
+          "Promotion of traditional Indian learning.",
+          "Support for higher education, especially in technical and scientific fields.",
+          "Focus on arts and humanities."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bose advocated for technical and scientific education."
+      },
+      {
+        "text": "When did Germany attack Poland, leading to the outbreak of the Second World War?",
+        "options": [
+          "August 1, 1939",
+          "September 1, 1939",
+          "October 1, 1939",
+          "November 1, 1939"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The German invasion of Poland on September 1, 1939 started WWII."
+      },
+      {
+        "text": "What was the immediate response of the British Government of India to the outbreak of the Second World War?",
+        "options": [
+          "They consulted Indian opinion before declaring support for the war.",
+          "They declared India's support for the war without consulting Indian opinion.",
+          "They remained neutral initially.",
+          "They sought a resolution from the Indian National Congress."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Government of India was committed to the war without any Indian consultation."
+      },
+      {
+        "text": "What was the condition set by the Congress for supporting the British war effort during WWII?",
+        "options": [
+          "Immediate and unconditional independence for India.",
+          "Financial aid from Britain for India's development.",
+          "A constituent assembly after the war to determine free India's political structure, and a genuinely responsible government at the Centre immediately.",
+          "Transfer of all defence powers to Indian hands during the war."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Congress demanded a responsible government and a post-war constituent assembly."
+      },
+      {
+        "text": "What was Mahatma Gandhi's stance on supporting the Allied powers at the CWC meeting at Wardha?",
+        "options": [
+          "He advocated for a non-aligned position.",
+          "He had an unconditional support, distinguishing between democratic nations and totalitarian regimes.",
+          "He supported the Allies only if India gained immediate independence.",
+          "He believed India should join the Axis powers."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Gandhi favored the Allied cause on moral grounds, distinguishing between democratic and totalitarian ideals."
+      },
+      {
+        "text": "What was Jawaharlal Nehru's position at the CWC meeting at Wardha regarding Indian participation in the war?",
+        "options": [
+          "Immediate starting of the Civil Disobedience Movement.",
+          "Unconditional support for the British war efforts.",
+          "No Indian participation until India itself was free, and no immediate starting of CDM.",
+          "Alliance with both Axis and Allied powers."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Nehru opposed participation without freedom for India."
+      },
+      {
+        "text": "What was the British government's response to the Congress's conditional offer of support during WWII?",
+        "options": [
+          "They agreed to define their war aims and consult Indian representatives.",
+          "They agreed to immediately set up a responsible government at the Centre.",
+          "Their response was negative, refusing to define war aims or modify the 1935 Act, offering only a \"consultative committee\".",
+          "They proposed immediate dominion status for India."
+        ],
+        "correctAnswer": 2,
+        "explanation": "British refused the demands, offering only a powerless consultative committee."
+      },
+      {
+        "text": "What was one of the hidden agendas of the British government in India during WWII, as revealed in the text?",
+        "options": [
+          "To grant immediate self-rule to India.",
+          "To form a joint Indo-British war cabinet.",
+          "To provoke the Congress into a confrontation and then use the situation to acquire draconian powers.",
+          "To significantly increase Indian representation in the Viceroy's executive council."
+        ],
+        "correctAnswer": 2,
+        "explanation": "A hidden motive was to force a political confrontation and repressive measures."
+      },
+      {
+        "text": "When did the Congress ministries in the provinces resign, following the CWC meeting where they decided not to support the war effort?",
+        "options": [
+          "August 1939",
+          "October 1939",
+          "January 1940",
+          "March 1940"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Provincial Congress ministries resigned in October 1939."
+      },
+      {
+        "text": "What was the goal of British policy in India, as stated by Viceroy Linlithgow in January 1940?",
+        "options": [
+          "Immediate independence for India.",
+          "Dominion status of Westminster variety, after the war.",
+          "A socialist republic.",
+          "Complete control over Indian defence."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Linlithgow stated dominion status could be considered after the war."
+      },
+      {
+        "text": "Which Congress session was presided over by Maulana Abul Kalam Azad in March 1940, where the Congress declared nothing short of complete independence?",
+        "options": [
+          "Lahore session",
+          "Karachi session",
+          "Ramgarh session",
+          "Tripuri session"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Ramgarh session (March 1940) was presided over by Azad."
+      },
+      {
+        "text": "What was the key demand made by the Muslim League in its Pakistan Resolution passed at the Lahore session in March 1940?",
+        "options": [
+          "Joint electorates for all communities.",
+          "A federal structure with strong central government.",
+          "Grouping of geographically contiguous Muslim-majority areas into separate sovereign states.",
+          "Increased representation for Muslims in existing provinces."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Pakistan Resolution demanded contiguous Muslim-majority areas be grouped as 'sovereign states.'"
+      },
+      {
+        "text": "Which of the following statements was part of the August Offer of 1940?",
+        "options": [
+          "Immediate establishment of a national government at the Centre.",
+          "A constituent assembly to be set up immediately after the war, composed solely of British officials.",
+          "Expansion of the viceroy's executive council with a majority of Indians.",
+          "Complete independence for India after the war."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The August Offer expanded the executive council with more Indians."
+      },
+      {
+        "text": "How did Jawaharlal Nehru react to the August Offer of 1940?",
+        "options": [
+          "He welcomed it as a step towards self-government.",
+          "He declared the \"Dominion status concept is dead as a doornail.\"",
+          "He suggested a compromise with the British government.",
+          "He sought clarifications before offering a response."
+        ],
+        "correctAnswer": 1,
+        "explanation": "\"Dominion status concept is dead as a doornail,\" declared Nehru."
+      },
+      {
+        "text": "What was the primary demand of the satyagrahi in the Individual Satyagraha launched by Gandhi in 1940?",
+        "options": [
+          "Non-payment of taxes.",
+          "Boycott of foreign goods.",
+          "Freedom of speech against the war through an anti-war declaration.",
+          "Resignation from government service."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The satyagrahis demanded the right to speak and declare their stance on the war."
+      },
+      {
+        "text": "What was the 'Delhi Chalo Movement' associated with?",
+        "options": [
+          "Mass Civil Disobedience Movement of 1930.",
+          "Quit India Movement of 1942.",
+          "Individual Satyagraha, involving a march towards Delhi.",
+          "Non-Cooperation Movement."
+        ],
+        "correctAnswer": 2,
+        "explanation": "In 1940, activists marched to Delhi in symbolic protest."
+      },
+      {
+        "text": "Who was designated by Mahatma Gandhi as his chosen successor amidst Japan's aggressive actions during WWII?",
+        "options": [
+          "Sardar Vallabhbhai Patel",
+          "Subhash Chandra Bose",
+          "Jawaharlal Nehru",
+          "Rajendra Prasad"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi named Jawaharlal Nehru his chosen successor."
+      },
+      {
+        "text": "What was the primary reason for sending the Cripps Mission to India in March 1942?",
+        "options": [
+          "To finalise India's independence immediately.",
+          "To seek Indian support for the war, given the real Japanese threat to invade India.",
+          "To initiate a new phase of constitutional reforms based on Congress demands.",
+          "To address the ongoing communal tensions."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Cripps Mission was sent due to Japan’s military threat."
+      },
+      {
+        "text": "What was a key proposal of the Cripps Mission regarding India's future status?",
+        "options": [
+          "Immediate declaration of complete independence.",
+          "An Indian Union with a dominion status, free to decide its relations with the world.",
+          "Permanent British control over India's defence and foreign affairs.",
+          "Division of India into multiple independent states."
+        ],
+        "correctAnswer": 1,
+        "explanation": "It proposed a dominion-status Indian Union post-war."
+      },
+      {
+        "text": "According to the Cripps Mission proposals, who would frame a new constitution for India after the end of the war?",
+        "options": [
+          "The British Parliament.",
+          "A constituent assembly convened after the war.",
+          "A joint committee of British and Indian representatives.",
+          "The Viceroy's executive council."
+        ],
+        "correctAnswer": 1,
+        "explanation": "A constituent assembly would be convened after the war."
+      },
+      {
+        "text": "What was one of the main objections of the Indian National Congress to the Cripps Mission proposals?",
+        "options": [
+          "The offer of immediate and unconditional independence.",
+          "The inclusion of a clear plan for immediate transfer of power.",
+          "The right given to provinces to secede from the Indian Union.",
+          "The complete transfer of defence to Indian hands during the war."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Congress objected to provinces being allowed to secede."
+      },
+      {
+        "text": "Why did the Muslim League criticize the Cripps Mission proposals?",
+        "options": [
+          "It proposed a full-fledged Pakistan.",
+          "It denied the Muslims the right to self-determination and the creation of Pakistan.",
+          "It did not offer enough power to the viceroy.",
+          "It proposed separate electorates for all minorities."
+        ],
+        "correctAnswer": 1,
+        "explanation": "The proposals fell short of Pakistan; 'self-determination' wasn't guaranteed."
+      },
+      {
+        "text": "Who described the Cripps Mission scheme as \"a post-dated cheque\"?",
+        "options": [
+          "Jawaharlal Nehru",
+          "Subhash Chandra Bose",
+          "Mahatma Gandhi",
+          "Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gandhi famously called it a 'post-dated cheque on a crashing bank.'"
+      },
+      {
+        "text": "What was the state of Indian nationalism at the end of World War I?",
+        "options": [
+          "It was in decline due to economic prosperity.",
+          "It saw a resurgence in activity.",
+          "It adopted a purely constitutional approach.",
+          "It was primarily focused on regional issues."
+        ],
+        "correctAnswer": 1,
+        "explanation": "There was a surge in nationalist activity at the end of WWI."
+      },
+      {
+        "text": "What did the Congress Working Committee (CWC) decide regarding India's support for the war effort, after overriding Gandhi's and Nehru's objections?",
+        "options": [
+          "To initiate a mass civil disobedience movement.",
+          "To offer unconditional support to the British.",
+          "To offer to cooperate with the government in the defence of India.",
+          "To remain neutral in the conflict."
+        ],
+        "correctAnswer": 2,
+        "explanation": "The CWC offered to cooperate with the government for Indian defence."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>
