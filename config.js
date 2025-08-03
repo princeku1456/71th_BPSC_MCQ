@@ -5,7 +5,7 @@ const subjectsConfig = {
         name: 'Current Affair',
         description: 'Explore MCQs',
         color: 'primary',
-        icon: '📰 🗞️ 📢',
+        icon: '📰 📢 🌐',
         // Flattening all chapters directly under history, no intermediate topics
         chapters: [
             // Current Affairs
@@ -151,4 +151,44 @@ const subjectsConfig = {
             }
         ]
     },
+    BiharSpecial: {
+        name: 'Bihar Special ',
+        description: 'Explore MCQs',
+        color: 'danger',
+        icon: '🏯🌾🎓',
+        // Flattening all chapters directly under history, no intermediate topics
+        chapters: [
+            // Current Affairs
+            {
+                id: 'BSchapter1',
+                name: 'General Introduction about Bihar (Part-1)',
+                file: 'BiharSpecial/chapter_1.html'
+            },
+            {
+                id: 'BSchapter2',
+                name: 'General Introduction about Bihar (Part-2)',
+                file: 'BiharSpecial/chapter_2.html'
+            },
+            {
+                id: 'BSchapter3',
+                name: 'Geography of Bihar (Part-1)',
+                file: 'BiharSpecial/chapter_3.html'
+            },
+            {
+                id: 'BSchapter4',
+                name: 'Geography of Bihar (Part-2)',
+                file: 'BiharSpecial/chapter_4.html'
+            },
+            {
+                id: 'BSchapter5',
+                name: 'Geography of Bihar (Part-3)',
+                file: 'BiharSpecial/chapter_5.html'
+            },
+            {
+                id: 'BSchapter6',
+                name: 'People’s Resistance Against British Before 1857',
+                file: 'BiharSpecial/chapter_6.html'
+            }
+        ]
+    }
 };
