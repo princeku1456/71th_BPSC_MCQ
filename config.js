@@ -186,8 +186,48 @@ const subjectsConfig = {
             },
             {
                 id: 'BSchapter6',
-                name: 'People’s Resistance Against British Before 1857',
+                name: 'Ancient & Medieval History of Bihar (Part-1)',
                 file: 'BiharSpecial/chapter_6.html'
+            },
+            {
+                id: 'BSchapter7',
+                name: 'Ancient & Medieval History of Bihar (Part-2)',
+                file: 'BiharSpecial/chapter_7.html'
+            },
+            {
+                id: 'BSchapter8',
+                name: 'Ancient & Medieval History of Bihar (Part-3)',
+                file: 'BiharSpecial/chapter_8.html'
+            },
+            {
+                id: 'BSchapter9',
+                name: 'Modern History of Bihar (Part-1)',
+                file: 'BiharSpecial/chapter_9.html'
+            },
+            {
+                id: 'BSchapter10',
+                name: 'Modern History of Bihar (Part-2)',
+                file: 'BiharSpecial/chapter_10.html'
+            },
+            {
+                id: 'BSchapter11',
+                name: 'Modern History of Bihar (Part-3)',
+                file: 'BiharSpecial/chapter_11.html'
+            },
+            {
+                id: 'BSchapter12',
+                name: 'Important Personalities of Bihar',
+                file: 'BiharSpecial/chapter_12.html'
+            },
+            {
+                id: 'BSchapter13',
+                name: 'Art and Culture of Bihar',
+                file: 'BiharSpecial/chapter_13.html'
+            },
+            {
+                id: 'BSchapter14',
+                name: 'Census of India and Bihar (2011)',
+                file: 'BiharSpecial/chapter_14.html'
             }
         ]
     }

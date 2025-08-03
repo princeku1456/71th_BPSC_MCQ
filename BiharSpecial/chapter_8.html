@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ancient & Medieval History (Part-3)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "During the First Buddhist Council, who recited the Suttas to preserve Buddha's teachings?",
+        "options": [
+          "Mahakasyapa",
+          "Ananda",
+          "Upali",
+          "Mogaliputta Tissa"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ananda recited the Suttas at the First Buddhist Council to preserve Buddha's teachings."
+      },
+      {
+        "text": "The first major split into Theravada and Mahayana in Buddhism occurred during which Buddhist Council?",
+        "options": [
+          "First Buddhist Council",
+          "Second Buddhist Council",
+          "Third Buddhist Council",
+          "Fourth Buddhist Council"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The division between Theravada and Mahayana Buddhism occurred at the Second Buddhist Council."
+      },
+      {
+        "text": "The Third Buddhist Council was held at Pataliputra under the patronage of King Ashoka and the presidency of whom?",
+        "options": [
+          "Mahakasyapa",
+          "Sabakami",
+          "Mogaliputta Tissa",
+          "Vasumitra"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mogaliputta Tissa presided over the Third Buddhist Council under the patronage of King Ashoka at Pataliputra."
+      },
+      {
+        "text": "Which Pitaka was established during the Third Buddhist Council, completing the 'Tripitaka'?",
+        "options": [
+          "Sutta Pitaka",
+          "Vinaya Pitaka",
+          "Abhidhamma Pitaka",
+          "Jatakas"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Abhidhamma Pitaka was established during the Third Buddhist Council, completing the Tripitaka."
+      },
+      {
+        "text": "The Fourth Buddhist Council (72 AD) was held at Kundalvana, Kashmir, under the patronage of which Kushan king?",
+        "options": [
+          "Ashoka",
+          "Kalasoka",
+          "Kanishka",
+          "Ajatshatru"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Fourth Buddhist Council was held under the patronage of Kushan king Kanishka."
+      },
+      {
+        "text": "Which council distinctly divided Buddhism into two sects: Mahayana and Hinayana?",
+        "options": [
+          "First Buddhist Council",
+          "Second Buddhist Council",
+          "Third Buddhist Council",
+          "Fourth Buddhist Council"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The clear division into Mahayana and Hinayana sects occurred at the Fourth Buddhist Council."
+      },
+      {
+        "text": "Jainism derives its name from the word 'Jina', meaning what?",
+        "options": [
+          "King",
+          "Enlightened",
+          "Liberator or victor",
+          "Ascetic"
+        ],
+        "correctAnswer": 2,
+        "explanation": "'Jina' means liberator or victor, from which the term Jainism derives."
+      },
+      {
+        "text": "How many liberated souls, called Jinas or Tirthankaras, are revered in Jainism?",
+        "options": [
+          "10",
+          "12",
+          "22",
+          "24"
+        ],
+        "correctAnswer": 3,
+        "explanation": "There are 24 Tirthankaras revered in Jainism."
+      },
+      {
+        "text": "Which Jain Tirthankara was the first?",
+        "options": [
+          "Mahavira",
+          "Parshwanath",
+          "Rishabhdev",
+          "Neminatha"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rishabhdev was the first Jain Tirthankara."
+      },
+      {
+        "text": "The Jain Canonical was established at the Council of Valabhi, presided over by Devardhi, around which year?",
+        "options": [
+          "3rd century BC",
+          "5th century AD",
+          "512 C.E.",
+          "72 AD"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Jain Canonical was established at Valabhi council around 512 C.E., presided over by Devardhi."
+      },
+      {
+        "text": "What is considered the primary scripture in Jainism, accepted by both Svetambara and Digambara, written by Umasvati?",
+        "options": [
+          "Kalpa Sutra",
+          "Bhagavati Sutra",
+          "Tattvartha Sutra",
+          "Acharanga Sutra"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Tattvartha Sutra by Umasvati is accepted as the primary scripture by both Svetambara and Digambara sects."
+      },
+      {
+        "text": "Where was Vardhaman Mahavira born?",
+        "options": [
+          "Pavapuri",
+          "Rajgir",
+          "Vaishali",
+          "Kundagrama near Vaishali"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Mahavira was born at Kundagrama near Vaishali."
+      },
+      {
+        "text": "What spiritual knowledge did Mahavira attain after thirteen years of self-abasement, leading him to be called Mahavir and Jina?",
+        "options": [
+          "Nirvana",
+          "Moksha",
+          "Kevala Jnana",
+          "Bodhi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "He attained 'Kevala Jnana' after years of self-abasement, therefore called Mahavir and Jina."
+      },
+      {
+        "text": "At what age did Vardhaman Mahavira die at Pavapuri near Rajagriha?",
+        "options": [
+          "60 years",
+          "72 years",
+          "80 years",
+          "90 years"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mahavira died at the age of 72 at Pavapuri near Rajagriha."
+      },
+      {
+        "text": "The First Jain Council was convened at Patliputra, presided by whom?",
+        "options": [
+          "Bhadrabahu",
+          "Sthuibhadra",
+          "Devardhi",
+          "Umasvati"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sthulabhadra presided over the First Jain Council at Patliputra."
+      },
+      {
+        "text": "In which Jain Council were the 'Twelve Angas' compiled?",
+        "options": [
+          "First Jain Council",
+          "Second Jain Council",
+          "Third Jain Council",
+          "Fourth Jain Council"
+        ],
+        "correctAnswer": 1,
+        "explanation": "'Twelve Angas' were compiled during the Second Jain Council."
+      },
+      {
+        "text": "Which symbol is associated with Rishabha, the first Jain Tirthankara?",
+        "options": [
+          "Elephant",
+          "Horse",
+          "Ox",
+          "Lion"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The ox is the symbol associated with Rishabha, the first Tirthankara."
+      },
+      {
+        "text": "What is the symbol of Mahavira, the last Jain Tirthankara?",
+        "options": [
+          "Snake",
+          "Blue-Lotus",
+          "Conch",
+          "Lion"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The lion is the symbol of Mahavira."
+      },
+      {
+        "text": "What do Digambar monks believe is necessary to achieve nirvana or liberation?",
+        "options": [
+          "Wearing white clothes",
+          "Carrying a broom and water pot",
+          "Renouncing everything, including clothes",
+          "Being reborn as a man"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Digambar monks hold that one must renounce everything, including clothing, to achieve nirvana."
+      },
+      {
+        "text": "Which Jain sect believes that women can achieve nirvana or liberation directly?",
+        "options": [
+          "Digambar",
+          "Svetambara",
+          "Both",
+          "Neither"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Svetambara sect believes women can achieve nirvana without being reborn as men."
+      },
+      {
+        "text": "What three items do Digambara monks usually carry with them?",
+        "options": [
+          "Book, staff, and bowl",
+          "Picchi, Kamandalu, and Shastra",
+          "Clothes, food, and water",
+          "Rosary, bell, and incense"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Picchi (peacock-feather whisk), Kamandalu (water pot), and Shastra (sacred text) are the three usual items."
+      },
+      {
+        "text": "In Jainism, what is the discourse delivered by Tirthankaras known as?",
+        "options": [
+          "Agam Literature",
+          "Non-Agam Literature",
+          "ŚhrutJnāna",
+          "Tattvartha Sutra"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Tirthankaras’ discourses are called ŚhrutJnāna (heard knowledge)."
+      },
+      {
+        "text": "The original scriptures compiled by Gandharas and Strut-kevalis are known as what in Jain literature?",
+        "options": [
+          "Non-Agam Literature",
+          "Agam Literature",
+          "Jain Purana",
+          "Prakrit Granth"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Agam Literature refers to the original scriptures compiled by the Gandharas and Strut-kevalis."
+      },
+      {
+        "text": "Which of the following is NOT one of the Three Jewels of Jainism?",
+        "options": [
+          "Right faith (Samyak Darshan)",
+          "Right knowledge (Samyak jnana)",
+          "Right conduct (Samyak Charitra)",
+          "Right meditation (Samyak Dhyan)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Right meditation (Samyak Dhyan) is not one of the Three Jewels of Jainism."
+      },
+      {
+        "text": "Who was the founder and first ruler of the Pala dynasty, whose ascent to the throne is recognised as one of the first democratic elections in South Asia?",
+        "options": [
+          "Dharmapala",
+          "Devapala",
+          "Gopala",
+          "Mahipala I"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gopala became the first ruler of the Pala dynasty and was elected by the people."
+      },
+      {
+        "text": "The Khalimpur copper plate inscription suggests that the people of the region chose Gopala as their king in which year?",
+        "options": [
+          "AD 750",
+          "AD 770",
+          "AD 810",
+          "AD 988"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Gopala was chosen as king in AD 750, according to the inscription."
+      },
+      {
+        "text": "Which Pala ruler established Vikramshila University at Antichak village of modern Bhagalpur district?",
+        "options": [
+          "Gopala",
+          "Dharmapala",
+          "Devapala",
+          "Mahipala I"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dharmapala established the Vikramshila University."
+      },
+      {
+        "text": "Devapala, the successor of Dharmapala, made which city his capital?",
+        "options": [
+          "Pataliputra",
+          "Rajgir",
+          "Munger",
+          "Nalanda"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Devapala made Munger his capital."
+      },
+      {
+        "text": "During Devapala's reign, inscriptions have been found in Ghorawan, Hilsa, Nalanda, and which other district?",
+        "options": [
+          "Patna",
+          "Gaya",
+          "Bhagalpur",
+          "Munger"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Inscriptions from the time have been found in Munger."
+      },
+      {
+        "text": "Who among the later Pala rulers was the most prominent and is known as the \"second founder\" of the dynasty?",
+        "options": [
+          "Vigrahapala",
+          "Narayanpala",
+          "Mahipala I",
+          "Rampala"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mahipala I was the most prominent later Pala ruler, known as the 'second founder'."
+      },
+      {
+        "text": "The Sena Dynasty was founded by Sumantsena in the mid-11th century after the downfall of which dynasty?",
+        "options": [
+          "Gupta Dynasty",
+          "Pala Dynasty",
+          "Karnata Dynasty",
+          "Nanda Dynasty"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Sena dynasty rose to power after the Pala dynasty."
+      },
+      {
+        "text": "Which Sena ruler started a social movement named 'Kulinism'?",
+        "options": [
+          "Sumantsena",
+          "Vijayasena",
+          "Ballalsena",
+          "Lakshamansena"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ballalsena started the Kulinism movement."
+      },
+      {
+        "text": "The Sena dynasty was weakened due to internal rebellions and the invasion of whom?",
+        "options": [
+          "Ghiyasuddin Tughlaq",
+          "Bakhtiyar Khalji",
+          "Alauddin Khilji",
+          "Babur"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bakhtiyar Khalji's invasion contributed to the Sena dynasty's fall."
+      },
+      {
+        "text": "Who was the linguist and author of 'Pavanadutam' who adorned the court of Lakshamansena?",
+        "options": [
+          "Jayadev",
+          "Halayudha",
+          "Dhoyi",
+          "Vishakhadatta"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Halayudha, a linguist, and author of 'Pavanadutam', was part of Lakshamansena's court."
+      },
+      {
+        "text": "Who was the royal priest in the court of Harisimhadeva, the last ruler of the Karnata dynasty, and author of 'Varna Ratnakar'?",
+        "options": [
+          "Nanyadeva",
+          "Ganga Singh Deva",
+          "Jyotirishwar",
+          "Narsingh Deva"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jyotirishwar was the royal priest and author of 'Varna Ratnakar'."
+      },
+      {
+        "text": "Which dynasty took over the Karnata Dynasty after Harisimhadeva fled due to Ghiyasuddin Tughlaq's attack?",
+        "options": [
+          "Sena dynasty",
+          "Oiniwar dynasty",
+          "Noohani dynasty",
+          "Sur dynasty"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Oiniwar dynasty succeeded the Karnata dynasty."
+      },
+      {
+        "text": "Which of the following is NOT an element of the Eight-Fold Path in Buddhism?",
+        "options": [
+          "Samma-Sankappa (Perfected Emotion)",
+          "Samma-Ditthi (Complete Vision)",
+          "Samma-Vayama (Complete Effort)",
+          "Samma-Marga (Right Path)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Samma-Marga (Right Path) is not an element of the Eight-Fold Path."
+      },
+      {
+        "text": "Which of the Four Noble Truths states that 'desire is the cause of rebirth and misery'?",
+        "options": [
+          "Sarvam Dukkham",
+          "Dukha Samudaya",
+          "Dukkha Nirodha",
+          "Gamini pratipad"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dukha Samudaya states that desire is the cause of rebirth and misery."
+      },
+      {
+        "text": "Which of the following is NOT one of the five vows of Jainism?",
+        "options": [
+          "Non-violence (ahimsa)",
+          "Truth (satya)",
+          "Renunciation (sannyasa)",
+          "Non-stealing (asteya)"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Renunciation (sannyasa) is not a vow; the other three are."
+      },
+      {
+        "text": "Which specific rock system is found in the southern regions of Bihar districts like Aurangabad, Gaya, Nawada, Jamui, Bhagalpur, Banka and Munger?",
+        "options": [
+          "Vindhyan Rock System",
+          "Tertiary Rock System",
+          "Quaternary Rock System",
+          "Dharwar Rock System"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The Dharwar Rock System is found in the southern regions of these Bihar districts."
+      },
+      {
+        "text": "The Vindhyan Rock System in Bihar is primarily found in which districts?",
+        "options": [
+          "Jamui and Nawada",
+          "Rohtas and Kaimur",
+          "West Champaran and East Champaran",
+          "Patna and Gaya"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Vindhyan Rock System is found mainly in Rohtas and Kaimur districts."
+      },
+      {
+        "text": "Large reserves of limestone and pyrite are present in the region characterized by which rock system?",
+        "options": [
+          "Dharwar Rock System",
+          "Vindhyan Rock System",
+          "Tertiary Rock System",
+          "Quaternary Rock System"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Vindhyan rock areas have rich limestone and pyrite deposits."
+      },
+      {
+        "text": "Which rock system in Bihar is found in the Upper North-Western regions or the Terai Region of the Shivalik Ranges?",
+        "options": [
+          "Dharwar Rock System",
+          "Vindhyan Rock System",
+          "Tertiary Rock System",
+          "Quaternary Rock System"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Tertiary Rock System is found in the Terai region and Shivalik ranges."
+      },
+      {
+        "text": "The Quaternary Rock System in Bihar was created by the rapid deposition of alluvium by which rivers?",
+        "options": [
+          "Himalayan and Peninsular rivers like Ganga, Ghagra, Gandak, etc.",
+          "Rivers originating from Chota Nagpur plateau only",
+          "Rivers originating from Shivalik Ranges only",
+          "Rivers exclusively from West Bengal"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Quaternary Rock System was formed by alluvium deposited mainly by Himalayan and Peninsular rivers."
+      },
+      {
+        "text": "What kind of pottery was used by people during the Neolithic Age in sites like Chirand?",
+        "options": [
+          "Fine glazed pottery",
+          "Polished pottery",
+          "Coarse pottery",
+          "Painted pottery"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Coarse pottery was prevalent during the Neolithic Age in Chirand."
+      },
+      {
+        "text": "Which of the following defines the aim of Jain life according to the three jewels of Jain ethics?",
+        "options": [
+          "Attain moksha by worshipping deities",
+          "Achieve liberation of the soul",
+          "Accumulate spiritual wealth",
+          "Follow the path of devotion"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Liberation of the soul is the main aim according to Jain ethics."
+      },
+      {
+        "text": "During whose reign was the First Buddhist Council held in the Sattapani Caves?",
+        "options": [
+          "Bimbisara",
+          "Ajatshatru",
+          "Udayin",
+          "Kalasoka"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ajatshatru was the ruler during the First Buddhist Council."
+      },
+      {
+        "text": "The First Buddhist Council aimed to preserve Buddha's teachings and rules for disciples, categorized as:",
+        "options": [
+          "Abhidhamma and Jatakas",
+          "Sutta and Jatakas",
+          "Sutta and Vinaya",
+          "Vinaya and Abhidhamma"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The Council categorized the teachings as Sutta and Vinaya."
+      },
+      {
+        "text": "The division of Jainism into Digambar and Svetambar sects clearly emerged after which event?",
+        "options": [
+          "First Jain Council at Patliputra",
+          "Second Jain Council at Valabhi in 5th century AD",
+          "Valabhi council of 512 C.E.",
+          "Nirvana of Mahavira"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The division became distinct after the Valabhi council of 512 C.E."
+      },
+      {
+        "text": "Which of the following facts about the Buddhist disciples is mentioned in the source?",
+        "options": [
+          "Anand was the chief of all disciples.",
+          "Sariputta, Moggallana, Ananda, Kassapa, and Upali were disciples of Buddha.",
+          "Only five main disciples are mentioned.",
+          "Buddha had no chief disciples."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sariputta, Moggallana, Ananda, Kassapa, and Upali were the prominent disciples."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

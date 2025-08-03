@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Modern History of Bihar (Part-3)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which District Magistrate ordered firing at several places during the Quit India Movement in Bihar?",
+        "options": [
+          "Lord Wavell",
+          "W. C. Archer",
+          "Lord Linlithgow",
+          "Sir Stafford Cripps"
+        ],
+        "correctAnswer": 1,
+        "explanation": "W. C. Archer was the District Magistrate responsible for ordering firing at several places during the Quit India Movement in Bihar."
+      },
+      {
+        "text": "During the August Revolution of 1942 (Quit India Movement), where was Dr. Rajendra Prasad imprisoned?",
+        "options": [
+          "Hazaribagh",
+          "Buxar",
+          "Bankipur",
+          "Patna City"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dr. Rajendra Prasad was imprisoned in Bankipur Jail during the Quit India Movement."
+      },
+      {
+        "text": "Where was Jaiprakash Narayan imprisoned during the Quit India Movement?",
+        "options": [
+          "Bankipur",
+          "Buxar",
+          "Hazaribagh",
+          "Gaya Central Jail"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jaiprakash Narayan was imprisoned in Hazaribagh Jail during the Quit India Movement."
+      },
+      {
+        "text": "How many students are commemorated as the 'Seven Martyrs' of the Patna Secretariat Shooting on 11th August 1942?",
+        "options": [
+          "Five",
+          "Six",
+          "Seven",
+          "Eight"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Seven students are commemorated as the 'Seven Martyrs' of the Patna Secretariat Shooting."
+      },
+      {
+        "text": "Which of the following martyrs of the Patna Secretariat Shooting belonged to Patna district?",
+        "options": [
+          "Umakant Prasad Sinha",
+          "Rajendra Singh",
+          "Ramanand Singh",
+          "Satish Chandra Jha"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Ramanand Singh was the martyr from Patna district."
+      },
+      {
+        "text": "Which freedom fighter from Bihar joined Subhash Chandra Bose to found the All India Forward Bloc?",
+        "options": [
+          "Swami Shahjanand Saraswati",
+          "Baikuntha Shukla",
+          "Sheel Bhadra Yajee",
+          "Yogendra Shukla"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sheel Bhadra Yajee joined Subhash Chandra Bose to form the All India Forward Bloc."
+      },
+      {
+        "text": "Who was known as \"Bihar Bibhuti\"?",
+        "options": [
+          "Dr. Rajendra Prasad",
+          "Dr. Anugrah Narayan Sinha",
+          "Shri Krishna Singh",
+          "Jayprakash Narayan"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dr. Anugrah Narayan Sinha was known as \"Bihar Bibhuti\"."
+      },
+      {
+        "text": "Who was posthumously awarded the Bharat Ratna and was popularly referred to as JP or Lok Nayak?",
+        "options": [
+          "Dr. Rajendra Prasad",
+          "Jagjivan Ram",
+          "Jayprakash Narayan",
+          "Shri Krishna Singh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jayprakash Narayan, known as JP or Lok Nayak, was posthumously awarded the Bharat Ratna."
+      },
+      {
+        "text": "Which leader was the Defence Minister during the Indo-Pak war of 1971?",
+        "options": [
+          "Dr. Rajendra Prasad",
+          "Jagjivan Ram",
+          "Shri Krishna Singh",
+          "Jayprakash Narayan"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Jagjivan Ram was the Defence Minister during the 1971 Indo-Pak war."
+      },
+      {
+        "text": "Who was the first Chief Minister of Bihar?",
+        "options": [
+          "Mohammad Yunus",
+          "Dr. Rajendra Prasad",
+          "Shri Krishna Singh",
+          "Dr. Anugrah Narayan Sinha"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Shri Krishna Singh was the first Chief Minister of Bihar."
+      },
+      {
+        "text": "Which Chief Minister of Bihar led the Dalit entry into Baidyanath Dham temple, Deoghar?",
+        "options": [
+          "Dr. Anugrah Narayan Sinha",
+          "Shri Krishna Singh",
+          "Jagjivan Ram",
+          "Satyendra Narayan Singh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Shri Krishna Singh led the Dalit entry into the Baidyanath Dham temple in Deoghar."
+      },
+      {
+        "text": "Who was the first Deputy Chief Minister of Bihar?",
+        "options": [
+          "Shri Krishna Singh",
+          "Dr. Anugrah Narayan Sinha",
+          "Ramdayalu Singh",
+          "Abdul Bari"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Dr. Anugrah Narayan Sinha was the first Deputy Chief Minister of Bihar."
+      },
+      {
+        "text": "Yadunandan Sharma initiated a movement for the rights of tillers against zamindars and British, known as what?",
+        "options": [
+          "Champaran Satyagraha",
+          "Reora Satyagraha",
+          "Kisan Sabha Movement",
+          "Bakasht Movement"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The movement was known as Reora Satyagraha."
+      },
+      {
+        "text": "Who formed the All India Kisan Sabha and established an Ashram at Bihta near Patna?",
+        "options": [
+          "N. G. Ranga",
+          "Pandit YamunaKarjee",
+          "Swami Sahajanand Saraswati",
+          "Rahul Sankrityayan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Swami Sahajanand Saraswati formed the All India Kisan Sabha and established an Ashram at Bihta."
+      },
+      {
+        "text": "Baikuntha Shukla was hanged for murdering Phanindra Nath Gosh, who had turned approver leading to the hanging of which revolutionaries?",
+        "options": [
+          "Bhagat Singh, Sukhdev and Rajguru",
+          "Chandrashekhar Azad, Ram Prasad Bismil",
+          "Khudiram Bose, Prafulla Chaki",
+          "Surya Sen, Pritilata Waddedar"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Phanindra Nath Ghosh's testimony led to the hanging of Bhagat Singh, Sukhdev and Rajguru."
+      },
+      {
+        "text": "Who was a former Chief Minister of Bihar and a leading man of JP’s Complete Revolution Movement?",
+        "options": [
+          "Shri Krishna Singh",
+          "Jagjivan Ram",
+          "Satyendra Narayan Singh",
+          "Basawon Singh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Satyendra Narayan Singh was both a former CM and leading man in JP's movement."
+      },
+      {
+        "text": "Karyanand Sharma, a peasant leader, was born in which district of Bihar?",
+        "options": [
+          "Patna",
+          "Gaya",
+          "Munger",
+          "Nalanda"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Karyanand Sharma was born in Munger district."
+      },
+      {
+        "text": "Basawon Singh was a founding member of which political party in Bihar, along with Yogendra Shukla?",
+        "options": [
+          "Congress Socialist Party",
+          "Bihar Socialist Party",
+          "Communist Party of India",
+          "All India Forward Bloc"
+        ],
+        "correctAnswer": 0,
+        "explanation": "He was a founding member of the Congress Socialist Party."
+      },
+      {
+        "text": "Yogendra Shukla was one of the founding members of the Hindustan Socialist Republican Association (HSRA) and was imprisoned in which notorious jail?",
+        "options": [
+          "Cellular Jail, Andaman (Kalapani)",
+          "Yerwada Central Jail",
+          "Lahore Central Jail",
+          "Alipore Central Jail"
+        ],
+        "correctAnswer": 0,
+        "explanation": "He was imprisoned in Cellular Jail, Andaman (Kalapani)."
+      },
+      {
+        "text": "Which prominent woman leader is mentioned as being active in Bihar's freedom struggle?",
+        "options": [
+          "Annie Besant",
+          "Sarojini Naidu",
+          "Prabhawati Devi",
+          "Aruna Asaf Ali"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Prabhawati Devi was a prominent woman leader in Bihar's freedom struggle."
+      },
+      {
+        "text": "In which city was the Bihar Trade Union Congress formed on 10th June 1944?",
+        "options": [
+          "Patna",
+          "Muzaffarpur",
+          "Giridih",
+          "Bhagalpur"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was formed in Giridih."
+      },
+      {
+        "text": "The CPI (Communist Party of India) organized a Labour Conference in Patna in which year?",
+        "options": [
+          "1937",
+          "1938",
+          "1944",
+          "1947"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The conference was organized in 1947."
+      },
+      {
+        "text": "The Santhal Pargana was created by the British to pacify which uprising?",
+        "options": [
+          "Munda Uprising",
+          "Kol Uprising",
+          "Santhal Uprising",
+          "Bhumij Revolt"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Santhal Pargana was created after the Santhal Uprising."
+      },
+      {
+        "text": "In the Santhal Uprising of 1855-56, who among the following was a leader?",
+        "options": [
+          "Birsa Munda",
+          "Budhu Bhagat",
+          "Kanhu",
+          "Jatra Bhagat"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Kanhu was a leader of the Santhal Rebellion."
+      },
+      {
+        "text": "The Munda Revolt (Ulgulan) under Birsa Munda was primarily against which British policy or act?",
+        "options": [
+          "Permanent Settlement",
+          "Forest Regulation Act of 1865",
+          "Tinkathiya System",
+          "Subsidiary Alliance"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was primarily against the Forest Regulation Act of 1865."
+      },
+      {
+        "text": "When was Birsa Munda captured?",
+        "options": [
+          "1899",
+          "1900",
+          "1901",
+          "1914"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Birsa Munda was captured in 1900."
+      },
+      {
+        "text": "The Tana Bhagat Movement, started by the Oraon community, had whom as its main leader?",
+        "options": [
+          "Birsa Munda",
+          "Budhu Bhagat",
+          "Jatra Bhagat",
+          "Ganga Narayan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Jatra Bhagat was the main leader."
+      },
+      {
+        "text": "What was the primary nature of the Tana Bhagat Movement?",
+        "options": [
+          "Agrarian",
+          "Political",
+          "Religious",
+          "Economic"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was primarily a religious movement."
+      },
+      {
+        "text": "The Kol Uprisings of 1831-32 were against the expansion of British rule and the transfer of Kol land to which groups?",
+        "options": [
+          "Zamindars and moneylenders",
+          "Sikh and Muslim farmers",
+          "Christian missionaries",
+          "European planters"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was against the transfer of Kol land to Sikh and Muslim farmers."
+      },
+      {
+        "text": "Who was associated with the Bhumij Revolt of 1832-1833?",
+        "options": [
+          "Budhu Bhagat",
+          "Ganga Narayan",
+          "Sidhu",
+          "Baba Bhagirath Manjhi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ganga Narayan was a key leader of the Bhumij Revolt."
+      },
+      {
+        "text": "The Sapha Hor Revolt of 1870 was specifically against which restriction?",
+        "options": [
+          "Land revenue policy",
+          "Forest rights",
+          "Religious sentiment",
+          "Trade regulations"
+        ],
+        "correctAnswer": 2,
+        "explanation": "It was against restriction on religious sentiment."
+      },
+      {
+        "text": "In which year was Patna College established?",
+        "options": [
+          "1863",
+          "1883",
+          "1889",
+          "1909"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Patna College was established in 1863."
+      },
+      {
+        "text": "When was Patna University established?",
+        "options": [
+          "1917",
+          "1919",
+          "1924",
+          "1927"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Patna University was established in 1917."
+      },
+      {
+        "text": "The Post Graduate department in the Arts faculty of Patna College was established in which year?",
+        "options": [
+          "1917",
+          "1919",
+          "1925",
+          "1926"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Post Graduate department in Arts was established in 1917."
+      },
+      {
+        "text": "When was Patna Medical College and Hospital established?",
+        "options": [
+          "1917",
+          "1919",
+          "1925",
+          "1927"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Patna Medical College and Hospital was established in 1925."
+      },
+      {
+        "text": "In what year was the Science College, Patna, established?",
+        "options": [
+          "1924",
+          "1926",
+          "1927",
+          "1928"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Science College, Patna was established in 1927."
+      },
+      {
+        "text": "Which of these educational institutions was established in 1924?",
+        "options": [
+          "Patna Law College",
+          "Indian School of Mining, Dhanbad",
+          "Bihar College of Engineering, Patna",
+          "Government Ayurvedic School in Patna"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar College of Engineering, Patna was established in 1924."
+      },
+      {
+        "text": "The Bihar Veterinary College, Patna, was established in which year?",
+        "options": [
+          "1917",
+          "1926",
+          "1927",
+          "1938"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar Veterinary College was established in 1927."
+      },
+      {
+        "text": "Which of the following educational institutions was established in 1889?",
+        "options": [
+          "Patna College",
+          "T. N. B. College, Bhagalpur",
+          "B. N. College, Patna",
+          "R. D. & D. J. College, Munger"
+        ],
+        "correctAnswer": 2,
+        "explanation": "B. N. College, Patna was established in 1889."
+      },
+      {
+        "text": "In which year was the Government Ayurvedic School in Patna established?",
+        "options": [
+          "1925",
+          "1926",
+          "1947",
+          "1938"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was established in 1926."
+      },
+      {
+        "text": "What was the political significance of Delhi becoming the capital in 1911 for Bihar?",
+        "options": [
+          "It led to the decline of Patna's importance.",
+          "It resulted in the carving out of the Province of Bihar and Orissa from Bengal.",
+          "It marked the end of British rule in Bihar.",
+          "It triggered the Champaran Satyagraha."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Delhi becoming the capital led to the creation of the Province of Bihar and Orissa."
+      },
+      {
+        "text": "The office of Deputy-Governor was created by the British East India Company after which major event?",
+        "options": [
+          "The famine of 1770",
+          "The Battle of Buxar",
+          "The Permanent Settlement",
+          "The Revolt of 1857"
+        ],
+        "correctAnswer": 1,
+        "explanation": "It was created after the Battle of Buxar."
+      },
+      {
+        "text": "During the Salt Satyagraha in Bihar, the Congress was declared an illegal organization in which month of 1930?",
+        "options": [
+          "April",
+          "May",
+          "June",
+          "July"
+        ],
+        "correctAnswer": 2,
+        "explanation": "In June 1930, Congress was declared illegal."
+      },
+      {
+        "text": "Which of the following personalities was NOT associated with the Bihar Socialist Party formed in 1931?",
+        "options": [
+          "Ganga Sharan Sinha",
+          "Rambriksha Benipuri",
+          "Ramanand Mishra",
+          "Jaiprakash Narayan"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Jaiprakash Narayan was not associated with the foundation of Bihar Socialist Party in 1931."
+      },
+      {
+        "text": "Who was the first Chief Minister of Bihar after the 1937 elections, formed by independent candidates when Congress refused to form the government?",
+        "options": [
+          "Shri Krishna Singh",
+          "Mohammad Yunus",
+          "Anugraha Narayan Sinha",
+          "Abdul Bari"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Mohammad Yunus was the first CM after the 1937 elections as an Independent."
+      },
+      {
+        "text": "Which of the following was NOT one of the reasons for the limitations of the Revolutionary Movement in Bihar?",
+        "options": [
+          "Religious overemphasis",
+          "Limited upper-caste involvement",
+          "Lack of mass involvement",
+          "Strong support from the British government"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Strong support from the British government was NOT a reason for the limitation of Bihar's revolutionary movement."
+      },
+      {
+        "text": "What was the primary commodity of interest for the English factory established in Patna in 1620?",
+        "options": [
+          "Spices",
+          "Cotton textiles",
+          "Saltpetre",
+          "Opium"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Saltpetre was the main commodity for the Patna factory in 1620."
+      },
+      {
+        "text": "Which tribal revolt in Bihar was a socio-religious movement (Ulgulan) with agrarian and political content?",
+        "options": [
+          "Santhal Uprising",
+          "Kol Uprisings",
+          "Munda Revolt",
+          "Tana Bhagat Movement"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Munda Revolt was known as Ulgulan and had socio-religious, agrarian, and political content."
+      },
+      {
+        "text": "The Home Rule League in Bihar was established in which city?",
+        "options": [
+          "Patna",
+          "Bankipore",
+          "Muzaffarpur",
+          "Motihari"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The Home Rule League was established in Bankipore."
+      },
+      {
+        "text": "In the 1857 Revolt, which district of Bihar was the starting point of the first incident traced in the state?",
+        "options": [
+          "Patna",
+          "Danapur",
+          "Deoghar",
+          "Jagdishpur"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The first incident in Bihar during the 1857 Revolt is traced to Deoghar district."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

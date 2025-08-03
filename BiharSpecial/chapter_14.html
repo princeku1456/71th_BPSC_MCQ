@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Census of India and Bihar (2011)</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "According to the Census of India, what is the total population of India?",
+        "options": [
+          "1,01,08,54,977",
+          "1,11,08,54,977",
+          "1,21,08,54,977",
+          "1,31,08,54,977"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The total population of India according to the Census is 1,21,08,54,977."
+      },
+      {
+        "text": "What is India's overall rank in the world by population?",
+        "options": [
+          "First",
+          "Second",
+          "Third",
+          "Fourth"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India ranks second in the world by population."
+      },
+      {
+        "text": "What percentage of the world population does India account for?",
+        "options": [
+          "15.5%",
+          "16.5%",
+          "17.5%",
+          "18.5%"
+        ],
+        "correctAnswer": 2,
+        "explanation": "India accounts for 17.5% of the world population."
+      },
+      {
+        "text": "As per the Census of India, what is the percentage of Male Population in India?",
+        "options": [
+          "48.53%",
+          "50.00%",
+          "51.47%",
+          "52.17%"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The male population percentage in India is 51.47%."
+      },
+      {
+        "text": "Which of the following is listed among the Top Highly Populated States in India?",
+        "options": [
+          "Rajasthan",
+          "Madhya Pradesh",
+          "Gujarat",
+          "Bihar"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Bihar is listed among the top highly populated states in India."
+      },
+      {
+        "text": "Which state is listed as one of the Least Populated States in India?",
+        "options": [
+          "Goa",
+          "Sikkim",
+          "Uttarakhand",
+          "Himachal Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sikkim is listed among the least populated states in India."
+      },
+      {
+        "text": "Which Union Territory (UT) is listed as the Most Populated UT?",
+        "options": [
+          "Chandigarh",
+          "Puducherry",
+          "Delhi",
+          "Andaman Nicobar"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Delhi is the most populated Union Territory."
+      },
+      {
+        "text": "Which district holds the distinction of being the Highest Populated District in India?",
+        "options": [
+          "North-East Delhi",
+          "Thane (Maharashtra)",
+          "Kurungkume (Arunachal Pradesh)",
+          "Patna (Bihar)"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Thane district in Maharashtra is the highest populated district in India."
+      },
+      {
+        "text": "What was India's Decadal Growth (2001-2011) rate?",
+        "options": [
+          "16.4%",
+          "17.7%",
+          "18.6%",
+          "19.1%"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India's population grew by 17.7% in the decade 2001-2011."
+      },
+      {
+        "text": "Which state recorded the Highest Population Growth rate in India?",
+        "options": [
+          "Nagaland",
+          "Kerala",
+          "Meghalaya",
+          "Tamil Nadu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Meghalaya recorded the highest population growth rate."
+      },
+      {
+        "text": "Which state exhibited a Negative Population Growth rate?",
+        "options": [
+          "Kerala",
+          "Nagaland",
+          "Goa",
+          "Himachal Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Nagaland showed a negative population growth rate."
+      },
+      {
+        "text": "What is the Population Density of India per Sq. Km?",
+        "options": [
+          "325",
+          "350",
+          "382",
+          "400"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The population density of India is 382 persons per square kilometer."
+      },
+      {
+        "text": "Which state has the Highest Population Density in India?",
+        "options": [
+          "Uttar Pradesh",
+          "West Bengal",
+          "Bihar",
+          "Kerala"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar has the highest population density."
+      },
+      {
+        "text": "Which Union Territory (UT) has the Highest Population Density?",
+        "options": [
+          "Puducherry",
+          "Chandigarh",
+          "Delhi",
+          "Daman & Diu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Delhi has the highest population density among UTs."
+      },
+      {
+        "text": "What is the overall Sex Ratio in India?",
+        "options": [
+          "929",
+          "940",
+          "949",
+          "955"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The overall sex ratio in India is 940 females per 1000 males."
+      },
+      {
+        "text": "What is the Rural Sex Ratio in India?",
+        "options": [
+          "929",
+          "940",
+          "949",
+          "919"
+        ],
+        "correctAnswer": 2,
+        "explanation": "The rural sex ratio in India is 949 females per 1000 males."
+      },
+      {
+        "text": "Which state has the Highest Sex Ratio in India?",
+        "options": [
+          "Tamil Nadu",
+          "Kerala",
+          "Andhra Pradesh",
+          "Mizoram"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kerala has the highest sex ratio among Indian states."
+      },
+      {
+        "text": "Which state has the Lowest Sex Ratio in India?",
+        "options": [
+          "Punjab",
+          "Haryana",
+          "Uttar Pradesh",
+          "Rajasthan"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Haryana has the lowest sex ratio in India."
+      },
+      {
+        "text": "What is the Child Sex Ratio in India?",
+        "options": [
+          "900",
+          "919",
+          "929",
+          "940"
+        ],
+        "correctAnswer": 1,
+        "explanation": "India's child sex ratio is 919 females per 1000 males."
+      },
+      {
+        "text": "Which state has the Highest Child Sex Ratio?",
+        "options": [
+          "Haryana",
+          "Andhra Pradesh",
+          "Kerala",
+          "Mizoram"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Andhra Pradesh has the highest child sex ratio."
+      },
+      {
+        "text": "What is the Total Literacy Rate in India?",
+        "options": [
+          "65.46%",
+          "74.04%",
+          "82.14%",
+          "94.00%"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Total literacy rate in India is 74.04%."
+      },
+      {
+        "text": "What is the Male Literacy Rate in India?",
+        "options": [
+          "65.46%",
+          "74.04%",
+          "82.14%",
+          "92.28%"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Male literacy rate is 82.14%."
+      },
+      {
+        "text": "Which state has the Highest Literacy Rate in India?",
+        "options": [
+          "Mizoram",
+          "Kerala",
+          "Goa",
+          "Himachal Pradesh"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kerala leads in literacy rate."
+      },
+      {
+        "text": "Which state has the Lowest Literacy Rate in India?",
+        "options": [
+          "Rajasthan",
+          "Uttar Pradesh",
+          "Bihar",
+          "Jharkhand"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar has the lowest literacy rate."
+      },
+      {
+        "text": "Which Union Territory (UT) has the Highest Literacy Rate?",
+        "options": [
+          "Chandigarh",
+          "Puducherry",
+          "Lakshadweep",
+          "Delhi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lakshadweep has the highest literacy rate among UTs."
+      },
+      {
+        "text": "Which state recorded the Highest Increment in Literacy Rate?",
+        "options": [
+          "Uttar Pradesh",
+          "Rajasthan",
+          "Bihar",
+          "Madhya Pradesh"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar recorded the highest increment in literacy rate."
+      },
+      {
+        "text": "What is the overall population of Scheduled Castes (SC) in India?",
+        "options": [
+          "10.43 crore",
+          "16.6 crore",
+          "20.137 crore",
+          "25.42 crore"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Scheduled Castes population is 20.137 crore."
+      },
+      {
+        "text": "What is the Sex Ratio for Scheduled Tribes (ST) in India?",
+        "options": [
+          "945",
+          "990",
+          "919",
+          "940"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sex ratio for STs in India is 990."
+      },
+      {
+        "text": "As per the Caste Census, which religious group has the Highest Decadal Growth?",
+        "options": [
+          "Hindus",
+          "Muslims",
+          "Christians",
+          "Buddhists"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Buddhists have the highest decadal growth among religious groups."
+      },
+      {
+        "text": "As per the Caste Census, which religious group has the Lowest Literacy Rate?",
+        "options": [
+          "Christian",
+          "Sikh",
+          "Buddhist",
+          "Muslim"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Muslims have the lowest literacy rate among religious groups."
+      },
+      {
+        "text": "When was the first complete Census of India held?",
+        "options": [
+          "1872",
+          "1881",
+          "1901",
+          "1911"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The first complete Census of India was held in 1881."
+      },
+      {
+        "text": "Who was the Governor General when the first complete Census of India was held?",
+        "options": [
+          "Lord Dalhousie",
+          "Lord Curzon",
+          "Lord Rippon",
+          "Lord Mayo"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Lord Rippon was the Governor General during the first complete census."
+      },
+      {
+        "text": "What was the slogan of the 15th Census, 2011?",
+        "options": [
+          "'People's Census - Our Identity'",
+          "'Our Census - Our Future'",
+          "'Counting India, Securing Future'",
+          "'India Counts: Every Person Matters'"
+        ],
+        "correctAnswer": 1,
+        "explanation": "The slogan was 'Our Census - Our Future'."
+      },
+      {
+        "text": "What is the total population of Bihar as per the 2011 Census?",
+        "options": [
+          "94,163,000",
+          "104,099,452",
+          "1,106,000,000",
+          "19,133,964"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bihar's population as per 2011 Census is 104,099,452."
+      },
+      {
+        "text": "What is the Population Growth rate of Bihar as per the 2011 Census?",
+        "options": [
+          "17.7%",
+          "20.8%",
+          "25.42%",
+          "26.8%"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar recorded 25.42% population growth rate."
+      },
+      {
+        "text": "What is the Population density per sq km of Bihar?",
+        "options": [
+          "382",
+          "918",
+          "1,106",
+          "1,250"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bihar's population density is 1,106 persons per sq km."
+      },
+      {
+        "text": "According to Bihar Religion Based Demography, 2011, what is the Sex Ratio for Muslims?",
+        "options": [
+          "915",
+          "943",
+          "974",
+          "879"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Sex ratio for Muslims in Bihar is 943."
+      },
+      {
+        "text": "Which religious group in Bihar had the Highest Literacy (%) as per 2011 data?",
+        "options": [
+          "Hindus",
+          "Christians",
+          "Sikhs",
+          "Jains"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Jains had the highest literacy percentage."
+      },
+      {
+        "text": "Which of the following is one of the Five Districts with Highest Population in Bihar in 2011?",
+        "options": [
+          "Sheikhpura",
+          "Arwal",
+          "Madhubani",
+          "Jehanabad"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Madhubani is among the top five most populated districts."
+      },
+      {
+        "text": "Which of the following is one of the Five Districts with Lowest Population Growth Rate in Bihar in 2011?",
+        "options": [
+          "Madhepura",
+          "Kishanganj",
+          "Rohtas",
+          "Khagaria"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rohtas had the lowest population growth rate."
+      },
+      {
+        "text": "Which district in Bihar recorded the Highest Male Literacy in 2011?",
+        "options": [
+          "Bhojpur",
+          "Rohtas",
+          "Buxar",
+          "Siwan"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Rohtas recorded the highest male literacy."
+      },
+      {
+        "text": "Which of the following districts in Bihar had the Lowest Literacy overall in 2011?",
+        "options": [
+          "Katihar",
+          "Madhepura",
+          "Purnea",
+          "Saharsa"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Purnea had the lowest overall literacy."
+      },
+      {
+        "text": "Which district in Bihar recorded the Highest Female Literacy in 2011?",
+        "options": [
+          "Munger",
+          "Patna",
+          "Rohtas",
+          "Siwan"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Rohtas had the highest female literacy."
+      },
+      {
+        "text": "Which district in Bihar had the Highest Population Density in 2011?",
+        "options": [
+          "Patna",
+          "Darbhanga",
+          "Sheohar",
+          "Vaishali"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Sheohar had the highest population density in Bihar."
+      },
+      {
+        "text": "How many districts in Bihar have a Population density area of More than 1250?",
+        "options": [
+          "8",
+          "10",
+          "13",
+          "5"
+        ],
+        "correctAnswer": 2,
+        "explanation": "There are 13 districts with population density more than 1250."
+      },
+      {
+        "text": "Which of the following is one of the Five Districts with Highest Sex Ratio in Bihar in 2011?",
+        "options": [
+          "Munger",
+          "Bhagalpur",
+          "Gopalganj",
+          "Begusarai"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gopalganj is among the top five for sex ratio."
+      },
+      {
+        "text": "Which district is listed among the Five Districts with Lowest Urban Population (in %) in Bihar?",
+        "options": [
+          "Patna",
+          "Munger",
+          "Banka",
+          "Begusarai"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Banka has one of the lowest urban populations."
+      },
+      {
+        "text": "Which district in Bihar had the Highest Scheduled Caste (SC) population in 2011?",
+        "options": [
+          "Nawada",
+          "Aurangabad",
+          "Gaya",
+          "Vaishali"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Gaya has the highest SC population."
+      },
+      {
+        "text": "Which of the following districts had the Lowest Scheduled Caste (SC) in Percent in Bihar?",
+        "options": [
+          "Gaya",
+          "Kishanganj",
+          "Siwan",
+          "Sitamarhi"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kishanganj had the lowest SC percentage."
+      },
+      {
+        "text": "Which district in Bihar had the Highest Scheduled Tribe (ST) Population in 2011?",
+        "options": [
+          "Purnea",
+          "Banka",
+          "Siwan",
+          "West Champaran"
+        ],
+        "correctAnswer": 3,
+        "explanation": "West Champaran had the highest ST population."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>
