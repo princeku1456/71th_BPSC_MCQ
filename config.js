@@ -230,5 +230,30 @@ const subjectsConfig = {
                 file: 'BiharSpecial/chapter_14.html'
             }
         ]
+    },
+    ScienceTechnology: {
+        name: ' Science & Technology',
+        description: 'Explore MCQs',
+        color: 'warning',
+        icon: '🔬🤖🧬',
+        // Flattening all chapters directly under history, no intermediate topics
+        chapters: [
+            // Current Affairs
+            {
+                id: 'BSchapter1',
+                name: 'General Introduction about Bihar (Part-1)',
+                file: 'BiharSpecial/chapter_1.html'
+            },
+            {
+                id: 'BSchapter2',
+                name: 'General Introduction about Bihar (Part-2)',
+                file: 'BiharSpecial/chapter_2.html'
+            },
+            {
+                id: 'BSchapter3',
+                name: 'Geography of Bihar (Part-1)',
+                file: 'BiharSpecial/chapter_3.html'
+            }
+        ]
     }
 };
