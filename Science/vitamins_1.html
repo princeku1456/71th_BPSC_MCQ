@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vitamins and Nutrition</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which of the following is considered one of the major components of human food, providing essential nutrients along with carbohydrates, fats, and proteins?",
+        "options": ["Enzymes", "Hormones", "Nucleic Acids", "Antibodies"],
+        "correctAnswer": 2,
+        "explanation": "Nucleic acids are vital macromolecules found in foods, contributing to genetic information and energy transfer."
+      },
+      {
+        "text": "What is the approximate energy yield from the metabolic oxidation of one gram of fat?",
+        "options": ["4.0 Kcal", "4.5 Kcal", "7.0 Kcal", "9.3 Kcal"],
+        "correctAnswer": 3,
+        "explanation": "Fats yield about 9.3 Kcal per gram when metabolized."
+      },
+      {
+        "text": "Lactose, a natural sugar found in milk, is converted into lactic acid by which type of microorganism?",
+        "options": ["Yeast", "Lactobacillus bacteria", "Aspergillus fungi", "Rhizobium bacteria"],
+        "correctAnswer": 1,
+        "explanation": "Lactobacillus ferments lactose into lactic acid."
+      },
+      {
+        "text": "Which of the following is a physical property used to test for the presence of starch, resulting in an intense blue-black colour?",
+        "options": ["Benedict's test", "Iodine test", "Biuret test", "Sudan III test"],
+        "correctAnswer": 1,
+        "explanation": "Iodine reacts with starch to form a blue-black complex."
+      },
+      {
+        "text": "Proteins are polymers primarily composed of which fundamental units?",
+        "options": ["Glycerol", "Fatty acids", "Amino acids", "Glucose molecules"],
+        "correctAnswer": 2,
+        "explanation": "Proteins are chains of amino acids linked by peptide bonds."
+      },
+      {
+        "text": "Alpha-keratin is a strong protein that forms a major component of which human body parts?",
+        "options": ["Blood and lymph", "Hair, nails, and skin", "Muscles and bones", "Nerves and brain tissue"],
+        "correctAnswer": 1,
+        "explanation": "Alpha-keratin strengthens hair, nails, and outer skin layers."
+      },
+      {
+        "text": "Which protein is primarily responsible for the white colour of milk?",
+        "options": ["Albumin", "Lactalbumin", "Casein", "Lactoglobulin"],
+        "correctAnswer": 2,
+        "explanation": "Casein micelles scatter light, giving milk its white colour."
+      },
+      {
+        "text": "Despite being considered a 'complete diet', mother's milk is known to be deficient in which essential nutrient for the new-born?",
+        "options": ["Calcium", "Potassium", "Iron", "Magnesium"],
+        "correctAnswer": 2,
+        "explanation": "Mother's milk is low in iron, which infants need after a few months."
+      },
+      {
+        "text": "Which of the following diseases is primarily caused by a severe deficiency of protein in children?",
+        "options": ["Beri-beri", "Pellagra", "Marasmus", "Rickets"],
+        "correctAnswer": 2,
+        "explanation": "Marasmus results from severe protein-energy malnutrition."
+      },
+      {
+        "text": "Vitamins A, D, E, and K belong to which group based on solubility?",
+        "options": ["Water-soluble vitamins", "Fat-soluble vitamins", "Mineral-soluble vitamins",
+          "Protein-soluble vitamins"
+        ],
+        "correctAnswer": 1,
+        "explanation": "These vitamins dissolve in and are stored in body fats."
+      },
+      {
+        "text": "What is the chemical name for Vitamin A?",
+        "options": ["Ascorbic acid", "Thiamin", "Retinol", "Calciferol"],
+        "correctAnswer": 2,
+        "explanation": "Vitamin A is chemically known as retinol."
+      },
+      {
+        "text": "A deficiency of Vitamin B1 (Thiamin) can lead to which condition?",
+        "options": ["Scurvy", "Pellagra", "Beri-beri", "Rickets"],
+        "correctAnswer": 2,
+        "explanation": "Thiamin deficiency causes Beri-beri, affecting nerves and heart."
+      },
+      {
+        "text": "Cheilosis, glossitis, and dermatosis are deficiency symptoms of which vitamin?",
+        "options": ["Vitamin B1", "Vitamin B2", "Vitamin B3", "Vitamin B6"],
+        "correctAnswer": 1,
+        "explanation": "Vitamin B2 (Riboflavin) deficiency causes these symptoms."
+      },
+      {
+        "text": "Which vitamin, containing cobalt, is essential for new cell synthesis?",
+        "options": ["Vitamin B6", "Vitamin B9", "Vitamin B12", "Vitamin B2"],
+        "correctAnswer": 2,
+        "explanation": "Vitamin B12 contains cobalt and is vital for blood formation."
+      },
+      {
+        "text": "Pernicious anaemia is caused by a deficiency of which vitamin?",
+        "options": ["Vitamin B6", "Vitamin B9", "Vitamin B12", "Vitamin B3"],
+        "correctAnswer": 2,
+        "explanation": "Vitamin B12 deficiency leads to pernicious anaemia."
+      },
+      {
+        "text": "What is the chemical name for Vitamin C?",
+        "options": ["Citric acid", "Acetic acid", "Ascorbic acid", "Tartaric acid"],
+        "correctAnswer": 2,
+        "explanation": "Vitamin C is chemically known as ascorbic acid."
+      },
+      {
+        "text": "Scurvy is caused by deficiency of which vitamin?",
+        "options": ["Vitamin A", "Vitamin B12", "Vitamin C", "Vitamin D"],
+        "correctAnswer": 2,
+        "explanation": "A lack of vitamin C leads to scurvy."
+      },
+      {
+        "text": "Which is the richest natural source of Vitamin C?",
+        "options": ["Orange", "Lemon", "Indian gooseberry (Amla)", "Tomato"],
+        "correctAnswer": 2,
+        "explanation": "Amla has the highest vitamin C content."
+      },
+      {
+        "text": "Deficiency of which vitamin impairs blood clotting?",
+        "options": ["Vitamin D", "Vitamin E", "Vitamin K", "Vitamin B12"],
+        "correctAnswer": 2,
+        "explanation": "Vitamin K is essential for clotting factors."
+      },
+      {
+        "text": "Which of the following is a source of Vitamin K?",
+        "options": ["Citrus fruits", "Cod liver oil", "Alfalfa", "Yeast"],
+        "correctAnswer": 2,
+        "explanation": "Alfalfa and leafy greens provide Vitamin K."
+      },
+      {
+        "text": "Rickets and osteomalacia result from deficiency of which vitamin?",
+        "options": ["Vitamin A", "Vitamin B1", "Vitamin C", "Vitamin D"],
+        "correctAnswer": 3,
+        "explanation": "Vitamin D deficiency affects bone mineralization."
+      },
+      {
+        "text": "Which vitamin is synthesized by the skin on sunlight exposure?",
+        "options": ["Vitamin A", "Vitamin B6", "Vitamin D", "Vitamin E"],
+        "correctAnswer": 2,
+        "explanation": "UV light triggers Vitamin D synthesis."
+      },
+      {
+        "text": "Which mineral is crucial for heart rhythm as an electrolyte?",
+        "options": ["Sodium", "Calcium", "Potassium", "Magnesium"],
+        "correctAnswer": 2,
+        "explanation": "Potassium helps regulate heartbeat."
+      },
+      {
+        "text": "Spinach is rich in which mineral for haemoglobin?",
+        "options": ["Calcium", "Iron", "Potassium", "Phosphorus"],
+        "correctAnswer": 1,
+        "explanation": "Spinach has high iron content."
+      },
+      {
+        "text": "Anaemia is caused by deficiency of which mineral?",
+        "options": ["Iodine", "Zinc", "Iron", "Copper"],
+        "correctAnswer": 2,
+        "explanation": "Iron deficiency reduces haemoglobin."
+      },
+      {
+        "text": "Bones and teeth are composed mainly of:",
+        "options": ["Calcium carbonate", "Calcium chloride", "Calcium phosphate", "Calcium sulphate"],
+        "correctAnswer": 2,
+        "explanation": "Calcium phosphate provides hardness."
+      },
+      {
+        "text": "Excess fluoride in water causes:",
+        "options": ["Rickets", "Osteoporosis", "Fluorosis", "Goitre"],
+        "correctAnswer": 2,
+        "explanation": "Fluorosis affects bones and teeth."
+      },
+      {
+        "text": "Goitre is caused by deficiency of which element?",
+        "options": ["Iron", "Calcium", "Iodine", "Selenium"],
+        "correctAnswer": 2,
+        "explanation": "Iodine deficiency enlarges the thyroid."
+      },
+      {
+        "text": "Sweetest natural sugar is:",
+        "options": ["Glucose", "Sucrose", "Maltose", "Fructose"],
+        "correctAnswer": 3,
+        "explanation": "Fructose is sweeter than all other sugars."
+      },
+      {
+        "text": "Main sugar in honey is:",
+        "options": ["Glucose", "Sucrose", "Maltose", "Fructose"],
+        "correctAnswer": 3,
+        "explanation": "Fructose is the major component of honey."
+      },
+      {
+        "text": "Aspartame is about how many times sweeter than sucrose?",
+        "options": ["50", "100", "200", "400"],
+        "correctAnswer": 2,
+        "explanation": "Aspartame is around 200 times sweeter."
+      },
+      {
+        "text": "Invert sugar from sucrose is obtained by:",
+        "options": ["Oxidation", "Fermentation", "Hydrolysis", "Hydrogenation"],
+        "correctAnswer": 2,
+        "explanation": "Hydrolysis splits sucrose into glucose & fructose."
+      },
+      {
+        "text": "Healthier fat type for heart is:",
+        "options": ["Saturated fats", "Trans fats", "Polyunsaturated fats", "Hydrogenated oils"],
+        "correctAnswer": 2,
+        "explanation": "Polyunsaturated fats help lower cholesterol."
+      },
+      {
+        "text": "High cholesterol increases risk of:",
+        "options": ["Anaemia", "Atherosclerosis", "Hypotension", "Diabetes"],
+        "correctAnswer": 1,
+        "explanation": "Atherosclerosis is caused by plaque buildup."
+      },
+      {
+        "text": "Rich source of alpha-linolenic acid is:",
+        "options": ["Moth bean", "Oats", "Mung bean", "Flaxseed"],
+        "correctAnswer": 3,
+        "explanation": "Flaxseed is rich in plant-based omega-3."
+      },
+      {
+        "text": "Catalyst in hydrogenation of oils:",
+        "options": ["Zinc", "Platinum", "Nickel", "Iron"],
+        "correctAnswer": 2,
+        "explanation": "Nickel catalyzes hydrogenation."
+      },
+      {
+        "text": "Amino acid for adrenaline & dopamine synthesis:",
+        "options": ["Glycine", "Serine", "Tyrosine", "Alanine"],
+        "correctAnswer": 2,
+        "explanation": "Tyrosine is a precursor for these neurotransmitters."
+      },
+      {
+        "text": "Which macronutrients aren't stored & must be replenished daily?",
+        "options": ["Glucose", "Amino acids", "Glycogen", "Tocopherol"],
+        "correctAnswer": 1,
+        "explanation": "Amino acids aren't stored, so proteins are needed daily."
+      },
+      {
+        "text": "Best source of all essential amino acids (highest BV):",
+        "options": ["Banana", "Pulses", "Egg", "Fish"],
+        "correctAnswer": 2,
+        "explanation": "Egg protein has the highest biological value."
+      },
+      {
+        "text": "Daily protein need for moderately active woman:",
+        "options": ["30g", "37g", "45g", "56g"],
+        "correctAnswer": 2,
+        "explanation": "Average requirement is about 45 grams."
+      },
+      {
+        "text": "Energy need for very hard labour:",
+        "options": ["2700", "3000", "4000", "6000 Kcal"],
+        "correctAnswer": 2,
+        "explanation": "Roughly 4000 Kcal daily."
+      },
+      {
+        "text": "Gas in chips packets to prevent oxidation:",
+        "options": ["Oxygen", "Carbon dioxide", "Hydrogen", "Nitrogen"],
+        "correctAnswer": 3,
+        "explanation": "Nitrogen keeps chips fresh."
+      },
+      {
+        "text": "MSG is used in food as:",
+        "options": ["Colour enhancer", "Preserver", "Emulsifier", "Thickener"],
+        "correctAnswer": 1,
+        "explanation": "MSG enhances flavour but isn't a preservative."
+      },
+      {
+        "text": "Charcoal for sugar refining:",
+        "options": ["Wood charcoal", "Sugar charcoal", "Animal charcoal", "Coconut charcoal"],
+        "correctAnswer": 2,
+        "explanation": "Animal charcoal helps in filtering and decolourization."
+      },
+      {
+        "text": "Organic food is grown without:",
+        "options": ["Chemical flavour enhancers", "High-cost machinery", "Artificial fertilizers and pesticides",
+          "Extensive irrigation"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Organic farming avoids synthetic chemicals."
+      },
+      {
+        "text": "Probiotic food benefit:",
+        "options": ["Decreased vitamin absorption", "Maintenance of gut flora", "Increased infection risk",
+          "Antibiotic resistance"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Probiotics help maintain healthy gut bacteria."
+      },
+      {
+        "text": "Nutraceuticals provide nutrition plus:",
+        "options": ["Aesthetic improvement", "Medicinal or health benefit", "Performance enhancement",
+          "Calorie reduction"
+        ],
+        "correctAnswer": 1,
+        "explanation": "They offer therapeutic benefits beyond nutrition."
+      },
+      {
+        "text": "Who coined the term 'vitamins'?",
+        "options": ["Elmer McCollum", "James Lind", "Casimir Funk", "Paul Muller"],
+        "correctAnswer": 2,
+        "explanation": "Casimir Funk originally called them 'vital amines'."
+      },
+      {
+        "text": "Which vitamins are synthesized by gut microbes?",
+        "options": ["C and D", "A and E", "B12 and K", "B6 and B9"],
+        "correctAnswer": 2,
+        "explanation": "Intestinal bacteria synthesize vitamin B12 and K."
+      },
+      {
+        "text": "Antioxidants promote health mainly by:",
+        "options": ["Activating vitamin synthesis enzymes", "Preventing oxidation of nutrients",
+          "Neutralizing free radicals", "Activating anti-ageing genes"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They neutralize harmful free radicals produced in metabolism."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

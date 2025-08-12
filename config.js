@@ -240,19 +240,24 @@ const subjectsConfig = {
         chapters: [
             // Current Affairs
             {
-                id: 'BSchapter1',
-                name: 'General Introduction about Bihar (Part-1)',
-                file: 'BiharSpecial/chapter_1.html'
+                id: 'Schapter1',
+                name: 'Cells',
+                file: 'Science/cells.html'
             },
             {
-                id: 'BSchapter2',
-                name: 'General Introduction about Bihar (Part-2)',
-                file: 'BiharSpecial/chapter_2.html'
+                id: 'Schapter2',
+                name: 'Heredity',
+                file: 'Science/heredity.html'
             },
             {
-                id: 'BSchapter3',
-                name: 'Geography of Bihar (Part-1)',
-                file: 'BiharSpecial/chapter_3.html'
+                id: 'Schapter3',
+                name: 'Vitamins and Nutrition -1',
+                file: 'Science/vitamins_1.html'
+            },
+            {
+                id: 'Schapter4',
+                name: 'Vitamins and Nutrition -2',
+                file: 'Science/vitamins_2.html'
             }
         ]
     }

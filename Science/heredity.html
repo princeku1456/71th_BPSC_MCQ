@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>heredity</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which branch of biology specifically studies genes, genetic variation, and heredity in living organisms?",
+        "options": ["Physiology", "Ecology", "Genetics", "Taxonomy"],
+        "correctAnswer": 2,
+        "explanation": "Genetics is the branch that studies genes, heredity, and variation."
+      },
+      {
+        "text": "Gregor Johann Mendel is famously known as the:",
+        "options": ["Father of Modern Biology", "Discoverer of DNA", "Father of Genetics",
+          "Proponent of Evolution Theory"
+        ],
+        "correctAnswer": 2,
+        "explanation": "He is called the Father of Genetics for his pea plant experiments."
+      },
+      {
+        "text": "Mendel conducted his groundbreaking research on the laws of inheritance using which specific plant?",
+        "options": ["Sweet Pea", "Garden Pea (Pisum sativum)", "Drosophila", "Snapdragon"],
+        "correctAnswer": 1,
+        "explanation": "Garden peas were chosen for their clear and contrasting traits."
+      },
+      {
+        "text": "The fundamental process by which traits are transmitted from parents to offspring is called:",
+        "options": ["Evolution", "Adaptation", "Heredity", "Mutation"],
+        "correctAnswer": 2,
+        "explanation": "Heredity refers to the passing of traits between generations."
+      },
+      {
+        "text": "What is identified as the basic unit of heredity, consisting of a sequence of DNA?",
+        "options": ["Chromosome", "Nucleus", "Gene", "Ribosome"],
+        "correctAnswer": 2,
+        "explanation": "A gene is the basic functional and physical unit of heredity."
+      },
+      {
+        "text": "Genetic variation primarily arises during sexual reproduction due to:",
+        "options": ["Uniform DNA copying", "Asexual reproduction processes", "Errors in DNA copying",
+          "Environmental uniformity"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Mistakes or recombination in DNA copying cause variation."
+      },
+      {
+        "text": "The complete heritable genetic identity of an organism is known as its:",
+        "options": ["Phenotype", "Genotype", "Karyotype", "Somatotype"],
+        "correctAnswer": 1,
+        "explanation": "Genotype is the organism’s full set of genes."
+      },
+      {
+        "text": "An allele that only expresses its effect when the dominant allele is absent is called:",
+        "options": ["Dominant allele", "Homozygous allele", "Heterozygous allele", "Recessive allele"],
+        "correctAnswer": 3,
+        "explanation": "Recessive alleles are masked by dominant alleles."
+      },
+      {
+        "text": "A normal human cell typically contains how many pairs of chromosomes?",
+        "options": ["21", "22", "23", "24"],
+        "correctAnswer": 2,
+        "explanation": "Humans have 23 pairs of chromosomes."
+      },
+      {
+        "text": "The scientist credited with first identifying and isolating DNA in 1869 was:",
+        "options": ["James Watson", "Francis Crick", "Friedrich Miescher", "Arthur Kornberg"],
+        "correctAnswer": 2,
+        "explanation": "Miescher discovered a substance he called 'nuclein', now known as DNA."
+      },
+      {
+        "text": "The Double Helix Model of DNA structure was proposed by:",
+        "options": ["Fisher and Haldoni", "Lamarck and Darwin", "Watson and Crick", "Hugo de Vries"],
+        "correctAnswer": 2,
+        "explanation": "Watson and Crick revealed the DNA double helix in 1953."
+      },
+      {
+        "text": "Which pentose sugar is a component of DNA?",
+        "options": ["Ribose sugar", "Deoxyribose sugar", "Glucose sugar", "Fructose sugar"],
+        "correctAnswer": 1,
+        "explanation": "DNA contains deoxyribose in its sugar-phosphate backbone."
+      },
+      {
+        "text": "The biological process of copying genetic information from DNA into RNA is:",
+        "options": ["Reverse transcription", "Replication", "Translation", "Transcription"],
+        "correctAnswer": 3,
+        "explanation": "Transcription produces RNA from a DNA template."
+      },
+      {
+        "text": "DNA’s ability to transmit genetic information is due to:",
+        "options": ["Sugar-phosphate backbone", "Double helix structure", "Complementarity of strands",
+          "Number of base-pairs per turn"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Complementary strands allow accurate replication."
+      },
+      {
+        "text": "In humans, the sex of the offspring is determined by:",
+        "options": ["Mother's chromosomes", "Father's chromosomes", "Equal parental contribution",
+          "Environmental factors"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Fathers supply X or Y chromosome in sperm."
+      },
+      {
+        "text": "A triplet of nucleotide bases corresponding to a specific amino acid is called:",
+        "options": ["Gene", "Allele", "Codon", "Chromatid"],
+        "correctAnswer": 2,
+        "explanation": "A codon is a 3-base sequence coding for one amino acid."
+      },
+      {
+        "text": "Which is recognised as a start codon?",
+        "options": ["UAA", "UAG", "UGA", "AUG"],
+        "correctAnswer": 3,
+        "explanation": "AUG codes for methionine and signals start."
+      },
+      {
+        "text": "A permanent alteration in DNA sequence is called:",
+        "options": ["Cloning", "Fusion", "Mutation", "Hybridization"],
+        "correctAnswer": 2,
+        "explanation": "A mutation is a stable DNA change."
+      },
+      {
+        "text": "German anatomist Waldeyer is known for:",
+        "options": ["Discovering double helix", "Identifying DNA", "Formulating Mendel's Laws",
+          "Naming the chromosome"
+        ],
+        "correctAnswer": 3,
+        "explanation": "He coined the term 'chromosome'."
+      },
+      {
+        "text": "Chromosomal theory of inheritance is credited to:",
+        "options": ["Beadle and Tatum", "Jacob and Monod", "Sutton and Boveri", "Temin and Baltimore"],
+        "correctAnswer": 2,
+        "explanation": "Sutton & Boveri linked genes to chromosomes."
+      },
+      {
+        "text": "In bioinformatics, 'transcriptome' refers to:",
+        "options": ["Range of enzymes for genome editing", "All mRNA molecules expressed",
+          "Mechanism of gene expression", "Genetic mutation process"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transcriptome is the full set of RNA transcripts."
+      },
+      {
+        "text": "In DNA helix, bases are located:",
+        "options": ["Outside forming backbone", "Inside with hydrogen bonds", "Randomly in molecule",
+          "Only at strand ends"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Bases pair inside, connected by hydrogen bonds."
+      },
+      {
+        "text": "The chromosomal makeup of a normal human female is:",
+        "options": ["44 + XY", "44 + XX", "46 + XY", "46 + XX"],
+        "correctAnswer": 1,
+        "explanation": "Women have 44 autosomes and XX chromosomes."
+      },
+      {
+        "text": "An organism with identical alleles for a gene is:",
+        "options": ["Heterozygous", "Phenotypic", "Homozygous", "Dominant"],
+        "correctAnswer": 2,
+        "explanation": "Homozygous means same allele pair like TT."
+      },
+      {
+        "text": "Har Gobind Khorana’s Nobel Prize was for:",
+        "options": ["Penicillin discovery", "DNA structure", "Genetic code and protein synthesis", "Polio vaccine"],
+        "correctAnswer": 2,
+        "explanation": "He deciphered the genetic code."
+      },
+      {
+        "text": "The concept of 'jumping genes' was put forth by:",
+        "options": ["James Watson", "Francis Crick", "Barbara McClintock", "H.G. Khorana"],
+        "correctAnswer": 2,
+        "explanation": "McClintock discovered transposable elements."
+      },
+      {
+        "text": "Which is an amino acid, not a DNA base?",
+        "options": ["Adenine", "Guanine", "Cytosine", "Tyrosine"],
+        "correctAnswer": 3,
+        "explanation": "Tyrosine is an amino acid; others are bases."
+      },
+      {
+        "text": "The number of chromosomes in a species:",
+        "options": ["Increases with age", "Decreases with age", "Is constant", "Increases with weight"],
+        "correctAnswer": 2,
+        "explanation": "Chromosome count is species-specific and constant."
+      },
+      {
+        "text": "Which professionals risk permanent DNA change?",
+        "options": ["Carbon-14 researchers", "Coal miners", "Dyers/painters", "X-ray technicians"],
+        "correctAnswer": 3,
+        "explanation": "Radiation exposure from X-rays can damage DNA."
+      },
+      {
+        "text": "Mendel's Law of Independent Assortment states:",
+        "options": ["One allele dominant", "Alleles separate in gametes", "Factors for traits assort independently",
+          "Only pure breeds are fertile"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Traits segregate independently during gamete formation."
+      },
+      {
+        "text": "Primary role of DNA:",
+        "options": ["Cell wall structure", "Carry genetic instructions", "Energy source", "Regulate metabolism only"],
+        "correctAnswer": 1,
+        "explanation": "DNA contains instructions for life processes."
+      },
+      {
+        "text": "In the DNA model, sugar-phosphate backbone is:",
+        "options": ["Inside", "Outside", "Random with bases", "Only at forks"],
+        "correctAnswer": 1,
+        "explanation": "Backbone forms outer sides of the helix."
+      },
+      {
+        "text": "Enzyme for reverse transcription:",
+        "options": ["DNA polymerase", "RNA polymerase", "Reverse transcriptase", "DNA ligase"],
+        "correctAnswer": 2,
+        "explanation": "Reverse transcriptase makes DNA from RNA."
+      },
+      {
+        "text": "Genetic code redundancy means:",
+        "options": ["Non-overlapping", "Commaless", "Universal", "Multiple codons for same amino acid"],
+        "correctAnswer": 3,
+        "explanation": "Redundancy is when multiple codons specify one amino acid."
+      },
+      {
+        "text": "Locating genes on a chromosome is called:",
+        "options": ["Blood grouping", "Nerve mapping", "Genome mapping", "Brain imaging"],
+        "correctAnswer": 2,
+        "explanation": "Genome mapping identifies gene positions."
+      },
+      {
+        "text": "Alleles are:",
+        "options": ["Complete genetic makeup", "Physical expression", "Alternative forms of a gene",
+          "Thread-like genetic structures"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Alleles are variants of the same gene."
+      },
+      {
+        "text": "Which is true about human DNA?",
+        "options": ["Unique to each person", "Only in nucleus", "Less than 50% identical",
+          "Stored as 4 base code A,G,C,T"
+        ],
+        "correctAnswer": 3,
+        "explanation": "DNA stores coded info in four bases."
+      },
+      {
+        "text": "Undifferentiated cells that can specialize are:",
+        "options": ["Bud cells", "RBCs", "Mesangial cells", "Stem cells"],
+        "correctAnswer": 3,
+        "explanation": "Stem cells can become specialized cells."
+      },
+      {
+        "text": "In humans, the 23rd chromosome pair:",
+        "options": ["Controls autosomal traits", "Determines sex", "Same in both genders", "Controls metabolism"],
+        "correctAnswer": 1,
+        "explanation": "23rd pair are sex chromosomes."
+      },
+      {
+        "text": "Dolly the sheep was cloned using:",
+        "options": ["IVF", "Somatic Cell Nuclear Transfer", "Gene insertion", "iPS technology"],
+        "correctAnswer": 1,
+        "explanation": "Somatic cell nucleus was transferred into an egg cell."
+      },
+      {
+        "text": "Thomas Hunt Morgan’s Drosophila work proved:",
+        "options": ["Law of Dominance", "Epigenetics", "Genetic recombination", "Chromosomal theory"],
+        "correctAnswer": 3,
+        "explanation": "Morgan showed genes are on chromosomes."
+      },
+      {
+        "text": "Retroviruses like HIV have:",
+        "options": ["DNA only", "RNA + Protein", "DNA + Protein", "RNA + DNA"],
+        "correctAnswer": 1,
+        "explanation": "They have RNA genome inside a protein coat."
+      },
+      {
+        "text": "Which stores and transfers genetic info?",
+        "options": ["Enzyme", "Hormone", "RNA", "DNA"],
+        "correctAnswer": 3,
+        "explanation": "DNA controls heredity."
+      },
+      {
+        "text": "Organism with two different alleles is:",
+        "options": ["Homozygous", "Phenotypic", "Heterozygous", "Dominant"],
+        "correctAnswer": 2,
+        "explanation": "Heterozygous means alleles differ."
+      },
+      {
+        "text": "Three-letter nucleotide sequence that determines protein sequence is:",
+        "options": ["Gene mutation", "Gene mapping", "Gene splicing", "Genetic code"],
+        "correctAnswer": 3,
+        "explanation": "Genetic code specifies amino acid sequence."
+      },
+      {
+        "text": "Total number of bases in human DNA:",
+        "options": ["1 billion", "2 billion", "3 billion", "4 billion"],
+        "correctAnswer": 2,
+        "explanation": "Human genome has ~3 billion base pairs."
+      },
+      {
+        "text": "Mendel's Law stating one trait masks another:",
+        "options": ["Segregation", "Independent Assortment", "Dominance", "Purity of gametes"],
+        "correctAnswer": 2,
+        "explanation": "Law of Dominance describes masking effect."
+      },
+      {
+        "text": "Besides the nucleus, DNA is also in:",
+        "options": ["Ribosome and Golgi", "Lysosome and ER", "Mitochondria and chloroplasts",
+          "Vacuole and cell wall"],
+        "correctAnswer": 2,
+        "explanation": "Mitochondria and chloroplasts have their own DNA."
+      },
+      {
+        "text": "Phenotype is:",
+        "options": ["Genetic blueprint", "Observable physical traits", "Gene replication", "Gene location"],
+        "correctAnswer": 1,
+        "explanation": "Phenotype is outward expression of genes."
+      },
+      {
+        "text": "Which about genetic code is INCORRECT?",
+        "options": ["Universal in life forms", "Read without overlaps", "Each codon always unique to amino acid",
+          "Has start and stop signals"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Code is degenerate; multiple codons can code same amino acid."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>
