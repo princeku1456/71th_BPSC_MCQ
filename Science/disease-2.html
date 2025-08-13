@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diseases and Treatment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Food poisoning (Botulism) is caused by infection of a species from which genus of bacteria?",
+        "options": ["Azotobacter", "Lactobacillus", "Clostridium", "Rhizobium"],
+        "correctAnswer": 2,
+        "explanation": "Botulism is caused by toxins from Clostridium botulinum."
+      },
+      {
+        "text": "Pneumonia is an infection of which primary organ in the human body?",
+        "options": ["Heart", "Brain", "Skin", "Lungs"],
+        "correctAnswer": 3,
+        "explanation": "Pneumonia primarily infects the lungs."
+      },
+      {
+        "text": "Which of the following statements about Pneumococcal Conjugate Vaccines is correct?",
+        "options": ["They are effective against pneumonia, meningitis, and sepsis.",
+          "They have no side effects and cause no allergic reactions.", "They increase dependence on antibiotics.",
+          "They are primarily used for viral infections."
+        ],
+        "correctAnswer": 0,
+        "explanation": "PCV protects against multiple bacterial infections, including pneumonia."
+      },
+      {
+        "text": "Which of the following diseases is transmitted by fleas and primarily affects wild rodents?",
+        "options": ["Typhoid", "Plague", "Cholera", "Diphtheria"],
+        "correctAnswer": 1,
+        "explanation": "Plague, caused by Yersinia pestis, is flea-borne and affects rodents."
+      },
+      {
+        "text": "Which of the following diseases is a typical example of a waterborne disease?",
+        "options": ["Smallpox", "Malaria", "Cholera", "Tuberculosis"],
+        "correctAnswer": 2,
+        "explanation": "Cholera spreads through contaminated water."
+      },
+      {
+        "text": "Tooth decay is mostly caused by the interaction in the mouth between bacteria and food particles of:",
+        "options": ["Proteins", "Carbohydrates", "Fats", "Salads"],
+        "correctAnswer": 1,
+        "explanation": "Sugars in carbohydrates feed bacteria that produce acids damaging teeth."
+      },
+      {
+        "text": "Leprosy (Hansen’s disease) is a long-term infection caused by which type of microorganism?",
+        "options": ["Virus", "Fungus", "Bacterium", "Protozoa"],
+        "correctAnswer": 2,
+        "explanation": "Leprosy is caused by Mycobacterium leprae."
+      },
+      {
+        "text": "The first sulpha drug to be discovered was:",
+        "options": ["Penicillin", "Streptomycin", "Prontosil", "Aspirin"],
+        "correctAnswer": 2,
+        "explanation": "Prontosil was the first sulpha drug discovered."
+      },
+      {
+        "text": "Which of the following antibiotic medicines are mentioned in the source as examples?",
+        "options": ["Penicillin and Aspirin", "Paracetamol and Sulfadiazine", "Penicillin and Sulfadiazine",
+          "Chloroquine and Penicillin"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Examples include penicillin and sulfadiazine."
+      },
+      {
+        "text": "Which of the following is a bacterial disease that causes a severe hacking cough with a high-pitched intake of breath?",
+        "options": ["Diphtheria", "Pertussis", "Measles", "Pneumonia"],
+        "correctAnswer": 1,
+        "explanation": "Pertussis, or whooping cough, is caused by Bordetella pertussis."
+      },
+      {
+        "text": "Which of the following is NOT a genetic disease?",
+        "options": ["Albinism", "Haemophilia", "Colour blindness", "Night blindness"],
+        "correctAnswer": 3,
+        "explanation": "Night blindness is usually due to vitamin A deficiency."
+      },
+      {
+        "text": "Phenylketonuria (PKU) is an inborn error of metabolism that refers to an:",
+        "options": ["Hormonal overproduction", "Atrophy of endocrine glands", "Inherited lack of an enzyme",
+          "Non-disjunction"
+        ],
+        "correctAnswer": 2,
+        "explanation": "PKU results from deficiency of the enzyme phenylalanine hydroxylase."
+      },
+      {
+        "text": "A person affected by phenylketonuria disease primarily suffers from:",
+        "options": ["Kidney failure", "Liver failure", "Mental idiocy", "Impotence"],
+        "correctAnswer": 2,
+        "explanation": "Untreated PKU leads to intellectual disability."
+      },
+      {
+        "text": "The famous 'Bubble Baby Disease' is so called because:",
+        "options": ["It is caused by water bubbles.", "The suffering baby makes bubbles of saliva.",
+          "The suffering baby is treated in a germ-free plastic bubble.", "It is cured only by water bubbles."
+        ],
+        "correctAnswer": 2,
+        "explanation": "Severe combined immunodeficiency (SCID) patients live in germ-free bubbles."
+      },
+      {
+        "text": "Haemophilia is a genetic disease primarily characterised by:",
+        "options": ["Lack of Haemoglobin", "Rheumatoid joint disease", "Lack in White Blood Cells",
+          "Absence of blood clotting"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Haemophilia is due to missing clotting factors."
+      },
+      {
+        "text": "Haemophilia is considered a 'Royal Disease' because:",
+        "options": ["It primarily affects royalty.", "Queen Victoria of England was suffering from it.",
+          "It is a very rare and prestigious disease.", "Its treatment is extremely expensive."
+        ],
+        "correctAnswer": 1,
+        "explanation": "Queen Victoria was a carrier who passed it to European royalty."
+      },
+      {
+        "text": "Which of the following genetic diseases is sex-linked?",
+        "options": ["Tay-Sachs disease", "Cystic fibrosis", "Hypertension", "Royal haemophilia"],
+        "correctAnswer": 3,
+        "explanation": "Haemophilia is X-linked."
+      },
+      {
+        "text": "In humans, trisomy of chromosome number 21 is responsible for:",
+        "options": ["Haemophilia", "Klinefelter Syndrome", "Down Syndrome", "Turner Syndrome"],
+        "correctAnswer": 2,
+        "explanation": "An extra chromosome 21 causes Down Syndrome."
+      },
+      {
+        "text": "Down Syndrome is caused due to changes in the:",
+        "options": ["Number of chromosomes", "Structure of chromosomes", "Structure of DNA", "Structure of RNA"],
+        "correctAnswer": 0,
+        "explanation": "It is a numerical chromosomal disorder (trisomy 21)."
+      },
+      {
+        "text": "Muscular dystrophy is a hereditary disease linked with which chromosome?",
+        "options": ["Autosomal chromosome", "Y-chromosome", "X-chromosome", "Chromosome 21"],
+        "correctAnswer": 2,
+        "explanation": "Many forms such as Duchenne are X-linked."
+      },
+      {
+        "text": "In a patient with Thalassemia, the body is unable to synthesise enough of which substance?",
+        "options": ["Vitamin D", "Hormones", "Haemoglobin", "Protein"],
+        "correctAnswer": 2,
+        "explanation": "Thalassemia affects haemoglobin production."
+      },
+      {
+        "text": "If a colour-blind woman marries a normal man, what is the most probable outcome for their sons regarding colour blindness?",
+        "options": ["All sons will be normal.", "All sons will be colour-blind.",
+          "Half the sons will be colour-blind, and half will be normal.",
+          "Sons will be carriers of colour blindness."
+        ],
+        "correctAnswer": 1,
+        "explanation": "All sons inherit the X-linked colour-blind allele from the mother."
+      },
+      {
+        "text": "The process of producing similar populations of genetically identical individuals, which occurs naturally when organisms reproduce asexually, is known as:",
+        "options": ["Transgenesis", "Mutation", "Cloning", "Hybridoma"],
+        "correctAnswer": 2,
+        "explanation": "Cloning makes genetically identical copies."
+      },
+      {
+        "text": "Dolly, the first mammal cloned from an adult somatic cell, was born in which country?",
+        "options": ["USA", "Scotland", "England", "France"],
+        "correctAnswer": 1,
+        "explanation": "Dolly was cloned in Scotland in 1996."
+      },
+      {
+        "text": "What was the cause of death for Dolly the sheep?",
+        "options": ["Heart failure", "Kidney disease", "Lung disease", "Genetic mutations"],
+        "correctAnswer": 2,
+        "explanation": "Dolly died from progressive lung disease."
+      },
+      {
+        "text": "Which achievement has been successfully tried through genetic engineering?",
+        "options": ["Human cloning", "Animal cloning", "Creation of new human organs",
+          "Elimination of all human diseases"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Animal cloning has been achieved using various techniques."
+      },
+      {
+        "text": "What is the main purpose of the Human Genome Project?",
+        "options": ["Establishment of Superman society", "Identification of colour distinct breeds",
+          "Genetic improvements of human breeds", "Identification and mapping of human genes and their sequence"
+        ],
+        "correctAnswer": 3,
+        "explanation": "The HGP aimed to map all human genes."
+      },
+      {
+        "text": "Cells that have the capacity to divide and differentiate into any type of cell are called:",
+        "options": ["Bud cells", "Red cells", "Mesangial cells", "Stem cells"],
+        "correctAnswer": 3,
+        "explanation": "Stem cells can differentiate into any tissue type."
+      },
+      {
+        "text": "Which of the following statements about stem cells is/are correct?",
+        "options": ["1 and 2 only", "2 and 3 only", "Only 3", "1, 2 and 3"],
+        "correctAnswer": 1,
+        "explanation": "Stem cells can be used for drug screening and medical treatments."
+      },
+      {
+        "text": "Hybridoma technology is used for commercial production of:",
+        "options": ["Monoclonal antibodies", "Interferon", "Antibiotics", "Alcohol"],
+        "correctAnswer": 0,
+        "explanation": "Hybridoma cells produce monoclonal antibodies."
+      },
+      {
+        "text": "Insect-resistant cotton plants (Bt cotton) have been engineered by inserting a gene from a:",
+        "options": ["Virus", "Bacterium", "Insect", "Plant"],
+        "correctAnswer": 1,
+        "explanation": "Bt cotton contains a Bacillus thuringiensis gene."
+      },
+      {
+        "text": "Objective of genetically modified Bt Brinjal:",
+        "options": ["Improve taste and nutrition", "Make it drought-resistant", "Make it pest-resistant",
+          "Make shelf-life longer"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Bt brinjal is engineered for pest resistance."
+      },
+      {
+        "text": "Golden rice is developed to biosynthesize beta-carotene, precursor of which vitamin?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "correctAnswer": 0,
+        "explanation": "Beta-carotene is converted to vitamin A in humans."
+      },
+      {
+        "text": "The gene for beta-carotene in Golden Rice comes from:",
+        "options": ["Carrot", "Daffodil", "Beetroot", "Papaya"],
+        "correctAnswer": 1,
+        "explanation": "Gene is sourced from daffodil."
+      },
+      {
+        "text": "Which statement is true about Golden Rice?",
+        "options": ["It is wild yellow rice.", "It is rice from China's Yellow River.",
+          "It is long-stored yellow rice.", "It is transgenic rice with carotene gene."
+        ],
+        "correctAnswer": 3,
+        "explanation": "Golden Rice has been genetically modified for provitamin A production."
+      },
+      {
+        "text": "RNA interference (RNAi) technology is used in developing:",
+        "options": ["Hormone therapies", "Gene silencing therapies", "Autoimmune therapies only",
+          "Non-resistant crops"
+        ],
+        "correctAnswer": 1,
+        "explanation": "RNAi silences target genes."
+      },
+      {
+        "text": "What is the expanded form of mRNA?",
+        "options": ["Messenger Ribonucleic Acid", "Mutant Ribonucleic Acid", "Modified Ribonucleic Acid",
+          "Mnemonic Ribonucleic Acid"
+        ],
+        "correctAnswer": 0,
+        "explanation": "mRNA stands for messenger RNA."
+      },
+      {
+        "text": "Pronuclear Transfer is used for:",
+        "options": ["In vitro fertilisation", "Genetic modification of sperm-producing cells",
+          "Developing stem cells", "Preventing mitochondrial diseases"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Pronuclear transfer can prevent mitochondrial disease transmission."
+      },
+      {
+        "text": "A child typically inherits mitochondrial diseases from which parent?",
+        "options": ["Father only", "Mother only", "Both equally", "Varies by disease"],
+        "correctAnswer": 1,
+        "explanation": "Mitochondria, and their DNA, come from the mother."
+      },
+      {
+        "text": "Which of the following is a microbial insecticide?",
+        "options": ["Bacillus subtilis", "Bacillus thuringiensis", "Bacillus polymyxa", "Bacillus brevis"],
+        "correctAnswer": 1,
+        "explanation": "Bt is used as a biopesticide."
+      },
+      {
+        "text": "When one gene influences multiple traits, it is called:",
+        "options": ["Apomixis", "Pleiotropy", "Polyploidy", "Polyteny"],
+        "correctAnswer": 1,
+        "explanation": "Pleiotropy is when one gene affects several traits."
+      },
+      {
+        "text": "In gene therapy, faulty gene function can be corrected by:",
+        "options": ["Replacing the faulty gene", "Inactivating the gene", "Adding a new gene", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "Gene therapy can involve any of these strategies."
+      },
+      {
+        "text": "Microsatellite DNA is used for:",
+        "options": ["Studying evolutionary relationships", "Stimulating stem cells", "Clonal propagation",
+          "Drug trial assessment"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Microsatellites help in genetic and evolutionary studies."
+      },
+      {
+        "text": "Which statement about DNA is incorrect?",
+        "options": ["Artificial DNA can be created", "DNA from an animal can replicate outside cells",
+          "Functional chromosomes can join DNA from different species", "Plant and animal cells can divide in lab"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Functional chromosomes across species are not routinely created."
+      },
+      {
+        "text": "In recombinant vector vaccines, which are used as vectors?",
+        "options": ["Only bacteria", "Only viruses", "Both bacteria and viruses", "Neither bacteria nor viruses"],
+        "correctAnswer": 2,
+        "explanation": "Vectors can be bacterial or viral in R&D."
+      },
+      {
+        "text": "Recombinant DNA Technology allows gene transfer:",
+        "options": ["Only plants", "Only animals to plants", "Only microorganisms to higher organisms",
+          "Across different species"
+        ],
+        "correctAnswer": 3,
+        "explanation": "It enables cross-species gene transfer."
+      },
+      {
+        "text": "Main function of Cas9 protein in gene editing?",
+        "options": ["Biosensor", "Create pest-resistance", "Molecular scissors", "Make herbicides"],
+        "correctAnswer": 2,
+        "explanation": "Cas9 cuts DNA at targeted sites."
+      },
+      {
+        "text": "Which samples can be used for DNA testing in criminal investigation?",
+        "options": ["Blood only", "Bone only", "Hair only", "All of the above including saliva"],
+        "correctAnswer": 3,
+        "explanation": "DNA is present in many tissues including blood, bone, hair, and saliva."
+      },
+      {
+        "text": "Which technique is most useful for proving paternity?",
+        "options": ["Gene therapy", "Gene cloning", "DNA recombinant technology", "DNA fingerprinting"],
+        "correctAnswer": 3,
+        "explanation": "DNA fingerprinting matches DNA profiles."
+      },
+      {
+        "text": "Aerial metagenomics primarily refers to:",
+        "options": ["Studying bird genetics", "Collecting DNA from air", "Using airborne devices to collect blood",
+          "Drone collection of samples"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Aerial metagenomics collects DNA present in the air of an environment."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

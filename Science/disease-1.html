@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diseases and Treatment</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which of the following is an ultramicroscopic, metabolically inert infectious agent that replicates only within living host cells, primarily composed of an RNA or DNA core and a protein coat?",
+        "options": ["Bacterium", "Fungus", "Virus", "Protozoan"],
+        "correctAnswer": 2,
+        "explanation": "Viruses are inert outside living cells and contain either DNA or RNA within a protein coat."
+      },
+      {
+        "text": "The protein coat of a virus is known as:",
+        "options": ["Virion", "Capsomere", "Capsid", "Nucleoprotein"],
+        "correctAnswer": 2,
+        "explanation": "The capsid is the protein shell enclosing the viral genome."
+      },
+      {
+        "text": "Who is credited with the discovery of the virus?",
+        "options": ["Martinus Beijerinck", "Wendel Meredith Stanley", "Dmitri Ivanovsky", "Robert Koch"],
+        "correctAnswer": 2,
+        "explanation": "Dmitri Ivanovsky first identified viruses while studying tobacco mosaic disease."
+      },
+      {
+        "text": "Which virus was the first to be crystallised?",
+        "options": ["Poliovirus", "Tobacco mosaic virus", "Human immunodeficiency virus (HIV)", "Influenza virus"],
+        "correctAnswer": 1,
+        "explanation": "The tobacco mosaic virus was crystallised by W.M. Stanley in 1935."
+      },
+      {
+        "text": "Which statement about viruses is correct?",
+        "options": ["DNA-based viruses are usually single-stranded",
+          "Viruses possess a complete energy-producing system", "Viruses can be cultured in any synthetic medium",
+          "RNA-based viruses accumulate more genetic changes compared to DNA-based viruses"
+        ],
+        "correctAnswer": 3,
+        "explanation": "RNA viruses mutate faster because RNA polymerases lack proofreading capability."
+      },
+      {
+        "text": "The poliovirus typically enters the human body through:",
+        "options": ["Dog bites", "Mosquito bites", "Polluted food and water",
+          "Infected saliva, but not food or water"],
+        "correctAnswer": 2,
+        "explanation": "Transmission is via the fecal-oral route through contaminated food and water."
+      },
+      {
+        "text": "Who developed the first polio vaccine?",
+        "options": ["Albert Sabin", "Jonas Salk", "Louis Pasteur", "Edward Jenner"],
+        "correctAnswer": 1,
+        "explanation": "Jonas Salk developed the inactivated polio vaccine in 1955."
+      },
+      {
+        "text": "In 2016, WHO switched from trivalent to bivalent polio vaccine, removing which type?",
+        "options": ["Type 01", "Type 02", "Type 03", "All three types are still included"],
+        "correctAnswer": 1,
+        "explanation": "Type 2 poliovirus was declared eradicated and removed from the vaccine."
+      },
+      {
+        "text": "Coronaviruses primarily cause infections in which body system in humans?",
+        "options": ["Digestive tract", "Nervous system", "Respiratory tract", "Circulatory system"],
+        "correctAnswer": 2,
+        "explanation": "They target the respiratory system, causing illnesses from colds to pneumonia."
+      },
+      {
+        "text": "Which of the following diseases is/are caused by coronaviruses?",
+        "options": ["SARS", "MERS", "COVID-19", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "Coronaviruses cause SARS, MERS, and COVID-19."
+      },
+      {
+        "text": "What is the approximate volume of each dose of Covishield Vaccine given to adults?",
+        "options": ["1 ml", "2 ml", "0.5 ml", "1.5 ml"],
+        "correctAnswer": 2,
+        "explanation": "Each Covishield dose is 0.5 ml."
+      },
+      {
+        "text": "Which country exported the Sputnik V COVID vaccine to India?",
+        "options": ["America", "Russia", "UK", "France"],
+        "correctAnswer": 1,
+        "explanation": "Sputnik V was developed and exported by Russia."
+      },
+      {
+        "text": "The Moderna COVID-19 vaccine is an example of what type of vaccine platform?",
+        "options": ["Conventional inactivated virus vaccine", "Viral vector vaccine", "mRNA vaccine",
+          "Peptide vaccine"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Moderna's vaccine uses messenger RNA technology."
+      },
+      {
+        "text": "How do viral vector vaccines work to provide immunity?",
+        "options": ["By introducing a weakened or inactivated virus into the body",
+          "By directly attacking and destroying pathogens in the body",
+          "By placing the virus in a modified version of a different virus",
+          "By entering directly into the cells and enabling them to create spike proteins"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They use a harmless virus to deliver genetic instructions for making antigens."
+      },
+      {
+        "text": "The 'Wolbachia method' is sometimes discussed in reference to controlling which type of diseases?",
+        "options": ["Viral diseases spread by mosquitoes", "Fungal diseases in plants",
+          "Bacterial infections in livestock", "Genetic disorders in humans"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Wolbachia bacteria in mosquitoes can reduce viral transmission like dengue."
+      },
+      {
+        "text": "Dengue fever is primarily transmitted by the bite of which mosquito species?",
+        "options": ["Anopheles", "Culex", "Aedes aegypti", "Mansonia"],
+        "correctAnswer": 2,
+        "explanation": "Aedes aegypti is the main vector for dengue."
+      },
+      {
+        "text": "A common symptom of dengue fever is a decrease in the number of which blood component?",
+        "options": ["Red blood cells", "White blood cells", "Platelets", "Haemoglobin"],
+        "correctAnswer": 2,
+        "explanation": "Dengue often causes thrombocytopenia (low platelet count)."
+      },
+      {
+        "text": "Which of the following is a symptom of dengue fever that causes pain behind the eyes?",
+        "options": ["Meningitis", "Retro-orbital pain", "Arthritis", "Neuralgia"],
+        "correctAnswer": 1,
+        "explanation": "Retro-orbital pain is a classic dengue symptom."
+      },
+      {
+        "text": "Which of the following diseases is caused by the Rabies lyssavirus?",
+        "options": ["Meningitis", "Hydrophobia", "Herpes", "Poliomyelitis"],
+        "correctAnswer": 1,
+        "explanation": "Rabies causes hydrophobia due to spasms in throat muscles."
+      },
+      {
+        "text": "Which viral disease primarily affects the salivary glands, also known as the parotid glands?",
+        "options": ["Mumps", "Measles", "Chickenpox", "Herpes"],
+        "correctAnswer": 0,
+        "explanation": "Mumps virus infects the parotid salivary glands."
+      },
+      {
+        "text": "Japanese Encephalitis (JE) is an infection of which part of the human body?",
+        "options": ["Lungs", "Liver", "Brain", "Kidneys"],
+        "correctAnswer": 2,
+        "explanation": "JE affects the brain and can cause inflammation."
+      },
+      {
+        "text": "The main vector for Japanese Encephalitis (JE) is which species of mosquito?",
+        "options": ["Aedes", "Anopheles", "Culex", "Asian tiger mosquito"],
+        "correctAnswer": 2,
+        "explanation": "Culex mosquitoes transmit Japanese Encephalitis."
+      },
+      {
+        "text": "AIDS is caused by which type of virus?",
+        "options": ["Adenovirus", "Flavivirus", "Retrovirus", "Herpesvirus"],
+        "correctAnswer": 3,
+        "explanation": "HIV is a retrovirus that causes AIDS."
+      },
+      {
+        "text": "Which of the following are used to detect AIDS?",
+        "options": ["Western blot test", "ELISA test", "Both Western blot and ELISA tests", "Only Western blot test"],
+        "correctAnswer": 2,
+        "explanation": "Initial screening with ELISA is confirmed with a Western blot."
+      },
+      {
+        "text": "HIV primarily infects which type of cells?",
+        "options": ["B-lymphocytes", "Red blood cells", "T-helper cells", "Platelets"],
+        "correctAnswer": 2,
+        "explanation": "HIV targets CD4+ T-helper cells of the immune system."
+      },
+      {
+        "text": "Which of the following activities carries a risk of HIV transmission?",
+        "options": ["Casual contact", "Mosquito bites", "Unprotected sexual contact", "Sharing eating utensils"],
+        "correctAnswer": 2,
+        "explanation": "HIV spreads through unprotected sex, blood, and mother-to-child."
+      },
+      {
+        "text": "The dominant strain of HIV-1 in India is:",
+        "options": ["HIV 1A", "HIV 1B", "HIV 1C", "HIV 1D"],
+        "correctAnswer": 2,
+        "explanation": "HIV-1 subtype C predominates in India."
+      },
+      {
+        "text": "The most frequently used medicine for HIV/AIDS treatment is:",
+        "options": ["Micronazol", "Zedovudine (Azidothymidine)", "Nanaxinel-a", "Vinajol"],
+        "correctAnswer": 1,
+        "explanation": "Zidovudine is a common antiretroviral drug."
+      },
+      {
+        "text": "Which viral disease was globally eradicated in 1980?",
+        "options": ["Polio", "Smallpox", "Measles", "Chickenpox"],
+        "correctAnswer": 1,
+        "explanation": "WHO certified smallpox eradication in 1980."
+      },
+      {
+        "text": "The term 'ACE2' gained prominence during COVID-19 in context of:",
+        "options": ["GM plants", "Satellite navigation", "Wildlife tracking",
+          "Spread of viral diseases as cell entry point"
+        ],
+        "correctAnswer": 3,
+        "explanation": "ACE2 is the receptor for SARS-CoV-2 entry into cells."
+      },
+      {
+        "text": "Rabies transmission can occur through the saliva of animals like:",
+        "options": ["Dogs", "Cats", "Bats", "All of the above"],
+        "correctAnswer": 3,
+        "explanation": "Rabies spreads from saliva of infected mammals."
+      },
+      {
+        "text": "What is the primary cause of the common cold in humans?",
+        "options": ["Orthomixovirus", "Rhinovirus", "Leukaemia virus", "Poliovirus"],
+        "correctAnswer": 1,
+        "explanation": "Rhinoviruses cause most common colds."
+      },
+      {
+        "text": "Hepatitis B primarily affects which organ?",
+        "options": ["Lungs", "Heart", "Liver", "Brain"],
+        "correctAnswer": 2,
+        "explanation": "It infects the liver."
+      },
+      {
+        "text": "Hepatitis B virus is what type?",
+        "options": ["RNA virus", "Double-stranded DNA virus", "Single-stranded DNA virus", "Retrovirus"],
+        "correctAnswer": 1,
+        "explanation": "HBV is a double-stranded DNA virus."
+      },
+      {
+        "text": "Which statement about Hepatitis B is incorrect?",
+        "options": ["Transmitted like HIV", "Vaccine available", "May be asymptomatic", "Primarily waterborne"],
+        "correctAnswer": 3,
+        "explanation": "HBV spreads by blood/sex, not water."
+      },
+      {
+        "text": "An infectious disease affecting many globally is called:",
+        "options": ["Endemic", "Epidemic", "Pandemic", "Epizootic"],
+        "correctAnswer": 2,
+        "explanation": "A pandemic spans multiple countries or continents."
+      },
+      {
+        "text": "Severe diarrhoea in children by double-stranded RNA virus is caused by:",
+        "options": ["Bacteria", "Rotavirus", "Amoeba", "Fungus"],
+        "correctAnswer": 1,
+        "explanation": "Rotavirus is a dsRNA virus causing diarrhoea."
+      },
+      {
+        "text": "The Ebola virus was named after:",
+        "options": ["A city", "A province", "A river", "A mountain"],
+        "correctAnswer": 2,
+        "explanation": "Named after the Ebola River in Africa."
+      },
+      {
+        "text": "In 2018 & 2021, Nipah outbreaks were reported from which Indian state?",
+        "options": ["Bihar", "Kerala", "Haryana", "Gujarat"],
+        "correctAnswer": 1,
+        "explanation": "Kerala reported Nipah virus cases."
+      },
+      {
+        "text": "Which is a characteristic symptom of Meningitis?",
+        "options": ["Swelling of salivary glands", "Fear of water", "Neck stiffness", "Liver scarring"],
+        "correctAnswer": 2,
+        "explanation": "Meningitis often causes neck stiffness."
+      },
+      {
+        "text": "Which bacterial disease is known as 'lockjaw'?",
+        "options": ["Diphtheria", "Whooping cough", "Tetanus", "Pneumonia"],
+        "correctAnswer": 2,
+        "explanation": "Tetanus causes muscle spasms starting at the jaw."
+      },
+      {
+        "text": "Cholera is caused by which bacterium?",
+        "options": ["Salmonella typhi", "Vibrio cholerae", "Clostridium tetani", "Mycobacterium tuberculosis"],
+        "correctAnswer": 1,
+        "explanation": "Vibrio cholerae causes watery diarrhoea."
+      },
+      {
+        "text": "Which is a sexually transmitted bacterial disease?",
+        "options": ["Diphtheria", "Typhoid", "Gonorrhoea", "Whooping cough"],
+        "correctAnswer": 2,
+        "explanation": "Gonorrhoea is caused by Neisseria gonorrhoeae."
+      },
+      {
+        "text": "Which vaccine gives immunity to Diphtheria, Pertussis, Tetanus?",
+        "options": ["BCG", "DPT", "OPV", "MMR"],
+        "correctAnswer": 1,
+        "explanation": "DPT protects against all three."
+      },
+      {
+        "text": "BCG vaccine prevents:",
+        "options": ["Smallpox", "Typhoid", "Tuberculosis", "Plague"],
+        "correctAnswer": 2,
+        "explanation": "BCG is for TB prevention."
+      },
+      {
+        "text": "Tuberculosis is caused by:",
+        "options": ["Streptococcus pneumoniae", "Salmonella typhi", "Mycobacterium tuberculosis", "Vibrio cholerae"],
+        "correctAnswer": 2,
+        "explanation": "Mycobacterium tuberculosis infects lungs."
+      },
+      {
+        "text": "According to WHO, which disease kills the most people today?",
+        "options": ["AIDS", "Tuberculosis", "Malaria", "Ebola"],
+        "correctAnswer": 1,
+        "explanation": "TB remains a leading infectious cause of death."
+      },
+      {
+        "text": "Which test detects tuberculosis?",
+        "options": ["Robert’s Test", "Widal’s Test", "Kahn’s Test", "Montoux Test"],
+        "correctAnswer": 3,
+        "explanation": "The Mantoux tuberculin skin test is used."
+      },
+      {
+        "text": "Sulpha drugs are effective against:",
+        "options": ["Viruses", "Fungi", "Bacteria", "Protozoa"],
+        "correctAnswer": 2,
+        "explanation": "Sulpha drugs inhibit bacterial growth."
+      },
+      {
+        "text": "Which is a broad-spectrum antibiotic?",
+        "options": ["Paracetamol", "Xylocaine", "Chloramphenicol", "Chloroprene"],
+        "correctAnswer": 2,
+        "explanation": "Chloramphenicol acts against a wide range of bacteria."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>

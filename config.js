@@ -258,6 +258,31 @@ const subjectsConfig = {
                 id: 'Schapter4',
                 name: 'Vitamins and Nutrition -2',
                 file: 'Science/vitamins_2.html'
+            },
+            {
+                id: 'Schapter5',
+                name: 'Plant Physiology -1 ',
+                file: 'Science/Plant-1.html'
+            },
+            {
+                id: 'Schapter6',
+                name: 'Plant Physiology -2',
+                file: 'Science/Plant-2.html'
+            },
+            {
+                id: 'Schapter7',
+                name: 'Diseases and Treatment -1',
+                file: 'Science/disease-1.html'
+            },
+            {
+                id: 'Schapter8',
+                name: 'Diseases and Treatment -2',
+                file: 'Science/disease-2.html'
+            },
+            {
+                id: 'Schapter9',
+                name: 'Genetic Engineering and Biotechnology',
+                file: 'Science/genetics.html'
             }
         ]
     }

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Plant Physiology</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .container.center-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .quiz-box {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h3.text-center {
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+      color: #212529;
+    }
+
+    .question {
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .question p {
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #343a40;
+    }
+
+    .option {
+      cursor: pointer;
+      padding: 0.5rem 1rem;
+      margin-bottom: 0.5rem;
+      display: block;
+      border: 1px solid #ced4da;
+      border-radius: 0.375rem;
+      font-weight: 500;
+      color: #495057;
+      transition: background-color 0.3s, border-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #e9ecef;
+      border-color: #adb5bd;
+    }
+
+    .option input[type="radio"] {
+      margin-right: 0.75rem;
+    }
+
+    .option.correct {
+      background-color: #d4edda !important;
+      border-color: #c3e6cb !important;
+      color: #155724 !important;
+    }
+
+    .option.incorrect {
+      background-color: #f8d7da !important;
+      border-color: #f5c6cb !important;
+      color: #721c24 !important;
+    }
+
+    .explanation {
+      color: #0d6efd;
+      font-style: italic;
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      border-left: 4px solid #0d6efd;
+      background-color: #e7f1ff;
+      border-radius: 0.25rem;
+    }
+
+    #result {
+      margin-top: 1.5rem;
+      font-weight: 600;
+      font-size: 1.25rem;
+      color: #212529;
+    }
+
+    button#submit-btn {
+      width: 100%;
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container center-div">
+    <div class="quiz-box">
+      <div id="quiz-container">
+        <!-- Questions will be inserted here -->
+      </div>
+      <button id="submit-btn" class="btn btn-primary mt-3" onclick="submitQuiz()">Submit</button>
+      <div id="result"></div>
+    </div>
+  </div>
+
+  <script>
+    // Quiz questions array
+    const questions = [{
+        "text": "Which of the following is NOT an essential nutrient for plant growth based on the provided classification?",
+        "options": ["Boron", "Potassium", "Sodium", "Magnesium"],
+        "correctAnswer": 2,
+        "explanation": "Sodium is not considered an essential plant nutrient for all plants."
+      },
+      {
+        "text": "Which nutrient is most useful for enhancing oil content in mustard crop, due to its role in metabolic processes and oil synthesis?",
+        "options": ["Calcium", "Sulphur", "Zinc", "Iron"],
+        "correctAnswer": 1,
+        "explanation": "Sulphur boosts oil content by aiding fatty acid synthesis."
+      },
+      {
+        "text": "Plant hormones are known to occur in what concentrations?",
+        "options": ["High concentrations", "Moderate concentrations", "Extremely low concentrations",
+          "Varying concentrations depending on the plant"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They are effective even at extremely low concentrations."
+      },
+      {
+        "text": "In plants, which part is capable of producing hormones?",
+        "options": ["Only roots", "Only leaves", "Only flowers", "Each plant cell"],
+        "correctAnswer": 3,
+        "explanation": "Virtually every plant cell can produce hormones."
+      },
+      {
+        "text": "Which of the following is classified as a growth promoter?",
+        "options": ["Abscisic acid", "Ethylene", "Insulin", "Gibberellins"],
+        "correctAnswer": 3,
+        "explanation": "Gibberellins promote growth."
+      },
+      {
+        "text": "Which group of plant hormones were first identified due to their many-sided role?",
+        "options": ["Cytokinins", "Gibberellins", "Auxins", "Ethylene"],
+        "correctAnswer": 2,
+        "explanation": "Auxins were the first discovered plant hormones."
+      },
+      {
+        "text": "Indole-3-acetic acid (IAA) is the chief natural form of which plant hormone?",
+        "options": ["Gibberellin", "Cytokinin", "Auxin", "Ethylene"],
+        "correctAnswer": 2,
+        "explanation": "IAA is a naturally occurring auxin."
+      },
+      {
+        "text": "Which is NOT an effect of gibberellins?",
+        "options": ["Flowering", "Germination of seeds", "Affecting the growth of roots", "Breaking dormancy"],
+        "correctAnswer": 2,
+        "explanation": "Gibberellins mainly affect stem elongation, flowering, and dormancy — root growth effect is minimal."
+      },
+      {
+        "text": "Which plant hormone is used to increase sugarcane yield by lengthening the stem?",
+        "options": ["Auxin", "Cytokinin", "Gibberellin", "Abscisic acid"],
+        "correctAnswer": 2,
+        "explanation": "Gibberellins promote stem elongation in sugarcane."
+      },
+      {
+        "text": "Which of the following acts as a cytokinin?",
+        "options": ["Indole-3-acetic acid", "Methionine", "Kinetin", "Abscisic acid"],
+        "correctAnswer": 2,
+        "explanation": "Kinetin is a synthetic cytokinin."
+      },
+      {
+        "text": "Coconut milk is a natural source of which plant hormone?",
+        "options": ["Auxin", "Gibberellin", "Cytokinin", "Ethylene"],
+        "correctAnswer": 2,
+        "explanation": "Coconut milk contains cytokinins."
+      },
+      {
+        "text": "Which hormone keeps flowers fresh longer by delaying senescence?",
+        "options": ["Abscisic acid", "Ethylene", "Cytokinin", "Auxin"],
+        "correctAnswer": 2,
+        "explanation": "Cytokinins delay aging in plant tissues."
+      },
+      {
+        "text": "Abscisic acid regulates dormancy of which plant parts?",
+        "options": ["Stems and leaves", "Flowers and fruits", "Buds and seeds", "Roots and root hairs"],
+        "correctAnswer": 2,
+        "explanation": "ABA induces dormancy in buds and seeds."
+      },
+      {
+        "text": "Abscisic acid inhibits which process stimulated by gibberellins?",
+        "options": ["Flowering", "Cell division in cambial zone", "Growth", "Germination of seeds"],
+        "correctAnswer": 2,
+        "explanation": "ABA suppresses growth promoted by gibberellins."
+      },
+      {
+        "text": "Which hormone is sprayed on trees to regulate fruit drop?",
+        "options": ["Auxin", "Cytokinin", "Ethylene", "Abscisic acid"],
+        "correctAnswer": 3,
+        "explanation": "ABA can regulate fruit drop."
+      },
+      {
+        "text": "In what form is ethylene found?",
+        "options": ["Solid", "Liquid", "Gaseous", "Plasma"],
+        "correctAnswer": 2,
+        "explanation": "Ethylene is a gaseous plant hormone."
+      },
+      {
+        "text": "Ethylene is synthesized from which amino acid?",
+        "options": ["Glycine", "Tyrosine", "Methionine", "Alanine"],
+        "correctAnswer": 2,
+        "explanation": "Methionine is the precursor for ethylene."
+      },
+      {
+        "text": "Which is a function of ethylene?",
+        "options": ["Promotion of leaf and flower abscission and senescence", "Inhibition of root hair formation",
+          "Delay of senescence", "Promotion of plant growth"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Ethylene promotes abscission and senescence."
+      },
+      {
+        "text": "Which hormone is applied to rubber trees to stimulate latex flow?",
+        "options": ["Auxin", "Gibberellin", "Ethylene", "Abscisic acid"],
+        "correctAnswer": 2,
+        "explanation": "Ethylene stimulates latex production."
+      },
+      {
+        "text": "Seedless tomato production can be stimulated by which hormones?",
+        "options": ["Only auxins", "Only gibberellins", "Gibberellin, auxin, and cytokinin", "Only abscisic acid"],
+        "correctAnswer": 2,
+        "explanation": "A combination of these hormones induces parthenocarpy."
+      },
+      {
+        "text": "What is generally required for germination of single seed plants?",
+        "options": ["Light, water, oxygen", "Water, proper temperature, oxygen", "Proper temperature, oxygen, CO2",
+          "Temperature, oxygen, light"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Water, oxygen, and appropriate temperature trigger germination."
+      },
+      {
+        "text": "What happens to oxygen levels if sleeping under trees at night?",
+        "options": ["Oxygen increases", "Oxygen decreases due to respiration", "Oxygen levels remain unaffected",
+          "Oxygen fluctuates unpredictably"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Trees respire at night, lowering oxygen in the immediate vicinity."
+      },
+      {
+        "text": "At what wavelength in red light is photosynthesis most effective?",
+        "options": ["440 nm", "550 nm", "655 nm", "700 nm"],
+        "correctAnswer": 2,
+        "explanation": "655 nm is optimal for red light absorption."
+      },
+      {
+        "text": "Carbon assimilation produces which organic component?",
+        "options": ["Oxygen", "Water", "Carbohydrates", "Carbon monoxide"],
+        "correctAnswer": 2,
+        "explanation": "Photosynthesis produces carbohydrates."
+      },
+      {
+        "text": "Mycorrhiza helps plants primarily uptake which nutrient?",
+        "options": ["Nitrogen", "Potassium", "Phosphorus", "Calcium"],
+        "correctAnswer": 2,
+        "explanation": "Mycorrhizal fungi help phosphorus uptake."
+      },
+      {
+        "text": "Mycorrhizal associations provide which added benefit?",
+        "options": ["Increased susceptibility to pathogens", "Decreased growth", "Tolerance to drought and salinity",
+          "Reduced organic synthesis"
+        ],
+        "correctAnswer": 2,
+        "explanation": "They improve resistance to stress."
+      },
+      {
+        "text": "Primary function of xylem?",
+        "options": ["Transport food", "Provide support only", "Transport water and minerals", "Store carbohydrates"],
+        "correctAnswer": 2,
+        "explanation": "Xylem moves water and minerals from roots to shoots."
+      },
+      {
+        "text": "Approximate percentage of carbon compounds in dry matter of protoplasm?",
+        "options": ["10-20%", "20-30%", "40-50%", "60-70%"],
+        "correctAnswer": 2,
+        "explanation": "Carbon compounds make up about 40–50%."
+      },
+      {
+        "text": "Which plant part is a modified stem storing food?",
+        "options": ["Turnip", "Carrot", "Sweet Potato", "Ginger"],
+        "correctAnswer": 3,
+        "explanation": "Ginger is an underground stem (rhizome)."
+      },
+      {
+        "text": "Why is ginger considered a stem and not a root?",
+        "options": ["It stores food", "Grows horizontally", "It has nodes and internodes", "It lacks chlorophyll"],
+        "correctAnswer": 2,
+        "explanation": "Presence of nodes and internodes identifies it as a stem."
+      },
+      {
+        "text": "Which element enhances disease resistance?",
+        "options": ["Zinc", "Boron", "Iron", "Copper"],
+        "correctAnswer": 1,
+        "explanation": "Boron contributes to disease resistance."
+      },
+      {
+        "text": "Which essential element is acquired from air and soil water?",
+        "options": ["Hydrogen", "Oxygen", "Carbon", "Nitrogen"],
+        "correctAnswer": 1,
+        "explanation": "Oxygen comes from air and water."
+      },
+      {
+        "text": "A plant forming a four-carbon compound first in photosynthesis is?",
+        "options": ["Less efficient", "C-3 plant", "C-4 plant", "Opens stomata during day"],
+        "correctAnswer": 2,
+        "explanation": "C-4 plants first form a 4-carbon compound."
+      },
+      {
+        "text": "Photosynthesis is which reaction type?",
+        "options": ["Neutralization", "Acid-base", "Redox", "Precipitation"],
+        "correctAnswer": 2,
+        "explanation": "It involves oxidation of water and reduction of CO2."
+      },
+      {
+        "text": "What do leaves receive to stimulate flowering?",
+        "options": ["Root signals", "Light, energy, CO2", "Soil nutrients", "Water from stem"],
+        "correctAnswer": 1,
+        "explanation": "Light, CO2, and energy trigger flowering."
+      },
+      {
+        "text": "In the light-dependent reactions, how many oxygen molecules are produced?",
+        "options": ["One", "Two", "Three", "Four"],
+        "correctAnswer": 0,
+        "explanation": "One O2 molecule is released per photolysis cycle shown."
+      },
+      {
+        "text": "Function of pheophytin in light reactions?",
+        "options": ["Absorbing light", "Passing electron to quinone", "Producing ATP", "Reducing NADP"],
+        "correctAnswer": 1,
+        "explanation": "Pheophytin transfers electrons to quinone."
+      },
+      {
+        "text": "Which macronutrient contributes to cell walls and enzyme activation?",
+        "options": ["Potassium", "Phosphorus", "Calcium", "Sulphur"],
+        "correctAnswer": 2,
+        "explanation": "Calcium is essential for cell wall stability."
+      },
+      {
+        "text": "Primary source of hydrogen in plants?",
+        "options": ["Atmospheric H2", "Soil hydrogen ions", "From water", "Through specialized roots"],
+        "correctAnswer": 2,
+        "explanation": "Plants get hydrogen almost entirely from water."
+      },
+      {
+        "text": "Another symptom of manganese deficiency besides chlorosis?",
+        "options": ["Stunted leaves", "Discolored spots on leaves", "Necrotic lesions", "Blossom end rot"],
+        "correctAnswer": 1,
+        "explanation": "Manganese deficiency can cause spotting."
+      },
+      {
+        "text": "Typical symptom of zinc deficiency known as ‘little leaf’?",
+        "options": ["Yellowing between veins", "Stunted leaves", "Brown spots", "Intense green color"],
+        "correctAnswer": 1,
+        "explanation": "Zinc deficiency stunts leaf size."
+      },
+      {
+        "text": "How do plants acquire CO2?",
+        "options": ["Through roots", "By diffusion via stomata", "Through flowers", "Through stems"],
+        "correctAnswer": 1,
+        "explanation": "CO2 diffuses in through open stomata."
+      },
+      {
+        "text": "Which is NOT a xerophyte trait?",
+        "options": ["Adapted to dry conditions", "Examples are cacti and aloe", "Keep stomata open during day",
+          "Photosynthesize in dry state"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Xerophytes usually close stomata during the day."
+      },
+      {
+        "text": "Which type of energy is stored in chemical bonds?",
+        "options": ["Kinetic", "Thermal", "Potential", "Mechanical"],
+        "correctAnswer": 2,
+        "explanation": "Chemical bonds store potential energy."
+      },
+      {
+        "text": "Critical role of hydrogen ions in photosynthesis and respiration?",
+        "options": ["Cell wall component", "Drive proton gradient for ETC", "Primary carbon source",
+          "Regulate stomata"
+        ],
+        "correctAnswer": 1,
+        "explanation": "H+ ions power ATP synthesis via proton gradient."
+      },
+      {
+        "text": "Necrosis or interveinal chlorosis indicates deficiency of?",
+        "options": ["Sulphur", "Calcium", "Potassium", "Magnesium"],
+        "correctAnswer": 2,
+        "explanation": "Potassium deficiency shows these symptoms."
+      },
+      {
+        "text": "Which hormone accelerates leaf senescence and inhibits growth?",
+        "options": ["Auxin", "Ethylene", "Abscisic acid", "Gibberellin"],
+        "correctAnswer": 2,
+        "explanation": "ABA both inhibits growth and induces senescence."
+      },
+      {
+        "text": "Term for turgidity changes causing stomata movement?",
+        "options": ["Plasmolysis", "Osmotic flow of water", "Transpiration pull", "Diffusion"],
+        "correctAnswer": 1,
+        "explanation": "Turgor pressure changes from osmotic flow control stomata."
+      },
+      {
+        "text": "Element in nitrogen fixation and certain amino acids/vitamins?",
+        "options": ["Phosphorus", "Potassium", "Sulphur", "Magnesium"],
+        "correctAnswer": 2,
+        "explanation": "Sulphur is vital in nitrogen fixation and amino acids."
+      },
+      {
+        "text": "Light-dependent reactions produce oxygen, NADPH, and which other molecule?",
+        "options": ["Glucose", "ADP", "ATP", "CO2"],
+        "correctAnswer": 2,
+        "explanation": "ATP is formed in light reactions."
+      }
+    ]
+
+    let score = 0;
+
+    // Dynamically create quiz questions
+    function loadQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      quizContainer.innerHTML = '';
+
+      questions.forEach((question, index) => {
+        const questionDiv = document.createElement('div');
+        questionDiv.className = 'question';
+
+        const questionText = document.createElement('p');
+        questionText.innerHTML = `<strong>${index + 1}. ${question.text}</strong>`;
+        questionDiv.appendChild(questionText);
+
+        question.options.forEach((option, optIndex) => {
+          const label = document.createElement('label');
+          label.className = 'option';
+          label.innerHTML = `
+            <input type="radio" name="q${index}" value="${optIndex}" />
+            ${option}
+          `;
+          questionDiv.appendChild(label);
+        });
+
+        const explanationDiv = document.createElement('div');
+        explanationDiv.className = 'explanation';
+        explanationDiv.id = `explanation${index}`;
+        explanationDiv.style.display = 'none';
+        explanationDiv.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        questionDiv.appendChild(explanationDiv);
+
+        quizContainer.appendChild(questionDiv);
+      });
+    }
+
+    function submitQuiz() {
+      const quizContainer = document.getElementById('quiz-container');
+      const inputs = quizContainer.querySelectorAll('input[type="radio"]');
+      const resultDiv = document.getElementById('result');
+      let answered = new Array(questions.length).fill(false);
+      score = 0;
+
+      // Reset previous feedback styles
+      inputs.forEach(input => {
+        input.parentElement.classList.remove('correct', 'incorrect');
+      });
+
+      // Check answers and calculate score
+      questions.forEach((question, index) => {
+        const selected = document.querySelector(`input[name="q${index}"]:checked`);
+        const options = document.querySelectorAll(`input[name="q${index}"]`);
+
+        if (selected) {
+          const selectedValue = parseInt(selected.value);
+          answered[index] = true;
+
+          if (selectedValue === question.correctAnswer) {
+            score += 1;
+            selected.parentElement.classList.add('correct');
+          } else {
+            score -= 0.34;
+            selected.parentElement.classList.add('incorrect');
+          }
+        }
+
+        // Show correct answer highlight if unanswered or answered incorrectly
+        if (!answered[index] || (selected && parseInt(selected.value) !== question.correctAnswer)) {
+          options[question.correctAnswer].parentElement.classList.add('correct');
+        }
+
+        // Show explanation
+        document.getElementById(`explanation${index}`).style.display = 'block';
+      });
+
+      // Fix score to 2 decimals and ensure it doesn't go below 0
+      score = Math.max(0, Math.round(score * 100) / 100);
+
+      // Show final score
+      resultDiv.innerHTML = `<h5>Your Score: ${score} / ${questions.length}</h5>`;
+    }
+
+    // Load quiz questions when page loads
+    window.onload = loadQuiz;
+  </script>
+</body>
+
+</html>
