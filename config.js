@@ -11,57 +11,57 @@ const subjectsConfig = {
             // Current Affairs
             {
                 id: 'CaChapter1',
-                name: 'Current Affairs - Lecture 1',
+                name: 'Current Affairs - Set - 1',
                 file: 'CA/Lec_1.html'
             },
             {
                 id: 'CaChapter2',
-                name: 'Current Affairs - Lecture 2',
+                name: 'Current Affairs - Set - 2',
                 file: 'CA/Lec_2.html'
             },
             {
                 id: 'CaChapter3',
-                name: 'Current Affairs - Lecture 3',
+                name: 'Current Affairs - Set - 3',
                 file: 'CA/Lec_3.html'
             },
             {
                 id: 'CaChapter4',
-                name: 'Current Affairs - Lecture 4',
+                name: 'Current Affairs - Set - 4',
                 file: 'CA/Lec_4.html'
             },
             {
                 id: 'CaChapter5',
-                name: 'Current Affairs - Lecture 5',
+                name: 'Current Affairs - Set - 5',
                 file: 'CA/Lec_5.html'
             },
             {
                 id: 'CaChapter6',
-                name: 'Current Affairs - Lecture 6',
+                name: 'Current Affairs - Set - 6',
                 file: 'CA/Lec_6.html'
             },
             {
                 id: 'CaChapter7',
-                name: 'Current Affairs - Lecture 7',
+                name: 'Current Affairs - Set - 7',
                 file: 'CA/Lec_7.html'
             },
             {
                 id: 'CaChapter8',
-                name: 'Current Affairs - Lecture 8', // Corrected duplicate id
+                name: 'Current Affairs - Set - 8', // Corrected duplicate id
                 file: 'CA/Lec_8.html'
             },
             {
                 id: 'CaChapter9',
-                name: 'Current Affairs - Lecture 9', // Corrected duplicate id
+                name: 'Current Affairs - Set - 9', // Corrected duplicate id
                 file: 'CA/Lec_9.html'
             },
             {
                 id: 'CaChapter10',
-                name: 'Current Affairs - Lecture 10', // Corrected duplicate id
+                name: 'Current Affairs - Set - 10', // Corrected duplicate id
                 file: 'CA/Lec_10.html'
             },
             {
                 id: 'CaChapter11',
-                name: 'Current Affairs - Lecture 11', // Corrected duplicate id
+                name: 'Current Affairs - Set - 11', // Corrected duplicate id
                 file: 'CA/Lec_11.html'
             }
         ]
