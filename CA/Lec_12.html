@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>MCQ Quiz - Lecture 7</title>
+  <title>Vitamins and Nutrition</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <style>
     body {
@@ -106,7 +106,6 @@
 <body>
   <div class="container center-div">
     <div class="quiz-box">
-      <h3 class="text-center">Lecture 7</h3>
       <div id="quiz-container">
         <!-- Questions will be inserted here -->
       </div>
@@ -118,554 +117,327 @@
   <script>
     // Quiz questions array
     const questions = [{
-        "text": "General Ashok Raj Sigdel, the Nepali Army Chief, was conferred with an honorary rank during his official visit to which country?",
-        "options": [
-          "China",
-          "India",
-          "Bangladesh",
-          "Pakistan"
-        ],
+        "text": "Alfred Nobel, the founder of the Nobel Prizes, was primarily known for which significant invention?",
+        "options": ["The telegraph", "Dynamite", "The steam engine", "The light bulb"],
         "correctAnswer": 1,
-        "explanation": "General Ashok Raj Sigdel was conferred with an honorary rank during his official visit to India."
+        "explanation": "Alfred Nobel invented dynamite, which brought him wealth but also concern about its destructive use."
       },
       {
-        "text": "Who among the following is the current President of South Korea, belonging to the Liberal Democratic Party?",
-        "options": [
-          "Anthony Albanese",
-          "Lee Jae-Myung",
-          "Lawrence Wong",
-          "Alexander Lukashenko"
-        ],
+        "text": "The Prize in Economic Sciences was added to the Nobel Prizes in which year?",
+        "options": ["1901", "1968", "1983", "2019"],
         "correctAnswer": 1,
-        "explanation": "Lee Jae-Myung is the current President of South Korea from the Liberal Democratic Party."
+        "explanation": "The Economics Prize was established in 1968 by Sweden's central bank."
       },
       {
-        "text": "Salem Saleh Bin Braikas serves as the Prime Minister of which nation?",
-        "options": [
-          "Sudan",
-          "Singapore",
-          "Yemen",
-          "Trinidad & Tobago"
+        "text": "Which body is responsible for awarding the Nobel Prize in Physics?",
+        "options": ["The Karolinska Institute", "The Swedish Academy", "The Royal Swedish Academy of Sciences",
+          "A committee elected by the Norwegian Parliament"
         ],
         "correctAnswer": 2,
-        "explanation": "Salem Saleh Bin Braikas is the Prime Minister of Yemen."
+        "explanation": "The Royal Swedish Academy of Sciences awards Nobel Prizes in Physics and Chemistry."
       },
       {
-        "text": "Which political party does Keir Starmer, the 58th Prime Minister of the UK, represent?",
-        "options": [
-          "Conservative Party",
-          "Liberal Democrats",
-          "Labour Party",
-          "Scottish National Party"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Keir Starmer leads the Labour Party."
-      },
-      {
-        "text": "Who is noted as the first Hindu woman to hold the post of Foreign Minister of Canada?",
-        "options": [
-          "Kamla Susheila Persad-Bissessar",
-          "Geerlings-Simons",
-          "Anita Anand",
-          "Chhonzin Agmo"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Anita Anand is the first Hindu woman to serve as Foreign Minister of Canada."
-      },
-      {
-        "text": "In 2025, who was sworn in as the new Prime Minister of Canada, succeeding Justin Trudeau?",
-        "options": [
-          "Keir Starmer",
-          "Mark Carney",
-          "Rishi Sunak",
-          "Kamil al-Taibidriss"
-        ],
+        "text": "The Nobel Peace Prize is awarded by a committee elected by the Parliament of which country?",
+        "options": ["Sweden", "Norway", "Denmark", "Finland"],
         "correctAnswer": 1,
-        "explanation": "Mark Carney became Prime Minister of Canada in 2025."
+        "explanation": "The Norwegian Nobel Committee, appointed by Norway’s Parliament, selects Peace Prize laureates."
       },
       {
-        "text": "Kamil al-Taibidriss holds the position of Prime Minister in which country?",
-        "options": [
-          "Belarus",
-          "Greece",
-          "Sudan",
-          "Suriname"
+        "text": "How many Indian individuals working in India have won a science Nobel Prize?",
+        "options": ["Zero", "One", "Two", "Three"],
+        "correctAnswer": 1,
+        "explanation": "Only C.V. Raman (1930, Physics) won a science Nobel while working in India."
+      },
+      {
+        "text": "CV Raman was awarded the Nobel Prize in Physics in which year?",
+        "options": ["1913", "1930", "1968", "1983"],
+        "correctAnswer": 1,
+        "explanation": "C.V. Raman received the Nobel Prize in Physics in 1930 for the 'Raman Effect'."
+      },
+      {
+        "text": "Which organization received the 2024 Nobel Peace Prize?",
+        "options": ["Missionaries of Charity", "Nihon Hidankyo", "The Swedish Academy", "Karolinska Institute"],
+        "correctAnswer": 1,
+        "explanation": "The Japanese anti-nuclear survivors’ organization Nihon Hidankyo received the 2024 Nobel Peace Prize."
+      },
+      {
+        "text": "Narges Mohammadi, the 2023 Nobel Peace Prize laureate, is an activist from which country?",
+        "options": ["South Korea", "India", "Iran", "Japan"],
+        "correctAnswer": 2,
+        "explanation": "Narges Mohammadi is an Iranian human rights activist."
+      },
+      {
+        "text": "Mother Teresa received the Nobel Peace Prize in 1979 for her humanitarian work primarily through which organisation?",
+        "options": ["UNICEF", "Doctors Without Borders", "Missionaries of Charity", "Amnesty International"],
+        "correctAnswer": 2,
+        "explanation": "She founded the Missionaries of Charity, serving the poorest in Kolkata, India."
+      },
+      {
+        "text": "Kailash Satyarthi was awarded the Nobel Peace Prize in 2014 for his efforts against which issue?",
+        "options": ["Gender inequality", "Nuclear proliferation", "Child labor", "Political oppression"],
+        "correctAnswer": 2,
+        "explanation": "Satyarthi worked to end child labor and promote children’s rights in India."
+      },
+      {
+        "text": "Han Kang, the 2024 Nobel laureate in Literature, is from which country?",
+        "options": ["Norway", "South Korea", "India", "United States"],
+        "correctAnswer": 1,
+        "explanation": "Han Kang is a South Korean novelist and poet."
+      },
+      {
+        "text": "For what specific characteristic was Jon Fosse, 2023 Nobel Literature laureate, recognised?",
+        "options": ["Profound historical analyses", "Intense poetic prose", "Unique 'Fosse minimalism' style",
+          "Children’s literature"
         ],
         "correctAnswer": 2,
-        "explanation": "Kamil al-Taibidriss is the Prime Minister of Sudan."
+        "explanation": "Jon Fosse’s minimalist style, 'Fosse minimalism', earned him the Nobel Prize."
       },
       {
-        "text": "Who is the President of Belarus, as mentioned in the source?",
-        "options": [
-          "Constantine Tassoulas",
-          "Alexander Lukashenko",
-          "Robert Prevost",
-          "Lee Jae-Myung"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Alexander Lukashenko is the President of Belarus."
-      },
-      {
-        "text": "Constantine Tassoulas has recently become the new President of which European country?",
-        "options": [
-          "Italy",
-          "Spain",
-          "Greece",
-          "Portugal"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Constantine Tassoulas is the new President of Greece."
-      },
-      {
-        "text": "Who is recognised as the first female President of Suriname?",
-        "options": [
-          "Kamla Susheila Persad-Bissessar",
-          "Geerlings-Simons",
-          "Anita Anand",
-          "Netumbo Nandi-Ndaitwah"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Geerlings-Simons is recognised as the first female President of Suriname."
-      },
-      {
-        "text": "Pope Francis, the former leader of the Roman Catholic Church, who passed away at 88, was notable for being the first non-European Pope in how many years?",
-        "options": [
-          "500 years",
-          "800 years",
-          "1,000 years",
-          "1,300 years"
-        ],
+        "text": "Rabindranath Tagore, the 1913 Nobel laureate in Literature, expressed his works to the West in which language?",
+        "options": ["Bengali", "French", "German", "English"],
         "correctAnswer": 3,
-        "explanation": "Pope Francis was the first non-European Pope in 1,300 years."
+        "explanation": "Although Bengali was his mother tongue, Tagore translated 'Gitanjali' into English."
       },
       {
-        "text": "The office of the Pope is officially known by which term?",
-        "options": [
-          "The Pontificate",
-          "The Holy See",
-          "The Papacy",
-          "The Vatican"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Papacy is the official term for the office of the Pope."
-      },
-      {
-        "text": "Who was appointed as the new Pope, adopting the papal name Leo XIV?",
-        "options": [
-          "Dr. Jay Bhattacharya",
-          "Robert Prevost",
-          "Kash Patel",
-          "Acharya Satyendra Das"
+        "text": "David Baker was awarded the 2024 Nobel Prize in Chemistry for his work in which area?",
+        "options": ["Protein structure prediction", "Computational protein design", "Synthesis of novel therapeutics",
+          "Amino acid sequencing"
         ],
         "correctAnswer": 1,
-        "explanation": "Robert Prevost adopted the papal name Leo XIV as new Pope."
+        "explanation": "Baker received recognition for advances in computational protein design."
       },
       {
-        "text": "Dr. Jay Bhattacharya, a Kolkata-born physician and Stanford professor, was appointed as the Director of which institution?",
-        "options": [
-          "FBI",
-          "ISRO",
-          "National Institute of Health (NIH)",
-          "World Jurist Association"
-        ],
+        "text": "Demis Hassabis and John M. Jumper, Nobel Chemistry 2024 recipients, worked on what?",
+        "options": ["Gene regulation", "mRNA vaccines", "Protein structure prediction", "Industrial enzymes"],
         "correctAnswer": 2,
-        "explanation": "Dr. Jay Bhattacharya was appointed Director of NIH."
+        "explanation": "Their AlphaFold AI revolutionized protein structure prediction."
       },
       {
-        "text": "Kash Patel, of Indian origin, was appointed as the Director of which American agency?",
-        "options": [
-          "NIH",
-          "CIA",
-          "FBI",
-          "DEA"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Kash Patel was appointed as Director of the FBI."
-      },
-      {
-        "text": "Who is the first Indian lawyer to receive the Medal of Honour from the World Jurist Association?",
-        "options": [
-          "Bhuvan Ribhu",
-          "Vishwanath Karthikey Padakanti",
-          "K. Kasturirangan",
-          "Shyam Benegal"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Bhuvan Ribhu is the first Indian lawyer to receive this distinction."
-      },
-      {
-        "text": "PM Narendra Modi was conferred with Namibia’s highest civilian award. What is the name of this award?",
-        "options": [
-          "Order of St. Andrews and Apostle",
-          "Order of Excellence",
-          "Order of the Most Ancient Welwitschia Mirabilis",
-          "Grand Commander of the Order of Star and Key of the Indian Ocean"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The award is the Order of the Most Ancient Welwitschia Mirabilis."
-      },
-      {
-        "text": "The \"Order of the Most Ancient Welwitschia Mirabilis\" was conferred upon PM Modi by the President of Namibia. Who is the current President of Namibia?",
-        "options": [
-          "Netumbo Nandi-Ndaitwah",
-          "Geerlings-Simons",
-          "Kamla Susheila Persad-Bissessar",
-          "Anthony Albanese"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Netumbo Nandi-Ndaitwah is currently the President of Namibia."
-      },
-      {
-        "text": "Which of the following countries conferred the \"Mitra Vibhusana\" civilian award on PM Narendra Modi?",
-        "options": [
-          "Kuwait",
-          "Guyana",
-          "Sri Lanka",
-          "Mauritius"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Sri Lanka conferred the Mitra Vibhusana award on PM Modi."
-      },
-      {
-        "text": "The \"Mubarak-al-Kabeer\" award was conferred on PM Narendra Modi by which nation?",
-        "options": [
-          "Kuwait",
-          "Russia",
-          "Cyprus",
-          "Argentina"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Kuwait conferred the Mubarak-al-Kabeer award."
-      },
-      {
-        "text": "PM Narendra Modi received the \"Order of St. Andrews and Apostle\" from which country?",
-        "options": [
-          "Guyana",
-          "Mauritius",
-          "Russia",
-          "Cyprus"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Russia honoured PM Modi with the Order of St. Andrews and Apostle."
-      },
-      {
-        "text": "PM Narendra Modi was conferred with the ‘Key to the City’ of Buenos Aires during his official visit to which country?",
-        "options": [
-          "Brazil",
-          "Argentina",
-          "Chile",
-          "Uruguay"
+        "text": "What is the primary objective of protein structure prediction?",
+        "options": ["Develop antibiotics", "Predict 3D structure from amino acid sequence",
+          "Identify protein functions in plants", "Analyse protein folding diseases"
         ],
         "correctAnswer": 1,
-        "explanation": "He was honoured in Argentina."
+        "explanation": "The goal is predicting 3D structures from amino acid sequences."
       },
       {
-        "text": "The ‘Key to the City’ of Buenos Aires was presented to PM Modi by whom?",
-        "options": [
-          "President of Argentina",
-          "Chief of the City of Buenos Aires, Mr. Jorge Macri",
-          "Minister of Foreign Affairs of Argentina",
-          "Mayor of Buenos Aires"
+        "text": "John J. Hopfield and Geoffrey Hinton received the 2024 Nobel Prize in Physics for discoveries related to?",
+        "options": ["Quantum computing", "Artificial neural networks", "Attosecond pulses of light",
+          "Photoelectric effect"
         ],
         "correctAnswer": 1,
-        "explanation": "It was presented by Mr. Jorge Macri, Chief of the City of Buenos Aires."
+        "explanation": "They developed foundational models for artificial neural networks."
       },
       {
-        "text": "What was the significance of PM Narendra Modi’s visit to Argentina in the context of Indian Prime Ministerial visits?",
-        "options": [
-          "It was the first state visit by an Indian PM.",
-          "It marked the first visit by an Indian PM to Argentina in 57 years.",
-          "It was the first time an Indian PM addressed the Argentine Parliament.",
-          "It was the first visit focused solely on economic ties."
+        "text": "Key function of neural networks in AI?",
+        "options": ["Generate random data", "Make decisions with minimal human input", "Store large databases",
+          "Perform only math calculations"
         ],
         "correctAnswer": 1,
-        "explanation": "It was the first visit by an Indian Prime Minister to Argentina in 57 years."
+        "explanation": "Neural networks enable decision-making and pattern recognition with minimal human aid."
       },
       {
-        "text": "Who is the 16-year-old from Hyderabad recognised as the youngest Indian to scale the highest peaks of all continents (7 Summits)?",
-        "options": [
-          "Kaamya Karthikeyan",
-          "Vishwanath Karthikey Padakanti",
-          "Chhonzin Agmo",
-          "Bhuvan Ribhu"
-        ],
+        "text": "Albert Einstein received the Nobel Prize for which discovery?",
+        "options": ["Theory of relativity", "Black holes", "Photoelectric effect", "Gravitational waves"],
+        "correctAnswer": 2,
+        "explanation": "Einstein received it for explaining the photoelectric effect in 1921."
+      },
+      {
+        "text": "C.V. Raman received the Nobel Prize for discovering which effect?",
+        "options": ["Doppler effect", "Photoelectric effect", "Raman effect", "Zeeman effect"],
+        "correctAnswer": 2,
+        "explanation": "He explained scattering of light, discovering the Raman Effect."
+      },
+      {
+        "text": "Subrahmanyan Chandrasekhar won the Nobel Prize for theoretical studies of?",
+        "options": ["Planets", "Galaxies", "Stars", "Black holes"],
+        "correctAnswer": 2,
+        "explanation": "Chandrasekhar studied stellar evolution, especially white dwarfs."
+      },
+      {
+        "text": "The 2023 Nobel Prize in Physics was awarded for attosecond pulses to study?",
+        "options": ["Nuclear fusion", "Electron dynamics in matter", "Photon emission", "Atomic nuclei"],
         "correctAnswer": 1,
-        "explanation": "Vishwanath Karthikey Padakanti achieved the 7 Summits at age 16."
+        "explanation": "Awarded for experimental methods to study ultrafast electron dynamics."
       },
       {
-        "text": "Who is the 17-year-old student from Navy Children School, Mumbai, known as the youngest female to scale the highest peaks on all continents?",
-        "options": [
-          "Chhonzin Agmo",
-          "Kaamya Karthikeyan",
-          "Vishwanath Karthikey Padakanti",
-          "Anita Anand"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Kaamya Karthikeyan is the youngest female to complete this feat."
-      },
-      {
-        "text": "Who is the first visually impaired woman to scale Mount Everest, hailing from Himachal Pradesh?",
-        "options": [
-          "Kaamya Karthikeyan",
-          "Chhonzin Agmo",
-          "Geerlings-Simons",
-          "Netumbo Nandi-Ndaitwah"
-        ],
-        "correctAnswer": 1,
-        "explanation": "Chhonzin Agmo is the first visually impaired woman from Himachal Pradesh to scale Everest."
-      },
-      {
-        "text": "Acharya Satyendra Das, who recently passed away, served as the Chief Priest of which prominent temple since 1993?",
-        "options": [
-          "Kedarnath Temple",
-          "Badrinath Temple",
-          "Ayodhya’s Ram Janmabhoomi temple",
-          "Vaishno Devi Temple"
+        "text": "Victor Ambros and Gary Ruvkun received the 2024 Nobel in Medicine for microRNA’s role in?",
+        "options": ["DNA replication", "Protein synthesis", "Post-transcriptional gene regulation",
+          "Cellular respiration"
         ],
         "correctAnswer": 2,
-        "explanation": "Acharya Satyendra Das was the Chief Priest of Ayodhya’s Ram Janmabhoomi temple."
+        "explanation": "They discovered microRNA regulates gene expression after transcription."
       },
       {
-        "text": "Shyam Benegal, who recently passed away, was a renowned Indian figure known for his pioneering work in which field?",
-        "options": [
-          "Classical Music",
-          "Science and Technology",
-          "Parallel Cinema",
-          "Mountaineering"
-        ],
+        "text": "Katalin Karikó & Drew Weissman’s work enabled vaccines against which disease?",
+        "options": ["Malaria", "Tuberculosis", "COVID-19", "Polio"],
         "correctAnswer": 2,
-        "explanation": "Shyam Benegal was known for his contributions to Parallel Cinema."
+        "explanation": "They pioneered mRNA technology enabling Covid-19 vaccines."
       },
       {
-        "text": "K. Kasturirangan, a former ISRO chairman and Rajyasabha member, notably chaired the committee for drafting which important policy?",
-        "options": [
-          "National Health Policy",
-          "National Education Policy (NEP)",
-          "National Economic Policy",
-          "National Science Policy"
-        ],
+        "text": "Har Gobind Khorana received his Nobel for contributions to which process?",
+        "options": ["Photosynthesis", "Cellular division", "Protein synthesis", "Immune response"],
+        "correctAnswer": 2,
+        "explanation": "Khorana cracked the genetic code for protein synthesis."
+      },
+      {
+        "text": "At the time of his Nobel, Har Gobind Khorana was with?",
+        "options": ["MIT", "Trinity College, Cambridge", "University of Wisconsin, Madison", "Harvard University"],
+        "correctAnswer": 2,
+        "explanation": "He worked at the University of Wisconsin–Madison during his Nobel-winning research."
+      },
+      {
+        "text": "The 2024 Nobel Prize in Economics was awarded for studies on?",
+        "options": ["Poverty strategies", "Women's labor markets", "Institutions and prosperity",
+          "Welfare economics"],
+        "correctAnswer": 2,
+        "explanation": "Acemoglu, Johnson & Robinson studied how institutions shape prosperity."
+      },
+      {
+        "text": "Claudia Goldin, Nobel 2023 Economics, focused on?",
+        "options": ["Development", "Role of central banks", "Women's labor market outcomes", "Tech changes on jobs"],
+        "correctAnswer": 2,
+        "explanation": "Goldin studied women's participation and pay gaps over centuries."
+      },
+      {
+        "text": "Abhijit Banerjee received the Nobel for alleviating?",
+        "options": ["Climate change", "Global poverty", "Financial crises", "Income inequality"],
         "correctAnswer": 1,
-        "explanation": "He chaired the committee for drafting the National Education Policy."
+        "explanation": "He applied randomized trials to fight global poverty."
       },
       {
-        "text": "Aralam Wildlife Sanctuary was recently renamed. What is its new name?",
-        "options": [
-          "Aralam Tiger Reserve",
-          "Aralam Bird Sanctuary",
-          "Aralam Butterfly Sanctuary",
-          "Aralam Elephant Reserve"
-        ],
+        "text": "At the time of his Nobel, Abhijit Banerjee was with?",
+        "options": ["Trinity College", "University of Wisconsin", "MIT", "London School of Economics"],
         "correctAnswer": 2,
-        "explanation": "It has been renamed Aralam Butterfly Sanctuary."
+        "explanation": "Abhijit Banerjee is a Professor at MIT."
       },
       {
-        "text": "Where is the Aralam Butterfly Sanctuary, Kerala’s first sanctuary dedicated to butterflies, located?",
-        "options": [
-          "Thiruvananthapuram",
-          "Kochi",
-          "Kozhikode",
-          "Kannur"
-        ],
+        "text": "Amartya Sen was awarded the Nobel in which field?",
+        "options": ["Behavioral economics", "Development economics", "Welfare economics", "Macroeconomics"],
+        "correctAnswer": 2,
+        "explanation": "Sen transformed welfare economics, linking it with human development."
+      },
+      {
+        "text": "Which Nobel category was NOT in Alfred Nobel’s original will?",
+        "options": ["Physics", "Chemistry", "Physiology/Medicine", "Economic Sciences"],
         "correctAnswer": 3,
-        "explanation": "The Aralam Butterfly Sanctuary is located in Kannur, Kerala."
+        "explanation": "Economics was added later in 1968, not part of Nobel’s will."
       },
       {
-        "text": "Pachmarhi Wildlife Sanctuary was renamed in honour of a tribal icon of the 1857 Revolt. What is its new name?",
-        "options": [
-          "Rani Lakshmibai Wildlife Sanctuary",
-          "Tantia Tope Wildlife Sanctuary",
-          "Raja Bhabhoot Singh Wildlife Sanctuary",
-          "Mangal Pandey Wildlife Sanctuary"
-        ],
-        "correctAnswer": 2,
-        "explanation": "It is now called Raja Bhabhoot Singh Wildlife Sanctuary."
-      },
-      {
-        "text": "Which Indian state is the first to implement an AI-based real-time alert system for wildlife protection?",
-        "options": [
-          "Kerala",
-          "Karnataka",
-          "Uttarakhand",
-          "Madhya Pradesh"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Madhya Pradesh is the first state to implement such an AI system."
-      },
-      {
-        "text": "In 2025, which state became the first to achieve total digital literacy through its Digi Kerala program?",
-        "options": [
-          "Tamil Nadu",
-          "Karnataka",
-          "Kerala",
-          "Andhra Pradesh"
-        ],
-        "correctAnswer": 2,
-        "explanation": "Kerala became the first totally digitally literate state."
-      },
-      {
-        "text": "Kerala is set to establish India’s first Elderly Commission with what primary objective?",
-        "options": [
-          "To provide free healthcare to senior citizens.",
-          "To protect the rights and welfare of senior citizens.",
-          "To create exclusive residential communities for the elderly.",
-          "To offer financial subsidies to senior citizens."
+        "text": "Which institution awards the Nobel Prize in Literature?",
+        "options": ["Royal Swedish Academy", "Swedish Academy", "Karolinska Institute",
+          "Norwegian Parliament Committee"
         ],
         "correctAnswer": 1,
-        "explanation": "The main aim is to protect senior citizens' rights and welfare."
+        "explanation": "The Swedish Academy awards Nobel Literature."
       },
       {
-        "text": "Fort William was renamed \"Vijay Durg\" in honour of which historical entity?",
-        "options": [
-          "A British general",
-          "A Maratha naval base",
-          "An Indian emperor",
-          "A Bengal revolutionary"
+        "text": "Nihon Hidankyo, Nobel Peace 2024 recipient, is from which country?",
+        "options": ["South Korea", "Iran", "Japan", "India"],
+        "correctAnswer": 2,
+        "explanation": "It is a Japanese anti-nuclear survivors’ group."
+      },
+      {
+        "text": "Mother Teresa, Nobel Peace 1979, was born in today’s?",
+        "options": ["India", "North Macedonia", "Albania", "Turkey"],
+        "correctAnswer": 1,
+        "explanation": "Mother Teresa was born in Skopje, now North Macedonia."
+      },
+      {
+        "text": "Rabindranath Tagore, first Indian Nobel laureate, was born/died in?",
+        "options": ["Mumbai", "Delhi", "Calcutta", "Santiniketan"],
+        "correctAnswer": 2,
+        "explanation": "Tagore was born and died in Calcutta (now Kolkata)."
+      },
+      {
+        "text": "What type of prose is Han Kang known for?",
+        "options": ["Simplistic narratives", "Intense poetic prose", "Autobiographical reflections",
+          "Humorous stories"
         ],
         "correctAnswer": 1,
-        "explanation": "Fort William was renamed after the Maratha naval base, Vijay Durg."
+        "explanation": "Han Kang writes intense and poetic prose."
       },
       {
-        "text": "Karimganj District in Assam was recently renamed. What is its new name?",
-        "options": [
-          "Sribhumi",
-          "Kamrup Metropolitan",
-          "North Lakhimpur",
-          "Dibrugarh"
-        ],
-        "correctAnswer": 0,
-        "explanation": "Karimganj has been renamed Sribhumi."
+        "text": "Computational protein design promises?",
+        "options": ["New batteries", "Novel therapeutics & enzymes", "Semiconductors", "Engines"],
+        "correctAnswer": 1,
+        "explanation": "It can create new drugs and industrial enzymes."
       },
       {
-        "text": "As per the source, what is the total number of National Parks in India?",
-        "options": [
-          "99",
-          "100",
-          "107",
-          "120"
-        ],
+        "text": "Nobel Physics 2024 recipients enabled ML via which structure?",
+        "options": ["Quantum dots", "Artificial neural networks", "Superconducting circuits", "Genetic algorithms"],
+        "correctAnswer": 1,
+        "explanation": "Hopfield & Hinton studied artificial neural networks."
+      },
+      {
+        "text": "What relationships can neural networks learn?",
+        "options": ["Linear only", "Simple only", "Nonlinear and complex", "Deterministic only"],
         "correctAnswer": 2,
-        "explanation": "India has 107 National Parks."
+        "explanation": "Neural networks learn both linear and nonlinear patterns."
       },
       {
-        "text": "Which National Park is identified as the 107th National Park in India?",
-        "options": [
-          "Madhav National Park",
-          "Simlipal",
-          "Panna National Park",
-          "Bandipur National Park"
+        "text": "2023 Nobel in Physics studied attosecond light pulses for?",
+        "options": ["Atomic vibrations", "Molecular bonding", "Electron dynamics", "Proton transfer"],
+        "correctAnswer": 2,
+        "explanation": "These methods investigate ultrafast electron dynamics."
+      },
+      {
+        "text": "Key contribution of Karikó & Weissman?",
+        "options": ["Discovery of viral strains", "Understanding nucleoside modifications",
+          "Vaccine storage techniques", "Immune pathways"
         ],
         "correctAnswer": 1,
-        "explanation": "Simlipal is the 107th National Park in India."
+        "explanation": "They found base modifications that made mRNA safe & effective."
       },
       {
-        "text": "What is the total number of Tiger Reserves in India as mentioned in the source?",
-        "options": [
-          "50",
-          "55",
-          "58",
-          "60"
-        ],
+        "text": "Khorana’s Nobel involved genetic code function in?",
+        "options": ["Photosynthesis", "Respiration", "Protein synthesis", "Cell differentiation"],
         "correctAnswer": 2,
-        "explanation": "There are 58 Tiger Reserves in India."
+        "explanation": "He showed how genetic code directs protein synthesis."
       },
       {
-        "text": "Which Tiger Reserve is designated as the 58th Tiger Reserve in India?",
-        "options": [
-          "Simlipal",
-          "Kanha National Park",
-          "Madhav National Park",
-          "Ranthambore National Park"
-        ],
+        "text": "Amartya Sen’s Nobel Prize was for?",
+        "options": ["Microeconomics", "Econometrics", "Welfare economics", "Trade"],
         "correctAnswer": 2,
-        "explanation": "Madhav National Park is the 58th Tiger Reserve."
+        "explanation": "Sen shaped welfare economics & development studies."
       },
       {
-        "text": "The National Tiger Conservation Authority (NTCA) is a statutory body established under which act?",
-        "options": [
-          "Indian Forest Act, 1927",
-          "Environment (Protection) Act, 1986",
-          "Wildlife Protection Act, 1972",
-          "Biological Diversity Act, 2002"
-        ],
+        "text": "Which laureate in welfare economics was at Trinity College, Cambridge?",
+        "options": ["Abhijit Banerjee", "Amartya Sen", "Claudia Goldin", "Daron Acemoglu"],
+        "correctAnswer": 1,
+        "explanation": "Amartya Sen was based at Trinity College, Cambridge."
+      },
+      {
+        "text": "According to Nobel’s will, prizes were for how many original categories?",
+        "options": ["Three", "Four", "Five", "Six"],
         "correctAnswer": 2,
-        "explanation": "The NTCA was established under the Wildlife Protection Act, 1972."
+        "explanation": "Originally, Nobel’s will covered five awards: Physics, Chemistry, Medicine, Literature, Peace."
       },
       {
-        "text": "Who heads the National Tiger Conservation Authority (NTCA)?",
-        "options": [
-          "The Prime Minister",
-          "The Minister of Home Affairs",
-          "The Minister of Environment",
-          "The Chief Justice of India"
-        ],
-        "correctAnswer": 2,
-        "explanation": "The Minister of Environment heads the NTCA."
-      },
-      {
-        "text": "In which year was \"Project Tiger\" launched in India?",
-        "options": [
-          "1970",
-          "1971",
-          "1972",
-          "1973"
-        ],
-        "correctAnswer": 3,
-        "explanation": "Project Tiger was launched in 1973."
-      },
-      {
-        "text": "How many Tiger Reserves were initially part of Project Tiger when it was launched?",
-        "options": [
-          "5",
-          "7",
-          "9",
-          "11"
-        ],
-        "correctAnswer": 2,
-        "explanation": "There were 9 initial Tiger Reserves under Project Tiger."
-      },
-      {
-        "text": "When is International Tiger Day observed annually?",
-        "options": [
-          "July 22",
-          "July 29",
-          "August 12",
-          "September 5"
+        "text": "2024 Nobel Peace Prize highlighted nuclear testimonies showing?",
+        "options": ["Economic impact", "That nuclear weapons must never be used again", "Importance of treaties",
+          "Role of peace education"
         ],
         "correctAnswer": 1,
-        "explanation": "International Tiger Day is celebrated on July 29."
+        "explanation": "Hibakusha survivors of Hiroshima & Nagasaki testified that nukes must never be used again."
       },
       {
-        "text": "According to the source, which state has the highest tiger population in India?",
-        "options": [
-          "Karnataka",
-          "Uttarakhand",
-          "Madhya Pradesh",
-          "Rajasthan"
-        ],
+        "text": "Which 2024 Chemistry laureate is from the USA?",
+        "options": ["Demis Hassabis", "John M. Jumper", "David Baker", "John J. Hopfield"],
         "correctAnswer": 2,
-        "explanation": "Madhya Pradesh has India's highest tiger population."
+        "explanation": "David Baker is an American scientist recognized for protein design."
       },
       {
-        "text": "Which city in India has developed the country’s first Public-Private Partnership (PPP) Green Waste Processing Plant and also became India's first beggar-free city?",
-        "options": [
-          "Delhi",
-          "Bengaluru",
-          "Indore",
-          "Mumbai"
-        ],
+        "text": "Rabindranath Tagore’s Nobel was for works expressed in which language?",
+        "options": ["Hindi", "Sanskrit", "English", "Bengali"],
         "correctAnswer": 2,
-        "explanation": "Indore achieved both PPP Green Waste Plant and beggar-free status."
+        "explanation": "Tagore’s translated English work 'Gitanjali' was recognized."
       },
       {
-        "text": "The \"Prakriti 2025 – International Conference on Carbon Markets\" was held in which city?",
-        "options": [
-          "Mumbai",
-          "Bengaluru",
-          "Chennai",
-          "Delhi"
-        ],
-        "correctAnswer": 3,
-        "explanation": "The conference was held in Delhi."
+        "text": "Which laureate was born in Mumbai and affiliated with MIT at the time of Nobel?",
+        "options": ["Amartya Sen", "Har Gobind Khorana", "Abhijit Banerjee", "Kailash Satyarthi"],
+        "correctAnswer": 2,
+        "explanation": "Abhijit Banerjee, born in Mumbai, was Professor at MIT."
       }
     ]
 

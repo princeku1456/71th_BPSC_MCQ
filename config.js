@@ -63,6 +63,26 @@ const subjectsConfig = {
                 id: 'CaChapter11',
                 name: 'Current Affairs - Set - 11', // Corrected duplicate id
                 file: 'CA/Lec_11.html'
+            },
+            {
+                id: 'CaChapter12',
+                name: 'Current Affairs - Set - 12', // Corrected duplicate id
+                file: 'CA/Lec_12.html'
+            },
+            {
+                id: 'CaChapter13',
+                name: 'Current Affairs - Set - 13', // Corrected duplicate id
+                file: 'CA/Lec_13.html'
+            },
+            {
+                id: 'CaChapter14',
+                name: 'Current Affairs - Set - 14', // Corrected duplicate id
+                file: 'CA/Lec_14.html'
+            },
+            {
+                id: 'CaChapter15',
+                name: 'Current Affairs - Set - 15', // Corrected duplicate id
+                file: 'CA/Lec_15.html'
             }
         ]
     },
