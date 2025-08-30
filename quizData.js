@@ -2320,17 +2320,2202 @@ const allQuizData = {
         ]
     },
     "Modern History": {
-        "European Powers in India": [{
-            "text": "What significant event in 1453 is noted as contributing to the decline of direct contact between Europeans and India?",
-            "options": [
-                "The discovery of the sea route around the Cape of Good Hope.",
-                "The fall of Constantinople to the Ottoman Turks.",
-                "The establishment of the Mughal Empire in India.",
-                "The beginning of the Renaissance in Europe."
-            ],
-            "correctAnswer": 1,
-            "explanation": "The fall of Constantinople to the Ottoman Turks in 1453 blocked land routes, reducing European direct contact with India."
-        }]
+        "Advent of the Europeans in India": [{
+                "text": "What significant event in 1453 is noted as contributing to the decline of direct contact between Europeans and India?",
+                "options": [
+                    "The discovery of the sea route around the Cape of Good Hope.",
+                    "The fall of Constantinople to the Ottoman Turks.",
+                    "The establishment of the Mughal Empire in India.",
+                    "The beginning of the Renaissance in Europe."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The fall of Constantinople to the Ottoman Turks in 1453 blocked land routes, reducing European direct contact with India."
+            },
+            {
+                "text": "Which Portuguese royal was given the nickname ‘the Navigator’ due to his obsession with finding an ocean route to India?",
+                "options": [
+                    "Vasco Da Gama",
+                    "Bartholomew Dias",
+                    "Prince Henry",
+                    "Pedro Alvarez Cabral"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Prince Henry of Portugal was called 'the Navigator' for his efforts to find sea routes to India."
+            },
+            {
+                "text": "The Treaty of Tordesillas, signed in 1494, divided the non-Christian world between which two European powers?",
+                "options": [
+                    "England and France",
+                    "Spain and the Netherlands",
+                    "Spain and Portugal",
+                    "Portugal and England"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Treaty of Tordesillas divided new lands between Spain and Portugal."
+            },
+            {
+                "text": "In which year did the Portuguese navigator Vasco Da Gama arrive at Calicut, India?",
+                "options": [
+                    "1487",
+                    "1492",
+                    "1498",
+                    "1500"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Vasco Da Gama reached Calicut, India in 1498."
+            },
+            {
+                "text": "Who was the Hindu ruler of Calicut that welcomed Vasco Da Gama upon his arrival in 1498?",
+                "options": [
+                    "Devaraya",
+                    "Zamorin",
+                    "Achyuta Deva Raya",
+                    "Krishnadevaraya"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Zamorin was the Hindu ruler of Calicut who greeted Vasco Da Gama."
+            },
+            {
+                "text": "Which policy, adopted by Francisco de Almeida, aimed at establishing the Portuguese as a powerful naval force?",
+                "options": [
+                    "Green Water Policy",
+                    "Blue Water Policy",
+                    "Coastal Defence Policy",
+                    "Open Sea Policy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Blue Water Policy was Almeida's approach to enhancing Portugal's naval dominance."
+            },
+            {
+                "text": "Who is widely regarded as the real founder of Portuguese power in the East?",
+                "options": [
+                    "Francisco de Almeida",
+                    "Vasco Da Gama",
+                    "Pedro Alvarez Cabral",
+                    "Alfonso de Albuquerque"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Alfonso de Albuquerque is known as the true architect of Portuguese power in the East."
+            },
+            {
+                "text": "Which of the following new crops were introduced to India by the Portuguese?",
+                "options": [
+                    "Potato and Tomato",
+                    "Coffee and Rubber",
+                    "Tobacco and Cashew Nut",
+                    "Chilli and Groundnut"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tobacco and cashew nut were introduced to India by the Portuguese."
+            },
+            {
+                "text": "Nino da Cunha is known for shifting the Portuguese headquarters in India from Cochin to which city?",
+                "options": [
+                    "Daman",
+                    "Diu",
+                    "Goa",
+                    "Surat"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Nino da Cunha moved the Portuguese headquarters from Cochin to Goa."
+            },
+            {
+                "text": "Which English captain's ship, the Hector, reached Surat in 1608, leading to an audience with Emperor Jahangir?",
+                "options": [
+                    "Captain Thomas Best",
+                    "Sir Thomas Roe",
+                    "Captain William Hawkins",
+                    "Francis Drake"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Captain William Hawkins reached Surat in 1608 and met Emperor Jahangir."
+            },
+            {
+                "text": "What rank was Captain William Hawkins appointed to by Emperor Jahangir?",
+                "options": [
+                    "Mansabdar of 100",
+                    "Mansabdar of 200",
+                    "Mansabdar of 300",
+                    "Mansabdar of 400"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Jahangir appointed Hawkins as Mansabdar of 400."
+            },
+            {
+                "text": "Which two English ships, under Captain Best, successfully fought a Portuguese fleet, thereby impressing Emperor Jahangir?",
+                "options": [
+                    "Discovery and Adventure",
+                    "Elizabeth and Mayflower",
+                    "Dragon and Osiander",
+                    "Golden Hind and Pelican"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The English ships Dragon and Osiander defeated the Portuguese fleet."
+            },
+            {
+                "text": "What incident prompted the Mughal siege of Hooghly against the Portuguese, leading to their flight?",
+                "options": [
+                    "Portuguese refusal to pay customs duties.",
+                    "Portuguese seizure of two slave girls belonging to Mumtaz Mahal.",
+                    "Portuguese alliance with local Indian rulers against the Mughals.",
+                    "Portuguese missionary activities causing unrest."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The seizure of two slave girls of Mumtaz Mahal led to the Mughal siege."
+            },
+            {
+                "text": "Who was the first Dutchman to reach Sumatra and Bantam in 1596?",
+                "options": [
+                    "Jan Pieterszoon Coen",
+                    "Cornelis de Houtman",
+                    "Abel Tasman",
+                    "Jacob van Neck"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Cornelis de Houtman was the first Dutchman to reach Sumatra and Bantam."
+            },
+            {
+                "text": "In which year did the Dutch establish their first factory in Masulipatnam?",
+                "options": [
+                    "1596",
+                    "1600",
+                    "1605",
+                    "1610"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The first Dutch factory in Masulipatnam was set up in 1605."
+            },
+            {
+                "text": "The Anglo-Dutch rivalry in India culminated in a crushing blow to Dutch ambitions during which battle in November 1759?",
+                "options": [
+                    "Battle of Plassey",
+                    "Battle of Buxar",
+                    "Battle of Wandiwash",
+                    "Battle of Hooghly"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Battle of Hooghly in 1759 was a major defeat for Dutch ambitions."
+            },
+            {
+                "text": "In which year did the Dutch East India Company, affected by bankruptcy, sell its possessions to Britain and quit Asia?",
+                "options": [
+                    "1759",
+                    "1780",
+                    "1800",
+                    "1813"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Dutch quit Asia in 1800 after selling their possessions due to bankruptcy."
+            },
+            {
+                "text": "The English victory over which major European naval power in 1588 significantly boosted English maritime confidence?",
+                "options": [
+                    "French Armada",
+                    "Spanish Armada",
+                    "Dutch Fleet",
+                    "Portuguese Navy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The defeat of the Spanish Armada in 1588 boosted English confidence."
+            },
+            {
+                "text": "In which year did Queen Elizabeth I issue a charter to the 'Merchant Adventurers', formally establishing the English East India Company?",
+                "options": [
+                    "1599",
+                    "1600",
+                    "1608",
+                    "1613"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The English East India Company was established by charter in 1600."
+            },
+            {
+                "text": "Who was sent as an ambassador by King James I of England to the court of Emperor Jahangir?",
+                "options": [
+                    "Captain William Hawkins",
+                    "Captain Thomas Best",
+                    "Sir Thomas Roe",
+                    "Robert Clive"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sir Thomas Roe was the ambassador of James I to Jahangir."
+            },
+            {
+                "text": "In 1662, Bombay was gifted to King Charles II of England as dowry for his marriage to a princess from which country?",
+                "options": [
+                    "France",
+                    "Spain",
+                    "Portugal",
+                    "Netherlands"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bombay was given as a dowry to Charles II by Portugal."
+            },
+            {
+                "text": "The English East India Company acquired Bombay on an annual payment from the British Crown in which year?",
+                "options": [
+                    "1632",
+                    "1662",
+                    "1668",
+                    "1698"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The East India Company acquired Bombay from the Crown in 1668."
+            },
+            {
+                "text": "The 'Golden Farman', which granted free trade privileges to the EIC in 1632, was issued by the Sultan of which kingdom?",
+                "options": [
+                    "Bijapur",
+                    "Golconda",
+                    "Delhi",
+                    "Awadh"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Sultan of Golconda issued the Golden Farman in 1632."
+            },
+            {
+                "text": "Who was the first agent and governor of the English East India Company in Bengal?",
+                "options": [
+                    "Job Charnock",
+                    "Alivardi Khan",
+                    "William Hedges",
+                    "Robert Clive"
+                ],
+                "correctAnswer": 2,
+                "explanation": "William Hedges was the first agent and governor of EIC in Bengal."
+            },
+            {
+                "text": "The English purchased the zamindari rights of Sutanuti, Gobindapur, and Kalikata in 1698, which later formed the nucleus of which city?",
+                "options": [
+                    "Madras",
+                    "Bombay",
+                    "Surat",
+                    "Calcutta"
+                ],
+                "correctAnswer": 3,
+                "explanation": "These villages became the nucleus of Calcutta."
+            },
+            {
+                "text": "Which English mission, led by John Surman, obtained the significant Farrukhsiyar’s Farmans in 1715?",
+                "options": [
+                    "Sir Thomas Roe's mission",
+                    "John Surman's mission",
+                    "Captain William Hawkins' mission",
+                    "Robert Clive's mission"
+                ],
+                "correctAnswer": 1,
+                "explanation": "John Surman's mission obtained Farrukhsiyar's Farmans in 1715."
+            },
+            {
+                "text": "The amalgamation of two rival English companies in 1708, forming the 'United Company of Merchants of England Trading to the East Indies', followed which significant event in English history?",
+                "options": [
+                    "The English Civil War",
+                    "The Glorious Revolution of 1688",
+                    "The Act of Union with Scotland",
+                    "The rise of parliamentary supremacy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The amalgamation followed the Glorious Revolution of 1688."
+            },
+            {
+                "text": "Which European power was the last to establish trading interests in India?",
+                "options": [
+                    "Portuguese",
+                    "Dutch",
+                    "English",
+                    "French"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The French were the last to enter Indian trade."
+            },
+            {
+                "text": "Under whose patronage was the Compagnie des Indes Orientales (French East India Company) founded?",
+                "options": [
+                    "King Henry IV",
+                    "King Louis XIV and his minister Colbert",
+                    "King Louis XIII",
+                    "King Louis XVI"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The French East India Company was established by Louis XIV and Colbert."
+            },
+            {
+                "text": "Which city became the 'Nerve Centre of French Power in India'?",
+                "options": [
+                    "Chandernagore",
+                    "Mahe",
+                    "Pondicherry",
+                    "Karikal"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pondicherry was the nerve centre of French power."
+            },
+            {
+                "text": "The First Carnatic War (1740-1748) in India was an extension of which major European conflict?",
+                "options": [
+                    "The War of the Spanish Succession",
+                    "The Seven Years' War",
+                    "The Austrian War of Succession",
+                    "The Franco-Prussian War"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It was related to the Austrian War of Succession."
+            },
+            {
+                "text": "What treaty formally concluded the First Carnatic War?",
+                "options": [
+                    "Treaty of Pondicherry",
+                    "Treaty of Aix-La Chapelle",
+                    "Treaty of Paris",
+                    "Treaty of Madras"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Treaty of Aix-La Chapelle ended the First Carnatic War."
+            },
+            {
+                "text": "The Battle of St. Thome, a significant engagement during the First Carnatic War, saw the French forces under Captain Paradise defeat the combined forces of the English and whom?",
+                "options": [
+                    "The Nawab of Arcot",
+                    "The Nizam of Hyderabad",
+                    "The Nawab of Carnatic",
+                    "The Marathas"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The battle was against the English and the Nawab of Carnatic."
+            },
+            {
+                "text": "Which French governor initiated the policy of interfering in internal dynastic disputes of Indian rulers during the Second Carnatic War?",
+                "options": [
+                    "Lenoir",
+                    "Dupleix",
+                    "Dumas",
+                    "Lally"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dupleix was responsible for this policy."
+            },
+            {
+                "text": "The immediate cause of the Second Carnatic War (1749-1754) was the death of which prominent Indian ruler?",
+                "options": [
+                    "Nizam ul Mulk",
+                    "Anwaruddin",
+                    "Chanda Saheb",
+                    "Nasir Jang"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Anwaruddin's death triggered the Second Carnatic War."
+            },
+            {
+                "text": "During the Second Carnatic War, which British commander is credited with the strategic capture of Arcot?",
+                "options": [
+                    "Sir Eyre Coote",
+                    "Robert Clive",
+                    "Major Stringer Lawrence",
+                    "Lord Wellesley"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Robert Clive captured Arcot during the war."
+            },
+            {
+                "text": "Dupleix is considered the originator of which influential practice in India, later extensively used by the British?",
+                "options": [
+                    "Permanent Settlement",
+                    "Ryotwari System",
+                    "Subsidiary Alliance",
+                    "Mahalwari System"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Subsidiary Alliance system originated with Dupleix."
+            },
+            {
+                "text": "The Third Carnatic War (1758-1763) was primarily a theatre for which larger European conflict?",
+                "options": [
+                    "The War of the Austrian Succession",
+                    "The Seven Years' War",
+                    "The American War of Independence",
+                    "The French Revolutionary Wars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It was the Indian theatre of the Seven Years' War."
+            },
+            {
+                "text": "The decisive Battle of Wandiwash in 1760 established the supremacy of which European power in India?",
+                "options": [
+                    "French",
+                    "Dutch",
+                    "English",
+                    "Portuguese"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Battle of Wandiwash established British supremacy."
+            },
+            {
+                "text": "Who was the French commander defeated by the English at the Battle of Wandiwash?",
+                "options": [
+                    "Marquis de Bussy-Castelnau",
+                    "Count Thomas Arthur de Lally",
+                    "François Martin",
+                    "General Perron"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Count de Lally led the French at Wandiwash."
+            },
+            {
+                "text": "Which treaty officially brought an end to the Third Carnatic War?",
+                "options": [
+                    "Treaty of Pondicherry",
+                    "Treaty of Aix-La Chapelle",
+                    "Treaty of Peace of Paris",
+                    "Treaty of Seringapatam"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Treaty of Peace of Paris (1763) ended the war."
+            },
+            {
+                "text": "What was a significant advantage the English East India Company held over its French counterpart?",
+                "options": [
+                    "The English company received more direct state support.",
+                    "The English company was primarily a private enterprise, fostering flexibility.",
+                    "The French company neglected its commercial interests.",
+                    "The English company had a less efficient navy."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The private structure of the English company fostered flexibility in trade and management."
+            },
+            {
+                "text": "Control over which three strategic locations significantly contributed to British success against other European powers in India?",
+                "options": [
+                    "Goa, Daman, Diu",
+                    "Surat, Masulipatnam, Pondicherry",
+                    "Calcutta, Bombay, Madras",
+                    "Cochin, Chinsura, Chandernagore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Control of Calcutta, Bombay, and Madras was key to British success."
+            },
+            {
+                "text": "In which year was the Danish East India Company established?",
+                "options": [
+                    "1600",
+                    "1616",
+                    "1620",
+                    "1642"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Danish East India Company was established in 1616."
+            },
+            {
+                "text": "For what activities were the Danes primarily known in India, rather than for commerce?",
+                "options": [
+                    "Military conquests",
+                    "Industrial development",
+                    "Missionary activities",
+                    "Agricultural reforms"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Danes were mainly known for missionary work in India."
+            },
+            {
+                "text": "How did the Industrial Revolution contribute to the English success against other European powers in India?",
+                "options": [
+                    "It provided a stable political environment.",
+                    "It led to the invention of new machines, including superior military technology.",
+                    "It encouraged religious zeal among the English.",
+                    "It focused English attention away from overseas trade."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Industrial Revolution led to superior English technology and arms."
+            },
+            {
+                "text": "A key reason for English success was their stable government with efficient monarchs. How did this contrast with the situation in India?",
+                "options": [
+                    "Indian states also had stable governments with efficient rulers.",
+                    "Indian rulers were frequently engaged in battles of succession.",
+                    "European powers generally lacked stable governments.",
+                    "Political stability in Europe had no bearing on success in India."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Frequent succession disputes in Indian states contrasted with England's stability."
+            },
+            {
+                "text": "What financial method did the British effectively use to fund their wars, giving them an advantage over other European powers?",
+                "options": [
+                    "Relying solely on plunder from conquered territories.",
+                    "Utilising debt markets.",
+                    "Imposing heavy direct taxes on their home population.",
+                    "Receiving large subsidies from other European allies."
+                ],
+                "correctAnswer": 2,
+                "explanation": "The British used debt markets to finance their military operations."
+            },
+            {
+                "text": "The Anglo-Dutch compromise in 1667 saw the British agreeing to withdraw all their claims on which region?",
+                "options": [
+                    "India",
+                    "Sri Lanka",
+                    "Indonesia",
+                    "Malaysia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The British dropped all claims on Indonesia in the 1667 compromise."
+            },
+            {
+                "text": "Which Jesuit priest was present at Emperor Akbar's court during the first mission in 1580?",
+                "options": [
+                    "Father Jerome Xavier",
+                    "Father Emanuel Pinheiro",
+                    "Rodolfo Aquaviva",
+                    "Father Antoine de La Baume"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rodolfo Aquaviva was at Akbar's court in the first mission."
+            }
+        ],
+        "Expansion and Consolidation of British Power in India": [{
+                "text": "Which of the following years is considered by some historians as the beginning of the British period in India, marking the start of the Anglo-French struggle for supremacy?",
+                "options": [
+                    "1757",
+                    "1761",
+                    "1740",
+                    "1765"
+                ],
+                "correctAnswer": 2,
+                "explanation": "1740 is considered by some historians as marking the beginning of the British period, initiating the Anglo-French struggle for supremacy."
+            },
+            {
+                "text": "What was the primary reason for the English East India Company's significant commercial interest in Bengal?",
+                "options": [
+                    "Bengal's strategic location for naval operations.",
+                    "The availability of a large number of skilled artisans.",
+                    "Approximately 60 per cent of British imports from Asia consisted of goods from Bengal.",
+                    "The presence of a weak Nawab facilitating easy trade."
+                ],
+                "correctAnswer": 2,
+                "explanation": "A major part of British imports from Asia were from Bengal, making it commercially significant."
+            },
+            {
+                "text": "The 'Black Hole Tragedy', an incident debated by historians, is associated with which Nawab of Bengal?",
+                "options": [
+                    "Alivardi Khan",
+                    "Mir Jafar",
+                    "Mir Kasim",
+                    "Siraj-ud-daula"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The 'Black Hole Tragedy' is associated with Siraj-ud-daula."
+            },
+            {
+                "text": "Which of the following was NOT a challenge faced by Siraj-ud-daula on the eve of the Battle of Plassey?",
+                "options": [
+                    "A hostile aunt, Ghasiti Begum",
+                    "A rival cousin, Shaukat Jang",
+                    "A rebellious commander, Mir Jafar",
+                    "The strong support from the Maratha Confederacy"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Siraj-ud-daula did not have strong support from the Maratha Confederacy; this option is NOT a challenge he faced."
+            },
+            {
+                "text": "The English victory in the Battle of Plassey (June 23, 1757) was significantly influenced by a secret alliance forged by Robert Clive. Which of the following was NOT a part of this alliance?",
+                "options": [
+                    "Mir Jafar",
+                    "Jagat Seth",
+                    "Ram Narayan",
+                    "Omichand"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ram Narayan was not part of the secret alliance forged by Clive."
+            },
+            {
+                "text": "According to the Treaty of 1760, which districts were ceded by Mir Kasim to the English East India Company?",
+                "options": [
+                    "Dhaka, Murshidabad, and Patna",
+                    "Burdwan, Midnapur, and Chittagong",
+                    "Hooghly, Balasore, and Kasimbazar",
+                    "Allahabad, Kara, and Banaras"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mir Kasim ceded Burdwan, Midnapur, and Chittagong."
+            },
+            {
+                "text": "The Battle of Buxar (October 22, 1764) saw the defeat of a confederacy against the English. This confederacy included Mir Kasim, Shuja-ud-daulah (Nawab of Awadh), and whom else?",
+                "options": [
+                    "The Nizam of Hyderabad",
+                    "The Maratha Peshwa",
+                    "The Mughal Emperor, Shah Alam II",
+                    "The Holkar of Indore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The third in the confederacy was the Mughal Emperor, Shah Alam II."
+            },
+            {
+                "text": "Who abolished the Dual Government in Bengal in 1772, which had been introduced by Robert Clive?",
+                "options": [
+                    "Lord Cornwallis",
+                    "Warren Hastings",
+                    "Lord Wellesley",
+                    "Lord Dalhousie"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Warren Hastings abolished the Dual Government in Bengal."
+            },
+            {
+                "text": "The Treaty of Allahabad, signed after the Battle of Buxar, stipulated that Shuja-ud-Daula would surrender Allahabad and Kara to which Mughal Emperor?",
+                "options": [
+                    "Alamgir II",
+                    "Bahadur Shah II",
+                    "Farrukhsiyar",
+                    "Shah Alam II"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Shah Alam II received Allahabad and Kara according to the Treaty of Allahabad."
+            },
+            {
+                "text": "Which Indian state emerged as a formidable power in the late 18th century under the leadership of Haidar Ali and Tipu Sultan?",
+                "options": [
+                    "Awadh",
+                    "Mysore",
+                    "Bengal",
+                    "Punjab"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mysore became a formidable power under Haidar Ali and Tipu Sultan."
+            },
+            {
+                "text": "Haidar Ali set up an arms factory at Dindigul with the help of which European power?",
+                "options": [
+                    "The Dutch",
+                    "The Portuguese",
+                    "The French",
+                    "The Danes"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Haidar Ali received French assistance for the arms factory at Dindigul."
+            },
+            {
+                "text": "The Treaty of Madras (1769) concluded which Anglo-Mysore War?",
+                "options": [
+                    "First Anglo-Mysore War",
+                    "Second Anglo-Mysore War",
+                    "Third Anglo-Mysore War",
+                    "Fourth Anglo-Mysore War"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Treaty of Madras concluded the First Anglo-Mysore War."
+            },
+            {
+                "text": "The English attempt to capture Mahe was considered a direct challenge by Haidar Ali and contributed to the outbreak of which conflict?",
+                "options": [
+                    "First Anglo-Mysore War",
+                    "Second Anglo-Mysore War",
+                    "Third Anglo-Mysore War",
+                    "Fourth Anglo-Mysore War"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The attempt to capture Mahe contributed to the Second Anglo-Mysore War."
+            },
+            {
+                "text": "Which treaty concluded the Second Anglo-Mysore War (1780-84)?",
+                "options": [
+                    "Treaty of Seringapatam",
+                    "Treaty of Pondicherry",
+                    "Treaty of Mangalore",
+                    "Treaty of Salbai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Treaty of Mangalore marked the end of the Second Anglo-Mysore War."
+            },
+            {
+                "text": "In which year did Tipu Sultan declare himself Sultan, following the death of the Hindu ruler of the Wodeyar dynasty?",
+                "options": [
+                    "1792",
+                    "1796",
+                    "1799",
+                    "1801"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tipu Sultan proclaimed himself Sultan in 1796."
+            },
+            {
+                "text": "The Fourth Anglo-Mysore War culminated in the fall of Seringapatam and the death of Tipu Sultan. Which British Governor-General was concerned about Tipu’s growing friendship with the French and aimed at annihilating his independent existence?",
+                "options": [
+                    "Lord Cornwallis",
+                    "Lord Wellesley",
+                    "Warren Hastings",
+                    "Lord Dalhousie"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Lord Wellesley was determined to end Tipu Sultan's independence."
+            },
+            {
+                "text": "Which of the following Maratha families was NOT among the prominent ones that emerged after Bajirao I's confederacy?",
+                "options": [
+                    "Gaekwad of Baroda",
+                    "Bhonsle of Nagpur",
+                    "Sindhia of Gwalior",
+                    "Rana of Udaipur"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Rana of Udaipur was not among the major Maratha confederacies."
+            },
+            {
+                "text": "The First Anglo-Maratha War was concluded by which treaty?",
+                "options": [
+                    "Treaty of Bassein",
+                    "Treaty of Poona",
+                    "Treaty of Salbai",
+                    "Treaty of Purandhar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Treaty of Salbai concluded the First Anglo-Maratha War."
+            },
+            {
+                "text": "After the death of Peshwa Madhavrao Narayan, who became the Peshwa, leading to events that triggered the Second Anglo-Maratha War?",
+                "options": [
+                    "Raghunathrao",
+                    "Nana Phadnavis",
+                    "Bajirao II",
+                    "Mahadji Sindhia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bajirao II became Peshwa after Madhavrao Narayan."
+            },
+            {
+                "text": "The Treaty of Bassein (1802) was signed between the English and which Maratha leader?",
+                "options": [
+                    "Jaswantrao Holkar",
+                    "Bajirao II",
+                    "Daulat Rao Sindhia",
+                    "Raghunathrao"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bajirao II signed the Treaty of Bassein with the English."
+            },
+            {
+                "text": "The Pindaris were mercenaries attached to which Indian army, whose actions were seen as a transgression of Maratha sovereignty and contributed to the Third Anglo-Maratha War?",
+                "options": [
+                    "Mughal",
+                    "Sikh",
+                    "Maratha",
+                    "Mysore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Pindaris were associated with the Marathas."
+            },
+            {
+                "text": "Which of the following reasons is cited for the Marathas' loss to the English?",
+                "options": [
+                    "Lack of a strong financial backup.",
+                    "Superiority of Maratha military system.",
+                    "Progressive Maratha outlook.",
+                    "Inept leadership."
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Marathas' inept leadership was a major reason for their defeat."
+            },
+            {
+                "text": "Which Baluch tribe, under Mir Fath Ali Khan, established complete hold over Sindh in 1783, prior to the British conquest?",
+                "options": [
+                    "Kallora",
+                    "Talpuras",
+                    "Bugti",
+                    "Marri"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Talpuras established dominance in Sindh under Mir Fath Ali Khan."
+            },
+            {
+                "text": "The British decision to invade Afghanistan under Lord Auckland, leading to the First Anglo-Afghan War, was part of which policy?",
+                "options": [
+                    "Policy of Ring-Fence",
+                    "Policy of Masterly Inactivity",
+                    "Forward Policy",
+                    "Policy of Proud Reserve"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The policy was known as the 'Forward Policy.'"
+            },
+            {
+                "text": "What was the primary objective of Lord Wellesley's efforts to revive commercial relations with Sindh?",
+                "options": [
+                    "To secure new markets for British goods.",
+                    "To counteract the alliance of the French, Tipu Sultan, and Shah Zaman.",
+                    "To gain access to the Indus River for irrigation projects.",
+                    "To establish a direct trade route to Persia."
+                ],
+                "correctAnswer": 1,
+                "explanation": "He wanted to counteract the alliances threatening British interests."
+            },
+            {
+                "text": "Who was appointed the first governor of Sindh after its merger into the British Empire in 1843?",
+                "options": [
+                    "Lord Ellenborough",
+                    "William Bentinck",
+                    "Charles Napier",
+                    "Lord Auckland"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Charles Napier was appointed the first governor of Sindh."
+            },
+            {
+                "text": "The Sikh confederacies were known by what term, meaning 'equal or alike' in Arabic?",
+                "options": [
+                    "Sardari",
+                    "Jathas",
+                    "Misls",
+                    "Khalsa"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Sikh confederacies were called 'Misls.'"
+            },
+            {
+                "text": "Ranjit Singh belonged to which Misl?",
+                "options": [
+                    "Ahluwaliya",
+                    "Bhangi",
+                    "Sukarchakiya",
+                    "Kanhaiya"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ranjit Singh belonged to the Sukarchakiya Misl."
+            },
+            {
+                "text": "The Treaty of Amritsar (April 25, 1809) was signed between the Company and which Sikh leader?",
+                "options": [
+                    "Banda Bahadur",
+                    "Daleep Singh",
+                    "Ranjit Singh",
+                    "Lal Singh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ranjit Singh signed the Treaty of Amritsar."
+            },
+            {
+                "text": "What was the immediate cause of the Second Anglo-Sikh War (1848-49)?",
+                "options": [
+                    "The annexation of Awadh by Lord Dalhousie.",
+                    "Mulraj's revolt and the murder of two English officers in Multan.",
+                    "The British demand for higher revenue from Punjab.",
+                    "The Sikh army's invasion of British territories."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mulraj's revolt and the murder of British officers sparked the war."
+            },
+            {
+                "text": "Which battle was NOT fought during the Second Anglo-Sikh War?",
+                "options": [
+                    "Battle of Ramnagar",
+                    "Battle of Chillhanwala",
+                    "Battle of Gujarat",
+                    "Battle of Plassey"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Battle of Plassey was not a battle of the Anglo-Sikh War."
+            },
+            {
+                "text": "Who became the first chief commissioner of Punjab after its annexation in 1849?",
+                "options": [
+                    "Lord Dalhousie",
+                    "John Lawrence",
+                    "Sir Hugh Rose",
+                    "Lord Canning"
+                ],
+                "correctAnswer": 1,
+                "explanation": "John Lawrence became the first chief commissioner."
+            },
+            {
+                "text": "Which British Governor-General followed the policy of 'Ring-Fence', aiming at creating buffer zones to defend the Company’s frontiers?",
+                "options": [
+                    "Robert Clive",
+                    "Warren Hastings",
+                    "Lord Cornwallis",
+                    "Lord Wellesley"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Warren Hastings led the 'Ring-Fence' policy."
+            },
+            {
+                "text": "The Subsidiary Alliance system, used by Lord Wellesley, compelled the allying Indian state's ruler to accept what primary condition?",
+                "options": [
+                    "Ceding all their territories to the British.",
+                    "Disbanding their entire army.",
+                    "Permanent stationing of a British force within their territory and paying a subsidy.",
+                    "Converting to Christianity."
+                ],
+                "correctAnswer": 2,
+                "explanation": "It required acceptance of a British force and maintenance subsidy."
+            },
+            {
+                "text": "Which Indian state was the first to fall into the protection trap of the subsidiary alliance in 1765?",
+                "options": [
+                    "Hyderabad",
+                    "Mysore",
+                    "Awadh",
+                    "Tanjore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Awadh was the first to sign the alliance."
+            },
+            {
+                "text": "Which of the following was the last Maratha confederation to accept the Subsidiary Alliance in 1818?",
+                "options": [
+                    "The Peshwa",
+                    "The Bhonsle Raja of Berar",
+                    "The Sindhia",
+                    "The Holkars"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Holkars were the last to come under the Subsidiary Alliance."
+            },
+            {
+                "text": "The Doctrine of Lapse, although primarily attributed to Lord Dalhousie, was not originated by him. Which Indian ruler had previously annexed feudatory principalities on account of 'lapse'?",
+                "options": [
+                    "Haidar Ali",
+                    "Tipu Sultan",
+                    "Maharaja Ranjit Singh",
+                    "Siraj-ud-daula"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Maharaja Ranjit Singh annexed principalities on grounds of lapse before Dalhousie."
+            },
+            {
+                "text": "Which of the following states was annexed by Lord Dalhousie in 1856 on grounds of misgovernment, deposing its Nawab Wajid Ali Shah?",
+                "options": [
+                    "Satara",
+                    "Jhansi",
+                    "Nagpur",
+                    "Awadh"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Awadh was annexed citing misrule."
+            },
+            {
+                "text": "The Treaty of Sagauli concluded the conflict between the English and which mountain state?",
+                "options": [
+                    "Bhutan",
+                    "Nepal",
+                    "Tibet",
+                    "Burma"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Treaty of Sagauli was with Nepal."
+            },
+            {
+                "text": "What was the main cause for the First Burma War (1824-26)?",
+                "options": [
+                    "British desire to control the tea plantations.",
+                    "Burmese expansion westwards and threat to Assam.",
+                    "French influence in Burma.",
+                    "Dispute over border trade routes."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The primary cause was Burmese expansion threatening Assam."
+            },
+            {
+                "text": "The Treaty of Yandabo (1826) established peace after which Anglo-Burmese War?",
+                "options": [
+                    "First Burma War",
+                    "Second Burma War",
+                    "Third Burma War",
+                    "None of the above"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Treaty of Yandabo ended the First Anglo-Burmese War."
+            },
+            {
+                "text": "Which British Governor-General ordered the invasion and final annexation of upper Burma in 1885?",
+                "options": [
+                    "Lord Dalhousie",
+                    "Lord Lytton",
+                    "Lord Curzon",
+                    "Lord Dufferin"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Lord Dufferin ordered the final annexation of Burma."
+            },
+            {
+                "text": "Burma was separated from India in which year to weaken the link between Burmese nationalists and the Indian National Congress?",
+                "options": [
+                    "1919",
+                    "1935",
+                    "1942",
+                    "1948"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Burma was separated from India by the Government of India Act, 1935."
+            },
+            {
+                "text": "Colonel Younghusband pushed his way into Lhasa in August 1904, leading to the Treaty of Lhasa. This event relates to which Anglo-relationship?",
+                "options": [
+                    "Anglo-Nepalese",
+                    "Anglo-Bhutanese",
+                    "Anglo-Tibetan",
+                    "Anglo-Afghan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The event was part of the Anglo-Tibetan relationship."
+            },
+            {
+                "text": "The Durand Line was drawn as a boundary between Afghan and British territories as a result of British India's contact with which tribes after the annexation of Punjab?",
+                "options": [
+                    "Gorkhas and Khasis",
+                    "Pathans and Baluch",
+                    "Naga and Mizo",
+                    "Santhals and Bhils"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Durand Line separates Afghan Pashtun and Baluch tribes from British India."
+            },
+            {
+                "text": "Lord Curzon's policy in the North-West Frontier, between 1899 and 1905, was known as:",
+                "options": [
+                    "Forward Policy",
+                    "Masterly Inactivity",
+                    "Withdrawal and Concentration",
+                    "Policy of Proud Reserve"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Lord Curzon followed the policy of Withdrawal and Concentration."
+            },
+            {
+                "text": "Which of the following was NOT a reason for the English success and French failure in India?",
+                "options": [
+                    "English Company was a private enterprise.",
+                    "Superiority of French commanders.",
+                    "English control of strategic locations like Calcutta, Bombay, and Madras.",
+                    "British never neglected their commercial interests."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Superiority of French commanders is NOT a reason for English success."
+            },
+            {
+                "text": "The phrase \"Our acquisition of India was made blindly. Nothing great that has ever been done by Englishman was done so unintentionally and so accidentally, as the conquest of India\" is attributed to which historian?",
+                "options": [
+                    "James Mill",
+                    "John Seeley",
+                    "Vincent Smith",
+                    "Mountstuart Elphinstone"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The phrase is attributed to John Seeley."
+            },
+            {
+                "text": "What was the name of the treaty signed by the English, Sikhs, and Shah Shuja in 1838 as part of the Forward Policy of Auckland concerning Afghanistan?",
+                "options": [
+                    "Treaty of Lahore",
+                    "Treaty of Gandamak",
+                    "Tripartite Treaty",
+                    "Treaty of Amritsar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The 1838 agreement is known as the Tripartite Treaty."
+            },
+            {
+                "text": "Which British policy towards princely states changed significantly after the Revolt of 1857?",
+                "options": [
+                    "The policy of subsidisation.",
+                    "The policy of non-interference.",
+                    "The policy of annexation.",
+                    "The policy of subordinate isolation."
+                ],
+                "correctAnswer": 2,
+                "explanation": "The policy of annexation ended or changed after 1857."
+            }
+        ],
+        "People’s Resistance Against British Before 1857": [{
+                "text": " why did people often choose to take up arms against the British before 1857?",
+                "options": [
+                    "To expand their territorial control and establish new kingdoms.",
+                    "Due to the British promoting indigenous industries.",
+                    "Because colonial law and judiciary safeguarded government interests, leaving no other options.",
+                    "In response to the British encouraging local self-governance."
+                ],
+                "correctAnswer": 2,
+                "explanation": "People resorted to arms because colonial law and judiciary safeguarded British interests, leaving no other option."
+            },
+            {
+                "text": "Which of the following was a causative factor for people's uprisings against the British before 1857?",
+                "options": [
+                    "Introduction of progressive social reforms",
+                    "Stable land revenue settlements and reduced taxes",
+                    "Expansion of revenue administration over tribal lands and loss of their hold over agricultural land",
+                    "Promotion of local self-sufficiency and indigenous industry"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Loss of tribal land and expansion of revenue administration angered people and triggered uprisings."
+            },
+            {
+                "text": "Who were the typical leaders of civil uprisings?",
+                "options": [
+                    "Newly emerging middle-class intellectuals",
+                    "Deposed native rulers or their descendants, former zamindars, landlords, and poligars",
+                    "Christian missionaries and foreign merchants",
+                    "Industrial capitalists and urban workers"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Civil uprisings were often led by traditional elites like deposed rulers, zamindars, and poligars."
+            },
+            {
+                "text": "What major cause of civil uprisings involved the ego of traditional zamindars and poligars being hurt?",
+                "options": [
+                    "Introduction of advanced British education",
+                    "Preservation of traditional social hierarchies",
+                    "Rapid changes in economy, administration, and land revenue systems",
+                    "Encouragement of cultural exchange programs"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rapid changes by the British hurt the ego and position of traditional elites."
+            },
+            {
+                "text": "The Sanyasi Revolt or Fakir Rebellion (1763-1800) was primarily a response to which of the following?",
+                "options": [
+                    "Imposition of a new trade tariff",
+                    "The disastrous famine of 1770 and harsh British economic order",
+                    "British interference in religious rituals",
+                    "Military conscription policies"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The devastating famine of 1770 and economic exploitation by the British led to the Sanyasi/Fakir Rebellion."
+            },
+            {
+                "text": "Who was credited with subduing the Sanyasi Revolt after prolonged action?",
+                "options": [
+                    "Lord Cornwallis",
+                    "Robert Clive",
+                    "Warren Hastings",
+                    "William Bentinck"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Warren Hastings is credited with quelling the Sanyasi Revolt."
+            },
+            {
+                "text": "Which female figure's participation is specifically recognised in the early resistances against the British during the Sanyasi Revolt?",
+                "options": [
+                    "Rani Lakshmibai",
+                    "Devi Chaudhurani",
+                    "Begum Hazrat Mahal",
+                    "Ahilyabai Holkar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Devi Chaudhurani was a prominent female figure in the early anti-British resistance."
+            },
+            {
+                "text": "The revolt in Midnapore and Dhalbhum (1766-74) was triggered by a change in which British policy?",
+                "options": [
+                    "Introduction of a new land revenue system in 1772",
+                    "Restriction on traditional hunting rights",
+                    "Abolition of the local judiciary",
+                    "Imposition of direct British administration in 1760"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The introduction of a new land revenue system in 1772 led to the revolt in Midnapore and Dhalbhum."
+            },
+            {
+                "text": "The Revolt of Moamarias (1769-99) posed a significant challenge to the authority of which kingdom?",
+                "options": [
+                    "Mughal Empire",
+                    "Maratha Confederacy",
+                    "Ahom kings of Assam",
+                    "Mysore Sultanate"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Ahom kings of Assam faced the brunt of the Moamarias Revolt."
+            },
+            {
+                "text": "What was the main issue that led to the Civil Uprisings in Gorakhpur, Basti, and Bahraich in 1781?",
+                "options": [
+                    "Introduction of a new legal code",
+                    "Major Alexander Hannay's oppression and excessive revenue demand as an izaradar",
+                    "British attempt to establish permanent military garrisons",
+                    "Religious conversion attempts by Christian missionaries"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The oppressive izaradar Major Alexander Hannay's revenue extortion led to these uprisings."
+            },
+            {
+                "text": "The Raja of Vizianagaram's revolt in 1794 was primarily due to the East India Company's demand for:",
+                "options": [
+                    "Military assistance",
+                    "Control over trade routes",
+                    "A tribute of three lakh rupees",
+                    "Cession of coastal territories"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The East India Company's demand of three lakh rupees tribute sparked the revolt."
+            },
+            {
+                "text": "Dhundia Wagh, a local Maratha leader, organized an anti-British force in Bednur (1799-1800) and was ultimately killed fighting against whose forces?",
+                "options": [
+                    "Robert Clive",
+                    "Lord Cornwallis",
+                    "Lord Wellesley",
+                    "Warren Hastings"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dhundia Wagh was killed by Lord Wellesley's forces."
+            },
+            {
+                "text": "The \"Massacre of Benares\" (1799) involved the killing of a British resident by which Nawab of Awadh?",
+                "options": [
+                    "Saadat Ali Khan II",
+                    "Wazir Ali Khan",
+                    "Asaf-ud-Daula",
+                    "Shuja-ud-Daulah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Wazir Ali Khan was involved in the 'Massacre of Benares'."
+            },
+            {
+                "text": "Who was the zamindar of Gumsur who openly rebelled and defied public authorities by refusing to pay revenues in 1800?",
+                "options": [
+                    "Dhananjaya Bhanj",
+                    "Strikara Bhanj",
+                    "Jlani Deo",
+                    "Jagannath Deo"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Strikara Bhanj was the rebel zamindar of Gumsur."
+            },
+            {
+                "text": "The Poligars' Revolt (1795-1805) in South India was a stiff resistance to the British after the Nawab of Arcot gave control of which provinces to the East India Company?",
+                "options": [
+                    "Carnatic and Mysore",
+                    "Tinneveli and the Carnatic Provinces",
+                    "Malabar and Konkan",
+                    "Coromandel and Northern Circars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tinneveli and Carnatic provinces' handover to EIC led to the Poligars' Revolt."
+            },
+            {
+                "text": "Who led the insurrection of the Poligars of Panjalankurichi between 1795 and 1799?",
+                "options": [
+                    "Diwan Velu Thampi",
+                    "Kattabomman Nayakan",
+                    "Narayan Deo",
+                    "Umaji Naik"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kattabomman Nayakan led the Poligar insurrection at Panjalankurichi."
+            },
+            {
+                "text": "What was 'Kaval', an ancient institution of Tamil Nadu, whose collection fees became a point of rebellion for poligars in North Arcot (1803-05)?",
+                "options": [
+                    "A land tax",
+                    "A watch or protection fee",
+                    "A temple donation",
+                    "A trade tariff"
+                ],
+                "correctAnswer": 1,
+                "explanation": "'Kaval' was a watch or protection fee, collection of which led to rebellion."
+            },
+            {
+                "text": "The Jats of Haryana fortified themselves in which town during their rebellion in 1809?",
+                "options": [
+                    "Delhi",
+                    "Bhiwani",
+                    "Panipat",
+                    "Rohtak"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Jats prepared defences in Bhiwani during their rebellion."
+            },
+            {
+                "text": "Diwan Velu Thampi's Revolt (1808-1809) in Travancore was sparked by the East India Company's harsh conditions and the meddling of whom in the state's internal affairs?",
+                "options": [
+                    "The Governor-General",
+                    "The British Resident",
+                    "The Commander-in-Chief",
+                    "The Secretary of State"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The intervention of the British Resident in Travancore's internal affairs sparked the revolt."
+            },
+            {
+                "text": "The Kundara Proclamation, calling for armed resistance against the British, was associated with which revolt?",
+                "options": [
+                    "Paika Rebellion",
+                    "Poligars' Revolt",
+                    "Diwan Velu Thampi's Revolt",
+                    "Kutch Rebellion"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Diwan Velu Thampi's Kundara Proclamation called for armed resistance."
+            },
+            {
+                "text": "Lakshaman Dawa and Darya Singh were killadars (fort commanders) involved in disturbances in which region (1808-12)?",
+                "options": [
+                    "Gujarat",
+                    "Bundelkhand",
+                    "Awadh",
+                    "Odisha"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Lakshaman Dawa and Darya Singh were involved in Bundelkhand disturbances."
+            },
+            {
+                "text": "The Kutch or Cutch Rebellion (1816-1832) saw Maharaja Bharamal II raising Arab and African troops for what purpose?",
+                "options": [
+                    "To suppress local banditry",
+                    "To remove the British interference in internal feuds",
+                    "To expand his territory",
+                    "To aid the British in their wars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He raised troops to end British interference in internal feuds."
+            },
+            {
+                "text": "What was the immediate cause of the Rising at Bareilly in 1816?",
+                "options": [
+                    "Forced cultivation of indigo",
+                    "Imposition of the police tax",
+                    "Religious conversion attempts",
+                    "Dispossession of zamindars"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The imposition of police tax triggered the Bareilly rising."
+            },
+            {
+                "text": "Dayaram, a talukdar of several villages in Aligarh district, led an upsurge in Hathras (1817) due to which main reason?",
+                "options": [
+                    "British support for rival talukdars",
+                    "Introduction of a new judicial system",
+                    "Progressively increasing high revenues",
+                    "Prohibition of certain trade activities"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dayaram rebelled against progressively increasing revenue demands."
+            },
+            {
+                "text": "The Paika Rebellion (1817) took place in which region of India?",
+                "options": [
+                    "Bengal",
+                    "Maharashtra",
+                    "Odisha",
+                    "Kerala"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Paika Rebellion occurred in Odisha."
+            },
+            {
+                "text": "The Paikas of Odisha traditionally enjoyed what kind of land tenure for their military service and policing functions?",
+                "options": [
+                    "Commercial lease",
+                    "Rent-free land tenures",
+                    "Sharecropping agreements",
+                    "Fixed-term tenancy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Paikas held rent-free tenures for their service."
+            },
+            {
+                "text": "Who was the military chief of the Raja of Khurda who led a sundry army of Paikas in the 1817 rebellion?",
+                "options": [
+                    "Gomdhar Konwar",
+                    "Bakshi Jagabandhu Bidyadhar",
+                    "Buddho Bhagat",
+                    "Chakra Bisoi"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bakshi Jagabandhu led the Paika Rebellion."
+            },
+            {
+                "text": "The Waghera Rising (1818-1820) in Okha Mandal was driven by resentment against alien rule and exactions from which local power, supported by the British?",
+                "options": [
+                    "The Nizam of Hyderabad",
+                    "The Gaekwad of Baroda",
+                    "The Peshwa of Poona",
+                    "The Holkars of Indore"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The rising was mainly against the Gaekwad of Baroda, backed by the British."
+            },
+            {
+                "text": "The Ahom Revolt (1828) in Assam was a protest against the British attempt to:",
+                "options": [
+                    "Introduce new religious practices",
+                    "Impose a new tax on tea plantations",
+                    "Incorporate Ahom territories into the Company’s dominion",
+                    "Disarm the local Ahom militia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The revolt opposed incorporation of Ahom territories into Company dominion."
+            },
+            {
+                "text": "Who was the Ahom prince who rebelled against the British in 1828?",
+                "options": [
+                    "Madari Pasi",
+                    "Gomdhar Konwar",
+                    "Ram Singh",
+                    "Syed Ahmed"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gomdhar Konwar was the rebelling Ahom prince."
+            },
+            {
+                "text": "The Surat Salt Agitations (1840s) were a public protest against:",
+                "options": [
+                    "British monopoly over opium trade",
+                    "Government's decision to raise the salt duty",
+                    "Restrictions on cotton textile exports",
+                    "Introduction of new currency"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Agitations were against increase of salt duty by the British."
+            },
+            {
+                "text": "The Gadkaris, a hereditary military class, revolted in Kolhapur and Savantvadi due to:",
+                "options": [
+                    "Religious persecution",
+                    "Facing the spectre of unemployment and dismantling of their forts",
+                    "Forced agricultural labor",
+                    "Suppression of their traditional festivals"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gadkaris revolted due to risk of unemployment and fort destruction."
+            },
+            {
+                "text": "The Wahabi Movement, inspired by Abdul Wahab of Saudi Arabia and Shah Waliullah of Delhi, chose which location as a base for operations for declaring jihad?",
+                "options": [
+                    "Delhi",
+                    "Calcutta",
+                    "Sithana in the north-western tribal belt",
+                    "Bareilly"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sithana, in the north-western tribal belt, was their operational base."
+            },
+            {
+                "text": "After 1849, the Wahabis' attacks primarily targeted whom?",
+                "options": [
+                    "Sikh kingdom of Punjab",
+                    "Indigenous rulers",
+                    "The English dominion in India",
+                    "Portuguese settlements"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Post-1849, Wahabis targeted the English dominion and British authorities."
+            },
+            {
+                "text": "The Kuka Movement, founded in 1840 by Bhagat Jawahar Mal, originated in which region?",
+                "options": [
+                    "Eastern Bengal",
+                    "Malabar",
+                    "Western Punjab",
+                    "Chotanagpur"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Kuka movement started in Western Punjab."
+            },
+            {
+                "text": "The Narkelberia Uprising saw Mir Nithar Ali (Titu Mir) inspire Muslim tenants in West Bengal to rise against:",
+                "options": [
+                    "Sikh rulers",
+                    "Landlords who imposed a beard-tax and British indigo planters",
+                    "Maratha chieftains",
+                    "Mughal tax collectors"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mir Nithar Ali led an uprising against landlords (beard-tax) and indigo planters."
+            },
+            {
+                "text": "The Pagal Panthis, a semi-religious group mainly constituting the Hajong and Garo tribes, refused to pay which of the following?",
+                "options": [
+                    "Trade tariffs",
+                    "Pilgrim tax",
+                    "Rent above a certain limit",
+                    "Police tax"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Pagal Panthis refused rent above a set limit."
+            },
+            {
+                "text": "Dadu Mian (1819-60) was a prominent leader of which peasant movement, known for organizing a paramilitary force and establishing its own law courts?",
+                "options": [
+                    "Moplah Uprisings",
+                    "Faraizi Revolt",
+                    "Wahabi Movement",
+                    "Kuka Movement"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dadu Mian was a key figure in the Faraizi movement."
+            },
+            {
+                "text": "The Moplah Uprisings in Malabar were primarily caused by grievances related to:",
+                "options": [
+                    "Land tenure, high rents, and oppressive exactions",
+                    "Religious discrimination by the British",
+                    "Interference in their traditional fishing rights",
+                    "British refusal to allow their participation in administration"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Land tenure insecurity, high rents and exactions were the main causes."
+            },
+            {
+                "text": "What was one of the key differences in causes for mainland tribal revolts compared to North-Eastern tribal revolts?",
+                "options": [
+                    "Mainland revolts were solely against land revenue, while North-Eastern were not.",
+                    "North-Eastern movements were not forest-based, unlike many mainland revolts.",
+                    "Mainland revolts were led by messiah-like figures, which was absent in the North-East.",
+                    "North-Eastern tribes had modern weapons, unlike mainland tribes."
+                ],
+                "correctAnswer": 1,
+                "explanation": "North-Eastern tribal uprisings were not focused on forest issues, unlike those in the mainland."
+            },
+            {
+                "text": "The Chuar Uprising or Revolt of the Jungle Mahal involved aboriginal tribesmen who were primarily:",
+                "options": [
+                    "Traders and merchants",
+                    "Farmers and hunters",
+                    "Artisans and craftsmen",
+                    "Fishermen and boatmen"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Chuar Uprising was composed mainly of tribal farmers and hunters."
+            },
+            {
+                "text": "The Kol Mutiny (1831) in Chotanagpur was initiated due to:",
+                "options": [
+                    "Imposition of Christian missionaries",
+                    "Large-scale transfers of land from Kol headmen to outsiders",
+                    "British attempts to abolish their tribal councils",
+                    "Recruitment of tribals into the British army"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Large-scale transfer of land from Kol headmen to outsiders sparked the mutiny."
+            },
+            {
+                "text": "Which two brothers led the Santhal Rebellion (1855-56), proclaiming an end to Company rule?",
+                "options": [
+                    "Digambar Biswas and Bishnu Biswas",
+                    "Sidhu and Kanhu",
+                    "Buddho Bhagat and Jatra Oraon",
+                    "Chakra Bisoi and Tomma Sora"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sidhu and Kanhu were the main leaders of the Santhal Rebellion."
+            },
+            {
+                "text": "The Khond Uprisings (1837-1856) were led by a young raja named:",
+                "options": [
+                    "Dhundia Wagh",
+                    "Narayan Deo",
+                    "Chakra Bisoi",
+                    "Bhukhan Singh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Chakra Bisoi led the Khond Uprisings."
+            },
+            {
+                "text": "The Koya Revolts in the eastern Godavari track occurred multiple times between 1803 and 1862, with a significant uprising in 1879-80 under whose leadership?",
+                "options": [
+                    "Birsa Munda",
+                    "Tomma Sora",
+                    "Komaram Bheem",
+                    "Alluri Sitarama Raju"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tomma Sora led the prominent Koya rebellion in 1879-80."
+            },
+            {
+                "text": "The Ramosi Risings (1822, 1825-26) in the Western Ghats were led by Chittur Singh, and later by Umaji Naik of Poona and his supporter:",
+                "options": [
+                    "Nana Patil",
+                    "Darya Singh",
+                    "Bapu Trimbakji Sawant",
+                    "Madari Pasi"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bapu Trimbakji Sawant was Umaji Naik's main supporter."
+            },
+            {
+                "text": "The Khasi Uprising of the North-East was organised under Tirath Singh against the East India Company's plan to:",
+                "options": [
+                    "Introduce new land revenue policies",
+                    "Build a road linking the Brahmaputra Valley with Sylhet",
+                    "Annex Khasi territories",
+                    "Promote English education"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Tirath Singh opposed the road construction connecting Brahmaputra Valley and Sylhet."
+            },
+            {
+                "text": "What was one of the causes of discontent among sepoys leading to mutinies before 1857?",
+                "options": [
+                    "Increase in their emoluments compared to British counterparts",
+                    "Promotion based on merit and not seniority",
+                    "Lord Canning’s General Service Enlistment Act (1856) which decreed future recruits had to serve anywhere",
+                    "Greater autonomy in their religious practices"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The General Service Enlistment Act forced sepoys to serve abroad, which bred discontent."
+            },
+            {
+                "text": "Which of the following was a notable weakness of the people's uprisings against the British before 1857?",
+                "options": [
+                    "Strong national impulse and common effort",
+                    "Highly coordinated and well-organised leadership",
+                    "Leadership was semi-feudal in character, backward-looking, and traditional",
+                    "Superior methods and arms used by the fighters"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The movements were hamstrung by traditional, backward-looking semi-feudal leadership."
+            }
+        ],
+        "The Revolt of 1857": [{
+                "text": "Which event marked the British laying their first step towards gaining power in northern India, preceding the Revolt of 1857?",
+                "options": [
+                    "The Battle of Buxar",
+                    "The Third Anglo-Mysore War",
+                    "The Battle of Plassey",
+                    "The Treaty of Allahabad"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Battle of Plassey in 1757 marked the beginning of British power in northern India."
+            },
+            {
+                "text": "According to the provided text, what was a primary economic cause of the Revolt of 1857?",
+                "options": [
+                    "Development of modern industries in India",
+                    "Low tariffs on Indian-made goods",
+                    "Destruction of the traditional economic fabric of Indian society",
+                    "Increased patronage to artisans and handicraft people"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The traditional economic fabric of Indian society was destroyed under colonial rule, creating economic hardship and resentment."
+            },
+            {
+                "text": "The introduction of highly unpopular revenue settlements led to the emergence of which new classes as landlords, contributing to the Revolt?",
+                "options": [
+                    "Peasants and cultivators",
+                    "Tribal chiefs and nomadic tribes",
+                    "Money-lenders and traders",
+                    "Former nawabs and princes"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Unpopular revenue settlements led to the rise of money-lenders and traders as new landlords."
+            },
+            {
+                "text": "A political cause for the Revolt of 1857 mentioned in the text was the British policy of aggrandizement, accompanied by which specific actions?",
+                "options": [
+                    "Promotion of Indian culture",
+                    "Granting of new titles and honours",
+                    "Broken pledges and promises",
+                    "Establishment of democratic institutions"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Broken pledges and promises by the British government fostered discontent among Indians."
+            },
+            {
+                "text": "What administrative issue significantly contributed to the discontent among Indians leading to the 1857 Revolt?",
+                "options": [
+                    "Rapid Indianisation of government services",
+                    "Transparency in Company’s administration",
+                    "An increase in local self-governance",
+                    "Rampant corruption in the Company’s administration"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Rampant corruption in Company’s administration was a major contributor."
+            },
+            {
+                "text": "The British administrative attitude towards native Indians was characterized by a superiority complex, which also manifested as what specific behaviour?",
+                "options": [
+                    "Promotion of indigenous education",
+                    "Encouragement of local customs",
+                    "Contempt towards the native population",
+                    "Respect for traditional religious practices"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There was widespread contempt towards the native population."
+            },
+            {
+                "text": "The activities of Christian missionaries in India were viewed with suspicion by Indians. What else was perceived as an interference in private life, contributing to socio-religious causes of the Revolt?",
+                "options": [
+                    "Establishment of new trade routes",
+                    "Attempts at socio-religious reform such as abolition of sati",
+                    "Introduction of new agricultural techniques",
+                    "Construction of modern infrastructure"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Socio-religious reforms like the abolition of sati were seen as interference."
+            },
+            {
+                "text": "Which Act, enacted in 1856, further weakened the trust of Indians in the British administration, contributing to the socio-religious causes of the Revolt?",
+                "options": [
+                    "The Sati Abolition Act",
+                    "The Religious Disabilities Act",
+                    "The Widow Remarriage Act",
+                    "The Vernacular Press Act"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The enactment of the Widow Remarriage Act of 1856 was seen as interference in social customs."
+            },
+            {
+                "text": "Which of the following external events is cited as an influence on the discontent among sepoys and the general population leading up to the 1857 Revolt?",
+                "options": [
+                    "The American Civil War (1861-1865)",
+                    "The French Revolution (1789)",
+                    "The First Afghan War (1838-42)",
+                    "The Napoleonic Wars (1803-1815)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Defeat in the First Afghan War added to general discontent."
+            },
+            {
+                "text": "A significant cause of discontent among sepoys was Lord Canning's General Service Enlistment Act of 1856. What did this Act decree?",
+                "options": [
+                    "Compulsory military training for all Indian youth",
+                    "Prohibition of religious marks on uniforms",
+                    "Undertaking to serve anywhere services might be required",
+                    "Equal pay for Indian and British sepoys"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Act required sepoys to serve anywhere, upsetting their religious practices."
+            },
+            {
+                "text": "The annexation of which Indian state further inflamed the feelings of many sepoys, as it was their home?",
+                "options": [
+                    "Satara",
+                    "Jhansi",
+                    "Nagpur",
+                    "Awadh"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The annexation of Awadh was a major catalyst as many sepoys hailed from there."
+            },
+            {
+                "text": "What was the immediate trigger for the widespread disaffection among sepoys, which led to the outbreak of the Revolt of 1857?",
+                "options": [
+                    "Introduction of new uniform regulations",
+                    "Reduction in sepoy emoluments",
+                    "Introduction of the Enfield rifle with greased cartridges",
+                    "Discontinuation of traditional military drills"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Greased cartridges for the new Enfield rifle were seen as offensive by sepoys."
+            },
+            {
+                "text": "When and where did the Revolt of 1857 officially begin?",
+                "options": [
+                    "Barrackpore, February 1857",
+                    "Delhi, May 11, 1857",
+                    "Meerut, May 10, 1857",
+                    "Berhampore, March 1857"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The revolt began at Meerut on May 10, 1857."
+            },
+            {
+                "text": "The 19th Native Infantry at Berhampore initiated a mutiny in February 1857 due to their refusal to use which new item?",
+                "options": [
+                    "New type of bayonet",
+                    "Newly introduced Enfield rifle",
+                    "Changed regimental colours",
+                    "Revised drill commands"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Refusal to use the new Enfield rifle led to mutiny."
+            },
+            {
+                "text": "Who was the sepoy from the 34th Native Infantry at Barrackpore who fired at the sergeant major of his unit, becoming an early figure in the Revolt?",
+                "options": [
+                    "Mangal Pande",
+                    "Kunwar Singh",
+                    "Bakht Khan",
+                    "Nana Saheb"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Mangal Pande is regarded as a key instigator of the revolt."
+            },
+            {
+                "text": "On April 24, at Meerut, ninety men of which military unit refused to accept the greased cartridges?",
+                "options": [
+                    "19th Native Infantry",
+                    "34th Native Infantry",
+                    "3rd Native Cavalry",
+                    "47th Native Infantry"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ninety men of the 3rd Native Cavalry refused the cartridges."
+            },
+            {
+                "text": "Who was proclaimed the Emperor of India and symbolic leader of the Revolt by the sepoys in Delhi?",
+                "options": [
+                    "Tipu Sultan",
+                    "Shah Alam II",
+                    "Bahadur Shah Zafar",
+                    "Mir Jafar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bahadur Shah Zafar was declared Emperor by the rebels."
+            },
+            {
+                "text": "Apart from the sepoys, which other section of the population actively joined the Revolt, giving it real strength?",
+                "options": [
+                    "British loyalists and collaborators",
+                    "Industrialists and large merchants",
+                    "Peasantry, artisans, shopkeepers, and zamindars",
+                    "European residents and missionaries"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The participation of peasants, artisans, shopkeepers, and zamindars gave strength to the revolt."
+            },
+            {
+                "text": "In Delhi, who led the soldiers alongside the Mughal emperor Bahadur Shah during the Revolt of 1857?",
+                "options": [
+                    "Tantia Tope",
+                    "General Bakht Khan",
+                    "Maulvi Ahmadullah",
+                    "Khan Bahadur"
+                ],
+                "correctAnswer": 1,
+                "explanation": "General Bakht Khan was the military commander in Delhi."
+            },
+            {
+                "text": "Who was the leader of the Revolt at Kanpur?",
+                "options": [
+                    "Begum Hazrat Mahal",
+                    "Rani Laxmibai",
+                    "Nana Saheb",
+                    "Kunwar Singh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Nana Saheb led the revolt at Kanpur."
+            },
+            {
+                "text": "Begum Hazrat Mahal was a prominent leader of the Revolt of 1857 in which storm centre?",
+                "options": [
+                    "Bareilly",
+                    "Faizabad",
+                    "Lucknow",
+                    "Kanpur"
+                ],
+                "correctAnswer": 2,
+                "explanation": "She was the leader in Lucknow."
+            },
+            {
+                "text": "Who led the Revolt of 1857 in Bihar?",
+                "options": [
+                    "Maulvi Ahmadullah",
+                    "Khan Bahadur",
+                    "Kunwar Singh",
+                    "Tantia Tope"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Kunwar Singh led the revolt in Bihar."
+            },
+            {
+                "text": "Which British officer famously stated, \"Here lay the woman who was the only man among the rebels,\" referring to Rani Laxmibai?",
+                "options": [
+                    "Sir Colin Campbell",
+                    "Lord Dalhousie",
+                    "Sir Hugh Rose",
+                    "Lord Canning"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sir Hugh Rose made this statement about Rani Laxmibai."
+            },
+            {
+                "text": "When was Delhi recaptured by the British after the Revolt began?",
+                "options": [
+                    "June 1857",
+                    "August 1857",
+                    "September 20, 1857",
+                    "December 1857"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Delhi was recaptured on September 20, 1857."
+            },
+            {
+                "text": "Where was Bahadur Shah Zafar exiled by the British after the suppression of the Revolt?",
+                "options": [
+                    "Andaman Islands",
+                    "Calcutta",
+                    "Rangoon",
+                    "Lahore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bahadur Shah Zafar was exiled to Rangoon."
+            },
+            {
+                "text": "Sir Colin Campbell occupied Kanpur on which date during the suppression of the Revolt?",
+                "options": [
+                    "September 20, 1857",
+                    "December 6, 1857",
+                    "June 1858",
+                    "March 1858"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kanpur was recaptured on December 6, 1857."
+            },
+            {
+                "text": "One of the reasons for the failure of the Revolt of 1857 was the limited all-India participation. According to the text, what percentage of the total population was affected by the Revolt?",
+                "options": [
+                    "Not more than one-half",
+                    "Not more than one-fourth",
+                    "Not more than one-tenth",
+                    "Not more than three-fourths"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The revolt affected not more than one-tenth of India's population."
+            },
+            {
+                "text": "The text attributes the failure of the Revolt to the rebels' inferior military system. What type of weapons were primarily used by Indian soldiers compared to European ones?",
+                "options": [
+                    "Swords and spears versus modern firearms",
+                    "Muskets and cannons versus traditional bows",
+                    "Advanced artillery versus primitive catapults",
+                    "Matchlocks versus breech-loading rifles"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Indian soldiers still used mainly swords and spears, outmatched by modern European firearms."
+            },
+            {
+                "text": "A key weakness of the Revolt's leadership, as stated in the text, was their lack of a unified ideology or a forward-looking programme. What did they also lack?",
+                "options": [
+                    "Foreign assistance",
+                    "Naval power",
+                    "A coherent societal alternative",
+                    "Financial resources"
+                ],
+                "correctAnswer": 2,
+                "explanation": "They lacked a clear and coherent alternative to the prevailing social order."
+            },
+            {
+                "text": "Despite other weaknesses, what factor was noted as being strong during the Revolt of 1857, as evidenced by Bahadur Shah Zafar being acknowledged as emperor?",
+                "options": [
+                    "Financial backing from Indian merchants",
+                    "Support from princely states",
+                    "Hindu-Muslim unity",
+                    "European mercenary support"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The revolt displayed strong Hindu-Muslim unity, as shown by the proclamation of Bahadur Shah Zafar."
+            },
+            {
+                "text": "Who described the Revolt of 1857 as a \"planned war of national independence\"?",
+                "options": [
+                    "Dr K. Datta",
+                    "V.D. Savarkar",
+                    "Dr. S.N. Sen",
+                    "R.C. Majumdar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "V.D. Savarkar called it a planned war of national independence."
+            },
+            {
+                "text": "Dr. S.N. Sen characterized the Revolt of 1857 as beginning in what manner and ending as what?",
+                "options": [
+                    "Beginning as a peasant uprising, ending as a class struggle",
+                    "Beginning as a fight for religion, ending as a war of independence",
+                    "Beginning as a regional conflict, ending as a national movement",
+                    "Beginning as a military mutiny, ending as a political reform"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He said it began as a fight for religion and ended as a war of independence."
+            },
+            {
+                "text": "Which historian viewed the Revolt of 1857 as \"neither the first, nor national, nor a war of independence\"?",
+                "options": [
+                    "J.L.Nehru",
+                    "R.C. Majumdar",
+                    "L.E.R. Rees",
+                    "Dr K. Datta"
+                ],
+                "correctAnswer": 1,
+                "explanation": "R.C. Majumdar held this skeptical view."
+            },
+            {
+                "text": "Jawaharlal Nehru's view on the nature of the Revolt of 1857 was that it was essentially a feudal uprising, but with what additional element?",
+                "options": [
+                    "Strong economic motivations",
+                    "Some nationalistic elements",
+                    "Widespread international support",
+                    "A clear democratic agenda"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Nehru felt it had some elements of nationalism."
+            },
+            {
+                "text": "What was the name of the Act passed by the British Parliament on August 2, 1858, following the Revolt of 1857?",
+                "options": [
+                    "The Indian Arms Act",
+                    "The Act for Better Government of India",
+                    "The Indian Councils Act",
+                    "The Government of India Act"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Act for Better Government of India, 1858, was passed."
+            },
+            {
+                "text": "After the 1858 Act, who became the sovereign of British India?",
+                "options": [
+                    "Lord Canning",
+                    "The East India Company",
+                    "Queen Victoria",
+                    "The Secretary of State for India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Queen Victoria became the sovereign."
+            },
+            {
+                "text": "A new position was created after the 1858 Act to govern India, assisted by a council of 15. What was this new position called?",
+                "options": [
+                    "Prime Minister of India",
+                    "Governor-General",
+                    "Secretary of State for India",
+                    "Commander-in-Chief"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Secretary of State for India was created to govern India with a 15-member council."
+            },
+            {
+                "text": "The Governor-General of India acquired an additional title after the Queen's Proclamation at Allahabad. What was this new title?",
+                "options": [
+                    "Regent of India",
+                    "Emperor of India",
+                    "Viceroy",
+                    "Commander of the Crown"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The title 'Viceroy' was added."
+            },
+            {
+                "text": "What significant promise was made to the people of India regarding their religion after the Revolt of 1857?",
+                "options": [
+                    "Compulsory conversion to Christianity",
+                    "Freedom of religion without interference",
+                    "Establishment of a state religion",
+                    "Prohibition of all religious practices"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Freedom of religion without interference was promised."
+            },
+            {
+                "text": "What was the policy introduced regarding the number of Indian and European soldiers in the army after 1857?",
+                "options": [
+                    "Indian soldiers were increased, European reduced",
+                    "Both Indian and European soldiers were increased equally",
+                    "Indian soldiers were drastically reduced, European increased",
+                    "European soldiers were completely withdrawn"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Indian numbers were reduced and European soldiers increased."
+            },
+            {
+                "text": "Which Act was passed in 1861, aiming to give the impression of equality under the Queen?",
+                "options": [
+                    "The Arms Act",
+                    "The Vernacular Press Act",
+                    "The Indian Civil Service Act",
+                    "The Religious Endowment Act"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Indian Civil Service Act aimed to give an impression of equality."
+            },
+            {
+                "text": "What major British policy began in earnest after the Revolt of 1857?",
+                "options": [
+                    "Policy of assimilation",
+                    "Policy of non-interference",
+                    "Policy of divide and rule",
+                    "Policy of economic liberalisation"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The British policy of divide and rule became more pronounced after 1857."
+            },
+            {
+                "text": "What was the \"White Mutiny\" that occurred during the transfer of power from the British East India Company to the British Crown?",
+                "options": [
+                    "A rebellion by Indian soldiers against European officers",
+                    "A protest by European forces employed under the Company against the move",
+                    "A conflict between British traders and Indian merchants",
+                    "A movement by white settlers demanding greater autonomy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It was a protest by European forces in India against their uncertain future."
+            },
+            {
+                "text": "The complete structure of the Indian government was remodelled after 1857 and based on which notion?",
+                "options": [
+                    "Rule of law",
+                    "Self-governance",
+                    "A master race justifying 'Whiteman’s burden'",
+                    "Universal equality"
+                ],
+                "correctAnswer": 2,
+                "explanation": "A racial notion of the master race and 'Whiteman's burden' justified British rule."
+            },
+            {
+                "text": "According to Bipan Chandra, how did the Revolt of 1857 prove useful for the British?",
+                "options": [
+                    "It exposed the weaknesses in their military command",
+                    "It showed up shortcomings in the Company’s administration and army",
+                    "It led to increased trade opportunities",
+                    "It unified diverse Indian communities"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It exposed administrative and military shortcomings, leading to reforms."
+            },
+            {
+                "text": "What was a significant impact of the 1857 Revolt on the course of the struggle for freedom in India?",
+                "options": [
+                    "It ended all future resistance movements",
+                    "It established local traditions of resistance to British rule",
+                    "It led to immediate granting of self-rule",
+                    "It resulted in a complete withdrawal of British forces"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The revolt established local traditions of resistance that inspired future movements."
+            },
+            {
+                "text": "The term \"absentee sovereignty\" in the context of British rule in India prior to 1857 referred to what aspect of administration?",
+                "options": [
+                    "British monarchs residing abroad",
+                    "British officials frequently on leave",
+                    "A foreign and alien look to British rule",
+                    "Lack of direct British control over princely states"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The government had a foreign/alien presence with absentee rulers."
+            },
+            {
+                "text": "The \"Black Hole Tragedy,\" debated by historians, is associated with which leader of the 1857 Revolt's storm centres?",
+                "options": [
+                    "Mir Jafar",
+                    "Siraj-ud-daula",
+                    "Robert Clive",
+                    "Mir Kasim"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Black Hole Tragedy is linked with Siraj-ud-daula, Nawab of Bengal."
+            },
+            {
+                "text": "Which military leader of the Revolt was executed after being defeated by Sir Hugh Rose at Jhansi?",
+                "options": [
+                    "Nana Saheb",
+                    "Kunwar Singh",
+                    "Tantia Tope",
+                    "Khan Bahadur"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tantia Tope was executed after defeat at Jhansi."
+            },
+            {
+                "text": "What was the rumour that sparked the immediate outrage among the sepoys regarding the new Enfield rifle cartridges?",
+                "options": [
+                    "They were made of inferior metal",
+                    "They were produced in Britain",
+                    "They were greased with pig and cow fat",
+                    "They were too expensive for sepoys to afford"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sepoys believed the cartridges were greased with pig and cow fat, violating religious beliefs."
+            }
+        ]
+
+
+
     },
     "Science": {
         "cells": [{
