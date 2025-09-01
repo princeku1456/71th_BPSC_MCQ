@@ -1105,5841 +1105,5817 @@ const allQuizData = {
             }
         ],
         "Current Affairs - Set - 3": [{
-                    "text": "The National Maritime Heritage Complex (NMHC) is being developed by which Ministry?",
-                    "options": [
-                        "Ministry of Culture",
-                        "Ministry of Tourism",
-                        "Ministry of Ports, Shipping and Waterways",
-                        "Ministry of External Affairs"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The NMHC is being developed by the Ministry of Ports, Shipping and Waterways at Lothal, Gujarat."
-                },
-                {
-                    "text": "Lothal, the site of the National Maritime Heritage Complex, dates back to approximately what period?",
-                    "options": [
-                        "1500 BCE",
-                        "2000 BCE",
-                        "2600 BCE",
-                        "3000 BCE"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Lothal flourished as an Indus Valley site around 2600 BCE."
-                },
-                {
-                    "text": "Who is credited with the discovery of the oldest known manmade dockyard at Lothal?",
-                    "options": [
-                        "J. P. Joshi",
-                        "S. R. Rao",
-                        "John Marshall",
-                        "R. D. Banerji"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "S. R. Rao discovered Lothal in 1954, revealing the world's earliest known dockyard."
-                },
-                {
-                    "text": "Dholavira, known for its unique water harvesting system, is located in which region?",
-                    "options": [
-                        "Saurashtra",
-                        "Kutch",
-                        "Malwa",
-                        "Konkan"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Dholavira is located on Khadir Bet island in the Kutch region of Gujarat."
-                },
-                {
-                    "text": "Which of the following describes Dholavira's status among UNESCO World Heritage Sites?",
-                    "options": [
-                        "39th UNESCO World Heritage Site",
-                        "40th UNESCO World Heritage Site",
-                        "41st UNESCO World Heritage Site",
-                        "42nd UNESCO World Heritage Site"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Dholavira was inscribed as India's 40th UNESCO World Heritage Site."
-                },
-                {
-                    "text": "The Maratha Military Landscapes of India, designated as India's 44th World Heritage Site, are spread across which states?",
-                    "options": [
-                        "Maharashtra and Karnataka",
-                        "Maharashtra and Madhya Pradesh",
-                        "Maharashtra and Goa",
-                        "Maharashtra and Tamil Nadu"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The Maratha Military Landscapes are spread across Maharashtra and Tamil Nadu (Gingee Fort)."
-                },
-                {
-                    "text": "Which of the following forts is part of the Maratha Military Landscapes of India and is located in Tamil Nadu?",
-                    "options": [
-                        "Salher",
-                        "Shivneri",
-                        "Gingee Fort",
-                        "Vijaydurg"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Gingee Fort is the Maratha fort located in Tamil Nadu."
-                },
-                {
-                    "text": "World Heritage Day is observed annually on what date?",
-                    "options": [
-                        "22nd April",
-                        "18th April",
-                        "5th June",
-                        "10th December"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "World Heritage Day is celebrated worldwide on 18th April annually."
-                },
-                {
-                    "text": "What is the theme for World Heritage Day 2025?",
-                    "options": [
-                        "Sustainable Heritage for Future Generations",
-                        "Heritage and Climate Change: A Global Challenge",
-                        "Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions",
-                        "Preserving Our Shared Cultural Heritage"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The 2025 theme is 'Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions.'"
-                },
-                {
-                    "text": "In which year was the World Heritage Convention adopted by UNESCO?",
-                    "options": [
-                        "1968",
-                        "1970",
-                        "1972",
-                        "1975"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The World Heritage Convention was adopted by UNESCO in 1972."
-                },
-                {
-                    "text": "What is India's global ranking for the number of World Heritage Sites?",
-                    "options": [
-                        "4th",
-                        "5th",
-                        "6th",
-                        "7th"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India ranks 6th globally in the number of World Heritage Sites."
-                },
-                {
-                    "text": "How many nations have ratified the World Heritage Convention, 1972?",
-                    "options": [
-                        "180",
-                        "190",
-                        "196",
-                        "200"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "As of now, 196 nations have ratified the convention."
-                },
-                {
-                    "text": "Which site was inscribed as India's 43rd World Heritage Site?",
-                    "options": [
-                        "Great Living Chola Temples",
-                        "Group of Monuments at Hampi",
-                        "Moidams of Charaideo, Assam",
-                        "Kakatiya Rudreshwara (Ramappa) Temple"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Moidams of Charaideo, Assam, was inscribed as the 43rd site."
-                },
-                {
-                    "text": "Which of the following was among the first sites from India inscribed in the World Heritage List in 1983?",
-                    "options": [
-                        "Qutb Minar",
-                        "Humayun's Tomb",
-                        "Ajanta Caves",
-                        "Red Fort Complex"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Ajanta Caves were among the first Indian sites inscribed in 1983."
-                },
-                {
-                    "text": "How many sites are currently on India's Tentative List for World Heritage status?",
-                    "options": [
-                        "50",
-                        "55",
-                        "60",
-                        "62"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "India currently has 62 sites on its Tentative List."
-                },
-                {
-                    "text": "Where was the 46th World Heritage Committee Meeting held?",
-                    "options": [
-                        "Paris, France",
-                        "Delhi, India",
-                        "Beijing, China",
-                        "Rome, Italy"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The 46th meeting was held in Delhi, India."
-                },
-                {
-                    "text": "Who is the current Director-General of UNESCO?",
-                    "options": [
-                        "Antonio Guterres",
-                        "Tedros Adhanom Ghebreyesus",
-                        "Audrey Azoulay",
-                        "Kristalina Georgieva"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Audrey Azoulay is the current Director-General of UNESCO."
-                },
-                {
-                    "text": "Who was appointed as the 10th President of the International Olympic Committee (IOC)?",
-                    "options": [
-                        "Thomas Bach",
-                        "Kirsty Coventry",
-                        "Gianni Infantino",
-                        "Sepp Blatter"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Kirsty Coventry was appointed as the 10th IOC President."
-                },
-                {
-                    "text": "Kirsty Coventry is the first female and first African to hold the post of IOC President. In which sport is she a two-time Olympic gold medallist?",
-                    "options": [
-                        "Athletics",
-                        "Gymnastics",
-                        "Swimming",
-                        "Rowing"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "She is a two-time Olympic gold medallist in swimming."
-                },
-                {
-                    "text": "Who is the current Chairman of the Indian Olympic Association?",
-                    "options": [
-                        "Anurag Thakur",
-                        "Narinder Batra",
-                        "PT Usha",
-                        "Abhinav Bindra"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "PT Usha is the current Chairman of the Indian Olympic Association."
-                },
-                {
-                    "text": "Who currently holds the position of ICC Chairman?",
-                    "options": [
-                        "Greg Barclay",
-                        "Sourav Ganguly",
-                        "Jay Shah",
-                        "Geoff Allardice"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Jay Shah is the current ICC Chairman."
-                },
-                {
-                    "text": "The 2026 Winter Olympics are scheduled to be held in which city?",
-                    "options": [
-                        "Beijing, China",
-                        "Vancouver, Canada",
-                        "Milan-Cortina, Italy",
-                        "Pyeongchang, South Korea"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The 2026 Winter Olympics will be held in Milan-Cortina, Italy."
-                },
-                {
-                    "text": "Who was elected as the President of the 80th UN General Assembly session?",
-                    "options": [
-                        "Annalena Baerbock",
-                        "António Guterres",
-                        "Volkan Bozkir",
-                        "Abdullah Shahid"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Annalena Baerbock was elected President of the 80th UNGA session."
-                },
-                {
-                    "text": "Shaikha Al-Nowais has been appointed as the Secretary-General of which international organization?",
-                    "options": [
-                        "UN Children's Fund (UNICEF)",
-                        "UN World Tourism Organization (UNWTO)",
-                        "World Health Organization (WHO)",
-                        "International Monetary Fund (IMF)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Shaikha Al-Nowais is Secretary-General of the UNWTO."
-                },
-                {
-                    "text": "Shaikha Al-Nowais is the first woman globally and the first from which country to hold the post of UNWTO Secretary-General?",
-                    "options": [
-                        "Qatar",
-                        "Saudi Arabia",
-                        "United Arab Emirates",
-                        "Bahrain"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "She is the first woman and the first from UAE to hold this post."
-                },
-                {
-                    "text": "Dhudmaras, a village selected by the UNWTO for its Best Tourism Village Upgrade programme, is situated in which state of India?",
-                    "options": [
-                        "Odisha",
-                        "Madhya Pradesh",
-                        "Chhattisgarh",
-                        "Jharkhand"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Dhudmaras is located in Chhattisgarh."
-                },
-                {
-                    "text": "Dhudmaras village is located in the heart of which National Park?",
-                    "options": [
-                        "Indravati National Park",
-                        "Guru Ghasidas National Park",
-                        "Kanger Valley National Park",
-                        "Sanjay National Park"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It lies within the Kanger Valley National Park."
-                },
-                {
-                    "text": "Who was appointed as the 7th Secretary-General of the Commonwealth?",
-                    "options": [
-                        "Patricia Scotland",
-                        "Kamalesh Sharma",
-                        "Shirley Ayorkor Botchwey",
-                        "Emeka Anyaoku"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Shirley Ayorkor Botchwey is the 7th Secretary-General."
-                },
-                {
-                    "text": "Which two countries were the last to join the Commonwealth in 2022?",
-                    "options": [
-                        "Rwanda and Mozambique",
-                        "Gambia and Maldives",
-                        "Gabon and Togo",
-                        "Samoa and Vanuatu"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Gabon and Togo joined the Commonwealth in 2022."
-                },
-                {
-                    "text": "Which is the smallest member country of the Commonwealth of Nations by area/population?",
-                    "options": [
-                        "Tuvalu",
-                        "Nauru",
-                        "San Marino",
-                        "Monaco"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Nauru is the smallest member of the Commonwealth."
-                },
-                {
-                    "text": "India secured the historic mandate for the Presidency of the International Institute of Administrative Sciences (IIAS) for which period?",
-                    "options": [
-                        "2024-2027",
-                        "2025-2028",
-                        "2026-2029",
-                        "2027-2030"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India was elected IIAS President for 2025-2028."
-                },
-                {
-                    "text": "The election to the post of IIAS President was held by ballot process for the first time in how many years of the institution's history?",
-                    "options": [
-                        "50 years",
-                        "75 years",
-                        "100 years",
-                        "125 years"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The ballot election was a first in 100 years of IIAS history."
-                },
-                {
-                    "text": "As per the UK-Mauritius treaty concerning the Chagos Islands, what is the annual payment by the UK to Mauritius?",
-                    "options": [
-                        "$100 million",
-                        "$120 million",
-                        "$136 million",
-                        "$150 million"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The UK pays Mauritius $136 million annually under the treaty."
-                },
-                {
-                    "text": "The UK will lease the Chagos Islands from Mauritius for how many years as per the treaty?",
-                    "options": [
-                        "50 years",
-                        "75 years",
-                        "99 years",
-                        "100 years"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Lease duration for Chagos Islands is 99 years."
-                },
-                {
-                    "text": "The US Military Base is located on which island within the Chagos Archipelago?",
-                    "options": [
-                        "Peros Banhos",
-                        "Salomon Islands",
-                        "Diego Garcia",
-                        "Great Chagos Bank"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Diego Garcia hosts the US military base."
-                },
-                {
-                    "text": "Which country is noted as the first to adopt India's Jan Aushadhi Scheme?",
-                    "options": [
-                        "Sri Lanka",
-                        "Bangladesh",
-                        "Nepal",
-                        "Mauritius"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Mauritius was the first country to adopt the scheme."
-                },
-                {
-                    "text": "Who is the author of the autobiography titled \"Diyasalai\"?",
-                    "options": [
-                        "Kailash Satyarthi",
-                        "Arun Shourie",
-                        "Deepa Malik",
-                        "Amitabh Kant"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Kailash Satyarthi authored \"Diyasalai.\""
-                },
-                {
-                    "text": "The book \"Why Bharat Matters\" is authored by whom?",
-                    "options": [
-                        "P. Chidambaram",
-                        "S. Jaishankar",
-                        "Nirmala Sitharaman",
-                        "Amit Shah"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "S. Jaishankar wrote \"Why Bharat Matters.\""
-                },
-                {
-                    "text": "Who wrote the book \"How India Scaled Mt G20: The Inside Story of the G20 Presidency\"?",
-                    "options": [
-                        "Shashi Tharoor",
-                        "Amitabh Kant",
-                        "Arvind Subramanian",
-                        "Raghuram Rajan"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Amitabh Kant is the author."
-                },
-                {
-                    "text": "\"I Am Gopichand\" is a book by which author?",
-                    "options": [
-                        "Pullela Gopichand",
-                        "P Hinduja",
-                        "Sachin Tendulkar",
-                        "Sania Mirza"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "P Hinduja authored \"I Am Gopichand.\""
-                },
-                {
-                    "text": "Which book among the following is authored by Salman Rushdie?",
-                    "options": [
-                        "The World After Gaza",
-                        "Knife",
-                        "My Beloved Life",
-                        "Orbital"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Salman Rushdie wrote \"Knife.\""
-                },
-                {
-                    "text": "Who is the author of \"Janta ki Kahani\"?",
-                    "options": [
-                        "Shri Bandaru Dattatreya",
-                        "Ram Nath Kovind",
-                        "Venkaiah Naidu",
-                        "Om Birla"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Shri Bandaru Dattatreya authored \"Janta ki Kahani.\""
-                },
-                {
-                    "text": "The book \"Ramanujan: Journey of a Great Mathematician\" is co-authored by Arun Singhal and whom?",
-                    "options": [
-                        "C. N. R. Rao",
-                        "Devendra Kumar Sharma",
-                        "V. Srinivas",
-                        "P. C. Mahalanobis"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Devendra Kumar Sharma co-authored the book."
-                },
-                {
-                    "text": "Which book is attributed to K. Arumugam?",
-                    "options": [
-                        "Life on Mars",
-                        "March of Glory",
-                        "PMO: Prime Minister’s Office",
-                        "The Kashmir Shawl"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "K. Arumugam authored \"March of Glory.\""
-                },
-                {
-                    "text": "The book \"Indian Renaissance: The Modi Decade\" is written by whom?",
-                    "options": [
-                        "Aishwarya Pandit",
-                        "S. Jaishankar",
-                        "Sanjeev Chopra",
-                        "Pankaj Mishra"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Aishwarya Pandit wrote this book."
-                },
-                {
-                    "text": "Who authored the book \"Dalai Lama: Secret to Happiness\"?",
-                    "options": [
-                        "Dr. Dinesh Shahra",
-                        "Amitava Kumar",
-                        "Kuldeep Gupta",
-                        "Bhim Singh"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Dr. Dinesh Shahra is the author."
-                },
-                {
-                    "text": "\"Ed Finds a Home\" is a book by which well-known personality?",
-                    "options": [
-                        "Priyanka Chopra",
-                        "Deepika Padukone",
-                        "Alia Bhatt",
-                        "Katrina Kaif"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Alia Bhatt authored \"Ed Finds a Home.\""
-                },
-                {
-                    "text": "Who is the author of \"A Different Kind of Power\"?",
-                    "options": [
-                        "Angela Merkel",
-                        "Jacinda Ardern",
-                        "Hillary Clinton",
-                        "Theresa May"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Jacinda Ardern wrote \"A Different Kind of Power.\""
-                },
-                {
-                    "text": "\"The Chief Minister and the Spy\" is a book written by whom?",
-                    "options": [
-                        "A. S. Dulat",
-                        "R. N. Kao",
-                        "Ajit Doval",
-                        "Vikram Sood"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "A. S. Dulat authored this book."
-                },
-                {
-                    "text": "Who co-authored \"Jamsetji Tata\"?",
-                    "options": [
-                        "R. Gopalakrishnan & Harish Bhatt",
-                        "Nandan Nilekani & Rohini Nilekani",
-                        "J. R. D. Tata & Ratan Tata",
-                        "Azim Premji & Shiv Nadar"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "R. Gopalakrishnan and Harish Bhatt co-authored the book."
-                }
-            ]
-
-            ,
+                "text": "The National Maritime Heritage Complex (NMHC) is being developed by which Ministry?",
+                "options": [
+                    "Ministry of Culture",
+                    "Ministry of Tourism",
+                    "Ministry of Ports, Shipping and Waterways",
+                    "Ministry of External Affairs"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The NMHC is being developed by the Ministry of Ports, Shipping and Waterways at Lothal, Gujarat."
+            },
+            {
+                "text": "Lothal, the site of the National Maritime Heritage Complex, dates back to approximately what period?",
+                "options": [
+                    "1500 BCE",
+                    "2000 BCE",
+                    "2600 BCE",
+                    "3000 BCE"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Lothal flourished as an Indus Valley site around 2600 BCE."
+            },
+            {
+                "text": "Who is credited with the discovery of the oldest known manmade dockyard at Lothal?",
+                "options": [
+                    "J. P. Joshi",
+                    "S. R. Rao",
+                    "John Marshall",
+                    "R. D. Banerji"
+                ],
+                "correctAnswer": 1,
+                "explanation": "S. R. Rao discovered Lothal in 1954, revealing the world's earliest known dockyard."
+            },
+            {
+                "text": "Dholavira, known for its unique water harvesting system, is located in which region?",
+                "options": [
+                    "Saurashtra",
+                    "Kutch",
+                    "Malwa",
+                    "Konkan"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dholavira is located on Khadir Bet island in the Kutch region of Gujarat."
+            },
+            {
+                "text": "Which of the following describes Dholavira's status among UNESCO World Heritage Sites?",
+                "options": [
+                    "39th UNESCO World Heritage Site",
+                    "40th UNESCO World Heritage Site",
+                    "41st UNESCO World Heritage Site",
+                    "42nd UNESCO World Heritage Site"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dholavira was inscribed as India's 40th UNESCO World Heritage Site."
+            },
+            {
+                "text": "The Maratha Military Landscapes of India, designated as India's 44th World Heritage Site, are spread across which states?",
+                "options": [
+                    "Maharashtra and Karnataka",
+                    "Maharashtra and Madhya Pradesh",
+                    "Maharashtra and Goa",
+                    "Maharashtra and Tamil Nadu"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Maratha Military Landscapes are spread across Maharashtra and Tamil Nadu (Gingee Fort)."
+            },
+            {
+                "text": "Which of the following forts is part of the Maratha Military Landscapes of India and is located in Tamil Nadu?",
+                "options": [
+                    "Salher",
+                    "Shivneri",
+                    "Gingee Fort",
+                    "Vijaydurg"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gingee Fort is the Maratha fort located in Tamil Nadu."
+            },
+            {
+                "text": "World Heritage Day is observed annually on what date?",
+                "options": [
+                    "22nd April",
+                    "18th April",
+                    "5th June",
+                    "10th December"
+                ],
+                "correctAnswer": 1,
+                "explanation": "World Heritage Day is celebrated worldwide on 18th April annually."
+            },
+            {
+                "text": "What is the theme for World Heritage Day 2025?",
+                "options": [
+                    "Sustainable Heritage for Future Generations",
+                    "Heritage and Climate Change: A Global Challenge",
+                    "Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions",
+                    "Preserving Our Shared Cultural Heritage"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The 2025 theme is 'Heritage and Threat from Disasters and Conflicts: Preparedness and Learning from 60 years of ICOMOS Actions.'"
+            },
+            {
+                "text": "In which year was the World Heritage Convention adopted by UNESCO?",
+                "options": [
+                    "1968",
+                    "1970",
+                    "1972",
+                    "1975"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The World Heritage Convention was adopted by UNESCO in 1972."
+            },
+            {
+                "text": "What is India's global ranking for the number of World Heritage Sites?",
+                "options": [
+                    "4th",
+                    "5th",
+                    "6th",
+                    "7th"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India ranks 6th globally in the number of World Heritage Sites."
+            },
+            {
+                "text": "How many nations have ratified the World Heritage Convention, 1972?",
+                "options": [
+                    "180",
+                    "190",
+                    "196",
+                    "200"
+                ],
+                "correctAnswer": 2,
+                "explanation": "As of now, 196 nations have ratified the convention."
+            },
+            {
+                "text": "Which site was inscribed as India's 43rd World Heritage Site?",
+                "options": [
+                    "Great Living Chola Temples",
+                    "Group of Monuments at Hampi",
+                    "Moidams of Charaideo, Assam",
+                    "Kakatiya Rudreshwara (Ramappa) Temple"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Moidams of Charaideo, Assam, was inscribed as the 43rd site."
+            },
+            {
+                "text": "Which of the following was among the first sites from India inscribed in the World Heritage List in 1983?",
+                "options": [
+                    "Qutb Minar",
+                    "Humayun's Tomb",
+                    "Ajanta Caves",
+                    "Red Fort Complex"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ajanta Caves were among the first Indian sites inscribed in 1983."
+            },
+            {
+                "text": "How many sites are currently on India's Tentative List for World Heritage status?",
+                "options": [
+                    "50",
+                    "55",
+                    "60",
+                    "62"
+                ],
+                "correctAnswer": 3,
+                "explanation": "India currently has 62 sites on its Tentative List."
+            },
+            {
+                "text": "Where was the 46th World Heritage Committee Meeting held?",
+                "options": [
+                    "Paris, France",
+                    "Delhi, India",
+                    "Beijing, China",
+                    "Rome, Italy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The 46th meeting was held in Delhi, India."
+            },
+            {
+                "text": "Who is the current Director-General of UNESCO?",
+                "options": [
+                    "Antonio Guterres",
+                    "Tedros Adhanom Ghebreyesus",
+                    "Audrey Azoulay",
+                    "Kristalina Georgieva"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Audrey Azoulay is the current Director-General of UNESCO."
+            },
+            {
+                "text": "Who was appointed as the 10th President of the International Olympic Committee (IOC)?",
+                "options": [
+                    "Thomas Bach",
+                    "Kirsty Coventry",
+                    "Gianni Infantino",
+                    "Sepp Blatter"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kirsty Coventry was appointed as the 10th IOC President."
+            },
+            {
+                "text": "Kirsty Coventry is the first female and first African to hold the post of IOC President. In which sport is she a two-time Olympic gold medallist?",
+                "options": [
+                    "Athletics",
+                    "Gymnastics",
+                    "Swimming",
+                    "Rowing"
+                ],
+                "correctAnswer": 2,
+                "explanation": "She is a two-time Olympic gold medallist in swimming."
+            },
+            {
+                "text": "Who is the current Chairman of the Indian Olympic Association?",
+                "options": [
+                    "Anurag Thakur",
+                    "Narinder Batra",
+                    "PT Usha",
+                    "Abhinav Bindra"
+                ],
+                "correctAnswer": 2,
+                "explanation": "PT Usha is the current Chairman of the Indian Olympic Association."
+            },
+            {
+                "text": "Who currently holds the position of ICC Chairman?",
+                "options": [
+                    "Greg Barclay",
+                    "Sourav Ganguly",
+                    "Jay Shah",
+                    "Geoff Allardice"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Jay Shah is the current ICC Chairman."
+            },
+            {
+                "text": "The 2026 Winter Olympics are scheduled to be held in which city?",
+                "options": [
+                    "Beijing, China",
+                    "Vancouver, Canada",
+                    "Milan-Cortina, Italy",
+                    "Pyeongchang, South Korea"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The 2026 Winter Olympics will be held in Milan-Cortina, Italy."
+            },
+            {
+                "text": "Who was elected as the President of the 80th UN General Assembly session?",
+                "options": [
+                    "Annalena Baerbock",
+                    "António Guterres",
+                    "Volkan Bozkir",
+                    "Abdullah Shahid"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Annalena Baerbock was elected President of the 80th UNGA session."
+            },
+            {
+                "text": "Shaikha Al-Nowais has been appointed as the Secretary-General of which international organization?",
+                "options": [
+                    "UN Children's Fund (UNICEF)",
+                    "UN World Tourism Organization (UNWTO)",
+                    "World Health Organization (WHO)",
+                    "International Monetary Fund (IMF)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Shaikha Al-Nowais is Secretary-General of the UNWTO."
+            },
+            {
+                "text": "Shaikha Al-Nowais is the first woman globally and the first from which country to hold the post of UNWTO Secretary-General?",
+                "options": [
+                    "Qatar",
+                    "Saudi Arabia",
+                    "United Arab Emirates",
+                    "Bahrain"
+                ],
+                "correctAnswer": 2,
+                "explanation": "She is the first woman and the first from UAE to hold this post."
+            },
+            {
+                "text": "Dhudmaras, a village selected by the UNWTO for its Best Tourism Village Upgrade programme, is situated in which state of India?",
+                "options": [
+                    "Odisha",
+                    "Madhya Pradesh",
+                    "Chhattisgarh",
+                    "Jharkhand"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dhudmaras is located in Chhattisgarh."
+            },
+            {
+                "text": "Dhudmaras village is located in the heart of which National Park?",
+                "options": [
+                    "Indravati National Park",
+                    "Guru Ghasidas National Park",
+                    "Kanger Valley National Park",
+                    "Sanjay National Park"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It lies within the Kanger Valley National Park."
+            },
+            {
+                "text": "Who was appointed as the 7th Secretary-General of the Commonwealth?",
+                "options": [
+                    "Patricia Scotland",
+                    "Kamalesh Sharma",
+                    "Shirley Ayorkor Botchwey",
+                    "Emeka Anyaoku"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Shirley Ayorkor Botchwey is the 7th Secretary-General."
+            },
+            {
+                "text": "Which two countries were the last to join the Commonwealth in 2022?",
+                "options": [
+                    "Rwanda and Mozambique",
+                    "Gambia and Maldives",
+                    "Gabon and Togo",
+                    "Samoa and Vanuatu"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gabon and Togo joined the Commonwealth in 2022."
+            },
+            {
+                "text": "Which is the smallest member country of the Commonwealth of Nations by area/population?",
+                "options": [
+                    "Tuvalu",
+                    "Nauru",
+                    "San Marino",
+                    "Monaco"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Nauru is the smallest member of the Commonwealth."
+            },
+            {
+                "text": "India secured the historic mandate for the Presidency of the International Institute of Administrative Sciences (IIAS) for which period?",
+                "options": [
+                    "2024-2027",
+                    "2025-2028",
+                    "2026-2029",
+                    "2027-2030"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India was elected IIAS President for 2025-2028."
+            },
+            {
+                "text": "The election to the post of IIAS President was held by ballot process for the first time in how many years of the institution's history?",
+                "options": [
+                    "50 years",
+                    "75 years",
+                    "100 years",
+                    "125 years"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The ballot election was a first in 100 years of IIAS history."
+            },
+            {
+                "text": "As per the UK-Mauritius treaty concerning the Chagos Islands, what is the annual payment by the UK to Mauritius?",
+                "options": [
+                    "$100 million",
+                    "$120 million",
+                    "$136 million",
+                    "$150 million"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The UK pays Mauritius $136 million annually under the treaty."
+            },
+            {
+                "text": "The UK will lease the Chagos Islands from Mauritius for how many years as per the treaty?",
+                "options": [
+                    "50 years",
+                    "75 years",
+                    "99 years",
+                    "100 years"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Lease duration for Chagos Islands is 99 years."
+            },
+            {
+                "text": "The US Military Base is located on which island within the Chagos Archipelago?",
+                "options": [
+                    "Peros Banhos",
+                    "Salomon Islands",
+                    "Diego Garcia",
+                    "Great Chagos Bank"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Diego Garcia hosts the US military base."
+            },
+            {
+                "text": "Which country is noted as the first to adopt India's Jan Aushadhi Scheme?",
+                "options": [
+                    "Sri Lanka",
+                    "Bangladesh",
+                    "Nepal",
+                    "Mauritius"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Mauritius was the first country to adopt the scheme."
+            },
+            {
+                "text": "Who is the author of the autobiography titled \"Diyasalai\"?",
+                "options": [
+                    "Kailash Satyarthi",
+                    "Arun Shourie",
+                    "Deepa Malik",
+                    "Amitabh Kant"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kailash Satyarthi authored \"Diyasalai.\""
+            },
+            {
+                "text": "The book \"Why Bharat Matters\" is authored by whom?",
+                "options": [
+                    "P. Chidambaram",
+                    "S. Jaishankar",
+                    "Nirmala Sitharaman",
+                    "Amit Shah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "S. Jaishankar wrote \"Why Bharat Matters.\""
+            },
+            {
+                "text": "Who wrote the book \"How India Scaled Mt G20: The Inside Story of the G20 Presidency\"?",
+                "options": [
+                    "Shashi Tharoor",
+                    "Amitabh Kant",
+                    "Arvind Subramanian",
+                    "Raghuram Rajan"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Amitabh Kant is the author."
+            },
+            {
+                "text": "\"I Am Gopichand\" is a book by which author?",
+                "options": [
+                    "Pullela Gopichand",
+                    "P Hinduja",
+                    "Sachin Tendulkar",
+                    "Sania Mirza"
+                ],
+                "correctAnswer": 1,
+                "explanation": "P Hinduja authored \"I Am Gopichand.\""
+            },
+            {
+                "text": "Which book among the following is authored by Salman Rushdie?",
+                "options": [
+                    "The World After Gaza",
+                    "Knife",
+                    "My Beloved Life",
+                    "Orbital"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Salman Rushdie wrote \"Knife.\""
+            },
+            {
+                "text": "Who is the author of \"Janta ki Kahani\"?",
+                "options": [
+                    "Shri Bandaru Dattatreya",
+                    "Ram Nath Kovind",
+                    "Venkaiah Naidu",
+                    "Om Birla"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Shri Bandaru Dattatreya authored \"Janta ki Kahani.\""
+            },
+            {
+                "text": "The book \"Ramanujan: Journey of a Great Mathematician\" is co-authored by Arun Singhal and whom?",
+                "options": [
+                    "C. N. R. Rao",
+                    "Devendra Kumar Sharma",
+                    "V. Srinivas",
+                    "P. C. Mahalanobis"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Devendra Kumar Sharma co-authored the book."
+            },
+            {
+                "text": "Which book is attributed to K. Arumugam?",
+                "options": [
+                    "Life on Mars",
+                    "March of Glory",
+                    "PMO: Prime Minister’s Office",
+                    "The Kashmir Shawl"
+                ],
+                "correctAnswer": 1,
+                "explanation": "K. Arumugam authored \"March of Glory.\""
+            },
+            {
+                "text": "The book \"Indian Renaissance: The Modi Decade\" is written by whom?",
+                "options": [
+                    "Aishwarya Pandit",
+                    "S. Jaishankar",
+                    "Sanjeev Chopra",
+                    "Pankaj Mishra"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Aishwarya Pandit wrote this book."
+            },
+            {
+                "text": "Who authored the book \"Dalai Lama: Secret to Happiness\"?",
+                "options": [
+                    "Dr. Dinesh Shahra",
+                    "Amitava Kumar",
+                    "Kuldeep Gupta",
+                    "Bhim Singh"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Dr. Dinesh Shahra is the author."
+            },
+            {
+                "text": "\"Ed Finds a Home\" is a book by which well-known personality?",
+                "options": [
+                    "Priyanka Chopra",
+                    "Deepika Padukone",
+                    "Alia Bhatt",
+                    "Katrina Kaif"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Alia Bhatt authored \"Ed Finds a Home.\""
+            },
+            {
+                "text": "Who is the author of \"A Different Kind of Power\"?",
+                "options": [
+                    "Angela Merkel",
+                    "Jacinda Ardern",
+                    "Hillary Clinton",
+                    "Theresa May"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Jacinda Ardern wrote \"A Different Kind of Power.\""
+            },
+            {
+                "text": "\"The Chief Minister and the Spy\" is a book written by whom?",
+                "options": [
+                    "A. S. Dulat",
+                    "R. N. Kao",
+                    "Ajit Doval",
+                    "Vikram Sood"
+                ],
+                "correctAnswer": 0,
+                "explanation": "A. S. Dulat authored this book."
+            },
+            {
+                "text": "Who co-authored \"Jamsetji Tata\"?",
+                "options": [
+                    "R. Gopalakrishnan & Harish Bhatt",
+                    "Nandan Nilekani & Rohini Nilekani",
+                    "J. R. D. Tata & Ratan Tata",
+                    "Azim Premji & Shiv Nadar"
+                ],
+                "correctAnswer": 0,
+                "explanation": "R. Gopalakrishnan and Harish Bhatt co-authored the book."
+            }
+        ],
         "Current Affairs - Set - 4": [{
-                    "text": "The G7 group was formed as an outcome of which significant global event?",
-                    "options": [
-                        "The collapse of the Soviet Union",
-                        "The 1973 Oil Crisis",
-                        "The Asian Financial Crisis of 1997",
-                        "The establishment of the World Trade Organization"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The G7 was created in response to the 1973 Oil Crisis to discuss economic and energy policies among major advanced economies."
-                },
-                {
-                    "text": "Which of the following countries is NOT a member of the G7 group?",
-                    "options": [
-                        "Japan",
-                        "Germany",
-                        "Italy",
-                        "Russia"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Russia is not a G7 member. It was a G8 member until its suspension in 2014."
-                },
-                {
-                    "text": "The 51st G7 summit in 2025 is scheduled to be held in which location?",
-                    "options": [
-                        "Kananaskis, Canada",
-                        "Paris, France",
-                        "Berlin, Germany",
-                        "London, The UK"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The 51st G7 summit in 2025 is scheduled for Kananaskis, Canada."
-                },
-                {
-                    "text": "The 8th Indian Ocean Conference was held in which city?",
-                    "options": [
-                        "Dhaka, Bangladesh",
-                        "Muscat, Oman",
-                        "Colombo, Sri Lanka",
-                        "New Delhi, India"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The 8th Indian Ocean Conference was held in Muscat, Oman."
-                },
-                {
-                    "text": "What was the theme of the 8th Indian Ocean Conference?",
-                    "options": [
-                        "Sustainable Maritime Development",
-                        "Blue Economy for a Prosperous Future",
-                        "Voyage to new horizons of maritime partnership",
-                        "Maritime Security and Cooperation"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The conference's theme was ‘Voyage to new horizons of maritime partnership’."
-                },
-                {
-                    "text": "The ASEAN organisation was established under which declaration?",
-                    "options": [
-                        "Manila Declaration",
-                        "Bangkok Declaration",
-                        "Jakarta Declaration",
-                        "Singapore Declaration"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ASEAN was founded under the Bangkok Declaration in 1967."
-                },
-                {
-                    "text": "The headquarters of ASEAN is located in which city?",
-                    "options": [
-                        "Vientiane, Laos",
-                        "Kuala Lumpur, Malaysia",
-                        "Jakarta, Indonesia",
-                        "Singapore City, Singapore"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ASEAN is headquartered in Jakarta, Indonesia."
-                },
-                {
-                    "text": "How many member countries are part of ASEAN?",
-                    "options": [
-                        "7",
-                        "8",
-                        "10",
-                        "12"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ASEAN currently has 10 member states."
-                },
-                {
-                    "text": "Which of the following statements accurately describes India's relationship with ASEAN?",
-                    "options": [
-                        "India is a permanent member of ASEAN.",
-                        "India is the largest trade partner of ASEAN.",
-                        "India uses ASEAN as a platform to counter China in the region.",
-                        "India's engagement with ASEAN is limited to cultural exchange."
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India leverages its ties with ASEAN to strengthen its regional presence and counterbalance China."
-                },
-                {
-                    "text": "Mount Semeru, an active volcano, is located in which country?",
-                    "options": [
-                        "Philippines",
-                        "Indonesia",
-                        "Japan",
-                        "Malaysia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Mount Semeru is an active volcano on the island of Java, Indonesia."
-                },
-                {
-                    "text": "Mount Semeru is famously known by which nickname?",
-                    "options": [
-                        "The Fire Mountain",
-                        "The Sleeping Giant",
-                        "The Great Mountain",
-                        "The Sacred Peak"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is popularly known as 'The Great Mountain' (Gunung Mahameru)."
-                },
-                {
-                    "text": "Which country recently became the first European nation to join the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
-                    "options": [
-                        "France",
-                        "Germany",
-                        "United Kingdom",
-                        "Spain"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The United Kingdom became the first European country to join the CPTPP."
-                },
-                {
-                    "text": "Which two countries are notable absentees from the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
-                    "options": [
-                        "China and Russia",
-                        "India and USA",
-                        "Australia and New Zealand",
-                        "Canada and Mexico"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India and USA are not members of CPTPP."
-                },
-                {
-                    "text": "When was the G20 established?",
-                    "options": [
-                        "1975",
-                        "1989",
-                        "1999",
-                        "2003"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The G20 was established in 1999 after the Asian financial crisis."
-                },
-                {
-                    "text": "The African Union (AU) became a member of the G20 in which year?",
-                    "options": [
-                        "2022",
-                        "2023",
-                        "2024",
-                        "2021"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The AU became a member of the G20 in 2023."
-                },
-                {
-                    "text": "The 2024 G20 Summit is scheduled to be held in which country?",
-                    "options": [
-                        "South Africa",
-                        "Brazil",
-                        "India",
-                        "Indonesia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The 2024 G20 Summit is set to be held in Brazil."
-                },
-                {
-                    "text": "What is the theme for the 2025 G20 Summit in South Africa?",
-                    "options": [
-                        "Building a Just World and a Sustainable Planet",
-                        "One Earth, One Family, One Future",
-                        "Solidarity, Equality, Sustainability",
-                        "Inclusive Growth and Sustainable Development"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The official theme for the G20 South Africa 2025 is 'Solidarity, Equality, Sustainability'."
-                },
-                {
-                    "text": "Which country made the African Union (AU) a permanent member of the G20 during its 2023 summit?",
-                    "options": [
-                        "Brazil",
-                        "South Africa",
-                        "India",
-                        "Indonesia"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India, as the 2023 G20 host, helped make AU a permanent member."
-                },
-                {
-                    "text": "The G20 represents approximately what percentage of global GDP?",
-                    "options": [
-                        "60%",
-                        "70%",
-                        "75%",
-                        "85%"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "G20 economies represent around 85% of the world's GDP."
-                },
-                {
-                    "text": "The headquarters of the G20 is located in which city?",
-                    "options": [
-                        "Washington D.C., USA",
-                        "Brussels, Belgium",
-                        "Addis Ababa, Ethiopia",
-                        "Geneva, Switzerland"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The G20 does not have a permanent secretariat, but organizers are linked with Addis Ababa in the answer key context."
-                },
-                {
-                    "text": "The 6th BIMSTEC Summit in 2025 is scheduled to be held in which city?",
-                    "options": [
-                        "Dhaka, Bangladesh",
-                        "Bangkok, Thailand",
-                        "Colombo, Sri Lanka",
-                        "Kathmandu, Nepal"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bangkok, Thailand, will host the 6th BIMSTEC Summit in 2025."
-                },
-                {
-                    "text": "Which country assumed the Chairmanship of BIMSTEC in April 2025?",
-                    "options": [
-                        "India",
-                        "Thailand",
-                        "Bangladesh",
-                        "Myanmar"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bangladesh assumed the BIMSTEC Chairmanship in April 2025."
-                },
-                {
-                    "text": "Which of the following countries is NOT a member of BIMSTEC?",
-                    "options": [
-                        "Bhutan",
-                        "Nepal",
-                        "Pakistan",
-                        "Sri Lanka"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Pakistan is not a member of BIMSTEC."
-                },
-                {
-                    "text": "The term BRICS was coined by Jim O'Neill in which year?",
-                    "options": [
-                        "1999",
-                        "2001",
-                        "2005",
-                        "2008"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The acronym BRICS was coined in 2001 by Jim O'Neill."
-                },
-                {
-                    "text": "Which country was a recent member to join the BRICS group, increasing its total membership?",
-                    "options": [
-                        "Vietnam",
-                        "Indonesia",
-                        "Argentina",
-                        "Turkey"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Indonesia became a recent new member of BRICS in 2024."
-                },
-                {
-                    "text": "Which of the following countries became a new member of BRICS in 2024?",
-                    "options": [
-                        "Malaysia",
-                        "South Korea",
-                        "United Arab Emirates (UAE)",
-                        "Mexico"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "UAE joined BRICS as a new member in 2024."
-                },
-                {
-                    "text": "The New Development Bank (BRICS Bank) was established in which year?",
-                    "options": [
-                        "2010",
-                        "2013",
-                        "2015",
-                        "2018"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The New Development Bank was established in 2015."
-                },
-                {
-                    "text": "Who is currently leading the New Development Bank (BRICS Bank)?",
-                    "options": [
-                        "Christine Lagarde",
-                        "Ngozi Okonjo-Iweala",
-                        "Dilma Rousseff",
-                        "Kristalina Georgieva"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Former Brazilian President Dilma Rousseff currently heads the New Development Bank."
-                },
-                {
-                    "text": "The SCO-Shanghai Cooperation Organisation Defence Ministers' Meeting 2025 will be held in which city?",
-                    "options": [
-                        "Beijing, China",
-                        "New Delhi, India",
-                        "Qingdao, China",
-                        "Moscow, Russia"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The 2025 SCO Defence Ministers' Meeting will be held in Qingdao, China."
-                },
-                {
-                    "text": "Which country recently became the 10th member of the Shanghai Cooperation Organisation (SCO)?",
-                    "options": [
-                        "Afghanistan",
-                        "Iran",
-                        "Belarus",
-                        "Mongolia"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Belarus became the 10th member of the SCO."
-                },
-                {
-                    "text": "The International Big Cat Alliance (IBCA) was launched by which country?",
-                    "options": [
-                        "South Africa",
-                        "India",
-                        "Brazil",
-                        "Russia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India launched the International Big Cat Alliance."
-                },
-                {
-                    "text": "The headquarters of the International Big Cat Alliance (IBCA) is located in which city?",
-                    "options": [
-                        "Nairobi, Kenya",
-                        "New Delhi, India",
-                        "Pretoria, South Africa",
-                        "Kathmandu, Nepal"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The headquarters of IBCA is in New Delhi, India."
-                },
-                {
-                    "text": "Which of the following cities hosted the National Conference on Good Governance?",
-                    "options": [
-                        "Jaisalmer, Rajasthan",
-                        "Gandhinagar, Gujarat",
-                        "Delhi",
-                        "Singapore"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Gandhinagar, Gujarat, hosted the National Conference on Good Governance."
-                },
-                {
-                    "text": "The 55th GST Council Meeting was held in which city?",
-                    "options": [
-                        "Jaisalmer, Rajasthan",
-                        "Gandhinagar, Gujarat",
-                        "New Delhi",
-                        "Bengaluru, Karnataka"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The 55th GST Council Meeting was held in Jaisalmer, Rajasthan."
-                },
-                {
-                    "text": "The Shangri-La Dialogue is held annually in which country?",
-                    "options": [
-                        "India",
-                        "Singapore",
-                        "Japan",
-                        "Australia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Singapore hosts the annual Shangri-La Dialogue."
-                },
-                {
-                    "text": "The COP 16 of the UN Convention on Desertification (UNCCD) was held in which city?",
-                    "options": [
-                        "Riyadh, Saudi Arabia",
-                        "Cali, Cambodia",
-                        "Armenia",
-                        "Geneva, Switzerland"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "UNCCD COP16 was held in Riyadh, Saudi Arabia."
-                },
-                {
-                    "text": "What is the primary purpose of the Great Green Wall Initiative?",
-                    "options": [
-                        "To develop renewable energy sources across Africa",
-                        "To combat desertification and increase arable land in the Sahel region",
-                        "To promote tourism in the Sahara Desert",
-                        "To establish a new trade route across Africa"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Its main objective is to halt desertification and restore degraded landscapes in the Sahel."
-                },
-                {
-                    "text": "The Cali fund, created during COP 16 CBD, is to be managed by which organizations?",
-                    "options": [
-                        "World Bank and IMF",
-                        "UNDP and UNEP",
-                        "WTO and UNESCO",
-                        "FAO and WHO"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The fund will be managed by UNDP and UNEP."
-                },
-                {
-                    "text": "The World Sustainable Development Summit 2025 is scheduled to be held in which city?",
-                    "options": [
-                        "Mumbai",
-                        "Bengaluru",
-                        "Hyderabad",
-                        "Delhi"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Delhi is set to host the World Sustainable Development Summit 2025."
-                },
-                {
-                    "text": "The Raisina Dialogue is a joint initiative of which two entities?",
-                    "options": [
-                        "NITI Aayog and FICCI",
-                        "Ministry of External Affairs (MEA) and Observer Research Foundation (ORF)",
-                        "Ministry of Defence and IDSA",
-                        "Ministry of Finance and CII"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Raisina Dialogue is co-hosted by MEA and ORF."
-                },
-                {
-                    "text": "Who was the Chief Guest for the 2025 edition of the Raisina Dialogue?",
-                    "options": [
-                        "Narendra Modi",
-                        "Joe Biden",
-                        "Christopher Luxon",
-                        "Emmanuel Macron"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Christopher Luxon, New Zealand's PM, was the chief guest in 2025."
-                },
-                {
-                    "text": "Which organisation publishes the Global Liveability Index?",
-                    "options": [
-                        "World Economic Forum (WEF)",
-                        "Economist Intelligence Unit (EIU)",
-                        "United Nations Development Programme (UNDP)",
-                        "Institute for Economics & Peace"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Economist Intelligence Unit (EIU) publishes the Global Liveability Index."
-                },
-                {
-                    "text": "In the Global Liveability Index 2025, which city was ranked as the best city?",
-                    "options": [
-                        "Vienna, Austria",
-                        "Zurich, Switzerland",
-                        "Copenhagen, Denmark",
-                        "Vancouver, Canada"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Copenhagen, Denmark, topped the Global Liveability Index 2025."
-                },
-                {
-                    "text": "According to the Global Terrorism Index 2025, which country ranks first in terms of impact from terrorism?",
-                    "options": [
-                        "Afghanistan",
-                        "Syria",
-                        "Burkina Faso",
-                        "Iraq"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Burkina Faso ranks first for terrorism impact in the Global Terrorism Index 2025."
-                },
-                {
-                    "text": "What is India's rank in the Global Innovation Index 2024?",
-                    "options": [
-                        "39",
-                        "42",
-                        "45",
-                        "51"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "India's rank in the Global Innovation Index 2024 is 39."
-                },
-                {
-                    "text": "According to SIPRI 2025, which country is the largest exporter of arms?",
-                    "options": [
-                        "Russia",
-                        "France",
-                        "China",
-                        "USA"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The USA remains the largest global arms exporter as per SIPRI 2025."
-                },
-                {
-                    "text": "In the Corruption Perception Index 2024, which country was ranked as the top performer?",
-                    "options": [
-                        "New Zealand",
-                        "Denmark",
-                        "Singapore",
-                        "Finland"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Denmark ranked first in the 2024 Corruption Perception Index."
-                },
-                {
-                    "text": "What is India's rank in the World Happiness Report 2025?",
-                    "options": [
-                        "112",
-                        "118",
-                        "125",
-                        "130"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India stands at 118th position in the World Happiness Report 2025."
-                },
-                {
-                    "text": "The Global Hunger Index (GHI) 2024 is released by which two organizations?",
-                    "options": [
-                        "UNICEF and WHO",
-                        "World Food Programme (WFP) and FAO",
-                        "Concern Worldwide and Welt Hunger Hilfe",
-                        "Oxfam and Save the Children"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "GHI 2024 is released by Concern Worldwide and Welt Hunger Hilfe."
-                },
-                {
-                    "text": "What is India's rank in the Global Peace Index 2025?",
-                    "options": [
-                        "108",
-                        "110",
-                        "115",
-                        "120"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India ranked 115th in the Global Peace Index 2025."
-                }
-            ]
-
-            ,
+                "text": "The G7 group was formed as an outcome of which significant global event?",
+                "options": [
+                    "The collapse of the Soviet Union",
+                    "The 1973 Oil Crisis",
+                    "The Asian Financial Crisis of 1997",
+                    "The establishment of the World Trade Organization"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The G7 was created in response to the 1973 Oil Crisis to discuss economic and energy policies among major advanced economies."
+            },
+            {
+                "text": "Which of the following countries is NOT a member of the G7 group?",
+                "options": [
+                    "Japan",
+                    "Germany",
+                    "Italy",
+                    "Russia"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Russia is not a G7 member. It was a G8 member until its suspension in 2014."
+            },
+            {
+                "text": "The 51st G7 summit in 2025 is scheduled to be held in which location?",
+                "options": [
+                    "Kananaskis, Canada",
+                    "Paris, France",
+                    "Berlin, Germany",
+                    "London, The UK"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The 51st G7 summit in 2025 is scheduled for Kananaskis, Canada."
+            },
+            {
+                "text": "The 8th Indian Ocean Conference was held in which city?",
+                "options": [
+                    "Dhaka, Bangladesh",
+                    "Muscat, Oman",
+                    "Colombo, Sri Lanka",
+                    "New Delhi, India"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The 8th Indian Ocean Conference was held in Muscat, Oman."
+            },
+            {
+                "text": "What was the theme of the 8th Indian Ocean Conference?",
+                "options": [
+                    "Sustainable Maritime Development",
+                    "Blue Economy for a Prosperous Future",
+                    "Voyage to new horizons of maritime partnership",
+                    "Maritime Security and Cooperation"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The conference's theme was ‘Voyage to new horizons of maritime partnership’."
+            },
+            {
+                "text": "The ASEAN organisation was established under which declaration?",
+                "options": [
+                    "Manila Declaration",
+                    "Bangkok Declaration",
+                    "Jakarta Declaration",
+                    "Singapore Declaration"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ASEAN was founded under the Bangkok Declaration in 1967."
+            },
+            {
+                "text": "The headquarters of ASEAN is located in which city?",
+                "options": [
+                    "Vientiane, Laos",
+                    "Kuala Lumpur, Malaysia",
+                    "Jakarta, Indonesia",
+                    "Singapore City, Singapore"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ASEAN is headquartered in Jakarta, Indonesia."
+            },
+            {
+                "text": "How many member countries are part of ASEAN?",
+                "options": [
+                    "7",
+                    "8",
+                    "10",
+                    "12"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ASEAN currently has 10 member states."
+            },
+            {
+                "text": "Which of the following statements accurately describes India's relationship with ASEAN?",
+                "options": [
+                    "India is a permanent member of ASEAN.",
+                    "India is the largest trade partner of ASEAN.",
+                    "India uses ASEAN as a platform to counter China in the region.",
+                    "India's engagement with ASEAN is limited to cultural exchange."
+                ],
+                "correctAnswer": 2,
+                "explanation": "India leverages its ties with ASEAN to strengthen its regional presence and counterbalance China."
+            },
+            {
+                "text": "Mount Semeru, an active volcano, is located in which country?",
+                "options": [
+                    "Philippines",
+                    "Indonesia",
+                    "Japan",
+                    "Malaysia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mount Semeru is an active volcano on the island of Java, Indonesia."
+            },
+            {
+                "text": "Mount Semeru is famously known by which nickname?",
+                "options": [
+                    "The Fire Mountain",
+                    "The Sleeping Giant",
+                    "The Great Mountain",
+                    "The Sacred Peak"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is popularly known as 'The Great Mountain' (Gunung Mahameru)."
+            },
+            {
+                "text": "Which country recently became the first European nation to join the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
+                "options": [
+                    "France",
+                    "Germany",
+                    "United Kingdom",
+                    "Spain"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The United Kingdom became the first European country to join the CPTPP."
+            },
+            {
+                "text": "Which two countries are notable absentees from the Comprehensive and Progressive Agreement for Trans-Pacific Partnership (CPTPP)?",
+                "options": [
+                    "China and Russia",
+                    "India and USA",
+                    "Australia and New Zealand",
+                    "Canada and Mexico"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India and USA are not members of CPTPP."
+            },
+            {
+                "text": "When was the G20 established?",
+                "options": [
+                    "1975",
+                    "1989",
+                    "1999",
+                    "2003"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The G20 was established in 1999 after the Asian financial crisis."
+            },
+            {
+                "text": "The African Union (AU) became a member of the G20 in which year?",
+                "options": [
+                    "2022",
+                    "2023",
+                    "2024",
+                    "2021"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The AU became a member of the G20 in 2023."
+            },
+            {
+                "text": "The 2024 G20 Summit is scheduled to be held in which country?",
+                "options": [
+                    "South Africa",
+                    "Brazil",
+                    "India",
+                    "Indonesia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The 2024 G20 Summit is set to be held in Brazil."
+            },
+            {
+                "text": "What is the theme for the 2025 G20 Summit in South Africa?",
+                "options": [
+                    "Building a Just World and a Sustainable Planet",
+                    "One Earth, One Family, One Future",
+                    "Solidarity, Equality, Sustainability",
+                    "Inclusive Growth and Sustainable Development"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The official theme for the G20 South Africa 2025 is 'Solidarity, Equality, Sustainability'."
+            },
+            {
+                "text": "Which country made the African Union (AU) a permanent member of the G20 during its 2023 summit?",
+                "options": [
+                    "Brazil",
+                    "South Africa",
+                    "India",
+                    "Indonesia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India, as the 2023 G20 host, helped make AU a permanent member."
+            },
+            {
+                "text": "The G20 represents approximately what percentage of global GDP?",
+                "options": [
+                    "60%",
+                    "70%",
+                    "75%",
+                    "85%"
+                ],
+                "correctAnswer": 3,
+                "explanation": "G20 economies represent around 85% of the world's GDP."
+            },
+            {
+                "text": "The headquarters of the G20 is located in which city?",
+                "options": [
+                    "Washington D.C., USA",
+                    "Brussels, Belgium",
+                    "Addis Ababa, Ethiopia",
+                    "Geneva, Switzerland"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The G20 does not have a permanent secretariat, but organizers are linked with Addis Ababa in the answer key context."
+            },
+            {
+                "text": "The 6th BIMSTEC Summit in 2025 is scheduled to be held in which city?",
+                "options": [
+                    "Dhaka, Bangladesh",
+                    "Bangkok, Thailand",
+                    "Colombo, Sri Lanka",
+                    "Kathmandu, Nepal"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bangkok, Thailand, will host the 6th BIMSTEC Summit in 2025."
+            },
+            {
+                "text": "Which country assumed the Chairmanship of BIMSTEC in April 2025?",
+                "options": [
+                    "India",
+                    "Thailand",
+                    "Bangladesh",
+                    "Myanmar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bangladesh assumed the BIMSTEC Chairmanship in April 2025."
+            },
+            {
+                "text": "Which of the following countries is NOT a member of BIMSTEC?",
+                "options": [
+                    "Bhutan",
+                    "Nepal",
+                    "Pakistan",
+                    "Sri Lanka"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pakistan is not a member of BIMSTEC."
+            },
+            {
+                "text": "The term BRICS was coined by Jim O'Neill in which year?",
+                "options": [
+                    "1999",
+                    "2001",
+                    "2005",
+                    "2008"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The acronym BRICS was coined in 2001 by Jim O'Neill."
+            },
+            {
+                "text": "Which country was a recent member to join the BRICS group, increasing its total membership?",
+                "options": [
+                    "Vietnam",
+                    "Indonesia",
+                    "Argentina",
+                    "Turkey"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Indonesia became a recent new member of BRICS in 2024."
+            },
+            {
+                "text": "Which of the following countries became a new member of BRICS in 2024?",
+                "options": [
+                    "Malaysia",
+                    "South Korea",
+                    "United Arab Emirates (UAE)",
+                    "Mexico"
+                ],
+                "correctAnswer": 2,
+                "explanation": "UAE joined BRICS as a new member in 2024."
+            },
+            {
+                "text": "The New Development Bank (BRICS Bank) was established in which year?",
+                "options": [
+                    "2010",
+                    "2013",
+                    "2015",
+                    "2018"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The New Development Bank was established in 2015."
+            },
+            {
+                "text": "Who is currently leading the New Development Bank (BRICS Bank)?",
+                "options": [
+                    "Christine Lagarde",
+                    "Ngozi Okonjo-Iweala",
+                    "Dilma Rousseff",
+                    "Kristalina Georgieva"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Former Brazilian President Dilma Rousseff currently heads the New Development Bank."
+            },
+            {
+                "text": "The SCO-Shanghai Cooperation Organisation Defence Ministers' Meeting 2025 will be held in which city?",
+                "options": [
+                    "Beijing, China",
+                    "New Delhi, India",
+                    "Qingdao, China",
+                    "Moscow, Russia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The 2025 SCO Defence Ministers' Meeting will be held in Qingdao, China."
+            },
+            {
+                "text": "Which country recently became the 10th member of the Shanghai Cooperation Organisation (SCO)?",
+                "options": [
+                    "Afghanistan",
+                    "Iran",
+                    "Belarus",
+                    "Mongolia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Belarus became the 10th member of the SCO."
+            },
+            {
+                "text": "The International Big Cat Alliance (IBCA) was launched by which country?",
+                "options": [
+                    "South Africa",
+                    "India",
+                    "Brazil",
+                    "Russia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India launched the International Big Cat Alliance."
+            },
+            {
+                "text": "The headquarters of the International Big Cat Alliance (IBCA) is located in which city?",
+                "options": [
+                    "Nairobi, Kenya",
+                    "New Delhi, India",
+                    "Pretoria, South Africa",
+                    "Kathmandu, Nepal"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The headquarters of IBCA is in New Delhi, India."
+            },
+            {
+                "text": "Which of the following cities hosted the National Conference on Good Governance?",
+                "options": [
+                    "Jaisalmer, Rajasthan",
+                    "Gandhinagar, Gujarat",
+                    "Delhi",
+                    "Singapore"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gandhinagar, Gujarat, hosted the National Conference on Good Governance."
+            },
+            {
+                "text": "The 55th GST Council Meeting was held in which city?",
+                "options": [
+                    "Jaisalmer, Rajasthan",
+                    "Gandhinagar, Gujarat",
+                    "New Delhi",
+                    "Bengaluru, Karnataka"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The 55th GST Council Meeting was held in Jaisalmer, Rajasthan."
+            },
+            {
+                "text": "The Shangri-La Dialogue is held annually in which country?",
+                "options": [
+                    "India",
+                    "Singapore",
+                    "Japan",
+                    "Australia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Singapore hosts the annual Shangri-La Dialogue."
+            },
+            {
+                "text": "The COP 16 of the UN Convention on Desertification (UNCCD) was held in which city?",
+                "options": [
+                    "Riyadh, Saudi Arabia",
+                    "Cali, Cambodia",
+                    "Armenia",
+                    "Geneva, Switzerland"
+                ],
+                "correctAnswer": 0,
+                "explanation": "UNCCD COP16 was held in Riyadh, Saudi Arabia."
+            },
+            {
+                "text": "What is the primary purpose of the Great Green Wall Initiative?",
+                "options": [
+                    "To develop renewable energy sources across Africa",
+                    "To combat desertification and increase arable land in the Sahel region",
+                    "To promote tourism in the Sahara Desert",
+                    "To establish a new trade route across Africa"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Its main objective is to halt desertification and restore degraded landscapes in the Sahel."
+            },
+            {
+                "text": "The Cali fund, created during COP 16 CBD, is to be managed by which organizations?",
+                "options": [
+                    "World Bank and IMF",
+                    "UNDP and UNEP",
+                    "WTO and UNESCO",
+                    "FAO and WHO"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The fund will be managed by UNDP and UNEP."
+            },
+            {
+                "text": "The World Sustainable Development Summit 2025 is scheduled to be held in which city?",
+                "options": [
+                    "Mumbai",
+                    "Bengaluru",
+                    "Hyderabad",
+                    "Delhi"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Delhi is set to host the World Sustainable Development Summit 2025."
+            },
+            {
+                "text": "The Raisina Dialogue is a joint initiative of which two entities?",
+                "options": [
+                    "NITI Aayog and FICCI",
+                    "Ministry of External Affairs (MEA) and Observer Research Foundation (ORF)",
+                    "Ministry of Defence and IDSA",
+                    "Ministry of Finance and CII"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Raisina Dialogue is co-hosted by MEA and ORF."
+            },
+            {
+                "text": "Who was the Chief Guest for the 2025 edition of the Raisina Dialogue?",
+                "options": [
+                    "Narendra Modi",
+                    "Joe Biden",
+                    "Christopher Luxon",
+                    "Emmanuel Macron"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Christopher Luxon, New Zealand's PM, was the chief guest in 2025."
+            },
+            {
+                "text": "Which organisation publishes the Global Liveability Index?",
+                "options": [
+                    "World Economic Forum (WEF)",
+                    "Economist Intelligence Unit (EIU)",
+                    "United Nations Development Programme (UNDP)",
+                    "Institute for Economics & Peace"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Economist Intelligence Unit (EIU) publishes the Global Liveability Index."
+            },
+            {
+                "text": "In the Global Liveability Index 2025, which city was ranked as the best city?",
+                "options": [
+                    "Vienna, Austria",
+                    "Zurich, Switzerland",
+                    "Copenhagen, Denmark",
+                    "Vancouver, Canada"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Copenhagen, Denmark, topped the Global Liveability Index 2025."
+            },
+            {
+                "text": "According to the Global Terrorism Index 2025, which country ranks first in terms of impact from terrorism?",
+                "options": [
+                    "Afghanistan",
+                    "Syria",
+                    "Burkina Faso",
+                    "Iraq"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Burkina Faso ranks first for terrorism impact in the Global Terrorism Index 2025."
+            },
+            {
+                "text": "What is India's rank in the Global Innovation Index 2024?",
+                "options": [
+                    "39",
+                    "42",
+                    "45",
+                    "51"
+                ],
+                "correctAnswer": 0,
+                "explanation": "India's rank in the Global Innovation Index 2024 is 39."
+            },
+            {
+                "text": "According to SIPRI 2025, which country is the largest exporter of arms?",
+                "options": [
+                    "Russia",
+                    "France",
+                    "China",
+                    "USA"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The USA remains the largest global arms exporter as per SIPRI 2025."
+            },
+            {
+                "text": "In the Corruption Perception Index 2024, which country was ranked as the top performer?",
+                "options": [
+                    "New Zealand",
+                    "Denmark",
+                    "Singapore",
+                    "Finland"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Denmark ranked first in the 2024 Corruption Perception Index."
+            },
+            {
+                "text": "What is India's rank in the World Happiness Report 2025?",
+                "options": [
+                    "112",
+                    "118",
+                    "125",
+                    "130"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India stands at 118th position in the World Happiness Report 2025."
+            },
+            {
+                "text": "The Global Hunger Index (GHI) 2024 is released by which two organizations?",
+                "options": [
+                    "UNICEF and WHO",
+                    "World Food Programme (WFP) and FAO",
+                    "Concern Worldwide and Welt Hunger Hilfe",
+                    "Oxfam and Save the Children"
+                ],
+                "correctAnswer": 2,
+                "explanation": "GHI 2024 is released by Concern Worldwide and Welt Hunger Hilfe."
+            },
+            {
+                "text": "What is India's rank in the Global Peace Index 2025?",
+                "options": [
+                    "108",
+                    "110",
+                    "115",
+                    "120"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India ranked 115th in the Global Peace Index 2025."
+            }
+        ],
         "Current Affairs - Set - 5": [{
-                    "text": "Which entities are responsible for publishing the Climate Change Performance Index (CCPI) 2025?",
-                    "options": [
-                        "United Nations Environment Programme (UNEP) and World Meteorological Organization (WMO)",
-                        "Germanwatch, New Climate Institute, and Climate Action Network",
-                        "United Nations Development Programme (UNDP) and Germanwatch",
-                        "Intergovernmental Panel on Climate Change (IPCC) and Climate Action Network"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The CCPI 2025 is published by Germanwatch, New Climate Institute, and Climate Action Network."
-                },
-                {
-                    "text": "In the Climate Change Performance Index (CCPI) 2025, which ranks were left vacant due to no country meeting the criteria?",
-                    "options": [
-                        "Top 5 ranks",
-                        "Top 3 ranks",
-                        "Ranks 1-10",
-                        "Only rank 1"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The top 3 ranks in the 2025 CCPI were left vacant as no country met all the criteria."
-                },
-                {
-                    "text": "What was India's official rank in the Climate Change Performance Index (CCPI) 2025?",
-                    "options": [
-                        "4th",
-                        "7th",
-                        "10th",
-                        "130th"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India was ranked 10th in the CCPI 2025."
-                },
-                {
-                    "text": "The Human Development Index (HDI) 2025 is published annually by which international organization?",
-                    "options": [
-                        "World Bank",
-                        "United Nations Development Programme (UNDP)",
-                        "International Monetary Fund (IMF)",
-                        "World Economic Forum (WEF)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The United Nations Development Programme (UNDP) publishes the HDI annually."
-                },
-                {
-                    "text": "India's rank in the Human Development Index (HDI) 2025 was 130 out of a total of how many countries?",
-                    "options": [
-                        "150",
-                        "175",
-                        "193",
-                        "200"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India's HDI rank in 2025 was 130 out of 193 countries."
-                },
-                {
-                    "text": "The 30th Conference of the Parties (COP 30) to the UNFCCC is scheduled to take place in which location?",
-                    "options": [
-                        "Baku, Azerbaijan",
-                        "Berlin, Germany",
-                        "Belem, Brazil",
-                        "Bonn, Germany"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "COP 30 UNFCCC will be held in Belem, Brazil."
-                },
-                {
-                    "text": "The genesis of the United Nations Framework Convention on Climate Change (UNFCCC) can be traced back to which foundational environmental summit?",
-                    "options": [
-                        "Kyoto Protocol (1997)",
-                        "Paris Agreement (2015)",
-                        "Rio Earth Summit (1992)",
-                        "Copenhagen Summit (2009)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The UNFCCC originated from the 1992 Rio Earth Summit."
-                },
-                {
-                    "text": "What city serves as the headquarters for the United Nations Framework Convention on Climate Change (UNFCCC)?",
-                    "options": [
-                        "Geneva, Switzerland",
-                        "Nairobi, Kenya",
-                        "Bonn, Germany",
-                        "New York, USA"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bonn, Germany is the headquarters of UNFCCC."
-                },
-                {
-                    "text": "The Intergovernmental Panel on Climate Change (IPCC) was established in 1988 by a collaborative effort between which two United Nations bodies?",
-                    "options": [
-                        "UNEP and UNDP",
-                        "UNEP and WMO",
-                        "FAO and UNESCO",
-                        "WHO and UNICEF"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "IPCC was established by UNEP and the World Meteorological Organization (WMO) in 1988."
-                },
-                {
-                    "text": "Which significant report is published by the United Nations Environment Programme (UNEP)?",
-                    "options": [
-                        "Global Environment Outlook",
-                        "Living Planet Report",
-                        "Adaptation Gap Report",
-                        "World Energy Outlook"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The Global Environment Outlook is a key report published by UNEP."
-                },
-                {
-                    "text": "The World Meteorological Organization (WMO) is responsible for releasing which of the following climate-related publications?",
-                    "options": [
-                        "State of the Global Climate report",
-                        "Greenhouse Gas Bulletin Report",
-                        "Global Climate Report",
-                        "Annual Climate Summary"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The WMO releases the Greenhouse Gas Bulletin Report."
-                },
-                {
-                    "text": "What is the classification of the World Meteorological Organization (WMO) within the United Nations system?",
-                    "options": [
-                        "A principal organ",
-                        "A subsidiary body",
-                        "A specialised agency",
-                        "An ad hoc committee"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "WMO is a specialised agency of the United Nations."
-                },
-                {
-                    "text": "Bharat Gen, recognised as India’s first AI Multimodal LLM, was launched by which Union Minister?",
-                    "options": [
-                        "Shri Rajnath Singh",
-                        "Dr. Jitendra Singh",
-                        "Smt. Nirmala Sitharaman",
-                        "Shri Amit Shah"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bharat Gen was launched by Dr. Jitendra Singh."
-                },
-                {
-                    "text": "Bharat Gen is supported by the Department of Science and Technology (DST) and is a part of which national mission?",
-                    "options": [
-                        "National Mission on Quantum Technologies and Applications",
-                        "National Mission on Interdisciplinary Cyber-Physical Systems",
-                        "National Digital Health Mission",
-                        "National Education Mission"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bharat Gen is part of the National Mission on Interdisciplinary Cyber-Physical Systems."
-                },
-                {
-                    "text": "A key feature of Bharat Gen is its ability to provide AI solutions in how many Indian languages?",
-                    "options": [
-                        "11",
-                        "16",
-                        "22",
-                        "24"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bharat Gen supports AI solutions in 22 Indian languages."
-                },
-                {
-                    "text": "AI-KOSHA, which provides the dataset for AI innovations like Bharat Gen, was launched by which ministry?",
-                    "options": [
-                        "Ministry of Home Affairs",
-                        "Ministry of Electronics & IT (MeitY)",
-                        "Ministry of Finance",
-                        "Ministry of Education"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "AI-KOSHA was launched by the Ministry of Electronics & IT (MeitY)."
-                },
-                {
-                    "text": "The startup 'SARVAM', based in Bangalore, was selected to achieve which significant indigenous technological development?",
-                    "options": [
-                        "Build India’s first quantum computer",
-                        "Develop an indigenous large language model",
-                        "Create India’s first gene-edited animal",
-                        "Design an indigenous electric aircraft"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SARVAM was selected to develop an indigenous large language model."
-                },
-                {
-                    "text": "Which text-to-speech model, supporting 11 Indian languages, was developed by the startup SARVAM?",
-                    "options": [
-                        "Vaani",
-                        "Bulbul",
-                        "Prabhat",
-                        "Dhwani"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bulbul is the text-to-speech model developed by SARVAM, supporting 11 languages."
-                },
-                {
-                    "text": "The PAIR Programme stands for:",
-                    "options": [
-                        "Partnerships for Advanced Indian Research",
-                        "Programme for Accelerating Innovation and Research",
-                        "Partnerships for Accelerated Innovation and Research",
-                        "Promoting Artificial Intelligence Research"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "PAIR means Partnerships for Accelerated Innovation and Research."
-                },
-                {
-                    "text": "The PAIR Programme is an initiative of which specific foundation, aimed at boosting research capabilities in Indian universities?",
-                    "options": [
-                        "Science and Engineering Research Board (SERB)",
-                        "Council of Scientific & Industrial Research (CSIR)",
-                        "Anusandhan National Research Foundation (ANRF)",
-                        "Department of Science & Technology (DST)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The PAIR Programme is an initiative of Anusandhan National Research Foundation (ANRF)."
-                },
-                {
-                    "text": "The SwaYaan Initiative, launched by MeitY, focuses on human resource development and capacity building in which emerging technological domain?",
-                    "options": [
-                        "Quantum Computing technologies",
-                        "Robotics and automation",
-                        "Unmanned Aircraft Systems (UAS), i.e., Drone & Allied Technologies",
-                        "Space exploration systems"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The SwaYaan Initiative is focused on Drones & Allied Technologies (UAS)."
-                },
-                {
-                    "text": "What is the primary objective of the Sansad Bhashini initiative?",
-                    "options": [
-                        "To provide parliamentary digital archives",
-                        "To facilitate AI-based translation and speech-to-text conversion for language technology services",
-                        "To develop a national parliamentary research portal",
-                        "To create a digital platform for public grievances"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Sansad Bhashini aims for language technology solutions including AI-based translation and speech-to-text."
-                },
-                {
-                    "text": "Where is India’s first AI Special Economic Zone (SEZ) being established?",
-                    "options": [
-                        "Bengaluru, Karnataka",
-                        "Hyderabad, Telangana",
-                        "Nava Raipur, Chhattisgarh",
-                        "Pune, Maharashtra"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The first AI SEZ is established at Nava Raipur, Chhattisgarh."
-                },
-                {
-                    "text": "India’s first Ayurvedic Diagnostic Device, Nadi Tarangini, measures health parameters based on which classical Ayurvedic principles?",
-                    "options": [
-                        "Sattva, Rajas, Tamas",
-                        "Rasa, Guna, Virya",
-                        "Vatta, Pitta, Kapha",
-                        "Agni, Ama, Mala"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The device measures according to the three doshas: Vatta, Pitta, Kapha."
-                },
-                {
-                    "text": "Which regulatory body in India provided approval for Nadi Tarangini, making it the first Ayurvedic medical device to receive such a clearance?",
-                    "options": [
-                        "Ministry of AYUSH",
-                        "Indian Council of Medical Research (ICMR)",
-                        "Central Drugs Standard Control Organization (CDSCO)",
-                        "National Accreditation Board for Testing and Calibration Laboratories (NABL)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "CDSCO provided approval for Nadi Tarangini as the first Ayurvedic device."
-                },
-                {
-                    "text": "The Nadi Tarangini device was developed by Dr. Aniruddha Joshi after extensive research at which institution?",
-                    "options": [
-                        "AIIMS Delhi",
-                        "IIT Bombay",
-                        "IISc Bangalore",
-                        "JIPMER Pondicherry"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Dr. Joshi developed the device after research at IIT Bombay."
-                },
-                {
-                    "text": "According to the information for 2025, which supercomputer is identified as the fastest globally?",
-                    "options": [
-                        "Fugaku (Japan)",
-                        "Frontier (USA)",
-                        "El Capitan (USA)",
-                        "Aurora (USA)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "El Capitan (USA) is the fastest supercomputer globally as of 2025."
-                },
-                {
-                    "text": "As of March 2025, how many supercomputers have been strategically deployed across various Indian academic institutions under the National Supercomputing Mission?",
-                    "options": [
-                        "20",
-                        "34",
-                        "45",
-                        "50"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "34 supercomputers have been deployed under the mission."
-                },
-                {
-                    "text": "Which Indian supercomputer secured the 75th rank globally as per ISC 2023 in the Top 500 Global Supercomputing List?",
-                    "options": [
-                        "Param Shivay",
-                        "Param Pravega",
-                        "AIRAWAT",
-                        "Pratyush"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "AIRAWAT ranked 75th in the Top 500 list as per ISC 2023."
-                },
-                {
-                    "text": "What is the standard performance metric used to measure the computational power of supercomputers?",
-                    "options": [
-                        "Bytes per second (Bps)",
-                        "Gigaflops (GFLOPS)",
-                        "Floating Point Operations Per Second (FLOPS)",
-                        "Instructions per second (IPS)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "FLOPS is the standard metric used in benchmarking supercomputers."
-                },
-                {
-                    "text": "India’s most powerful quantum computer, the Indus Quantum Computer, was developed by which startup based in Karnataka?",
-                    "options": [
-                        "TCS Quantum",
-                        "QpiAI",
-                        "HCLTech Quantum",
-                        "Wipro Quantum"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "QpiAI, based in Karnataka, developed the Indus Quantum Computer."
-                },
-                {
-                    "text": "The distinction of being India’s first quantum computing village goes to which location?",
-                    "options": [
-                        "Bengaluru, Karnataka",
-                        "Amravati, Andhra Pradesh",
-                        "Chennai, Tamil Nadu",
-                        "Pune, Maharashtra"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Amravati, Andhra Pradesh is designated as the first quantum computing village."
-                },
-                {
-                    "text": "Which global technology giant launched the 'Willow Chip', a quantum computing chip?",
-                    "options": [
-                        "Microsoft",
-                        "IBM",
-                        "Google",
-                        "Amazon"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Google launched the Willow Chip, a quantum computing chip."
-                },
-                {
-                    "text": "Which of the following is designated as the International Year of Quantum Science and Technology for 2025?",
-                    "options": [
-                        "2024",
-                        "2025",
-                        "2026",
-                        "2027"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The year 2025 is declared as the International Year of Quantum Science and Technology."
-                },
-                {
-                    "text": "Which of the following UN-designated International Years is NOT slated for 2026?",
-                    "options": [
-                        "International Year of Volunteers for Sustainable Development",
-                        "International Year of the Woman Farmer",
-                        "International Year of Peace and Trust",
-                        "International Year of Rangelands and Pastoralists"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "International Year of Peace and Trust is not slated for 2026."
-                },
-                {
-                    "text": "The vaccine named Biolumpivaxin, designed for protection against Lumpy Skin Disease, was developed by which pharmaceutical company?",
-                    "options": [
-                        "Serum Institute of India",
-                        "Bharat Biotech",
-                        "Panacea Biotec",
-                        "Zydus Cadila"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bharat Biotech developed Biolumpivaxin."
-                },
-                {
-                    "text": "India’s first gene-edited sheep was developed by researchers at which university?",
-                    "options": [
-                        "Indian Veterinary Research Institute (IVRI)",
-                        "National Dairy Research Institute (NDRI)",
-                        "Sher-e-Kashmir University of Agricultural Sciences (SKUAST)",
-                        "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "SKUAST (Sher-e-Kashmir University) created the first gene-edited sheep."
-                },
-                {
-                    "text": "The gene modified using CRISPR CAS9 technology in India’s first gene-edited sheep was responsible for controlling which biological aspect?",
-                    "options": [
-                        "Wool production",
-                        "Disease resistance",
-                        "Muscle mass",
-                        "Milk yield"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The gene edited was responsible for muscle mass."
-                },
-                {
-                    "text": "The Long Range Glide Bomb (GAURAV), developed by DRDO, has an operational range of approximately what distance?",
-                    "options": [
-                        "50 km",
-                        "75 km",
-                        "100 km",
-                        "120 km"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The GAURAV bomb has an operational range of about 100 km."
-                },
-                {
-                    "text": "Who currently holds the position of DRDO Chief?",
-                    "options": [
-                        "Dr. V. K. Saraswat",
-                        "Dr. G. Satheesh Reddy",
-                        "Dr. Samir V. Kamat",
-                        "Dr. A. P. J. Abdul Kalam"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Dr. Samir V. Kamat is the current DRDO Chief."
-                },
-                {
-                    "text": "The Global Conference on Space was recently hosted in which major Indian city?",
-                    "options": [
-                        "Bengaluru",
-                        "Hyderabad",
-                        "Delhi",
-                        "Chennai"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Delhi hosted the recent Global Conference on Space."
-                },
-                {
-                    "text": "The European Space Agency’s (ESA) Biomass Mission, set for 2025, primarily aims to achieve which scientific objective?",
-                    "options": [
-                        "To map polar ice caps",
-                        "To measure ocean temperatures globally",
-                        "To map the world’s forests and provide global measurement of forest biomass",
-                        "To track asteroid movements"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ESA's Biomass Mission will map the world's forests and measure global biomass."
-                },
-                {
-                    "text": "The NASA Lunar Trailblazer Mission, launched in February 2025, has the specific objective of orbiting the Moon to detect and map what?",
-                    "options": [
-                        "Lunar craters",
-                        "Subsurface ice",
-                        "Water on its surface",
-                        "Volcanic activity"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Lunar Trailblazer is designed to detect and map lunar surface water."
-                },
-                {
-                    "text": "What was the central objective of the ESA’s Gaia Mission, which concluded its operations on 27 March 2025?",
-                    "options": [
-                        "To study exoplanets",
-                        "To map and take pictures of the Milky Way Galaxy/universe",
-                        "To observe solar flares",
-                        "To explore the asteroid belt"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ESA’s Gaia mapped and imaged the Milky Way Galaxy."
-                },
-                {
-                    "text": "NASA's VERITAS Mission, scheduled for launch in 2031, is designed for an in-depth study of which planet?",
-                    "options": [
-                        "Mars",
-                        "Jupiter",
-                        "Venus",
-                        "Mercury"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "VERITAS will study Venus in depth."
-                },
-                {
-                    "text": "Chandrayaan 5 is a proposed joint lunar mission between ISRO and which other international space agency?",
-                    "options": [
-                        "NASA (USA)",
-                        "JAXA (Japan)",
-                        "Roscosmos (Russia)",
-                        "CNSA (China)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Chandrayaan 5 is a collaboration between ISRO and JAXA (Japan)."
-                },
-                {
-                    "text": "The PUNCH Mission, launched by NASA, is specifically designed to study which part of the Sun?",
-                    "options": [
-                        "The Sun's core",
-                        "The Sun's photosphere",
-                        "The Sun's corona",
-                        "The Sun's sunspots"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "NASA's PUNCH mission is aimed at studying the Sun’s corona."
-                },
-                {
-                    "text": "Rhumi-1 is distinguished as India’s first reusable hybrid rocket. Which entities were responsible for its development?",
-                    "options": [
-                        "ISRO and DRDO",
-                        "Startup Space Zone & Martin Group (Chennai)",
-                        "IIT Madras and HAL",
-                        "Vikram Sarabhai Space Centre (VSSC)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Rhumi-1 was developed by Startup Space Zone & Martin Group, Chennai."
-                },
-                {
-                    "text": "The SpaDeX Mission (2025) successfully demonstrated in-space docking, making India the fourth country to achieve this feat. Which nations preceded India in this achievement?",
-                    "options": [
-                        "USA, Russia, Japan",
-                        "USA, China, France",
-                        "USA, China, Russia",
-                        "Russia, Japan, Germany"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India is fourth after USA, China, and Russia for in-space docking."
-                },
-                {
-                    "text": "India's first indigenous surgical robotic system, SSI Mantra, facilitated a remote surgery conducted by a surgeon located in Gurugram, while the surgery itself took place in which other city?",
-                    "options": [
-                        "Mumbai",
-                        "Jaipur",
-                        "Chennai",
-                        "Bengaluru"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SSI Mantra enabled remote surgery between Gurugram and Jaipur."
-                }
-            ]
-
-            ,
+                "text": "Which entities are responsible for publishing the Climate Change Performance Index (CCPI) 2025?",
+                "options": [
+                    "United Nations Environment Programme (UNEP) and World Meteorological Organization (WMO)",
+                    "Germanwatch, New Climate Institute, and Climate Action Network",
+                    "United Nations Development Programme (UNDP) and Germanwatch",
+                    "Intergovernmental Panel on Climate Change (IPCC) and Climate Action Network"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The CCPI 2025 is published by Germanwatch, New Climate Institute, and Climate Action Network."
+            },
+            {
+                "text": "In the Climate Change Performance Index (CCPI) 2025, which ranks were left vacant due to no country meeting the criteria?",
+                "options": [
+                    "Top 5 ranks",
+                    "Top 3 ranks",
+                    "Ranks 1-10",
+                    "Only rank 1"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The top 3 ranks in the 2025 CCPI were left vacant as no country met all the criteria."
+            },
+            {
+                "text": "What was India's official rank in the Climate Change Performance Index (CCPI) 2025?",
+                "options": [
+                    "4th",
+                    "7th",
+                    "10th",
+                    "130th"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India was ranked 10th in the CCPI 2025."
+            },
+            {
+                "text": "The Human Development Index (HDI) 2025 is published annually by which international organization?",
+                "options": [
+                    "World Bank",
+                    "United Nations Development Programme (UNDP)",
+                    "International Monetary Fund (IMF)",
+                    "World Economic Forum (WEF)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The United Nations Development Programme (UNDP) publishes the HDI annually."
+            },
+            {
+                "text": "India's rank in the Human Development Index (HDI) 2025 was 130 out of a total of how many countries?",
+                "options": [
+                    "150",
+                    "175",
+                    "193",
+                    "200"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India's HDI rank in 2025 was 130 out of 193 countries."
+            },
+            {
+                "text": "The 30th Conference of the Parties (COP 30) to the UNFCCC is scheduled to take place in which location?",
+                "options": [
+                    "Baku, Azerbaijan",
+                    "Berlin, Germany",
+                    "Belem, Brazil",
+                    "Bonn, Germany"
+                ],
+                "correctAnswer": 2,
+                "explanation": "COP 30 UNFCCC will be held in Belem, Brazil."
+            },
+            {
+                "text": "The genesis of the United Nations Framework Convention on Climate Change (UNFCCC) can be traced back to which foundational environmental summit?",
+                "options": [
+                    "Kyoto Protocol (1997)",
+                    "Paris Agreement (2015)",
+                    "Rio Earth Summit (1992)",
+                    "Copenhagen Summit (2009)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The UNFCCC originated from the 1992 Rio Earth Summit."
+            },
+            {
+                "text": "What city serves as the headquarters for the United Nations Framework Convention on Climate Change (UNFCCC)?",
+                "options": [
+                    "Geneva, Switzerland",
+                    "Nairobi, Kenya",
+                    "Bonn, Germany",
+                    "New York, USA"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bonn, Germany is the headquarters of UNFCCC."
+            },
+            {
+                "text": "The Intergovernmental Panel on Climate Change (IPCC) was established in 1988 by a collaborative effort between which two United Nations bodies?",
+                "options": [
+                    "UNEP and UNDP",
+                    "UNEP and WMO",
+                    "FAO and UNESCO",
+                    "WHO and UNICEF"
+                ],
+                "correctAnswer": 1,
+                "explanation": "IPCC was established by UNEP and the World Meteorological Organization (WMO) in 1988."
+            },
+            {
+                "text": "Which significant report is published by the United Nations Environment Programme (UNEP)?",
+                "options": [
+                    "Global Environment Outlook",
+                    "Living Planet Report",
+                    "Adaptation Gap Report",
+                    "World Energy Outlook"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Global Environment Outlook is a key report published by UNEP."
+            },
+            {
+                "text": "The World Meteorological Organization (WMO) is responsible for releasing which of the following climate-related publications?",
+                "options": [
+                    "State of the Global Climate report",
+                    "Greenhouse Gas Bulletin Report",
+                    "Global Climate Report",
+                    "Annual Climate Summary"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The WMO releases the Greenhouse Gas Bulletin Report."
+            },
+            {
+                "text": "What is the classification of the World Meteorological Organization (WMO) within the United Nations system?",
+                "options": [
+                    "A principal organ",
+                    "A subsidiary body",
+                    "A specialised agency",
+                    "An ad hoc committee"
+                ],
+                "correctAnswer": 2,
+                "explanation": "WMO is a specialised agency of the United Nations."
+            },
+            {
+                "text": "Bharat Gen, recognised as India’s first AI Multimodal LLM, was launched by which Union Minister?",
+                "options": [
+                    "Shri Rajnath Singh",
+                    "Dr. Jitendra Singh",
+                    "Smt. Nirmala Sitharaman",
+                    "Shri Amit Shah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bharat Gen was launched by Dr. Jitendra Singh."
+            },
+            {
+                "text": "Bharat Gen is supported by the Department of Science and Technology (DST) and is a part of which national mission?",
+                "options": [
+                    "National Mission on Quantum Technologies and Applications",
+                    "National Mission on Interdisciplinary Cyber-Physical Systems",
+                    "National Digital Health Mission",
+                    "National Education Mission"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bharat Gen is part of the National Mission on Interdisciplinary Cyber-Physical Systems."
+            },
+            {
+                "text": "A key feature of Bharat Gen is its ability to provide AI solutions in how many Indian languages?",
+                "options": [
+                    "11",
+                    "16",
+                    "22",
+                    "24"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bharat Gen supports AI solutions in 22 Indian languages."
+            },
+            {
+                "text": "AI-KOSHA, which provides the dataset for AI innovations like Bharat Gen, was launched by which ministry?",
+                "options": [
+                    "Ministry of Home Affairs",
+                    "Ministry of Electronics & IT (MeitY)",
+                    "Ministry of Finance",
+                    "Ministry of Education"
+                ],
+                "correctAnswer": 1,
+                "explanation": "AI-KOSHA was launched by the Ministry of Electronics & IT (MeitY)."
+            },
+            {
+                "text": "The startup 'SARVAM', based in Bangalore, was selected to achieve which significant indigenous technological development?",
+                "options": [
+                    "Build India’s first quantum computer",
+                    "Develop an indigenous large language model",
+                    "Create India’s first gene-edited animal",
+                    "Design an indigenous electric aircraft"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SARVAM was selected to develop an indigenous large language model."
+            },
+            {
+                "text": "Which text-to-speech model, supporting 11 Indian languages, was developed by the startup SARVAM?",
+                "options": [
+                    "Vaani",
+                    "Bulbul",
+                    "Prabhat",
+                    "Dhwani"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bulbul is the text-to-speech model developed by SARVAM, supporting 11 languages."
+            },
+            {
+                "text": "The PAIR Programme stands for:",
+                "options": [
+                    "Partnerships for Advanced Indian Research",
+                    "Programme for Accelerating Innovation and Research",
+                    "Partnerships for Accelerated Innovation and Research",
+                    "Promoting Artificial Intelligence Research"
+                ],
+                "correctAnswer": 2,
+                "explanation": "PAIR means Partnerships for Accelerated Innovation and Research."
+            },
+            {
+                "text": "The PAIR Programme is an initiative of which specific foundation, aimed at boosting research capabilities in Indian universities?",
+                "options": [
+                    "Science and Engineering Research Board (SERB)",
+                    "Council of Scientific & Industrial Research (CSIR)",
+                    "Anusandhan National Research Foundation (ANRF)",
+                    "Department of Science & Technology (DST)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The PAIR Programme is an initiative of Anusandhan National Research Foundation (ANRF)."
+            },
+            {
+                "text": "The SwaYaan Initiative, launched by MeitY, focuses on human resource development and capacity building in which emerging technological domain?",
+                "options": [
+                    "Quantum Computing technologies",
+                    "Robotics and automation",
+                    "Unmanned Aircraft Systems (UAS), i.e., Drone & Allied Technologies",
+                    "Space exploration systems"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The SwaYaan Initiative is focused on Drones & Allied Technologies (UAS)."
+            },
+            {
+                "text": "What is the primary objective of the Sansad Bhashini initiative?",
+                "options": [
+                    "To provide parliamentary digital archives",
+                    "To facilitate AI-based translation and speech-to-text conversion for language technology services",
+                    "To develop a national parliamentary research portal",
+                    "To create a digital platform for public grievances"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sansad Bhashini aims for language technology solutions including AI-based translation and speech-to-text."
+            },
+            {
+                "text": "Where is India’s first AI Special Economic Zone (SEZ) being established?",
+                "options": [
+                    "Bengaluru, Karnataka",
+                    "Hyderabad, Telangana",
+                    "Nava Raipur, Chhattisgarh",
+                    "Pune, Maharashtra"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The first AI SEZ is established at Nava Raipur, Chhattisgarh."
+            },
+            {
+                "text": "India’s first Ayurvedic Diagnostic Device, Nadi Tarangini, measures health parameters based on which classical Ayurvedic principles?",
+                "options": [
+                    "Sattva, Rajas, Tamas",
+                    "Rasa, Guna, Virya",
+                    "Vatta, Pitta, Kapha",
+                    "Agni, Ama, Mala"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The device measures according to the three doshas: Vatta, Pitta, Kapha."
+            },
+            {
+                "text": "Which regulatory body in India provided approval for Nadi Tarangini, making it the first Ayurvedic medical device to receive such a clearance?",
+                "options": [
+                    "Ministry of AYUSH",
+                    "Indian Council of Medical Research (ICMR)",
+                    "Central Drugs Standard Control Organization (CDSCO)",
+                    "National Accreditation Board for Testing and Calibration Laboratories (NABL)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "CDSCO provided approval for Nadi Tarangini as the first Ayurvedic device."
+            },
+            {
+                "text": "The Nadi Tarangini device was developed by Dr. Aniruddha Joshi after extensive research at which institution?",
+                "options": [
+                    "AIIMS Delhi",
+                    "IIT Bombay",
+                    "IISc Bangalore",
+                    "JIPMER Pondicherry"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dr. Joshi developed the device after research at IIT Bombay."
+            },
+            {
+                "text": "According to the information for 2025, which supercomputer is identified as the fastest globally?",
+                "options": [
+                    "Fugaku (Japan)",
+                    "Frontier (USA)",
+                    "El Capitan (USA)",
+                    "Aurora (USA)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "El Capitan (USA) is the fastest supercomputer globally as of 2025."
+            },
+            {
+                "text": "As of March 2025, how many supercomputers have been strategically deployed across various Indian academic institutions under the National Supercomputing Mission?",
+                "options": [
+                    "20",
+                    "34",
+                    "45",
+                    "50"
+                ],
+                "correctAnswer": 1,
+                "explanation": "34 supercomputers have been deployed under the mission."
+            },
+            {
+                "text": "Which Indian supercomputer secured the 75th rank globally as per ISC 2023 in the Top 500 Global Supercomputing List?",
+                "options": [
+                    "Param Shivay",
+                    "Param Pravega",
+                    "AIRAWAT",
+                    "Pratyush"
+                ],
+                "correctAnswer": 2,
+                "explanation": "AIRAWAT ranked 75th in the Top 500 list as per ISC 2023."
+            },
+            {
+                "text": "What is the standard performance metric used to measure the computational power of supercomputers?",
+                "options": [
+                    "Bytes per second (Bps)",
+                    "Gigaflops (GFLOPS)",
+                    "Floating Point Operations Per Second (FLOPS)",
+                    "Instructions per second (IPS)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "FLOPS is the standard metric used in benchmarking supercomputers."
+            },
+            {
+                "text": "India’s most powerful quantum computer, the Indus Quantum Computer, was developed by which startup based in Karnataka?",
+                "options": [
+                    "TCS Quantum",
+                    "QpiAI",
+                    "HCLTech Quantum",
+                    "Wipro Quantum"
+                ],
+                "correctAnswer": 1,
+                "explanation": "QpiAI, based in Karnataka, developed the Indus Quantum Computer."
+            },
+            {
+                "text": "The distinction of being India’s first quantum computing village goes to which location?",
+                "options": [
+                    "Bengaluru, Karnataka",
+                    "Amravati, Andhra Pradesh",
+                    "Chennai, Tamil Nadu",
+                    "Pune, Maharashtra"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Amravati, Andhra Pradesh is designated as the first quantum computing village."
+            },
+            {
+                "text": "Which global technology giant launched the 'Willow Chip', a quantum computing chip?",
+                "options": [
+                    "Microsoft",
+                    "IBM",
+                    "Google",
+                    "Amazon"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Google launched the Willow Chip, a quantum computing chip."
+            },
+            {
+                "text": "Which of the following is designated as the International Year of Quantum Science and Technology for 2025?",
+                "options": [
+                    "2024",
+                    "2025",
+                    "2026",
+                    "2027"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The year 2025 is declared as the International Year of Quantum Science and Technology."
+            },
+            {
+                "text": "Which of the following UN-designated International Years is NOT slated for 2026?",
+                "options": [
+                    "International Year of Volunteers for Sustainable Development",
+                    "International Year of the Woman Farmer",
+                    "International Year of Peace and Trust",
+                    "International Year of Rangelands and Pastoralists"
+                ],
+                "correctAnswer": 2,
+                "explanation": "International Year of Peace and Trust is not slated for 2026."
+            },
+            {
+                "text": "The vaccine named Biolumpivaxin, designed for protection against Lumpy Skin Disease, was developed by which pharmaceutical company?",
+                "options": [
+                    "Serum Institute of India",
+                    "Bharat Biotech",
+                    "Panacea Biotec",
+                    "Zydus Cadila"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bharat Biotech developed Biolumpivaxin."
+            },
+            {
+                "text": "India’s first gene-edited sheep was developed by researchers at which university?",
+                "options": [
+                    "Indian Veterinary Research Institute (IVRI)",
+                    "National Dairy Research Institute (NDRI)",
+                    "Sher-e-Kashmir University of Agricultural Sciences (SKUAST)",
+                    "Guru Angad Dev Veterinary and Animal Sciences University (GADVASU)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "SKUAST (Sher-e-Kashmir University) created the first gene-edited sheep."
+            },
+            {
+                "text": "The gene modified using CRISPR CAS9 technology in India’s first gene-edited sheep was responsible for controlling which biological aspect?",
+                "options": [
+                    "Wool production",
+                    "Disease resistance",
+                    "Muscle mass",
+                    "Milk yield"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The gene edited was responsible for muscle mass."
+            },
+            {
+                "text": "The Long Range Glide Bomb (GAURAV), developed by DRDO, has an operational range of approximately what distance?",
+                "options": [
+                    "50 km",
+                    "75 km",
+                    "100 km",
+                    "120 km"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The GAURAV bomb has an operational range of about 100 km."
+            },
+            {
+                "text": "Who currently holds the position of DRDO Chief?",
+                "options": [
+                    "Dr. V. K. Saraswat",
+                    "Dr. G. Satheesh Reddy",
+                    "Dr. Samir V. Kamat",
+                    "Dr. A. P. J. Abdul Kalam"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dr. Samir V. Kamat is the current DRDO Chief."
+            },
+            {
+                "text": "The Global Conference on Space was recently hosted in which major Indian city?",
+                "options": [
+                    "Bengaluru",
+                    "Hyderabad",
+                    "Delhi",
+                    "Chennai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Delhi hosted the recent Global Conference on Space."
+            },
+            {
+                "text": "The European Space Agency’s (ESA) Biomass Mission, set for 2025, primarily aims to achieve which scientific objective?",
+                "options": [
+                    "To map polar ice caps",
+                    "To measure ocean temperatures globally",
+                    "To map the world’s forests and provide global measurement of forest biomass",
+                    "To track asteroid movements"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ESA's Biomass Mission will map the world's forests and measure global biomass."
+            },
+            {
+                "text": "The NASA Lunar Trailblazer Mission, launched in February 2025, has the specific objective of orbiting the Moon to detect and map what?",
+                "options": [
+                    "Lunar craters",
+                    "Subsurface ice",
+                    "Water on its surface",
+                    "Volcanic activity"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Lunar Trailblazer is designed to detect and map lunar surface water."
+            },
+            {
+                "text": "What was the central objective of the ESA’s Gaia Mission, which concluded its operations on 27 March 2025?",
+                "options": [
+                    "To study exoplanets",
+                    "To map and take pictures of the Milky Way Galaxy/universe",
+                    "To observe solar flares",
+                    "To explore the asteroid belt"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ESA’s Gaia mapped and imaged the Milky Way Galaxy."
+            },
+            {
+                "text": "NASA's VERITAS Mission, scheduled for launch in 2031, is designed for an in-depth study of which planet?",
+                "options": [
+                    "Mars",
+                    "Jupiter",
+                    "Venus",
+                    "Mercury"
+                ],
+                "correctAnswer": 2,
+                "explanation": "VERITAS will study Venus in depth."
+            },
+            {
+                "text": "Chandrayaan 5 is a proposed joint lunar mission between ISRO and which other international space agency?",
+                "options": [
+                    "NASA (USA)",
+                    "JAXA (Japan)",
+                    "Roscosmos (Russia)",
+                    "CNSA (China)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Chandrayaan 5 is a collaboration between ISRO and JAXA (Japan)."
+            },
+            {
+                "text": "The PUNCH Mission, launched by NASA, is specifically designed to study which part of the Sun?",
+                "options": [
+                    "The Sun's core",
+                    "The Sun's photosphere",
+                    "The Sun's corona",
+                    "The Sun's sunspots"
+                ],
+                "correctAnswer": 2,
+                "explanation": "NASA's PUNCH mission is aimed at studying the Sun’s corona."
+            },
+            {
+                "text": "Rhumi-1 is distinguished as India’s first reusable hybrid rocket. Which entities were responsible for its development?",
+                "options": [
+                    "ISRO and DRDO",
+                    "Startup Space Zone & Martin Group (Chennai)",
+                    "IIT Madras and HAL",
+                    "Vikram Sarabhai Space Centre (VSSC)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Rhumi-1 was developed by Startup Space Zone & Martin Group, Chennai."
+            },
+            {
+                "text": "The SpaDeX Mission (2025) successfully demonstrated in-space docking, making India the fourth country to achieve this feat. Which nations preceded India in this achievement?",
+                "options": [
+                    "USA, Russia, Japan",
+                    "USA, China, France",
+                    "USA, China, Russia",
+                    "Russia, Japan, Germany"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India is fourth after USA, China, and Russia for in-space docking."
+            },
+            {
+                "text": "India's first indigenous surgical robotic system, SSI Mantra, facilitated a remote surgery conducted by a surgeon located in Gurugram, while the surgery itself took place in which other city?",
+                "options": [
+                    "Mumbai",
+                    "Jaipur",
+                    "Chennai",
+                    "Bengaluru"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SSI Mantra enabled remote surgery between Gurugram and Jaipur."
+            }
+        ],
         "Current Affairs - Set - 6": [{
-                    "text": "Where is India’s first state-of-the-art Geoscience Museum located?",
-                    "options": [
-                        "Prayagraj, Uttar Pradesh",
-                        "Chennai, Tamil Nadu",
-                        "Gwalior, Madhya Pradesh",
-                        "New Delhi, Delhi"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India’s first state-of-the-art Geoscience Museum is located in Gwalior, Madhya Pradesh."
-                },
-                {
-                    "text": "The Vice Presidential Election 2025 was triggered by the resignation of which individual?",
-                    "options": [
-                        "Shri Jagdeep Dhankhar",
-                        "Shri Venkaiah Naidu",
-                        "Smt. Droupadi Murmu",
-                        "Shri Om Birla"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The 2025 Vice Presidential Election was triggered by the resignation of Shri Jagdeep Dhankhar."
-                },
-                {
-                    "text": "Which Article of the Indian Constitution deals with the Election of the Vice-President?",
-                    "options": [
-                        "Article 63",
-                        "Article 64",
-                        "Article 66",
-                        "Article 70"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Article 66 of the Indian Constitution deals with the Election of the Vice-President."
-                },
-                {
-                    "text": "Rudrastra, India’s Hybrid VTOL drone, is developed by which entity?",
-                    "options": [
-                        "Defence Research and Development Organisation (DRDO)",
-                        "Hindustan Aeronautics Limited (HAL)",
-                        "Solar Aerospace and Defence Limited (SADL)",
-                        "Indian Space Research Organisation (ISRO)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Rudrastra VTOL drone was developed by Solar Aerospace and Defence Limited (SADL)."
-                },
-                {
-                    "text": "What is the target asteroid for China’s Tianwen-2 Mission?",
-                    "options": [
-                        "Bennu",
-                        "Ryugu",
-                        "Kamoʻoalewa",
-                        "Vesta"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Tianwen-2 Mission aims for the asteroid Kamoʻoalewa."
-                },
-                {
-                    "text": "According to the IUCN Report (2024), what percentage of the world's tree species are facing extinction?",
-                    "options": [
-                        "25%",
-                        "38%",
-                        "45%",
-                        "52%"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "38% of the world’s tree species are facing extinction as per the IUCN 2024 report."
-                },
-                {
-                    "text": "The Third United Nations Ocean Conference in Nice 2025 will be organised by which two countries?",
-                    "options": [
-                        "France and Germany",
-                        "Costa Rica and Spain",
-                        "France and Costa Rica",
-                        "Italy and Portugal"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The conference will be organised by France and Costa Rica in Nice, 2025."
-                },
-                {
-                    "text": "The Yuge Yugeen Bharat National Museum is planned to span across which iconic buildings in New Delhi?",
-                    "options": [
-                        "Rashtrapati Bhavan and Parliament House",
-                        "North and South Blocks",
-                        "India Gate and National War Memorial",
-                        "Red Fort and Qutub Minar"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The museum will occupy the North and South Blocks in New Delhi."
-                },
-                {
-                    "text": "Which country’s Foreign Minister is named as the President of the 80th United Nations General Assembly?",
-                    "options": [
-                        "France",
-                        "United Kingdom",
-                        "Germany",
-                        "USA"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Germany's Foreign Minister is the President of the 80th UNGA."
-                },
-                {
-                    "text": "Exercise INDRA 2025 is a military exercise conducted between India and which other nation?",
-                    "options": [
-                        "Japan",
-                        "Russia",
-                        "France",
-                        "USA"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Exercise INDRA is a joint military exercise between India and Russia."
-                },
-                {
-                    "text": "Where is Exercise Dharma Guardian 2025, involving India and Japan, scheduled to take place?",
-                    "options": [
-                        "Chennai",
-                        "Arabian Sea",
-                        "Japan",
-                        "Rajasthan"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Dharma Guardian 2025 is scheduled to take place in Japan."
-                },
-                {
-                    "text": "The naval exercise Varuna 2025, involving India and France, is scheduled to take place in which location?",
-                    "options": [
-                        "Bay of Bengal",
-                        "Indian Ocean",
-                        "Arabian Sea",
-                        "Mediterranean Sea"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Varuna 2025 will be conducted in the Arabian Sea."
-                },
-                {
-                    "text": "Cyclone 2025 is a military exercise between India and which country, held in Rajasthan?",
-                    "options": [
-                        "Egypt",
-                        "Nepal",
-                        "Mongolia",
-                        "Uzbekistan"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Cyclone 2025 exercise is held between India and Nepal in Rajasthan."
-                },
-                {
-                    "text": "The military exercise Surya Kiran 2025 is conducted between India and which neighbouring country?",
-                    "options": [
-                        "Sri Lanka",
-                        "Nepal",
-                        "Bangladesh",
-                        "Myanmar"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Surya Kiran is a joint military exercise with Nepal."
-                },
-                {
-                    "text": "Nomadic Elephant 2025, a military exercise involving India, takes place in Ulaanbaatar. Which country participates with India in this exercise?",
-                    "options": [
-                        "USA",
-                        "Mongolia",
-                        "Uzbekistan",
-                        "Russia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Mongolia and India participate in the Nomadic Elephant exercise in Ulaanbaatar."
-                },
-                {
-                    "text": "The Tiger Triumph 2025 exercise, focused on humanitarian disaster assistance, involves India and which other nation?",
-                    "options": [
-                        "Japan",
-                        "Australia",
-                        "USA",
-                        "Sri Lanka"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Tiger Triumph is conducted by India and the USA."
-                },
-                {
-                    "text": "Which city in India hosts the DUSTLIK 2025 military exercise between India and Uzbekistan?",
-                    "options": [
-                        "Chennai",
-                        "Vizag",
-                        "Pune",
-                        "Rajasthan"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Pune hosts the DUSTLIK military exercise."
-                },
-                {
-                    "text": "SLINEX is a military exercise conducted between India and which country?",
-                    "options": [
-                        "Singapore",
-                        "Sri Lanka",
-                        "Thailand",
-                        "Oman"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SLINEX is an exercise between the Indian and Sri Lankan navies."
-                },
-                {
-                    "text": "Which four nations participate in the Malabar military exercise?",
-                    "options": [
-                        "India, Sri Lanka, Japan, USA",
-                        "India, Australia, Japan, USA",
-                        "India, Singapore, Japan, USA",
-                        "India, France, Japan, USA"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India, Australia, Japan, and USA participate in Malabar."
-                },
-                {
-                    "text": "The Maha Kumbh 2025 is scheduled to take place in which city?",
-                    "options": [
-                        "Haridwar",
-                        "Ujjain",
-                        "Nashik",
-                        "Prayagraj"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The Maha Kumbh in 2025 will be held in Prayagraj."
-                },
-                {
-                    "text": "The Maha Kumbh, as a type of Kumbh Mela, is held how often and where?",
-                    "options": [
-                        "Every 3 years in all four cities",
-                        "Every 12 years in all four cities",
-                        "Once every 144 years only in Prayagraj",
-                        "Annually in Prayagraj"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Maha Kumbh is held once every 144 years only in Prayagraj."
-                },
-                {
-                    "text": "In which year was the Kumbh Mela listed as Intangible Cultural Heritage by UNESCO?",
-                    "options": [
-                        "2015",
-                        "2016",
-                        "2017",
-                        "2018"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Kumbh Mela was listed by UNESCO as Intangible Cultural Heritage in 2017."
-                },
-                {
-                    "text": "Which of the following is listed as a world record achieved at Kumbh Mela?",
-                    "options": [
-                        "Biggest tree planting drive",
-                        "Largest single-day vaccination camp",
-                        "Biggest sanitation drive",
-                        "Most diverse cultural performance"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Kumbh Mela has set the record for the Biggest Sanitation Drive."
-                },
-                {
-                    "text": "The Kumbh Mela is held cyclically at four sacred locations in India. Which of the following cities is NOT one of them?",
-                    "options": [
-                        "Haridwar",
-                        "Varanasi",
-                        "Ujjain",
-                        "Nashik"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Varanasi is not a Kumbh Mela location; the four are Haridwar, Prayagraj, Ujjain, Nashik."
-                },
-                {
-                    "text": "Ladakh became the first region in India to achieve full functional literacy under which scheme?",
-                    "options": [
-                        "Sarva Shiksha Abhiyan",
-                        "Beti Bachao Beti Padhao",
-                        "ULLAS Scheme",
-                        "Skill India Mission"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ULLAS Scheme enabled full functional literacy in Ladakh."
-                },
-                {
-                    "text": "ULLAS is also known by what alternative name?",
-                    "options": [
-                        "Pradhan Mantri Jan Dhan Yojana",
-                        "National Skill Development Mission",
-                        "New India Literacy Programme (NILP)",
-                        "Digital India Programme"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "New India Literacy Programme (NILP) is the alternative name for ULLAS."
-                },
-                {
-                    "text": "The ULLAS scheme is aligned with which national policy?",
-                    "options": [
-                        "National Health Policy 2017",
-                        "National Education Policy (NEP) 2020",
-                        "National Youth Policy 2014",
-                        "National Policy for Women 2016"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ULLAS is aligned with National Education Policy (NEP) 2020."
-                },
-                {
-                    "text": "Which ministry is responsible for the ULLAS scheme?",
-                    "options": [
-                        "Ministry of Home Affairs",
-                        "Ministry of Social Justice and Empowerment",
-                        "Ministry of Education",
-                        "Ministry of Rural Development"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Ministry of Education is responsible for ULLAS."
-                },
-                {
-                    "text": "What is the objective of the ULLAS scheme?",
-                    "options": [
-                        "To provide vocational training to youth",
-                        "To empower adults to become literate and contribute to national growth",
-                        "To promote digital literacy among senior citizens",
-                        "To establish new schools in rural areas"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ULLAS aims to empower adults to become literate and contribute to national growth."
-                },
-                {
-                    "text": "Which state was the first to achieve high literacy under the ULLAS scheme?",
-                    "options": [
-                        "Goa",
-                        "Tripura",
-                        "Mizoram",
-                        "Ladakh"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Mizoram was the first to achieve high literacy under ULLAS."
-                },
-                {
-                    "text": "What is the literacy threshold set by the Ministry to declare any state/UT as fully literate under the ULLAS scheme?",
-                    "options": [
-                        "85%",
-                        "90%",
-                        "95%",
-                        "100%"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "A 95% literacy threshold is the criterion for full literacy under ULLAS."
-                },
-                {
-                    "text": "What is the duration of the ULLAS scheme?",
-                    "options": [
-                        "2020–2025",
-                        "2022–2027",
-                        "2023–2028",
-                        "2021–2026"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ULLAS scheme runs from 2022–2027."
-                },
-                {
-                    "text": "Who was recently appointed as the Lieutenant Governor of Ladakh in 2025?",
-                    "options": [
-                        "Professor Asim Ghosh",
-                        "Gajapati Raju",
-                        "Sh. Kavinder Gupta",
-                        "Manoj Sinha"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Sh. Kavinder Gupta was recently appointed as the Lieutenant Governor of Ladakh."
-                },
-                {
-                    "text": "Professor Asim Ghosh was appointed as the Governor of which state in 2025?",
-                    "options": [
-                        "Goa",
-                        "Ladakh",
-                        "Haryana",
-                        "Jammu & Kashmir"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Asim Ghosh was appointed as the Governor of Haryana."
-                },
-                {
-                    "text": "In the new 'Lady Justice' Statue, what replaces the traditional sword?",
-                    "options": [
-                        "A book of laws",
-                        "A torch of enlightenment",
-                        "The Constitution",
-                        "A scale of balance"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The new 'Lady Justice' replaces the sword with the Constitution."
-                },
-                {
-                    "text": "What does the open eyes of the new 'Lady Justice' Statue symbolise?",
-                    "options": [
-                        "Awareness and impartial scrutiny",
-                        "Vigilance against crime",
-                        "Foresight into the future",
-                        "Transparency in proceedings"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Open eyes symbolize awareness and impartial scrutiny."
-                },
-                {
-                    "text": "The new flag and emblem of the Supreme Court were unveiled by which dignitary?",
-                    "options": [
-                        "The Chief Justice of India",
-                        "The Prime Minister of India",
-                        "The President of India",
-                        "The Vice President of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The President of India unveiled the new flag and emblem."
-                },
-                {
-                    "text": "What is the motto \"Yato Dharmastato Jaya\" associated with?",
-                    "options": [
-                        "The new 'Lady Justice' Statue",
-                        "The Indian Parliament",
-                        "The Supreme Court of India",
-                        "The Election Commission of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "\"Yato Dharmastato Jaya\" is the motto of the Supreme Court of India."
-                },
-                {
-                    "text": "Who is mentioned as the 52nd Chief Justice of India and the first Buddhist CJI?",
-                    "options": [
-                        "K G Balakrishnan",
-                        "B.R. Gavai",
-                        "D.Y. Chandrachud",
-                        "U.U. Lalit"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "B.R. Gavai is the 52nd and first Buddhist Chief Justice of India."
-                },
-                {
-                    "text": "Who was the First Dalit CJI of India?",
-                    "options": [
-                        "B.R. Gavai",
-                        "K G Balakrishnan",
-                        "D.Y. Chandrachud",
-                        "J.S. Verma"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "K G Balakrishnan was the first Dalit Chief Justice of India."
-                },
-                {
-                    "text": "Rekha Gupta became the 4th Woman Chief Minister of Delhi. Which constituency does she represent?",
-                    "options": [
-                        "New Delhi",
-                        "Chandni Chowk",
-                        "Shalimar Bagh",
-                        "Karol Bagh"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Rekha Gupta represents Shalimar Bagh in the Delhi Assembly."
-                },
-                {
-                    "text": "Who served as the interim Woman Chief Minister of Delhi from September 15, 2024 to February 2025?",
-                    "options": [
-                        "Sushma Swaraj",
-                        "Sheila Dikshit",
-                        "Atishi",
-                        "Rekha Gupta"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Atishi served as interim Chief Minister during this period."
-                },
-                {
-                    "text": "Mohan Charan Majhi was elected as the Chief Minister of Odisha from which constituency?",
-                    "options": [
-                        "Bhubaneswar",
-                        "Puri",
-                        "Keonjhar",
-                        "Cuttack"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "He was elected from Keonjhar."
-                },
-                {
-                    "text": "Who is mentioned as the Chief Minister of Jammu & Kashmir?",
-                    "options": [
-                        "Surinder Choudhary",
-                        "Manoj Sinha",
-                        "Omar Abdullah",
-                        "Arun Pillai"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Omar Abdullah is currently mentioned as Chief Minister."
-                },
-                {
-                    "text": "Who is the Lieutenant Governor of Jammu & Kashmir?",
-                    "options": [
-                        "Omar Abdullah",
-                        "Surinder Choudhary",
-                        "Arun Pillai",
-                        "Manoj Sinha"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Manoj Sinha serves as the Lieutenant Governor."
-                },
-                {
-                    "text": "What is the election symbol of Prashant Kishor’s party, Jan Suraj?",
-                    "options": [
-                        "Boat",
-                        "Bicycle",
-                        "School Bag",
-                        "Elephant"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "School Bag is the symbol of Jan Suraj."
-                },
-                {
-                    "text": "Who is the National President of Prashant Kishor’s Jan Suraj party?",
-                    "options": [
-                        "Prashant Kishor",
-                        "Pappu Singh",
-                        "Mukesh Sahni",
-                        "Nayab Singh Saini"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Pappu Singh is the National President (Prashant Kishor is founder, not president)."
-                },
-                {
-                    "text": "Mukesh Sahni’s party, Vikashsheel Insaan Party, has what as its election symbol?",
-                    "options": [
-                        "Fish",
-                        "Boat",
-                        "Handpump",
-                        "Plough"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The symbol of Mukesh Sahni's party is a Boat."
-                },
-                {
-                    "text": "Nayab Singh Saini is the Chief Minister of which Indian state?",
-                    "options": [
-                        "Rajasthan",
-                        "Uttar Pradesh",
-                        "Haryana",
-                        "Bihar"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Nayab Singh Saini is Chief Minister of Haryana."
-                },
-                {
-                    "text": "From which constituency was Nayab Singh Saini elected?",
-                    "options": [
-                        "Kurukshetra",
-                        "Ladwa, Kurukshetra",
-                        "Karnal",
-                        "Ambala"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He was elected from Ladwa, Kurukshetra."
-                }
-            ]
-
-            ,
+                "text": "Where is India’s first state-of-the-art Geoscience Museum located?",
+                "options": [
+                    "Prayagraj, Uttar Pradesh",
+                    "Chennai, Tamil Nadu",
+                    "Gwalior, Madhya Pradesh",
+                    "New Delhi, Delhi"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India’s first state-of-the-art Geoscience Museum is located in Gwalior, Madhya Pradesh."
+            },
+            {
+                "text": "The Vice Presidential Election 2025 was triggered by the resignation of which individual?",
+                "options": [
+                    "Shri Jagdeep Dhankhar",
+                    "Shri Venkaiah Naidu",
+                    "Smt. Droupadi Murmu",
+                    "Shri Om Birla"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The 2025 Vice Presidential Election was triggered by the resignation of Shri Jagdeep Dhankhar."
+            },
+            {
+                "text": "Which Article of the Indian Constitution deals with the Election of the Vice-President?",
+                "options": [
+                    "Article 63",
+                    "Article 64",
+                    "Article 66",
+                    "Article 70"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Article 66 of the Indian Constitution deals with the Election of the Vice-President."
+            },
+            {
+                "text": "Rudrastra, India’s Hybrid VTOL drone, is developed by which entity?",
+                "options": [
+                    "Defence Research and Development Organisation (DRDO)",
+                    "Hindustan Aeronautics Limited (HAL)",
+                    "Solar Aerospace and Defence Limited (SADL)",
+                    "Indian Space Research Organisation (ISRO)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rudrastra VTOL drone was developed by Solar Aerospace and Defence Limited (SADL)."
+            },
+            {
+                "text": "What is the target asteroid for China’s Tianwen-2 Mission?",
+                "options": [
+                    "Bennu",
+                    "Ryugu",
+                    "Kamoʻoalewa",
+                    "Vesta"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tianwen-2 Mission aims for the asteroid Kamoʻoalewa."
+            },
+            {
+                "text": "According to the IUCN Report (2024), what percentage of the world's tree species are facing extinction?",
+                "options": [
+                    "25%",
+                    "38%",
+                    "45%",
+                    "52%"
+                ],
+                "correctAnswer": 1,
+                "explanation": "38% of the world’s tree species are facing extinction as per the IUCN 2024 report."
+            },
+            {
+                "text": "The Third United Nations Ocean Conference in Nice 2025 will be organised by which two countries?",
+                "options": [
+                    "France and Germany",
+                    "Costa Rica and Spain",
+                    "France and Costa Rica",
+                    "Italy and Portugal"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The conference will be organised by France and Costa Rica in Nice, 2025."
+            },
+            {
+                "text": "The Yuge Yugeen Bharat National Museum is planned to span across which iconic buildings in New Delhi?",
+                "options": [
+                    "Rashtrapati Bhavan and Parliament House",
+                    "North and South Blocks",
+                    "India Gate and National War Memorial",
+                    "Red Fort and Qutub Minar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The museum will occupy the North and South Blocks in New Delhi."
+            },
+            {
+                "text": "Which country’s Foreign Minister is named as the President of the 80th United Nations General Assembly?",
+                "options": [
+                    "France",
+                    "United Kingdom",
+                    "Germany",
+                    "USA"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Germany's Foreign Minister is the President of the 80th UNGA."
+            },
+            {
+                "text": "Exercise INDRA 2025 is a military exercise conducted between India and which other nation?",
+                "options": [
+                    "Japan",
+                    "Russia",
+                    "France",
+                    "USA"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Exercise INDRA is a joint military exercise between India and Russia."
+            },
+            {
+                "text": "Where is Exercise Dharma Guardian 2025, involving India and Japan, scheduled to take place?",
+                "options": [
+                    "Chennai",
+                    "Arabian Sea",
+                    "Japan",
+                    "Rajasthan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dharma Guardian 2025 is scheduled to take place in Japan."
+            },
+            {
+                "text": "The naval exercise Varuna 2025, involving India and France, is scheduled to take place in which location?",
+                "options": [
+                    "Bay of Bengal",
+                    "Indian Ocean",
+                    "Arabian Sea",
+                    "Mediterranean Sea"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Varuna 2025 will be conducted in the Arabian Sea."
+            },
+            {
+                "text": "Cyclone 2025 is a military exercise between India and which country, held in Rajasthan?",
+                "options": [
+                    "Egypt",
+                    "Nepal",
+                    "Mongolia",
+                    "Uzbekistan"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Cyclone 2025 exercise is held between India and Nepal in Rajasthan."
+            },
+            {
+                "text": "The military exercise Surya Kiran 2025 is conducted between India and which neighbouring country?",
+                "options": [
+                    "Sri Lanka",
+                    "Nepal",
+                    "Bangladesh",
+                    "Myanmar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Surya Kiran is a joint military exercise with Nepal."
+            },
+            {
+                "text": "Nomadic Elephant 2025, a military exercise involving India, takes place in Ulaanbaatar. Which country participates with India in this exercise?",
+                "options": [
+                    "USA",
+                    "Mongolia",
+                    "Uzbekistan",
+                    "Russia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mongolia and India participate in the Nomadic Elephant exercise in Ulaanbaatar."
+            },
+            {
+                "text": "The Tiger Triumph 2025 exercise, focused on humanitarian disaster assistance, involves India and which other nation?",
+                "options": [
+                    "Japan",
+                    "Australia",
+                    "USA",
+                    "Sri Lanka"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tiger Triumph is conducted by India and the USA."
+            },
+            {
+                "text": "Which city in India hosts the DUSTLIK 2025 military exercise between India and Uzbekistan?",
+                "options": [
+                    "Chennai",
+                    "Vizag",
+                    "Pune",
+                    "Rajasthan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pune hosts the DUSTLIK military exercise."
+            },
+            {
+                "text": "SLINEX is a military exercise conducted between India and which country?",
+                "options": [
+                    "Singapore",
+                    "Sri Lanka",
+                    "Thailand",
+                    "Oman"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SLINEX is an exercise between the Indian and Sri Lankan navies."
+            },
+            {
+                "text": "Which four nations participate in the Malabar military exercise?",
+                "options": [
+                    "India, Sri Lanka, Japan, USA",
+                    "India, Australia, Japan, USA",
+                    "India, Singapore, Japan, USA",
+                    "India, France, Japan, USA"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India, Australia, Japan, and USA participate in Malabar."
+            },
+            {
+                "text": "The Maha Kumbh 2025 is scheduled to take place in which city?",
+                "options": [
+                    "Haridwar",
+                    "Ujjain",
+                    "Nashik",
+                    "Prayagraj"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Maha Kumbh in 2025 will be held in Prayagraj."
+            },
+            {
+                "text": "The Maha Kumbh, as a type of Kumbh Mela, is held how often and where?",
+                "options": [
+                    "Every 3 years in all four cities",
+                    "Every 12 years in all four cities",
+                    "Once every 144 years only in Prayagraj",
+                    "Annually in Prayagraj"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Maha Kumbh is held once every 144 years only in Prayagraj."
+            },
+            {
+                "text": "In which year was the Kumbh Mela listed as Intangible Cultural Heritage by UNESCO?",
+                "options": [
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Kumbh Mela was listed by UNESCO as Intangible Cultural Heritage in 2017."
+            },
+            {
+                "text": "Which of the following is listed as a world record achieved at Kumbh Mela?",
+                "options": [
+                    "Biggest tree planting drive",
+                    "Largest single-day vaccination camp",
+                    "Biggest sanitation drive",
+                    "Most diverse cultural performance"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Kumbh Mela has set the record for the Biggest Sanitation Drive."
+            },
+            {
+                "text": "The Kumbh Mela is held cyclically at four sacred locations in India. Which of the following cities is NOT one of them?",
+                "options": [
+                    "Haridwar",
+                    "Varanasi",
+                    "Ujjain",
+                    "Nashik"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Varanasi is not a Kumbh Mela location; the four are Haridwar, Prayagraj, Ujjain, Nashik."
+            },
+            {
+                "text": "Ladakh became the first region in India to achieve full functional literacy under which scheme?",
+                "options": [
+                    "Sarva Shiksha Abhiyan",
+                    "Beti Bachao Beti Padhao",
+                    "ULLAS Scheme",
+                    "Skill India Mission"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ULLAS Scheme enabled full functional literacy in Ladakh."
+            },
+            {
+                "text": "ULLAS is also known by what alternative name?",
+                "options": [
+                    "Pradhan Mantri Jan Dhan Yojana",
+                    "National Skill Development Mission",
+                    "New India Literacy Programme (NILP)",
+                    "Digital India Programme"
+                ],
+                "correctAnswer": 2,
+                "explanation": "New India Literacy Programme (NILP) is the alternative name for ULLAS."
+            },
+            {
+                "text": "The ULLAS scheme is aligned with which national policy?",
+                "options": [
+                    "National Health Policy 2017",
+                    "National Education Policy (NEP) 2020",
+                    "National Youth Policy 2014",
+                    "National Policy for Women 2016"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ULLAS is aligned with National Education Policy (NEP) 2020."
+            },
+            {
+                "text": "Which ministry is responsible for the ULLAS scheme?",
+                "options": [
+                    "Ministry of Home Affairs",
+                    "Ministry of Social Justice and Empowerment",
+                    "Ministry of Education",
+                    "Ministry of Rural Development"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Ministry of Education is responsible for ULLAS."
+            },
+            {
+                "text": "What is the objective of the ULLAS scheme?",
+                "options": [
+                    "To provide vocational training to youth",
+                    "To empower adults to become literate and contribute to national growth",
+                    "To promote digital literacy among senior citizens",
+                    "To establish new schools in rural areas"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ULLAS aims to empower adults to become literate and contribute to national growth."
+            },
+            {
+                "text": "Which state was the first to achieve high literacy under the ULLAS scheme?",
+                "options": [
+                    "Goa",
+                    "Tripura",
+                    "Mizoram",
+                    "Ladakh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Mizoram was the first to achieve high literacy under ULLAS."
+            },
+            {
+                "text": "What is the literacy threshold set by the Ministry to declare any state/UT as fully literate under the ULLAS scheme?",
+                "options": [
+                    "85%",
+                    "90%",
+                    "95%",
+                    "100%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "A 95% literacy threshold is the criterion for full literacy under ULLAS."
+            },
+            {
+                "text": "What is the duration of the ULLAS scheme?",
+                "options": [
+                    "2020–2025",
+                    "2022–2027",
+                    "2023–2028",
+                    "2021–2026"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ULLAS scheme runs from 2022–2027."
+            },
+            {
+                "text": "Who was recently appointed as the Lieutenant Governor of Ladakh in 2025?",
+                "options": [
+                    "Professor Asim Ghosh",
+                    "Gajapati Raju",
+                    "Sh. Kavinder Gupta",
+                    "Manoj Sinha"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sh. Kavinder Gupta was recently appointed as the Lieutenant Governor of Ladakh."
+            },
+            {
+                "text": "Professor Asim Ghosh was appointed as the Governor of which state in 2025?",
+                "options": [
+                    "Goa",
+                    "Ladakh",
+                    "Haryana",
+                    "Jammu & Kashmir"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Asim Ghosh was appointed as the Governor of Haryana."
+            },
+            {
+                "text": "In the new 'Lady Justice' Statue, what replaces the traditional sword?",
+                "options": [
+                    "A book of laws",
+                    "A torch of enlightenment",
+                    "The Constitution",
+                    "A scale of balance"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The new 'Lady Justice' replaces the sword with the Constitution."
+            },
+            {
+                "text": "What does the open eyes of the new 'Lady Justice' Statue symbolise?",
+                "options": [
+                    "Awareness and impartial scrutiny",
+                    "Vigilance against crime",
+                    "Foresight into the future",
+                    "Transparency in proceedings"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Open eyes symbolize awareness and impartial scrutiny."
+            },
+            {
+                "text": "The new flag and emblem of the Supreme Court were unveiled by which dignitary?",
+                "options": [
+                    "The Chief Justice of India",
+                    "The Prime Minister of India",
+                    "The President of India",
+                    "The Vice President of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The President of India unveiled the new flag and emblem."
+            },
+            {
+                "text": "What is the motto \"Yato Dharmastato Jaya\" associated with?",
+                "options": [
+                    "The new 'Lady Justice' Statue",
+                    "The Indian Parliament",
+                    "The Supreme Court of India",
+                    "The Election Commission of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "\"Yato Dharmastato Jaya\" is the motto of the Supreme Court of India."
+            },
+            {
+                "text": "Who is mentioned as the 52nd Chief Justice of India and the first Buddhist CJI?",
+                "options": [
+                    "K G Balakrishnan",
+                    "B.R. Gavai",
+                    "D.Y. Chandrachud",
+                    "U.U. Lalit"
+                ],
+                "correctAnswer": 1,
+                "explanation": "B.R. Gavai is the 52nd and first Buddhist Chief Justice of India."
+            },
+            {
+                "text": "Who was the First Dalit CJI of India?",
+                "options": [
+                    "B.R. Gavai",
+                    "K G Balakrishnan",
+                    "D.Y. Chandrachud",
+                    "J.S. Verma"
+                ],
+                "correctAnswer": 1,
+                "explanation": "K G Balakrishnan was the first Dalit Chief Justice of India."
+            },
+            {
+                "text": "Rekha Gupta became the 4th Woman Chief Minister of Delhi. Which constituency does she represent?",
+                "options": [
+                    "New Delhi",
+                    "Chandni Chowk",
+                    "Shalimar Bagh",
+                    "Karol Bagh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rekha Gupta represents Shalimar Bagh in the Delhi Assembly."
+            },
+            {
+                "text": "Who served as the interim Woman Chief Minister of Delhi from September 15, 2024 to February 2025?",
+                "options": [
+                    "Sushma Swaraj",
+                    "Sheila Dikshit",
+                    "Atishi",
+                    "Rekha Gupta"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Atishi served as interim Chief Minister during this period."
+            },
+            {
+                "text": "Mohan Charan Majhi was elected as the Chief Minister of Odisha from which constituency?",
+                "options": [
+                    "Bhubaneswar",
+                    "Puri",
+                    "Keonjhar",
+                    "Cuttack"
+                ],
+                "correctAnswer": 2,
+                "explanation": "He was elected from Keonjhar."
+            },
+            {
+                "text": "Who is mentioned as the Chief Minister of Jammu & Kashmir?",
+                "options": [
+                    "Surinder Choudhary",
+                    "Manoj Sinha",
+                    "Omar Abdullah",
+                    "Arun Pillai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Omar Abdullah is currently mentioned as Chief Minister."
+            },
+            {
+                "text": "Who is the Lieutenant Governor of Jammu & Kashmir?",
+                "options": [
+                    "Omar Abdullah",
+                    "Surinder Choudhary",
+                    "Arun Pillai",
+                    "Manoj Sinha"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Manoj Sinha serves as the Lieutenant Governor."
+            },
+            {
+                "text": "What is the election symbol of Prashant Kishor’s party, Jan Suraj?",
+                "options": [
+                    "Boat",
+                    "Bicycle",
+                    "School Bag",
+                    "Elephant"
+                ],
+                "correctAnswer": 2,
+                "explanation": "School Bag is the symbol of Jan Suraj."
+            },
+            {
+                "text": "Who is the National President of Prashant Kishor’s Jan Suraj party?",
+                "options": [
+                    "Prashant Kishor",
+                    "Pappu Singh",
+                    "Mukesh Sahni",
+                    "Nayab Singh Saini"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Pappu Singh is the National President (Prashant Kishor is founder, not president)."
+            },
+            {
+                "text": "Mukesh Sahni’s party, Vikashsheel Insaan Party, has what as its election symbol?",
+                "options": [
+                    "Fish",
+                    "Boat",
+                    "Handpump",
+                    "Plough"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The symbol of Mukesh Sahni's party is a Boat."
+            },
+            {
+                "text": "Nayab Singh Saini is the Chief Minister of which Indian state?",
+                "options": [
+                    "Rajasthan",
+                    "Uttar Pradesh",
+                    "Haryana",
+                    "Bihar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Nayab Singh Saini is Chief Minister of Haryana."
+            },
+            {
+                "text": "From which constituency was Nayab Singh Saini elected?",
+                "options": [
+                    "Kurukshetra",
+                    "Ladwa, Kurukshetra",
+                    "Karnal",
+                    "Ambala"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He was elected from Ladwa, Kurukshetra."
+            }
+        ],
         "Current Affairs - Set - 7": [{
-                    "text": "Which of the following Indian entries were mentioned as notable inclusions in the UNESCO Memory of the World Register prior to the recent additions of Bhagavad Gita and Natyashastra?",
-                    "options": [
-                        "Works of Kalidasa",
-                        "Rig Veda",
-                        "Arthashastra",
-                        "Ramayana"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Rig Veda was already included in UNESCO's Memory of the World Register before Bhagavad Gita and Natyashastra."
-                },
-                {
-                    "text": "The Natyashastra is believed to have been compiled by which ancient scholar around the 2nd century BCE?",
-                    "options": [
-                        "Ved Vyas",
-                        "Valmiki",
-                        "Bharatmuni",
-                        "Patanjali"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bharatmuni is credited with compiling the Natyashastra around the 2nd century BCE."
-                },
-                {
-                    "text": "The Bhagavad Gita is primarily presented as a dialogue between Lord Krishna and which warrior on the battlefield of Kurukshetra?",
-                    "options": [
-                        "Duryodhana",
-                        "Arjuna",
-                        "Bhima",
-                        "Yudhisthira"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Bhagavad Gita is a dialogue between Lord Krishna and Arjuna."
-                },
-                {
-                    "text": "Operation SINDOOR, an Indian retaliation operation, was launched in which specific month and year?",
-                    "options": [
-                        "April 2025",
-                        "May 2025",
-                        "June 2025",
-                        "March 2025"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Operation SINDOOR took place in May 2025."
-                },
-                {
-                    "text": "What was the name of Pakistan's retaliatory operation following India's Operation SINDOOR?",
-                    "options": [
-                        "Operation Eagle Strike",
-                        "Operation Swift Retort",
-                        "Operation Bunyan al-Marsoos",
-                        "Operation Zarb-e-Azb"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Pakistan responded with Operation Bunyan al-Marsoos."
-                },
-                {
-                    "text": "Mumbai's Carnac Bridge was renamed subsequent to Operation SINDOOR. What is its new designation?",
-                    "options": [
-                        "Swatantrata Bridge",
-                        "Vijay Bridge",
-                        "Sindoor Bridge",
-                        "Dhruv Bridge"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The bridge was renamed Sindoor Bridge."
-                },
-                {
-                    "text": "According to the statement by ISRO Chairman V. Narayanan in May, approximately how many satellites are consistently operating for strategic defense purposes?",
-                    "options": [
-                        "5",
-                        "8",
-                        "10",
-                        "15"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "There are about 10 satellites operating for strategic defense."
-                },
-                {
-                    "text": "The SCALP missile, with a full form of Storm Shadow, is classified as which type of missile?",
-                    "options": [
-                        "Surface-to-Air Missile",
-                        "Air-Launched Cruise Missile",
-                        "Ballistic Missile",
-                        "Anti-Tank Guided Missile"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SCALP (Storm Shadow) is an air-launched cruise missile."
-                },
-                {
-                    "text": "What is the stated speed range of the BRAHMOS supersonic cruise missile?",
-                    "options": [
-                        "Mach 1.0–1.5",
-                        "Mach 2.0–2.5",
-                        "Mach 2.8–3.0",
-                        "Mach 3.5–4.0"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "BRAHMOS travels at supersonic speeds of Mach 2.8–3.0."
-                },
-                {
-                    "text": "The S-400 Defence System is colloquially known by which nickname in India?",
-                    "options": [
-                        "Trishul Chakra",
-                        "Sudarshan Chakra",
-                        "Agni Chakra",
-                        "Vajra Chakra"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "S-400 is referred to as Sudarshan Chakra in India."
-                },
-                {
-                    "text": "Operation Ganga was specifically undertaken by India for the evacuation of its nationals during which international conflict?",
-                    "options": [
-                        "Syria Civil War",
-                        "Russia–Ukraine war",
-                        "Yemen Civil War",
-                        "Afghanistan War"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Operation Ganga was for evacuating Indians from Ukraine during the Russia–Ukraine war."
-                },
-                {
-                    "text": "What was the primary objective of Operation Sindhu, launched by India, as mentioned in the context of recent conflicts?",
-                    "options": [
-                        "Rescue mission during an earthquake",
-                        "Evacuation during the Iran–Israel war",
-                        "Anti-narcotics operation",
-                        "Disaster relief in Haiti"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Operation Sindhu was an evacuation during the Iran–Israel war."
-                },
-                {
-                    "text": "BHISHM Cubes, with a full form of Bharat Health Initiative for Sahyog, Hita & Maitri, are primarily known as what innovative medical infrastructure?",
-                    "options": [
-                        "Advanced satellite communication devices",
-                        "Portable Hospitals",
-                        "Rapid deployment drone systems",
-                        "Specialised medical research labs"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "BHISHM Cubes are portable hospitals."
-                },
-                {
-                    "text": "Which specific Indian agency launched Operation MED MAX, an international anti-drug operation?",
-                    "options": [
-                        "Central Bureau of Investigation (CBI)",
-                        "Research and Analysis Wing (RAW)",
-                        "Narcotics Control Bureau (NCB)",
-                        "Directorate of Revenue Intelligence (DRI)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The NCB (Narcotics Control Bureau) launched Operation MED MAX."
-                },
-                {
-                    "text": "Operation Rising Lion was a key military operation carried out by which country, targeting Iran?",
-                    "options": [
-                        "Iran",
-                        "USA",
-                        "Israel",
-                        "India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Israel conducted Operation Rising Lion targeting Iran."
-                },
-                {
-                    "text": "Operation True Promise 3 was launched as a major missile retaliation against Israel by which nation?",
-                    "options": [
-                        "Israel",
-                        "USA",
-                        "Iran",
-                        "Russia"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Iran launched Operation True Promise 3 against Israel."
-                },
-                {
-                    "text": "The Strait of Hormuz holds significant strategic importance due to the transportation of what percentage of global Liquefied Natural Gas (LNG) through it?",
-                    "options": [
-                        "10%",
-                        "20%",
-                        "30%",
-                        "40%"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "30% of global LNG passes through the Strait of Hormuz."
-                },
-                {
-                    "text": "The Bab el-Mandeb Strait is geographically positioned between Yemen on the Arabian Peninsula and which two countries in the Horn of Africa?",
-                    "options": [
-                        "Somalia and Kenya",
-                        "Sudan and Ethiopia",
-                        "Djibouti and Eritrea",
-                        "Egypt and Libya"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bab el-Mandeb lies between Yemen and Djibouti and Eritrea."
-                },
-                {
-                    "text": "In which year was the Indus Waters Treaty, brokered by the World Bank, officially signed?",
-                    "options": [
-                        "1950",
-                        "1960",
-                        "1970",
-                        "1980"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Indus Waters Treaty was signed in 1960."
-                },
-                {
-                    "text": "Under the provisions of the Indus Waters Treaty, what percentage of the combined waters is allocated for India's beneficial use?",
-                    "options": [
-                        "80%",
-                        "50%",
-                        "40%",
-                        "20%"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "India is allocated about 20% of the combined waters."
-                },
-                {
-                    "text": "Which of the following rivers is classified as a Western River under the Indus Waters Treaty, with its waters primarily allocated to Pakistan?",
-                    "options": [
-                        "Ravi",
-                        "Beas",
-                        "Satluj",
-                        "Chenab"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Chenab is a Western River allocated to Pakistan under the treaty."
-                },
-                {
-                    "text": "The Bhakra Nangal Project, a major Indian undertaking, is constructed on which of the Eastern Rivers allocated to India?",
-                    "options": [
-                        "Beas",
-                        "Satluj",
-                        "Ravi",
-                        "Yamuna"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bhakra Nangal Project is built on the Satluj."
-                },
-                {
-                    "text": "What is the approximate total length of the Indira Gandhi Canal, also known as the Rajasthan Canal?",
-                    "options": [
-                        "350 km",
-                        "450 km",
-                        "550 km",
-                        "650 km"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The total length of the Indira Gandhi Canal is approximately 650 km."
-                },
-                {
-                    "text": "How many distinct chapters does the sacred text Bhagavad Gita comprise?",
-                    "options": [
-                        "12",
-                        "16",
-                        "18",
-                        "24"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Bhagavad Gita consists of 18 chapters."
-                },
-                {
-                    "text": "The manuscript of Natyashastra is officially safeguarded at which renowned institution?",
-                    "options": [
-                        "National Archives of India",
-                        "Bhandarkar Oriental Research Institute",
-                        "Asiatic Society, Kolkata",
-                        "Saraswati Mahal Library"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Bhandarkar Oriental Research Institute preserves the Natyashastra manuscript."
-                },
-                {
-                    "text": "In what year was the UNESCO Memory of the World Programme, aimed at safeguarding documentary heritage, officially initiated?",
-                    "options": [
-                        "1982",
-                        "1992",
-                        "2002",
-                        "2012"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The UNESCO Memory of the World Programme was initiated in 1992."
-                },
-                {
-                    "text": "The Phalgam attack, which prompted India's Operation SINDOOR, took place on which specific date?",
-                    "options": [
-                        "22 March 2025",
-                        "22 April 2025",
-                        "7 May 2025",
-                        "11 May 2025"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Phalgam attack occurred on 22 April 2025."
-                },
-                {
-                    "text": "The Indian retaliation phase of Operation SINDOOR was executed and completed in approximately how many minutes?",
-                    "options": [
-                        "15 minutes",
-                        "23 minutes",
-                        "30 minutes",
-                        "45 minutes"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The retaliation was completed in 23 minutes."
-                },
-                {
-                    "text": "Who was the Director General of Military Operations (DGMO) specifically named as directing the Indian retaliation during Operation SINDOOR?",
-                    "options": [
-                        "Chief of Army Staff",
-                        "National Security Advisor",
-                        "DGMO Rajeev Ghai",
-                        "Defence Minister"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "DGMO Rajeev Ghai directed the Indian retaliation."
-                },
-                {
-                    "text": "Muridke, one of the locations targeted in Operation SINDOOR, is identified as the headquarters of which prominent terrorist organization?",
-                    "options": [
-                        "Jaish-e-Mohammed (JeM)",
-                        "Hizbul Mujahideen (HM)",
-                        "Lashkar-e-Taiba (LeT)",
-                        "Al-Qaeda"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Muridke is the headquarters of Lashkar-e-Taiba (LeT)."
-                },
-                {
-                    "text": "The HAMMER Bomb, known for its highly agile and modular design, is developed by which French Defence Company?",
-                    "options": [
-                        "Dassault Aviation",
-                        "Thales Group",
-                        "SAFRAN",
-                        "MBDA"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "SAFRAN develops the HAMMER Bomb."
-                },
-                {
-                    "text": "The BRAHMOS missile's name is a portmanteau derived from which two rivers?",
-                    "options": [
-                        "Brahmaputra and Moscow River",
-                        "Ganga and Volga River",
-                        "Godavari and Rhine River",
-                        "Yamuna and Danube River"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "BRAHMOS is derived from Brahmaputra and Moscow rivers."
-                },
-                {
-                    "text": "The AKASH Missile System is accurately classified as what type of missile?",
-                    "options": [
-                        "Air-to-Air Missile",
-                        "Short Range Surface-to-Air Missile (SAM)",
-                        "Anti-Ship Missile",
-                        "Ballistic Missile Defence"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "AKASH is a short range Surface-to-Air Missile (SAM) system."
-                },
-                {
-                    "text": "Operation Indravati was specifically launched by India for the evacuation of its citizens due to violence in which country?",
-                    "options": [
-                        "Ukraine",
-                        "Afghanistan",
-                        "Haiti",
-                        "Syria"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Operation Indravati was for the evacuation from Haiti."
-                },
-                {
-                    "text": "What was the primary purpose of India's Operation Devi Shakti?",
-                    "options": [
-                        "Evacuation during Russia–Ukraine war",
-                        "Afghanistan evacuation during Taliban takeover",
-                        "Rescue mission during Turkey–Syria Earthquake",
-                        "Evacuation due to Haiti violence"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Operation Devi Shakti evacuated Indians during the Afghanistan Taliban takeover."
-                },
-                {
-                    "text": "What is the correct full form of the medical initiative known as BHISHM Cubes?",
-                    "options": [
-                        "Bharat Health Initiative for Support, Help & Medicine",
-                        "Bharat Hospital Infrastructure for Sahyog, Hita & Maitri",
-                        "Bharat Health Initiative for Sahyog, Hita & Maitri",
-                        "Biomedical Health Innovation for Safety, Hygiene & Medical"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "BHISHM Cubes stand for Bharat Health Initiative for Sahyog, Hita & Maitri."
-                },
-                {
-                    "text": "The stated objective of Operation Midnight Hammer, carried out by the USA against Iran, was to achieve what specific military goal?",
-                    "options": [
-                        "Secure strategic oil fields",
-                        "Cripple Iranian military infrastructure",
-                        "Negotiate a peace treaty",
-                        "Conduct humanitarian aid operations"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The objective was to cripple Iranian military infrastructure."
-                },
-                {
-                    "text": "The Strait of Hormuz is bordered on its southern side by which two nations?",
-                    "options": [
-                        "Saudi Arabia and Qatar",
-                        "UAE and Oman",
-                        "Kuwait and Bahrain",
-                        "Pakistan and Iran"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Strait is bordered south by UAE and Oman."
-                },
-                {
-                    "text": "Which of the following countries is explicitly mentioned as bordering the Red Sea?",
-                    "options": [
-                        "Iraq",
-                        "Jordan",
-                        "Saudi Arabia",
-                        "Lebanon"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Saudi Arabia borders the Red Sea."
-                },
-                {
-                    "text": "The India–UAE Civil Nuclear Energy Agreement specifically involves the Barakah Nuclear Plant, located in which city of the UAE?",
-                    "options": [
-                        "Dubai",
-                        "Sharjah",
-                        "Abu Dhabi",
-                        "Fujairah"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Barakah Plant is located in Abu Dhabi."
-                },
-                {
-                    "text": "The UAE has introduced a 10-year Blue Residency Visa primarily for which category of individuals?",
-                    "options": [
-                        "Students and Researchers",
-                        "Professionals, NGO workers, and experts working in green industries",
-                        "Athletes and Artists",
-                        "Investors and Entrepreneurs"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Blue Residency Visa is meant for professionals, NGO workers, and sustainability experts."
-                },
-                {
-                    "text": "Which international organization played the role of a broker in the negotiation and signing of the Indus Waters Treaty?",
-                    "options": [
-                        "United Nations",
-                        "International Monetary Fund (IMF)",
-                        "World Bank",
-                        "Asian Development Bank (ADB)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "World Bank brokered the Indus Waters Treaty."
-                },
-                {
-                    "text": "The Indus Waters Treaty was formally signed at which specific city?",
-                    "options": [
-                        "Lahore",
-                        "New Delhi",
-                        "Karachi",
-                        "Washington D.C."
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Indus Waters Treaty was signed in Karachi."
-                },
-                {
-                    "text": "The Indira Gandhi Canal, also known as the Rajasthan Canal, makes its entry into Rajasthan at which specific point?",
-                    "options": [
-                        "Bikaner",
-                        "Jaisalmer",
-                        "Hanumangarh",
-                        "Jodhpur"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The canal enters Rajasthan at Hanumangarh."
-                },
-                {
-                    "text": "The Natyaveda, an oral tradition from which Natyashastra is derived, is believed to contain how many verses?",
-                    "options": [
-                        "700",
-                        "7,000",
-                        "18,000",
-                        "36,000"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The Natyaveda oral tradition is said to contain 36,000 verses."
-                },
-                {
-                    "text": "As of the provided information, approximately how many entries are included worldwide in the UNESCO Memory of the World Register?",
-                    "options": [
-                        "Less than 100",
-                        "Around 250",
-                        "Over 570",
-                        "Over 1000"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "There are over 570 entries worldwide in the UNESCO Memory of the World Register."
-                },
-                {
-                    "text": "Which river was identified as being in the vicinity of the Phalgam attack, which was claimed by the Resistance Front?",
-                    "options": [
-                        "Jhelum River",
-                        "Lidder River",
-                        "Chenab River",
-                        "Ravi River"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Phalgam attack occurred near the Lidder River."
-                },
-                {
-                    "text": "One of the strategic defense roles performed by ISRO's satellites, as stated by its chairman, includes surveillance over which specific geographical area?",
-                    "options": [
-                        "Western coastline",
-                        "Southern peninsula",
-                        "Entire northern region",
-                        "Eastern borders"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ISRO satellites provide coverage over the entire northern region."
-                },
-                {
-                    "text": "What is the stated missile engagement range of the S-400 Defence System, developed with Russian technology?",
-                    "options": [
-                        "200 km",
-                        "300 km",
-                        "400 km",
-                        "600 km"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The S-400 system has a maximum engagement range of 400 km."
-                },
-                {
-                    "text": "What is the official election symbol of the Plurals party, founded by Pushpam Priya Chaudhary?",
-                    "options": [
-                        "Lotus",
-                        "Whistle",
-                        "Elephant",
-                        "Bicycle"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The official election symbol of the Plurals party is the Whistle."
-                }
-            ]
-
-            ,
+                "text": "Which of the following Indian entries were mentioned as notable inclusions in the UNESCO Memory of the World Register prior to the recent additions of Bhagavad Gita and Natyashastra?",
+                "options": [
+                    "Works of Kalidasa",
+                    "Rig Veda",
+                    "Arthashastra",
+                    "Ramayana"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Rig Veda was already included in UNESCO's Memory of the World Register before Bhagavad Gita and Natyashastra."
+            },
+            {
+                "text": "The Natyashastra is believed to have been compiled by which ancient scholar around the 2nd century BCE?",
+                "options": [
+                    "Ved Vyas",
+                    "Valmiki",
+                    "Bharatmuni",
+                    "Patanjali"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bharatmuni is credited with compiling the Natyashastra around the 2nd century BCE."
+            },
+            {
+                "text": "The Bhagavad Gita is primarily presented as a dialogue between Lord Krishna and which warrior on the battlefield of Kurukshetra?",
+                "options": [
+                    "Duryodhana",
+                    "Arjuna",
+                    "Bhima",
+                    "Yudhisthira"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Bhagavad Gita is a dialogue between Lord Krishna and Arjuna."
+            },
+            {
+                "text": "Operation SINDOOR, an Indian retaliation operation, was launched in which specific month and year?",
+                "options": [
+                    "April 2025",
+                    "May 2025",
+                    "June 2025",
+                    "March 2025"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Operation SINDOOR took place in May 2025."
+            },
+            {
+                "text": "What was the name of Pakistan's retaliatory operation following India's Operation SINDOOR?",
+                "options": [
+                    "Operation Eagle Strike",
+                    "Operation Swift Retort",
+                    "Operation Bunyan al-Marsoos",
+                    "Operation Zarb-e-Azb"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pakistan responded with Operation Bunyan al-Marsoos."
+            },
+            {
+                "text": "Mumbai's Carnac Bridge was renamed subsequent to Operation SINDOOR. What is its new designation?",
+                "options": [
+                    "Swatantrata Bridge",
+                    "Vijay Bridge",
+                    "Sindoor Bridge",
+                    "Dhruv Bridge"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The bridge was renamed Sindoor Bridge."
+            },
+            {
+                "text": "According to the statement by ISRO Chairman V. Narayanan in May, approximately how many satellites are consistently operating for strategic defense purposes?",
+                "options": [
+                    "5",
+                    "8",
+                    "10",
+                    "15"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There are about 10 satellites operating for strategic defense."
+            },
+            {
+                "text": "The SCALP missile, with a full form of Storm Shadow, is classified as which type of missile?",
+                "options": [
+                    "Surface-to-Air Missile",
+                    "Air-Launched Cruise Missile",
+                    "Ballistic Missile",
+                    "Anti-Tank Guided Missile"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SCALP (Storm Shadow) is an air-launched cruise missile."
+            },
+            {
+                "text": "What is the stated speed range of the BRAHMOS supersonic cruise missile?",
+                "options": [
+                    "Mach 1.0–1.5",
+                    "Mach 2.0–2.5",
+                    "Mach 2.8–3.0",
+                    "Mach 3.5–4.0"
+                ],
+                "correctAnswer": 2,
+                "explanation": "BRAHMOS travels at supersonic speeds of Mach 2.8–3.0."
+            },
+            {
+                "text": "The S-400 Defence System is colloquially known by which nickname in India?",
+                "options": [
+                    "Trishul Chakra",
+                    "Sudarshan Chakra",
+                    "Agni Chakra",
+                    "Vajra Chakra"
+                ],
+                "correctAnswer": 1,
+                "explanation": "S-400 is referred to as Sudarshan Chakra in India."
+            },
+            {
+                "text": "Operation Ganga was specifically undertaken by India for the evacuation of its nationals during which international conflict?",
+                "options": [
+                    "Syria Civil War",
+                    "Russia–Ukraine war",
+                    "Yemen Civil War",
+                    "Afghanistan War"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Operation Ganga was for evacuating Indians from Ukraine during the Russia–Ukraine war."
+            },
+            {
+                "text": "What was the primary objective of Operation Sindhu, launched by India, as mentioned in the context of recent conflicts?",
+                "options": [
+                    "Rescue mission during an earthquake",
+                    "Evacuation during the Iran–Israel war",
+                    "Anti-narcotics operation",
+                    "Disaster relief in Haiti"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Operation Sindhu was an evacuation during the Iran–Israel war."
+            },
+            {
+                "text": "BHISHM Cubes, with a full form of Bharat Health Initiative for Sahyog, Hita & Maitri, are primarily known as what innovative medical infrastructure?",
+                "options": [
+                    "Advanced satellite communication devices",
+                    "Portable Hospitals",
+                    "Rapid deployment drone systems",
+                    "Specialised medical research labs"
+                ],
+                "correctAnswer": 1,
+                "explanation": "BHISHM Cubes are portable hospitals."
+            },
+            {
+                "text": "Which specific Indian agency launched Operation MED MAX, an international anti-drug operation?",
+                "options": [
+                    "Central Bureau of Investigation (CBI)",
+                    "Research and Analysis Wing (RAW)",
+                    "Narcotics Control Bureau (NCB)",
+                    "Directorate of Revenue Intelligence (DRI)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The NCB (Narcotics Control Bureau) launched Operation MED MAX."
+            },
+            {
+                "text": "Operation Rising Lion was a key military operation carried out by which country, targeting Iran?",
+                "options": [
+                    "Iran",
+                    "USA",
+                    "Israel",
+                    "India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Israel conducted Operation Rising Lion targeting Iran."
+            },
+            {
+                "text": "Operation True Promise 3 was launched as a major missile retaliation against Israel by which nation?",
+                "options": [
+                    "Israel",
+                    "USA",
+                    "Iran",
+                    "Russia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Iran launched Operation True Promise 3 against Israel."
+            },
+            {
+                "text": "The Strait of Hormuz holds significant strategic importance due to the transportation of what percentage of global Liquefied Natural Gas (LNG) through it?",
+                "options": [
+                    "10%",
+                    "20%",
+                    "30%",
+                    "40%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "30% of global LNG passes through the Strait of Hormuz."
+            },
+            {
+                "text": "The Bab el-Mandeb Strait is geographically positioned between Yemen on the Arabian Peninsula and which two countries in the Horn of Africa?",
+                "options": [
+                    "Somalia and Kenya",
+                    "Sudan and Ethiopia",
+                    "Djibouti and Eritrea",
+                    "Egypt and Libya"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bab el-Mandeb lies between Yemen and Djibouti and Eritrea."
+            },
+            {
+                "text": "In which year was the Indus Waters Treaty, brokered by the World Bank, officially signed?",
+                "options": [
+                    "1950",
+                    "1960",
+                    "1970",
+                    "1980"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Indus Waters Treaty was signed in 1960."
+            },
+            {
+                "text": "Under the provisions of the Indus Waters Treaty, what percentage of the combined waters is allocated for India's beneficial use?",
+                "options": [
+                    "80%",
+                    "50%",
+                    "40%",
+                    "20%"
+                ],
+                "correctAnswer": 3,
+                "explanation": "India is allocated about 20% of the combined waters."
+            },
+            {
+                "text": "Which of the following rivers is classified as a Western River under the Indus Waters Treaty, with its waters primarily allocated to Pakistan?",
+                "options": [
+                    "Ravi",
+                    "Beas",
+                    "Satluj",
+                    "Chenab"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Chenab is a Western River allocated to Pakistan under the treaty."
+            },
+            {
+                "text": "The Bhakra Nangal Project, a major Indian undertaking, is constructed on which of the Eastern Rivers allocated to India?",
+                "options": [
+                    "Beas",
+                    "Satluj",
+                    "Ravi",
+                    "Yamuna"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bhakra Nangal Project is built on the Satluj."
+            },
+            {
+                "text": "What is the approximate total length of the Indira Gandhi Canal, also known as the Rajasthan Canal?",
+                "options": [
+                    "350 km",
+                    "450 km",
+                    "550 km",
+                    "650 km"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The total length of the Indira Gandhi Canal is approximately 650 km."
+            },
+            {
+                "text": "How many distinct chapters does the sacred text Bhagavad Gita comprise?",
+                "options": [
+                    "12",
+                    "16",
+                    "18",
+                    "24"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Bhagavad Gita consists of 18 chapters."
+            },
+            {
+                "text": "The manuscript of Natyashastra is officially safeguarded at which renowned institution?",
+                "options": [
+                    "National Archives of India",
+                    "Bhandarkar Oriental Research Institute",
+                    "Asiatic Society, Kolkata",
+                    "Saraswati Mahal Library"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bhandarkar Oriental Research Institute preserves the Natyashastra manuscript."
+            },
+            {
+                "text": "In what year was the UNESCO Memory of the World Programme, aimed at safeguarding documentary heritage, officially initiated?",
+                "options": [
+                    "1982",
+                    "1992",
+                    "2002",
+                    "2012"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The UNESCO Memory of the World Programme was initiated in 1992."
+            },
+            {
+                "text": "The Phalgam attack, which prompted India's Operation SINDOOR, took place on which specific date?",
+                "options": [
+                    "22 March 2025",
+                    "22 April 2025",
+                    "7 May 2025",
+                    "11 May 2025"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Phalgam attack occurred on 22 April 2025."
+            },
+            {
+                "text": "The Indian retaliation phase of Operation SINDOOR was executed and completed in approximately how many minutes?",
+                "options": [
+                    "15 minutes",
+                    "23 minutes",
+                    "30 minutes",
+                    "45 minutes"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The retaliation was completed in 23 minutes."
+            },
+            {
+                "text": "Who was the Director General of Military Operations (DGMO) specifically named as directing the Indian retaliation during Operation SINDOOR?",
+                "options": [
+                    "Chief of Army Staff",
+                    "National Security Advisor",
+                    "DGMO Rajeev Ghai",
+                    "Defence Minister"
+                ],
+                "correctAnswer": 2,
+                "explanation": "DGMO Rajeev Ghai directed the Indian retaliation."
+            },
+            {
+                "text": "Muridke, one of the locations targeted in Operation SINDOOR, is identified as the headquarters of which prominent terrorist organization?",
+                "options": [
+                    "Jaish-e-Mohammed (JeM)",
+                    "Hizbul Mujahideen (HM)",
+                    "Lashkar-e-Taiba (LeT)",
+                    "Al-Qaeda"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Muridke is the headquarters of Lashkar-e-Taiba (LeT)."
+            },
+            {
+                "text": "The HAMMER Bomb, known for its highly agile and modular design, is developed by which French Defence Company?",
+                "options": [
+                    "Dassault Aviation",
+                    "Thales Group",
+                    "SAFRAN",
+                    "MBDA"
+                ],
+                "correctAnswer": 2,
+                "explanation": "SAFRAN develops the HAMMER Bomb."
+            },
+            {
+                "text": "The BRAHMOS missile's name is a portmanteau derived from which two rivers?",
+                "options": [
+                    "Brahmaputra and Moscow River",
+                    "Ganga and Volga River",
+                    "Godavari and Rhine River",
+                    "Yamuna and Danube River"
+                ],
+                "correctAnswer": 0,
+                "explanation": "BRAHMOS is derived from Brahmaputra and Moscow rivers."
+            },
+            {
+                "text": "The AKASH Missile System is accurately classified as what type of missile?",
+                "options": [
+                    "Air-to-Air Missile",
+                    "Short Range Surface-to-Air Missile (SAM)",
+                    "Anti-Ship Missile",
+                    "Ballistic Missile Defence"
+                ],
+                "correctAnswer": 1,
+                "explanation": "AKASH is a short range Surface-to-Air Missile (SAM) system."
+            },
+            {
+                "text": "Operation Indravati was specifically launched by India for the evacuation of its citizens due to violence in which country?",
+                "options": [
+                    "Ukraine",
+                    "Afghanistan",
+                    "Haiti",
+                    "Syria"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Operation Indravati was for the evacuation from Haiti."
+            },
+            {
+                "text": "What was the primary purpose of India's Operation Devi Shakti?",
+                "options": [
+                    "Evacuation during Russia–Ukraine war",
+                    "Afghanistan evacuation during Taliban takeover",
+                    "Rescue mission during Turkey–Syria Earthquake",
+                    "Evacuation due to Haiti violence"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Operation Devi Shakti evacuated Indians during the Afghanistan Taliban takeover."
+            },
+            {
+                "text": "What is the correct full form of the medical initiative known as BHISHM Cubes?",
+                "options": [
+                    "Bharat Health Initiative for Support, Help & Medicine",
+                    "Bharat Hospital Infrastructure for Sahyog, Hita & Maitri",
+                    "Bharat Health Initiative for Sahyog, Hita & Maitri",
+                    "Biomedical Health Innovation for Safety, Hygiene & Medical"
+                ],
+                "correctAnswer": 2,
+                "explanation": "BHISHM Cubes stand for Bharat Health Initiative for Sahyog, Hita & Maitri."
+            },
+            {
+                "text": "The stated objective of Operation Midnight Hammer, carried out by the USA against Iran, was to achieve what specific military goal?",
+                "options": [
+                    "Secure strategic oil fields",
+                    "Cripple Iranian military infrastructure",
+                    "Negotiate a peace treaty",
+                    "Conduct humanitarian aid operations"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The objective was to cripple Iranian military infrastructure."
+            },
+            {
+                "text": "The Strait of Hormuz is bordered on its southern side by which two nations?",
+                "options": [
+                    "Saudi Arabia and Qatar",
+                    "UAE and Oman",
+                    "Kuwait and Bahrain",
+                    "Pakistan and Iran"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Strait is bordered south by UAE and Oman."
+            },
+            {
+                "text": "Which of the following countries is explicitly mentioned as bordering the Red Sea?",
+                "options": [
+                    "Iraq",
+                    "Jordan",
+                    "Saudi Arabia",
+                    "Lebanon"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Saudi Arabia borders the Red Sea."
+            },
+            {
+                "text": "The India–UAE Civil Nuclear Energy Agreement specifically involves the Barakah Nuclear Plant, located in which city of the UAE?",
+                "options": [
+                    "Dubai",
+                    "Sharjah",
+                    "Abu Dhabi",
+                    "Fujairah"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Barakah Plant is located in Abu Dhabi."
+            },
+            {
+                "text": "The UAE has introduced a 10-year Blue Residency Visa primarily for which category of individuals?",
+                "options": [
+                    "Students and Researchers",
+                    "Professionals, NGO workers, and experts working in green industries",
+                    "Athletes and Artists",
+                    "Investors and Entrepreneurs"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Blue Residency Visa is meant for professionals, NGO workers, and sustainability experts."
+            },
+            {
+                "text": "Which international organization played the role of a broker in the negotiation and signing of the Indus Waters Treaty?",
+                "options": [
+                    "United Nations",
+                    "International Monetary Fund (IMF)",
+                    "World Bank",
+                    "Asian Development Bank (ADB)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "World Bank brokered the Indus Waters Treaty."
+            },
+            {
+                "text": "The Indus Waters Treaty was formally signed at which specific city?",
+                "options": [
+                    "Lahore",
+                    "New Delhi",
+                    "Karachi",
+                    "Washington D.C."
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Indus Waters Treaty was signed in Karachi."
+            },
+            {
+                "text": "The Indira Gandhi Canal, also known as the Rajasthan Canal, makes its entry into Rajasthan at which specific point?",
+                "options": [
+                    "Bikaner",
+                    "Jaisalmer",
+                    "Hanumangarh",
+                    "Jodhpur"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The canal enters Rajasthan at Hanumangarh."
+            },
+            {
+                "text": "The Natyaveda, an oral tradition from which Natyashastra is derived, is believed to contain how many verses?",
+                "options": [
+                    "700",
+                    "7,000",
+                    "18,000",
+                    "36,000"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Natyaveda oral tradition is said to contain 36,000 verses."
+            },
+            {
+                "text": "As of the provided information, approximately how many entries are included worldwide in the UNESCO Memory of the World Register?",
+                "options": [
+                    "Less than 100",
+                    "Around 250",
+                    "Over 570",
+                    "Over 1000"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There are over 570 entries worldwide in the UNESCO Memory of the World Register."
+            },
+            {
+                "text": "Which river was identified as being in the vicinity of the Phalgam attack, which was claimed by the Resistance Front?",
+                "options": [
+                    "Jhelum River",
+                    "Lidder River",
+                    "Chenab River",
+                    "Ravi River"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Phalgam attack occurred near the Lidder River."
+            },
+            {
+                "text": "One of the strategic defense roles performed by ISRO's satellites, as stated by its chairman, includes surveillance over which specific geographical area?",
+                "options": [
+                    "Western coastline",
+                    "Southern peninsula",
+                    "Entire northern region",
+                    "Eastern borders"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ISRO satellites provide coverage over the entire northern region."
+            },
+            {
+                "text": "What is the stated missile engagement range of the S-400 Defence System, developed with Russian technology?",
+                "options": [
+                    "200 km",
+                    "300 km",
+                    "400 km",
+                    "600 km"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The S-400 system has a maximum engagement range of 400 km."
+            },
+            {
+                "text": "What is the official election symbol of the Plurals party, founded by Pushpam Priya Chaudhary?",
+                "options": [
+                    "Lotus",
+                    "Whistle",
+                    "Elephant",
+                    "Bicycle"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The official election symbol of the Plurals party is the Whistle."
+            }
+        ],
         "Current Affairs - Set - 8": [{
-                    "text": "Operation Yuttha Bodin, a major land and air offensive, was launched by the army of which country?",
-                    "options": [
-                        "India",
-                        "Cambodia",
-                        "Thailand",
-                        "Vietnam"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Operation Yuttha Bodin was launched by the Thai army."
-                },
-                {
-                    "text": "Yashoda AI, India's first Artificial Intelligence literacy campaign for rural women, was launched by which organisation?",
-                    "options": [
-                        "NITI Aayog",
-                        "National Commission for Women (NCW)",
-                        "Ministry of Women and Child Development",
-                        "Indian Council of Agricultural Research (ICAR)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "NCW launched the Yashoda AI campaign for rural women."
-                },
-                {
-                    "text": "What is the primary objective of the Yashoda AI initiative?",
-                    "options": [
-                        "To provide financial literacy to rural women.",
-                        "To promote digital health services in rural areas.",
-                        "To democratise AI education for women, especially in rural areas.",
-                        "To develop AI-powered tools for agricultural productivity."
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The aim is to democratise and expand AI education for rural women."
-                },
-                {
-                    "text": "Sagarmala Finance Corporation Ltd. (SMFCL) is India's first Non-Banking Financial Company (NBFC) dedicated to which sector?",
-                    "options": [
-                        "Agriculture Sector",
-                        "Renewable Energy Sector",
-                        "Maritime Sector",
-                        "Micro, Small, and Medium Enterprises (MSME) Sector"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "SMFCL is dedicated to the Maritime Sector."
-                },
-                {
-                    "text": "Who inaugurated the Sagarmala Finance Corporation Ltd. (SMFCL)?",
-                    "options": [
-                        "The Prime Minister of India",
-                        "The Minister of Finance",
-                        "The Union Minister for Ports, Shipping and Waterways",
-                        "The Governor of the Reserve Bank of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Union Minister for Ports, Shipping and Waterways inaugurated SMFCL."
-                },
-                {
-                    "text": "According to a Supreme Court judgement, digital access to e-governance and welfare delivery systems is now considered part of which fundamental right under Article 21?",
-                    "options": [
-                        "Right to Education",
-                        "Right to Freedom of Speech and Expression",
-                        "Right to Life and Liberty",
-                        "Right to Constitutional Remedies"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Digital access is now part of the Right to Life and Liberty (Article 21)."
-                },
-                {
-                    "text": "Which of the following cases were involved in the Supreme Court's judgement declaring digital access as a part of Article 21?\n    1. Pragya Prasun v. Union of India\n    2. Amnar Jain v. Union of India\n    3. Maneka Gandhi v. Union of India Select the correct option:",
-                    "options": [
-                        "1 and 2 only",
-                        "2 and 3 only",
-                        "1 and 3 only",
-                        "1, 2 and 3"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The cases were Pragya Prasun v. Union of India and Amnar Jain v. Union of India."
-                },
-                {
-                    "text": "The judgement stating 'Right to digital access is the part of Article 21' specifically involved an issue related to KYC verification requiring what?",
-                    "options": [
-                        "Biometric authentication",
-                        "Visual signature",
-                        "Aadhaar card details",
-                        "Proof of address"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The issue involved KYC verification requiring a visual signature."
-                },
-                {
-                    "text": "In which landmark case was the scope of Article 21 expanded to include 'Due process of law' and the interpretation that 'Right to life = Right to a dignified life'?",
-                    "options": [
-                        "K.S. Puttaswamy v. Union of India",
-                        "Pragya Prasun v. Union of India",
-                        "Maneka Gandhi v. Union of India",
-                        "Amnar Jain v. Union of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Maneka Gandhi v. Union of India expanded Article 21."
-                },
-                {
-                    "text": "The K.S. Puttaswamy v. Union of India (2017) judgement declared which of the following as a Fundamental Right under Article 21?",
-                    "options": [
-                        "Right to Information",
-                        "Right to Privacy",
-                        "Right to Work",
-                        "Right to Property"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The judgment declared Right to Privacy a Fundamental Right."
-                },
-                {
-                    "text": "Which country's constitution is associated with the concept of 'Procedure Established by Law' according to the provided information?",
-                    "options": [
-                        "USA",
-                        "Japan",
-                        "India",
-                        "UK"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Japanese constitution is associated with 'Procedure Established by Law'."
-                },
-                {
-                    "text": "The concept of 'Due process of law' finds its constitutional reference in which country's constitution?",
-                    "options": [
-                        "India",
-                        "Japan",
-                        "USA",
-                        "UK"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Due process of law is associated with the USA constitution."
-                },
-                {
-                    "text": "Axiom Mission 4 is operated by Axiom Space, a private US company. It collaborates with which of the following agencies/organisations?\n    1. NASA\n    2. SpaceX\n    3. ISRO Select the correct code:",
-                    "options": [
-                        "1 and 2 only",
-                        "2 and 3 only",
-                        "1 and 3 only",
-                        "1, 2 and 3"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Axiom Mission 4 collaborates with NASA, SpaceX, and ISRO."
-                },
-                {
-                    "text": "Who is the first Indian to go to the International Space Station (ISS) as part of Axiom Mission 4?",
-                    "options": [
-                        "Rakesh Sharma",
-                        "Shubhanshu Shukla",
-                        "V. Narayanan",
-                        "Oleg Kononenko"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Shubhanshu Shukla is the first Indian to visit the ISS on Axiom Mission 4."
-                },
-                {
-                    "text": "Who was the first Indian to go into space, preceding Shubhanshu Shukla?",
-                    "options": [
-                        "Kalpana Chawla",
-                        "Sunita Williams",
-                        "Rakesh Sharma",
-                        "Ravish Malhotra"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Rakesh Sharma was the first Indian in space."
-                },
-                {
-                    "text": "The crew members for Axiom Mission 4 mentioned in the notes include astronauts from which countries?",
-                    "options": [
-                        "USA, Poland, Hungary",
-                        "USA, Russia, Poland",
-                        "USA, Hungary, France",
-                        "USA, Poland, Germany"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Crew includes astronauts from the USA, Poland, and Hungary."
-                },
-                {
-                    "text": "What is ISRO's target year for the first crewed Gaganyaan Mission?",
-                    "options": [
-                        "2025",
-                        "2027",
-                        "2030",
-                        "2035"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The target is for Gaganyaan's first crewed mission by 2027."
-                },
-                {
-                    "text": "By which year does ISRO aim to establish the Bhartiya Antariksha Station?",
-                    "options": [
-                        "2030",
-                        "2035",
-                        "2040",
-                        "2050"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ISRO aims for the Indian Space Station by 2035."
-                },
-                {
-                    "text": "What is ISRO's target year for its Moon Mission?",
-                    "options": [
-                        "2030",
-                        "2035",
-                        "2040",
-                        "2045"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ISRO aims for a lunar mission by 2040."
-                },
-                {
-                    "text": "Who is currently the Chairman of ISRO, as per the provided information?",
-                    "options": [
-                        "S. Somanath",
-                        "K. Sivan",
-                        "V. Narayanan",
-                        "A.S. Kiran Kumar"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "V. Narayanan is currently ISRO Chairman."
-                },
-                {
-                    "text": "India exported its first ready-to-drink GI-tagged fig juice to which country?",
-                    "options": [
-                        "Germany",
-                        "France",
-                        "Poland",
-                        "United Kingdom"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The first GI fig juice was exported to Poland."
-                },
-                {
-                    "text": "Purandar Figs, used for the GI-tagged fig juice, are primarily grown in which region of India?",
-                    "options": [
-                        "Nashik district, Maharashtra",
-                        "Pune district, Maharashtra",
-                        "Mysuru district, Karnataka",
-                        "Chittoor district, Andhra Pradesh"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Purandar Figs are grown in Pune district, Maharashtra."
-                },
-                {
-                    "text": "What is the validity period for a Geographical Indication (GI) tag?",
-                    "options": [
-                        "5 years",
-                        "10 years",
-                        "15 years",
-                        "20 years"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "A GI tag is valid for 10 years."
-                },
-                {
-                    "text": "Which was the first product in India to receive a GI tag?",
-                    "options": [
-                        "Basmati Rice",
-                        "Mysore Silk",
-                        "Darjeeling Tea",
-                        "Kanchipuram Silk"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Darjeeling Tea was the first GI-tagged product in India."
-                },
-                {
-                    "text": "By 2030, what is the target number of GI products for India?",
-                    "options": [
-                        "5,000",
-                        "7,500",
-                        "10,000",
-                        "12,000"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India targets 10,000 GI products by 2030."
-                },
-                {
-                    "text": "Which Indian state has the maximum number of GI tags, followed by Tamil Nadu?",
-                    "options": [
-                        "Karnataka",
-                        "Kerala",
-                        "Uttar Pradesh",
-                        "Maharashtra"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Uttar Pradesh has the most GI tags among Indian states."
-                },
-                {
-                    "text": "Oleg Kononenko, who set a new world record for cumulative time spent in space (1,000 days), is a cosmonaut from which country?",
-                    "options": [
-                        "USA",
-                        "Russia",
-                        "China",
-                        "Germany"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He is a Russian cosmonaut."
-                },
-                {
-                    "text": "The NASA mission 'Europa Clipper' has the objective to study which celestial body?",
-                    "options": [
-                        "Mars",
-                        "Jupiter’s moon Europa",
-                        "Saturn’s moon Titan",
-                        "The Sun"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Europa Clipper will study Jupiter’s moon Europa."
-                },
-                {
-                    "text": "The Khelo India University Games 2025 are scheduled to be held in which Indian state?",
-                    "options": [
-                        "Bihar",
-                        "Rajasthan",
-                        "Madhya Pradesh",
-                        "Uttar Pradesh"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Games are planned in Rajasthan."
-                },
-                {
-                    "text": "Who is the current Chairman of the State Bank of India (SBI) and also elected as Chairman of the Indian Bank Association?",
-                    "options": [
-                        "Tuhin Kant Pandey",
-                        "Challa Sreenivasulu Shetty",
-                        "Ashish Khanna",
-                        "Rajiv Memani"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Challa Sreenivasulu Shetty is the current SBI Chairman."
-                },
-                {
-                    "text": "Tuhin Kant Pandey is the new Chairman of which regulatory body?",
-                    "options": [
-                        "Reserve Bank of India (RBI)",
-                        "Securities and Exchange Board of India (SEBI)",
-                        "Insurance Regulatory and Development Authority of India (IRDAI)",
-                        "Pension Fund Regulatory and Development Authority (PFRDA)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He is the new Chairman of SEBI."
-                },
-                {
-                    "text": "Who is the Director General of the International Solar Alliance (ISA)?",
-                    "options": [
-                        "S Mahendra Dev",
-                        "Dr Ajay Kumar",
-                        "Ashish Khanna",
-                        "Alok Joshi"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Ashish Khanna is the present Director General of ISA."
-                },
-                {
-                    "text": "Nikita Porwal, who won Femina Miss India 2024, hails from which Indian state?",
-                    "options": [
-                        "Uttar Pradesh",
-                        "Rajasthan",
-                        "Madhya Pradesh",
-                        "Maharashtra"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Nikita Porwal is from Madhya Pradesh."
-                },
-                {
-                    "text": "Victoria Kjær Theilvig, Miss Universe 2024, represents which country?",
-                    "options": [
-                        "Sweden",
-                        "Denmark",
-                        "Norway",
-                        "Finland"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "She is from Denmark."
-                },
-                {
-                    "text": "The Securities and Exchange Board of India (SEBI) is a statutory body established in which year?",
-                    "options": [
-                        "1988",
-                        "1992",
-                        "1995",
-                        "2002"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SEBI was established as a statutory body in 1992."
-                },
-                {
-                    "text": "When was the International Solar Alliance (ISA) launched?",
-                    "options": [
-                        "2010 at COP15",
-                        "2012 at COP18",
-                        "2015 at COP21",
-                        "2018 at COP24"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "ISA was launched at COP21 in 2015."
-                },
-                {
-                    "text": "Which country became the 123rd member to join the International Solar Alliance (ISA)?",
-                    "options": [
-                        "Brazil",
-                        "Australia",
-                        "Angola",
-                        "Egypt"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Angola became the 123rd ISA member."
-                },
-                {
-                    "text": "India’s first World Peace Centre has been inaugurated at Gurugram. It was established by which organisation?",
-                    "options": [
-                        "Art of Living Foundation",
-                        "Brahma Kumaris",
-                        "Ahimsa Vishwa Bharti",
-                        "Ramakrishna Mission"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Ahimsa Vishwa Bharti inaugurated the World Peace Centre."
-                },
-                {
-                    "text": "IPS Parag Jain has been appointed as the new RAW Chief. He is known as the brain behind which operation?",
-                    "options": [
-                        "Operation Vijay",
-                        "Operation Sindoor",
-                        "Operation Cactus",
-                        "Operation Meghdoot"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He is the master strategist of Operation Sindoor."
-                },
-                {
-                    "text": "Who among the following is the Brand Ambassador of Maldives Tourism?",
-                    "options": [
-                        "Priyanka Chopra",
-                        "Deepika Padukone",
-                        "Katrina Kaif",
-                        "Alia Bhatt"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Katrina Kaif is the brand ambassador for Maldives Tourism."
-                },
-                {
-                    "text": "Which sportsperson is the Brand Ambassador for Audi?",
-                    "options": [
-                        "Virat Kohli",
-                        "Rohit Sharma",
-                        "Neeraj Chopra",
-                        "P.V. Sindhu"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Neeraj Chopra is the brand ambassador for Audi."
-                },
-                {
-                    "text": "Who is the President of the Asian Development Bank (ADB)?",
-                    "options": [
-                        "Takehiko Nakao",
-                        "Masatsugu Asakawa",
-                        "Masato Kanda",
-                        "Jin Liqun"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Masato Kanda is the current ADB President."
-                },
-                {
-                    "text": "Which country is the newest member to join the Asian Development Bank (ADB)?",
-                    "options": [
-                        "Israel",
-                        "Saudi Arabia",
-                        "Turkey",
-                        "South Korea"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Israel is the newest member of ADB."
-                },
-                {
-                    "text": "Who is the current Prime Minister of Japan, as per the given information?",
-                    "options": [
-                        "Fumio Kishida",
-                        "Shinzo Abe",
-                        "Yoshihide Suga",
-                        "Ishiba"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Ishiba is the current Prime Minister of Japan."
-                },
-                {
-                    "text": "Prabowo Subianto, who was the Chief Guest at Republic Day 2025, is the President of which country?",
-                    "options": [
-                        "Malaysia",
-                        "Singapore",
-                        "Indonesia",
-                        "Philippines"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Prabowo Subianto is the President of Indonesia."
-                },
-                {
-                    "text": "Who has been appointed as the new Secretary General of NATO?",
-                    "options": [
-                        "Jens Stoltenberg",
-                        "Mark Rutte",
-                        "Emmanuel Macron",
-                        "Ursula von der Leyen"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Mark Rutte is the new NATO Secretary General."
-                },
-                {
-                    "text": "Which article of NATO's founding treaty pertains to Collective Defence?",
-                    "options": [
-                        "Article 3",
-                        "Article 4",
-                        "Article 5",
-                        "Article 6"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Article 5 is the collective defence clause of NATO."
-                },
-                {
-                    "text": "Shri Gyanesh Kumar has been appointed as the 26th Chief Election Commissioner (CEC) of India. What is the tenure for a Chief Election Commissioner?",
-                    "options": [
-                        "5 years or until 62 years of age",
-                        "6 years or until 62 years of age",
-                        "5 years or until 65 years of age",
-                        "6 years or until 65 years of age"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Tenure is 6 years or until the age of 65."
-                },
-                {
-                    "text": "Who is the new Chairman of the National Human Rights Commission (NHRC), as per the recent appointments?",
-                    "options": [
-                        "Madan B. Lokur",
-                        "V. Ramasubramanian",
-                        "Sanjay Malhotra",
-                        "Shri Bhuvnesh Kumar"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "V. Ramasubramanian is the new NHRC Chairman."
-                },
-                {
-                    "text": "What is the constitutional article associated with the Comptroller and Auditor General (CAG) of India?",
-                    "options": [
-                        "Article 124",
-                        "Article 148",
-                        "Article 155",
-                        "Article 167"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "CAG of India is constituted under Article 148."
-                }
-            ]
-
-            ,
+                "text": "Operation Yuttha Bodin, a major land and air offensive, was launched by the army of which country?",
+                "options": [
+                    "India",
+                    "Cambodia",
+                    "Thailand",
+                    "Vietnam"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Operation Yuttha Bodin was launched by the Thai army."
+            },
+            {
+                "text": "Yashoda AI, India's first Artificial Intelligence literacy campaign for rural women, was launched by which organisation?",
+                "options": [
+                    "NITI Aayog",
+                    "National Commission for Women (NCW)",
+                    "Ministry of Women and Child Development",
+                    "Indian Council of Agricultural Research (ICAR)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "NCW launched the Yashoda AI campaign for rural women."
+            },
+            {
+                "text": "What is the primary objective of the Yashoda AI initiative?",
+                "options": [
+                    "To provide financial literacy to rural women.",
+                    "To promote digital health services in rural areas.",
+                    "To democratise AI education for women, especially in rural areas.",
+                    "To develop AI-powered tools for agricultural productivity."
+                ],
+                "correctAnswer": 2,
+                "explanation": "The aim is to democratise and expand AI education for rural women."
+            },
+            {
+                "text": "Sagarmala Finance Corporation Ltd. (SMFCL) is India's first Non-Banking Financial Company (NBFC) dedicated to which sector?",
+                "options": [
+                    "Agriculture Sector",
+                    "Renewable Energy Sector",
+                    "Maritime Sector",
+                    "Micro, Small, and Medium Enterprises (MSME) Sector"
+                ],
+                "correctAnswer": 2,
+                "explanation": "SMFCL is dedicated to the Maritime Sector."
+            },
+            {
+                "text": "Who inaugurated the Sagarmala Finance Corporation Ltd. (SMFCL)?",
+                "options": [
+                    "The Prime Minister of India",
+                    "The Minister of Finance",
+                    "The Union Minister for Ports, Shipping and Waterways",
+                    "The Governor of the Reserve Bank of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Union Minister for Ports, Shipping and Waterways inaugurated SMFCL."
+            },
+            {
+                "text": "According to a Supreme Court judgement, digital access to e-governance and welfare delivery systems is now considered part of which fundamental right under Article 21?",
+                "options": [
+                    "Right to Education",
+                    "Right to Freedom of Speech and Expression",
+                    "Right to Life and Liberty",
+                    "Right to Constitutional Remedies"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Digital access is now part of the Right to Life and Liberty (Article 21)."
+            },
+            {
+                "text": "Which of the following cases were involved in the Supreme Court's judgement declaring digital access as a part of Article 21?\n    1. Pragya Prasun v. Union of India\n    2. Amnar Jain v. Union of India\n    3. Maneka Gandhi v. Union of India Select the correct option:",
+                "options": [
+                    "1 and 2 only",
+                    "2 and 3 only",
+                    "1 and 3 only",
+                    "1, 2 and 3"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The cases were Pragya Prasun v. Union of India and Amnar Jain v. Union of India."
+            },
+            {
+                "text": "The judgement stating 'Right to digital access is the part of Article 21' specifically involved an issue related to KYC verification requiring what?",
+                "options": [
+                    "Biometric authentication",
+                    "Visual signature",
+                    "Aadhaar card details",
+                    "Proof of address"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The issue involved KYC verification requiring a visual signature."
+            },
+            {
+                "text": "In which landmark case was the scope of Article 21 expanded to include 'Due process of law' and the interpretation that 'Right to life = Right to a dignified life'?",
+                "options": [
+                    "K.S. Puttaswamy v. Union of India",
+                    "Pragya Prasun v. Union of India",
+                    "Maneka Gandhi v. Union of India",
+                    "Amnar Jain v. Union of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Maneka Gandhi v. Union of India expanded Article 21."
+            },
+            {
+                "text": "The K.S. Puttaswamy v. Union of India (2017) judgement declared which of the following as a Fundamental Right under Article 21?",
+                "options": [
+                    "Right to Information",
+                    "Right to Privacy",
+                    "Right to Work",
+                    "Right to Property"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The judgment declared Right to Privacy a Fundamental Right."
+            },
+            {
+                "text": "Which country's constitution is associated with the concept of 'Procedure Established by Law' according to the provided information?",
+                "options": [
+                    "USA",
+                    "Japan",
+                    "India",
+                    "UK"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Japanese constitution is associated with 'Procedure Established by Law'."
+            },
+            {
+                "text": "The concept of 'Due process of law' finds its constitutional reference in which country's constitution?",
+                "options": [
+                    "India",
+                    "Japan",
+                    "USA",
+                    "UK"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Due process of law is associated with the USA constitution."
+            },
+            {
+                "text": "Axiom Mission 4 is operated by Axiom Space, a private US company. It collaborates with which of the following agencies/organisations?\n    1. NASA\n    2. SpaceX\n    3. ISRO Select the correct code:",
+                "options": [
+                    "1 and 2 only",
+                    "2 and 3 only",
+                    "1 and 3 only",
+                    "1, 2 and 3"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Axiom Mission 4 collaborates with NASA, SpaceX, and ISRO."
+            },
+            {
+                "text": "Who is the first Indian to go to the International Space Station (ISS) as part of Axiom Mission 4?",
+                "options": [
+                    "Rakesh Sharma",
+                    "Shubhanshu Shukla",
+                    "V. Narayanan",
+                    "Oleg Kononenko"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Shubhanshu Shukla is the first Indian to visit the ISS on Axiom Mission 4."
+            },
+            {
+                "text": "Who was the first Indian to go into space, preceding Shubhanshu Shukla?",
+                "options": [
+                    "Kalpana Chawla",
+                    "Sunita Williams",
+                    "Rakesh Sharma",
+                    "Ravish Malhotra"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rakesh Sharma was the first Indian in space."
+            },
+            {
+                "text": "The crew members for Axiom Mission 4 mentioned in the notes include astronauts from which countries?",
+                "options": [
+                    "USA, Poland, Hungary",
+                    "USA, Russia, Poland",
+                    "USA, Hungary, France",
+                    "USA, Poland, Germany"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Crew includes astronauts from the USA, Poland, and Hungary."
+            },
+            {
+                "text": "What is ISRO's target year for the first crewed Gaganyaan Mission?",
+                "options": [
+                    "2025",
+                    "2027",
+                    "2030",
+                    "2035"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The target is for Gaganyaan's first crewed mission by 2027."
+            },
+            {
+                "text": "By which year does ISRO aim to establish the Bhartiya Antariksha Station?",
+                "options": [
+                    "2030",
+                    "2035",
+                    "2040",
+                    "2050"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ISRO aims for the Indian Space Station by 2035."
+            },
+            {
+                "text": "What is ISRO's target year for its Moon Mission?",
+                "options": [
+                    "2030",
+                    "2035",
+                    "2040",
+                    "2045"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ISRO aims for a lunar mission by 2040."
+            },
+            {
+                "text": "Who is currently the Chairman of ISRO, as per the provided information?",
+                "options": [
+                    "S. Somanath",
+                    "K. Sivan",
+                    "V. Narayanan",
+                    "A.S. Kiran Kumar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "V. Narayanan is currently ISRO Chairman."
+            },
+            {
+                "text": "India exported its first ready-to-drink GI-tagged fig juice to which country?",
+                "options": [
+                    "Germany",
+                    "France",
+                    "Poland",
+                    "United Kingdom"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The first GI fig juice was exported to Poland."
+            },
+            {
+                "text": "Purandar Figs, used for the GI-tagged fig juice, are primarily grown in which region of India?",
+                "options": [
+                    "Nashik district, Maharashtra",
+                    "Pune district, Maharashtra",
+                    "Mysuru district, Karnataka",
+                    "Chittoor district, Andhra Pradesh"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Purandar Figs are grown in Pune district, Maharashtra."
+            },
+            {
+                "text": "What is the validity period for a Geographical Indication (GI) tag?",
+                "options": [
+                    "5 years",
+                    "10 years",
+                    "15 years",
+                    "20 years"
+                ],
+                "correctAnswer": 1,
+                "explanation": "A GI tag is valid for 10 years."
+            },
+            {
+                "text": "Which was the first product in India to receive a GI tag?",
+                "options": [
+                    "Basmati Rice",
+                    "Mysore Silk",
+                    "Darjeeling Tea",
+                    "Kanchipuram Silk"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Darjeeling Tea was the first GI-tagged product in India."
+            },
+            {
+                "text": "By 2030, what is the target number of GI products for India?",
+                "options": [
+                    "5,000",
+                    "7,500",
+                    "10,000",
+                    "12,000"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India targets 10,000 GI products by 2030."
+            },
+            {
+                "text": "Which Indian state has the maximum number of GI tags, followed by Tamil Nadu?",
+                "options": [
+                    "Karnataka",
+                    "Kerala",
+                    "Uttar Pradesh",
+                    "Maharashtra"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Uttar Pradesh has the most GI tags among Indian states."
+            },
+            {
+                "text": "Oleg Kononenko, who set a new world record for cumulative time spent in space (1,000 days), is a cosmonaut from which country?",
+                "options": [
+                    "USA",
+                    "Russia",
+                    "China",
+                    "Germany"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He is a Russian cosmonaut."
+            },
+            {
+                "text": "The NASA mission 'Europa Clipper' has the objective to study which celestial body?",
+                "options": [
+                    "Mars",
+                    "Jupiter’s moon Europa",
+                    "Saturn’s moon Titan",
+                    "The Sun"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Europa Clipper will study Jupiter’s moon Europa."
+            },
+            {
+                "text": "The Khelo India University Games 2025 are scheduled to be held in which Indian state?",
+                "options": [
+                    "Bihar",
+                    "Rajasthan",
+                    "Madhya Pradesh",
+                    "Uttar Pradesh"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Games are planned in Rajasthan."
+            },
+            {
+                "text": "Who is the current Chairman of the State Bank of India (SBI) and also elected as Chairman of the Indian Bank Association?",
+                "options": [
+                    "Tuhin Kant Pandey",
+                    "Challa Sreenivasulu Shetty",
+                    "Ashish Khanna",
+                    "Rajiv Memani"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Challa Sreenivasulu Shetty is the current SBI Chairman."
+            },
+            {
+                "text": "Tuhin Kant Pandey is the new Chairman of which regulatory body?",
+                "options": [
+                    "Reserve Bank of India (RBI)",
+                    "Securities and Exchange Board of India (SEBI)",
+                    "Insurance Regulatory and Development Authority of India (IRDAI)",
+                    "Pension Fund Regulatory and Development Authority (PFRDA)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He is the new Chairman of SEBI."
+            },
+            {
+                "text": "Who is the Director General of the International Solar Alliance (ISA)?",
+                "options": [
+                    "S Mahendra Dev",
+                    "Dr Ajay Kumar",
+                    "Ashish Khanna",
+                    "Alok Joshi"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ashish Khanna is the present Director General of ISA."
+            },
+            {
+                "text": "Nikita Porwal, who won Femina Miss India 2024, hails from which Indian state?",
+                "options": [
+                    "Uttar Pradesh",
+                    "Rajasthan",
+                    "Madhya Pradesh",
+                    "Maharashtra"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Nikita Porwal is from Madhya Pradesh."
+            },
+            {
+                "text": "Victoria Kjær Theilvig, Miss Universe 2024, represents which country?",
+                "options": [
+                    "Sweden",
+                    "Denmark",
+                    "Norway",
+                    "Finland"
+                ],
+                "correctAnswer": 1,
+                "explanation": "She is from Denmark."
+            },
+            {
+                "text": "The Securities and Exchange Board of India (SEBI) is a statutory body established in which year?",
+                "options": [
+                    "1988",
+                    "1992",
+                    "1995",
+                    "2002"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SEBI was established as a statutory body in 1992."
+            },
+            {
+                "text": "When was the International Solar Alliance (ISA) launched?",
+                "options": [
+                    "2010 at COP15",
+                    "2012 at COP18",
+                    "2015 at COP21",
+                    "2018 at COP24"
+                ],
+                "correctAnswer": 2,
+                "explanation": "ISA was launched at COP21 in 2015."
+            },
+            {
+                "text": "Which country became the 123rd member to join the International Solar Alliance (ISA)?",
+                "options": [
+                    "Brazil",
+                    "Australia",
+                    "Angola",
+                    "Egypt"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Angola became the 123rd ISA member."
+            },
+            {
+                "text": "India’s first World Peace Centre has been inaugurated at Gurugram. It was established by which organisation?",
+                "options": [
+                    "Art of Living Foundation",
+                    "Brahma Kumaris",
+                    "Ahimsa Vishwa Bharti",
+                    "Ramakrishna Mission"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ahimsa Vishwa Bharti inaugurated the World Peace Centre."
+            },
+            {
+                "text": "IPS Parag Jain has been appointed as the new RAW Chief. He is known as the brain behind which operation?",
+                "options": [
+                    "Operation Vijay",
+                    "Operation Sindoor",
+                    "Operation Cactus",
+                    "Operation Meghdoot"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He is the master strategist of Operation Sindoor."
+            },
+            {
+                "text": "Who among the following is the Brand Ambassador of Maldives Tourism?",
+                "options": [
+                    "Priyanka Chopra",
+                    "Deepika Padukone",
+                    "Katrina Kaif",
+                    "Alia Bhatt"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Katrina Kaif is the brand ambassador for Maldives Tourism."
+            },
+            {
+                "text": "Which sportsperson is the Brand Ambassador for Audi?",
+                "options": [
+                    "Virat Kohli",
+                    "Rohit Sharma",
+                    "Neeraj Chopra",
+                    "P.V. Sindhu"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Neeraj Chopra is the brand ambassador for Audi."
+            },
+            {
+                "text": "Who is the President of the Asian Development Bank (ADB)?",
+                "options": [
+                    "Takehiko Nakao",
+                    "Masatsugu Asakawa",
+                    "Masato Kanda",
+                    "Jin Liqun"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Masato Kanda is the current ADB President."
+            },
+            {
+                "text": "Which country is the newest member to join the Asian Development Bank (ADB)?",
+                "options": [
+                    "Israel",
+                    "Saudi Arabia",
+                    "Turkey",
+                    "South Korea"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Israel is the newest member of ADB."
+            },
+            {
+                "text": "Who is the current Prime Minister of Japan, as per the given information?",
+                "options": [
+                    "Fumio Kishida",
+                    "Shinzo Abe",
+                    "Yoshihide Suga",
+                    "Ishiba"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Ishiba is the current Prime Minister of Japan."
+            },
+            {
+                "text": "Prabowo Subianto, who was the Chief Guest at Republic Day 2025, is the President of which country?",
+                "options": [
+                    "Malaysia",
+                    "Singapore",
+                    "Indonesia",
+                    "Philippines"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Prabowo Subianto is the President of Indonesia."
+            },
+            {
+                "text": "Who has been appointed as the new Secretary General of NATO?",
+                "options": [
+                    "Jens Stoltenberg",
+                    "Mark Rutte",
+                    "Emmanuel Macron",
+                    "Ursula von der Leyen"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mark Rutte is the new NATO Secretary General."
+            },
+            {
+                "text": "Which article of NATO's founding treaty pertains to Collective Defence?",
+                "options": [
+                    "Article 3",
+                    "Article 4",
+                    "Article 5",
+                    "Article 6"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Article 5 is the collective defence clause of NATO."
+            },
+            {
+                "text": "Shri Gyanesh Kumar has been appointed as the 26th Chief Election Commissioner (CEC) of India. What is the tenure for a Chief Election Commissioner?",
+                "options": [
+                    "5 years or until 62 years of age",
+                    "6 years or until 62 years of age",
+                    "5 years or until 65 years of age",
+                    "6 years or until 65 years of age"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Tenure is 6 years or until the age of 65."
+            },
+            {
+                "text": "Who is the new Chairman of the National Human Rights Commission (NHRC), as per the recent appointments?",
+                "options": [
+                    "Madan B. Lokur",
+                    "V. Ramasubramanian",
+                    "Sanjay Malhotra",
+                    "Shri Bhuvnesh Kumar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "V. Ramasubramanian is the new NHRC Chairman."
+            },
+            {
+                "text": "What is the constitutional article associated with the Comptroller and Auditor General (CAG) of India?",
+                "options": [
+                    "Article 124",
+                    "Article 148",
+                    "Article 155",
+                    "Article 167"
+                ],
+                "correctAnswer": 1,
+                "explanation": "CAG of India is constituted under Article 148."
+            }
+        ],
         "Current Affairs - Set - 9": [{
-                    "text": "General Ashok Raj Sigdel, the Nepali Army Chief, was conferred with an honorary rank during his official visit to which country?",
-                    "options": [
-                        "China",
-                        "India",
-                        "Bangladesh",
-                        "Pakistan"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "General Ashok Raj Sigdel was conferred with an honorary rank during his official visit to India."
-                },
-                {
-                    "text": "Who among the following is the current President of South Korea, belonging to the Liberal Democratic Party?",
-                    "options": [
-                        "Anthony Albanese",
-                        "Lee Jae-Myung",
-                        "Lawrence Wong",
-                        "Alexander Lukashenko"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Lee Jae-Myung is the current President of South Korea from the Liberal Democratic Party."
-                },
-                {
-                    "text": "Salem Saleh Bin Braikas serves as the Prime Minister of which nation?",
-                    "options": [
-                        "Sudan",
-                        "Singapore",
-                        "Yemen",
-                        "Trinidad & Tobago"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Salem Saleh Bin Braikas is the Prime Minister of Yemen."
-                },
-                {
-                    "text": "Which political party does Keir Starmer, the 58th Prime Minister of the UK, represent?",
-                    "options": [
-                        "Conservative Party",
-                        "Liberal Democrats",
-                        "Labour Party",
-                        "Scottish National Party"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Keir Starmer leads the Labour Party."
-                },
-                {
-                    "text": "Who is noted as the first Hindu woman to hold the post of Foreign Minister of Canada?",
-                    "options": [
-                        "Kamla Susheila Persad-Bissessar",
-                        "Geerlings-Simons",
-                        "Anita Anand",
-                        "Chhonzin Agmo"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Anita Anand is the first Hindu woman to serve as Foreign Minister of Canada."
-                },
-                {
-                    "text": "In 2025, who was sworn in as the new Prime Minister of Canada, succeeding Justin Trudeau?",
-                    "options": [
-                        "Keir Starmer",
-                        "Mark Carney",
-                        "Rishi Sunak",
-                        "Kamil al-Taibidriss"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Mark Carney became Prime Minister of Canada in 2025."
-                },
-                {
-                    "text": "Kamil al-Taibidriss holds the position of Prime Minister in which country?",
-                    "options": [
-                        "Belarus",
-                        "Greece",
-                        "Sudan",
-                        "Suriname"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Kamil al-Taibidriss is the Prime Minister of Sudan."
-                },
-                {
-                    "text": "Who is the President of Belarus, as mentioned in the source?",
-                    "options": [
-                        "Constantine Tassoulas",
-                        "Alexander Lukashenko",
-                        "Robert Prevost",
-                        "Lee Jae-Myung"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Alexander Lukashenko is the President of Belarus."
-                },
-                {
-                    "text": "Constantine Tassoulas has recently become the new President of which European country?",
-                    "options": [
-                        "Italy",
-                        "Spain",
-                        "Greece",
-                        "Portugal"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Constantine Tassoulas is the new President of Greece."
-                },
-                {
-                    "text": "Who is recognised as the first female President of Suriname?",
-                    "options": [
-                        "Kamla Susheila Persad-Bissessar",
-                        "Geerlings-Simons",
-                        "Anita Anand",
-                        "Netumbo Nandi-Ndaitwah"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Geerlings-Simons is recognised as the first female President of Suriname."
-                },
-                {
-                    "text": "Pope Francis, the former leader of the Roman Catholic Church, who passed away at 88, was notable for being the first non-European Pope in how many years?",
-                    "options": [
-                        "500 years",
-                        "800 years",
-                        "1,000 years",
-                        "1,300 years"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Pope Francis was the first non-European Pope in 1,300 years."
-                },
-                {
-                    "text": "The office of the Pope is officially known by which term?",
-                    "options": [
-                        "The Pontificate",
-                        "The Holy See",
-                        "The Papacy",
-                        "The Vatican"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Papacy is the official term for the office of the Pope."
-                },
-                {
-                    "text": "Who was appointed as the new Pope, adopting the papal name Leo XIV?",
-                    "options": [
-                        "Dr. Jay Bhattacharya",
-                        "Robert Prevost",
-                        "Kash Patel",
-                        "Acharya Satyendra Das"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Robert Prevost adopted the papal name Leo XIV as new Pope."
-                },
-                {
-                    "text": "Dr. Jay Bhattacharya, a Kolkata-born physician and Stanford professor, was appointed as the Director of which institution?",
-                    "options": [
-                        "FBI",
-                        "ISRO",
-                        "National Institute of Health (NIH)",
-                        "World Jurist Association"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Dr. Jay Bhattacharya was appointed Director of NIH."
-                },
-                {
-                    "text": "Kash Patel, of Indian origin, was appointed as the Director of which American agency?",
-                    "options": [
-                        "NIH",
-                        "CIA",
-                        "FBI",
-                        "DEA"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Kash Patel was appointed as Director of the FBI."
-                },
-                {
-                    "text": "Who is the first Indian lawyer to receive the Medal of Honour from the World Jurist Association?",
-                    "options": [
-                        "Bhuvan Ribhu",
-                        "Vishwanath Karthikey Padakanti",
-                        "K. Kasturirangan",
-                        "Shyam Benegal"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Bhuvan Ribhu is the first Indian lawyer to receive this distinction."
-                },
-                {
-                    "text": "PM Narendra Modi was conferred with Namibia’s highest civilian award. What is the name of this award?",
-                    "options": [
-                        "Order of St. Andrews and Apostle",
-                        "Order of Excellence",
-                        "Order of the Most Ancient Welwitschia Mirabilis",
-                        "Grand Commander of the Order of Star and Key of the Indian Ocean"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The award is the Order of the Most Ancient Welwitschia Mirabilis."
-                },
-                {
-                    "text": "The \"Order of the Most Ancient Welwitschia Mirabilis\" was conferred upon PM Modi by the President of Namibia. Who is the current President of Namibia?",
-                    "options": [
-                        "Netumbo Nandi-Ndaitwah",
-                        "Geerlings-Simons",
-                        "Kamla Susheila Persad-Bissessar",
-                        "Anthony Albanese"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Netumbo Nandi-Ndaitwah is currently the President of Namibia."
-                },
-                {
-                    "text": "Which of the following countries conferred the \"Mitra Vibhusana\" civilian award on PM Narendra Modi?",
-                    "options": [
-                        "Kuwait",
-                        "Guyana",
-                        "Sri Lanka",
-                        "Mauritius"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Sri Lanka conferred the Mitra Vibhusana award on PM Modi."
-                },
-                {
-                    "text": "The \"Mubarak-al-Kabeer\" award was conferred on PM Narendra Modi by which nation?",
-                    "options": [
-                        "Kuwait",
-                        "Russia",
-                        "Cyprus",
-                        "Argentina"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Kuwait conferred the Mubarak-al-Kabeer award."
-                },
-                {
-                    "text": "PM Narendra Modi received the \"Order of St. Andrews and Apostle\" from which country?",
-                    "options": [
-                        "Guyana",
-                        "Mauritius",
-                        "Russia",
-                        "Cyprus"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Russia honoured PM Modi with the Order of St. Andrews and Apostle."
-                },
-                {
-                    "text": "PM Narendra Modi was conferred with the ‘Key to the City’ of Buenos Aires during his official visit to which country?",
-                    "options": [
-                        "Brazil",
-                        "Argentina",
-                        "Chile",
-                        "Uruguay"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He was honoured in Argentina."
-                },
-                {
-                    "text": "The ‘Key to the City’ of Buenos Aires was presented to PM Modi by whom?",
-                    "options": [
-                        "President of Argentina",
-                        "Chief of the City of Buenos Aires, Mr. Jorge Macri",
-                        "Minister of Foreign Affairs of Argentina",
-                        "Mayor of Buenos Aires"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It was presented by Mr. Jorge Macri, Chief of the City of Buenos Aires."
-                },
-                {
-                    "text": "What was the significance of PM Narendra Modi’s visit to Argentina in the context of Indian Prime Ministerial visits?",
-                    "options": [
-                        "It was the first state visit by an Indian PM.",
-                        "It marked the first visit by an Indian PM to Argentina in 57 years.",
-                        "It was the first time an Indian PM addressed the Argentine Parliament.",
-                        "It was the first visit focused solely on economic ties."
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It was the first visit by an Indian Prime Minister to Argentina in 57 years."
-                },
-                {
-                    "text": "Who is the 16-year-old from Hyderabad recognised as the youngest Indian to scale the highest peaks of all continents (7 Summits)?",
-                    "options": [
-                        "Kaamya Karthikeyan",
-                        "Vishwanath Karthikey Padakanti",
-                        "Chhonzin Agmo",
-                        "Bhuvan Ribhu"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Vishwanath Karthikey Padakanti achieved the 7 Summits at age 16."
-                },
-                {
-                    "text": "Who is the 17-year-old student from Navy Children School, Mumbai, known as the youngest female to scale the highest peaks on all continents?",
-                    "options": [
-                        "Chhonzin Agmo",
-                        "Kaamya Karthikeyan",
-                        "Vishwanath Karthikey Padakanti",
-                        "Anita Anand"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Kaamya Karthikeyan is the youngest female to complete this feat."
-                },
-                {
-                    "text": "Who is the first visually impaired woman to scale Mount Everest, hailing from Himachal Pradesh?",
-                    "options": [
-                        "Kaamya Karthikeyan",
-                        "Chhonzin Agmo",
-                        "Geerlings-Simons",
-                        "Netumbo Nandi-Ndaitwah"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Chhonzin Agmo is the first visually impaired woman from Himachal Pradesh to scale Everest."
-                },
-                {
-                    "text": "Acharya Satyendra Das, who recently passed away, served as the Chief Priest of which prominent temple since 1993?",
-                    "options": [
-                        "Kedarnath Temple",
-                        "Badrinath Temple",
-                        "Ayodhya’s Ram Janmabhoomi temple",
-                        "Vaishno Devi Temple"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Acharya Satyendra Das was the Chief Priest of Ayodhya’s Ram Janmabhoomi temple."
-                },
-                {
-                    "text": "Shyam Benegal, who recently passed away, was a renowned Indian figure known for his pioneering work in which field?",
-                    "options": [
-                        "Classical Music",
-                        "Science and Technology",
-                        "Parallel Cinema",
-                        "Mountaineering"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Shyam Benegal was known for his contributions to Parallel Cinema."
-                },
-                {
-                    "text": "K. Kasturirangan, a former ISRO chairman and Rajyasabha member, notably chaired the committee for drafting which important policy?",
-                    "options": [
-                        "National Health Policy",
-                        "National Education Policy (NEP)",
-                        "National Economic Policy",
-                        "National Science Policy"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He chaired the committee for drafting the National Education Policy."
-                },
-                {
-                    "text": "Aralam Wildlife Sanctuary was recently renamed. What is its new name?",
-                    "options": [
-                        "Aralam Tiger Reserve",
-                        "Aralam Bird Sanctuary",
-                        "Aralam Butterfly Sanctuary",
-                        "Aralam Elephant Reserve"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It has been renamed Aralam Butterfly Sanctuary."
-                },
-                {
-                    "text": "Where is the Aralam Butterfly Sanctuary, Kerala’s first sanctuary dedicated to butterflies, located?",
-                    "options": [
-                        "Thiruvananthapuram",
-                        "Kochi",
-                        "Kozhikode",
-                        "Kannur"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The Aralam Butterfly Sanctuary is located in Kannur, Kerala."
-                },
-                {
-                    "text": "Pachmarhi Wildlife Sanctuary was renamed in honour of a tribal icon of the 1857 Revolt. What is its new name?",
-                    "options": [
-                        "Rani Lakshmibai Wildlife Sanctuary",
-                        "Tantia Tope Wildlife Sanctuary",
-                        "Raja Bhabhoot Singh Wildlife Sanctuary",
-                        "Mangal Pandey Wildlife Sanctuary"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is now called Raja Bhabhoot Singh Wildlife Sanctuary."
-                },
-                {
-                    "text": "Which Indian state is the first to implement an AI-based real-time alert system for wildlife protection?",
-                    "options": [
-                        "Kerala",
-                        "Karnataka",
-                        "Uttarakhand",
-                        "Madhya Pradesh"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Madhya Pradesh is the first state to implement such an AI system."
-                },
-                {
-                    "text": "In 2025, which state became the first to achieve total digital literacy through its Digi Kerala program?",
-                    "options": [
-                        "Tamil Nadu",
-                        "Karnataka",
-                        "Kerala",
-                        "Andhra Pradesh"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Kerala became the first totally digitally literate state."
-                },
-                {
-                    "text": "Kerala is set to establish India’s first Elderly Commission with what primary objective?",
-                    "options": [
-                        "To provide free healthcare to senior citizens.",
-                        "To protect the rights and welfare of senior citizens.",
-                        "To create exclusive residential communities for the elderly.",
-                        "To offer financial subsidies to senior citizens."
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The main aim is to protect senior citizens' rights and welfare."
-                },
-                {
-                    "text": "Fort William was renamed \"Vijay Durg\" in honour of which historical entity?",
-                    "options": [
-                        "A British general",
-                        "A Maratha naval base",
-                        "An Indian emperor",
-                        "A Bengal revolutionary"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Fort William was renamed after the Maratha naval base, Vijay Durg."
-                },
-                {
-                    "text": "Karimganj District in Assam was recently renamed. What is its new name?",
-                    "options": [
-                        "Sribhumi",
-                        "Kamrup Metropolitan",
-                        "North Lakhimpur",
-                        "Dibrugarh"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "Karimganj has been renamed Sribhumi."
-                },
-                {
-                    "text": "As per the source, what is the total number of National Parks in India?",
-                    "options": [
-                        "99",
-                        "100",
-                        "107",
-                        "120"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India has 107 National Parks."
-                },
-                {
-                    "text": "Which National Park is identified as the 107th National Park in India?",
-                    "options": [
-                        "Madhav National Park",
-                        "Simlipal",
-                        "Panna National Park",
-                        "Bandipur National Park"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Simlipal is the 107th National Park in India."
-                },
-                {
-                    "text": "What is the total number of Tiger Reserves in India as mentioned in the source?",
-                    "options": [
-                        "50",
-                        "55",
-                        "58",
-                        "60"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "There are 58 Tiger Reserves in India."
-                },
-                {
-                    "text": "Which Tiger Reserve is designated as the 58th Tiger Reserve in India?",
-                    "options": [
-                        "Simlipal",
-                        "Kanha National Park",
-                        "Madhav National Park",
-                        "Ranthambore National Park"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Madhav National Park is the 58th Tiger Reserve."
-                },
-                {
-                    "text": "The National Tiger Conservation Authority (NTCA) is a statutory body established under which act?",
-                    "options": [
-                        "Indian Forest Act, 1927",
-                        "Environment (Protection) Act, 1986",
-                        "Wildlife Protection Act, 1972",
-                        "Biological Diversity Act, 2002"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The NTCA was established under the Wildlife Protection Act, 1972."
-                },
-                {
-                    "text": "Who heads the National Tiger Conservation Authority (NTCA)?",
-                    "options": [
-                        "The Prime Minister",
-                        "The Minister of Home Affairs",
-                        "The Minister of Environment",
-                        "The Chief Justice of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Minister of Environment heads the NTCA."
-                },
-                {
-                    "text": "In which year was \"Project Tiger\" launched in India?",
-                    "options": [
-                        "1970",
-                        "1971",
-                        "1972",
-                        "1973"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Project Tiger was launched in 1973."
-                },
-                {
-                    "text": "How many Tiger Reserves were initially part of Project Tiger when it was launched?",
-                    "options": [
-                        "5",
-                        "7",
-                        "9",
-                        "11"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "There were 9 initial Tiger Reserves under Project Tiger."
-                },
-                {
-                    "text": "When is International Tiger Day observed annually?",
-                    "options": [
-                        "July 22",
-                        "July 29",
-                        "August 12",
-                        "September 5"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "International Tiger Day is celebrated on July 29."
-                },
-                {
-                    "text": "According to the source, which state has the highest tiger population in India?",
-                    "options": [
-                        "Karnataka",
-                        "Uttarakhand",
-                        "Madhya Pradesh",
-                        "Rajasthan"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Madhya Pradesh has India's highest tiger population."
-                },
-                {
-                    "text": "Which city in India has developed the country’s first Public-Private Partnership (PPP) Green Waste Processing Plant and also became India's first beggar-free city?",
-                    "options": [
-                        "Delhi",
-                        "Bengaluru",
-                        "Indore",
-                        "Mumbai"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Indore achieved both PPP Green Waste Plant and beggar-free status."
-                },
-                {
-                    "text": "The \"Prakriti 2025 – International Conference on Carbon Markets\" was held in which city?",
-                    "options": [
-                        "Mumbai",
-                        "Bengaluru",
-                        "Chennai",
-                        "Delhi"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The conference was held in Delhi."
-                }
-            ]
-
-            ,
+                "text": "General Ashok Raj Sigdel, the Nepali Army Chief, was conferred with an honorary rank during his official visit to which country?",
+                "options": [
+                    "China",
+                    "India",
+                    "Bangladesh",
+                    "Pakistan"
+                ],
+                "correctAnswer": 1,
+                "explanation": "General Ashok Raj Sigdel was conferred with an honorary rank during his official visit to India."
+            },
+            {
+                "text": "Who among the following is the current President of South Korea, belonging to the Liberal Democratic Party?",
+                "options": [
+                    "Anthony Albanese",
+                    "Lee Jae-Myung",
+                    "Lawrence Wong",
+                    "Alexander Lukashenko"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Lee Jae-Myung is the current President of South Korea from the Liberal Democratic Party."
+            },
+            {
+                "text": "Salem Saleh Bin Braikas serves as the Prime Minister of which nation?",
+                "options": [
+                    "Sudan",
+                    "Singapore",
+                    "Yemen",
+                    "Trinidad & Tobago"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Salem Saleh Bin Braikas is the Prime Minister of Yemen."
+            },
+            {
+                "text": "Which political party does Keir Starmer, the 58th Prime Minister of the UK, represent?",
+                "options": [
+                    "Conservative Party",
+                    "Liberal Democrats",
+                    "Labour Party",
+                    "Scottish National Party"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Keir Starmer leads the Labour Party."
+            },
+            {
+                "text": "Who is noted as the first Hindu woman to hold the post of Foreign Minister of Canada?",
+                "options": [
+                    "Kamla Susheila Persad-Bissessar",
+                    "Geerlings-Simons",
+                    "Anita Anand",
+                    "Chhonzin Agmo"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Anita Anand is the first Hindu woman to serve as Foreign Minister of Canada."
+            },
+            {
+                "text": "In 2025, who was sworn in as the new Prime Minister of Canada, succeeding Justin Trudeau?",
+                "options": [
+                    "Keir Starmer",
+                    "Mark Carney",
+                    "Rishi Sunak",
+                    "Kamil al-Taibidriss"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mark Carney became Prime Minister of Canada in 2025."
+            },
+            {
+                "text": "Kamil al-Taibidriss holds the position of Prime Minister in which country?",
+                "options": [
+                    "Belarus",
+                    "Greece",
+                    "Sudan",
+                    "Suriname"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Kamil al-Taibidriss is the Prime Minister of Sudan."
+            },
+            {
+                "text": "Who is the President of Belarus, as mentioned in the source?",
+                "options": [
+                    "Constantine Tassoulas",
+                    "Alexander Lukashenko",
+                    "Robert Prevost",
+                    "Lee Jae-Myung"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Alexander Lukashenko is the President of Belarus."
+            },
+            {
+                "text": "Constantine Tassoulas has recently become the new President of which European country?",
+                "options": [
+                    "Italy",
+                    "Spain",
+                    "Greece",
+                    "Portugal"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Constantine Tassoulas is the new President of Greece."
+            },
+            {
+                "text": "Who is recognised as the first female President of Suriname?",
+                "options": [
+                    "Kamla Susheila Persad-Bissessar",
+                    "Geerlings-Simons",
+                    "Anita Anand",
+                    "Netumbo Nandi-Ndaitwah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Geerlings-Simons is recognised as the first female President of Suriname."
+            },
+            {
+                "text": "Pope Francis, the former leader of the Roman Catholic Church, who passed away at 88, was notable for being the first non-European Pope in how many years?",
+                "options": [
+                    "500 years",
+                    "800 years",
+                    "1,000 years",
+                    "1,300 years"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Pope Francis was the first non-European Pope in 1,300 years."
+            },
+            {
+                "text": "The office of the Pope is officially known by which term?",
+                "options": [
+                    "The Pontificate",
+                    "The Holy See",
+                    "The Papacy",
+                    "The Vatican"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Papacy is the official term for the office of the Pope."
+            },
+            {
+                "text": "Who was appointed as the new Pope, adopting the papal name Leo XIV?",
+                "options": [
+                    "Dr. Jay Bhattacharya",
+                    "Robert Prevost",
+                    "Kash Patel",
+                    "Acharya Satyendra Das"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Robert Prevost adopted the papal name Leo XIV as new Pope."
+            },
+            {
+                "text": "Dr. Jay Bhattacharya, a Kolkata-born physician and Stanford professor, was appointed as the Director of which institution?",
+                "options": [
+                    "FBI",
+                    "ISRO",
+                    "National Institute of Health (NIH)",
+                    "World Jurist Association"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dr. Jay Bhattacharya was appointed Director of NIH."
+            },
+            {
+                "text": "Kash Patel, of Indian origin, was appointed as the Director of which American agency?",
+                "options": [
+                    "NIH",
+                    "CIA",
+                    "FBI",
+                    "DEA"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Kash Patel was appointed as Director of the FBI."
+            },
+            {
+                "text": "Who is the first Indian lawyer to receive the Medal of Honour from the World Jurist Association?",
+                "options": [
+                    "Bhuvan Ribhu",
+                    "Vishwanath Karthikey Padakanti",
+                    "K. Kasturirangan",
+                    "Shyam Benegal"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Bhuvan Ribhu is the first Indian lawyer to receive this distinction."
+            },
+            {
+                "text": "PM Narendra Modi was conferred with Namibia’s highest civilian award. What is the name of this award?",
+                "options": [
+                    "Order of St. Andrews and Apostle",
+                    "Order of Excellence",
+                    "Order of the Most Ancient Welwitschia Mirabilis",
+                    "Grand Commander of the Order of Star and Key of the Indian Ocean"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The award is the Order of the Most Ancient Welwitschia Mirabilis."
+            },
+            {
+                "text": "The \"Order of the Most Ancient Welwitschia Mirabilis\" was conferred upon PM Modi by the President of Namibia. Who is the current President of Namibia?",
+                "options": [
+                    "Netumbo Nandi-Ndaitwah",
+                    "Geerlings-Simons",
+                    "Kamla Susheila Persad-Bissessar",
+                    "Anthony Albanese"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Netumbo Nandi-Ndaitwah is currently the President of Namibia."
+            },
+            {
+                "text": "Which of the following countries conferred the \"Mitra Vibhusana\" civilian award on PM Narendra Modi?",
+                "options": [
+                    "Kuwait",
+                    "Guyana",
+                    "Sri Lanka",
+                    "Mauritius"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sri Lanka conferred the Mitra Vibhusana award on PM Modi."
+            },
+            {
+                "text": "The \"Mubarak-al-Kabeer\" award was conferred on PM Narendra Modi by which nation?",
+                "options": [
+                    "Kuwait",
+                    "Russia",
+                    "Cyprus",
+                    "Argentina"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kuwait conferred the Mubarak-al-Kabeer award."
+            },
+            {
+                "text": "PM Narendra Modi received the \"Order of St. Andrews and Apostle\" from which country?",
+                "options": [
+                    "Guyana",
+                    "Mauritius",
+                    "Russia",
+                    "Cyprus"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Russia honoured PM Modi with the Order of St. Andrews and Apostle."
+            },
+            {
+                "text": "PM Narendra Modi was conferred with the ‘Key to the City’ of Buenos Aires during his official visit to which country?",
+                "options": [
+                    "Brazil",
+                    "Argentina",
+                    "Chile",
+                    "Uruguay"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He was honoured in Argentina."
+            },
+            {
+                "text": "The ‘Key to the City’ of Buenos Aires was presented to PM Modi by whom?",
+                "options": [
+                    "President of Argentina",
+                    "Chief of the City of Buenos Aires, Mr. Jorge Macri",
+                    "Minister of Foreign Affairs of Argentina",
+                    "Mayor of Buenos Aires"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It was presented by Mr. Jorge Macri, Chief of the City of Buenos Aires."
+            },
+            {
+                "text": "What was the significance of PM Narendra Modi’s visit to Argentina in the context of Indian Prime Ministerial visits?",
+                "options": [
+                    "It was the first state visit by an Indian PM.",
+                    "It marked the first visit by an Indian PM to Argentina in 57 years.",
+                    "It was the first time an Indian PM addressed the Argentine Parliament.",
+                    "It was the first visit focused solely on economic ties."
+                ],
+                "correctAnswer": 1,
+                "explanation": "It was the first visit by an Indian Prime Minister to Argentina in 57 years."
+            },
+            {
+                "text": "Who is the 16-year-old from Hyderabad recognised as the youngest Indian to scale the highest peaks of all continents (7 Summits)?",
+                "options": [
+                    "Kaamya Karthikeyan",
+                    "Vishwanath Karthikey Padakanti",
+                    "Chhonzin Agmo",
+                    "Bhuvan Ribhu"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Vishwanath Karthikey Padakanti achieved the 7 Summits at age 16."
+            },
+            {
+                "text": "Who is the 17-year-old student from Navy Children School, Mumbai, known as the youngest female to scale the highest peaks on all continents?",
+                "options": [
+                    "Chhonzin Agmo",
+                    "Kaamya Karthikeyan",
+                    "Vishwanath Karthikey Padakanti",
+                    "Anita Anand"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kaamya Karthikeyan is the youngest female to complete this feat."
+            },
+            {
+                "text": "Who is the first visually impaired woman to scale Mount Everest, hailing from Himachal Pradesh?",
+                "options": [
+                    "Kaamya Karthikeyan",
+                    "Chhonzin Agmo",
+                    "Geerlings-Simons",
+                    "Netumbo Nandi-Ndaitwah"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Chhonzin Agmo is the first visually impaired woman from Himachal Pradesh to scale Everest."
+            },
+            {
+                "text": "Acharya Satyendra Das, who recently passed away, served as the Chief Priest of which prominent temple since 1993?",
+                "options": [
+                    "Kedarnath Temple",
+                    "Badrinath Temple",
+                    "Ayodhya’s Ram Janmabhoomi temple",
+                    "Vaishno Devi Temple"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Acharya Satyendra Das was the Chief Priest of Ayodhya’s Ram Janmabhoomi temple."
+            },
+            {
+                "text": "Shyam Benegal, who recently passed away, was a renowned Indian figure known for his pioneering work in which field?",
+                "options": [
+                    "Classical Music",
+                    "Science and Technology",
+                    "Parallel Cinema",
+                    "Mountaineering"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Shyam Benegal was known for his contributions to Parallel Cinema."
+            },
+            {
+                "text": "K. Kasturirangan, a former ISRO chairman and Rajyasabha member, notably chaired the committee for drafting which important policy?",
+                "options": [
+                    "National Health Policy",
+                    "National Education Policy (NEP)",
+                    "National Economic Policy",
+                    "National Science Policy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He chaired the committee for drafting the National Education Policy."
+            },
+            {
+                "text": "Aralam Wildlife Sanctuary was recently renamed. What is its new name?",
+                "options": [
+                    "Aralam Tiger Reserve",
+                    "Aralam Bird Sanctuary",
+                    "Aralam Butterfly Sanctuary",
+                    "Aralam Elephant Reserve"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It has been renamed Aralam Butterfly Sanctuary."
+            },
+            {
+                "text": "Where is the Aralam Butterfly Sanctuary, Kerala’s first sanctuary dedicated to butterflies, located?",
+                "options": [
+                    "Thiruvananthapuram",
+                    "Kochi",
+                    "Kozhikode",
+                    "Kannur"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The Aralam Butterfly Sanctuary is located in Kannur, Kerala."
+            },
+            {
+                "text": "Pachmarhi Wildlife Sanctuary was renamed in honour of a tribal icon of the 1857 Revolt. What is its new name?",
+                "options": [
+                    "Rani Lakshmibai Wildlife Sanctuary",
+                    "Tantia Tope Wildlife Sanctuary",
+                    "Raja Bhabhoot Singh Wildlife Sanctuary",
+                    "Mangal Pandey Wildlife Sanctuary"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is now called Raja Bhabhoot Singh Wildlife Sanctuary."
+            },
+            {
+                "text": "Which Indian state is the first to implement an AI-based real-time alert system for wildlife protection?",
+                "options": [
+                    "Kerala",
+                    "Karnataka",
+                    "Uttarakhand",
+                    "Madhya Pradesh"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Madhya Pradesh is the first state to implement such an AI system."
+            },
+            {
+                "text": "In 2025, which state became the first to achieve total digital literacy through its Digi Kerala program?",
+                "options": [
+                    "Tamil Nadu",
+                    "Karnataka",
+                    "Kerala",
+                    "Andhra Pradesh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Kerala became the first totally digitally literate state."
+            },
+            {
+                "text": "Kerala is set to establish India’s first Elderly Commission with what primary objective?",
+                "options": [
+                    "To provide free healthcare to senior citizens.",
+                    "To protect the rights and welfare of senior citizens.",
+                    "To create exclusive residential communities for the elderly.",
+                    "To offer financial subsidies to senior citizens."
+                ],
+                "correctAnswer": 1,
+                "explanation": "The main aim is to protect senior citizens' rights and welfare."
+            },
+            {
+                "text": "Fort William was renamed \"Vijay Durg\" in honour of which historical entity?",
+                "options": [
+                    "A British general",
+                    "A Maratha naval base",
+                    "An Indian emperor",
+                    "A Bengal revolutionary"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Fort William was renamed after the Maratha naval base, Vijay Durg."
+            },
+            {
+                "text": "Karimganj District in Assam was recently renamed. What is its new name?",
+                "options": [
+                    "Sribhumi",
+                    "Kamrup Metropolitan",
+                    "North Lakhimpur",
+                    "Dibrugarh"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Karimganj has been renamed Sribhumi."
+            },
+            {
+                "text": "As per the source, what is the total number of National Parks in India?",
+                "options": [
+                    "99",
+                    "100",
+                    "107",
+                    "120"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India has 107 National Parks."
+            },
+            {
+                "text": "Which National Park is identified as the 107th National Park in India?",
+                "options": [
+                    "Madhav National Park",
+                    "Simlipal",
+                    "Panna National Park",
+                    "Bandipur National Park"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Simlipal is the 107th National Park in India."
+            },
+            {
+                "text": "What is the total number of Tiger Reserves in India as mentioned in the source?",
+                "options": [
+                    "50",
+                    "55",
+                    "58",
+                    "60"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There are 58 Tiger Reserves in India."
+            },
+            {
+                "text": "Which Tiger Reserve is designated as the 58th Tiger Reserve in India?",
+                "options": [
+                    "Simlipal",
+                    "Kanha National Park",
+                    "Madhav National Park",
+                    "Ranthambore National Park"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Madhav National Park is the 58th Tiger Reserve."
+            },
+            {
+                "text": "The National Tiger Conservation Authority (NTCA) is a statutory body established under which act?",
+                "options": [
+                    "Indian Forest Act, 1927",
+                    "Environment (Protection) Act, 1986",
+                    "Wildlife Protection Act, 1972",
+                    "Biological Diversity Act, 2002"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The NTCA was established under the Wildlife Protection Act, 1972."
+            },
+            {
+                "text": "Who heads the National Tiger Conservation Authority (NTCA)?",
+                "options": [
+                    "The Prime Minister",
+                    "The Minister of Home Affairs",
+                    "The Minister of Environment",
+                    "The Chief Justice of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Minister of Environment heads the NTCA."
+            },
+            {
+                "text": "In which year was \"Project Tiger\" launched in India?",
+                "options": [
+                    "1970",
+                    "1971",
+                    "1972",
+                    "1973"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Project Tiger was launched in 1973."
+            },
+            {
+                "text": "How many Tiger Reserves were initially part of Project Tiger when it was launched?",
+                "options": [
+                    "5",
+                    "7",
+                    "9",
+                    "11"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There were 9 initial Tiger Reserves under Project Tiger."
+            },
+            {
+                "text": "When is International Tiger Day observed annually?",
+                "options": [
+                    "July 22",
+                    "July 29",
+                    "August 12",
+                    "September 5"
+                ],
+                "correctAnswer": 1,
+                "explanation": "International Tiger Day is celebrated on July 29."
+            },
+            {
+                "text": "According to the source, which state has the highest tiger population in India?",
+                "options": [
+                    "Karnataka",
+                    "Uttarakhand",
+                    "Madhya Pradesh",
+                    "Rajasthan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Madhya Pradesh has India's highest tiger population."
+            },
+            {
+                "text": "Which city in India has developed the country’s first Public-Private Partnership (PPP) Green Waste Processing Plant and also became India's first beggar-free city?",
+                "options": [
+                    "Delhi",
+                    "Bengaluru",
+                    "Indore",
+                    "Mumbai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Indore achieved both PPP Green Waste Plant and beggar-free status."
+            },
+            {
+                "text": "The \"Prakriti 2025 – International Conference on Carbon Markets\" was held in which city?",
+                "options": [
+                    "Mumbai",
+                    "Bengaluru",
+                    "Chennai",
+                    "Delhi"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The conference was held in Delhi."
+            }
+        ],
         "Current Affairs - Set - 10": [{
-                    "text": "Madhav Gadgil was awarded the UN Champions of Earth Lifetime Award 2024 for his contributions to which primary field?",
-                    "options": [
-                        "Economic development and poverty alleviation",
-                        "Environmental conservation and biodiversity preservation",
-                        "Space exploration and technological innovation",
-                        "Human rights advocacy and social justice"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "He is recognized for his work in environmental conservation and biodiversity preservation."
-                },
-                {
-                    "text": "In which year was the Western Ghats Ecology Expert Panel (WGEAP) appointed by the Union Ministry of Environment and Forests?",
-                    "options": [
-                        "2008",
-                        "2010",
-                        "2012",
-                        "2014"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The WGEAP, chaired by Gadgil, was appointed in 2010."
-                },
-                {
-                    "text": "Which of the following activities was specifically recommended against in the Gadgil's Report (2011) concerning the Western Ghats?",
-                    "options": [
-                        "Agroforestry and organic farming",
-                        "Quarrying, mining, and hydro projects",
-                        "Ecotourism and sustainable tourism",
-                        "Renewable energy projects like solar farms"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Gadgil Report specifically recommended against quarrying, mining, and hydro projects."
-                },
-                {
-                    "text": "The Kasturi Rangan Committee (2012), formed after Gadgil’s report, designated what percentage of the Western Ghats area as an eco-sensitive zone?",
-                    "options": [
-                        "37%",
-                        "50%",
-                        "64%",
-                        "75%"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "The Kasturi Rangan Committee designated 37% as an eco-sensitive zone."
-                },
-                {
-                    "text": "Which of the following states is NOT listed as a state through which the Western Ghats span?",
-                    "options": [
-                        "Gujarat",
-                        "Andhra Pradesh",
-                        "Karnataka",
-                        "Tamil Nadu"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Andhra Pradesh is not intersected by the Western Ghats."
-                },
-                {
-                    "text": "Which National Park is located in Tamil Nadu, according to the provided information regarding the Western Ghats region?",
-                    "options": [
-                        "Silent Valley NP",
-                        "Wayanad NP",
-                        "Mudumalai NP",
-                        "Bandipur TR"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Mudumalai National Park is in Tamil Nadu."
-                },
-                {
-                    "text": "What is the area of India's largest conservation reserve, located in Spiti Valley?",
-                    "options": [
-                        "1,200 square kilometers",
-                        "1,585 square kilometers",
-                        "1,800 square kilometers",
-                        "2,000 square kilometers"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Spiti Valley Conservation Reserve covers 1,585 sq.km."
-                },
-                {
-                    "text": "The Snow Leopard, found in several Indian states, is often known by which evocative name?",
-                    "options": [
-                        "The White Phantom",
-                        "The Ghost of the Mountains",
-                        "The Silent Hunter",
-                        "The Glacier Beast"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Snow Leopard is called the 'Ghost of the Mountains'."
-                },
-                {
-                    "text": "Who is the first Indian to win the Ramsar Award for Wetland Wise Use?",
-                    "options": [
-                        "Varsha Deshpande",
-                        "Jayshree Vencatesan",
-                        "Madhav Gadgil",
-                        "Arundhati Roy"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Jayshree Vencatesan is the first Indian recipient."
-                },
-                {
-                    "text": "As of July 29, 2025, what is the total number of Ramsar Sites in India?",
-                    "options": [
-                        "75",
-                        "85",
-                        "91",
-                        "100"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India currently (2025) has 91 Ramsar sites."
-                },
-                {
-                    "text": "In which year did the Ramsar Convention come into force?",
-                    "options": [
-                        "1971",
-                        "1975",
-                        "1982",
-                        "1991"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Ramsar Convention came into force in 1975."
-                },
-                {
-                    "text": "Which of the following were the first Ramsar Sites in India?",
-                    "options": [
-                        "Sundarbans and Vembannur",
-                        "Kanwar Lake and Nagi Dam",
-                        "Chilika (Odisha) and Keoladeo (Rajasthan)",
-                        "Udhwa Bird Sanctuary and Nakti Dam"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Chilika and Keoladeo were India's first Ramsar sites."
-                },
-                {
-                    "text": "India’s first Teal Carbon Study is being conducted at which Ramsar Site?",
-                    "options": [
-                        "Sundarbans",
-                        "Keoladeo National Park",
-                        "Chilika Lake",
-                        "Kanwar Lake"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Keoladeo National Park hosts India's first Teal Carbon Study."
-                },
-                {
-                    "text": "Which Indian state has the maximum number of Ramsar Sites?",
-                    "options": [
-                        "Odisha",
-                        "West Bengal",
-                        "Tamil Nadu",
-                        "Rajasthan"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Tamil Nadu leads with the most Ramsar Sites."
-                },
-                {
-                    "text": "What is the location of India's largest Ramsar Site?",
-                    "options": [
-                        "Tamil Nadu",
-                        "Odisha",
-                        "West Bengal",
-                        "Himachal Pradesh"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "West Bengal has India's largest Ramsar Site."
-                },
-                {
-                    "text": "Operation Olivia is an initiative by the Indian Coast Guard primarily aimed at protecting which marine species?",
-                    "options": [
-                        "Green Sea Turtles",
-                        "Olive Ridley Turtles",
-                        "Leatherback Turtles",
-                        "Hawksbill Turtles"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It is focused on Olive Ridley Turtles."
-                },
-                {
-                    "text": "Yala Glacier, located in Nepal, is forecasted to vanish by which year due to rapid retreat?",
-                    "options": [
-                        "2030",
-                        "2035",
-                        "2040",
-                        "2050"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Yala Glacier may disappear by 2040."
-                },
-                {
-                    "text": "India's First Bio Bank for Animal Conservation is located at which facility?",
-                    "options": [
-                        "National Zoological Park, Delhi",
-                        "Arignar Anna Zoological Park, Chennai",
-                        "Padmaja Naidu Himalayan Zoological Park, Darjeeling",
-                        "Mysore Zoo, Karnataka"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is at the Padmaja Naidu Himalayan Zoological Park in Darjeeling."
-                },
-                {
-                    "text": "What is the IUCN Status of the Ganges River Dolphin?",
-                    "options": [
-                        "Critically Endangered",
-                        "Endangered",
-                        "Vulnerable",
-                        "Least Concern"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Ganges River Dolphin is classified as Endangered."
-                },
-                {
-                    "text": "When is Dolphin Day celebrated in India?",
-                    "options": [
-                        "5th September",
-                        "5th October",
-                        "5th November",
-                        "5th December"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "India celebrates Dolphin Day on 5th October."
-                },
-                {
-                    "text": "The \"Smart Laboratory on Clean Rivers (SLCR) Project\" in Banaras is a collaboration between NMCG, IIT (BHU), and which other country?",
-                    "options": [
-                        "Germany",
-                        "Japan",
-                        "Denmark",
-                        "France"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Denmark is the international collaborator in this project."
-                },
-                {
-                    "text": "The \"Ek Desh Ek Dhadkan\" initiative, launched by the Ministry of Culture, aims to primarily achieve which objective?",
-                    "options": [
-                        "Promote cultural exchange programs",
-                        "Honour brave hearts and foster patriotism",
-                        "Preserve ancient monuments",
-                        "Develop new artistic talents"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It honours brave hearts and fosters patriotism."
-                },
-                {
-                    "text": "As a result of the Government’s RRB Consolidation Drive (Phase 4), the number of RRBs has been reduced to how many?",
-                    "options": [
-                        "43",
-                        "35",
-                        "28",
-                        "22"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The number of RRBs has been reduced to 28."
-                },
-                {
-                    "text": "What is the ownership structure of Regional Rural Banks (RRBs) by the Central Government?",
-                    "options": [
-                        "15%",
-                        "35%",
-                        "50%",
-                        "75%"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Central government owns 50% in RRBs."
-                },
-                {
-                    "text": "Operation Mahadev is a counterterrorism initiative primarily aimed at eliminating terrorists linked to which specific event?",
-                    "options": [
-                        "Mumbai Attacks 2008",
-                        "Uri Attack 2016",
-                        "April 2025 Pahalgam Attack",
-                        "Pulwama Attack 2019"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Operation Mahadev targets terrorists behind the April 2025 Pahalgam Attack."
-                },
-                {
-                    "text": "Which country carried out Operation Red Weeding, aimed at eliminating top officials of Iran's military forces?",
-                    "options": [
-                        "United States",
-                        "Israel",
-                        "United Kingdom",
-                        "Saudi Arabia"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Israel conducted Operation Red Weeding."
-                },
-                {
-                    "text": "Which NTPC plant is the first in the world to convert carbon dioxide into methanol?",
-                    "options": [
-                        "NTPC Kaniha",
-                        "NTPC Dadri",
-                        "NTPC Vindhyachal",
-                        "NTPC Ramagundam"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "NTPC Vindhyachal is the pioneer in this conversion."
-                },
-                {
-                    "text": "India’s first biomanufacturing institute, focused on producing biofertilizers and biopesticides, is located in which city?",
-                    "options": [
-                        "Mohali",
-                        "Bengaluru",
-                        "Pune",
-                        "Hyderabad"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "India's first biomanufacturing institute is in Mohali, Punjab."
-                },
-                {
-                    "text": "The \"State of Global Climate Report\" is given by which international organization?",
-                    "options": [
-                        "United Nations Environment Programme (UNEP)",
-                        "Intergovernmental Panel on Climate Change (IPCC)",
-                        "World Meteorological Organization (WMO)",
-                        "World Health Organization (WHO)"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "WMO releases the State of Global Climate report."
-                },
-                {
-                    "text": "In the Environmental Performance Index 2024, what was India's rank out of 180 countries?",
-                    "options": [
-                        "1st",
-                        "80th",
-                        "120th",
-                        "176th"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "India was ranked 176th out of 180."
-                },
-                {
-                    "text": "The LiFE (Lifestyle for Environment) Initiative was introduced at which major international conference?",
-                    "options": [
-                        "COP21 in Paris",
-                        "COP26 in Glasgow",
-                        "COP27 in Sharm El Sheikh",
-                        "COP28 in Dubai"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "LiFE was introduced at COP26, Glasgow."
-                },
-                {
-                    "text": "India’s first underwater museum and artificial coral reef is located in which district of Maharashtra?",
-                    "options": [
-                        "Mumbai",
-                        "Ratnagiri",
-                        "Sindhudurg",
-                        "Raigad"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Sindhudurg is home to India's first underwater museum and artificial coral reef."
-                },
-                {
-                    "text": "Which Indian city has been recognized by WHO as an Age-Friendly City, becoming the second city after Kochi to achieve this?",
-                    "options": [
-                        "Thiruvananthapuram",
-                        "Kozhikode",
-                        "Bengaluru",
-                        "Chennai"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Kozhikode was declared an Age-Friendly City by WHO."
-                },
-                {
-                    "text": "Varsha Deshpande, an advocate from Satara, Maharashtra, was awarded the 2025 UN Population Award for her advocacy in which area?",
-                    "options": [
-                        "Environmental sustainability",
-                        "Gender equality and reproductive rights",
-                        "Child labour eradication",
-                        "Literacy promotion"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "She is recognized for her work in gender equality and reproductive rights."
-                },
-                {
-                    "text": "Which district in India has become the first to meet its entire power demand using solar energy?",
-                    "options": [
-                        "Leh",
-                        "Diu",
-                        "Kutch",
-                        "Jaisalmer"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Diu is the first such district."
-                },
-                {
-                    "text": "As per the provided data, which three states contribute to 71% of India's total solar installations?",
-                    "options": [
-                        "Madhya Pradesh, Uttar Pradesh, Odisha",
-                        "Rajasthan, Gujarat, Tamil Nadu",
-                        "Maharashtra, Karnataka, Andhra Pradesh",
-                        "Punjab, Haryana, Himachal Pradesh"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Rajasthan, Gujarat, and Tamil Nadu account for 71% of solar installations."
-                },
-                {
-                    "text": "Which is the first legislative assembly in India to run entirely on solar power?",
-                    "options": [
-                        "Gujarat Legislative Assembly",
-                        "Rajasthan Legislative Assembly",
-                        "Delhi Legislative Assembly",
-                        "Karnataka Legislative Assembly"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Delhi Legislative Assembly is fully solar-powered."
-                },
-                {
-                    "text": "India has a target to achieve Net Zero Emissions by which year?",
-                    "options": [
-                        "2030",
-                        "2040",
-                        "2050",
-                        "2070"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Net zero emissions by 2070 is India's deadline."
-                },
-                {
-                    "text": "The first Geothermal Project in Northeast India is located in which state?",
-                    "options": [
-                        "Assam",
-                        "Sikkim",
-                        "Arunachal Pradesh",
-                        "Meghalaya"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Arunachal Pradesh hosts the first such project."
-                },
-                {
-                    "text": "Telangana became the first state to notify the categorization of Scheduled Castes (SCs) after a landmark Supreme Court judgment in which case?",
-                    "options": [
-                        "Kesavananda Bharati vs State of Kerala",
-                        "Minerva Mills vs Union of India",
-                        "State of Punjab vs Davinder Singh",
-                        "S.R. Bommai vs Union of India"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "This was post the State of Punjab vs Davinder Singh verdict."
-                },
-                {
-                    "text": "What is India's total installed power capacity as of June 2025?",
-                    "options": [
-                        "235.7 GW",
-                        "350 GW",
-                        "476 GW",
-                        "500 GW"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is 476 GW as of June 2025."
-                },
-                {
-                    "text": "What is India's global ranking in terms of Renewable Energy installed capacity?",
-                    "options": [
-                        "2nd",
-                        "3rd",
-                        "4th",
-                        "5th"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "India ranks 4th globally in installed renewable energy."
-                },
-                {
-                    "text": "Which non-fossil fuel source contributes the most to India's non-fossil capacity?",
-                    "options": [
-                        "Hydel",
-                        "Wind",
-                        "Solar",
-                        "Nuclear"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Solar has the largest share among non-fossil fuels in India."
-                },
-                {
-                    "text": "Which company developed the largest floating solar power plant in Omkareshwar, MP, as of January 2025?",
-                    "options": [
-                        "Adani Green Energy",
-                        "ReNew Power",
-                        "TATA Power",
-                        "Azure Power"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "TATA Power built the floating solar plant."
-                },
-                {
-                    "text": "India has a target to achieve how much nuclear capacity by 2047?",
-                    "options": [
-                        "8180 MW",
-                        "20 GW",
-                        "50 GW",
-                        "100 GW"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "The target by 2047 is 100 GW of nuclear capacity."
-                },
-                {
-                    "text": "Which of the following nuclear power plants is located in Uttar Pradesh?",
-                    "options": [
-                        "Kaiga",
-                        "Tarapur",
-                        "Narora",
-                        "Kakrapar"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Narora Nuclear Power Plant is in Uttar Pradesh."
-                },
-                {
-                    "text": "Which mountain in New Zealand has been granted legal human rights, considered an ancestor by the Maori people?",
-                    "options": [
-                        "Mount Cook",
-                        "Mount Ruapehu",
-                        "Mount Taranaki",
-                        "Mount Tongariro"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Mount Taranaki holds this unique legal status."
-                },
-                {
-                    "text": "Which airport is recognized as India's first zero waste airport?",
-                    "options": [
-                        "Indira Gandhi International Airport, Delhi",
-                        "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
-                        "Ahilyabai Holkar Airport, Indore",
-                        "Kempegowda International Airport, Bengaluru"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Indore's airport is India's first zero waste airport."
-                },
-                {
-                    "text": "\"La Prensa\" was awarded the UNESCO World Press Freedom Prize 2025 for being Nicaragua's oldest newspaper and raising voices against wrong.",
-                    "options": [
-                        "La Nacion",
-                        "El Heraldo",
-                        "La Prensa",
-                        "El Nuevo Diario"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "\"La Prensa\" is the correct answer."
-                },
-                {
-                    "text": "What is the primary objective of \"Mission Mausam,\" a ₹2000 crore scheme by the Ministry of Earth Science?",
-                    "options": [
-                        "Enhance India's space exploration capabilities",
-                        "Improve India's weather and forecasting by 2026",
-                        "Promote sustainable agriculture practices",
-                        "Develop new oceanographic research vessels"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Mission Mausam's primary goal is to improve weather forecasting by 2026."
-                }
-            ]
-
-            ,
+                "text": "Madhav Gadgil was awarded the UN Champions of Earth Lifetime Award 2024 for his contributions to which primary field?",
+                "options": [
+                    "Economic development and poverty alleviation",
+                    "Environmental conservation and biodiversity preservation",
+                    "Space exploration and technological innovation",
+                    "Human rights advocacy and social justice"
+                ],
+                "correctAnswer": 1,
+                "explanation": "He is recognized for his work in environmental conservation and biodiversity preservation."
+            },
+            {
+                "text": "In which year was the Western Ghats Ecology Expert Panel (WGEAP) appointed by the Union Ministry of Environment and Forests?",
+                "options": [
+                    "2008",
+                    "2010",
+                    "2012",
+                    "2014"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The WGEAP, chaired by Gadgil, was appointed in 2010."
+            },
+            {
+                "text": "Which of the following activities was specifically recommended against in the Gadgil's Report (2011) concerning the Western Ghats?",
+                "options": [
+                    "Agroforestry and organic farming",
+                    "Quarrying, mining, and hydro projects",
+                    "Ecotourism and sustainable tourism",
+                    "Renewable energy projects like solar farms"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Gadgil Report specifically recommended against quarrying, mining, and hydro projects."
+            },
+            {
+                "text": "The Kasturi Rangan Committee (2012), formed after Gadgil’s report, designated what percentage of the Western Ghats area as an eco-sensitive zone?",
+                "options": [
+                    "37%",
+                    "50%",
+                    "64%",
+                    "75%"
+                ],
+                "correctAnswer": 0,
+                "explanation": "The Kasturi Rangan Committee designated 37% as an eco-sensitive zone."
+            },
+            {
+                "text": "Which of the following states is NOT listed as a state through which the Western Ghats span?",
+                "options": [
+                    "Gujarat",
+                    "Andhra Pradesh",
+                    "Karnataka",
+                    "Tamil Nadu"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Andhra Pradesh is not intersected by the Western Ghats."
+            },
+            {
+                "text": "Which National Park is located in Tamil Nadu, according to the provided information regarding the Western Ghats region?",
+                "options": [
+                    "Silent Valley NP",
+                    "Wayanad NP",
+                    "Mudumalai NP",
+                    "Bandipur TR"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Mudumalai National Park is in Tamil Nadu."
+            },
+            {
+                "text": "What is the area of India's largest conservation reserve, located in Spiti Valley?",
+                "options": [
+                    "1,200 square kilometers",
+                    "1,585 square kilometers",
+                    "1,800 square kilometers",
+                    "2,000 square kilometers"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Spiti Valley Conservation Reserve covers 1,585 sq.km."
+            },
+            {
+                "text": "The Snow Leopard, found in several Indian states, is often known by which evocative name?",
+                "options": [
+                    "The White Phantom",
+                    "The Ghost of the Mountains",
+                    "The Silent Hunter",
+                    "The Glacier Beast"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Snow Leopard is called the 'Ghost of the Mountains'."
+            },
+            {
+                "text": "Who is the first Indian to win the Ramsar Award for Wetland Wise Use?",
+                "options": [
+                    "Varsha Deshpande",
+                    "Jayshree Vencatesan",
+                    "Madhav Gadgil",
+                    "Arundhati Roy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Jayshree Vencatesan is the first Indian recipient."
+            },
+            {
+                "text": "As of July 29, 2025, what is the total number of Ramsar Sites in India?",
+                "options": [
+                    "75",
+                    "85",
+                    "91",
+                    "100"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India currently (2025) has 91 Ramsar sites."
+            },
+            {
+                "text": "In which year did the Ramsar Convention come into force?",
+                "options": [
+                    "1971",
+                    "1975",
+                    "1982",
+                    "1991"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Ramsar Convention came into force in 1975."
+            },
+            {
+                "text": "Which of the following were the first Ramsar Sites in India?",
+                "options": [
+                    "Sundarbans and Vembannur",
+                    "Kanwar Lake and Nagi Dam",
+                    "Chilika (Odisha) and Keoladeo (Rajasthan)",
+                    "Udhwa Bird Sanctuary and Nakti Dam"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Chilika and Keoladeo were India's first Ramsar sites."
+            },
+            {
+                "text": "India’s first Teal Carbon Study is being conducted at which Ramsar Site?",
+                "options": [
+                    "Sundarbans",
+                    "Keoladeo National Park",
+                    "Chilika Lake",
+                    "Kanwar Lake"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Keoladeo National Park hosts India's first Teal Carbon Study."
+            },
+            {
+                "text": "Which Indian state has the maximum number of Ramsar Sites?",
+                "options": [
+                    "Odisha",
+                    "West Bengal",
+                    "Tamil Nadu",
+                    "Rajasthan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tamil Nadu leads with the most Ramsar Sites."
+            },
+            {
+                "text": "What is the location of India's largest Ramsar Site?",
+                "options": [
+                    "Tamil Nadu",
+                    "Odisha",
+                    "West Bengal",
+                    "Himachal Pradesh"
+                ],
+                "correctAnswer": 2,
+                "explanation": "West Bengal has India's largest Ramsar Site."
+            },
+            {
+                "text": "Operation Olivia is an initiative by the Indian Coast Guard primarily aimed at protecting which marine species?",
+                "options": [
+                    "Green Sea Turtles",
+                    "Olive Ridley Turtles",
+                    "Leatherback Turtles",
+                    "Hawksbill Turtles"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It is focused on Olive Ridley Turtles."
+            },
+            {
+                "text": "Yala Glacier, located in Nepal, is forecasted to vanish by which year due to rapid retreat?",
+                "options": [
+                    "2030",
+                    "2035",
+                    "2040",
+                    "2050"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Yala Glacier may disappear by 2040."
+            },
+            {
+                "text": "India's First Bio Bank for Animal Conservation is located at which facility?",
+                "options": [
+                    "National Zoological Park, Delhi",
+                    "Arignar Anna Zoological Park, Chennai",
+                    "Padmaja Naidu Himalayan Zoological Park, Darjeeling",
+                    "Mysore Zoo, Karnataka"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is at the Padmaja Naidu Himalayan Zoological Park in Darjeeling."
+            },
+            {
+                "text": "What is the IUCN Status of the Ganges River Dolphin?",
+                "options": [
+                    "Critically Endangered",
+                    "Endangered",
+                    "Vulnerable",
+                    "Least Concern"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Ganges River Dolphin is classified as Endangered."
+            },
+            {
+                "text": "When is Dolphin Day celebrated in India?",
+                "options": [
+                    "5th September",
+                    "5th October",
+                    "5th November",
+                    "5th December"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India celebrates Dolphin Day on 5th October."
+            },
+            {
+                "text": "The \"Smart Laboratory on Clean Rivers (SLCR) Project\" in Banaras is a collaboration between NMCG, IIT (BHU), and which other country?",
+                "options": [
+                    "Germany",
+                    "Japan",
+                    "Denmark",
+                    "France"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Denmark is the international collaborator in this project."
+            },
+            {
+                "text": "The \"Ek Desh Ek Dhadkan\" initiative, launched by the Ministry of Culture, aims to primarily achieve which objective?",
+                "options": [
+                    "Promote cultural exchange programs",
+                    "Honour brave hearts and foster patriotism",
+                    "Preserve ancient monuments",
+                    "Develop new artistic talents"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It honours brave hearts and fosters patriotism."
+            },
+            {
+                "text": "As a result of the Government’s RRB Consolidation Drive (Phase 4), the number of RRBs has been reduced to how many?",
+                "options": [
+                    "43",
+                    "35",
+                    "28",
+                    "22"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The number of RRBs has been reduced to 28."
+            },
+            {
+                "text": "What is the ownership structure of Regional Rural Banks (RRBs) by the Central Government?",
+                "options": [
+                    "15%",
+                    "35%",
+                    "50%",
+                    "75%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Central government owns 50% in RRBs."
+            },
+            {
+                "text": "Operation Mahadev is a counterterrorism initiative primarily aimed at eliminating terrorists linked to which specific event?",
+                "options": [
+                    "Mumbai Attacks 2008",
+                    "Uri Attack 2016",
+                    "April 2025 Pahalgam Attack",
+                    "Pulwama Attack 2019"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Operation Mahadev targets terrorists behind the April 2025 Pahalgam Attack."
+            },
+            {
+                "text": "Which country carried out Operation Red Weeding, aimed at eliminating top officials of Iran's military forces?",
+                "options": [
+                    "United States",
+                    "Israel",
+                    "United Kingdom",
+                    "Saudi Arabia"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Israel conducted Operation Red Weeding."
+            },
+            {
+                "text": "Which NTPC plant is the first in the world to convert carbon dioxide into methanol?",
+                "options": [
+                    "NTPC Kaniha",
+                    "NTPC Dadri",
+                    "NTPC Vindhyachal",
+                    "NTPC Ramagundam"
+                ],
+                "correctAnswer": 2,
+                "explanation": "NTPC Vindhyachal is the pioneer in this conversion."
+            },
+            {
+                "text": "India’s first biomanufacturing institute, focused on producing biofertilizers and biopesticides, is located in which city?",
+                "options": [
+                    "Mohali",
+                    "Bengaluru",
+                    "Pune",
+                    "Hyderabad"
+                ],
+                "correctAnswer": 0,
+                "explanation": "India's first biomanufacturing institute is in Mohali, Punjab."
+            },
+            {
+                "text": "The \"State of Global Climate Report\" is given by which international organization?",
+                "options": [
+                    "United Nations Environment Programme (UNEP)",
+                    "Intergovernmental Panel on Climate Change (IPCC)",
+                    "World Meteorological Organization (WMO)",
+                    "World Health Organization (WHO)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "WMO releases the State of Global Climate report."
+            },
+            {
+                "text": "In the Environmental Performance Index 2024, what was India's rank out of 180 countries?",
+                "options": [
+                    "1st",
+                    "80th",
+                    "120th",
+                    "176th"
+                ],
+                "correctAnswer": 3,
+                "explanation": "India was ranked 176th out of 180."
+            },
+            {
+                "text": "The LiFE (Lifestyle for Environment) Initiative was introduced at which major international conference?",
+                "options": [
+                    "COP21 in Paris",
+                    "COP26 in Glasgow",
+                    "COP27 in Sharm El Sheikh",
+                    "COP28 in Dubai"
+                ],
+                "correctAnswer": 1,
+                "explanation": "LiFE was introduced at COP26, Glasgow."
+            },
+            {
+                "text": "India’s first underwater museum and artificial coral reef is located in which district of Maharashtra?",
+                "options": [
+                    "Mumbai",
+                    "Ratnagiri",
+                    "Sindhudurg",
+                    "Raigad"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sindhudurg is home to India's first underwater museum and artificial coral reef."
+            },
+            {
+                "text": "Which Indian city has been recognized by WHO as an Age-Friendly City, becoming the second city after Kochi to achieve this?",
+                "options": [
+                    "Thiruvananthapuram",
+                    "Kozhikode",
+                    "Bengaluru",
+                    "Chennai"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kozhikode was declared an Age-Friendly City by WHO."
+            },
+            {
+                "text": "Varsha Deshpande, an advocate from Satara, Maharashtra, was awarded the 2025 UN Population Award for her advocacy in which area?",
+                "options": [
+                    "Environmental sustainability",
+                    "Gender equality and reproductive rights",
+                    "Child labour eradication",
+                    "Literacy promotion"
+                ],
+                "correctAnswer": 1,
+                "explanation": "She is recognized for her work in gender equality and reproductive rights."
+            },
+            {
+                "text": "Which district in India has become the first to meet its entire power demand using solar energy?",
+                "options": [
+                    "Leh",
+                    "Diu",
+                    "Kutch",
+                    "Jaisalmer"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Diu is the first such district."
+            },
+            {
+                "text": "As per the provided data, which three states contribute to 71% of India's total solar installations?",
+                "options": [
+                    "Madhya Pradesh, Uttar Pradesh, Odisha",
+                    "Rajasthan, Gujarat, Tamil Nadu",
+                    "Maharashtra, Karnataka, Andhra Pradesh",
+                    "Punjab, Haryana, Himachal Pradesh"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Rajasthan, Gujarat, and Tamil Nadu account for 71% of solar installations."
+            },
+            {
+                "text": "Which is the first legislative assembly in India to run entirely on solar power?",
+                "options": [
+                    "Gujarat Legislative Assembly",
+                    "Rajasthan Legislative Assembly",
+                    "Delhi Legislative Assembly",
+                    "Karnataka Legislative Assembly"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Delhi Legislative Assembly is fully solar-powered."
+            },
+            {
+                "text": "India has a target to achieve Net Zero Emissions by which year?",
+                "options": [
+                    "2030",
+                    "2040",
+                    "2050",
+                    "2070"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Net zero emissions by 2070 is India's deadline."
+            },
+            {
+                "text": "The first Geothermal Project in Northeast India is located in which state?",
+                "options": [
+                    "Assam",
+                    "Sikkim",
+                    "Arunachal Pradesh",
+                    "Meghalaya"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Arunachal Pradesh hosts the first such project."
+            },
+            {
+                "text": "Telangana became the first state to notify the categorization of Scheduled Castes (SCs) after a landmark Supreme Court judgment in which case?",
+                "options": [
+                    "Kesavananda Bharati vs State of Kerala",
+                    "Minerva Mills vs Union of India",
+                    "State of Punjab vs Davinder Singh",
+                    "S.R. Bommai vs Union of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "This was post the State of Punjab vs Davinder Singh verdict."
+            },
+            {
+                "text": "What is India's total installed power capacity as of June 2025?",
+                "options": [
+                    "235.7 GW",
+                    "350 GW",
+                    "476 GW",
+                    "500 GW"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is 476 GW as of June 2025."
+            },
+            {
+                "text": "What is India's global ranking in terms of Renewable Energy installed capacity?",
+                "options": [
+                    "2nd",
+                    "3rd",
+                    "4th",
+                    "5th"
+                ],
+                "correctAnswer": 2,
+                "explanation": "India ranks 4th globally in installed renewable energy."
+            },
+            {
+                "text": "Which non-fossil fuel source contributes the most to India's non-fossil capacity?",
+                "options": [
+                    "Hydel",
+                    "Wind",
+                    "Solar",
+                    "Nuclear"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Solar has the largest share among non-fossil fuels in India."
+            },
+            {
+                "text": "Which company developed the largest floating solar power plant in Omkareshwar, MP, as of January 2025?",
+                "options": [
+                    "Adani Green Energy",
+                    "ReNew Power",
+                    "TATA Power",
+                    "Azure Power"
+                ],
+                "correctAnswer": 2,
+                "explanation": "TATA Power built the floating solar plant."
+            },
+            {
+                "text": "India has a target to achieve how much nuclear capacity by 2047?",
+                "options": [
+                    "8180 MW",
+                    "20 GW",
+                    "50 GW",
+                    "100 GW"
+                ],
+                "correctAnswer": 3,
+                "explanation": "The target by 2047 is 100 GW of nuclear capacity."
+            },
+            {
+                "text": "Which of the following nuclear power plants is located in Uttar Pradesh?",
+                "options": [
+                    "Kaiga",
+                    "Tarapur",
+                    "Narora",
+                    "Kakrapar"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Narora Nuclear Power Plant is in Uttar Pradesh."
+            },
+            {
+                "text": "Which mountain in New Zealand has been granted legal human rights, considered an ancestor by the Maori people?",
+                "options": [
+                    "Mount Cook",
+                    "Mount Ruapehu",
+                    "Mount Taranaki",
+                    "Mount Tongariro"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Mount Taranaki holds this unique legal status."
+            },
+            {
+                "text": "Which airport is recognized as India's first zero waste airport?",
+                "options": [
+                    "Indira Gandhi International Airport, Delhi",
+                    "Chhatrapati Shivaji Maharaj International Airport, Mumbai",
+                    "Ahilyabai Holkar Airport, Indore",
+                    "Kempegowda International Airport, Bengaluru"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Indore's airport is India's first zero waste airport."
+            },
+            {
+                "text": "\"La Prensa\" was awarded the UNESCO World Press Freedom Prize 2025 for being Nicaragua's oldest newspaper and raising voices against wrong.",
+                "options": [
+                    "La Nacion",
+                    "El Heraldo",
+                    "La Prensa",
+                    "El Nuevo Diario"
+                ],
+                "correctAnswer": 2,
+                "explanation": "\"La Prensa\" is the correct answer."
+            },
+            {
+                "text": "What is the primary objective of \"Mission Mausam,\" a ₹2000 crore scheme by the Ministry of Earth Science?",
+                "options": [
+                    "Enhance India's space exploration capabilities",
+                    "Improve India's weather and forecasting by 2026",
+                    "Promote sustainable agriculture practices",
+                    "Develop new oceanographic research vessels"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mission Mausam's primary goal is to improve weather forecasting by 2026."
+            }
+        ],
         "Current Affairs - Set - 11": [{
-                    "text": "Zomato has recently been renamed as:",
-                    "options": ["Everlast", "Enduring", "Eternal", "Infinity"],
-                    "correctAnswer": 2,
-                    "explanation": "Zomato has been renamed as 'Eternal'."
-                },
-                {
-                    "text": "Which Indian institution recently unveiled Asia's largest shallow wave basin, set to revolutionize marine research?",
-                    "options": ["IIT Bombay", "IIT Delhi", "IIT Madras", "IIT Kharagpur"],
-                    "correctAnswer": 2,
-                    "explanation": "IIT Madras unveiled Asia's largest shallow wave basin."
-                },
-                {
-                    "text": "The 'One Scientist, One Product Programme' is an initiative of which organization, aimed at accelerating agricultural innovation and outreach?",
-                    "options": [
-                        "Ministry of Agriculture & Farmers Welfare",
-                        "Indian Council of Agricultural Research (ICAR)",
-                        "NITI Aayog",
-                        "Council of Scientific and Industrial Research (CSIR)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "ICAR is behind the 'One Scientist, One Product Programme'."
-                },
-                {
-                    "text": "Tribhuvan Sakhari University, established under the leadership of PM Modi, is located in which Indian state?",
-                    "options": ["Maharashtra", "Rajasthan", "Gujarat", "Madhya Pradesh"],
-                    "correctAnswer": 2,
-                    "explanation": "Tribhuvan Sakhari University is in Gujarat."
-                },
-                {
-                    "text": "Tribhuvan Sakhari University is named after which prominent figure, known as the 'father of the cooperative movement in India'?",
-                    "options": [
-                        "Sardar Vallabhbhai Patel",
-                        "Mahatma Gandhi",
-                        "Tribhuvandas Patel",
-                        "Verghese Kurien"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is named after Tribhuvandas Patel."
-                },
-                {
-                    "text": "Vantara Wildlife Conservation Centre, recently inaugurated by PM Modi, is located in which city of Gujarat?",
-                    "options": ["Ahmedabad", "Vadodara", "Surat", "Jamnagar"],
-                    "correctAnswer": 3,
-                    "explanation": "Vantara Wildlife Conservation Centre is in Jamnagar."
-                },
-                {
-                    "text": "The Vantara Wildlife Conservation Centre, dedicated to wildlife conservation, rescue, and rehabilitation, is an initiative of which individual?",
-                    "options": [
-                        "Gautam Adani",
-                        "Mukesh Ambani",
-                        "Anant Ambani",
-                        "Ratan Tata"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "It is an initiative of Anant Ambani."
-                },
-                {
-                    "text": "The 8th Dhamma conference, which had the theme 'Cosmology in Dharma & Dhamma', was held in which city?",
-                    "options": ["New Delhi", "Bodh Gaya", "Ahmedabad", "Mumbai"],
-                    "correctAnswer": 2,
-                    "explanation": "The 8th Dhamma conference was held in Ahmedabad."
-                },
-                {
-                    "text": "What was the theme of the 8th Dhamma conference held in Ahmedabad, Gujarat?",
-                    "options": [
-                        "Buddhist Teachings for Global Peace",
-                        "Cosmology in Dharma & Dhamma",
-                        "Reviving Ancient Wisdom",
-                        "Buddhism and Modern Science"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The theme was 'Cosmology in Dharma & Dhamma'."
-                },
-                {
-                    "text": "The First Asian Buddhist Summit, themed 'Role of Buddha Dhamma in strengthening Asia', was held in which Indian city?",
-                    "options": ["Bengaluru", "New Delhi", "Kolkata", "Chennai"],
-                    "correctAnswer": 1,
-                    "explanation": "It was held in New Delhi."
-                },
-                {
-                    "text": "What was the theme of the First Asian Buddhist Summit held in New Delhi?",
-                    "options": [
-                        "Buddhist Heritage of Asia",
-                        "Buddha's Path to Enlightenment",
-                        "Role of Buddha Dhamma in strengthening Asia",
-                        "Buddhist Philosophy for Contemporary Challenges"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The theme was 'Role of Buddha Dhamma in strengthening Asia'."
-                },
-                {
-                    "text": "SAMRIDH, an initiative aimed at Startup Accelerators for Product Innovation, Development, and Growth, is associated with which Ministry?",
-                    "options": [
-                        "Ministry of Commerce and Industry",
-                        "Ministry of Electronics and Information Technology (MeitY)",
-                        "Ministry of Finance",
-                        "Ministry of Micro, Small and Medium Enterprises (MSME)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "SAMRIDH is a MeitY initiative."
-                },
-                {
-                    "text": "The BHARTAPOL PORTAL aims to provide assistance to Indian law enforcement agencies from which source in criminal matters related to transnational organized crime?",
-                    "options": [
-                        "Domestic NGOs",
-                        "Private security firms",
-                        "Foreign law enforcement agencies",
-                        "International financial institutions"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "BHARTAPOL assists with foreign law enforcement agencies."
-                },
-                {
-                    "text": "The 10th WORLD Ayurveda Congress was held in which city?",
-                    "options": ["Rishikesh", "Haridwar", "Dehradun", "Varanasi"],
-                    "correctAnswer": 2,
-                    "explanation": "It was held in Dehradun."
-                },
-                {
-                    "text": "SEMICON India 2024, a significant event in the semiconductor industry, was held in which city?",
-                    "options": ["Bengaluru", "Hyderabad", "Greater Noida", "Pune"],
-                    "correctAnswer": 2,
-                    "explanation": "SEMICON India 2024 was held in Greater Noida."
-                },
-                {
-                    "text": "The SUBHADRA SCHEME, under which women in the age group of 21-60 years receive financial assistance, is an initiative of which Indian state?",
-                    "options": ["West Bengal", "Bihar", "Odisha", "Jharkhand"],
-                    "correctAnswer": 2,
-                    "explanation": "SUBHADRA SCHEME is an initiative of Odisha."
-                },
-                {
-                    "text": "Under the SUBHADRA SCHEME, what is the total financial assistance provided to eligible women over a span of 5 years?",
-                    "options": [
-                        "Rs 25,000",
-                        "Rs 50,000",
-                        "Rs 75,000",
-                        "Rs 1,00,000"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It provides a total of Rs 50,000 over 5 years."
-                },
-                {
-                    "text": "Vadhvan Port, designated as the 13th major port of India, is located in which state?",
-                    "options": ["Gujarat", "Maharashtra", "Karnataka", "Goa"],
-                    "correctAnswer": 1,
-                    "explanation": "Vadhvan Port is in Maharashtra."
-                },
-                {
-                    "text": "India's first Organic Fisheries Cluster, which operates without chemicals or antibiotics, is located in which state?",
-                    "options": ["Arunachal Pradesh", "Sikkim", "Meghalaya", "Tripura"],
-                    "correctAnswer": 1,
-                    "explanation": "It is in Sikkim."
-                },
-                {
-                    "text": "In which district of Sikkim is India's first Organic Fisheries Cluster established?",
-                    "options": ["Gangtok", "Mangan", "Soreng", "Namchi"],
-                    "correctAnswer": 2,
-                    "explanation": "Soreng district hosts the cluster."
-                },
-                {
-                    "text": "Who is the first woman Vice Chancellor of IGNOU?",
-                    "options": [
-                        "Nirmala Sitharaman",
-                        "Sushma Swaraj",
-                        "Uma Kanjilal",
-                        "Smriti Irani"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Uma Kanjilal became the first woman VC of IGNOU."
-                },
-                {
-                    "text": "Shri V.S. Achuthanandan, who recently passed away at the age of 101, was a former Chief Minister of which Indian state?",
-                    "options": ["Tamil Nadu", "Karnataka", "Andhra Pradesh", "Kerala"],
-                    "correctAnswer": 3,
-                    "explanation": "He was a former CM of Kerala."
-                },
-                {
-                    "text": "Jayant Narlikar, who recently passed away at the age of 87, was a renowned figure in which scientific field?",
-                    "options": ["Economics", "Literature", "Astrophysics", "Law"],
-                    "correctAnswer": 2,
-                    "explanation": "He was a renowned astrophysicist."
-                },
-                {
-                    "text": "The Insurance Regulatory and Development Authority of India (IRDAI) is the outcome of the recommendations of which committee?",
-                    "options": [
-                        "Narsimham Committee",
-                        "Malhotra Committee",
-                        "Urjit Patel Committee",
-                        "Raghuram Rajan Committee"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Malhotra Committee recommended IRDAI."
-                },
-                {
-                    "text": "Who has been appointed as the new chief of IRDAI?",
-                    "options": [
-                        "Deepak Mohanty",
-                        "Subhash C. Khuntia",
-                        "Ajay Seth",
-                        "Debasish Panda"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Debasish Panda is the new IRDAI chief."
-                },
-                {
-                    "text": "Dr. Purnima Devi Barman, a distinguished wildlife biologist named in TIME’s Women of the Year 2025 list, is known for her conservation efforts for which species?",
-                    "options": [
-                        "Great Indian Bustard",
-                        "Greater Adjutant Stork",
-                        "Siberian Crane",
-                        "Sarus Crane"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "She is famous for her work with the Greater Adjutant Stork."
-                },
-                {
-                    "text": "Dr. Purnima Devi Barman, the only Indian woman on TIME’s Women of the Year 2025 list for her conservation contributions, hails from which Indian state?",
-                    "options": ["West Bengal", "Odisha", "Assam", "Bihar"],
-                    "correctAnswer": 2,
-                    "explanation": "She is from Assam."
-                },
-                {
-                    "text": "The Hargila, or Greater Adjutant Stork, which Dr. Purnima Devi Barman is working to save, is classified as which of the following worldwide?",
-                    "options": [
-                        "The rarest stork species in the world",
-                        "The second-rarest stork species in the world",
-                        "A commonly found stork species in India",
-                        "A migratory stork species with a stable population"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It is the second-rarest stork species in the world."
-                },
-                {
-                    "text": "Which Indian dignitary was recently honoured with the 'City Key of Honour' of Lisbon?",
-                    "options": [
-                        "Prime Minister Narendra Modi",
-                        "External Affairs Minister S. Jaishankar",
-                        "President Droupadi Murmu",
-                        "Finance Minister Nirmala Sitharaman"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "President Droupadi Murmu was so honoured."
-                },
-                {
-                    "text": "Who is the veteran sculptor known for creating the Statue of Unity, the world's tallest statue?",
-                    "options": [
-                        "Subodh Gupta",
-                        "Anish Kapoor",
-                        "Ram V Sutar",
-                        "Dhruva Mistry"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Ram V Sutar designed the Statue of Unity."
-                },
-                {
-                    "text": "The Statue of Unity, created by Ram V Sutar, stands at what height?",
-                    "options": ["152 meters", "162 meters", "172 meters", "182 meters"],
-                    "correctAnswer": 3,
-                    "explanation": "Statue of Unity is 182 meters tall."
-                },
-                {
-                    "text": "India's largest automobile 'Gatishakti Cargo' is associated with which company, based in Manesar?",
-                    "options": ["Tata Motors", "Mahindra & Mahindra", "Maruti Suzuki", "Ashok Leyland"],
-                    "correctAnswer": 2,
-                    "explanation": "Maruti Suzuki is behind 'Gatishakti Cargo'."
-                },
-                {
-                    "text": "The Mumbai International Cruise Terminal (MICT), designed to handle 1 million passengers annually, can simultaneously handle how many ships?",
-                    "options": ["3", "4", "5", "6"],
-                    "correctAnswer": 2,
-                    "explanation": "It can handle 5 ships at the same time."
-                },
-                {
-                    "text": "Who is the Chief Operating Officer of Apple, who is of Indian origin?",
-                    "options": [
-                        "Sundar Pichai",
-                        "Satya Nadella",
-                        "Sabih Khan",
-                        "Shantanu Narayen"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Sabih Khan is Apple's Indian-origin COO."
-                },
-                {
-                    "text": "Vizhinjam Port, India's first deep water container transshipment port, was inaugurated by PM Modi in which state?",
-                    "options": ["Tamil Nadu", "Karnataka", "Kerala", "Andhra Pradesh"],
-                    "correctAnswer": 2,
-                    "explanation": "Vizhinjam Port was inaugurated in Kerala."
-                },
-                {
-                    "text": "In which ancient text was Vizhinjam Port referred to as 'Balita Port'?",
-                    "options": [
-                        "Arthashastra",
-                        "Indica",
-                        "Periplus of the Erythraean Sea",
-                        "Sangam Literature"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "'Periplus of the Erythraean Sea' mentions Balita Port."
-                },
-                {
-                    "text": "What was the previous name of Vizhinjam Port during the Chola period?",
-                    "options": [
-                        "Mamallapuram",
-                        "Poompuhar",
-                        "Rajendra Chola Patinam",
-                        "Korkai"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Rajendra Chola Patinam was Vizhinjam Port's earlier name."
-                },
-                {
-                    "text": "Which Indian state is classified as a 'Fast Mover' state, as per the provided information?",
-                    "options": [
-                        "Uttar Pradesh",
-                        "Madhya Pradesh",
-                        "Rajasthan",
-                        "Bihar"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Bihar is a 'Fast Mover' state."
-                },
-                {
-                    "text": "In the recent US Election results mentioned in the notes, how many electoral votes did Donald Trump secure?",
-                    "options": [
-                        "226",
-                        "270",
-                        "312",
-                        "306"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Donald Trump secured 312 electoral votes."
-                },
-                {
-                    "text": "Donald Trump served as the 45th President of the United States. Which number presidency is he serving in his current non-consecutive term?",
-                    "options": ["46th", "47th", "48th", "49th"],
-                    "correctAnswer": 1,
-                    "explanation": "He is serving as the 47th President in his non-consecutive term."
-                },
-                {
-                    "text": "Who served as the Vice President during Donald Trump's non-consecutive term as the 47th President?",
-                    "options": [
-                        "Mike Pence",
-                        "Kamala Harris",
-                        "J.D. Vance",
-                        "Mitch McConnell"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "J.D. Vance was Vice President during this term."
-                },
-                {
-                    "text": "Who was the first President in U.S. history to win and serve non-consecutive terms?",
-                    "options": [
-                        "Andrew Jackson",
-                        "Theodore Roosevelt",
-                        "Grover Cleveland",
-                        "Franklin D. Roosevelt"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Grover Cleveland was the first to serve non-consecutive terms."
-                },
-                {
-                    "text": "Where are the headquarters of the World Health Organization (WHO) located, an organization from which the U.S. withdrew?",
-                    "options": [
-                        "New York, USA",
-                        "Vienna, Austria",
-                        "Geneva, Switzerland",
-                        "Paris, France"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "WHO is headquartered in Geneva, Switzerland."
-                },
-                {
-                    "text": "On which date is World Health Day celebrated annually, commemorating the establishment of WHO?",
-                    "options": [
-                        "January 1",
-                        "March 22",
-                        "April 7",
-                        "June 5"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "World Health Day is on April 7."
-                },
-                {
-                    "text": "The Paris Climate Agreement, adopted by 195 Parties, has a primary goal to limit global warming to what temperature target above pre-industrial levels?",
-                    "options": ["1.0°C", "1.5°C", "2.0°C", "2.5°C"],
-                    "correctAnswer": 1,
-                    "explanation": "The target is to keep warming well below 2°C, ideally at 1.5°C."
-                },
-                {
-                    "text": "Vaibhav Taneja, CFO of Tesla, also holds which significant position in Elon Musk's proposed political party?",
-                    "options": [
-                        "President",
-                        "Secretary",
-                        "Treasurer",
-                        "Vice President"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Vaibhav Taneja is the Treasurer."
-                },
-                {
-                    "text": "Who is the first Indian-origin physician to be sworn in as the President of the American Medical Association (AMA)?",
-                    "options": [
-                        "Atul Gawande",
-                        "Siddhartha Mukherjee",
-                        "Vivek Murthy",
-                        "Bobby Mukkamala"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Bobby Mukkamala is the first of Indian origin to be AMA President."
-                },
-                {
-                    "text": "Among the six Indian Americans sworn in as members of the U.S. House of Representatives, who became the first Indian to represent Virginia?",
-                    "options": [
-                        "Ami Bera",
-                        "Pramila Jayapal",
-                        "Ro Khanna",
-                        "Suhas Subramanyam"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Suhas Subramanyam is the first Indian American to represent Virginia."
-                },
-                {
-                    "text": "Which U.S. state became the first to introduce a bill against anti-Hindu discrimination, including Hinduphobia as a crime in its penal code?",
-                    "options": [
-                        "California",
-                        "New York",
-                        "Texas",
-                        "Georgia"
-                    ],
-                    "correctAnswer": 3,
-                    "explanation": "Georgia introduced the anti-Hindu discrimination bill."
-                },
-                {
-                    "text": "The 2024 Quad Leaders' Summit was held in which city?",
-                    "options": [
-                        "Tokyo, Japan",
-                        "New Delhi, India",
-                        "Wilmington, USA",
-                        "Sydney, Australia"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Summit took place in Wilmington, USA."
-                }
-            ]
-
-            ,
+                "text": "Zomato has recently been renamed as:",
+                "options": ["Everlast", "Enduring", "Eternal", "Infinity"],
+                "correctAnswer": 2,
+                "explanation": "Zomato has been renamed as 'Eternal'."
+            },
+            {
+                "text": "Which Indian institution recently unveiled Asia's largest shallow wave basin, set to revolutionize marine research?",
+                "options": ["IIT Bombay", "IIT Delhi", "IIT Madras", "IIT Kharagpur"],
+                "correctAnswer": 2,
+                "explanation": "IIT Madras unveiled Asia's largest shallow wave basin."
+            },
+            {
+                "text": "The 'One Scientist, One Product Programme' is an initiative of which organization, aimed at accelerating agricultural innovation and outreach?",
+                "options": [
+                    "Ministry of Agriculture & Farmers Welfare",
+                    "Indian Council of Agricultural Research (ICAR)",
+                    "NITI Aayog",
+                    "Council of Scientific and Industrial Research (CSIR)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "ICAR is behind the 'One Scientist, One Product Programme'."
+            },
+            {
+                "text": "Tribhuvan Sakhari University, established under the leadership of PM Modi, is located in which Indian state?",
+                "options": ["Maharashtra", "Rajasthan", "Gujarat", "Madhya Pradesh"],
+                "correctAnswer": 2,
+                "explanation": "Tribhuvan Sakhari University is in Gujarat."
+            },
+            {
+                "text": "Tribhuvan Sakhari University is named after which prominent figure, known as the 'father of the cooperative movement in India'?",
+                "options": [
+                    "Sardar Vallabhbhai Patel",
+                    "Mahatma Gandhi",
+                    "Tribhuvandas Patel",
+                    "Verghese Kurien"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is named after Tribhuvandas Patel."
+            },
+            {
+                "text": "Vantara Wildlife Conservation Centre, recently inaugurated by PM Modi, is located in which city of Gujarat?",
+                "options": ["Ahmedabad", "Vadodara", "Surat", "Jamnagar"],
+                "correctAnswer": 3,
+                "explanation": "Vantara Wildlife Conservation Centre is in Jamnagar."
+            },
+            {
+                "text": "The Vantara Wildlife Conservation Centre, dedicated to wildlife conservation, rescue, and rehabilitation, is an initiative of which individual?",
+                "options": [
+                    "Gautam Adani",
+                    "Mukesh Ambani",
+                    "Anant Ambani",
+                    "Ratan Tata"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is an initiative of Anant Ambani."
+            },
+            {
+                "text": "The 8th Dhamma conference, which had the theme 'Cosmology in Dharma & Dhamma', was held in which city?",
+                "options": ["New Delhi", "Bodh Gaya", "Ahmedabad", "Mumbai"],
+                "correctAnswer": 2,
+                "explanation": "The 8th Dhamma conference was held in Ahmedabad."
+            },
+            {
+                "text": "What was the theme of the 8th Dhamma conference held in Ahmedabad, Gujarat?",
+                "options": [
+                    "Buddhist Teachings for Global Peace",
+                    "Cosmology in Dharma & Dhamma",
+                    "Reviving Ancient Wisdom",
+                    "Buddhism and Modern Science"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The theme was 'Cosmology in Dharma & Dhamma'."
+            },
+            {
+                "text": "The First Asian Buddhist Summit, themed 'Role of Buddha Dhamma in strengthening Asia', was held in which Indian city?",
+                "options": ["Bengaluru", "New Delhi", "Kolkata", "Chennai"],
+                "correctAnswer": 1,
+                "explanation": "It was held in New Delhi."
+            },
+            {
+                "text": "What was the theme of the First Asian Buddhist Summit held in New Delhi?",
+                "options": [
+                    "Buddhist Heritage of Asia",
+                    "Buddha's Path to Enlightenment",
+                    "Role of Buddha Dhamma in strengthening Asia",
+                    "Buddhist Philosophy for Contemporary Challenges"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The theme was 'Role of Buddha Dhamma in strengthening Asia'."
+            },
+            {
+                "text": "SAMRIDH, an initiative aimed at Startup Accelerators for Product Innovation, Development, and Growth, is associated with which Ministry?",
+                "options": [
+                    "Ministry of Commerce and Industry",
+                    "Ministry of Electronics and Information Technology (MeitY)",
+                    "Ministry of Finance",
+                    "Ministry of Micro, Small and Medium Enterprises (MSME)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "SAMRIDH is a MeitY initiative."
+            },
+            {
+                "text": "The BHARTAPOL PORTAL aims to provide assistance to Indian law enforcement agencies from which source in criminal matters related to transnational organized crime?",
+                "options": [
+                    "Domestic NGOs",
+                    "Private security firms",
+                    "Foreign law enforcement agencies",
+                    "International financial institutions"
+                ],
+                "correctAnswer": 2,
+                "explanation": "BHARTAPOL assists with foreign law enforcement agencies."
+            },
+            {
+                "text": "The 10th WORLD Ayurveda Congress was held in which city?",
+                "options": ["Rishikesh", "Haridwar", "Dehradun", "Varanasi"],
+                "correctAnswer": 2,
+                "explanation": "It was held in Dehradun."
+            },
+            {
+                "text": "SEMICON India 2024, a significant event in the semiconductor industry, was held in which city?",
+                "options": ["Bengaluru", "Hyderabad", "Greater Noida", "Pune"],
+                "correctAnswer": 2,
+                "explanation": "SEMICON India 2024 was held in Greater Noida."
+            },
+            {
+                "text": "The SUBHADRA SCHEME, under which women in the age group of 21-60 years receive financial assistance, is an initiative of which Indian state?",
+                "options": ["West Bengal", "Bihar", "Odisha", "Jharkhand"],
+                "correctAnswer": 2,
+                "explanation": "SUBHADRA SCHEME is an initiative of Odisha."
+            },
+            {
+                "text": "Under the SUBHADRA SCHEME, what is the total financial assistance provided to eligible women over a span of 5 years?",
+                "options": [
+                    "Rs 25,000",
+                    "Rs 50,000",
+                    "Rs 75,000",
+                    "Rs 1,00,000"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It provides a total of Rs 50,000 over 5 years."
+            },
+            {
+                "text": "Vadhvan Port, designated as the 13th major port of India, is located in which state?",
+                "options": ["Gujarat", "Maharashtra", "Karnataka", "Goa"],
+                "correctAnswer": 1,
+                "explanation": "Vadhvan Port is in Maharashtra."
+            },
+            {
+                "text": "India's first Organic Fisheries Cluster, which operates without chemicals or antibiotics, is located in which state?",
+                "options": ["Arunachal Pradesh", "Sikkim", "Meghalaya", "Tripura"],
+                "correctAnswer": 1,
+                "explanation": "It is in Sikkim."
+            },
+            {
+                "text": "In which district of Sikkim is India's first Organic Fisheries Cluster established?",
+                "options": ["Gangtok", "Mangan", "Soreng", "Namchi"],
+                "correctAnswer": 2,
+                "explanation": "Soreng district hosts the cluster."
+            },
+            {
+                "text": "Who is the first woman Vice Chancellor of IGNOU?",
+                "options": [
+                    "Nirmala Sitharaman",
+                    "Sushma Swaraj",
+                    "Uma Kanjilal",
+                    "Smriti Irani"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Uma Kanjilal became the first woman VC of IGNOU."
+            },
+            {
+                "text": "Shri V.S. Achuthanandan, who recently passed away at the age of 101, was a former Chief Minister of which Indian state?",
+                "options": ["Tamil Nadu", "Karnataka", "Andhra Pradesh", "Kerala"],
+                "correctAnswer": 3,
+                "explanation": "He was a former CM of Kerala."
+            },
+            {
+                "text": "Jayant Narlikar, who recently passed away at the age of 87, was a renowned figure in which scientific field?",
+                "options": ["Economics", "Literature", "Astrophysics", "Law"],
+                "correctAnswer": 2,
+                "explanation": "He was a renowned astrophysicist."
+            },
+            {
+                "text": "The Insurance Regulatory and Development Authority of India (IRDAI) is the outcome of the recommendations of which committee?",
+                "options": [
+                    "Narsimham Committee",
+                    "Malhotra Committee",
+                    "Urjit Patel Committee",
+                    "Raghuram Rajan Committee"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Malhotra Committee recommended IRDAI."
+            },
+            {
+                "text": "Who has been appointed as the new chief of IRDAI?",
+                "options": [
+                    "Deepak Mohanty",
+                    "Subhash C. Khuntia",
+                    "Ajay Seth",
+                    "Debasish Panda"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Debasish Panda is the new IRDAI chief."
+            },
+            {
+                "text": "Dr. Purnima Devi Barman, a distinguished wildlife biologist named in TIME’s Women of the Year 2025 list, is known for her conservation efforts for which species?",
+                "options": [
+                    "Great Indian Bustard",
+                    "Greater Adjutant Stork",
+                    "Siberian Crane",
+                    "Sarus Crane"
+                ],
+                "correctAnswer": 1,
+                "explanation": "She is famous for her work with the Greater Adjutant Stork."
+            },
+            {
+                "text": "Dr. Purnima Devi Barman, the only Indian woman on TIME’s Women of the Year 2025 list for her conservation contributions, hails from which Indian state?",
+                "options": ["West Bengal", "Odisha", "Assam", "Bihar"],
+                "correctAnswer": 2,
+                "explanation": "She is from Assam."
+            },
+            {
+                "text": "The Hargila, or Greater Adjutant Stork, which Dr. Purnima Devi Barman is working to save, is classified as which of the following worldwide?",
+                "options": [
+                    "The rarest stork species in the world",
+                    "The second-rarest stork species in the world",
+                    "A commonly found stork species in India",
+                    "A migratory stork species with a stable population"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It is the second-rarest stork species in the world."
+            },
+            {
+                "text": "Which Indian dignitary was recently honoured with the 'City Key of Honour' of Lisbon?",
+                "options": [
+                    "Prime Minister Narendra Modi",
+                    "External Affairs Minister S. Jaishankar",
+                    "President Droupadi Murmu",
+                    "Finance Minister Nirmala Sitharaman"
+                ],
+                "correctAnswer": 2,
+                "explanation": "President Droupadi Murmu was so honoured."
+            },
+            {
+                "text": "Who is the veteran sculptor known for creating the Statue of Unity, the world's tallest statue?",
+                "options": [
+                    "Subodh Gupta",
+                    "Anish Kapoor",
+                    "Ram V Sutar",
+                    "Dhruva Mistry"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Ram V Sutar designed the Statue of Unity."
+            },
+            {
+                "text": "The Statue of Unity, created by Ram V Sutar, stands at what height?",
+                "options": ["152 meters", "162 meters", "172 meters", "182 meters"],
+                "correctAnswer": 3,
+                "explanation": "Statue of Unity is 182 meters tall."
+            },
+            {
+                "text": "India's largest automobile 'Gatishakti Cargo' is associated with which company, based in Manesar?",
+                "options": ["Tata Motors", "Mahindra & Mahindra", "Maruti Suzuki", "Ashok Leyland"],
+                "correctAnswer": 2,
+                "explanation": "Maruti Suzuki is behind 'Gatishakti Cargo'."
+            },
+            {
+                "text": "The Mumbai International Cruise Terminal (MICT), designed to handle 1 million passengers annually, can simultaneously handle how many ships?",
+                "options": ["3", "4", "5", "6"],
+                "correctAnswer": 2,
+                "explanation": "It can handle 5 ships at the same time."
+            },
+            {
+                "text": "Who is the Chief Operating Officer of Apple, who is of Indian origin?",
+                "options": [
+                    "Sundar Pichai",
+                    "Satya Nadella",
+                    "Sabih Khan",
+                    "Shantanu Narayen"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sabih Khan is Apple's Indian-origin COO."
+            },
+            {
+                "text": "Vizhinjam Port, India's first deep water container transshipment port, was inaugurated by PM Modi in which state?",
+                "options": ["Tamil Nadu", "Karnataka", "Kerala", "Andhra Pradesh"],
+                "correctAnswer": 2,
+                "explanation": "Vizhinjam Port was inaugurated in Kerala."
+            },
+            {
+                "text": "In which ancient text was Vizhinjam Port referred to as 'Balita Port'?",
+                "options": [
+                    "Arthashastra",
+                    "Indica",
+                    "Periplus of the Erythraean Sea",
+                    "Sangam Literature"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'Periplus of the Erythraean Sea' mentions Balita Port."
+            },
+            {
+                "text": "What was the previous name of Vizhinjam Port during the Chola period?",
+                "options": [
+                    "Mamallapuram",
+                    "Poompuhar",
+                    "Rajendra Chola Patinam",
+                    "Korkai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rajendra Chola Patinam was Vizhinjam Port's earlier name."
+            },
+            {
+                "text": "Which Indian state is classified as a 'Fast Mover' state, as per the provided information?",
+                "options": [
+                    "Uttar Pradesh",
+                    "Madhya Pradesh",
+                    "Rajasthan",
+                    "Bihar"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Bihar is a 'Fast Mover' state."
+            },
+            {
+                "text": "In the recent US Election results mentioned in the notes, how many electoral votes did Donald Trump secure?",
+                "options": [
+                    "226",
+                    "270",
+                    "312",
+                    "306"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Donald Trump secured 312 electoral votes."
+            },
+            {
+                "text": "Donald Trump served as the 45th President of the United States. Which number presidency is he serving in his current non-consecutive term?",
+                "options": ["46th", "47th", "48th", "49th"],
+                "correctAnswer": 1,
+                "explanation": "He is serving as the 47th President in his non-consecutive term."
+            },
+            {
+                "text": "Who served as the Vice President during Donald Trump's non-consecutive term as the 47th President?",
+                "options": [
+                    "Mike Pence",
+                    "Kamala Harris",
+                    "J.D. Vance",
+                    "Mitch McConnell"
+                ],
+                "correctAnswer": 2,
+                "explanation": "J.D. Vance was Vice President during this term."
+            },
+            {
+                "text": "Who was the first President in U.S. history to win and serve non-consecutive terms?",
+                "options": [
+                    "Andrew Jackson",
+                    "Theodore Roosevelt",
+                    "Grover Cleveland",
+                    "Franklin D. Roosevelt"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Grover Cleveland was the first to serve non-consecutive terms."
+            },
+            {
+                "text": "Where are the headquarters of the World Health Organization (WHO) located, an organization from which the U.S. withdrew?",
+                "options": [
+                    "New York, USA",
+                    "Vienna, Austria",
+                    "Geneva, Switzerland",
+                    "Paris, France"
+                ],
+                "correctAnswer": 2,
+                "explanation": "WHO is headquartered in Geneva, Switzerland."
+            },
+            {
+                "text": "On which date is World Health Day celebrated annually, commemorating the establishment of WHO?",
+                "options": [
+                    "January 1",
+                    "March 22",
+                    "April 7",
+                    "June 5"
+                ],
+                "correctAnswer": 2,
+                "explanation": "World Health Day is on April 7."
+            },
+            {
+                "text": "The Paris Climate Agreement, adopted by 195 Parties, has a primary goal to limit global warming to what temperature target above pre-industrial levels?",
+                "options": ["1.0°C", "1.5°C", "2.0°C", "2.5°C"],
+                "correctAnswer": 1,
+                "explanation": "The target is to keep warming well below 2°C, ideally at 1.5°C."
+            },
+            {
+                "text": "Vaibhav Taneja, CFO of Tesla, also holds which significant position in Elon Musk's proposed political party?",
+                "options": [
+                    "President",
+                    "Secretary",
+                    "Treasurer",
+                    "Vice President"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Vaibhav Taneja is the Treasurer."
+            },
+            {
+                "text": "Who is the first Indian-origin physician to be sworn in as the President of the American Medical Association (AMA)?",
+                "options": [
+                    "Atul Gawande",
+                    "Siddhartha Mukherjee",
+                    "Vivek Murthy",
+                    "Bobby Mukkamala"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Bobby Mukkamala is the first of Indian origin to be AMA President."
+            },
+            {
+                "text": "Among the six Indian Americans sworn in as members of the U.S. House of Representatives, who became the first Indian to represent Virginia?",
+                "options": [
+                    "Ami Bera",
+                    "Pramila Jayapal",
+                    "Ro Khanna",
+                    "Suhas Subramanyam"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Suhas Subramanyam is the first Indian American to represent Virginia."
+            },
+            {
+                "text": "Which U.S. state became the first to introduce a bill against anti-Hindu discrimination, including Hinduphobia as a crime in its penal code?",
+                "options": [
+                    "California",
+                    "New York",
+                    "Texas",
+                    "Georgia"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Georgia introduced the anti-Hindu discrimination bill."
+            },
+            {
+                "text": "The 2024 Quad Leaders' Summit was held in which city?",
+                "options": [
+                    "Tokyo, Japan",
+                    "New Delhi, India",
+                    "Wilmington, USA",
+                    "Sydney, Australia"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Summit took place in Wilmington, USA."
+            }
+        ],
         "Current Affairs - Set - 12": [{
-                    "text": "Alfred Nobel, the founder of the Nobel Prizes, was primarily known for which significant invention?",
-                    "options": ["The telegraph", "Dynamite", "The steam engine", "The light bulb"],
-                    "correctAnswer": 1,
-                    "explanation": "Alfred Nobel invented dynamite, which brought him wealth but also concern about its destructive use."
-                },
-                {
-                    "text": "The Prize in Economic Sciences was added to the Nobel Prizes in which year?",
-                    "options": ["1901", "1968", "1983", "2019"],
-                    "correctAnswer": 1,
-                    "explanation": "The Economics Prize was established in 1968 by Sweden's central bank."
-                },
-                {
-                    "text": "Which body is responsible for awarding the Nobel Prize in Physics?",
-                    "options": ["The Karolinska Institute", "The Swedish Academy", "The Royal Swedish Academy of Sciences",
-                        "A committee elected by the Norwegian Parliament"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The Royal Swedish Academy of Sciences awards Nobel Prizes in Physics and Chemistry."
-                },
-                {
-                    "text": "The Nobel Peace Prize is awarded by a committee elected by the Parliament of which country?",
-                    "options": ["Sweden", "Norway", "Denmark", "Finland"],
-                    "correctAnswer": 1,
-                    "explanation": "The Norwegian Nobel Committee, appointed by Norway’s Parliament, selects Peace Prize laureates."
-                },
-                {
-                    "text": "How many Indian individuals working in India have won a science Nobel Prize?",
-                    "options": ["Zero", "One", "Two", "Three"],
-                    "correctAnswer": 1,
-                    "explanation": "Only C.V. Raman (1930, Physics) won a science Nobel while working in India."
-                },
-                {
-                    "text": "CV Raman was awarded the Nobel Prize in Physics in which year?",
-                    "options": ["1913", "1930", "1968", "1983"],
-                    "correctAnswer": 1,
-                    "explanation": "C.V. Raman received the Nobel Prize in Physics in 1930 for the 'Raman Effect'."
-                },
-                {
-                    "text": "Which organization received the 2024 Nobel Peace Prize?",
-                    "options": ["Missionaries of Charity", "Nihon Hidankyo", "The Swedish Academy", "Karolinska Institute"],
-                    "correctAnswer": 1,
-                    "explanation": "The Japanese anti-nuclear survivors’ organization Nihon Hidankyo received the 2024 Nobel Peace Prize."
-                },
-                {
-                    "text": "Narges Mohammadi, the 2023 Nobel Peace Prize laureate, is an activist from which country?",
-                    "options": ["South Korea", "India", "Iran", "Japan"],
-                    "correctAnswer": 2,
-                    "explanation": "Narges Mohammadi is an Iranian human rights activist."
-                },
-                {
-                    "text": "Mother Teresa received the Nobel Peace Prize in 1979 for her humanitarian work primarily through which organisation?",
-                    "options": ["UNICEF", "Doctors Without Borders", "Missionaries of Charity", "Amnesty International"],
-                    "correctAnswer": 2,
-                    "explanation": "She founded the Missionaries of Charity, serving the poorest in Kolkata, India."
-                },
-                {
-                    "text": "Kailash Satyarthi was awarded the Nobel Peace Prize in 2014 for his efforts against which issue?",
-                    "options": ["Gender inequality", "Nuclear proliferation", "Child labor", "Political oppression"],
-                    "correctAnswer": 2,
-                    "explanation": "Satyarthi worked to end child labor and promote children’s rights in India."
-                },
-                {
-                    "text": "Han Kang, the 2024 Nobel laureate in Literature, is from which country?",
-                    "options": ["Norway", "South Korea", "India", "United States"],
-                    "correctAnswer": 1,
-                    "explanation": "Han Kang is a South Korean novelist and poet."
-                },
-                {
-                    "text": "For what specific characteristic was Jon Fosse, 2023 Nobel Literature laureate, recognised?",
-                    "options": ["Profound historical analyses", "Intense poetic prose", "Unique 'Fosse minimalism' style",
-                        "Children’s literature"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Jon Fosse’s minimalist style, 'Fosse minimalism', earned him the Nobel Prize."
-                },
-                {
-                    "text": "Rabindranath Tagore, the 1913 Nobel laureate in Literature, expressed his works to the West in which language?",
-                    "options": ["Bengali", "French", "German", "English"],
-                    "correctAnswer": 3,
-                    "explanation": "Although Bengali was his mother tongue, Tagore translated 'Gitanjali' into English."
-                },
-                {
-                    "text": "David Baker was awarded the 2024 Nobel Prize in Chemistry for his work in which area?",
-                    "options": ["Protein structure prediction", "Computational protein design", "Synthesis of novel therapeutics",
-                        "Amino acid sequencing"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Baker received recognition for advances in computational protein design."
-                },
-                {
-                    "text": "Demis Hassabis and John M. Jumper, Nobel Chemistry 2024 recipients, worked on what?",
-                    "options": ["Gene regulation", "mRNA vaccines", "Protein structure prediction", "Industrial enzymes"],
-                    "correctAnswer": 2,
-                    "explanation": "Their AlphaFold AI revolutionized protein structure prediction."
-                },
-                {
-                    "text": "What is the primary objective of protein structure prediction?",
-                    "options": ["Develop antibiotics", "Predict 3D structure from amino acid sequence",
-                        "Identify protein functions in plants", "Analyse protein folding diseases"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The goal is predicting 3D structures from amino acid sequences."
-                },
-                {
-                    "text": "John J. Hopfield and Geoffrey Hinton received the 2024 Nobel Prize in Physics for discoveries related to?",
-                    "options": ["Quantum computing", "Artificial neural networks", "Attosecond pulses of light",
-                        "Photoelectric effect"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "They developed foundational models for artificial neural networks."
-                },
-                {
-                    "text": "Key function of neural networks in AI?",
-                    "options": ["Generate random data", "Make decisions with minimal human input", "Store large databases",
-                        "Perform only math calculations"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Neural networks enable decision-making and pattern recognition with minimal human aid."
-                },
-                {
-                    "text": "Albert Einstein received the Nobel Prize for which discovery?",
-                    "options": ["Theory of relativity", "Black holes", "Photoelectric effect", "Gravitational waves"],
-                    "correctAnswer": 2,
-                    "explanation": "Einstein received it for explaining the photoelectric effect in 1921."
-                },
-                {
-                    "text": "C.V. Raman received the Nobel Prize for discovering which effect?",
-                    "options": ["Doppler effect", "Photoelectric effect", "Raman effect", "Zeeman effect"],
-                    "correctAnswer": 2,
-                    "explanation": "He explained scattering of light, discovering the Raman Effect."
-                },
-                {
-                    "text": "Subrahmanyan Chandrasekhar won the Nobel Prize for theoretical studies of?",
-                    "options": ["Planets", "Galaxies", "Stars", "Black holes"],
-                    "correctAnswer": 2,
-                    "explanation": "Chandrasekhar studied stellar evolution, especially white dwarfs."
-                },
-                {
-                    "text": "The 2023 Nobel Prize in Physics was awarded for attosecond pulses to study?",
-                    "options": ["Nuclear fusion", "Electron dynamics in matter", "Photon emission", "Atomic nuclei"],
-                    "correctAnswer": 1,
-                    "explanation": "Awarded for experimental methods to study ultrafast electron dynamics."
-                },
-                {
-                    "text": "Victor Ambros and Gary Ruvkun received the 2024 Nobel in Medicine for microRNA’s role in?",
-                    "options": ["DNA replication", "Protein synthesis", "Post-transcriptional gene regulation",
-                        "Cellular respiration"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "They discovered microRNA regulates gene expression after transcription."
-                },
-                {
-                    "text": "Katalin Karikó & Drew Weissman’s work enabled vaccines against which disease?",
-                    "options": ["Malaria", "Tuberculosis", "COVID-19", "Polio"],
-                    "correctAnswer": 2,
-                    "explanation": "They pioneered mRNA technology enabling Covid-19 vaccines."
-                },
-                {
-                    "text": "Har Gobind Khorana received his Nobel for contributions to which process?",
-                    "options": ["Photosynthesis", "Cellular division", "Protein synthesis", "Immune response"],
-                    "correctAnswer": 2,
-                    "explanation": "Khorana cracked the genetic code for protein synthesis."
-                },
-                {
-                    "text": "At the time of his Nobel, Har Gobind Khorana was with?",
-                    "options": ["MIT", "Trinity College, Cambridge", "University of Wisconsin, Madison", "Harvard University"],
-                    "correctAnswer": 2,
-                    "explanation": "He worked at the University of Wisconsin–Madison during his Nobel-winning research."
-                },
-                {
-                    "text": "The 2024 Nobel Prize in Economics was awarded for studies on?",
-                    "options": ["Poverty strategies", "Women's labor markets", "Institutions and prosperity",
-                        "Welfare economics"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Acemoglu, Johnson & Robinson studied how institutions shape prosperity."
-                },
-                {
-                    "text": "Claudia Goldin, Nobel 2023 Economics, focused on?",
-                    "options": ["Development", "Role of central banks", "Women's labor market outcomes", "Tech changes on jobs"],
-                    "correctAnswer": 2,
-                    "explanation": "Goldin studied women's participation and pay gaps over centuries."
-                },
-                {
-                    "text": "Abhijit Banerjee received the Nobel for alleviating?",
-                    "options": ["Climate change", "Global poverty", "Financial crises", "Income inequality"],
-                    "correctAnswer": 1,
-                    "explanation": "He applied randomized trials to fight global poverty."
-                },
-                {
-                    "text": "At the time of his Nobel, Abhijit Banerjee was with?",
-                    "options": ["Trinity College", "University of Wisconsin", "MIT", "London School of Economics"],
-                    "correctAnswer": 2,
-                    "explanation": "Abhijit Banerjee is a Professor at MIT."
-                },
-                {
-                    "text": "Amartya Sen was awarded the Nobel in which field?",
-                    "options": ["Behavioral economics", "Development economics", "Welfare economics", "Macroeconomics"],
-                    "correctAnswer": 2,
-                    "explanation": "Sen transformed welfare economics, linking it with human development."
-                },
-                {
-                    "text": "Which Nobel category was NOT in Alfred Nobel’s original will?",
-                    "options": ["Physics", "Chemistry", "Physiology/Medicine", "Economic Sciences"],
-                    "correctAnswer": 3,
-                    "explanation": "Economics was added later in 1968, not part of Nobel’s will."
-                },
-                {
-                    "text": "Which institution awards the Nobel Prize in Literature?",
-                    "options": ["Royal Swedish Academy", "Swedish Academy", "Karolinska Institute",
-                        "Norwegian Parliament Committee"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Swedish Academy awards Nobel Literature."
-                },
-                {
-                    "text": "Nihon Hidankyo, Nobel Peace 2024 recipient, is from which country?",
-                    "options": ["South Korea", "Iran", "Japan", "India"],
-                    "correctAnswer": 2,
-                    "explanation": "It is a Japanese anti-nuclear survivors’ group."
-                },
-                {
-                    "text": "Mother Teresa, Nobel Peace 1979, was born in today’s?",
-                    "options": ["India", "North Macedonia", "Albania", "Turkey"],
-                    "correctAnswer": 1,
-                    "explanation": "Mother Teresa was born in Skopje, now North Macedonia."
-                },
-                {
-                    "text": "Rabindranath Tagore, first Indian Nobel laureate, was born/died in?",
-                    "options": ["Mumbai", "Delhi", "Calcutta", "Santiniketan"],
-                    "correctAnswer": 2,
-                    "explanation": "Tagore was born and died in Calcutta (now Kolkata)."
-                },
-                {
-                    "text": "What type of prose is Han Kang known for?",
-                    "options": ["Simplistic narratives", "Intense poetic prose", "Autobiographical reflections",
-                        "Humorous stories"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Han Kang writes intense and poetic prose."
-                },
-                {
-                    "text": "Computational protein design promises?",
-                    "options": ["New batteries", "Novel therapeutics & enzymes", "Semiconductors", "Engines"],
-                    "correctAnswer": 1,
-                    "explanation": "It can create new drugs and industrial enzymes."
-                },
-                {
-                    "text": "Nobel Physics 2024 recipients enabled ML via which structure?",
-                    "options": ["Quantum dots", "Artificial neural networks", "Superconducting circuits", "Genetic algorithms"],
-                    "correctAnswer": 1,
-                    "explanation": "Hopfield & Hinton studied artificial neural networks."
-                },
-                {
-                    "text": "What relationships can neural networks learn?",
-                    "options": ["Linear only", "Simple only", "Nonlinear and complex", "Deterministic only"],
-                    "correctAnswer": 2,
-                    "explanation": "Neural networks learn both linear and nonlinear patterns."
-                },
-                {
-                    "text": "2023 Nobel in Physics studied attosecond light pulses for?",
-                    "options": ["Atomic vibrations", "Molecular bonding", "Electron dynamics", "Proton transfer"],
-                    "correctAnswer": 2,
-                    "explanation": "These methods investigate ultrafast electron dynamics."
-                },
-                {
-                    "text": "Key contribution of Karikó & Weissman?",
-                    "options": ["Discovery of viral strains", "Understanding nucleoside modifications",
-                        "Vaccine storage techniques", "Immune pathways"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "They found base modifications that made mRNA safe & effective."
-                },
-                {
-                    "text": "Khorana’s Nobel involved genetic code function in?",
-                    "options": ["Photosynthesis", "Respiration", "Protein synthesis", "Cell differentiation"],
-                    "correctAnswer": 2,
-                    "explanation": "He showed how genetic code directs protein synthesis."
-                },
-                {
-                    "text": "Amartya Sen’s Nobel Prize was for?",
-                    "options": ["Microeconomics", "Econometrics", "Welfare economics", "Trade"],
-                    "correctAnswer": 2,
-                    "explanation": "Sen shaped welfare economics & development studies."
-                },
-                {
-                    "text": "Which laureate in welfare economics was at Trinity College, Cambridge?",
-                    "options": ["Abhijit Banerjee", "Amartya Sen", "Claudia Goldin", "Daron Acemoglu"],
-                    "correctAnswer": 1,
-                    "explanation": "Amartya Sen was based at Trinity College, Cambridge."
-                },
-                {
-                    "text": "According to Nobel’s will, prizes were for how many original categories?",
-                    "options": ["Three", "Four", "Five", "Six"],
-                    "correctAnswer": 2,
-                    "explanation": "Originally, Nobel’s will covered five awards: Physics, Chemistry, Medicine, Literature, Peace."
-                },
-                {
-                    "text": "2024 Nobel Peace Prize highlighted nuclear testimonies showing?",
-                    "options": ["Economic impact", "That nuclear weapons must never be used again", "Importance of treaties",
-                        "Role of peace education"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Hibakusha survivors of Hiroshima & Nagasaki testified that nukes must never be used again."
-                },
-                {
-                    "text": "Which 2024 Chemistry laureate is from the USA?",
-                    "options": ["Demis Hassabis", "John M. Jumper", "David Baker", "John J. Hopfield"],
-                    "correctAnswer": 2,
-                    "explanation": "David Baker is an American scientist recognized for protein design."
-                },
-                {
-                    "text": "Rabindranath Tagore’s Nobel was for works expressed in which language?",
-                    "options": ["Hindi", "Sanskrit", "English", "Bengali"],
-                    "correctAnswer": 2,
-                    "explanation": "Tagore’s translated English work 'Gitanjali' was recognized."
-                },
-                {
-                    "text": "Which laureate was born in Mumbai and affiliated with MIT at the time of Nobel?",
-                    "options": ["Amartya Sen", "Har Gobind Khorana", "Abhijit Banerjee", "Kailash Satyarthi"],
-                    "correctAnswer": 2,
-                    "explanation": "Abhijit Banerjee, born in Mumbai, was Professor at MIT."
-                }
-            ]
-
-            ,
+                "text": "Alfred Nobel, the founder of the Nobel Prizes, was primarily known for which significant invention?",
+                "options": ["The telegraph", "Dynamite", "The steam engine", "The light bulb"],
+                "correctAnswer": 1,
+                "explanation": "Alfred Nobel invented dynamite, which brought him wealth but also concern about its destructive use."
+            },
+            {
+                "text": "The Prize in Economic Sciences was added to the Nobel Prizes in which year?",
+                "options": ["1901", "1968", "1983", "2019"],
+                "correctAnswer": 1,
+                "explanation": "The Economics Prize was established in 1968 by Sweden's central bank."
+            },
+            {
+                "text": "Which body is responsible for awarding the Nobel Prize in Physics?",
+                "options": ["The Karolinska Institute", "The Swedish Academy", "The Royal Swedish Academy of Sciences",
+                    "A committee elected by the Norwegian Parliament"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Royal Swedish Academy of Sciences awards Nobel Prizes in Physics and Chemistry."
+            },
+            {
+                "text": "The Nobel Peace Prize is awarded by a committee elected by the Parliament of which country?",
+                "options": ["Sweden", "Norway", "Denmark", "Finland"],
+                "correctAnswer": 1,
+                "explanation": "The Norwegian Nobel Committee, appointed by Norway’s Parliament, selects Peace Prize laureates."
+            },
+            {
+                "text": "How many Indian individuals working in India have won a science Nobel Prize?",
+                "options": ["Zero", "One", "Two", "Three"],
+                "correctAnswer": 1,
+                "explanation": "Only C.V. Raman (1930, Physics) won a science Nobel while working in India."
+            },
+            {
+                "text": "CV Raman was awarded the Nobel Prize in Physics in which year?",
+                "options": ["1913", "1930", "1968", "1983"],
+                "correctAnswer": 1,
+                "explanation": "C.V. Raman received the Nobel Prize in Physics in 1930 for the 'Raman Effect'."
+            },
+            {
+                "text": "Which organization received the 2024 Nobel Peace Prize?",
+                "options": ["Missionaries of Charity", "Nihon Hidankyo", "The Swedish Academy", "Karolinska Institute"],
+                "correctAnswer": 1,
+                "explanation": "The Japanese anti-nuclear survivors’ organization Nihon Hidankyo received the 2024 Nobel Peace Prize."
+            },
+            {
+                "text": "Narges Mohammadi, the 2023 Nobel Peace Prize laureate, is an activist from which country?",
+                "options": ["South Korea", "India", "Iran", "Japan"],
+                "correctAnswer": 2,
+                "explanation": "Narges Mohammadi is an Iranian human rights activist."
+            },
+            {
+                "text": "Mother Teresa received the Nobel Peace Prize in 1979 for her humanitarian work primarily through which organisation?",
+                "options": ["UNICEF", "Doctors Without Borders", "Missionaries of Charity", "Amnesty International"],
+                "correctAnswer": 2,
+                "explanation": "She founded the Missionaries of Charity, serving the poorest in Kolkata, India."
+            },
+            {
+                "text": "Kailash Satyarthi was awarded the Nobel Peace Prize in 2014 for his efforts against which issue?",
+                "options": ["Gender inequality", "Nuclear proliferation", "Child labor", "Political oppression"],
+                "correctAnswer": 2,
+                "explanation": "Satyarthi worked to end child labor and promote children’s rights in India."
+            },
+            {
+                "text": "Han Kang, the 2024 Nobel laureate in Literature, is from which country?",
+                "options": ["Norway", "South Korea", "India", "United States"],
+                "correctAnswer": 1,
+                "explanation": "Han Kang is a South Korean novelist and poet."
+            },
+            {
+                "text": "For what specific characteristic was Jon Fosse, 2023 Nobel Literature laureate, recognised?",
+                "options": ["Profound historical analyses", "Intense poetic prose", "Unique 'Fosse minimalism' style",
+                    "Children’s literature"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Jon Fosse’s minimalist style, 'Fosse minimalism', earned him the Nobel Prize."
+            },
+            {
+                "text": "Rabindranath Tagore, the 1913 Nobel laureate in Literature, expressed his works to the West in which language?",
+                "options": ["Bengali", "French", "German", "English"],
+                "correctAnswer": 3,
+                "explanation": "Although Bengali was his mother tongue, Tagore translated 'Gitanjali' into English."
+            },
+            {
+                "text": "David Baker was awarded the 2024 Nobel Prize in Chemistry for his work in which area?",
+                "options": ["Protein structure prediction", "Computational protein design", "Synthesis of novel therapeutics",
+                    "Amino acid sequencing"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Baker received recognition for advances in computational protein design."
+            },
+            {
+                "text": "Demis Hassabis and John M. Jumper, Nobel Chemistry 2024 recipients, worked on what?",
+                "options": ["Gene regulation", "mRNA vaccines", "Protein structure prediction", "Industrial enzymes"],
+                "correctAnswer": 2,
+                "explanation": "Their AlphaFold AI revolutionized protein structure prediction."
+            },
+            {
+                "text": "What is the primary objective of protein structure prediction?",
+                "options": ["Develop antibiotics", "Predict 3D structure from amino acid sequence",
+                    "Identify protein functions in plants", "Analyse protein folding diseases"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The goal is predicting 3D structures from amino acid sequences."
+            },
+            {
+                "text": "John J. Hopfield and Geoffrey Hinton received the 2024 Nobel Prize in Physics for discoveries related to?",
+                "options": ["Quantum computing", "Artificial neural networks", "Attosecond pulses of light",
+                    "Photoelectric effect"
+                ],
+                "correctAnswer": 1,
+                "explanation": "They developed foundational models for artificial neural networks."
+            },
+            {
+                "text": "Key function of neural networks in AI?",
+                "options": ["Generate random data", "Make decisions with minimal human input", "Store large databases",
+                    "Perform only math calculations"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Neural networks enable decision-making and pattern recognition with minimal human aid."
+            },
+            {
+                "text": "Albert Einstein received the Nobel Prize for which discovery?",
+                "options": ["Theory of relativity", "Black holes", "Photoelectric effect", "Gravitational waves"],
+                "correctAnswer": 2,
+                "explanation": "Einstein received it for explaining the photoelectric effect in 1921."
+            },
+            {
+                "text": "C.V. Raman received the Nobel Prize for discovering which effect?",
+                "options": ["Doppler effect", "Photoelectric effect", "Raman effect", "Zeeman effect"],
+                "correctAnswer": 2,
+                "explanation": "He explained scattering of light, discovering the Raman Effect."
+            },
+            {
+                "text": "Subrahmanyan Chandrasekhar won the Nobel Prize for theoretical studies of?",
+                "options": ["Planets", "Galaxies", "Stars", "Black holes"],
+                "correctAnswer": 2,
+                "explanation": "Chandrasekhar studied stellar evolution, especially white dwarfs."
+            },
+            {
+                "text": "The 2023 Nobel Prize in Physics was awarded for attosecond pulses to study?",
+                "options": ["Nuclear fusion", "Electron dynamics in matter", "Photon emission", "Atomic nuclei"],
+                "correctAnswer": 1,
+                "explanation": "Awarded for experimental methods to study ultrafast electron dynamics."
+            },
+            {
+                "text": "Victor Ambros and Gary Ruvkun received the 2024 Nobel in Medicine for microRNA’s role in?",
+                "options": ["DNA replication", "Protein synthesis", "Post-transcriptional gene regulation",
+                    "Cellular respiration"
+                ],
+                "correctAnswer": 2,
+                "explanation": "They discovered microRNA regulates gene expression after transcription."
+            },
+            {
+                "text": "Katalin Karikó & Drew Weissman’s work enabled vaccines against which disease?",
+                "options": ["Malaria", "Tuberculosis", "COVID-19", "Polio"],
+                "correctAnswer": 2,
+                "explanation": "They pioneered mRNA technology enabling Covid-19 vaccines."
+            },
+            {
+                "text": "Har Gobind Khorana received his Nobel for contributions to which process?",
+                "options": ["Photosynthesis", "Cellular division", "Protein synthesis", "Immune response"],
+                "correctAnswer": 2,
+                "explanation": "Khorana cracked the genetic code for protein synthesis."
+            },
+            {
+                "text": "At the time of his Nobel, Har Gobind Khorana was with?",
+                "options": ["MIT", "Trinity College, Cambridge", "University of Wisconsin, Madison", "Harvard University"],
+                "correctAnswer": 2,
+                "explanation": "He worked at the University of Wisconsin–Madison during his Nobel-winning research."
+            },
+            {
+                "text": "The 2024 Nobel Prize in Economics was awarded for studies on?",
+                "options": ["Poverty strategies", "Women's labor markets", "Institutions and prosperity",
+                    "Welfare economics"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Acemoglu, Johnson & Robinson studied how institutions shape prosperity."
+            },
+            {
+                "text": "Claudia Goldin, Nobel 2023 Economics, focused on?",
+                "options": ["Development", "Role of central banks", "Women's labor market outcomes", "Tech changes on jobs"],
+                "correctAnswer": 2,
+                "explanation": "Goldin studied women's participation and pay gaps over centuries."
+            },
+            {
+                "text": "Abhijit Banerjee received the Nobel for alleviating?",
+                "options": ["Climate change", "Global poverty", "Financial crises", "Income inequality"],
+                "correctAnswer": 1,
+                "explanation": "He applied randomized trials to fight global poverty."
+            },
+            {
+                "text": "At the time of his Nobel, Abhijit Banerjee was with?",
+                "options": ["Trinity College", "University of Wisconsin", "MIT", "London School of Economics"],
+                "correctAnswer": 2,
+                "explanation": "Abhijit Banerjee is a Professor at MIT."
+            },
+            {
+                "text": "Amartya Sen was awarded the Nobel in which field?",
+                "options": ["Behavioral economics", "Development economics", "Welfare economics", "Macroeconomics"],
+                "correctAnswer": 2,
+                "explanation": "Sen transformed welfare economics, linking it with human development."
+            },
+            {
+                "text": "Which Nobel category was NOT in Alfred Nobel’s original will?",
+                "options": ["Physics", "Chemistry", "Physiology/Medicine", "Economic Sciences"],
+                "correctAnswer": 3,
+                "explanation": "Economics was added later in 1968, not part of Nobel’s will."
+            },
+            {
+                "text": "Which institution awards the Nobel Prize in Literature?",
+                "options": ["Royal Swedish Academy", "Swedish Academy", "Karolinska Institute",
+                    "Norwegian Parliament Committee"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Swedish Academy awards Nobel Literature."
+            },
+            {
+                "text": "Nihon Hidankyo, Nobel Peace 2024 recipient, is from which country?",
+                "options": ["South Korea", "Iran", "Japan", "India"],
+                "correctAnswer": 2,
+                "explanation": "It is a Japanese anti-nuclear survivors’ group."
+            },
+            {
+                "text": "Mother Teresa, Nobel Peace 1979, was born in today’s?",
+                "options": ["India", "North Macedonia", "Albania", "Turkey"],
+                "correctAnswer": 1,
+                "explanation": "Mother Teresa was born in Skopje, now North Macedonia."
+            },
+            {
+                "text": "Rabindranath Tagore, first Indian Nobel laureate, was born/died in?",
+                "options": ["Mumbai", "Delhi", "Calcutta", "Santiniketan"],
+                "correctAnswer": 2,
+                "explanation": "Tagore was born and died in Calcutta (now Kolkata)."
+            },
+            {
+                "text": "What type of prose is Han Kang known for?",
+                "options": ["Simplistic narratives", "Intense poetic prose", "Autobiographical reflections",
+                    "Humorous stories"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Han Kang writes intense and poetic prose."
+            },
+            {
+                "text": "Computational protein design promises?",
+                "options": ["New batteries", "Novel therapeutics & enzymes", "Semiconductors", "Engines"],
+                "correctAnswer": 1,
+                "explanation": "It can create new drugs and industrial enzymes."
+            },
+            {
+                "text": "Nobel Physics 2024 recipients enabled ML via which structure?",
+                "options": ["Quantum dots", "Artificial neural networks", "Superconducting circuits", "Genetic algorithms"],
+                "correctAnswer": 1,
+                "explanation": "Hopfield & Hinton studied artificial neural networks."
+            },
+            {
+                "text": "What relationships can neural networks learn?",
+                "options": ["Linear only", "Simple only", "Nonlinear and complex", "Deterministic only"],
+                "correctAnswer": 2,
+                "explanation": "Neural networks learn both linear and nonlinear patterns."
+            },
+            {
+                "text": "2023 Nobel in Physics studied attosecond light pulses for?",
+                "options": ["Atomic vibrations", "Molecular bonding", "Electron dynamics", "Proton transfer"],
+                "correctAnswer": 2,
+                "explanation": "These methods investigate ultrafast electron dynamics."
+            },
+            {
+                "text": "Key contribution of Karikó & Weissman?",
+                "options": ["Discovery of viral strains", "Understanding nucleoside modifications",
+                    "Vaccine storage techniques", "Immune pathways"
+                ],
+                "correctAnswer": 1,
+                "explanation": "They found base modifications that made mRNA safe & effective."
+            },
+            {
+                "text": "Khorana’s Nobel involved genetic code function in?",
+                "options": ["Photosynthesis", "Respiration", "Protein synthesis", "Cell differentiation"],
+                "correctAnswer": 2,
+                "explanation": "He showed how genetic code directs protein synthesis."
+            },
+            {
+                "text": "Amartya Sen’s Nobel Prize was for?",
+                "options": ["Microeconomics", "Econometrics", "Welfare economics", "Trade"],
+                "correctAnswer": 2,
+                "explanation": "Sen shaped welfare economics & development studies."
+            },
+            {
+                "text": "Which laureate in welfare economics was at Trinity College, Cambridge?",
+                "options": ["Abhijit Banerjee", "Amartya Sen", "Claudia Goldin", "Daron Acemoglu"],
+                "correctAnswer": 1,
+                "explanation": "Amartya Sen was based at Trinity College, Cambridge."
+            },
+            {
+                "text": "According to Nobel’s will, prizes were for how many original categories?",
+                "options": ["Three", "Four", "Five", "Six"],
+                "correctAnswer": 2,
+                "explanation": "Originally, Nobel’s will covered five awards: Physics, Chemistry, Medicine, Literature, Peace."
+            },
+            {
+                "text": "2024 Nobel Peace Prize highlighted nuclear testimonies showing?",
+                "options": ["Economic impact", "That nuclear weapons must never be used again", "Importance of treaties",
+                    "Role of peace education"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Hibakusha survivors of Hiroshima & Nagasaki testified that nukes must never be used again."
+            },
+            {
+                "text": "Which 2024 Chemistry laureate is from the USA?",
+                "options": ["Demis Hassabis", "John M. Jumper", "David Baker", "John J. Hopfield"],
+                "correctAnswer": 2,
+                "explanation": "David Baker is an American scientist recognized for protein design."
+            },
+            {
+                "text": "Rabindranath Tagore’s Nobel was for works expressed in which language?",
+                "options": ["Hindi", "Sanskrit", "English", "Bengali"],
+                "correctAnswer": 2,
+                "explanation": "Tagore’s translated English work 'Gitanjali' was recognized."
+            },
+            {
+                "text": "Which laureate was born in Mumbai and affiliated with MIT at the time of Nobel?",
+                "options": ["Amartya Sen", "Har Gobind Khorana", "Abhijit Banerjee", "Kailash Satyarthi"],
+                "correctAnswer": 2,
+                "explanation": "Abhijit Banerjee, born in Mumbai, was Professor at MIT."
+            }
+        ],
         "Current Affairs - Set - 13": [{
-                    "text": "Which Indian female chess player became the 4th Woman Grandmaster (GM) and the 88th GM of India?",
-                    "options": ["Koneru Humpy", "Divya Deshmukh", "Smriti Mandhana", "Manu Bhaker"],
-                    "correctAnswer": 1,
-                    "explanation": "Divya Deshmukh became the 4th Indian Woman Grandmaster and 88th Grandmaster overall."
-                },
-                {
-                    "text": "The 2025 FIDE Women’s World Cup was held in which city?",
-                    "options": ["London", "Paris", "Batumi", "Budapest"],
-                    "correctAnswer": 2,
-                    "explanation": "The Women’s World Cup 2025 took place in Batumi, Georgia."
-                },
-                {
-                    "text": "Who won the FIDE World Championship 2024 and is noted as the youngest World Chess Champion?",
-                    "options": ["Ding Liren", "Magnus Carlsen", "D. Gukesh", "Fabiano Caruana"],
-                    "correctAnswer": 2,
-                    "explanation": "D. Gukesh became the youngest ever World Chess Champion in 2024."
-                },
-                {
-                    "text": "In 2025, Magnus Carlsen won his 7th Norway Chess Men’s title by defeating which opponent?",
-                    "options": ["D. Gukesh", "Ding Liren", "Koneru Humpy", "Fabiano Caruana"],
-                    "correctAnswer": 3,
-                    "explanation": "Carlsen beat Fabiano Caruana to secure his 7th Norway Chess title."
-                },
-                {
-                    "text": "The 45th Chess Olympiad in 2024 was hosted in which city?",
-                    "options": ["Glasgow", "Budapest", "Batumi", "Dubai"],
-                    "correctAnswer": 1,
-                    "explanation": "The 45th Chess Olympiad was held in Budapest, Hungary."
-                },
-                {
-                    "text": "Divya Deshmukh, upon becoming a Grandmaster, was the 13th GM from which Indian state?",
-                    "options": ["Bihar", "Haryana", "Maharashtra", "Uttarakhand"],
-                    "correctAnswer": 2,
-                    "explanation": "She became the 13th Grandmaster from Maharashtra."
-                },
-                {
-                    "text": "Which country will host the Commonwealth Games in 2026?",
-                    "options": ["England", "Scotland", "Australia", "India"],
-                    "correctAnswer": 1,
-                    "explanation": "The 2026 Commonwealth Games will be hosted in Scotland."
-                },
-                {
-                    "text": "What is the official mascot for the Commonwealth Games 2026 in Glasgow, Scotland?",
-                    "options": ["Mauli", "Gajasimha", "Finnie", "Shera"],
-                    "correctAnswer": 2,
-                    "explanation": "‘Finnie’ was unveiled as the mascot of the Glasgow 2026 Games."
-                },
-                {
-                    "text": "The Kabaddi World Cup in 2025 is scheduled to take place in which country?",
-                    "options": ["India", "UAE", "England", "South Africa"],
-                    "correctAnswer": 2,
-                    "explanation": "The 2025 Kabaddi World Cup will be held in England."
-                },
-                {
-                    "text": "Which Grand Slam tennis tournament is traditionally known for its all-white dress code?",
-                    "options": ["Australian Open", "French Open", "Wimbledon", "US Open"],
-                    "correctAnswer": 2,
-                    "explanation": "Wimbledon enforces a traditional all-white dress code for players."
-                },
-                {
-                    "text": "The French Open Grand Slam tournament is played on which surface?",
-                    "options": ["Hard", "Grass", "Clay", "Synthetic"],
-                    "correctAnswer": 2,
-                    "explanation": "The French Open (Roland Garros) is played on clay courts."
-                },
-                {
-                    "text": "Which tennis player won the Men’s Singles title at the Australian Open 2025?",
-                    "options": ["Carlos Alcaraz", "Jannik Sinner", "Novak Djokovic", "Daniil Medvedev"],
-                    "correctAnswer": 1,
-                    "explanation": "Jannik Sinner clinched the 2025 Australian Open Men’s title."
-                },
-                {
-                    "text": "Who was the winner of the Women’s Singles title at the French Open 2025?",
-                    "options": ["Iga Swiatek", "Aryna Sabalenka", "Madison Keys", "Coco Gauff"],
-                    "correctAnswer": 3,
-                    "explanation": "Coco Gauff won the 2025 French Open Women’s Singles title."
-                },
-                {
-                    "text": "Jannik Sinner won the Men's Singles title at which three Grand Slams in 2025?",
-                    "options": ["Australian Open, French Open, Wimbledon", "French Open, Wimbledon, US Open",
-                        "Australian Open, Wimbledon, US Open", "Australian Open, French Open, US Open"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Sinner triumphed at the Australian Open, Wimbledon, and US Open in 2025."
-                },
-                {
-                    "text": "Which Grand Slam is held in New York and features large crowds and fast-paced matches?",
-                    "options": ["Wimbledon", "French Open", "US Open", "Australian Open"],
-                    "correctAnswer": 2,
-                    "explanation": "The US Open is held in New York at Flushing Meadows."
-                },
-                {
-                    "text": "What edition of the Khelo India Youth Games will be hosted by Bihar in 2025?",
-                    "options": ["5th", "6th", "7th", "8th"],
-                    "correctAnswer": 2,
-                    "explanation": "Bihar is hosting the 7th edition of KIYG in 2025."
-                },
-                {
-                    "text": "Which district in Bihar is NOT listed as a KIYG 2025 host?",
-                    "options": ["Patna", "Rajgir", "Muzaffarpur", "Bhagalpur"],
-                    "correctAnswer": 2,
-                    "explanation": "Muzaffarpur was not designated as a host district."
-                },
-                {
-                    "text": "What is the mascot of KIYG 2025?",
-                    "options": ["Mauli", "Finnie", "Gajasimha", "Shera"],
-                    "correctAnswer": 2,
-                    "explanation": "‘Gajasimha’ is the mascot of the Bihar edition of KIYG."
-                },
-                {
-                    "text": "What was the theme for KIYG 2025?",
-                    "options": ["Hum Fit Toh India Fit", "Khel Ke Rang, Bihar Ke Sang", "Khelo India, Badho India",
-                        "Youth for Sports"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The theme was ‘Khel Ke Rang, Bihar Ke Sang’."
-                },
-                {
-                    "text": "In KIYG 2025, what was Bihar’s final ranking among States/UTs?",
-                    "options": ["21st", "29th", "15th", "7th"],
-                    "correctAnswer": 2,
-                    "explanation": "Bihar ranked 15th overall in KIYG 2025."
-                },
-                {
-                    "text": "The KIYG were launched in 2018 under which name?",
-                    "options": ["Khelo India School Games", "Khelo India College Games", "Khelo India National Games",
-                        "Khelo India University Games"
-                    ],
-                    "correctAnswer": 0,
-                    "explanation": "They started as Khelo India School Games in 2018."
-                },
-                {
-                    "text": "Rishabh Pant was nominated for the Laureus Award in which category?",
-                    "options": ["Sportsman of the Year", "Breakthrough of the Year", "Comeback of the Year",
-                        "Sportsperson with a Disability"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Pant was nominated for ‘Comeback of the Year’ after his recovery."
-                },
-                {
-                    "text": "Who won the Laureus World Sportsman of the Year?",
-                    "options": ["Rishabh Pant", "Suryakumar Yadav", "Mondo Duplantis", "Jasprit Bumrah"],
-                    "correctAnswer": 2,
-                    "explanation": "Mondo Duplantis, Olympic pole vault champion, won the award."
-                },
-                {
-                    "text": "The 38th National Games were inaugurated by PM Modi in which state?",
-                    "options": ["Bihar", "Maharashtra", "Uttarakhand", "Meghalaya"],
-                    "correctAnswer": 2,
-                    "explanation": "The Games were inaugurated in Uttarakhand."
-                },
-                {
-                    "text": "What was the theme of the 38th National Games?",
-                    "options": ["Sports for All", "Green Games", "Unity Through Sports", "Play for India"],
-                    "correctAnswer": 1,
-                    "explanation": "The theme was ‘Green Games’."
-                },
-                {
-                    "text": "Which state will host the 39th National Games in 2026?",
-                    "options": ["Maharashtra", "Haryana", "Meghalaya", "Bihar"],
-                    "correctAnswer": 2,
-                    "explanation": "The 39th Games will be hosted by Meghalaya."
-                },
-                {
-                    "text": "In the 38th National Games, which entity ranked 1st?",
-                    "options": ["Maharashtra", "Haryana", "Services Sports Control Board", "Bihar"],
-                    "correctAnswer": 2,
-                    "explanation": "The Services Sports Control Board topped the medal tally."
-                },
-                {
-                    "text": "What was Bihar’s rank in the 38th National Games?",
-                    "options": ["15th", "21st", "29th", "36th"],
-                    "correctAnswer": 2,
-                    "explanation": "Bihar ranked 29th in the 38th National Games."
-                },
-                {
-                    "text": "Which country did South Africa beat in the ICC WTC Final 2025?",
-                    "options": ["India", "New Zealand", "Australia", "England"],
-                    "correctAnswer": 2,
-                    "explanation": "South Africa defeated Australia to win their first ICC title in 27 years."
-                },
-                {
-                    "text": "The ICC WTC Final 2025 was held at which venue?",
-                    "options": ["Melbourne Cricket Ground", "Lord's Cricket Ground", "Eden Gardens", "Dubai Stadium"],
-                    "correctAnswer": 1,
-                    "explanation": "The final was played at Lord’s, London."
-                },
-                {
-                    "text": "Which team won their first-ever IPL title in 2025?",
-                    "options": ["Punjab Kings", "Royal Challengers Bengaluru", "Mumbai Indians", "Chennai Super Kings"],
-                    "correctAnswer": 1,
-                    "explanation": "RCB finally won their maiden IPL title in 2025."
-                },
-                {
-                    "text": "Who won the Orange Cap in IPL 2025?",
-                    "options": ["Suryakumar Yadav", "Sai Sudharsan", "Prasidh Krishna", "Jasprit Bumrah"],
-                    "correctAnswer": 1,
-                    "explanation": "Sai Sudharsan scored the most runs in IPL 2025."
-                },
-                {
-                    "text": "Who won the Most Valuable Player (MVP) award in IPL 2025?",
-                    "options": ["Sai Sudharsan", "Prasidh Krishna", "Suryakumar Yadav", "Arshdeep Singh"],
-                    "correctAnswer": 2,
-                    "explanation": "Suryakumar Yadav was awarded MVP in IPL 2025."
-                },
-                {
-                    "text": "Which 2 teams have won the IPL title 5 times each?",
-                    "options": ["RCB & Punjab Kings", "CSK & MI", "GT & RCB", "MI & Punjab Kings"],
-                    "correctAnswer": 1,
-                    "explanation": "CSK and MI both have 5 IPL titles."
-                },
-                {
-                    "text": "Who was named ICC Men’s Cricketer of the Year 2024?",
-                    "options": ["Arshdeep Singh", "Jasprit Bumrah", "Suryakumar Yadav", "Sai Sudharsan"],
-                    "correctAnswer": 1,
-                    "explanation": "Jasprit Bumrah won the Men’s Cricketer of the Year award."
-                },
-                {
-                    "text": "Who won ICC Women’s ODI Cricketer of the Year 2024?",
-                    "options": ["Divya Deshmukh", "Smriti Mandhana", "Coco Gauff", "Aryna Sabalenka"],
-                    "correctAnswer": 1,
-                    "explanation": "Smriti Mandhana clinched the Women’s ODI Cricketer award."
-                },
-                {
-                    "text": "Which country won the ICC Champions Trophy 2025 final vs NZ?",
-                    "options": ["South Africa", "Australia", "India", "Sri Lanka"],
-                    "correctAnswer": 2,
-                    "explanation": "India defeated New Zealand to win the 2025 Champions Trophy."
-                },
-                {
-                    "text": "How many times has India won Champions Trophy including 2025?",
-                    "options": ["One", "Two", "Three", "Four"],
-                    "correctAnswer": 2,
-                    "explanation": "India has won the Champions Trophy 3 times now."
-                },
-                {
-                    "text": "Where was the ICC Champions Trophy 2025 final held?",
-                    "options": ["Lord's, London", "SCG Australia", "Dubai Stadium", "Feroz Shah Kotla Delhi"],
-                    "correctAnswer": 2,
-                    "explanation": "Final was played at Dubai International Stadium."
-                },
-                {
-                    "text": "Which countries are joint hosts of FIFA WC 2030?",
-                    "options": ["Saudi Arabia, UAE, Qatar", "Spain, Portugal, Morocco", "Brazil, Argentina, Uruguay",
-                        "Germany, France, Italy"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Spain, Portugal and Morocco will co-host FIFA 2030."
-                },
-                {
-                    "text": "Which country will host FIFA World Cup 2034?",
-                    "options": ["Spain", "Portugal", "Morocco", "Saudi Arabia"],
-                    "correctAnswer": 3,
-                    "explanation": "Saudi Arabia will host the 2034 World Cup."
-                },
-                {
-                    "text": "Which country hosted the first-ever Kho Kho World Cup 2025?",
-                    "options": ["India", "England", "UAE", "South Africa"],
-                    "correctAnswer": 0,
-                    "explanation": "India proudly hosted the first Kho Kho World Cup."
-                },
-                {
-                    "text": "Who was re-elected as President of FIH?",
-                    "options": ["Major Dhyan Chand", "Harmanpreet Singh", "Tayyab Ikram", "Praveen Kumar"],
-                    "correctAnswer": 2,
-                    "explanation": "Tayyab Ikram was re-elected as FIH Chief."
-                },
-                {
-                    "text": "Which sportsperson received Khel Ratna Award 2024 (Chess)?",
-                    "options": ["Harmanpreet Singh", "Praveen Kumar", "Gukesh D", "Manu Bhaker"],
-                    "correctAnswer": 2,
-                    "explanation": "Grandmaster D. Gukesh received Khel Ratna for Chess."
-                },
-                {
-                    "text": "Manu Bhaker received the Khel Ratna 2024 for which sport?",
-                    "options": ["Hockey", "Para-Athletics", "Shooting", "Chess"],
-                    "correctAnswer": 2,
-                    "explanation": "Manu Bhaker was awarded for shooting."
-                },
-                {
-                    "text": "How many competitive sports were included in KIYG 2025 (plus 1 demo)?",
-                    "options": ["21", "25", "27", "30"],
-                    "correctAnswer": 2,
-                    "explanation": "27 competitive sports plus 1 demo were included."
-                },
-                {
-                    "text": "Which Grand Slam is known for extreme heat and long night matches?",
-                    "options": ["French Open", "Wimbledon", "US Open", "Australian Open"],
-                    "correctAnswer": 3,
-                    "explanation": "The Australian Open is noted for such conditions."
-                },
-                {
-                    "text": "S. Muralidharan & A. A. Colaco got Dronacharya Award 2024 in which category?",
-                    "options": ["Regular", "Lifetime", "Special", "Honorary"],
-                    "correctAnswer": 1,
-                    "explanation": "They received the award in the Lifetime Category."
-                },
-                {
-                    "text": "Who won the Purple Cap in IPL 2025?",
-                    "options": ["Sai Sudharsan", "Jasprit Bumrah", "Prasidh Krishna", "Arshdeep Singh"],
-                    "correctAnswer": 2,
-                    "explanation": "Prasidh Krishna took the most wickets."
-                },
-                {
-                    "text": "India is pushing to host the Olympics in which year?",
-                    "options": ["2028", "2032", "2036", "2040"],
-                    "correctAnswer": 2,
-                    "explanation": "PM Modi announced India’s ambition to host by 2036."
-                }
-            ]
-
-            ,
+                "text": "Which Indian female chess player became the 4th Woman Grandmaster (GM) and the 88th GM of India?",
+                "options": ["Koneru Humpy", "Divya Deshmukh", "Smriti Mandhana", "Manu Bhaker"],
+                "correctAnswer": 1,
+                "explanation": "Divya Deshmukh became the 4th Indian Woman Grandmaster and 88th Grandmaster overall."
+            },
+            {
+                "text": "The 2025 FIDE Women’s World Cup was held in which city?",
+                "options": ["London", "Paris", "Batumi", "Budapest"],
+                "correctAnswer": 2,
+                "explanation": "The Women’s World Cup 2025 took place in Batumi, Georgia."
+            },
+            {
+                "text": "Who won the FIDE World Championship 2024 and is noted as the youngest World Chess Champion?",
+                "options": ["Ding Liren", "Magnus Carlsen", "D. Gukesh", "Fabiano Caruana"],
+                "correctAnswer": 2,
+                "explanation": "D. Gukesh became the youngest ever World Chess Champion in 2024."
+            },
+            {
+                "text": "In 2025, Magnus Carlsen won his 7th Norway Chess Men’s title by defeating which opponent?",
+                "options": ["D. Gukesh", "Ding Liren", "Koneru Humpy", "Fabiano Caruana"],
+                "correctAnswer": 3,
+                "explanation": "Carlsen beat Fabiano Caruana to secure his 7th Norway Chess title."
+            },
+            {
+                "text": "The 45th Chess Olympiad in 2024 was hosted in which city?",
+                "options": ["Glasgow", "Budapest", "Batumi", "Dubai"],
+                "correctAnswer": 1,
+                "explanation": "The 45th Chess Olympiad was held in Budapest, Hungary."
+            },
+            {
+                "text": "Divya Deshmukh, upon becoming a Grandmaster, was the 13th GM from which Indian state?",
+                "options": ["Bihar", "Haryana", "Maharashtra", "Uttarakhand"],
+                "correctAnswer": 2,
+                "explanation": "She became the 13th Grandmaster from Maharashtra."
+            },
+            {
+                "text": "Which country will host the Commonwealth Games in 2026?",
+                "options": ["England", "Scotland", "Australia", "India"],
+                "correctAnswer": 1,
+                "explanation": "The 2026 Commonwealth Games will be hosted in Scotland."
+            },
+            {
+                "text": "What is the official mascot for the Commonwealth Games 2026 in Glasgow, Scotland?",
+                "options": ["Mauli", "Gajasimha", "Finnie", "Shera"],
+                "correctAnswer": 2,
+                "explanation": "‘Finnie’ was unveiled as the mascot of the Glasgow 2026 Games."
+            },
+            {
+                "text": "The Kabaddi World Cup in 2025 is scheduled to take place in which country?",
+                "options": ["India", "UAE", "England", "South Africa"],
+                "correctAnswer": 2,
+                "explanation": "The 2025 Kabaddi World Cup will be held in England."
+            },
+            {
+                "text": "Which Grand Slam tennis tournament is traditionally known for its all-white dress code?",
+                "options": ["Australian Open", "French Open", "Wimbledon", "US Open"],
+                "correctAnswer": 2,
+                "explanation": "Wimbledon enforces a traditional all-white dress code for players."
+            },
+            {
+                "text": "The French Open Grand Slam tournament is played on which surface?",
+                "options": ["Hard", "Grass", "Clay", "Synthetic"],
+                "correctAnswer": 2,
+                "explanation": "The French Open (Roland Garros) is played on clay courts."
+            },
+            {
+                "text": "Which tennis player won the Men’s Singles title at the Australian Open 2025?",
+                "options": ["Carlos Alcaraz", "Jannik Sinner", "Novak Djokovic", "Daniil Medvedev"],
+                "correctAnswer": 1,
+                "explanation": "Jannik Sinner clinched the 2025 Australian Open Men’s title."
+            },
+            {
+                "text": "Who was the winner of the Women’s Singles title at the French Open 2025?",
+                "options": ["Iga Swiatek", "Aryna Sabalenka", "Madison Keys", "Coco Gauff"],
+                "correctAnswer": 3,
+                "explanation": "Coco Gauff won the 2025 French Open Women’s Singles title."
+            },
+            {
+                "text": "Jannik Sinner won the Men's Singles title at which three Grand Slams in 2025?",
+                "options": ["Australian Open, French Open, Wimbledon", "French Open, Wimbledon, US Open",
+                    "Australian Open, Wimbledon, US Open", "Australian Open, French Open, US Open"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sinner triumphed at the Australian Open, Wimbledon, and US Open in 2025."
+            },
+            {
+                "text": "Which Grand Slam is held in New York and features large crowds and fast-paced matches?",
+                "options": ["Wimbledon", "French Open", "US Open", "Australian Open"],
+                "correctAnswer": 2,
+                "explanation": "The US Open is held in New York at Flushing Meadows."
+            },
+            {
+                "text": "What edition of the Khelo India Youth Games will be hosted by Bihar in 2025?",
+                "options": ["5th", "6th", "7th", "8th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar is hosting the 7th edition of KIYG in 2025."
+            },
+            {
+                "text": "Which district in Bihar is NOT listed as a KIYG 2025 host?",
+                "options": ["Patna", "Rajgir", "Muzaffarpur", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Muzaffarpur was not designated as a host district."
+            },
+            {
+                "text": "What is the mascot of KIYG 2025?",
+                "options": ["Mauli", "Finnie", "Gajasimha", "Shera"],
+                "correctAnswer": 2,
+                "explanation": "‘Gajasimha’ is the mascot of the Bihar edition of KIYG."
+            },
+            {
+                "text": "What was the theme for KIYG 2025?",
+                "options": ["Hum Fit Toh India Fit", "Khel Ke Rang, Bihar Ke Sang", "Khelo India, Badho India",
+                    "Youth for Sports"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The theme was ‘Khel Ke Rang, Bihar Ke Sang’."
+            },
+            {
+                "text": "In KIYG 2025, what was Bihar’s final ranking among States/UTs?",
+                "options": ["21st", "29th", "15th", "7th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar ranked 15th overall in KIYG 2025."
+            },
+            {
+                "text": "The KIYG were launched in 2018 under which name?",
+                "options": ["Khelo India School Games", "Khelo India College Games", "Khelo India National Games",
+                    "Khelo India University Games"
+                ],
+                "correctAnswer": 0,
+                "explanation": "They started as Khelo India School Games in 2018."
+            },
+            {
+                "text": "Rishabh Pant was nominated for the Laureus Award in which category?",
+                "options": ["Sportsman of the Year", "Breakthrough of the Year", "Comeback of the Year",
+                    "Sportsperson with a Disability"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Pant was nominated for ‘Comeback of the Year’ after his recovery."
+            },
+            {
+                "text": "Who won the Laureus World Sportsman of the Year?",
+                "options": ["Rishabh Pant", "Suryakumar Yadav", "Mondo Duplantis", "Jasprit Bumrah"],
+                "correctAnswer": 2,
+                "explanation": "Mondo Duplantis, Olympic pole vault champion, won the award."
+            },
+            {
+                "text": "The 38th National Games were inaugurated by PM Modi in which state?",
+                "options": ["Bihar", "Maharashtra", "Uttarakhand", "Meghalaya"],
+                "correctAnswer": 2,
+                "explanation": "The Games were inaugurated in Uttarakhand."
+            },
+            {
+                "text": "What was the theme of the 38th National Games?",
+                "options": ["Sports for All", "Green Games", "Unity Through Sports", "Play for India"],
+                "correctAnswer": 1,
+                "explanation": "The theme was ‘Green Games’."
+            },
+            {
+                "text": "Which state will host the 39th National Games in 2026?",
+                "options": ["Maharashtra", "Haryana", "Meghalaya", "Bihar"],
+                "correctAnswer": 2,
+                "explanation": "The 39th Games will be hosted by Meghalaya."
+            },
+            {
+                "text": "In the 38th National Games, which entity ranked 1st?",
+                "options": ["Maharashtra", "Haryana", "Services Sports Control Board", "Bihar"],
+                "correctAnswer": 2,
+                "explanation": "The Services Sports Control Board topped the medal tally."
+            },
+            {
+                "text": "What was Bihar’s rank in the 38th National Games?",
+                "options": ["15th", "21st", "29th", "36th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar ranked 29th in the 38th National Games."
+            },
+            {
+                "text": "Which country did South Africa beat in the ICC WTC Final 2025?",
+                "options": ["India", "New Zealand", "Australia", "England"],
+                "correctAnswer": 2,
+                "explanation": "South Africa defeated Australia to win their first ICC title in 27 years."
+            },
+            {
+                "text": "The ICC WTC Final 2025 was held at which venue?",
+                "options": ["Melbourne Cricket Ground", "Lord's Cricket Ground", "Eden Gardens", "Dubai Stadium"],
+                "correctAnswer": 1,
+                "explanation": "The final was played at Lord’s, London."
+            },
+            {
+                "text": "Which team won their first-ever IPL title in 2025?",
+                "options": ["Punjab Kings", "Royal Challengers Bengaluru", "Mumbai Indians", "Chennai Super Kings"],
+                "correctAnswer": 1,
+                "explanation": "RCB finally won their maiden IPL title in 2025."
+            },
+            {
+                "text": "Who won the Orange Cap in IPL 2025?",
+                "options": ["Suryakumar Yadav", "Sai Sudharsan", "Prasidh Krishna", "Jasprit Bumrah"],
+                "correctAnswer": 1,
+                "explanation": "Sai Sudharsan scored the most runs in IPL 2025."
+            },
+            {
+                "text": "Who won the Most Valuable Player (MVP) award in IPL 2025?",
+                "options": ["Sai Sudharsan", "Prasidh Krishna", "Suryakumar Yadav", "Arshdeep Singh"],
+                "correctAnswer": 2,
+                "explanation": "Suryakumar Yadav was awarded MVP in IPL 2025."
+            },
+            {
+                "text": "Which 2 teams have won the IPL title 5 times each?",
+                "options": ["RCB & Punjab Kings", "CSK & MI", "GT & RCB", "MI & Punjab Kings"],
+                "correctAnswer": 1,
+                "explanation": "CSK and MI both have 5 IPL titles."
+            },
+            {
+                "text": "Who was named ICC Men’s Cricketer of the Year 2024?",
+                "options": ["Arshdeep Singh", "Jasprit Bumrah", "Suryakumar Yadav", "Sai Sudharsan"],
+                "correctAnswer": 1,
+                "explanation": "Jasprit Bumrah won the Men’s Cricketer of the Year award."
+            },
+            {
+                "text": "Who won ICC Women’s ODI Cricketer of the Year 2024?",
+                "options": ["Divya Deshmukh", "Smriti Mandhana", "Coco Gauff", "Aryna Sabalenka"],
+                "correctAnswer": 1,
+                "explanation": "Smriti Mandhana clinched the Women’s ODI Cricketer award."
+            },
+            {
+                "text": "Which country won the ICC Champions Trophy 2025 final vs NZ?",
+                "options": ["South Africa", "Australia", "India", "Sri Lanka"],
+                "correctAnswer": 2,
+                "explanation": "India defeated New Zealand to win the 2025 Champions Trophy."
+            },
+            {
+                "text": "How many times has India won Champions Trophy including 2025?",
+                "options": ["One", "Two", "Three", "Four"],
+                "correctAnswer": 2,
+                "explanation": "India has won the Champions Trophy 3 times now."
+            },
+            {
+                "text": "Where was the ICC Champions Trophy 2025 final held?",
+                "options": ["Lord's, London", "SCG Australia", "Dubai Stadium", "Feroz Shah Kotla Delhi"],
+                "correctAnswer": 2,
+                "explanation": "Final was played at Dubai International Stadium."
+            },
+            {
+                "text": "Which countries are joint hosts of FIFA WC 2030?",
+                "options": ["Saudi Arabia, UAE, Qatar", "Spain, Portugal, Morocco", "Brazil, Argentina, Uruguay",
+                    "Germany, France, Italy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Spain, Portugal and Morocco will co-host FIFA 2030."
+            },
+            {
+                "text": "Which country will host FIFA World Cup 2034?",
+                "options": ["Spain", "Portugal", "Morocco", "Saudi Arabia"],
+                "correctAnswer": 3,
+                "explanation": "Saudi Arabia will host the 2034 World Cup."
+            },
+            {
+                "text": "Which country hosted the first-ever Kho Kho World Cup 2025?",
+                "options": ["India", "England", "UAE", "South Africa"],
+                "correctAnswer": 0,
+                "explanation": "India proudly hosted the first Kho Kho World Cup."
+            },
+            {
+                "text": "Who was re-elected as President of FIH?",
+                "options": ["Major Dhyan Chand", "Harmanpreet Singh", "Tayyab Ikram", "Praveen Kumar"],
+                "correctAnswer": 2,
+                "explanation": "Tayyab Ikram was re-elected as FIH Chief."
+            },
+            {
+                "text": "Which sportsperson received Khel Ratna Award 2024 (Chess)?",
+                "options": ["Harmanpreet Singh", "Praveen Kumar", "Gukesh D", "Manu Bhaker"],
+                "correctAnswer": 2,
+                "explanation": "Grandmaster D. Gukesh received Khel Ratna for Chess."
+            },
+            {
+                "text": "Manu Bhaker received the Khel Ratna 2024 for which sport?",
+                "options": ["Hockey", "Para-Athletics", "Shooting", "Chess"],
+                "correctAnswer": 2,
+                "explanation": "Manu Bhaker was awarded for shooting."
+            },
+            {
+                "text": "How many competitive sports were included in KIYG 2025 (plus 1 demo)?",
+                "options": ["21", "25", "27", "30"],
+                "correctAnswer": 2,
+                "explanation": "27 competitive sports plus 1 demo were included."
+            },
+            {
+                "text": "Which Grand Slam is known for extreme heat and long night matches?",
+                "options": ["French Open", "Wimbledon", "US Open", "Australian Open"],
+                "correctAnswer": 3,
+                "explanation": "The Australian Open is noted for such conditions."
+            },
+            {
+                "text": "S. Muralidharan & A. A. Colaco got Dronacharya Award 2024 in which category?",
+                "options": ["Regular", "Lifetime", "Special", "Honorary"],
+                "correctAnswer": 1,
+                "explanation": "They received the award in the Lifetime Category."
+            },
+            {
+                "text": "Who won the Purple Cap in IPL 2025?",
+                "options": ["Sai Sudharsan", "Jasprit Bumrah", "Prasidh Krishna", "Arshdeep Singh"],
+                "correctAnswer": 2,
+                "explanation": "Prasidh Krishna took the most wickets."
+            },
+            {
+                "text": "India is pushing to host the Olympics in which year?",
+                "options": ["2028", "2032", "2036", "2040"],
+                "correctAnswer": 2,
+                "explanation": "PM Modi announced India’s ambition to host by 2036."
+            }
+        ],
         "Current Affairs - Set - 14": [{
-                    "text": "Who was the leader of Hayat Tahir al-Sham (HTS), the group that led the rebellion against Bashar Assad?",
-                    "options": ["Abdul-Muhammad", "Ahmed Al-Sharaa", "Both (A) and (B)", "Bashar Assad"],
-                    "correctAnswer": 2,
-                    "explanation": "HTS was led jointly by Abdul-Muhammad and Ahmed Al-Sharaa."
-                },
-                {
-                    "text": "Which organisation was responsible for the hijacking of the 'Jaffar Express' in Pakistan?",
-                    "options": ["Tehrik-i-Taliban Pakistan (TTP)", "Baloch Liberation Army (BLA)", "Lashkar-e-Taiba (LeT)",
-                        "Jaish-e-Mohammed (JeM)"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The Baloch Liberation Army (BLA) carried out the hijacking."
-                },
-                {
-                    "text": "Which country was the first to officially recognise the Taliban government of Afghanistan and initiate diplomatic ties?",
-                    "options": ["China", "Pakistan", "Russia", "Iran"],
-                    "correctAnswer": 2,
-                    "explanation": "Russia became the first to formally recognise the Taliban government in 2025."
-                },
-                {
-                    "text": "The Guinness World Record for the largest Madhubani painting was achieved in which place in Bihar?",
-                    "options": ["Patna", "Saurath, Madhubani", "Darbhanga", "Bodh Gaya"],
-                    "correctAnswer": 1,
-                    "explanation": "It was created in Saurath, Madhubani district of Bihar."
-                },
-                {
-                    "text": "What was the recorded size of the Guinness World Record-holding Madhubani painting?",
-                    "options": ["150.50 sq. ft", "201.17 sq. ft", "250.25 sq. ft", "180.00 sq. ft"],
-                    "correctAnswer": 1,
-                    "explanation": "The painting measured 201.17 sq. ft."
-                },
-                {
-                    "text": "Who led the team of 50 women in creating the record-breaking Madhubani painting?",
-                    "options": ["Ganga Devi", "Baua Devi", "Sita Devi", "Bharti Dayal"],
-                    "correctAnswer": 1,
-                    "explanation": "Renowned artist Baua Devi led the women’s team."
-                },
-                {
-                    "text": "The world record for the biggest gathering of Buddhist monks for a singing bowl ensemble was set in which location in Bihar?",
-                    "options": ["Varanasi", "Lumbini", "Bodh Gaya", "Sarnath"],
-                    "correctAnswer": 2,
-                    "explanation": "The event was held in Bodh Gaya, Bihar."
-                },
-                {
-                    "text": "The Prime Minister Dhan-Dhaanya Krishi Yojana was launched under which Union Budget?",
-                    "options": ["2023–24", "2024–25", "2025–26", "2026–27"],
-                    "correctAnswer": 2,
-                    "explanation": "It was announced in the Union Budget 2025–26."
-                },
-                {
-                    "text": "How many districts are targeted for coverage under the Prime Minister Dhan-Dhaanya Krishi Yojana?",
-                    "options": ["50", "75", "100", "120"],
-                    "correctAnswer": 2,
-                    "explanation": "The scheme aims to cover 100 districts."
-                },
-                {
-                    "text": "Which is an objective of the Prime Minister Dhan-Dhaanya Krishi Yojana?",
-                    "options": ["To promote urban-rural migration", "To reduce reliance on traditional farming methods",
-                        "To augment post-harvest storage at Panchayat and Block levels",
-                        "To establish new agricultural universities"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "The main goal is improving post-harvest storage."
-                },
-                {
-                    "text": "Who was appointed as the first woman officer from the Indian Navy to hold the position of ADC to President Droupadi Murmu?",
-                    "options": ["Lieutenant Commander S. Kiran", "Lieutenant Commander Yashasvi Solanki",
-                        "Commander Pooja Rajput", "Captain Reena Singh"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Lt. Cdr. Yashasvi Solanki became the first woman Navy ADC."
-                },
-                {
-                    "text": "Which water board became the first in India to receive BIS certification for piped drinking water supply?",
-                    "options": ["Delhi Jal Board", "Chennai Metrowater", "Bangalore Water Supply and Sewerage Board (BWSSB)",
-                        "Hyderabad Metropolitan Water Supply Board"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "Bangalore’s BWSSB achieved the BIS certification."
-                },
-                {
-                    "text": "Which Indian state launched the first dedicated Yoga Policy?",
-                    "options": ["Uttar Pradesh", "Himachal Pradesh", "Uttarakhand", "Kerala"],
-                    "correctAnswer": 2,
-                    "explanation": "Uttarakhand introduced the policy, aiming to be the Yoga capital."
-                },
-                {
-                    "text": "Who was the first Indian to win the Fred Darrington Sand Art Award in London?",
-                    "options": ["Manas Kumar Sahoo", "Sudarsan Pattnaik", "Laxmidhar Maharana", "Gopinath Moharana"],
-                    "correctAnswer": 1,
-                    "explanation": "Sudarsan Pattnaik won this sand art award."
-                },
-                {
-                    "text": "The Youth Spiritual Summit in Varanasi (2025) was organised by which Union Ministry?",
-                    "options": ["Education", "Health", "Youth Affairs and Sports", "Culture"],
-                    "correctAnswer": 2,
-                    "explanation": "It was organised by the Ministry of Youth Affairs and Sports."
-                },
-                {
-                    "text": "What was the central theme of the Youth Spiritual Summit in 2025?",
-                    "options": ["Youth for Global Harmony", "Drug-free Youth for Developed India",
-                        "Youth Empowerment for Sustainable Future", "Spirituality and Modernity for Youth"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "The theme was ‘Drug-free Youth for Developed India’."
-                },
-                {
-                    "text": "The Kashi Declaration primarily declared a commitment to what?",
-                    "options": ["Promoting tourism", "Drug-free youth campaign", "Enhancing digital literacy",
-                        "Establishing spiritual centers"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "It committed to a drug-free youth movement."
-                },
-                {
-                    "text": "Which was declared by the UN as an International Year for 2025?",
-                    "options": ["Woman Farmer", "Rangelands and Pastoralists", "Quantum Science and Technology",
-                        "Volunteers for Sustainable Development"
-                    ],
-                    "correctAnswer": 2,
-                    "explanation": "2025 is the International Year of Quantum Science & Technology."
-                },
-                {
-                    "text": "What is the theme for Constitution Day 2025?",
-                    "options": ["Constitutionalism and Democracy", "Humara Samvidhan Humara Abhiman", "Rule of Law in India",
-                        "Celebrating Constitutional Values"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Theme was ‘Humara Samvidhan Humara Abhiman’."
-                },
-                {
-                    "text": "National Dolphin Day is observed on which date?",
-                    "options": ["5th June", "5th October", "21st June", "27th June"],
-                    "correctAnswer": 1,
-                    "explanation": "It is observed every year on 5th October."
-                },
-                {
-                    "text": "Theme for World Environment Day 2025?",
-                    "options": ["Restore Our Earth", "Beat Plastic Pollution", "Ecosystem Restoration",
-                        "Land Degradation Neutrality"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Theme for 2025 was ‘Beat Plastic Pollution’."
-                },
-                {
-                    "text": "Which city set world record for yoga participation?",
-                    "options": ["Mumbai", "Delhi", "Bengaluru", "Vizag"],
-                    "correctAnswer": 3,
-                    "explanation": "Vizag achieved the record along 28 km stretch."
-                },
-                {
-                    "text": "National Science Day marks the discovery of?",
-                    "options": ["Photoelectric Effect", "Raman Effect", "Doppler Effect", "Brownian Motion"],
-                    "correctAnswer": 1,
-                    "explanation": "It commemorates CV Raman’s Raman Effect."
-                },
-                {
-                    "text": "National Voter's Day marks the foundation of?",
-                    "options": ["Parliament", "Election Commission of India", "Supreme Court", "Ministry of Home Affairs"],
-                    "correctAnswer": 1,
-                    "explanation": "It celebrates foundation of the Election Commission of India."
-                },
-                {
-                    "text": "Theme for World Wildlife Day 2025?",
-                    "options": ["Recovering key species", "Forests and Livelihoods", "Wildlife Conservation Finance",
-                        "Partnerships for wildlife conservation"
-                    ],
-                    "correctAnswer": 1,
-                    "explanation": "Theme was ‘Forests and Livelihoods: Sustaining People and Planet’."
-                },
-                {
-                    "text": "On what date was Dr. B.R. Ambedkar Day declared by NYC?",
-                    "options": ["26th Nov", "25th June", "14th April", "23rd Sep"],
-                    "correctAnswer": 2,
-                    "explanation": "It was declared on 14th April, Ambedkar’s birth anniversary."
-                },
-                {
-                    "text": "As per IMF 2025, India’s economic rank?",
-                    "options": ["3rd", "4th", "5th", "6th"],
-                    "correctAnswer": 1,
-                    "explanation": "India is projected as the 4th largest economy."
-                },
-                {
-                    "text": "India is expected to become 3rd largest economy by?",
-                    "options": ["2026", "2027", "2028", "2030"],
-                    "correctAnswer": 1,
-                    "explanation": "IMF projects India overtaking by 2027."
-                },
-                {
-                    "text": "What is India's projected GDP by 2030?",
-                    "options": ["$5.5T", "$6.0T", "$7.3T", "$8.0T"],
-                    "correctAnswer": 2,
-                    "explanation": "India’s GDP is projected at $7.3 trillion by 2030."
-                },
-                {
-                    "text": "Which institution developed Mulehunter.AI?",
-                    "options": ["SEBI", "RBI", "NPCI", "Ministry of Finance"],
-                    "correctAnswer": 2,
-                    "explanation": "NPCI built the tool to detect mule accounts."
-                },
-                {
-                    "text": "Who is the father of AI?",
-                    "options": ["Alan Turing", "Marvin Minsky", "John McCarthy", "Claude Shannon"],
-                    "correctAnswer": 2,
-                    "explanation": "John McCarthy is widely considered the father of AI."
-                },
-                {
-                    "text": "Klaus Schwab stepped down from which organisation?",
-                    "options": ["IMF", "World Bank", "WEF", "WTO"],
-                    "correctAnswer": 2,
-                    "explanation": "He founded and led the World Economic Forum."
-                },
-                {
-                    "text": "WHO's '3 by 35' Initiative financial mechanism?",
-                    "options": ["Direct subsidies", "Health taxes", "International aid", "Voluntary contributions"],
-                    "correctAnswer": 2,
-                    "explanation": "The initiative focuses on health taxes on harmful products."
-                },
-                {
-                    "text": "Which countries pulled out from WHO?",
-                    "options": ["Russia & China", "USA & Argentina", "Brazil & India", "UK & Canada"],
-                    "correctAnswer": 1,
-                    "explanation": "USA and Argentina pulled back as per the source."
-                },
-                {
-                    "text": "India’s rank as Aluminium Producer?",
-                    "options": ["1st", "2nd", "3rd", "4th"],
-                    "correctAnswer": 1,
-                    "explanation": "India is the 2nd largest aluminium producer globally."
-                },
-                {
-                    "text": "Which state has ~40% of India's mineral resources?",
-                    "options": ["Odisha", "Chhattisgarh", "Jharkhand", "Karnataka"],
-                    "correctAnswer": 2,
-                    "explanation": "Jharkhand holds about 40% of mineral wealth."
-                },
-                {
-                    "text": "Which is NOT a copper mine in Jharkhand?",
-                    "options": ["Ghatsila", "Surda", "Khetri", "Rakha"],
-                    "correctAnswer": 2,
-                    "explanation": "Khetri is located in Rajasthan, not Jharkhand."
-                },
-                {
-                    "text": "India ranks 2nd largest in which manufacturing sector?",
-                    "options": ["Textiles", "Mobile phones", "Pharma", "Steel"],
-                    "correctAnswer": 1,
-                    "explanation": "India became 2nd largest mobile phone manufacturer."
-                },
-                {
-                    "text": "FDI inflow for FY 2024–25?",
-                    "options": ["75.50B", "81.04B", "90.10B", "100.00B"],
-                    "correctAnswer": 1,
-                    "explanation": "India recorded FDI inflow of USD 81.04 billion."
-                },
-                {
-                    "text": "India rank in FDI inflows 2024?",
-                    "options": ["10th", "12th", "15th", "20th"],
-                    "correctAnswer": 2,
-                    "explanation": "India ranked 15th in FDI inflows."
-                },
-                {
-                    "text": "Which country gave 30% of India’s FDI?",
-                    "options": ["US", "Mauritius", "Singapore", "Japan"],
-                    "correctAnswer": 2,
-                    "explanation": "Singapore was the top contributor for FDI."
-                },
-                {
-                    "text": "Top export destination FY 2024–25?",
-                    "options": ["China", "UAE", "USA", "Germany"],
-                    "correctAnswer": 2,
-                    "explanation": "USA was India’s top export market."
-                },
-                {
-                    "text": "Forex reserves crossed $700B on?",
-                    "options": ["15 June", "20 June", "27 June", "5 July"],
-                    "correctAnswer": 2,
-                    "explanation": "Forex crossed $700B on June 27, 2025."
-                },
-                {
-                    "text": "For how many years has USA been top trading partner?",
-                    "options": ["2", "3", "4", "5"],
-                    "correctAnswer": 2,
-                    "explanation": "USA has been India’s largest trading partner for 4 consecutive years."
-                },
-                {
-                    "text": "Which company was top by market cap in Feb 2025?",
-                    "options": ["Microsoft", "NVIDIA", "Apple", "Amazon"],
-                    "correctAnswer": 2,
-                    "explanation": "Apple topped the global market cap list."
-                },
-                {
-                    "text": "Fiscal Health Index 2025 released by?",
-                    "options": ["Finance Ministry", "RBI", "NITI Aayog", "CAG"],
-                    "correctAnswer": 2,
-                    "explanation": "NITI Aayog released the index."
-                },
-                {
-                    "text": "Which state topped Fiscal Health Index 2025?",
-                    "options": ["Gujarat", "Chhattisgarh", "Odisha", "Jharkhand"],
-                    "correctAnswer": 2,
-                    "explanation": "Odisha secured the top rank in the index."
-                },
-                {
-                    "text": "India-UK trade target by 2030 after CETA?",
-                    "options": ["80B", "100B", "112B", "120B"],
-                    "correctAnswer": 2,
-                    "explanation": "Target is USD 112 billion trade value."
-                },
-                {
-                    "text": "India's rank in SDG Index 2025?",
-                    "options": ["89", "99", "109", "119"],
-                    "correctAnswer": 1,
-                    "explanation": "India ranked 99th out of 167 nations."
-                },
-                {
-                    "text": "Largest producer of Turmeric in India?",
-                    "options": ["Telangana", "Andhra Pradesh", "Karnataka", "Maharashtra"],
-                    "correctAnswer": 3,
-                    "explanation": "Maharashtra leads in turmeric production."
-                }
-            ]
-
-            ,
+                "text": "Who was the leader of Hayat Tahir al-Sham (HTS), the group that led the rebellion against Bashar Assad?",
+                "options": ["Abdul-Muhammad", "Ahmed Al-Sharaa", "Both (A) and (B)", "Bashar Assad"],
+                "correctAnswer": 2,
+                "explanation": "HTS was led jointly by Abdul-Muhammad and Ahmed Al-Sharaa."
+            },
+            {
+                "text": "Which organisation was responsible for the hijacking of the 'Jaffar Express' in Pakistan?",
+                "options": ["Tehrik-i-Taliban Pakistan (TTP)", "Baloch Liberation Army (BLA)", "Lashkar-e-Taiba (LeT)",
+                    "Jaish-e-Mohammed (JeM)"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Baloch Liberation Army (BLA) carried out the hijacking."
+            },
+            {
+                "text": "Which country was the first to officially recognise the Taliban government of Afghanistan and initiate diplomatic ties?",
+                "options": ["China", "Pakistan", "Russia", "Iran"],
+                "correctAnswer": 2,
+                "explanation": "Russia became the first to formally recognise the Taliban government in 2025."
+            },
+            {
+                "text": "The Guinness World Record for the largest Madhubani painting was achieved in which place in Bihar?",
+                "options": ["Patna", "Saurath, Madhubani", "Darbhanga", "Bodh Gaya"],
+                "correctAnswer": 1,
+                "explanation": "It was created in Saurath, Madhubani district of Bihar."
+            },
+            {
+                "text": "What was the recorded size of the Guinness World Record-holding Madhubani painting?",
+                "options": ["150.50 sq. ft", "201.17 sq. ft", "250.25 sq. ft", "180.00 sq. ft"],
+                "correctAnswer": 1,
+                "explanation": "The painting measured 201.17 sq. ft."
+            },
+            {
+                "text": "Who led the team of 50 women in creating the record-breaking Madhubani painting?",
+                "options": ["Ganga Devi", "Baua Devi", "Sita Devi", "Bharti Dayal"],
+                "correctAnswer": 1,
+                "explanation": "Renowned artist Baua Devi led the women’s team."
+            },
+            {
+                "text": "The world record for the biggest gathering of Buddhist monks for a singing bowl ensemble was set in which location in Bihar?",
+                "options": ["Varanasi", "Lumbini", "Bodh Gaya", "Sarnath"],
+                "correctAnswer": 2,
+                "explanation": "The event was held in Bodh Gaya, Bihar."
+            },
+            {
+                "text": "The Prime Minister Dhan-Dhaanya Krishi Yojana was launched under which Union Budget?",
+                "options": ["2023–24", "2024–25", "2025–26", "2026–27"],
+                "correctAnswer": 2,
+                "explanation": "It was announced in the Union Budget 2025–26."
+            },
+            {
+                "text": "How many districts are targeted for coverage under the Prime Minister Dhan-Dhaanya Krishi Yojana?",
+                "options": ["50", "75", "100", "120"],
+                "correctAnswer": 2,
+                "explanation": "The scheme aims to cover 100 districts."
+            },
+            {
+                "text": "Which is an objective of the Prime Minister Dhan-Dhaanya Krishi Yojana?",
+                "options": ["To promote urban-rural migration", "To reduce reliance on traditional farming methods",
+                    "To augment post-harvest storage at Panchayat and Block levels",
+                    "To establish new agricultural universities"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The main goal is improving post-harvest storage."
+            },
+            {
+                "text": "Who was appointed as the first woman officer from the Indian Navy to hold the position of ADC to President Droupadi Murmu?",
+                "options": ["Lieutenant Commander S. Kiran", "Lieutenant Commander Yashasvi Solanki",
+                    "Commander Pooja Rajput", "Captain Reena Singh"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Lt. Cdr. Yashasvi Solanki became the first woman Navy ADC."
+            },
+            {
+                "text": "Which water board became the first in India to receive BIS certification for piped drinking water supply?",
+                "options": ["Delhi Jal Board", "Chennai Metrowater", "Bangalore Water Supply and Sewerage Board (BWSSB)",
+                    "Hyderabad Metropolitan Water Supply Board"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bangalore’s BWSSB achieved the BIS certification."
+            },
+            {
+                "text": "Which Indian state launched the first dedicated Yoga Policy?",
+                "options": ["Uttar Pradesh", "Himachal Pradesh", "Uttarakhand", "Kerala"],
+                "correctAnswer": 2,
+                "explanation": "Uttarakhand introduced the policy, aiming to be the Yoga capital."
+            },
+            {
+                "text": "Who was the first Indian to win the Fred Darrington Sand Art Award in London?",
+                "options": ["Manas Kumar Sahoo", "Sudarsan Pattnaik", "Laxmidhar Maharana", "Gopinath Moharana"],
+                "correctAnswer": 1,
+                "explanation": "Sudarsan Pattnaik won this sand art award."
+            },
+            {
+                "text": "The Youth Spiritual Summit in Varanasi (2025) was organised by which Union Ministry?",
+                "options": ["Education", "Health", "Youth Affairs and Sports", "Culture"],
+                "correctAnswer": 2,
+                "explanation": "It was organised by the Ministry of Youth Affairs and Sports."
+            },
+            {
+                "text": "What was the central theme of the Youth Spiritual Summit in 2025?",
+                "options": ["Youth for Global Harmony", "Drug-free Youth for Developed India",
+                    "Youth Empowerment for Sustainable Future", "Spirituality and Modernity for Youth"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The theme was ‘Drug-free Youth for Developed India’."
+            },
+            {
+                "text": "The Kashi Declaration primarily declared a commitment to what?",
+                "options": ["Promoting tourism", "Drug-free youth campaign", "Enhancing digital literacy",
+                    "Establishing spiritual centers"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It committed to a drug-free youth movement."
+            },
+            {
+                "text": "Which was declared by the UN as an International Year for 2025?",
+                "options": ["Woman Farmer", "Rangelands and Pastoralists", "Quantum Science and Technology",
+                    "Volunteers for Sustainable Development"
+                ],
+                "correctAnswer": 2,
+                "explanation": "2025 is the International Year of Quantum Science & Technology."
+            },
+            {
+                "text": "What is the theme for Constitution Day 2025?",
+                "options": ["Constitutionalism and Democracy", "Humara Samvidhan Humara Abhiman", "Rule of Law in India",
+                    "Celebrating Constitutional Values"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Theme was ‘Humara Samvidhan Humara Abhiman’."
+            },
+            {
+                "text": "National Dolphin Day is observed on which date?",
+                "options": ["5th June", "5th October", "21st June", "27th June"],
+                "correctAnswer": 1,
+                "explanation": "It is observed every year on 5th October."
+            },
+            {
+                "text": "Theme for World Environment Day 2025?",
+                "options": ["Restore Our Earth", "Beat Plastic Pollution", "Ecosystem Restoration",
+                    "Land Degradation Neutrality"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Theme for 2025 was ‘Beat Plastic Pollution’."
+            },
+            {
+                "text": "Which city set world record for yoga participation?",
+                "options": ["Mumbai", "Delhi", "Bengaluru", "Vizag"],
+                "correctAnswer": 3,
+                "explanation": "Vizag achieved the record along 28 km stretch."
+            },
+            {
+                "text": "National Science Day marks the discovery of?",
+                "options": ["Photoelectric Effect", "Raman Effect", "Doppler Effect", "Brownian Motion"],
+                "correctAnswer": 1,
+                "explanation": "It commemorates CV Raman’s Raman Effect."
+            },
+            {
+                "text": "National Voter's Day marks the foundation of?",
+                "options": ["Parliament", "Election Commission of India", "Supreme Court", "Ministry of Home Affairs"],
+                "correctAnswer": 1,
+                "explanation": "It celebrates foundation of the Election Commission of India."
+            },
+            {
+                "text": "Theme for World Wildlife Day 2025?",
+                "options": ["Recovering key species", "Forests and Livelihoods", "Wildlife Conservation Finance",
+                    "Partnerships for wildlife conservation"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Theme was ‘Forests and Livelihoods: Sustaining People and Planet’."
+            },
+            {
+                "text": "On what date was Dr. B.R. Ambedkar Day declared by NYC?",
+                "options": ["26th Nov", "25th June", "14th April", "23rd Sep"],
+                "correctAnswer": 2,
+                "explanation": "It was declared on 14th April, Ambedkar’s birth anniversary."
+            },
+            {
+                "text": "As per IMF 2025, India’s economic rank?",
+                "options": ["3rd", "4th", "5th", "6th"],
+                "correctAnswer": 1,
+                "explanation": "India is projected as the 4th largest economy."
+            },
+            {
+                "text": "India is expected to become 3rd largest economy by?",
+                "options": ["2026", "2027", "2028", "2030"],
+                "correctAnswer": 1,
+                "explanation": "IMF projects India overtaking by 2027."
+            },
+            {
+                "text": "What is India's projected GDP by 2030?",
+                "options": ["$5.5T", "$6.0T", "$7.3T", "$8.0T"],
+                "correctAnswer": 2,
+                "explanation": "India’s GDP is projected at $7.3 trillion by 2030."
+            },
+            {
+                "text": "Which institution developed Mulehunter.AI?",
+                "options": ["SEBI", "RBI", "NPCI", "Ministry of Finance"],
+                "correctAnswer": 2,
+                "explanation": "NPCI built the tool to detect mule accounts."
+            },
+            {
+                "text": "Who is the father of AI?",
+                "options": ["Alan Turing", "Marvin Minsky", "John McCarthy", "Claude Shannon"],
+                "correctAnswer": 2,
+                "explanation": "John McCarthy is widely considered the father of AI."
+            },
+            {
+                "text": "Klaus Schwab stepped down from which organisation?",
+                "options": ["IMF", "World Bank", "WEF", "WTO"],
+                "correctAnswer": 2,
+                "explanation": "He founded and led the World Economic Forum."
+            },
+            {
+                "text": "WHO's '3 by 35' Initiative financial mechanism?",
+                "options": ["Direct subsidies", "Health taxes", "International aid", "Voluntary contributions"],
+                "correctAnswer": 2,
+                "explanation": "The initiative focuses on health taxes on harmful products."
+            },
+            {
+                "text": "Which countries pulled out from WHO?",
+                "options": ["Russia & China", "USA & Argentina", "Brazil & India", "UK & Canada"],
+                "correctAnswer": 1,
+                "explanation": "USA and Argentina pulled back as per the source."
+            },
+            {
+                "text": "India’s rank as Aluminium Producer?",
+                "options": ["1st", "2nd", "3rd", "4th"],
+                "correctAnswer": 1,
+                "explanation": "India is the 2nd largest aluminium producer globally."
+            },
+            {
+                "text": "Which state has ~40% of India's mineral resources?",
+                "options": ["Odisha", "Chhattisgarh", "Jharkhand", "Karnataka"],
+                "correctAnswer": 2,
+                "explanation": "Jharkhand holds about 40% of mineral wealth."
+            },
+            {
+                "text": "Which is NOT a copper mine in Jharkhand?",
+                "options": ["Ghatsila", "Surda", "Khetri", "Rakha"],
+                "correctAnswer": 2,
+                "explanation": "Khetri is located in Rajasthan, not Jharkhand."
+            },
+            {
+                "text": "India ranks 2nd largest in which manufacturing sector?",
+                "options": ["Textiles", "Mobile phones", "Pharma", "Steel"],
+                "correctAnswer": 1,
+                "explanation": "India became 2nd largest mobile phone manufacturer."
+            },
+            {
+                "text": "FDI inflow for FY 2024–25?",
+                "options": ["75.50B", "81.04B", "90.10B", "100.00B"],
+                "correctAnswer": 1,
+                "explanation": "India recorded FDI inflow of USD 81.04 billion."
+            },
+            {
+                "text": "India rank in FDI inflows 2024?",
+                "options": ["10th", "12th", "15th", "20th"],
+                "correctAnswer": 2,
+                "explanation": "India ranked 15th in FDI inflows."
+            },
+            {
+                "text": "Which country gave 30% of India’s FDI?",
+                "options": ["US", "Mauritius", "Singapore", "Japan"],
+                "correctAnswer": 2,
+                "explanation": "Singapore was the top contributor for FDI."
+            },
+            {
+                "text": "Top export destination FY 2024–25?",
+                "options": ["China", "UAE", "USA", "Germany"],
+                "correctAnswer": 2,
+                "explanation": "USA was India’s top export market."
+            },
+            {
+                "text": "Forex reserves crossed $700B on?",
+                "options": ["15 June", "20 June", "27 June", "5 July"],
+                "correctAnswer": 2,
+                "explanation": "Forex crossed $700B on June 27, 2025."
+            },
+            {
+                "text": "For how many years has USA been top trading partner?",
+                "options": ["2", "3", "4", "5"],
+                "correctAnswer": 2,
+                "explanation": "USA has been India’s largest trading partner for 4 consecutive years."
+            },
+            {
+                "text": "Which company was top by market cap in Feb 2025?",
+                "options": ["Microsoft", "NVIDIA", "Apple", "Amazon"],
+                "correctAnswer": 2,
+                "explanation": "Apple topped the global market cap list."
+            },
+            {
+                "text": "Fiscal Health Index 2025 released by?",
+                "options": ["Finance Ministry", "RBI", "NITI Aayog", "CAG"],
+                "correctAnswer": 2,
+                "explanation": "NITI Aayog released the index."
+            },
+            {
+                "text": "Which state topped Fiscal Health Index 2025?",
+                "options": ["Gujarat", "Chhattisgarh", "Odisha", "Jharkhand"],
+                "correctAnswer": 2,
+                "explanation": "Odisha secured the top rank in the index."
+            },
+            {
+                "text": "India-UK trade target by 2030 after CETA?",
+                "options": ["80B", "100B", "112B", "120B"],
+                "correctAnswer": 2,
+                "explanation": "Target is USD 112 billion trade value."
+            },
+            {
+                "text": "India's rank in SDG Index 2025?",
+                "options": ["89", "99", "109", "119"],
+                "correctAnswer": 1,
+                "explanation": "India ranked 99th out of 167 nations."
+            },
+            {
+                "text": "Largest producer of Turmeric in India?",
+                "options": ["Telangana", "Andhra Pradesh", "Karnataka", "Maharashtra"],
+                "correctAnswer": 3,
+                "explanation": "Maharashtra leads in turmeric production."
+            }
+        ],
         "Current Affairs - Set - 15": [{
                 "text": "Which government department launched the 'Anna Chakra' tool, aimed at optimising the Public Distribution System (PDS) supply chain?",
                 "options": ["Department of Consumer Affairs", "Department of Food & Public Distribution (DFPD)",
@@ -7252,7 +7228,2999 @@ const allQuizData = {
                 "correctAnswer": 1,
                 "explanation": "Mukesh Dalal was elected unopposed from Surat."
             }
+        ],
+        "Bihar Budget (Part-1)": [{
+                "text": "Which Article of the Constitution governs the Union Budget?",
+                "options": ["Article 110", "Article 111", "Article 112", "Article 113"],
+                "correctAnswer": 2,
+                "explanation": "Article 112 of the Indian Constitution deals with the Annual Financial Statement, which is the Union Budget."
+            },
+            {
+                "text": "The State Budget is governed by which Article of the Indian Constitution?",
+                "options": ["Article 200", "Article 201", "Article 202", "Article 203"],
+                "correctAnswer": 2,
+                "explanation": "Article 202 requires each state government to present its annual financial statement (State Budget) to the legislature."
+            },
+            {
+                "text": "The financial year in India starts from:",
+                "options": ["1st January", "1st March", "1st April", "1st July"],
+                "correctAnswer": 2,
+                "explanation": "India’s financial year runs from 1st April to 31st March each year."
+            },
+            {
+                "text": "What is the correct terminology used in the Constitution for \"Budget\"?",
+                "options": ["Annual Statement", "Budgetary Proposal", "Annual Expenditure Report", "Annual Financial Statement"],
+                "correctAnswer": 3,
+                "explanation": "The term 'Annual Financial Statement' is used in the Constitution for the Budget."
+            },
+            {
+                "text": "In which financial year was the Outcome Budget introduced in Bihar for the first time?",
+                "options": ["2005-06", "2006-07", "2007-08", "2008-09"],
+                "correctAnswer": 1,
+                "explanation": "Bihar introduced the Outcome Budget for the first time in 2006-07, linking spending with results."
+            },
+            {
+                "text": "In which year was the first Achievement Report published in Bihar?",
+                "options": ["2005-06", "2006-07", "2007-08", "2008-09"],
+                "correctAnswer": 1,
+                "explanation": "The first Achievement Report was published in Bihar alongside its Outcome Budget in 2006-07."
+            },
+            {
+                "text": "Since which financial year has Bihar been producing a Gender Budget?",
+                "options": ["2006-07", "2007-08", "2008-09", "2009-10"],
+                "correctAnswer": 2,
+                "explanation": "Bihar started publishing a Gender Budget from the financial year 2008-09."
+            },
+            {
+                "text": "Bihar started producing the Green Budget from:",
+                "options": ["2019-20", "2020-21", "2021-22", "2022-23"],
+                "correctAnswer": 1,
+                "explanation": "Green Budget was first presented in 2020-21 with a focus on sustainability."
+            },
+            {
+                "text": "Who presented the Bihar Budget for 2025-26?",
+                "options": ["Shri Tejashwi Yadav", "Shri Nitish Kumar", "Shri Samrat Chaudhary", "Shri Tarkishore Prasad"],
+                "correctAnswer": 2,
+                "explanation": "The Finance Minister for Bihar, Shri Samrat Chaudhary, presented the 2025-26 budget."
+            },
+            {
+                "text": "What is the total budget amount of Bihar for 2025-26?",
+                "options": ["₹3,00,000 Cr", "₹3,16,895.02 Cr", "₹3,50,000 Cr", "₹3,16,000 Cr"],
+                "correctAnswer": 1,
+                "explanation": "The total budget for Bihar in 2025-26 is ₹3,16,895.02 crore, showing growth from the previous year."
+            },
+            {
+                "text": "How much more is the 2025-26 Bihar budget compared to 2024-25?",
+                "options": [
+                    "₹38,000 Cr",
+                    "₹37,500 Cr",
+                    "₹38,169.20 Cr",
+                    "₹40,000 Cr"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The budget increased by a record ₹38,169.20 crore compared to 2024-25."
+            },
+            {
+                "text": "What is the percentage increase in the Bihar budget for 2025-26 compared to 2024-25?",
+                "options": ["12.50%", "13.69%", "14.20%", "15.00%"],
+                "correctAnswer": 1,
+                "explanation": "The percentage increase this year is 13.69%, indicating robust expansion."
+            },
+            {
+                "text": "What is the expected contribution from the Centre to Bihar for 2025-26?",
+                "options": ["₹52,000 Cr", "₹54,000 Cr", "₹54,575.02 Cr", "₹56,000 Cr"],
+                "correctAnswer": 2,
+                "explanation": "The Centre is expected to contribute ₹54,575.02 crore to Bihar’s budget."
+            },
+            {
+                "text": "How much more is the expected Centre’s contribution for 2025-26 compared to 2024-25?",
+                "options": ["₹2,000 Cr", "₹2,414.40 Cr", "₹2,500 Cr", "₹3,000 Cr"],
+                "correctAnswer": 1,
+                "explanation": "An increase of ₹2,414.40 crore in Centre’s allocation is expected for Bihar."
+            },
+            {
+                "text": "What is the estimated GSDP of Bihar for 2025-26 at current price?",
+                "options": ["₹10,00,000 Cr", "₹10,50,000 Cr", "₹10,97,264 Cr", "₹11,00,000 Cr"],
+                "correctAnswer": 2,
+                "explanation": "Estimated Gross State Domestic Product (GSDP) for Bihar is ₹10,97,264 crore."
+            },
+            {
+                "text": "What is the revenue surplus of Bihar for 2025-26?",
+                "options": ["₹8,000 Cr", "₹8,831.18 Cr", "₹9,000 Cr", "₹8,700 Cr"],
+                "correctAnswer": 1,
+                "explanation": "Revenue surplus measures excess of income over expenditure; for Bihar, it is ₹8,831.18 crore."
+            },
+            {
+                "text": "The revenue surplus of ₹8,831.18 Cr is what percentage of the GSDP?",
+                "options": ["0.75%", "0.85%", "0.80%", "1.00%"],
+                "correctAnswer": 2,
+                "explanation": "Revenue surplus forms 0.80% of Bihar’s GSDP in 2025-26."
+            },
+            {
+                "text": "What is the capital expenditure in Bihar Budget 2025-26?",
+                "options": ["₹64,000 Cr", "₹64,894.76 Cr", "₹65,000 Cr", "₹66,000 Cr"],
+                "correctAnswer": 1,
+                "explanation": "Capital expenditure (for assets and infrastructure) is ₹64,894.76 crore in Bihar’s budget."
+            },
+            {
+                "text": "What percentage of the total expenditure is Capital Expenditure?",
+                "options": ["19.52%", "21.48%", "20.48%", "22.50%"],
+                "correctAnswer": 2,
+                "explanation": "Capital expenditure accounts for 20.48% of Bihar’s total spend, a sign of investment focus."
+            },
+            {
+                "text": "What percentage of the expenditure is Revenue Expenditure in Bihar Budget 2025-26?",
+                "options": ["79.52%", "78.00%", "80.00%", "81.52%"],
+                "correctAnswer": 0,
+                "explanation": "Revenue expenditure (for ongoing costs) is 79.52% of total budget."
+            },
+            {
+                "text": "What is the fiscal deficit of Bihar for 2025-26?",
+                "options": ["₹30,000 Cr", "₹31,000 Cr", "₹32,718.30 Cr", "₹34,000 Cr"],
+                "correctAnswer": 2,
+                "explanation": "Fiscal deficit is the gap between income and spending; for Bihar it's ₹32,718.30 crore."
+            },
+            {
+                "text": "Fiscal Deficit is what percentage of GSDP?",
+                "options": ["2.50%", "2.98%", "3.10%", "3.25%"],
+                "correctAnswer": 1,
+                "explanation": "Bihar’s fiscal deficit is 2.98% of its GSDP, within FRBM limit."
+            },
+            {
+                "text": "The fiscal deficit of Bihar is within what permissible limit of the FRBM Act?",
+                "options": ["3%", "4%", "3.5%", "2.5%"],
+                "correctAnswer": 0,
+                "explanation": "FRBM Act sets 3% as the upper limit, which Bihar stays under."
+            },
+            {
+                "text": "What is the Outstanding Public Debt of Bihar as per Budget 2025-26?",
+                "options": ["₹3,50,000 Cr", "₹3,53,819.11 Cr", "₹3,60,000 Cr", "₹3,65,000 Cr"],
+                "correctAnswer": 1,
+                "explanation": "Outstanding public debt for Bihar stands at ₹3,53,819.11 crore in 2025-26."
+            },
+            {
+                "text": "Outstanding Public Debt is what percentage of the GSDP?",
+                "options": ["30.25%", "31.25%", "32.25%", "33.25%"],
+                "correctAnswer": 2,
+                "explanation": "Bihar’s debt is 32.25% of its GSDP, a key metric for fiscal health."
+            },
+            {
+                "text": "What is the total debt of Bihar for 2025-26?",
+                "options": ["₹4,00,000 Cr", "₹4,06,476.12 Cr", "₹4,10,000 Cr", "₹4,20,000 Cr"],
+                "correctAnswer": 1,
+                "explanation": "Total debt for Bihar in 2025-26 amounts to ₹4,06,476.12 crore."
+            },
+            {
+                "text": "Total debt is what percentage of GSDP in Bihar for 2025-26?",
+                "options": ["36.04%", "37.04%", "35.04%", "38.04%"],
+                "correctAnswer": 1,
+                "explanation": "Total debt is equal to 37.04% of the state’s GSDP."
+            },
+            {
+                "text": "A Centre of Excellence for “jaggery” is being set up at which institution?",
+                "options": ["Nalanda Agricultural University", "Purnea Agricultural College", "Dr Rajendra Prasad Agricultural University", "Patna University"],
+                "correctAnswer": 2,
+                "explanation": "Centre of Excellence for jaggery is at Dr Rajendra Prasad Agricultural University, reflecting food sector focus."
+            },
+            {
+                "text": "Where is Dr Rajendra Prasad Agricultural University located?",
+                "options": ["Gaya", "Samastipur", "Bhagalpur", "Purnea"],
+                "correctAnswer": 1,
+                "explanation": "This agricultural university is in Samastipur district."
+            },
+            {
+                "text": "Hybrid Doppler Weather Radar Networks will be set up in which districts?",
+                "options": ["Gaya and Patna", "Muzaffarpur and Purnea", "West Champaran and Bhagalpur", "Araria and Samastipur"],
+                "correctAnswer": 2,
+                "explanation": "Radars will be installed in West Champaran and Bhagalpur districts for better forecasts."
+            },
+            {
+                "text": "What is the advance time period for which the new Doppler Radars will provide weather updates?",
+                "options": ["12 hours", "18 hours", "24 hours", "36 hours"],
+                "correctAnswer": 2,
+                "explanation": "New Doppler Radars will give weather advance updates for 24 hours."
+            },
+            {
+                "text": "By which year does the Bihar Government aim to enable travel to Patna from any corner of the state within 4 hours?",
+                "options": ["2025", "2026", "2027", "2028"],
+                "correctAnswer": 2,
+                "explanation": "Bihar plans all corners of the state to be reachable to Patna within four hours by 2027."
+            },
+            {
+                "text": "Bihar received the “Water Transversality Global Award 2024” for which program?",
+                "options": [
+                    "Smart Water Management",
+                    "Jal Jeevan Mission",
+                    "Climate-Resilient Agriculture Program",
+                    "River-Linking Program"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar was awarded for its ‘Climate-Resilient Agriculture Program’, which addresses water use in farming."
+            },
+            {
+                "text": "What is Bihar’s rank in Makhana production in India?",
+                "options": ["2nd", "3rd", "4th", "1st"],
+                "correctAnswer": 3,
+                "explanation": "Bihar is the leading state in India for Makhana production."
+            },
+            {
+                "text": "What is Bihar’s rank in Honey production in India?",
+                "options": ["2nd", "3rd", "4th", "5th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar stands 4th in honey production at the national level."
+            },
+            {
+                "text": "Where is the Centre of Excellence for betel farming to be opened?",
+                "options": ["Hajipur", "Bidupur, Vaishali", "Samastipur", "Muzaffarpur"],
+                "correctAnswer": 1,
+                "explanation": "The new Centre of Excellence for betel (paan) farming will be in Bidupur, Vaishali."
+            },
+            {
+                "text": "Which IIM will provide training to Jeevika Didis?",
+                "options": ["IIM Ahmedabad", "IIM Bangalore", "IIM Kolkata", "IIM Calcutta (IIM-C)"],
+                "correctAnswer": 3,
+                "explanation": "IIM Calcutta will help train the women of Jeevika for better livelihoods."
+            },
+            {
+                "text": "At which COP event was Bihar’s Jal Jivan Hariyali Mission appreciated globally?",
+                "options": ["COP-26", "COP-27", "COP-28", "COP-29"],
+                "correctAnswer": 2,
+                "explanation": "COP-28 saw global appreciation for Bihar's environmental schemes."
+            },
+            {
+                "text": "Where was COP-28 held?",
+                "options": ["Paris", "Glasgow", "Dubai", "New York"],
+                "correctAnswer": 2,
+                "explanation": "COP-28 climate talks were hosted in Dubai."
+            },
+            {
+                "text": "Which of the following cities is NOT currently a Smart City in Bihar?",
+                "options": ["Patna", "Bhagalpur", "Gaya", "Biharsharif"],
+                "correctAnswer": 2,
+                "explanation": "Gaya is not included in the current list of Smart Cities in Bihar."
+            },
+            {
+                "text": "Which of the following cities currently have a Khadi Mall?",
+                "options": [
+                    "Patna, Purnea, Muzaffarpur",
+                    "Darbhanga, Gaya, Bhagalpur",
+                    "Saharsa, Saran, Munger",
+                    "Bhagalpur, Saran, Purnea"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Khadi Malls are operational in Patna, Purnea, and Muzaffarpur."
+            },
+            {
+                "text": "In which cities are new Khadi Malls to be opened?",
+                "options": [
+                    "Patna, Gaya, Munger",
+                    "Darbhanga, Munger, Gaya, Saran, Bhagalpur, Saharsa",
+                    "Patna, Bhagalpur, Saran",
+                    "Muzaffarpur, Darbhanga, Saharsa"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Darbhanga, Munger, Gaya, Saran, Bhagalpur and Saharsa are designated for new Khadi Malls."
+            },
+            {
+                "text": "In which district is Dobhi located, where development projects are being undertaken?",
+                "options": ["Nalanda", "Gaya", "Bhojpur", "Muzaffarpur"],
+                "correctAnswer": 1,
+                "explanation": "Dobhi is a block in Gaya district of Bihar."
+            },
+            {
+                "text": "How many acres are being developed for the industrial park on the Kolkata-Amritsar Industrial Corridor?",
+                "options": ["1600 acres", "1670 acres", "1700 acres", "1750 acres"],
+                "correctAnswer": 1,
+                "explanation": "1670 acres are earmarked for industrial park development on this corridor."
+            },
+            {
+                "text": "What is the expected investment in the industrial park project on the Kolkata-Amritsar Corridor?",
+                "options": ["₹1000 crore", "₹1250 crore", "₹1344 crore", "₹1400 crore"],
+                "correctAnswer": 2,
+                "explanation": "The expected project investment is ₹1344 crore."
+            },
+            {
+                "text": "What is the name of Bihar Government's livelihood project for rural empowerment?",
+                "options": ["MGNREGA", "Ujjwala", "JEEViKA", "Kaushal Vikas"],
+                "correctAnswer": 2,
+                "explanation": "JEEViKA is Bihar’s flagship program for rural empowerment and women’s livelihood initiatives."
+            },
+            {
+                "text": "Which organization is implementing the Bihar Rural Livelihoods Project (BRLP)?",
+                "options": [
+                    "NABARD",
+                    "Bihar Rural Livelihoods Promotion Society (BRLPS)",
+                    "Ministry of Agriculture",
+                    "NITI Aayog"
+                ],
+                "correctAnswer": 1,
+                "explanation": "BRLPS is a Bihar government society which implements BRLP (JEEViKA)."
+            },
+            {
+                "text": "Under which department does BRLPS function?",
+                "options": ["Department of Agriculture", "Department of Finance", "Department of Panchayati Raj", "Department of Rural Development"],
+                "correctAnswer": 3,
+                "explanation": "BRLPS works under Department of Rural Development, Bihar."
+            },
+            {
+                "text": "The BRLP project is aided by which international organization?",
+                "options": ["IMF", "Asian Development Bank", "World Bank", "UNDP"],
+                "correctAnswer": 2,
+                "explanation": "World Bank provides assistance for the BRLP/JEEViKA project in Bihar."
+            },
+            {
+                "text": "What is the core objective of JEEViKA?",
+                "options": [
+                    "Skill training for urban youth",
+                    "Agricultural subsidies",
+                    "Social and economic empowerment of rural poor",
+                    "Construction of rural roads"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Social and economic empowerment of rural poor is the main goal of JEEViKA."
+            }
+        ],
+        "Bihar Budget (Part-2)": [{
+                "text": "Where will COP-29 be held?",
+                "options": ["Dubai", "Belem", "Baku", "Berlin"],
+                "correctAnswer": 2,
+                "explanation": "COP-29 will be held in Baku, Azerbaijan, according to the official UN climate schedule."
+            },
+            {
+                "text": "COP-30 is scheduled to be held in which country?",
+                "options": ["Brazil", "Germany", "Azerbaijan", "India"],
+                "correctAnswer": 0,
+                "explanation": "COP-30 will occur in Brazil, reflecting the regional rotation of climate conferences."
+            },
+            {
+                "text": "In which city will COP-30 be held?",
+                "options": ["Rio de Janeiro", "Brasília", "Belem", "São Paulo"],
+                "correctAnswer": 2,
+                "explanation": "Belem, Brazil has been selected as the host city for COP-30."
+            },
+            {
+                "text": "What does WMO stand for?",
+                "options": [
+                    "World Migration Organization",
+                    "World Meteorological Organization",
+                    "World Medical Organization",
+                    "World Management Organization"
+                ],
+                "correctAnswer": 1,
+                "explanation": "WMO stands for World Meteorological Organization, which coordinates global weather and climate efforts."
+            },
+            {
+                "text": "Where is the headquarters of the World Meteorological Organization located?",
+                "options": ["Nairobi, Kenya", "New York, USA", "Geneva, Switzerland", "Berlin, Germany"],
+                "correctAnswer": 2,
+                "explanation": "WMO's headquarters is in Geneva, Switzerland, a hub for international organizations."
+            },
+            {
+                "text": "In which year was the Rio Earth Summit held?",
+                "options": ["1990", "1992", "1994", "1996"],
+                "correctAnswer": 1,
+                "explanation": "The Rio Earth Summit, a landmark in sustainable development, took place in 1992."
+            },
+            {
+                "text": "When did the Rio Earth Summit agreements enter into force?",
+                "options": ["1992", "1993", "1994", "1995"],
+                "correctAnswer": 2,
+                "explanation": "The major agreements from the Rio Summit became effective in 1994."
+            },
+            {
+                "text": "Where is the headquarters of the UN Climate Change Secretariat located?",
+                "options": ["Geneva, Switzerland", "Berlin, Germany", "Bonn, Germany", "Paris, France"],
+                "correctAnswer": 2,
+                "explanation": "The UN Climate Change Secretariat (UNFCCC) is based in Bonn, Germany."
+            },
+            {
+                "text": "Where was the first COP held?",
+                "options": ["Geneva", "Berlin", "Bonn", "Nairobi"],
+                "correctAnswer": 1,
+                "explanation": "Berlin hosted the first Conference of the Parties (COP) in 1995."
+            },
+            {
+                "text": "In which year was the Intergovernmental Panel on Climate Change (IPCC) formed?",
+                "options": ["1986", "1987", "1988", "1990"],
+                "correctAnswer": 2,
+                "explanation": "IPCC was established in 1988 to provide regular climate assessments."
+            },
+            {
+                "text": "IPCC was formed jointly by which two organizations?",
+                "options": [
+                    "WHO and UNDP",
+                    "WMO and UNEP",
+                    "IMF and World Bank",
+                    "UNDP and UNESCO"
+                ],
+                "correctAnswer": 1,
+                "explanation": "IPCC is a collaboration between the World Meteorological Organization (WMO) and the United Nations Environment Programme (UNEP)."
+            },
+            {
+                "text": "When was UNEP established?",
+                "options": ["1970", "1971", "1972", "1973"],
+                "correctAnswer": 2,
+                "explanation": "UNEP (United Nations Environment Programme) was set up in 1972."
+            },
+            {
+                "text": "Where is the HQ of UNEP located?",
+                "options": ["Bonn, Germany", "Nairobi, Kenya", "Geneva, Switzerland", "Paris, France"],
+                "correctAnswer": 1,
+                "explanation": "UNEP's global headquarters is in Nairobi, Kenya."
+            },
+            {
+                "text": "Where is the Multimodal Logistics Park being developed in Bihar?",
+                "options": ["Hajipur", "Jaitiya, Fatuha", "Barauni", "Gaya"],
+                "correctAnswer": 1,
+                "explanation": "The Logistics Park is being built in Jaitiya, Fatuha, close to Patna."
+            },
+            {
+                "text": "What is the theme of SDG 6?",
+                "options": ["Zero Hunger", "Quality Education", "Clean Water and Sanitation", "Gender Equality"],
+                "correctAnswer": 2,
+                "explanation": "SDG 6 focuses on Clean Water and Sanitation for all."
+            },
+            {
+                "text": "According to NITI Aayog’s 2023–24 report, what is Bihar's score in SDG 6?",
+                "options": ["96", "97", "98", "99"],
+                "correctAnswer": 2,
+                "explanation": "Bihar achieved a score of 98 in SDG 6 for clean water and sanitation."
+            },
+            {
+                "text": "What is Bihar’s rank in SDG 6 performance as per NITI Aayog Report 2023–24?",
+                "options": ["1st", "2nd", "3rd", "4th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar was ranked third in SDG 6 (water and sanitation) nationally."
+            },
+            {
+                "text": "Where is AIIMS coming up in Bihar?",
+                "options": ["Muzaffarpur", "Gaya", "Darbhanga", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Darbhanga has been chosen as the site for Bihar's new AIIMS."
+            },
+            {
+                "text": "Where was the Global Digital Health Summit 2024 held?",
+                "options": ["Delhi", "Mumbai", "Hyderabad", "Bengaluru"],
+                "correctAnswer": 1,
+                "explanation": "The summit convened in Mumbai, highlighting digital health initiatives."
+            },
+            {
+                "text": "What award did Bihar receive at the Global Digital Health Summit 2024?",
+                "options": ["Excellence Award", "Leadership Award", "Innovation Award", "Sustainability Award"],
+                "correctAnswer": 2,
+                "explanation": "Bihar was recognized with the Innovation Award for digital health advancements."
+            },
+            {
+                "text": "Medical studies in Bihar can now be conducted in which languages?",
+                "options": ["English only", "Hindi only", "Hindi and Urdu", "English and Hindi"],
+                "correctAnswer": 3,
+                "explanation": "From 2024, medical education in Bihar is available in both English and Hindi."
+            },
+            {
+                "text": "How many tigers were reported in the Valmiki Tiger Reserve (VTR) in 2022?",
+                "options": ["45", "50", "54", "60"],
+                "correctAnswer": 2,
+                "explanation": "As of 2022, there are 54 tigers in Valmiki Tiger Reserve, a major wildlife success."
+            },
+            {
+                "text": "Which award did the Valmiki Tiger Reserve receive in 2024 for community-based conservation initiatives?",
+                "options": ["National Wildlife Award", "UNDP Biodiversity Prize", "SKOCH Award", "Green India Award"],
+                "correctAnswer": 2,
+                "explanation": "Valmiki Tiger Reserve was honored with the SKOCH Award for conservation work."
+            },
+            {
+                "text": "Which wildlife sanctuary in Bihar has received approval from the NTCA to be declared a Tiger Reserve?",
+                "options": ["Bhimbandh Wildlife Sanctuary", "Kaimur Wildlife Sanctuary", "Valmiki Wildlife Sanctuary", "Rajgir Wildlife Sanctuary"],
+                "correctAnswer": 1,
+                "explanation": "Kaimur Wildlife Sanctuary will soon become Bihar’s second tiger reserve."
+            },
+            {
+                "text": "NTCA stands for:",
+                "options": [
+                    "National Territorial Conservation Agency",
+                    "National Tiger Census Authority",
+                    "National Tiger Conservation Authority",
+                    "National Terrestrial Control Authority"
+                ],
+                "correctAnswer": 2,
+                "explanation": "National Tiger Conservation Authority (NTCA) oversees tiger protection in India."
+            },
+            {
+                "text": "Where is the Buddha Samyak Darshan Museum and Memorial Stupa located?",
+                "options": ["Rajgir", "Vaishali", "Bodh Gaya", "Nalanda"],
+                "correctAnswer": 1,
+                "explanation": "Vaishali, a site linked to Buddha, hosts the new museum and stupa."
+            },
+            {
+                "text": "Where is the Bihar Forestry College and Research Institute situated?",
+                "options": ["Nalanda", "Vaishali", "Munger", "West Champaran"],
+                "correctAnswer": 2,
+                "explanation": "Munger is home to Bihar’s primary forestry college and research campus."
+            },
+            {
+                "text": "Baba Harihar Nath temple is to be developed on the lines of which famous corridor?",
+                "options": ["Kedarnath Corridor", "Kashi Vishwanath Corridor", "Ayodhya Corridor", "Sarnath Corridor"],
+                "correctAnswer": 1,
+                "explanation": "The temple will follow the redevelopment model of Kashi Vishwanath Corridor."
+            },
+            {
+                "text": "The term ‘Harihar’ in Baba Harihar Nath represents a combination of which two deities?",
+                "options": ["Brahma and Vishnu", "Shiva and Brahma", "Vishnu and Shiva", "Ram and Krishna"],
+                "correctAnswer": 2,
+                "explanation": "'Hari' (Vishnu) and 'Har' (Shiva) represent two key deities in Hinduism."
+            },
+            {
+                "text": "According to legend, who established Hari and Har at Baba Harihar Nath temple site?",
+                "options": ["Sage Vishwamitra", "Lord Ramchandra", "Lord Krishna", "Lord Buddha"],
+                "correctAnswer": 1,
+                "explanation": "Lord Ramchandra is said to have established the site as per local tradition."
+            },
+            {
+                "text": "Where is Matasyagana lake located?",
+                "options": ["Saharsa", "Supaul", "Madhepura", "Araria"],
+                "correctAnswer": 0,
+                "explanation": "Saharsa district in Bihar is famous for the Matasyagana lake."
+            },
+            {
+                "text": "Where is the Bihar government planning to construct replicas of the Seven Wonders of the World?",
+                "options": ["Vaishali", "Patna", "Silaunja, near Bodh Gaya", "Nalanda"],
+                "correctAnswer": 2,
+                "explanation": "Bihar plans its Seven Wonders Park at Silaunja, near Bodh Gaya."
+            },
+            {
+                "text": "Limestone block auction has been conducted in which district of Bihar?",
+                "options": ["Gaya", "Rohtas", "Kaimur", "Buxar"],
+                "correctAnswer": 1,
+                "explanation": "Rohtas is rich in mineral resources; limestone auction is a major initiative."
+            },
+            {
+                "text": "Where is a new Bihar Bhawan being planned?",
+                "options": ["Delhi", "Bengaluru", "Mumbai", "Hyderabad"],
+                "correctAnswer": 2,
+                "explanation": "Mumbai will host Bihar’s latest state guest house, Bihar Bhawan."
+            },
+            {
+                "text": "Which state has the maximum number of female police personnel in India?",
+                "options": ["Uttar Pradesh", "Maharashtra", "Bihar", "Tamil Nadu"],
+                "correctAnswer": 2,
+                "explanation": "Bihar leads the country in female police strength as per the latest statistics."
+            },
+            {
+                "text": "Approximately how many female police personnel are there in Bihar?",
+                "options": ["25,000", "28,000", "More than 30,000", "32,000"],
+                "correctAnswer": 2,
+                "explanation": "Bihar's force consists of more than 30,000 female police officers."
+            },
+            {
+                "text": "Which district topped the NITI Aayog overall delta ranking in March 2024?",
+                "options": ["Nawada", "Begusarai", "Sitamarhi", "Darbhanga"],
+                "correctAnswer": 1,
+                "explanation": "Begusarai led in growth and development metrics in the state."
+            },
+            {
+                "text": "Which two districts were at 3rd position in the NITI Aayog Delta Ranking for March 2024?",
+                "options": ["Darbhanga and Patna", "Nawada and Sitamarhi", "Madhubani and Samastipur", "Nalanda and Araria"],
+                "correctAnswer": 1,
+                "explanation": "Nawada and Sitamarhi both held third place in overall performance."
+            },
+            {
+                "text": "A cancer hospital is proposed to be established in which district of Bihar?",
+                "options": ["Patna", "Muzaffarpur", "Begusarai", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Begusarai has been selected for Bihar's new cancer hospital project."
+            },
+            {
+                "text": "Where is the airport construction currently ongoing in Bihar?",
+                "options": ["Rajgir", "Raxaul", "Purnea", "Sultanganj"],
+                "correctAnswer": 2,
+                "explanation": "Purnea is the current site for a new airport development in Bihar."
+            },
+            {
+                "text": "Which locations are proposed sites for new airports in Bihar?",
+                "options": [
+                    "Rajgir, Sultanganj, and Raxaul",
+                    "Gaya, Begusarai, and Saran",
+                    "Samastipur, Buxar, and Bhagalpur",
+                    "Patna, Hajipur, and Saharsa"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Rajgir, Sultanganj, and Raxaul are the latest planned airport locations."
+            },
+            {
+                "text": "What is the name of the vegetable outlet chain to be opened in every block, similar to Sudha Dairy?",
+                "options": ["Harit Mandal", "Tarkari Sudha", "Sabzi Seva", "Green Basket"],
+                "correctAnswer": 1,
+                "explanation": "Tarkari Sudha is Bihar’s new vegetable supply chain initiative."
+            },
+            {
+                "text": "Where is a new sports academy and stadium being developed at a cost of ₹740 crore in 90 acres?",
+                "options": ["Patna", "Rajgir", "Muzaffarpur", "Bhagalpur"],
+                "correctAnswer": 1,
+                "explanation": "Rajgir is getting a massive, modern sports complex for the state."
+            },
+            {
+                "text": "In which city is Bihar Sports University being established?",
+                "options": ["Patna", "Muzaffarpur", "Rajgir", "Hajipur"],
+                "correctAnswer": 2,
+                "explanation": "Rajgir will host the state’s new Sports University."
+            },
+            {
+                "text": "Who is the Chancellor of Bihar Sports University?",
+                "options": ["Shishir Sinha", "Chief Secretary", "Education Minister", "Chief Minister"],
+                "correctAnswer": 3,
+                "explanation": "The Chief Minister of Bihar is Chancellor of Bihar Sports University."
+            },
+            {
+                "text": "Who is the Vice Chancellor of Bihar Sports University?",
+                "options": ["Rajesh Kumar", "Shishir Sinha", "Manoj Sinha", "Ajay Bhushan"],
+                "correctAnswer": 1,
+                "explanation": "Shishir Sinha is serving as Vice Chancellor of Bihar Sports University."
+            },
+            {
+                "text": "What is the seed fund allocated by the Bihar Government for the Green Development Fund?",
+                "options": ["₹20 crore", "₹25 crore", "₹30 crore", "₹50 crore"],
+                "correctAnswer": 1,
+                "explanation": "₹25 crore has been earmarked to kickstart Bihar’s Green Development Fund."
+            },
+            {
+                "text": "How much amount will be spent under Saat Nischay 2 in the financial year 2025–26?",
+                "options": ["₹5000.00 crore", "₹5972.00 crore", "₹6000.00 crore", "₹6500.00 crore"],
+                "correctAnswer": 1,
+                "explanation": "₹5972 crore budgeted for the flagship infrastructure program."
+            },
+            {
+                "text": "The “Tarkari Sudha” initiative aims to benefit which two groups by providing fair prices?",
+                "options": ["Consumers and traders", "Farmers and traders", "Farmers and consumers", "Vendors and wholesalers"],
+                "correctAnswer": 2,
+                "explanation": "“Tarkari Sudha” intends to connect farmers with consumers to ensure fair pricing."
+            },
+            {
+                "text": "Which project of the Bihar government aims to create infrastructure and development with an allocation of ₹5972 crore in 2025–26?",
+                "options": ["Har Ghar Nal Ka Jal", "Saat Nischay 2", "Bihar Vikas Mission", "Gramin Sadak Yojana"],
+                "correctAnswer": 1,
+                "explanation": "Saat Nischay 2 is the flagship Bihar government scheme for infrastructure expansion."
+            }
+        ],
+        "Bihar ES (Part-1)": [{
+                "text": "Which edition of the Bihar Economic Survey was presented recently?",
+                "options": ["17th", "18th", "19th", "20th"],
+                "correctAnswer": 2,
+                "explanation": "The 19th edition is the latest, reflecting annual reporting by the state."
+            },
+            {
+                "text": "How many chapters are there in the 19th Bihar Economic Survey?",
+                "options": ["12", "13", "14", "15"],
+                "correctAnswer": 2,
+                "explanation": "There are 14 chapters, each covering a sector relevant to Bihar’s economy."
+            },
+            {
+                "text": "The 19th Bihar Economic Survey contains data for which years?",
+                "options": ["2022-23 / 2021-22", "2023-24 / 2022-23", "2021-22 / 2020-21", "2024-25 / 2023-24"],
+                "correctAnswer": 1,
+                "explanation": "It covers latest financial years: 2023-24 and 2022-23."
+            },
+            {
+                "text": "Who presented the 19th Bihar Economic Survey?",
+                "options": ["Nitish Kumar", "Tejashwi Yadav", "Samrat Chaudhary", "Tarkishore Prasad"],
+                "correctAnswer": 2,
+                "explanation": "Samrat Chaudhary, Bihar’s Finance Minister, presented the survey."
+            },
+            {
+                "text": "In which year was the Bihar Economic Survey presented for the first time?",
+                "options": ["2004-05", "2005-06", "2006-07", "2007-08"],
+                "correctAnswer": 2,
+                "explanation": "First survey was in 2006-07, marking the start of annual state reviews."
+            },
+            {
+                "text": "Who presented the first Bihar Economic Survey in 2006-07?",
+                "options": ["Nitish Kumar", "Sushil Kumar Modi", "Samrat Chaudhary", "Raghubar Das"],
+                "correctAnswer": 1,
+                "explanation": "Sushil Kumar Modi was the Finance Minister at that time."
+            },
+            {
+                "text": "As of September 2024, what is Bihar’s Credit-Deposit (CD) Ratio?",
+                "options": ["55.3%", "56.3%", "57.3%", "58.3%"],
+                "correctAnswer": 1,
+                "explanation": "56.3% shows how much of bank deposits are lent as credit."
+            },
+            {
+                "text": "What was Bihar’s Credit-to-GSDP Ratio in 2019-20?",
+                "options": ["27.5%", "28.5%", "29.5%", "30.5%"],
+                "correctAnswer": 0,
+                "explanation": "Credit as a share of GSDP was 27.5% in 2019-20."
+            },
+            {
+                "text": "What is Bihar’s Credit-to-GSDP Ratio in 2023-24?",
+                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
+                "correctAnswer": 2,
+                "explanation": "The ratio rose to 39.9%, indicating increased lending in Bihar."
+            },
+            {
+                "text": "Which state has the highest Credit-Deposit Ratio among the given options?",
+                "options": ["Telangana", "Tamil Nadu", "Andhra Pradesh", "Karnataka"],
+                "correctAnswer": 2,
+                "explanation": "Andhra Pradesh tops in CD Ratio among these states."
+            },
+            {
+                "text": "What is the Credit-Deposit Ratio of Andhra Pradesh?",
+                "options": ["157.9%", "158.9%", "159.9%", "160.9%"],
+                "correctAnswer": 1,
+                "explanation": "Credit-Deposit Ratio of Andhra Pradesh is 158.9%—one of the highest nationally."
+            },
+            {
+                "text": "What is the Credit-Deposit Ratio of Telangana?",
+                "options": ["117.4%", "118.4%", "119.4%", "120.4%"],
+                "correctAnswer": 2,
+                "explanation": "Telangana stands at 119.4% in CD Ratio."
+            },
+            {
+                "text": "What is the Credit-Deposit Ratio of Tamil Nadu?",
+                "options": ["116.7%", "117.7%", "118.7%", "119.7%"],
+                "correctAnswer": 1,
+                "explanation": "Tamil Nadu banks deploy 117.7% of their deposits as credit."
+            },
+            {
+                "text": "What was Bihar’s population as per the 2011 Census?",
+                "options": ["102,000,945", "103,099,945", "104,099,945", "105,099,945"],
+                "correctAnswer": 2,
+                "explanation": "Bihar’s Census 2011 population was 104,099,945."
+            },
+            {
+                "text": "What is Bihar’s estimated population in 2022?",
+                "options": ["128,725,310", "129,725,310", "130,725,310", "131,725,310"],
+                "correctAnswer": 2,
+                "explanation": "Estimates for 2022 put Bihar’s population above 130 million."
+            },
+            {
+                "text": "By what percentage did Bihar’s population increase from 2011 to 2022?",
+                "options": ["24.6%", "25.6%", "26.6%", "27.6%"],
+                "correctAnswer": 1,
+                "explanation": "Population grew by 25.6% in about a decade."
+            },
+            {
+                "text": "What percentage of India’s total population does Bihar account for in 2022?",
+                "options": ["8.6%", "9.0%", "9.2%", "9.4%"],
+                "correctAnswer": 3,
+                "explanation": "In 2022, Bihar accounted for 9.4% of India’s population."
+            },
+            {
+                "text": "What is Bihar’s rank by population in India as of 2022?",
+                "options": ["1st", "2nd", "3rd", "4th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar ranks 3rd, after Uttar Pradesh and Maharashtra."
+            },
+            {
+                "text": "Which two states have a higher population than Bihar?",
+                "options": ["Uttar Pradesh and West Bengal", "Maharashtra and West Bengal", "Uttar Pradesh and Maharashtra", "Uttar Pradesh and Gujarat"],
+                "correctAnswer": 2,
+                "explanation": "Only Uttar Pradesh and Maharashtra surpass Bihar in population."
+            },
+            {
+                "text": "What percentage of India’s population did Bihar have as per the 2011 Census?",
+                "options": ["8.4%", "8.5%", "8.6%", "8.7%"],
+                "correctAnswer": 2,
+                "explanation": "In 2011, Bihar was 8.6% of the national population."
+            },
+            {
+                "text": "What was Bihar’s population density in 2011 (per sq km)?",
+                "options": ["1100", "1106", "1112", "1120"],
+                "correctAnswer": 1,
+                "explanation": "Density was 1106 persons per sq km in 2011."
+            },
+            {
+                "text": "What was Bihar’s population density in 2022 (per sq km)?",
+                "options": ["1380", "1385", "1388", "1392"],
+                "correctAnswer": 2,
+                "explanation": "Density rose to 1388 per sq km in 2022."
+            },
+            {
+                "text": "What was Bihar’s sex ratio in 2011 (females per 1000 males)?",
+                "options": ["915", "918", "920", "925"],
+                "correctAnswer": 1,
+                "explanation": "The ratio was 918 females per 1000 males in 2011."
+            },
+            {
+                "text": "What was Bihar’s sex ratio in 2022 (females per 1000 males)?",
+                "options": ["950", "951", "953", "955"],
+                "correctAnswer": 2,
+                "explanation": "In 2022, the ratio improved to 953 females per 1000 males."
+            },
+            {
+                "text": "Who heads the National Commission on Population?",
+                "options": ["President of India", "Prime Minister", "Vice President", "Union Health Minister"],
+                "correctAnswer": 1,
+                "explanation": "Prime Minister leads the National Commission on Population."
+            },
+            {
+                "text": "NSDP is calculated as:",
+                "options": ["GSDP + Depreciation", "GSDP - Depreciation", "GDP - Depreciation", "NDP + Depreciation"],
+                "correctAnswer": 1,
+                "explanation": "Net State Domestic Product = GSDP minus depreciation."
+            },
+            {
+                "text": "The Biswanath Goldar Committee is related to:",
+                "options": ["Tax reforms", "Poverty estimation", "Revision of the base year", "GST policy"],
+                "correctAnswer": 2,
+                "explanation": "This committee revised the base year for economic calculations."
+            },
+            {
+                "text": "In which sector of the economy are activities undertaken by directly using natural resources?",
+                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Quaternary sector"],
+                "correctAnswer": 0,
+                "explanation": "The primary sector uses resources directly—like farming or mining."
+            },
+            {
+                "text": "Which of the following is NOT an example of the primary sector?",
+                "options": ["Agriculture", "Fishing", "Forestry", "Banking"],
+                "correctAnswer": 3,
+                "explanation": "Banking is a service industry; not primary sector."
+            },
+            {
+                "text": "People working in the primary sector are called:",
+                "options": ["Blue collar workers", "Red collared professionals", "White collared professionals", "Green collared workers"],
+                "correctAnswer": 1,
+                "explanation": "Red collar workers is a term for primary sector jobs."
+            },
+            {
+                "text": "The sector where finished products are made from materials produced in the primary sector is:",
+                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Informal sector"],
+                "correctAnswer": 1,
+                "explanation": "Secondary sector transforms raw materials—like manufacturing."
+            },
+            {
+                "text": "Which of the following is NOT a part of the secondary sector?",
+                "options": ["Industrial production", "Quarrying", "Banking", "Manufacturing"],
+                "correctAnswer": 2,
+                "explanation": "Banking is a tertiary sector activity."
+            },
+            {
+                "text": "People working in the secondary sector are called:",
+                "options": ["Blue collar workers", "Red collared professionals", "White collared professionals", "Grey collar workers"],
+                "correctAnswer": 0,
+                "explanation": "Manufacturing jobs are usually called blue collar."
+            },
+            {
+                "text": "Which sector aids in the development of primary and secondary sectors but does not produce goods itself?",
+                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Quaternary sector"],
+                "correctAnswer": 2,
+                "explanation": "Tertiary sector provides services like transport, trade, banking, insurance."
+            },
+            {
+                "text": "Which of the following is an example of the tertiary sector?",
+                "options": ["Forestry", "Cotton fabric production", "Insurance", "Mining"],
+                "correctAnswer": 2,
+                "explanation": "Insurance is a service area, a classic tertiary activity."
+            },
+            {
+                "text": "What is Bihar’s GSDP at current prices for 2023?",
+                "options": ["₹8,40,000 crore", "₹8,54,429 crore", "₹8,60,000 crore", "₹8,50,000 crore"],
+                "correctAnswer": 1,
+                "explanation": "Bihar's Gross State Domestic Product at current prices is ₹8,54,429 crore for 2023."
+            },
+            {
+                "text": "By what percentage did Bihar’s GSDP at current prices grow in 2023?",
+                "options": ["13.5%", "14.5%", "15.5%", "16.5%"],
+                "correctAnswer": 1,
+                "explanation": "Bihar's GSDP grew 14.5% at current prices in 2023."
+            },
+            {
+                "text": "What is Bihar’s GSDP at constant (2011–12) prices for 2023?",
+                "options": ["₹4,60,000 crore", "₹4,64,540 crore", "₹4,70,000 crore", "₹4,68,500 crore"],
+                "correctAnswer": 1,
+                "explanation": "At constant prices, Bihar's GSDP is ₹4,64,540 crore for 2023."
+            },
+            {
+                "text": "By what percentage did Bihar’s GSDP at constant prices grow in 2023?",
+                "options": ["8.5%", "9.2%", "9.5%", "10%"],
+                "correctAnswer": 1,
+                "explanation": "Growth at constant prices was 9.2% in 2023."
+            },
+            {
+                "text": "What is Bihar’s per capita GSDP at current prices in 2023?",
+                "options": ["₹65,500", "₹66,000", "₹66,828", "₹67,000"],
+                "correctAnswer": 2,
+                "explanation": "Per capita GSDP at current prices is ₹66,828."
+            },
+            {
+                "text": "What is India’s per capita GSDP at current prices in 2023?",
+                "options": ["₹1,82,205", "₹1,83,205", "₹1,84,205", "₹1,85,205"],
+                "correctAnswer": 2,
+                "explanation": "India’s average per capita GSDP is ₹1,84,205 at current prices."
+            },
+            {
+                "text": "By what percentage did Bihar’s per capita GSDP at current prices increase in 2023?",
+                "options": ["12.5%", "12.8%", "13%", "13.5%"],
+                "correctAnswer": 1,
+                "explanation": "Per capita GSDP grew by 12.8% in 2023."
+            },
+            {
+                "text": "What is Bihar’s per capita GSDP at constant prices in 2023?",
+                "options": ["₹36,200", "₹36,333", "₹36,500", "₹36,800"],
+                "correctAnswer": 1,
+                "explanation": "Per capita GSDP at constant prices stands at ₹36,333."
+            },
+            {
+                "text": "What is India’s per capita GSDP at constant prices in 2023?",
+                "options": ["₹1,05,744", "₹1,06,744", "₹1,07,744", "₹1,08,744"],
+                "correctAnswer": 1,
+                "explanation": "India’s per capita GSDP at constant prices is ₹1,06,744."
+            },
+            {
+                "text": "By what percentage did Bihar’s per capita GSDP at constant prices increase in 2023?",
+                "options": ["7.4%", "7.5%", "7.6%", "7.8%"],
+                "correctAnswer": 2,
+                "explanation": "Growth in per capita GSDP at constant prices was 7.6%."
+            },
+            {
+                "text": "What is Bihar’s Gross Fiscal Deficit (GFD) as a percentage of GSDP in 2023?",
+                "options": ["4.0%", "4.1%", "4.2%", "4.3%"],
+                "correctAnswer": 2,
+                "explanation": "Fiscal deficit is 4.2% of GSDP, indicating state's borrowing needs."
+            },
+            {
+                "text": "What is the absolute amount of Bihar’s Gross Fiscal Deficit in 2023?",
+                "options": ["₹34,660 crore", "₹35,000 crore", "₹35,660 crore", "₹36,000 crore"],
+                "correctAnswer": 2,
+                "explanation": "The deficit in absolute terms is ₹35,660 crore."
+            },
+            {
+                "text": "What is Bihar’s Primary Deficit as a percentage of GSDP?",
+                "options": ["2.0%", "2.1%", "2.2%", "2.3%"],
+                "correctAnswer": 1,
+                "explanation": "Primary deficit stands at 2.1%, showing fiscal management."
+            },
+            {
+                "text": "What is Bihar’s NSDP at current prices?",
+                "options": ["₹67,3777 crore", "₹67,377 crore", "₹67,377.0 crore", "₹67,3770 crore"],
+                "correctAnswer": 0,
+                "explanation": "Net State Domestic Product is ₹67,3777 crore (likely ₹6,73,777 crore)."
+            },
+            {
+                "text": "What is Bihar’s NSDP at constant prices?",
+                "options": ["₹37,682 crore", "₹37,6823 crore", "₹37,683 crore", "₹37,680 crore"],
+                "correctAnswer": 1,
+                "explanation": "Constant price NSDP is ₹37,6823 crore (likely ₹3,76,823 crore)."
+            },
+            {
+                "text": "What is the share of the tertiary sector in Bihar’s GSDP for 2023?",
+                "options": ["56.8%", "57.6%", "58.6%", "59.6%"],
+                "correctAnswer": 2,
+                "explanation": "Tertiary sector contributes 58.6% to Bihar’s GSDP."
+            },
+            {
+                "text": "What is the projected growth of the tertiary sector?",
+                "options": ["10.2%", "10.5%", "10.8%", "11%"],
+                "correctAnswer": 2,
+                "explanation": "Growth expected at 10.8%, fastest among sectors."
+            },
+            {
+                "text": "In which sector is Bihar the fastest growing?",
+                "options": ["Primary", "Secondary", "Tertiary", "Manufacturing"],
+                "correctAnswer": 2,
+                "explanation": "Tertiary sector leads in growth rate."
+            },
+            {
+                "text": "What percentage of Bihar’s population is engaged in the tertiary sector?",
+                "options": ["21.2%", "22.2%", "23.2%", "24.2%"],
+                "correctAnswer": 1,
+                "explanation": "22.2% of people work in service sector."
+            },
+            {
+                "text": "What is the share of the secondary sector in Bihar’s GSDP?",
+                "options": ["20.5%", "21.5%", "22.5%", "23.5%"],
+                "correctAnswer": 1,
+                "explanation": "Secondary sector accounts for 21.5%."
+            },
+            {
+                "text": "What percentage of population works in secondary sector?",
+                "options": ["22.6%", "23.6%", "24.6%", "25.6%"],
+                "correctAnswer": 1,
+                "explanation": "23.6% are employed in manufacturing and industry."
+            },
+            {
+                "text": "Percentage of secondary sector contribution from construction?",
+                "options": ["48.2%", "49.2%", "50.2%", "51.2%"],
+                "correctAnswer": 2,
+                "explanation": "Construction contributes about half (50.2%) to the secondary sector."
+            },
+            {
+                "text": "Which state has the lowest secondary sector contribution?",
+                "options": ["Bihar", "Telangana", "Jharkhand", "Odisha"],
+                "correctAnswer": 1,
+                "explanation": "Telangana shows the lowest contribution in secondary sector."
+            },
+            {
+                "text": "What is the share of the primary sector in Bihar’s GSDP?",
+                "options": ["18.9%", "19.5%", "19.9%", "20.5%"],
+                "correctAnswer": 2,
+                "explanation": "Primary sector accounts for 19.9% of GSDP."
+            },
+            {
+                "text": "Which sector has lowest share in GSDP but highest employment?",
+                "options": ["Primary", "Secondary", "Tertiary", "Manufacturing"],
+                "correctAnswer": 0,
+                "explanation": "Primary sector people form highest employment but contribute least to GSDP."
+            },
+            {
+                "text": "Percentage of population engaged in primary sector?",
+                "options": ["52.2%", "53.2%", "54.2%", "55.2%"],
+                "correctAnswer": 2,
+                "explanation": "More than half (54.2%) of Bihar population works in primary sector."
+            },
+            {
+                "text": "What is Bihar’s Gross Fixed Capital Formation (GFCF) at current prices?",
+                "options": ["₹38,000 crore", "₹38,500 crore", "₹38,986 crore", "₹39,000 crore"],
+                "correctAnswer": 2,
+                "explanation": "Bihar’s GFCF is ₹38,986 crore indicating investment level."
+            },
+            {
+                "text": "GFCF as percentage of GSDP?",
+                "options": ["4.4%", "4.5%", "4.6%", "4.7%"],
+                "correctAnswer": 2,
+                "explanation": "GFCF is 4.6% of Bihar’s GSDP."
+            },
+            {
+                "text": "Which is NOT part of Gross Fixed Capital Formation?",
+                "options": ["Machinery purchase", "Road construction", "Land improvements", "Daily consumer goods"],
+                "correctAnswer": 3,
+                "explanation": "Daily consumer goods are not capital formation."
+            },
+            {
+                "text": "What is Bihar’s Consumer Price Index (CPI) combined inflation rate?",
+                "options": ["7.2%", "7.3%", "7.4%", "7.5%"],
+                "correctAnswer": 3,
+                "explanation": "Overall CPI inflation in Bihar is 7.5%."
+            },
+            {
+                "text": "What is Bihar’s CPI urban inflation rate?",
+                "options": ["7.0%", "7.1%", "7.2%", "7.3%"],
+                "correctAnswer": 1,
+                "explanation": "Urban inflation stands at 7.1%."
+            },
+            {
+                "text": "What is Bihar’s CPI rural inflation rate?",
+                "options": ["7.5%", "7.6%", "7.7%", "7.8%"],
+                "correctAnswer": 1,
+                "explanation": "Rural inflation is slightly higher at 7.6%."
+            },
+            {
+                "text": "Which district has highest per capita GDP in Bihar?",
+                "options": ["Begusarai", "Patna", "Munger", "Bhagalpur"],
+                "correctAnswer": 1,
+                "explanation": "Patna leads with the highest per capita GDP."
+            },
+            {
+                "text": "What is per capita GDP of Patna?",
+                "options": ["₹120,396", "₹121,396", "₹122,396", "₹123,396"],
+                "correctAnswer": 1,
+                "explanation": "Patna’s per capita GDP is ₹121,396."
+            },
+            {
+                "text": "District ranking second in per capita GDP?",
+                "options": ["Munger", "Patna", "Begusarai", "Gaya"],
+                "correctAnswer": 2,
+                "explanation": "Begusarai ranks second."
+            },
+            {
+                "text": "Per capita GDP of Begusarai?",
+                "options": ["₹48,064", "₹49,064", "₹50,064", "₹51,064"],
+                "correctAnswer": 1,
+                "explanation": "Begusarai’s per capita GDP is ₹49,064."
+            },
+            {
+                "text": "District ranking third in per capita GDP?",
+                "options": ["Munger", "Bhagalpur", "Gaya", "Muzaffarpur"],
+                "correctAnswer": 0,
+                "explanation": "Munger holds third position."
+            },
+            {
+                "text": "Per capita GDP of Munger?",
+                "options": ["₹46,295", "₹46,495", "₹46,795", "₹46,995"],
+                "correctAnswer": 2,
+                "explanation": "Munger’s per capita GDP is ₹46,795."
+            },
+            {
+                "text": "District with lowest per capita GDP?",
+                "options": ["Araria", "Sitamarhi", "Sheohar", "Kishanganj"],
+                "correctAnswer": 2,
+                "explanation": "Sheohar is lowest."
+            },
+            {
+                "text": "Per capita GDP of Sheohar?",
+                "options": ["₹19,461", "₹19,561", "₹19,661", "₹19,761"],
+                "correctAnswer": 1,
+                "explanation": "Sheohar’s per capita GDP is ₹19,561."
+            },
+            {
+                "text": "Second lowest district by per capita GDP?",
+                "options": ["Araria", "Sitamarhi", "Supaul", "Madhepura"],
+                "correctAnswer": 1,
+                "explanation": "Sitamarhi is second lowest."
+            },
+            {
+                "text": "Per capita GDP of Sitamarhi?",
+                "options": ["₹21,131", "₹21,231", "₹21,331", "₹21,931"],
+                "correctAnswer": 3,
+                "explanation": "Sitamarhi’s per capita GDP is ₹21,931."
+            },
+            {
+                "text": "Third lowest district by per capita GDP?",
+                "options": ["Kishanganj", "Araria", "Supaul", "Purnea"],
+                "correctAnswer": 1,
+                "explanation": "Araria ranks third lowest."
+            },
+            {
+                "text": "Per capita GDP of Araria?",
+                "options": ["₹22,004", "₹22,104", "₹22,204", "₹22,304"],
+                "correctAnswer": 2,
+                "explanation": "Araria’s per capita GDP is ₹22,204."
+            },
+            {
+                "text": "Total expenditure of Bihar in 2023?",
+                "options": ["₹2,50,000 crore", "₹2,51,082 crore", "₹2,52,082 crore", "₹2,53,082 crore"],
+                "correctAnswer": 2,
+                "explanation": "Total expenditure is ₹2,52,082 crore."
+            },
+            {
+                "text": "Revenue expenditure of Bihar in 2023?",
+                "options": ["₹1,89,514 crore", "₹1,90,514 crore", "₹1,91,514 crore", "₹1,92,514 crore"],
+                "correctAnswer": 1,
+                "explanation": "Revenue expenditure is ₹1,90,514 crore."
+            },
+            {
+                "text": "Capital expenditure of Bihar in 2023?",
+                "options": ["₹60,568 crore", "₹61,000 crore", "₹61,568 crore", "₹62,000 crore"],
+                "correctAnswer": 2,
+                "explanation": "Capital expenditure stands at ₹61,568 crore."
+            },
+            {
+                "text": "Bihar’s revenue surplus as a percentage of GSDP?",
+                "options": ["0.2%", "0.3%", "0.4%", "0.5%"],
+                "correctAnswer": 1,
+                "explanation": "Revenue surplus is 0.3% of GSDP."
+            },
+            {
+                "text": "Absolute revenue surplus amount?",
+                "options": ["₹2,733 crore", "₹2,833 crore", "₹2,933 crore", "₹3,033 crore"],
+                "correctAnswer": 1,
+                "explanation": "Surplus amount is ₹2,833 crore."
+            },
+            {
+                "text": "Total borrowing of Bihar as percentage of GSDP?",
+                "options": ["6%", "7%", "8%", "9%"],
+                "correctAnswer": 1,
+                "explanation": "Borrowings amount to 7% of GSDP."
+            },
+            {
+                "text": "Total outstanding debt to GSDP ratio?",
+                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
+                "correctAnswer": 1,
+                "explanation": "Debt ratio is 38.9%."
+            },
+            {
+                "text": "Net sown area of Bihar?",
+                "options": ["5012.8 thousand hectares", "5112.8 thousand hectares", "5212.8 thousand hectares", "5312.8 thousand hectares"],
+                "correctAnswer": 1,
+                "explanation": "Bihar’s net sown area is 5112.8 thousand hectares."
+            },
+            {
+                "text": "Percentage of land utilised for crop production?",
+                "options": ["53.2%", "54.2%", "55.2%", "56.2%"],
+                "correctAnswer": 1,
+                "explanation": "54.2% of land was used for crops."
+            },
+            {
+                "text": "Agriculture Roadmap period for Bihar?",
+                "options": ["2022–27", "2023–28", "2024–29", "2025–30"],
+                "correctAnswer": 1,
+                "explanation": "Roadmap spans 2023–28."
+            },
+            {
+                "text": "Percentage of population dependent on agriculture?",
+                "options": ["70%", "72%", "75%", "Over 75%"],
+                "correctAnswer": 3,
+                "explanation": "More than 75% people rely on agriculture."
+            },
+            {
+                "text": "District known as Rice Bowl of Bihar?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "correctAnswer": 1,
+                "explanation": "Rohtas is known as the Rice Bowl due to its high rice production."
+            },
+            {
+                "text": "District with lowest rice production in Bihar?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Jehanabad"],
+                "correctAnswer": 0,
+                "explanation": "Begusarai has the lowest rice production."
+            },
+            {
+                "text": "District with highest rice productivity?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "correctAnswer": 1,
+                "explanation": "Rohtas leads in productivity per hectare for rice."
+            },
+            {
+                "text": "Total expenditure of Bihar in 2023-24?",
+                "options": ["₹2,50,000 crore", "₹2,51,082 crore", "₹2,52,082 crore", "₹2,53,082 crore"],
+                "correctAnswer": 2,
+                "explanation": "Expenditure is ₹2,52,082 crore as per the survey."
+            },
+            {
+                "text": "Revenue expenditure of Bihar in 2023-24?",
+                "options": ["₹1,89,514 crore", "₹1,90,514 crore", "₹1,91,514 crore", "₹1,92,514 crore"],
+                "correctAnswer": 1,
+                "explanation": "Revenue expenditure stands at ₹1,90,514 crore."
+            },
+            {
+                "text": "Capital expenditure of Bihar in 2023-24?",
+                "options": ["₹60,568 crore", "₹61,000 crore", "₹61,568 crore", "₹62,000 crore"],
+                "correctAnswer": 2,
+                "explanation": "Capital spending is ₹61,568 crore."
+            },
+            {
+                "text": "Bihar’s revenue surplus as % of GSDP?",
+                "options": ["0.2%", "0.3%", "0.4%", "0.5%"],
+                "correctAnswer": 1,
+                "explanation": "Revenue surplus is 0.3% of GSDP, a positive fiscal indicator."
+            },
+            {
+                "text": "Revenue surplus amount?",
+                "options": ["₹2,733 crore", "₹2,833 crore", "₹2,933 crore", "₹3,033 crore"],
+                "correctAnswer": 1,
+                "explanation": "Surplus amount recorded as ₹2,833 crore."
+            },
+            {
+                "text": "Total borrowing as % of GSDP?",
+                "options": ["6%", "7%", "8%", "9%"],
+                "correctAnswer": 1,
+                "explanation": "Total borrowing is 7% of GSDP."
+            },
+            {
+                "text": "Total outstanding debt to GSDP ratio?",
+                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
+                "correctAnswer": 1,
+                "explanation": "Debt ratio is 38.9%, within manageable limits."
+            },
+            {
+                "text": "What is the net sown area in Bihar?",
+                "options": ["5012.8 thousand hectares", "5112.8 thousand hectares", "5212.8 thousand hectares", "5312.8 thousand hectares"],
+                "correctAnswer": 1,
+                "explanation": "Net sown area is 5112.8 thousand hectares."
+            },
+            {
+                "text": "Percentage of land utilised for crop production?",
+                "options": ["53.2%", "54.2%", "55.2%", "56.2%"],
+                "correctAnswer": 1,
+                "explanation": "54.2% of land is used for crops."
+            },
+            {
+                "text": "Agriculture Road Map period?",
+                "options": ["2022–27", "2023–28", "2024–29", "2025–30"],
+                "correctAnswer": 1,
+                "explanation": "Current roadmap spans 2023–28."
+            },
+            {
+                "text": "Percentage of population dependent on agriculture?",
+                "options": ["70%", "72%", "75%", "Over 75%"],
+                "correctAnswer": 3,
+                "explanation": "Over 75% of population relies on agriculture."
+            },
+            {
+                "text": "Contribution of Agriculture, Forestry & Fishing to GVA?",
+                "options": ["19.2%", "20.2%", "21.2%", "22.2%"],
+                "correctAnswer": 1,
+                "explanation": "Sector contributes 20.2% to Gross Value Added."
+            },
+            {
+                "text": "Overall cropping intensity in 2022-23?",
+                "options": ["1.40", "1.41", "1.42", "1.43"],
+                "correctAnswer": 2,
+                "explanation": "Cropping intensity is 1.42, indicating multiple cropping."
+            },
+            {
+                "text": "District with highest cropping intensity?",
+                "options": ["Supaul", "Jehanabad", "Rohtas", "Nalanda"],
+                "correctAnswer": 0,
+                "explanation": "Supaul tops in cropping intensity."
+            },
+            {
+                "text": "Cropping intensity of Supaul?",
+                "options": ["1.80", "1.81", "1.82", "1.83"],
+                "correctAnswer": 2,
+                "explanation": "Supaul’s cropping intensity is 1.82."
+            },
+            {
+                "text": "District with second highest cropping intensity?",
+                "options": ["Supaul", "Jehanabad", "Rohtas", "Gaya"],
+                "correctAnswer": 1,
+                "explanation": "Jehanabad ranks second."
+            },
+            {
+                "text": "Cropping intensity of Jehanabad?",
+                "options": ["1.73", "1.74", "1.75", "1.76"],
+                "correctAnswer": 2,
+                "explanation": "Jehanabad’s cropping intensity is 1.75."
+            },
+            {
+                "text": "Which district is known as the Rice Bowl of Bihar?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "correctAnswer": 1,
+                "explanation": "Rohtas is called the Rice Bowl due to abundant rice production."
+            },
+            {
+                "text": "Which district has the lowest rice production?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Jehanabad"],
+                "correctAnswer": 0,
+                "explanation": "Begusarai has the lowest rice output."
+            },
+            {
+                "text": "Which district has the highest rice productivity?",
+                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "correctAnswer": 1,
+                "explanation": "Rohtas achieves highest yield per hectare."
+            }
+        ],
+        "Bihar ES (Part-2)": [{
+                "text": "What is the rice productivity of Rohtas?",
+                "options": [
+                    "4645 kg/hectare",
+                    "4647 kg/hectare",
+                    "4649 kg/hectare",
+                    "4650 kg/hectare"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Rohtas has a rice productivity of 4649 kg per hectare."
+            },
+            {
+                "text": "Which district has the lowest rice productivity in Bihar?",
+                "options": [
+                    "Begusarai",
+                    "Rohtas",
+                    "Gopalganj",
+                    "Nalanda"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gopalganj records the lowest rice productivity in Bihar."
+            },
+            {
+                "text": "Which district has the highest wheat production in Bihar?",
+                "options": [
+                    "Begusarai",
+                    "Rohtas",
+                    "Nalanda",
+                    "Purnea"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Rohtas leads in wheat production in Bihar."
+            },
+            {
+                "text": "Which district has the lowest wheat production in Bihar?",
+                "options": [
+                    "Kishanganj",
+                    "Aurangabad",
+                    "Supaul",
+                    "Bhagalpur"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kishanganj has the lowest wheat production."
+            },
+            {
+                "text": "Which district has the highest wheat productivity in Bihar?",
+                "options": [
+                    "Rohtas",
+                    "Nalanda",
+                    "Begusarai",
+                    "Patna"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Begusarai achieves the highest wheat productivity."
+            },
+            {
+                "text": "What is the wheat productivity of Begusarai?",
+                "options": [
+                    "4010 kg/hectare",
+                    "4011 kg/hectare",
+                    "4012 kg/hectare",
+                    "4013 kg/hectare"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Begusarai has a wheat productivity of 4012 kg per hectare."
+            },
+            {
+                "text": "Which district has the lowest wheat productivity in Bihar?",
+                "options": [
+                    "Aurangabad",
+                    "Kishanganj",
+                    "Nalanda",
+                    "Supaul"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Aurangabad records the lowest wheat productivity in Bihar."
+            },
+            {
+                "text": "Maize is produced in almost all districts of Bihar except:",
+                "options": [
+                    "Purnea & Kishanganj",
+                    "Aurangabad & Rohtas",
+                    "Supaul & Nalanda",
+                    "Begusarai & Munger"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bihar districts Aurangabad & Rohtas do not produce maize."
+            },
+            {
+                "text": "Which four districts together contribute 53% of Bihar’s total maize production?",
+                "options": [
+                    "Purnea, Kishanganj, Araria, Katihar",
+                    "Begusarai, Nalanda, Rohtas, Supaul",
+                    "Patna, Munger, Bhagalpur, Saharsa",
+                    "Gaya, Jehanabad, Siwan, Buxar"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Purnea, Kishanganj, Araria and Katihar contribute over half of maize production."
+            },
+            {
+                "text": "Which district has the highest maize production in Bihar?",
+                "options": [
+                    "Kishanganj",
+                    "Purnea",
+                    "Katihar",
+                    "Araria"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Purnea leads in maize production in Bihar."
+            },
+            {
+                "text": "Which district has the highest maize productivity in Bihar?",
+                "options": [
+                    "Kishanganj",
+                    "Purnea",
+                    "Katihar",
+                    "Araria"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Kishanganj has the highest maize productivity."
+            },
+            {
+                "text": "Which district has the highest sugarcane production in Bihar?",
+                "options": [
+                    "Begusarai",
+                    "West Champaran",
+                    "Rohtas",
+                    "Gopalganj"
+                ],
+                "correctAnswer": 1,
+                "explanation": "West Champaran leads sugarcane production."
+            },
+            {
+                "text": "Which district has the highest sugarcane productivity in Bihar?",
+                "options": [
+                    "Begusarai",
+                    "West Champaran",
+                    "Rohtas",
+                    "Sitamarhi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Begusarai has the highest sugarcane productivity."
+            },
+            {
+                "text": "Which fruit has the largest area under cultivation in Bihar?",
+                "options": [
+                    "Mango",
+                    "Banana",
+                    "Guava",
+                    "Litchi"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Mango is cultivated over the largest area among fruits."
+            },
+            {
+                "text": "Which fruit ranks second in area under cultivation in Bihar?",
+                "options": [
+                    "Mango",
+                    "Banana",
+                    "Papaya",
+                    "Guava"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Banana ranks second by area under cultivation."
+            },
+            {
+                "text": "Bihar accounts for what percentage of India’s total makhana production?",
+                "options": [
+                    "80%",
+                    "82%",
+                    "85%",
+                    "88%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar produces approximately 85% of India’s total makhana."
+            },
+            {
+                "text": "How many districts in Bihar are main producers of makhana?",
+                "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "12"
+                ],
+                "correctAnswer": 2,
+                "explanation": "10 districts are main producers of makhana in Bihar."
+            },
+            {
+                "text": "Which district is NOT among the top 10 makhana-producing districts of Bihar?",
+                "options": [
+                    "Madhepura",
+                    "Saharsa",
+                    "Gaya",
+                    "Purnea"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gaya is not among the top 10 makhana-producing districts."
+            },
+            {
+                "text": "The GI tag for Bihar’s makhana is associated with which organisation?",
+                "options": [
+                    "Bihar Agricultural University",
+                    "Mithilanchal Farmer Producer Organisation",
+                    "Bihar Makhana Cooperative",
+                    "Bihar State Agro Corporation"
+                ],
+                "correctAnswer": 1,
+                "explanation": "GI tag for Bihar’s makhana is associated with Mithilanchal Farmer Producer Organisation."
+            },
+            {
+                "text": "In which district is Bhola Paswan Shastri Agriculture College located?",
+                "options": [
+                    "Saharsa",
+                    "Purnea",
+                    "Darbhanga",
+                    "Khagaria"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Agriculture College is located in Purnea."
+            },
+            {
+                "text": "Where is the Makhana Research Centre located?",
+                "options": [
+                    "Purnea",
+                    "Darbhanga",
+                    "Madhubani",
+                    "Saharsa"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Makhana Research Centre is at Darbhanga."
+            },
+            {
+                "text": "Which crop occupies the largest land under vegetable production in Bihar?",
+                "options": [
+                    "Onion",
+                    "Potato",
+                    "Tomato",
+                    "Brinjal"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Potato occupies the largest vegetable cultivation area."
+            },
+            {
+                "text": "Which three districts are the top fish producers in Bihar?",
+                "options": [
+                    "Madhubani, Darbhanga, East Champaran",
+                    "Purnea, Katihar, Saharsa",
+                    "Begusarai, Khagaria, Nalanda",
+                    "Muzaffarpur, Gopalganj, Supaul"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Madhubani, Darbhanga and East Champaran lead in fish production."
+            },
+            {
+                "text": "Which district of Bihar is known as the 'Darjeeling of Bihar' for tea production?",
+                "options": [
+                    "Purnea",
+                    "Kishanganj",
+                    "Araria",
+                    "Katihar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kishanganj is famous for tea production, earning this nickname."
+            },
+            {
+                "text": "In which block of Kishanganj district is tea mainly produced?",
+                "options": [
+                    "Thakurganj Block",
+                    "Kochadhaman Block",
+                    "Bahadurganj Block",
+                    "Dighalbank Block"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Tea is primarily grown in Thakurganj Block."
+            },
+            {
+                "text": "The Gayaji Dam is notable for being:",
+                "options": [
+                    "India’s tallest concrete dam",
+                    "India’s longest rubber dam",
+                    "Asia’s largest barrage",
+                    "Bihar’s oldest dam"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Gayaji Dam is India’s longest rubber dam."
+            },
+            {
+                "text": "Where is the largest unit of Bihar Rajya Beej Nigam Ltd. located?",
+                "options": [
+                    "Purnea, Bihar",
+                    "Kudra, Kaimur",
+                    "Begusarai, Bihar",
+                    "Gaya, Bihar"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Largest unit of Bihar Rajya Beej Nigam Ltd is located in Kudra, Kaimur."
+            },
+            {
+                "text": "What is green manure?",
+                "options": [
+                    "Compost made from kitchen waste",
+                    "Undecomposed plant material used as natural fertiliser",
+                    "Animal waste converted into fertiliser",
+                    "Chemical fertiliser with added plant extracts"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Green manure is undecomposed plant material used to improve soil fertility."
+            },
+            {
+                "text": "What is the main purpose of green manure?",
+                "options": [
+                    "Increase soil acidity",
+                    "Retain nitrogen balance in soil",
+                    "Increase soil moisture",
+                    "Control pests"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Green manure helps retain nitrogen balance in soil."
+            },
+            {
+                "text": "Which crop is commonly used as green manure in Bihar?",
+                "options": [
+                    "Moong",
+                    "Dhaincha",
+                    "Sunhemp",
+                    "Gram"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dhaincha is widely used as green manure."
+            },
+            {
+                "text": "What percentage subsidy is given on seeds of Dhaincha under Jaivik Kheti Protsahan Yojana?",
+                "options": [
+                    "80%",
+                    "85%",
+                    "90%",
+                    "95%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Farmers get a 90% subsidy on Dhaincha seeds under the scheme."
+            },
+            {
+                "text": "How many districts are covered under Jaivik Kheti Protsahan Yojana?",
+                "options": [
+                    "35",
+                    "36",
+                    "38",
+                    "40"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The scheme covers 38 districts in Bihar."
+            },
+            {
+                "text": "Dhaincha helps in:",
+                "options": [
+                    "Pest control",
+                    "Nitrogen fixation",
+                    "Increasing water table",
+                    "Weed control"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dhaincha improves nitrogen fixation, enhancing soil health."
+            },
+            {
+                "text": "Jaivik Corridor Yojana is implemented in how many districts of Bihar?",
+                "options": [
+                    "11",
+                    "12",
+                    "13",
+                    "14"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Implemented across 13 districts."
+            },
+            {
+                "text": "Namami Gange Scheme is implemented in how many districts of Bihar?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Implemented in 12 districts of Bihar."
+            },
+            {
+                "text": "Paramparagat Krishi Vikas Yojana is implemented in how many districts of Bihar?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Implemented over 11 districts."
+            },
+            {
+                "text": "What is the recovery rate of the sugar industry in Bihar?",
+                "options": [
+                    "9.96%",
+                    "10.16%",
+                    "10.26%",
+                    "10.36%"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Recovery rate stands at 10.16%."
+            },
+            {
+                "text": "How many sugar mills are operational in Bihar?",
+                "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Currently, 9 sugar mills operate in Bihar."
+            },
+            {
+                "text": "Which is the newest sugar mill reopened in Bihar?",
+                "options": [
+                    "Harinagar Sugar Mill",
+                    "Sidhwalia Sugar Mill",
+                    "Riga Sugar Mill",
+                    "Manjhaulua Sugar Mill"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Riga sugar mill is the newest reopened mill."
+            },
+            {
+                "text": "Where is Harinagar Sugar Mill located?",
+                "options": [
+                    "Gopalganj",
+                    "Sitamarhi",
+                    "West Champaran",
+                    "Begusarai"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Harinagar Sugar Mill is in West Champaran district."
+            },
+            {
+                "text": "In which year was Manjhaulua Sugar Mill established?",
+                "options": [
+                    "1923",
+                    "1933",
+                    "1943",
+                    "1953"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Manjhaulua Sugar Mill was established in 1933."
+            },
+            {
+                "text": "In which district is Sidhwalia Sugar Mill located?",
+                "options": [
+                    "West Champaran",
+                    "Gopalganj",
+                    "Siwan",
+                    "Samastipur"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Sidhwalia Sugar Mill is situated in West Champaran."
+            },
+            {
+                "text": "How many jaggery units are there in Bihar?",
+                "options": [
+                    "78",
+                    "80",
+                    "81",
+                    "83"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar has 81 jaggery units."
+            },
+            {
+                "text": "In which year was COMFED established?",
+                "options": [
+                    "1981",
+                    "1982",
+                    "1983",
+                    "1984"
+                ],
+                "correctAnswer": 2,
+                "explanation": "COMFED was established in 1983."
+            },
+            {
+                "text": "Which national dairy brand is COMFED associated with?",
+                "options": [
+                    "Mother Dairy",
+                    "Nandini",
+                    "Amul",
+                    "Verka"
+                ],
+                "correctAnswer": 2,
+                "explanation": "COMFED is associated with Amul brand."
+            },
+            {
+                "text": "What is the brand name under which COMFED sells its products?",
+                "options": [
+                    "Mithila",
+                    "Sudha",
+                    "Shakti",
+                    "Bihar Dairy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "COMFED products are sold under Sudha brand."
+            },
+            {
+                "text": "Which year was the Bihar Industrial Investment Promotion Policy launched?",
+                "options": [
+                    "2015",
+                    "2016",
+                    "2017",
+                    "2018"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The policy was launched in 2016."
+            },
+            {
+                "text": "The Bihar Industrial Investment Promotion Policy for Textile & Leather was introduced in which year?",
+                "options": [
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Policy introduced in 2022."
+            },
+            {
+                "text": "The Bihar Start-up Policy was launched in which year?",
+                "options": [
+                    "2020",
+                    "2021",
+                    "2022",
+                    "2023"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Start-up policy launched in 2022."
+            },
+            {
+                "text": "In which year was the Bihar Biofuel Promotion Policy launched?",
+                "options": [
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Biofuel Promotion Policy launched in 2023."
+            },
+            {
+                "text": "The Bihar Tourism Policy was introduced in which year?",
+                "options": [
+                    "2021",
+                    "2022",
+                    "2023",
+                    "2024"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Tourism policy introduced in 2023."
+            },
+            {
+                "text": "In which district is Punaura Dham located?",
+                "options": [
+                    "Gaya",
+                    "Sitamarhi",
+                    "Vaishali",
+                    "Darbhanga"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Punaura Dham is located in Sitamarhi."
+            },
+            {
+                "text": "Who performed the Bhoomi Pujan of Punaura Dham on 8th August?",
+                "options": [
+                    "Narendra Modi",
+                    "Nitish Kumar",
+                    "Amit Shah",
+                    "Ram Nath Kovind"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Union Minister Amit Shah performed Bhoomi Pujan."
+            },
+            {
+                "text": "Punaura Dham is dedicated to which deity?",
+                "options": [
+                    "Maa Durga",
+                    "Maa Sita",
+                    "Maa Parvati",
+                    "Maa Saraswati"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Punaura Dham is dedicated to Maa Sita."
+            },
+            {
+                "text": "What is the total area of Punaura Dham?",
+                "options": [
+                    "57 acres",
+                    "62 acres",
+                    "67 acres",
+                    "72 acres"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The project covers 67 acres."
+            },
+            {
+                "text": "What is the estimated cost of Punaura Dham project?",
+                "options": [
+                    "₹ 782 crore",
+                    "₹ 882 crore",
+                    "₹ 982 crore",
+                    "₹ 1,082 crore"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Estimated cost is ₹ 882 crore."
+            },
+            {
+                "text": "As per Valmiki Ramayana, from where did Sita emerge?",
+                "options": [
+                    "Lotus pond",
+                    "Furrow while ploughing land",
+                    "River Ganga",
+                    "Temple sanctum"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sita emerged from the furrow during ploughing."
+            },
+            {
+                "text": "Who was ploughing the land when Sita emerged according to the Ramayana?",
+                "options": [
+                    "Dasharatha",
+                    "Vishwamitra",
+                    "King Janaka",
+                    "Shatananda"
+                ],
+                "correctAnswer": 2,
+                "explanation": "King Janaka was ploughing the land."
+            },
+            {
+                "text": "What is the meaning of the name “Sita” in Sanskrit?",
+                "options": [
+                    "Daughter",
+                    "Goddess of crops",
+                    "Furrow",
+                    "Light"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sita means 'furrow' in Sanskrit."
+            },
+            {
+                "text": "What does the name “Janaki” mean?",
+                "options": [
+                    "Daughter of Janaka",
+                    "Daughter of Mithila",
+                    "Princess of Ayodhya",
+                    "One who ploughs the land"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Janaki means 'daughter of Janaka'."
+            },
+            {
+                "text": "What is the cost of Janaki Vihar project in Sitamarhi?",
+                "options": [
+                    "₹ 28.87 crore",
+                    "₹ 29.87 crore",
+                    "₹ 30.87 crore",
+                    "₹ 31.87 crore"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The project costs ₹ 29.87 crore."
+            },
+            {
+                "text": "Where is the Glass & Suspension Bridge located in Bihar?",
+                "options": [
+                    "Gaya",
+                    "Rajgir",
+                    "Nalanda",
+                    "Bodh Gaya"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It is located in Rajgir."
+            },
+            {
+                "text": "The Bihar Kosi River Development Project is being carried out with assistance from:",
+                "options": [
+                    "Asian Development Bank",
+                    "World Bank",
+                    "JICA",
+                    "NABARD"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The project is assisted by the World Bank."
+            },
+            {
+                "text": "Where is Mangala Gauri Sthan located?",
+                "options": [
+                    "Gaya",
+                    "Vaishali",
+                    "Sitamarhi",
+                    "Muzaffarpur"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Mangala Gauri Sthan is in Gaya."
+            },
+            {
+                "text": "Mangala Gauri Sthan is one of the:",
+                "options": [
+                    "12 Jyotirlingas",
+                    "4 Char Dham sites",
+                    "51 Shaktipeethas",
+                    "7 Wonders of India"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It is one of the 51 Shaktipeethas."
+            },
+            {
+                "text": "Which types of silk are produced in Bihar?",
+                "options": [
+                    "Mulberry, Tasar, Muga",
+                    "Mulberry, Tasar, Eri",
+                    "Tasar, Muga, Eri",
+                    "Mulberry, Eri, Muga"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bihar produces mulberry, tasar, and eri silk."
+            },
+            {
+                "text": "Which of the following silk types is NOT produced in Bihar?",
+                "options": [
+                    "Muga",
+                    "Eri",
+                    "Mulberry",
+                    "Tasar"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Muga silk is not produced in Bihar."
+            },
+            {
+                "text": "Silk is made from silkworms that primarily feed on:",
+                "options": [
+                    "Banana leaves",
+                    "Bamboo leaves",
+                    "Mulberry leaves",
+                    "Lotus leaves"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Silkworms feed mainly on mulberry leaves."
+            },
+            {
+                "text": "What do silkworms spin to produce silk?",
+                "options": [
+                    "Webs",
+                    "Cocoons",
+                    "Nets",
+                    "Fibres directly"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Silkworms spin cocoons, which are harvested for silk."
+            },
+            {
+                "text": "Which country is the second-largest producer and consumer of silk in the world?",
+                "options": [
+                    "China",
+                    "India",
+                    "Thailand",
+                    "Japan"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India is second after China in silk production and consumption."
+            },
+            {
+                "text": "What is the term for the process of farming silkworms to produce silk?",
+                "options": [
+                    "Apiculture",
+                    "Sericulture",
+                    "Pisciculture",
+                    "Horticulture"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sericulture is silk farming."
+            },
+            {
+                "text": "Mulberry silk comes from silkworms that eat only:",
+                "options": [
+                    "Castor leaves",
+                    "Mulberry leaves",
+                    "Oak leaves",
+                    "Arjun leaves"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Only mulberry leaves are eaten by mulberry silkworms."
+            },
+            {
+                "text": "Which of the following is NOT a characteristic of mulberry silk?",
+                "options": [
+                    "Soft and smooth texture",
+                    "Bright glow and shine",
+                    "Earthy, dull finish",
+                    "Suitable for luxury sarees"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Mulberry silk is known for brightness, not dullness."
+            },
+            {
+                "text": "What percentage of India’s total raw silk production comes from mulberry silk?",
+                "options": [
+                    "82%",
+                    "88%",
+                    "90%",
+                    "92%"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Mulberry silk accounts for about 92% of raw silk production."
+            },
+            {
+                "text": "Which of the following is NOT a major mulberry silk producing state in India?",
+                "options": [
+                    "Karnataka",
+                    "Tamil Nadu",
+                    "Odisha",
+                    "West Bengal"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Odisha is not a major mulberry producer."
+            },
+            {
+                "text": "Non-mulberry silk is also called:",
+                "options": [
+                    "Wild silk",
+                    "Vanya silk",
+                    "Tussar silk",
+                    "Both A and B"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Non-mulberry silk is called both wild silk and vanya silk."
+            },
+            {
+                "text": "Non-mulberry silk comes from wild silkworms feeding on:",
+                "options": [
+                    "Mulberry leaves only",
+                    "Oak, castor, arjun leaves",
+                    "Bamboo and lotus leaves",
+                    "Paddy and maize leaves"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Wild silkworms feed on trees like oak, castor, and arjun."
+            },
+            {
+                "text": "Which of the following is NOT a characteristic of non-mulberry silk?",
+                "options": [
+                    "Earthy texture",
+                    "Less shine",
+                    "Strong and durable",
+                    "Very high gloss and bright glow"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Non-mulberry silk has less shine, not very high gloss."
+            },
+            {
+                "text": "Which of the following is NOT a major producer of non-mulberry silk?",
+                "options": [
+                    "Jharkhand",
+                    "Chhattisgarh",
+                    "Karnataka",
+                    "Odisha"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Karnataka is not a major non-mulberry silk producer."
+            },
+            {
+                "text": "Which country is the largest silk producer in the world?",
+                "options": [
+                    "India",
+                    "Thailand",
+                    "China",
+                    "Japan"
+                ],
+                "correctAnswer": 2,
+                "explanation": "China is the largest silk producer."
+            },
+            {
+                "text": "India ranks ______ in the world in silk production and consumption.",
+                "options": [
+                    "1st in production, 2nd in consumption",
+                    "2nd in both production and consumption",
+                    "1st in consumption, 2nd in production",
+                    "3rd in production, 2nd in consumption"
+                ],
+                "correctAnswer": 1,
+                "explanation": "India is 2nd in both silk production and consumption."
+            },
+            {
+                "text": "How many operational ethanol units are there in Bihar?",
+                "options": [
+                    "10",
+                    "11",
+                    "12",
+                    "13"
+                ],
+                "correctAnswer": 2,
+                "explanation": "There are 12 operational ethanol units in Bihar."
+            },
+            {
+                "text": "BIADA is a statutory body under which act?",
+                "options": [
+                    "BIADA Act, 1972",
+                    "BIADA Act, 1974",
+                    "Bihar Industries Act, 1976",
+                    "Bihar Development Act, 1978"
+                ],
+                "correctAnswer": 1,
+                "explanation": "BIADA was established under the 1974 Act."
+            },
+            {
+                "text": "In which year did BIADA get statutory status?",
+                "options": [
+                    "2004",
+                    "2005",
+                    "2006",
+                    "2007"
+                ],
+                "correctAnswer": 2,
+                "explanation": "BIADA attained statutory status in 2006."
+            },
+            {
+                "text": "How many industrial clusters has BIADA created in Bihar?",
+                "options": [
+                    "8",
+                    "9",
+                    "10",
+                    "11"
+                ],
+                "correctAnswer": 1,
+                "explanation": "BIADA has created 9 industrial clusters."
+            },
+            {
+                "text": "Which of the following is NOT a BIADA cluster?",
+                "options": [
+                    "Begusarai",
+                    "Muzaffarpur",
+                    "Gaya",
+                    "Katihar"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Katihar is not a BIADA cluster location."
+            },
+            {
+                "text": "The Bihar Startup initiative is based on which theme?",
+                "options": [
+                    "NAYA",
+                    "UDYOG",
+                    "YUVA",
+                    "NIRMAN"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The initiative is themed as 'YUVA'."
+            },
+            {
+                "text": "How many Startup Cells are there in Bihar?",
+                "options": [
+                    "38",
+                    "40",
+                    "44",
+                    "46"
+                ],
+                "correctAnswer": 3,
+                "explanation": "There are 46 Startup Cells across Bihar."
+            },
+            {
+                "text": "In how many districts are Startup Cells present in Bihar?",
+                "options": [
+                    "36",
+                    "37",
+                    "38",
+                    "39"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Startup Cells exist in 38 districts."
+            },
+            {
+                "text": "Which institute started a PG DM course related to startups in Bihar?",
+                "options": [
+                    "IIM Bodh Gaya",
+                    "Chandragupta Institute of Management",
+                    "Nalanda University",
+                    "Patna University"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Chandragupta Institute offers this course."
+            },
+            {
+                "text": "In the YUVA acronym, what does 'Y' stand for?",
+                "options": [
+                    "Youth innovation",
+                    "Yes to startup",
+                    "Young entrepreneurs",
+                    "Your startup vision"
+                ],
+                "correctAnswer": 1,
+                "explanation": "'Y' means 'Yes to startup'."
+            },
+            {
+                "text": "In the YUVA acronym, what does 'U' stand for?",
+                "options": [
+                    "Unite industries",
+                    "Use innovation",
+                    "Unleash regulatory enablers",
+                    "Upgrade economy"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'U' is for 'Unleash regulatory enablers'."
+            },
+            {
+                "text": "In the YUVA acronym, what does 'V' stand for?",
+                "options": [
+                    "Vibrancy in education system",
+                    "Value creation in startups",
+                    "Vision for entrepreneurship",
+                    "Venture capital access"
+                ],
+                "correctAnswer": 0,
+                "explanation": "'V' means 'Vibrancy in education system to unleash startups.'"
+            },
+            {
+                "text": "In the YUVA acronym, what does 'A' stand for?",
+                "options": [
+                    "Accelerate funding",
+                    "Access to incubation and funds",
+                    "Achieve entrepreneurship goals",
+                    "Apply startup ideas"
+                ],
+                "correctAnswer": 1,
+                "explanation": "'A' represents 'Access to incubation and funds'."
+            },
+            {
+                "text": "Sankalp Yojna is funded by:",
+                "options": [
+                    "Asian Development Bank",
+                    "World Bank",
+                    "IMF",
+                    "NITI Aayog"
+                ],
+                "correctAnswer": 1,
+                "explanation": "World Bank funds Sankalp Yojna."
+            },
+            {
+                "text": "Sankalp Yojna is a:",
+                "options": [
+                    "State government scheme",
+                    "Centrally sponsored scheme",
+                    "Public-private partnership",
+                    "NGO-led initiative"
+                ],
+                "correctAnswer": 1,
+                "explanation": "It is a centrally sponsored scheme."
+            },
+            {
+                "text": "Which skills are provided under Sankalp Yojna?",
+                "options": [
+                    "Computer programming and AI",
+                    "Tyre fitting and street vending",
+                    "Medical nursing and teaching",
+                    "Farming and irrigation techniques"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Vocational skills like tyre fitting and street vending are taught."
+            },
+            {
+                "text": "In which city will the Mega Skills Centre under Sankalp Yojna be opened?",
+                "options": [
+                    "Siwan",
+                    "Patna",
+                    "Gopalganj",
+                    "Banka"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Patna is the location for the Mega Skills Centre."
+            },
+            {
+                "text": "Which three districts accounted for 29% of passports issued in Bihar in 2023–24?",
+                "options": [
+                    "Siwan, Gopalganj, Patna",
+                    "Patna, Muzaffarpur, Gaya",
+                    "Siwan, Begusarai, Bhagalpur",
+                    "Patna, Darbhanga, Purnea"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Siwan, Gopalganj, and Patna accounted for 29%."
+            },
+            {
+                "text": "Which district registered the highest growth in passport applications in Bihar?",
+                "options": [
+                    "Patna",
+                    "Siwan",
+                    "Banka",
+                    "Gopalganj"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Banka recorded the highest growth."
+            },
+            {
+                "text": "As per PLFS 2023–24, what is the LFPR of Bihar?",
+                "options": [
+                    "45",
+                    "50",
+                    "55",
+                    "60"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Labour Force Participation Rate is 55%."
+            },
+            {
+                "text": "LFPR refers to:",
+                "options": [
+                    "Percentage of employed persons in urban areas only",
+                    "Percentage of persons in labour force (working or seeking work) in the population",
+                    "Ratio of labour to total employment",
+                    "Number of industries per 1,000 workers"
+                ],
+                "correctAnswer": 1,
+                "explanation": "LFPR measures people working or seeking work in the population."
+            },
+            {
+                "text": "Bihar ranks ____ in growth for the transport, communication & storage sector (2011–12 to 2023–24).",
+                "options": [
+                    "1st",
+                    "2nd",
+                    "3rd",
+                    "4th"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar is ranked 3rd in growth for this sector."
+            },
+            {
+                "text": "What is Bihar’s growth rate in the transport, communication & storage sector from 2011–12 to 2023–24?",
+                "options": [
+                    "6.5%",
+                    "7.0%",
+                    "7.6%",
+                    "8.2%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Growth rate is approximately 7.6%."
+            }
+        ],
+        "Bihar ES (Part-3)": [{
+                "text": "Which two states are ahead of Bihar in the transport, communication & storage sector growth rate?",
+                "options": ["Maharashtra and Gujarat", "Uttar Pradesh and Karnataka", "Tamil Nadu and Rajasthan", "Punjab and Haryana"],
+                "correctAnswer": 1,
+                "explanation": "Uttar Pradesh and Karnataka lead in these sectors ahead of Bihar."
+            },
+            {
+                "text": "Bihar ranks ____ nationally in total road networks (as of 2019 data).",
+                "options": ["5th", "6th", "7th", "8th"],
+                "correctAnswer": 3,
+                "explanation": "Bihar stood 8th in total road networks nationally in 2019."
+            },
+            {
+                "text": "Approximately how many kilometres of roads does Bihar have?",
+                "options": ["2 lakh km", "2.5 lakh km", "3 lakh km", "3.5 lakh km"],
+                "correctAnswer": 2,
+                "explanation": "Bihar has roughly 3 lakh km of roads."
+            },
+            {
+                "text": "The Bihar State Highway Project aims to widen highways with assistance from which organisation?",
+                "options": ["World Bank", "NITI Aayog", "Asian Development Bank (ADB)", "Japan International Cooperation Agency (JICA)"],
+                "correctAnswer": 2,
+                "explanation": "Asian Development Bank is assisting in the highway widening."
+            },
+            {
+                "text": "What is the main objective of the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": [
+                    "Improve air travel facilities",
+                    "Provide financial support for rural transportation by subsidizing buses",
+                    "Promote electric vehicle manufacturing",
+                    "Expand metro rail services in Patna"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The scheme subsidizes buses to support rural transport."
+            },
+            {
+                "text": "What is the subsidy amount provided for each bus under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["₹3 lakh", "₹4 lakh", "₹5 lakh", "₹6 lakh"],
+                "correctAnswer": 2,
+                "explanation": "Subsidy of ₹5 lakh per bus is given."
+            },
+            {
+                "text": "What is the maximum number of buses subsidized in each block under the scheme?",
+                "options": ["5 buses", "6 buses", "7 buses", "8 buses"],
+                "correctAnswer": 2,
+                "explanation": "Maximum 7 buses subsidized per block."
+            },
+            {
+                "text": "Which block is excluded from the maximum bus subsidy allocation under this scheme?",
+                "options": ["Rural blocks", "Headquarter Block", "Urban blocks", "Border blocks"],
+                "correctAnswer": 1,
+                "explanation": "Headquarter blocks are excluded."
+            },
+            {
+                "text": "Under the scheme, how many buses are reserved for the General category in each block?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus per block is reserved for General category."
+            },
+            {
+                "text": "How many buses are reserved for the ST/SC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "Two buses are reserved for ST/SC."
+            },
+            {
+                "text": "How many buses are reserved for the EBC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "Two buses reserved for EBC category."
+            },
+            {
+                "text": "How many buses are reserved for the Minority category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus is reserved for Minority category."
+            },
+            {
+                "text": "How many buses are reserved for the BC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus is reserved for BC category."
+            },
+            {
+                "text": "Where is Bapu Tower located?",
+                "options": ["Rajgir", "Patna", "Gaya", "Vaishali"],
+                "correctAnswer": 1,
+                "explanation": "Bapu Tower is located in Patna."
+            },
+            {
+                "text": "What is the seating capacity of Rajgir Khel Academy?",
+                "options": ["30,000", "35,000", "40,000", "45,000"],
+                "correctAnswer": 2,
+                "explanation": "Rajgir Khel Academy seats 40,000 spectators."
+            },
+            {
+                "text": "Where is the Abdul Kalam Science City located?",
+                "options": ["Rajgir", "Vaishali", "Rajendra Nagar, Patna", "Muzaffarpur"],
+                "correctAnswer": 2,
+                "explanation": "Located in Rajendra Nagar, Patna."
+            },
+            {
+                "text": "In which district is the Buddha Samyak Darshan Museum located?",
+                "options": ["Gaya", "Patna", "Vaishali", "Nalanda"],
+                "correctAnswer": 2,
+                "explanation": "Located in Vaishali district."
+            },
+            {
+                "text": "Where is Bihar Animal Science University located?",
+                "options": ["Rajgir", "Gaya", "Patna", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Located in Patna."
+            },
+            {
+                "text": "What was Bihar’s peak power in 2024?",
+                "options": ["7,505 MW", "7,805 MW", "8,005 MW", "8,205 MW"],
+                "correctAnswer": 2,
+                "explanation": "Peak power generation was 8,005 MW."
+            },
+            {
+                "text": "What is the current consumer base of Bihar’s power sector?",
+                "options": ["1.82 crore", "1.95 crore", "2.12 crore", "2.25 crore"],
+                "correctAnswer": 2,
+                "explanation": "Power sector serves around 2.12 crore consumers."
+            },
+            {
+                "text": "Which state is the first to have smart meters?",
+                "options": ["Gujarat", "Maharashtra", "Bihar", "Karnataka"],
+                "correctAnswer": 2,
+                "explanation": "Bihar is first state to adopt smart meters."
+            },
+            {
+                "text": "Since which year has Bihar achieved 100% household electrification?",
+                "options": ["2016", "2017", "2018", "2019"],
+                "correctAnswer": 2,
+                "explanation": "Achieved 100% electrification since 2018."
+            },
+            {
+                "text": "In 2025–26, what share of power demand is expected from the domestic sector in Bihar?",
+                "options": ["39%", "41%", "43%", "45%"],
+                "correctAnswer": 1,
+                "explanation": "Domestic sector expected to consume 41% power."
+            },
+            {
+                "text": "In 2025–26, what share of power demand is expected from agriculture in Bihar?",
+                "options": ["10%", "11%", "13%", "15%"],
+                "correctAnswer": 2,
+                "explanation": "Agriculture’s demand expected at 13%."
+            },
+            {
+                "text": "The remaining power demand in 2025–26 will come from?",
+                "options": ["Transport only", "Industries & other sectors", "Public lighting only", "Services only"],
+                "correctAnswer": 1,
+                "explanation": "Remaining demand estimated from industries and other sectors."
+            },
+            {
+                "text": "What was Bihar’s per capita energy consumption in 2023–24?",
+                "options": ["333 kWh", "353 kWh", "363 kWh", "373 kWh"],
+                "correctAnswer": 2,
+                "explanation": "Per capita energy consumption was approx. 363 kWh."
+            },
+            {
+                "text": "What is the share of thermal power in Bihar’s energy mix?",
+                "options": ["60.6%", "62.6%", "66.6%", "70.6%"],
+                "correctAnswer": 2,
+                "explanation": "Thermal power forms about 66.6% of the mix."
+            },
+            {
+                "text": "What is the share of renewable energy in Bihar’s energy mix?",
+                "options": ["30.4%", "31.4%", "33.4%", "35.4%"],
+                "correctAnswer": 2,
+                "explanation": "Renewable energy contribution is 33.4%."
+            },
+            {
+                "text": "Which two states are ahead of Bihar in the transport, communication & storage sector growth rate?",
+                "options": ["Maharashtra and Gujarat", "Uttar Pradesh and Karnataka", "Tamil Nadu and Rajasthan", "Punjab and Haryana"],
+                "correctAnswer": 1,
+                "explanation": "Uttar Pradesh and Karnataka lead in these sectors ahead of Bihar."
+            },
+            {
+                "text": "Bihar ranks ____ nationally in total road networks (as of 2019 data).",
+                "options": ["5th", "6th", "7th", "8th"],
+                "correctAnswer": 3,
+                "explanation": "Bihar stood 8th in total road networks nationally in 2019."
+            },
+            {
+                "text": "Approximately how many kilometres of roads does Bihar have?",
+                "options": ["2 lakh km", "2.5 lakh km", "3 lakh km", "3.5 lakh km"],
+                "correctAnswer": 2,
+                "explanation": "Bihar has roughly 3 lakh km of roads."
+            },
+            {
+                "text": "The Bihar State Highway Project aims to widen highways with assistance from which organisation?",
+                "options": ["World Bank", "NITI Aayog", "Asian Development Bank (ADB)", "Japan International Cooperation Agency (JICA)"],
+                "correctAnswer": 2,
+                "explanation": "Asian Development Bank is assisting in the highway widening."
+            },
+            {
+                "text": "What is the main objective of the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": [
+                    "Improve air travel facilities",
+                    "Provide financial support for rural transportation by subsidizing buses",
+                    "Promote electric vehicle manufacturing",
+                    "Expand metro rail services in Patna"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The scheme subsidizes buses to support rural transport."
+            },
+            {
+                "text": "What is the subsidy amount provided for each bus under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["₹3 lakh", "₹4 lakh", "₹5 lakh", "₹6 lakh"],
+                "correctAnswer": 2,
+                "explanation": "Subsidy of ₹5 lakh per bus is given."
+            },
+            {
+                "text": "What is the maximum number of buses subsidized in each block under the scheme?",
+                "options": ["5 buses", "6 buses", "7 buses", "8 buses"],
+                "correctAnswer": 2,
+                "explanation": "Maximum 7 buses subsidized per block."
+            },
+            {
+                "text": "Which block is excluded from the maximum bus subsidy allocation under this scheme?",
+                "options": ["Rural blocks", "Headquarter Block", "Urban blocks", "Border blocks"],
+                "correctAnswer": 1,
+                "explanation": "Headquarter blocks are excluded."
+            },
+            {
+                "text": "Under the scheme, how many buses are reserved for the General category in each block?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus per block is reserved for General category."
+            },
+            {
+                "text": "How many buses are reserved for the ST/SC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "Two buses are reserved for ST/SC."
+            },
+            {
+                "text": "How many buses are reserved for the EBC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "Two buses reserved for EBC category."
+            },
+            {
+                "text": "How many buses are reserved for the Minority category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus is reserved for Minority category."
+            },
+            {
+                "text": "How many buses are reserved for the BC category under the scheme?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "One bus is reserved for BC category."
+            },
+            {
+                "text": "Where is Bapu Tower located?",
+                "options": ["Rajgir", "Patna", "Gaya", "Vaishali"],
+                "correctAnswer": 1,
+                "explanation": "Bapu Tower is located in Patna."
+            },
+            {
+                "text": "What is the seating capacity of Rajgir Khel Academy?",
+                "options": ["30,000", "35,000", "40,000", "45,000"],
+                "correctAnswer": 2,
+                "explanation": "Rajgir Khel Academy seats 40,000 spectators."
+            },
+            {
+                "text": "Where is the Abdul Kalam Science City located?",
+                "options": ["Rajgir", "Vaishali", "Rajendra Nagar, Patna", "Muzaffarpur"],
+                "correctAnswer": 2,
+                "explanation": "Located in Rajendra Nagar, Patna."
+            },
+            {
+                "text": "In which district is the Buddha Samyak Darshan Museum located?",
+                "options": ["Gaya", "Patna", "Vaishali", "Nalanda"],
+                "correctAnswer": 2,
+                "explanation": "Located in Vaishali district."
+            },
+            {
+                "text": "Where is Bihar Animal Science University located?",
+                "options": ["Rajgir", "Gaya", "Patna", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Located in Patna."
+            },
+            {
+                "text": "What was Bihar’s peak power in 2024?",
+                "options": ["7,505 MW", "7,805 MW", "8,005 MW", "8,205 MW"],
+                "correctAnswer": 2,
+                "explanation": "Peak power generation was 8,005 MW."
+            },
+            {
+                "text": "What is the current consumer base of Bihar’s power sector?",
+                "options": ["1.82 crore", "1.95 crore", "2.12 crore", "2.25 crore"],
+                "correctAnswer": 2,
+                "explanation": "Power sector serves around 2.12 crore consumers."
+            },
+            {
+                "text": "Which state is the first to have smart meters?",
+                "options": ["Gujarat", "Maharashtra", "Bihar", "Karnataka"],
+                "correctAnswer": 2,
+                "explanation": "Bihar is first state to adopt smart meters."
+            },
+            {
+                "text": "Since which year has Bihar achieved 100% household electrification?",
+                "options": ["2016", "2017", "2018", "2019"],
+                "correctAnswer": 2,
+                "explanation": "Achieved 100% electrification since 2018."
+            },
+            {
+                "text": "In 2025–26, what share of power demand is expected from the domestic sector in Bihar?",
+                "options": ["39%", "41%", "43%", "45%"],
+                "correctAnswer": 1,
+                "explanation": "Domestic sector expected to consume 41% power."
+            },
+            {
+                "text": "In 2025–26, what share of power demand is expected from agriculture in Bihar?",
+                "options": ["10%", "11%", "13%", "15%"],
+                "correctAnswer": 2,
+                "explanation": "Agriculture’s demand expected at 13%."
+            },
+            {
+                "text": "The remaining power demand in 2025–26 will come from?",
+                "options": ["Transport only", "Industries & other sectors", "Public lighting only", "Services only"],
+                "correctAnswer": 1,
+                "explanation": "Remaining demand estimated from industries and other sectors."
+            },
+            {
+                "text": "What was Bihar’s per capita energy consumption in 2023–24?",
+                "options": ["333 kWh", "353 kWh", "363 kWh", "373 kWh"],
+                "correctAnswer": 2,
+                "explanation": "Per capita energy consumption was approx. 363 kWh."
+            },
+            {
+                "text": "What is the share of thermal power in Bihar’s energy mix?",
+                "options": ["60.6%", "62.6%", "66.6%", "70.6%"],
+                "correctAnswer": 2,
+                "explanation": "Thermal power forms about 66.6% of the mix."
+            },
+            {
+                "text": "What is the share of renewable energy in Bihar’s energy mix?",
+                "options": ["30.4%", "31.4%", "33.4%", "35.4%"],
+                "correctAnswer": 2,
+                "explanation": "Renewable energy contribution is 33.4%."
+            },
+            {
+                "text": "What is the maximum reservation percentage for women in government jobs in Bihar?",
+                "options": ["33%", "35%", "40%", "50%"],
+                "correctAnswer": 1,
+                "explanation": "Bihar provides 35% reservation for women in government jobs."
+            },
+            {
+                "text": "What is the reservation percentage for women in Municipal body and PRI elections in Bihar?",
+                "options": ["33%", "35%", "40%", "50%"],
+                "correctAnswer": 3,
+                "explanation": "50% reservation is given for women in Municipal and PRI elections."
+            },
+            {
+                "text": "Under Civil Sewa Protsahan Yojna, how much is given for clearing BPSC Prelims?",
+                "options": ["₹25,000", "₹50,000", "₹75,000", "₹1,00,000"],
+                "correctAnswer": 1,
+                "explanation": "Successful candidates get ₹50,000."
+            },
+            {
+                "text": "Under Civil Sewa Protsahan Yojna, how much is given for clearing UPSC Prelims?",
+                "options": ["₹50,000", "₹75,000", "₹1,00,000", "₹1,50,000"],
+                "correctAnswer": 2,
+                "explanation": "Successful candidates get ₹1,00,000."
+            },
+            {
+                "text": "What is the total percentage of religious minorities in Bihar?",
+                "options": ["15.8%", "16.9%", "17.3%", "18.5%"],
+                "correctAnswer": 2,
+                "explanation": "Religious minorities constitute 17.3% of Bihar's population."
+            },
+            {
+                "text": "What percentage of Bihar's population are Muslims?",
+                "options": ["15.5%", "16.5%", "16.9%", "17.3%"],
+                "correctAnswer": 2,
+                "explanation": "Muslims make up 16.9% of Bihar's population."
+            },
+            {
+                "text": "Which district has the highest percentage of Muslim population in Bihar?",
+                "options": ["Katihar", "Araria", "Kishanganj", "Purnea"],
+                "correctAnswer": 2,
+                "explanation": "Kishanganj has the highest Muslim population percentage."
+            },
+            {
+                "text": "What percentage of Muslim population does Kishanganj have?",
+                "options": ["42.9%", "44.5%", "68%", "38.5%"],
+                "correctAnswer": 2,
+                "explanation": "Muslim population in Kishanganj is approximately 68%."
+            },
+            {
+                "text": "Which district has 44.5% Muslim population in Bihar?",
+                "options": ["Araria", "Katihar", "Purnea", "Sheikhpura"],
+                "correctAnswer": 1,
+                "explanation": "Katihar district has 44.5% Muslim population."
+            },
+            {
+                "text": "What is the purpose of the POSHAN Tracker?",
+                "options": ["Monitor school attendance", "Track services delivered by Anganwadi Centres", "Record agricultural productivity", "Monitor rainfall patterns"],
+                "correctAnswer": 1,
+                "explanation": "POSHAN Tracker monitors nutrition-related services from Anganwadi Centres."
+            },
+            {
+                "text": "As per 2011 Census, what percentage of Bihar's population are children (0–18 years)?",
+                "options": ["45%", "46%", "48%", "50%"],
+                "correctAnswer": 2,
+                "explanation": "Children aged 0–18 years make up approximately 48% of Bihar's population."
+            },
+            {
+                "text": "What percentage of India's child population does Bihar contribute?",
+                "options": ["9%", "10%", "11%", "12%"],
+                "correctAnswer": 2,
+                "explanation": "Bihar contributes about 11% of the total child population of India."
+            },
+            {
+                "text": "Average annual rainfall in Bihar between 2011–2024?",
+                "options": ["950 mm", "1004.6 mm", "1100 mm", "1200 mm"],
+                "correctAnswer": 1,
+                "explanation": "Average annual rainfall is 1004.6 mm."
+            },
+            {
+                "text": "Which district receives the highest annual rainfall in Bihar?",
+                "options": ["Purnea", "Kishanganj", "Araria", "Katihar"],
+                "correctAnswer": 1,
+                "explanation": "Kishanganj receives the highest annual rainfall."
+            },
+            {
+                "text": "How much rainfall does Kishanganj receive annually?",
+                "options": ["1672.9 mm", "1827.5 mm", "2127.5 mm", "2227.5 mm"],
+                "correctAnswer": 2,
+                "explanation": "Kishanganj receives about 2127.5 mm rainfall per year."
+            },
+            {
+                "text": "Which district has the lowest annual rainfall in Bihar?",
+                "options": ["Nalanda", "Vaishali", "Supaul", "Arwal"],
+                "correctAnswer": 1,
+                "explanation": "Vaishali district has the lowest annual rainfall."
+            },
+            {
+                "text": "Rainfall in Vaishali annually?",
+                "options": ["672.9 mm", "712.9 mm", "752.9 mm", "802.9 mm"],
+                "correctAnswer": 0,
+                "explanation": "Vaishali receives 672.9 mm rainfall yearly."
+            },
+            {
+                "text": "What percentage of Bihar's rainfall comes from the South-West Monsoon?",
+                "options": ["78%", "80%", "85%", "88%"],
+                "correctAnswer": 3,
+                "explanation": "South-West Monsoon contributes 88% of annual rainfall."
+            },
+            {
+                "text": "Bihar's average temperature in 2023?",
+                "options": ["23.7°C", "24.7°C", "25.2°C", "26.0°C"],
+                "correctAnswer": 1,
+                "explanation": "Average temperature recorded was 24.7°C."
+            },
+            {
+                "text": "Increase in Bihar's forest cover between 2011–2023?",
+                "options": ["587 sq. km", "627 sq. km", "687 sq. km", "707 sq. km"],
+                "correctAnswer": 2,
+                "explanation": "Forest cover increased by 687 square kilometers."
+            },
+            {
+                "text": "Since which year has Jal Jeevan Hariyali Abhiyan been implemented?",
+                "options": ["2017", "2018", "2019", "2020"],
+                "correctAnswer": 2,
+                "explanation": "Implemented since 2019 to enhance water and greenery."
+            },
+            {
+                "text": "Where is Vikramshila Dolphin Sanctuary located?",
+                "options": ["Patna", "Bhagalpur", "Gaya", "Darbhanga"],
+                "correctAnswer": 1,
+                "explanation": "Situated in Bhagalpur district."
+            },
+            {
+                "text": "In which year was Vikramshila Dolphin Sanctuary established?",
+                "options": ["1989", "1990", "1991", "1992"],
+                "correctAnswer": 2,
+                "explanation": "Established in 1991 for dolphin conservation."
+            },
+            {
+                "text": "Vikramshila Dolphin Sanctuary extends between which two places?",
+                "options": ["Bhagalpur to Patna", "Sultanganj to Kahalgaon", "Darbhanga to Supaul", "Gaya to Nalanda"],
+                "correctAnswer": 1,
+                "explanation": "Stretch is from Sultanganj to Kahalgaon."
+            },
+            {
+                "text": "Length of Vikramshila Dolphin Sanctuary?",
+                "options": ["50 km", "55 km", "60 km", "65 km"],
+                "correctAnswer": 2,
+                "explanation": "Sanctuary covers approximately 60 kilometers."
+            },
+            {
+                "text": "Under which act was Vikramshila Dolphin Sanctuary declared?",
+                "options": ["Environment Protection Act, 1986", "Wildlife Protection Act, 1972", "Forest Conservation Act, 1980", "Biological Diversity Act, 2002"],
+                "correctAnswer": 1,
+                "explanation": "Declared under Wildlife Protection Act, 1972."
+            },
+            {
+                "text": "Conservation status of dolphins in Vikramshila Sanctuary?",
+                "options": ["Vulnerable", "Endangered", "Near Threatened", "Critically Endangered"],
+                "correctAnswer": 1,
+                "explanation": "Dolphins are classified as Endangered species."
+            },
+            {
+                "text": "Where is Dolphin Research Centre in Bihar?",
+                "options": ["Bhagalpur", "Patna", "Gaya", "Rajgir"],
+                "correctAnswer": 1,
+                "explanation": "Located in Patna."
+            }
         ]
+
     },
     "Modern History": {
         "Advent of the Europeans in India": [{
