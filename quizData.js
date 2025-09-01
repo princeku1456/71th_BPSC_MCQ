@@ -10219,8 +10219,1186 @@ const allQuizData = {
                 "correctAnswer": 1,
                 "explanation": "Located in Patna."
             }
+        ],
+        "Bihar CA - Set 1": [{
+                "text": "What is the allocated amount in Rupees for the development of Ugratara Mandir?",
+                "options": ["₹10 crore", "₹12 crore", "₹14 crore", "₹16 crore"],
+                "correctAnswer": 2,
+                "explanation": "The allocated amount for the development of Ugratara Mandir is ₹14 crore."
+            },
+            {
+                "text": "The Ajgaibinath Temple, dedicated to Lord Shiva, is located in which district of Bihar?",
+                "options": ["Saharsa", "Bhagalpur", "Muzzaffarpur", "Aurangabad"],
+                "correctAnswer": 1,
+                "explanation": "Ajgaibinath Temple is located in Bhagalpur district."
+            },
+            {
+                "text": "A 2400 MW superthermal power plant is planned to be constructed in which location?",
+                "options": ["Kahalgaon, Bhagalpur", "Pirpainti, Bhagalpur", "Kanti, Muzzaffarpur", "Navinagar, Aurangabad"],
+                "correctAnswer": 1,
+                "explanation": "A 2400 MW superthermal power plant is planned at Pirpainti, Bhagalpur."
+            },
+            {
+                "text": "Which thermal power plant is situated in Muzzaffarpur?",
+                "options": ["Kahalgaon thermal", "Kanti thermal", "Navinagar thermal", "Pirpainti thermal"],
+                "correctAnswer": 1,
+                "explanation": "Kanti thermal power plant is situated in Muzzaffarpur."
+            },
+            {
+                "text": "The Maa Mundeshwari Temple, a site of historical importance, is located in which district of Bihar?",
+                "options": ["Buxar", "Kaimur", "Bhagalpur", "Saharsa"],
+                "correctAnswer": 1,
+                "explanation": "Maa Mundeshwari Temple is located in Kaimur district."
+            },
+            {
+                "text": "When is the 113th anniversary of Bihar Diwas scheduled to be celebrated?",
+                "options": ["22 March 2024", "22 March 2025", "22 April 2025", "22 February 2025"],
+                "correctAnswer": 1,
+                "explanation": "The 113th anniversary of Bihar Diwas will be celebrated on 22 March 2025."
+            },
+            {
+                "text": "What was the theme of the Bihar Tableau for the Republic Day parade that highlighted Nalanda Vishwavidyalaya?",
+                "options": ["Unnat Bihar, Vikshit Bihar", "Swarnim Bihar, Pragati aur Pehchan", "Swarnim Bharat, Vikas aur Virasat", "Shiksha aur Sanskriti ka Naya Bharat"],
+                "correctAnswer": 2,
+                "explanation": "The theme was 'Swarnim Bharat, Vikas aur Virasat'."
+            },
+            {
+                "text": "Who was credited with the first discovery of the Nalanda Ruins Site?",
+                "options": ["Kumar Gupta I", "B. V. Doshi", "Francis Buchanan", "A. P. J. Abdul Kalam"],
+                "correctAnswer": 2,
+                "explanation": "Francis Buchanan is credited with the first discovery of the Nalanda Ruins Site."
+            },
+            {
+                "text": "In which year did the Nalanda Ruins Site receive UNESCO heritage status?",
+                "options": ["427 AD", "2006", "2010", "2016"],
+                "correctAnswer": 3,
+                "explanation": "Nalanda Ruins Site received UNESCO heritage status in 2016."
+            },
+            {
+                "text": "Who is the current Chancellor of Nalanda University?",
+                "options": ["Sachin Chaturvedi", "B. V. Doshi", "Arvind Pangariya", "Kumar Gupta I"],
+                "correctAnswer": 2,
+                "explanation": "Arvind Pangariya is the current Chancellor of Nalanda University."
+            },
+            {
+                "text": "What is the approximate area, in acres, over which the Nalanda University campus is spread?",
+                "options": ["355 acres", "427 acres", "455 acres", "500 acres"],
+                "correctAnswer": 2,
+                "explanation": "Nalanda University campus is spread over approximately 455 acres."
+            },
+            {
+                "text": "The idea for the modern Nalanda University was first conceived by which former president in 2006?",
+                "options": ["Pranab Mukherjee", "Ram Nath Kovind", "A. P. J. Abdul Kalam", "K. R. Narayanan"],
+                "correctAnswer": 2,
+                "explanation": "A. P. J. Abdul Kalam first conceived the idea of modern Nalanda University in 2006."
+            },
+            {
+                "text": "Who is the current Chief Electoral Officer (CEO) of Bihar?",
+                "options": ["Tripurari Saran Sir", "Vinod Kumar Gunjiyal", "Amrit Lal Meena", "Pratyay Amrit"],
+                "correctAnswer": 1,
+                "explanation": "Vinod Kumar Gunjiyal is the current CEO of Bihar."
+            },
+            {
+                "text": "The Bihar State Election Commission (SEC) came into force on which date?",
+                "options": ["22 March 2025", "30 March 1994", "1 September 2025", "427 AD"],
+                "correctAnswer": 1,
+                "explanation": "The Bihar State Election Commission came into force on 30 March 1994."
+            },
+            {
+                "text": "How are the members of the State Election Commission removed from office?",
+                "options": ["By a simple majority in the State Legislature", "By the Governor's order", "In the same manner as a judge of the High Court", "By a resolution passed by the Panchayats and Municipalities"],
+                "correctAnswer": 2,
+                "explanation": "Members are removed in the same manner as a judge of the High Court."
+            },
+            {
+                "text": "Who is the 42nd Governor of Bihar?",
+                "options": ["Satyapal Mallik", "Arif Mohammmmed Khan", "Amrit Lal Meena", "Vinay Kumar"],
+                "correctAnswer": 1,
+                "explanation": "Arif Mohammed Khan is the 42nd Governor of Bihar."
+            },
+            {
+                "text": "Who is designated to take over the charge of Chief Secretary on 1st September?",
+                "options": ["Amrit Lal Meena", "Pratyay Amrit", "Vinay Kumar", "Nadkishore Yadav"],
+                "correctAnswer": 1,
+                "explanation": "Pratyay Amrit is designated to take over the charge on 1st September."
+            },
+            {
+                "text": "Who is the current Speaker of the Bihar Legislative Assembly?",
+                "options": ["Narendra Narayan Yadav", "Awadhesh Narayan Singh", "Nadkishore Yadav", "Dr Ram Bachan Rai"],
+                "correctAnswer": 2,
+                "explanation": "Nadkishore Yadav is the current Speaker."
+            },
+            {
+                "text": "Satyapal Mallik, who passed away, was notably the Governor of which state/union territory when Article 370 was revoked?",
+                "options": ["Bihar", "Jammu & Kashmir", "Uttar Pradesh", "Madhya Pradesh"],
+                "correctAnswer": 1,
+                "explanation": "Satyapal Mallik was the Governor of Jammu & Kashmir when Article 370 was revoked."
+            },
+            {
+                "text": "Pritish Nandy, a deceased personality from Bhagalpur, was a Rajya Sabha member representing which political party?",
+                "options": ["Indian National Congress", "Bharatiya Janata Party", "Shiv Sena", "Rashtriya Janata Dal"],
+                "correctAnswer": 2,
+                "explanation": "Pritish Nandy represented Shiv Sena."
+            },
+            {
+                "text": "Pandit Ram Kumar Mallick, who received the Padmashree in 2024, was associated with which classical music genre and gharana?",
+                "options": ["Khayal, Gwalior Gharana", "Dhrupad, Darbhanga Gharana", "Thumri, Benaras Gharana", "Carnatic, Mysore Gharana"],
+                "correctAnswer": 1,
+                "explanation": "He was associated with Dhrupad, Darbhanga Gharana."
+            },
+            {
+                "text": "Kameshwar Chaupal, a deceased two-time MLC, was notable for which significant act?",
+                "options": ["Authoring a book on Bihar's history", "Being the first to lay the brick of Ram Mandir", "Serving as the Chief Minister of Bihar", "Discovering the Nalanda Ruins Site"],
+                "correctAnswer": 1,
+                "explanation": "He was notable for being the first to lay the brick of Ram Mandir."
+            },
+            {
+                "text": "What is the increased monthly pension amount for Old Aged, Disabled & Widow individuals in Bihar?",
+                "options": ["₹400", "₹750", "₹1100", "₹1500"],
+                "correctAnswer": 2,
+                "explanation": "The increased pension amount is ₹1100."
+            },
+            {
+                "text": "Who has been appointed as the Chairperson of the Extremely Backward Class Commission?",
+                "options": ["Saleem Parvez", "Apsara", "Naveen Kumar Arya", "Prahlad Kumar Sarkar"],
+                "correctAnswer": 2,
+                "explanation": "Naveen Kumar Arya has been appointed as Chairperson."
+            },
+            {
+                "text": "Who is the current Chairperson of the State Women Commission?",
+                "options": ["Apsara", "Naveen Kumar Arya", "Saleem Parvez", "Prahlad Kumar Sarkar"],
+                "correctAnswer": 0,
+                "explanation": "Apsara is the current Chairperson of the State Women Commission."
+            },
+            {
+                "text": "Who serves as the Chairperson of the State Food Commission?",
+                "options": ["Ashok Kumar", "Arvind Kumar Singh", "Prahlad Kumar Sarkar", "Ghulam Rasool Baliyavi"],
+                "correctAnswer": 2,
+                "explanation": "Prahlad Kumar Sarkar is the Chairperson."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar State Child Labour Commission?",
+                "options": ["Arvind Kumar Singh", "Ashok Kumar", "Dr. Amardeep", "Lalan Kumar Sahni"],
+                "correctAnswer": 1,
+                "explanation": "Ashok Kumar is the Chairperson."
+            },
+            {
+                "text": "The Bihar Human Rights Commission is currently headed by whom?",
+                "options": ["Mrinal Paswan", "Ravi Manu Bhai Parmar", "Anant Manohar Badar", "Mahachandra Prasad Singh"],
+                "correctAnswer": 2,
+                "explanation": "Anant Manohar Badar heads the commission."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar Public Service Commission?",
+                "options": ["Shailendra Kumar", "Ashok Choudhary", "Ravi Manu Bhai Parmar", "Ghulam Rasool Baliyavi"],
+                "correctAnswer": 2,
+                "explanation": "Ravi Manu Bhai Parmar is the Chairperson."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar State Savarna Commission?",
+                "options": ["Mrinal Paswan", "Mahachandra Prasad Singh", "Shailendra Kumar", "Ashok Choudhary"],
+                "correctAnswer": 1,
+                "explanation": "Mahachandra Prasad Singh is the Chairperson."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar State Finance Commission?",
+                "options": ["Mahachandra Prasad Singh", "Shailendra Kumar", "Ghulam Rasool Baliyavi", "Ashok Choudhary"],
+                "correctAnswer": 3,
+                "explanation": "Ashok Choudhary is the Chairperson."
+            },
+            {
+                "text": "Bihar was the first state in India to implement which comprehensive system?",
+                "options": ["Aadhaar-linked Public Distribution System", "Child Labour Tracking System (CLTS)", "Online Land Records Management System", "Universal Healthcare Insurance Scheme"],
+                "correctAnswer": 1,
+                "explanation": "Bihar was the first to implement the Child Labour Tracking System (CLTS)."
+            },
+            {
+                "text": "As per the Bihar Caste Survey 2023, what is the percentage of the Extremely Backward Class (EBC) population?",
+                "options": ["27.12%", "32.50%", "36.01%", "39.87%"],
+                "correctAnswer": 2,
+                "explanation": "Extremely Backward Class population is 36.01%."
+            },
+            {
+                "text": "Who is the current Chairman of the Bihar State Fisheries Department?",
+                "options": ["Dr. Amardeep", "Prof. Ranveer Nandan", "Lalan Kumar Sahni", "Prashant Kumar Shahi"],
+                "correctAnswer": 2,
+                "explanation": "Lalan Kumar Sahni is the Chairman."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar State Religious Trust Council?",
+                "options": ["Prof. Ranveer Nandan", "Ghulam Rasool Baliyavi", "Mrinal Paswan", "Ashok Kumar"],
+                "correctAnswer": 0,
+                "explanation": "Prof. Ranveer Nandan is the Chairperson."
+            },
+            {
+                "text": "Who has been appointed as the Advocate General of Bihar?",
+                "options": ["Amir Subhani", "Prashant Kumar Shahi", "Ashutosh Kumar", "Vipul Pancholi"],
+                "correctAnswer": 1,
+                "explanation": "Prashant Kumar Shahi is the Advocate General."
+            },
+            {
+                "text": "Who has been appointed as the Chief Justice of Gauhati High Court?",
+                "options": ["Vipul Pancholi", "Pavan Kumar Bhimappa Bajanthri", "Ashutosh Kumar", "Justice Nagarathna"],
+                "correctAnswer": 2,
+                "explanation": "Ashutosh Kumar is the Chief Justice."
+            },
+            {
+                "text": "Who is the Acting Chief Justice of Patna High Court?",
+                "options": ["Ashutosh Kumar", "Vipul Pancholi", "Pavan Kumar Bhimappa Bajanthri", "Prashant Kumar Shahi"],
+                "correctAnswer": 2,
+                "explanation": "Pavan Kumar Bhimappa Bajanthri is the Acting Chief Justice."
+            },
+            {
+                "text": "The name of which city has been changed to \"Gaya Ji\"?",
+                "options": ["Bakhtiyarpur", "Bodh Gaya", "Gaya", "Dobhi"],
+                "correctAnswer": 2,
+                "explanation": "The city of Gaya has been renamed as Gaya Ji."
+            },
+            {
+                "text": "Which of the following is NOT an initiative associated with Gaya according to the provided sources?",
+                "options": ["Construction of a Rubber Dam", "Opening of the state's first Goat Semen Station", "Establishment of a Gharial sanctuary", "Opening of a new zoo"],
+                "correctAnswer": 2,
+                "explanation": "Establishment of a Gharial sanctuary is NOT associated with Gaya."
+            },
+            {
+                "text": "On April 27, 2025, a record for the largest singing bowl ensemble was created in the Mahabodhi Temple complex in Bodh Gaya. How many Buddhist monks and lamas participated?",
+                "options": ["275", "300", "375", "400"],
+                "correctAnswer": 2,
+                "explanation": "375 Buddhist monks and lamas participated."
+            },
+            {
+                "text": "The Bakhtiyarpur Municipal Council passed a proposal to change the name of \"Bakhtiyarpur\" to what?",
+                "options": ["Gaya Ji", "Magadh Dwaar", "Purnea Pur", "Sindoor Gaon"],
+                "correctAnswer": 1,
+                "explanation": "The proposed new name is Magadh Dwaar."
+            },
+            {
+                "text": "Where was the Next Gen lab for data-driven governance opened?",
+                "options": ["Bakhtiyarpur", "Gopalganj", "Bipard, Gaya", "Purnea"],
+                "correctAnswer": 2,
+                "explanation": "The lab was opened in Bipard, Gaya."
+            },
+            {
+                "text": "A Gharial sanctuary is to be established on which river in Gopalganj?",
+                "options": ["Ganga River", "Kosi River", "Gandak River", "Son River"],
+                "correctAnswer": 2,
+                "explanation": "It is to be established on the Gandak River."
+            },
+            {
+                "text": "The Thawe Mahotsav is celebrated in which district?",
+                "options": ["Aurangabad", "Gopalganj", "Purnea", "Gaya"],
+                "correctAnswer": 1,
+                "explanation": "Thawe Mahotsav is celebrated in Gopalganj district."
+            },
+            {
+                "text": "Who is the current Deputy Chief of Air Staff?",
+                "options": ["Awadhesh Kumar Bharti", "Vinay Kumar", "Pratyay Amrit", "Amrit Lal Meena"],
+                "correctAnswer": 0,
+                "explanation": "Awadhesh Kumar Bharti is the current Deputy Chief of Air Staff."
+            },
+            {
+                "text": "Awadhesh Kumar Bharti, the Deputy Chief of Air Staff, hails from which district of Bihar?",
+                "options": ["Gaya", "Gopalganj", "Purnea", "Aurangabad"],
+                "correctAnswer": 2,
+                "explanation": "He hails from Purnea district."
+            },
+            {
+                "text": "The Ugratara Mandir, associated with the Tantrik cult, is located in which district?",
+                "options": ["Bhagalpur", "Saharsa", "Kaimur", "Buxar"],
+                "correctAnswer": 1,
+                "explanation": "Ugratara Mandir is located in Saharsa district."
+            },
+            {
+                "text": "Who formed the Nalanda Ruins Site in 427 AD?",
+                "options": ["Francis Buchanan", "Kumar Gupta I", "A. P. J. Abdul Kalam", "B. V. Doshi"],
+                "correctAnswer": 1,
+                "explanation": "Nalanda Ruins Site was formed by Kumar Gupta I in 427 AD."
+            },
+            {
+                "text": "Who is the Chairperson of the Bihar State Scheduled Tribes Commission?",
+                "options": ["Mrinal Paswan", "Ghulam Rasool Baliyavi", "Shailendra Kumar", "Mahachandra Prasad Singh"],
+                "correctAnswer": 2,
+                "explanation": "Shailendra Kumar is the Chairperson."
+            }
+        ],
+        "Bihar CA - Set 2": [{
+                "text": "What was the voter turnout recorded for the 18th Lok Sabha Election in Bihar?",
+                "options": ["52.38%", "56.62%", "60.15%", "61.22%"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Which constituency witnessed the largest victory margin in the 18th Lok Sabha Election in Bihar?",
+                "options": ["Saran", "Patliputra", "Muzaffarpur", "Aurangabaad"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Rajeev Pratap Rudy won his seat in the 18th Lok Sabha Election from Saran with an approximate margin of:",
+                "options": ["5,000 votes", "10,000 votes", "13,500 votes", "20,000 votes"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "How many phases were conducted for the 18th Lok Sabha Election in Bihar?",
+                "options": ["5 phases", "6 phases", "7 phases", "8 phases"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "What is the total number of Lok Sabha seats in Bihar?",
+                "options": ["38", "40", "42", "45"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "According to the party-wise seat distribution for the 18th Lok Sabha Election, how many seats did the Janata Dal (United) (JDU) secure?",
+                "options": ["10", "12", "15", "18"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Misa Bharti, who won a seat in the 18th Lok Sabha Election, represents which political party and constituency?",
+                "options": ["RJD, Patliputra", "CONGRESS, Katihaar", "BJP, Muzaffarpur", "JDU, Vaishali"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "Which of the following candidates from the CPI(ML)(L) secured a seat in the 18th Lok Sabha Election?",
+                "options": ["Misa Bharti", "Sudhakar Singh", "Sudama Pd", "Manoj Kumar"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Jitan Ram Manjhi holds which portfolio in the Union Cabinet?",
+                "options": ["Ministry of Panchayati Raj", "Ministry of Textiles", "Ministry of Micro, Small and Medium Enterprises", "Ministry of Food Processing Industries"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Rajiv Ranjan alias Lalan Singh is responsible for which of the following ministries?",
+                "options": ["Ministry of Home Affairs", "Ministry of Agriculture and Farmers' Welfare", "Ministry of Panchayati Raj; Animal Husbandry, Dairying, and Fisheries", "Ministry of Coal and Mines"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Who serves as the Minister of State for Home Affairs?",
+                "options": ["Ramnath Thakur", "Nityanand Rai", "Satish Chandra Dubey", "Raj Bhushan Chaudhary"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "How many newly elected women MPs are mentioned from Bihar in the given list?",
+                "options": ["3", "4", "5", "6"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Veena Devi is one of the newly elected women MPs from Bihar, representing which constituency?",
+                "options": ["Samastipur", "Siwan", "Vaishali", "Sheohar"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Who is the current Chairman of the Bihar State Religious Trust Board?",
+                "options": ["Sayan Kunal", "Prof. Ranveer Nandan", "Rajendra Prasad", "Chaitanya Mahaprabhu"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "What is the name of Bihar's first smart village, located in Banka, which was reportedly destroyed by communal riots in 1989?",
+                "options": ["Babarchak", "Baunsi", "Mandar", "Tapovan"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "The Baunsi mela, dedicated to Lord Madhusudan, begins from Makar Sankranti in which region?",
+                "options": ["Gaya", "Samastipur", "Mandar region", "Lakhisarai"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Which university in Samastipur has obtained a patent for Mushroom Paneer, making it its 13th patent product?",
+                "options": ["Patna University", "Magadh University", "Rajendra Prasad Agriculture University", "Bihar Agricultural University"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "In which district is the \"Gupta Dham\" located?",
+                "options": ["Lakhisarai", "Rohtash", "Banka", "Rajgir"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Which mela in Munger has been granted State Mela status?",
+                "options": ["Khageshwarnath Mela", "Moniya Baba Mela", "Sita Kund Mela", "Baunsi Mela"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "The Government of India has declared two Special Economic Zones (SEZs) in Bihar in which two locations?",
+                "options": ["Muzaffarpur and Samastipur", "Nawanagar (Buxar) and Kumarbagh (West Champaran)", "Gaya and Rohtash", "Purnia and Kishanganj"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "When did the SEZ Act, 2005, come into force?",
+                "options": ["2005", "2006", "2001", "1989"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The state's first music college, named after Ustad Bismillaha Khan, is set to open in which town?",
+                "options": ["Buxar", "Dumraon", "Patna", "Gaya"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Ustad Bismillaha Khan, a Shehnai Maestro, received the Bharat Ratna in which year?",
+                "options": ["1999", "2000", "2001", "2002"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Who established the Bharat Ratna award on January 2, 1954?",
+                "options": ["C. Raja Gopalachari", "Dr. Rajendra Prasad", "Jawaharlal Nehru", "Sardar Vallabhbhai Patel"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The Bharat Ratna award is designed in the shape of which leaf?",
+                "options": ["Banyan leaf", "Neem leaf", "Peepal leaf", "Mango leaf"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "In which district court in Bihar were arguments heard for the first time in Maithili?",
+                "options": ["Bhagalpur", "Motihari", "Darbhanga", "Muzaffarpur"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Bihar's first Tourist Park is proposed to be built along the Ganga river in which location?",
+                "options": ["Patna", "Sultanganj, Bhagalpur", "Rajgir", "Gaya"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The Shaurya Vedanam Utsava, a two-day Armed Forces display, took place in which district of Bihar on 7-8 March 2025?",
+                "options": ["Jamui", "Motihari, East Champaran", "Madhubani", "Vaishali"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The Kalrav Festival, a state bird festival, was held at which location?",
+                "options": ["Nagi Bird Sanctuary, Jamui", "Nakti Bird Sanctuary, Jamui", "Kanwar Lake, Begusarai", "Gogabeel, Katihar"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "A 1700-year-old idol named \"Uma-Maheshwar\" (Shiva and Parvati) was found in which village and district?",
+                "options": ["Manjosh village, Jamui", "Pulhar Asthan, Madhubani", "Babarchak, Banka", "Sultanganj, Bhagalpur"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "In which district was a Guinness World Record set for collectively creating the world's longest Mithila Painting?",
+                "options": ["Jamui", "Madhubani", "Rohtas", "Rajgir"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Where is Bihar's first Dinosaur Park currently being built?",
+                "options": ["Nawada", "Rohtas", "Rajgir", "Gaya"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "India's fourth lion incubation center will be established in which location in Bihar?",
+                "options": ["Rajgir", "Nawada", "Rohtas", "Supaul"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "What is the proposed location for East India's first nuclear plant in Bihar?",
+                "options": ["Rajgir", "Rajauli, Nawada", "Phulwaria, Nawada", "Darbhanga"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "What is the capacity of the largest floating power plant in Bihar, located at Phulwaria, Nawada?",
+                "options": ["525 kW", "1.6 MW", "10 MW", "100 MW"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "In which district will Bihar's largest park be built, next to the Karamchat Dam?",
+                "options": ["Banka", "Sheikhpura", "Rohtas", "Munger"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "What is Bihar's rank in NITI Aayog's Export Index, 2023?",
+                "options": ["14th", "22nd", "4th", "3rd"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "What is Bihar's rank in timely vaccination for children and pregnant women?",
+                "options": ["1st", "3rd", "18th", "13th"],
+                "correctAnswer": 0
+            },
+            {
+                "text": "As per the Ministry of Panchayati Raj's Panchayat Devolution Report 2024, what is Bihar's rank?",
+                "options": ["1st", "11th", "13th", "18th"],
+                "correctAnswer": 3
+            },
+            {
+                "text": "Which state has the most Gangetic dolphins, followed by Bihar?",
+                "options": ["West Bengal", "Uttar Pradesh", "Madhya Pradesh", "Assam"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "In which Sustainable Development Goal (SDG) does Bihar show its strongest performance, ranking 3rd with a score of 98?",
+                "options": ["SDG-4 Quality Education", "SDG-6 Clean Water & Sanitation", "SDG-7 Affordable and Clean Energy", "SDG-11 Sustainable Cities and Communities"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "Bihar ranks 1st in the country for providing doses to the highest number of infants and pregnant women through which portal?",
+                "options": ["Aarogya Setu Portal", "Co-WIN Portal", "U-WIN Portal", "e-Gram Swaraj Portal"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Bihar is the first state to provide a free HPV vaccine to girls aged 9 to 14 years for the prevention of which condition?",
+                "options": ["Hepatitis B", "Cervical cancer", "Polio", "Measles"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "What was Patna's rank in the 9th Swachh Sarvekshan in the \"10 lakh plus category\"?",
+                "options": ["1st", "21st", "73rd", "99th"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "When is \"Bihar Prithvi Divas\" celebrated?",
+                "options": ["7th August", "9th August", "15th February", "1st September"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The Bihar Cabinet has approved the acquisition of land in Fatuha, Patna, for the establishment of which industrial project?",
+                "options": ["Special Economic Zone", "FinTech City", "Food Processing Park", "Tourist Park"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "What is the current monthly incentive for ASHA (Accredited Social Health Activist) Workers in Bihar?",
+                "options": ["₹600", "₹3,000", "₹7,500", "₹15,000"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "For political prisoners imprisoned for more than 6 months, what is the doubled pension under the JP Senani Scheme?",
+                "options": ["₹7,500 per month", "₹15,000 per month", "₹30,000 per month", "₹45,000 per month"],
+                "correctAnswer": 2
+            },
+            {
+                "text": "Which district in Bihar is home to the first Plastic Waste Management Centre?",
+                "options": ["Begusarai", "Bhagalpur", "Rohtas", "Samastipur"],
+                "correctAnswer": 1
+            },
+            {
+                "text": "The newly constructed 'Buddha Samyak Darshan Museum and Memorial Stupa' has been inaugurated in which district of Bihar?",
+                "options": ["Gaya", "Vaishali", "Nalanda", "Rajgir"],
+                "correctAnswer": 1
+            }
+        ],
+        "Bihar CA - Set 3": [{
+                "text": "What is the primary function of the 'Naj App' as per the provided sources?",
+                "options": [
+                    "To correct Bihar Jamin Jamabandi issues",
+                    "To keep a tab on teachers",
+                    "For community policing and citizen services",
+                    "For digital attendance tracking"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The primary function of the Naj App is to keep a tab on teachers."
+            },
+            {
+                "text": "The 'Parimarjan' app is designed to address which specific issue in Bihar?",
+                "options": [
+                    "Flood and Irrigation Quick Response",
+                    "Nal-jal yojana monitoring",
+                    "Bihar Jamin Jamabandi issues",
+                    "Digital attendance tracking"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The Parimarjan app addresses Bihar Jamin Jamabandi issues."
+            },
+            {
+                "text": "Which application is associated with 'Health' services according to the sources?",
+                "options": [
+                    "BeFIQR App",
+                    "E-NISCHAY PORTAL",
+                    "Wonder App + ASHWIN Portal + Anmol App",
+                    "e-shiksha Kosh APP"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Health services are associated with Wonder App + ASHWIN Portal + Anmol App."
+            },
+            {
+                "text": "The 'e-shiksha Kosh APP' has been developed for what purpose?",
+                "options": [
+                    "Monitoring Nal-jal yojana",
+                    "Facilitating community policing",
+                    "Digital Attendance Tracking",
+                    "Addressing land record issues"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The e-shiksha Kosh APP is for Digital Attendance Tracking."
+            },
+            {
+                "text": "What is the target year for Bihar to achieve Net Zero Carbon Emissions as per the sources?",
+                "options": ["2030", "2040", "2070", "2035"],
+                "correctAnswer": 2,
+                "explanation": "Bihar aims to achieve Net Zero Carbon Emissions by 2070."
+            },
+            {
+                "text": "By which year does Bihar aim to achieve a 50% Gross Enrollment Ratio in Higher Education?",
+                "options": ["2030", "2035", "2040", "2047"],
+                "correctAnswer": 1,
+                "explanation": "The target year for 50% GER in Higher Education is 2035."
+            },
+            {
+                "text": "Bihar has set a target to achieve a 100% Literacy Rate by which year?",
+                "options": ["2025", "2030", "2035", "2040"],
+                "correctAnswer": 1,
+                "explanation": "Bihar targets 100% Literacy Rate by 2030."
+            },
+            {
+                "text": "What is the deadline for the Complete Elimination of Tuberculosis from Bihar?",
+                "options": ["2025", "2030", "2047", "2027"],
+                "correctAnswer": 0,
+                "explanation": "2025 is the deadline for TB elimination in Bihar."
+            },
+            {
+                "text": "The goal of making Bihar Filariasis-Free is set for which year?",
+                "options": ["2025", "2027", "2030", "2047"],
+                "correctAnswer": 1,
+                "explanation": "Bihar aims to be Filariasis-Free by 2027."
+            },
+            {
+                "text": "By when is Bihar targeted to be Hydrocele-Free?",
+                "options": ["March 2025", "June 2025", "2027", "2030"],
+                "correctAnswer": 0,
+                "explanation": "Bihar targets Hydrocele-Free status by March 2025."
+            },
+            {
+                "text": "What is the target date for making all rural roads in Bihar pothole-free?",
+                "options": ["30 June 2025", "March 2025", "2027", "2030"],
+                "correctAnswer": 0,
+                "explanation": "The target date is 30 June 2025."
+            },
+            {
+                "text": "By what year does Bihar aim to ensure every part of the state is reachable to Patna within 3.5 hours?",
+                "options": ["2025", "2027", "2028", "2030"],
+                "correctAnswer": 1,
+                "explanation": "Goal is 2027 for reachability within 3.5 hours."
+            },
+            {
+                "text": "The target for increasing Green Cover in Bihar to 17% is set for which year?",
+                "options": ["2027", "2028", "2030", "2047"],
+                "correctAnswer": 1,
+                "explanation": "Target year for 17% Green Cover is 2028."
+            },
+            {
+                "text": "What is the target contribution of solar energy mix in power production for Bihar by 2030?",
+                "options": ["10%", "15%", "17%", "20%"],
+                "correctAnswer": 3,
+                "explanation": "Solar energy mix target is 20% by 2030."
+            },
+            {
+                "text": "In which year did Makhana receive the GI Tag?",
+                "options": ["2020", "2021", "2022", "2023"],
+                "correctAnswer": 2,
+                "explanation": "Makhana received GI Tag in 2022."
+            },
+            {
+                "text": "Which of the following is NOT listed as a location for a proposed Greenfield airport in Bihar?",
+                "options": ["Saran", "Bhagalpur", "Rajgir", "Bihta"],
+                "correctAnswer": 3,
+                "explanation": "Bihta is not listed as a proposed location."
+            },
+            {
+                "text": "When was the new terminal of Patna airport inaugurated by the Prime Minister?",
+                "options": ["29th May 2024", "29th May 2025", "29th May 2023", "29th March 2025"],
+                "correctAnswer": 1,
+                "explanation": "New terminal was inaugurated on 29th May 2025."
+            },
+            {
+                "text": "The 'Western Kosi Canal project' is specifically intended for which region?",
+                "options": ["Angika", "Magadh", "Mithilanchal", "Bhojpur"],
+                "correctAnswer": 2,
+                "explanation": "Project is for Mithilanchal region."
+            },
+            {
+                "text": "What is the estimated total fund for the 'Kosi-Mechi link project'?",
+                "options": ["Rs 5282.32 cr", "Rs 6282.32 cr", "Rs 7282.32 cr", "Rs 8282.32 cr"],
+                "correctAnswer": 1,
+                "explanation": "Total fund is Rs 6282.32 cr."
+            },
+            {
+                "text": "'Mission DAKSH' was mentioned by the Union FM in her Budget speech. What does DAKSH stand for?",
+                "options": [
+                    "Dynamic Approach for Knowledge and Skill",
+                    "Digital Advancement for Knowledge and Success",
+                    "Developed Approach for Knowledge and Support",
+                    "Dynamic Application for Kosh and Shiksha"
+                ],
+                "correctAnswer": 0,
+                "explanation": "DAKSH stands for Dynamic Approach for Knowledge and Skill."
+            },
+            {
+                "text": "The aim of Mission DAKSH is to offer special classes in Hindi, Mathematics, and English to weak students of which grade levels?",
+                "options": ["Classes 1-5", "Classes 3-8", "Classes 6-10", "Classes 9-12"],
+                "correctAnswer": 1,
+                "explanation": "Mission DAKSH targets Classes 3-8."
+            },
+            {
+                "text": "The 85th session of the All India Presiding Officers’ Conference (AIPOC) was organized in Patna on which dates?",
+                "options": ["10th and 11th January", "20th and 21st January", "25th and 26th February", "1st and 2nd March"],
+                "correctAnswer": 1,
+                "explanation": "It was held on 20th and 21st January."
+            },
+            {
+                "text": "PMCH (Patna Medical College and Hospital) was established in which year?",
+                "options": ["1920", "1925", "1930", "1935"],
+                "correctAnswer": 1,
+                "explanation": "PMCH was established in 1925."
+            },
+            {
+                "text": "What was the earlier name of PMCH before independence?",
+                "options": ["Bihar General Hospital", "Rajendra Medical College", "Prince of Wales Medical College", "Patna Civil Hospital"],
+                "correctAnswer": 2,
+                "explanation": "Earlier name was Prince of Wales Medical College."
+            },
+            {
+                "text": "After its redevelopment is completed in 2027, PMCH is projected to be the world's second-largest hospital with how many beds?",
+                "options": ["4462 beds", "5462 beds", "6462 beds", "7462 beds"],
+                "correctAnswer": 1,
+                "explanation": "Projected to have 5462 beds."
+            },
+            {
+                "text": "How many Padma Vibhushan awards have been received by individuals from Bihar, as stated in the sources?",
+                "options": ["0", "1", "2", "5"],
+                "correctAnswer": 1,
+                "explanation": "Individuals from Bihar have received 1 Padma Vibhushan award."
+            },
+            {
+                "text": "Who among the following was awarded the Padma Bhushan from Bihar?",
+                "options": ["Dr. Sharda Sinha", "Shri Sushil Kumar Modi", "Shri Bhim Singh Bhavesh", "Smt. Nirmala Devi"],
+                "correctAnswer": 1,
+                "explanation": "Shri Sushil Kumar Modi was awarded Padma Bhushan."
+            },
+            {
+                "text": "Shri Bhim Singh Bhavesh, a Padma Shri recipient, is associated with which organization?",
+                "options": ["Nayi Disha", "Nayi Asha", "Jan Seva", "Gram Vikas"],
+                "correctAnswer": 1,
+                "explanation": "He is associated with Nayi Asha."
+            },
+            {
+                "text": "Smt. Nirmala Devi, a Padma Shri awardee, is known for which art form?",
+                "options": ["Madhubani Painting", "Sujni Art", "Manjusha Art", "Tikuli Art"],
+                "correctAnswer": 1,
+                "explanation": "She is known for Sujni Art."
+            },
+            {
+                "text": "Dr. Hemant Kumar, a Padma Shri recipient, practices as a nephrologist at which medical institutions mentioned?",
+                "options": ["AIIMS Patna only", "IGIMS & PMCH", "Patna Medical College only", "Darbhanga Medical College"],
+                "correctAnswer": 1,
+                "explanation": "He practices at IGIMS and PMCH."
+            },
+            {
+                "text": "What is the English title of the Magahi Film directed by Abhilash Sharma that won awards at the Shanghai Film Festival?",
+                "options": ["In the Name of Love", "In the Name of Fire", "In the Name of Hope", "In the Name of Truth"],
+                "correctAnswer": 1,
+                "explanation": "The English title is 'In the Name of Fire'."
+            },
+            {
+                "text": "Who is the author of the book 'Nalanda: A Glorious Past'?",
+                "options": ["Shambhu Sharan Singh", "Prof. Anand Singh", "Sanjay Singh", "Vivekanand Jha"],
+                "correctAnswer": 1,
+                "explanation": "Prof. Anand Singh is the author."
+            },
+            {
+                "text": "'Jan Jivan Hariyali' is a book authored by which expert?",
+                "options": ["Prof. Anand Singh", "Vivekanand Jha", "Sanjay Singh (Sparrow Expert)", "Mangal Pandey"],
+                "correctAnswer": 2,
+                "explanation": "Authored by Sanjay Singh, Sparrow Expert."
+            },
+            {
+                "text": "The book 'Gandhian Statesman of Bihar: Nitish Kumar' was co-authored by whom?",
+                "options": ["K. V. Rajan and Atul Thakur", "Ashok Chaudhary and Shambhavi Chaudhary", "Santosh Singh and Aditya Anmol", "Ravi Kant and Harry Paul"],
+                "correctAnswer": 1,
+                "explanation": "Co-authored by Ashok Chaudhary and Shambhavi Chaudhary."
+            },
+            {
+                "text": "Who authored the book 'Ayodhya Revisited'?",
+                "options": ["Mukul Kumar", "Kishore Kunal", "Bhavna Shekhar", "Smita Gupta"],
+                "correctAnswer": 1,
+                "explanation": "Authored by Kishore Kunal."
+            },
+            {
+                "text": "The novel 'Aarohi' was written by whom?",
+                "options": ["Mukul Kumar", "Bhavna Shekhar", "Smita Gupta", "Vikash Kumar"],
+                "correctAnswer": 0,
+                "explanation": "Written by Mukul Kumar."
+            },
+            {
+                "text": "Which individual is the author of the book 'Diabetes: Safety And Control In Your Hands'?",
+                "options": ["Dr. N. K. Singh", "Mangal Pandey", "Harivansh", "Usha Priyamvada"],
+                "correctAnswer": 0,
+                "explanation": "Authored by Dr. N. K. Singh."
+            },
+            {
+                "text": "'Bihar: Sapna Aur Sach' is a book written by which prominent personality?",
+                "options": ["Santosh Singh", "Aditya Anmol", "Harivansh (Deputy Chairman of Rajya Sabha)", "Manoj Kumar"],
+                "correctAnswer": 2,
+                "explanation": "Written by Harivansh."
+            },
+            {
+                "text": "Which department is credited with the publication of 'Kaithi Lipi Ki Pustika'?",
+                "options": ["Education Department", "Revenue Department, Govt. Of Bihar", "Health Department", "Department of Rural Development"],
+                "correctAnswer": 1,
+                "explanation": "Published by Revenue Department, Govt. Of Bihar."
+            },
+            {
+                "text": "Who co-authored the book 'Python Programming: Basics to Machine Learning'?",
+                "options": ["Ravi Kant and Harry Paul", "Prof. Lalita Kumari and Prof. Radheshyam", "Reena Sahay and Anil Kumar", "Subhash Gupta and Dr. Jamshed Alam"],
+                "correctAnswer": 1,
+                "explanation": "Co-authored by Prof. Lalita Kumari and Prof. Radheshyam."
+            },
+            {
+                "text": "Vaibhav Suryavanshi, the young cricketer, was acquired by which IPL team?",
+                "options": ["Lucknow Supergiants", "Mumbai Indians", "Rajasthan Royals", "Chennai Super Kings"],
+                "correctAnswer": 2,
+                "explanation": "Acquired by Rajasthan Royals."
+            },
+            {
+                "text": "How much reward did the Bihar government give to Vaibhav Suryavanshi?",
+                "options": ["5 lakhs", "10 lakhs", "15 lakhs", "20 lakhs"],
+                "correctAnswer": 1,
+                "explanation": "Bihar government gave 10 lakhs as reward."
+            },
+            {
+                "text": "In which year was Karpoori Thakur born?",
+                "options": ["1920", "1924", "1930", "1934"],
+                "correctAnswer": 1,
+                "explanation": "Born in 1924."
+            },
+            {
+                "text": "Karpoori Thakur was posthumously awarded the Bharat Ratna in which year?",
+                "options": ["2020", "2022", "2023", "2024"],
+                "correctAnswer": 3,
+                "explanation": "Awarded Bharat Ratna posthumously in 2024."
+            },
+            {
+                "text": "Karpoori Thakur won his first election in 1952 representing which political party?",
+                "options": ["Congress", "Socialist party", "Janta party", "Samyukta Socialist party"],
+                "correctAnswer": 1,
+                "explanation": "Won first election representing Socialist party."
+            },
+            {
+                "text": "When Karpoori Thakur was Deputy CM cum Education Minister, he removed English, leading to the term \"Karpoori Division\" for those who passed. Who was the Chief Minister when he served as Deputy CM in 1967?",
+                "options": ["Nitish Kumar", "Mahamaya Prasad Singh", "Lalu Prasad Yadav", "Anugraha Babu"],
+                "correctAnswer": 1,
+                "explanation": "Chief Minister was Mahamaya Prasad Singh."
+            },
+            {
+                "text": "What percentage of total reservation did Karpoori Thakur implement based on the Mungeri Lal Commission's recommendations when he became CM for the second time?",
+                "options": ["12%", "8%", "26%", "3%"],
+                "correctAnswer": 2,
+                "explanation": "Implemented 26% reservation."
+            },
+            {
+                "text": "The 38th National Games were held in which Indian state?",
+                "options": ["Maharashtra", "Bihar", "Uttarakhand", "Gujarat"],
+                "correctAnswer": 2,
+                "explanation": "Held in Uttarakhand."
+            },
+            {
+                "text": "What was Bihar's rank in the 38th National Games?",
+                "options": ["1st", "15th", "29th", "38th"],
+                "correctAnswer": 2,
+                "explanation": "Bihar ranked 29th."
+            },
+            {
+                "text": "In which event did Bihar win a gold medal at the 38th National Games?",
+                "options": ["Athletics", "Swimming", "Women's Lawn Ball", "Boxing"],
+                "correctAnswer": 2,
+                "explanation": "Won gold in Women's Lawn Ball."
+            }
+        ],
+        "Bihar CA - Set 4": [{
+                "text": "The Pragati Yatra commenced on which date?",
+                "options": ["23rd November 2024", "23rd December 2024", "23rd January 2025", "23rd October 2024"],
+                "correctAnswer": 1,
+                "explanation": "The Pragati Yatra commenced on 23rd December 2024."
+            },
+            {
+                "text": "The NITISH device, designed for disaster management, was developed in collaboration with which institution?",
+                "options": ["Indian Institute of Management (IIM), Patna", "National Institute of Technology (NIT), Patna", "Indian Institute of Technology (IIT), Patna", "All India Institute of Medical Sciences (AIIMS), Patna"],
+                "correctAnswer": 2,
+                "explanation": "The NITISH device was developed in collaboration with IIT Patna."
+            },
+            {
+                "text": "The Men’s Asia Cup Hockey is scheduled to be held in which city?",
+                "options": ["Patna", "Bhagalpur", "Rajgir", "Gaya"],
+                "correctAnswer": 2,
+                "explanation": "The Men’s Asia Cup Hockey is scheduled to be held in Rajgir."
+            },
+            {
+                "text": "Dulari Devi, who received the Padmashri in 2021, is recognised for her contributions to which art form?",
+                "options": ["Madhubani painting", "Warli painting", "Kalamkari painting", "Gond painting"],
+                "correctAnswer": 0,
+                "explanation": "Dulari Devi is recognised for her Madhubani painting."
+            },
+            {
+                "text": "The Jal Jivan Hariyali Abhiyan was initiated on which date?",
+                "options": ["2nd October 2018", "2nd November 2019", "2nd October 2019", "2nd December 2018"],
+                "correctAnswer": 2,
+                "explanation": "Jal Jivan Hariyali Abhiyan was initiated on 2nd October 2019."
+            },
+            {
+                "text": "Jagjivan Ram's Birthday is observed annually as \"Samta Divas\" on which specific date?",
+                "options": ["5th March", "5th April", "5th May", "5th June"],
+                "correctAnswer": 1,
+                "explanation": "Jagjivan Ram's Birthday is observed as Samta Divas on 5th April."
+            },
+            {
+                "text": "The book \"Mukti ke agradoot jagjivan Ram\" was released by Jitan Ram Manjhi and written by whom?",
+                "options": ["Mahatma Gandhi", "Rajendra Prasad", "Jawaharlal Nehru", "Sardar Patel"],
+                "correctAnswer": 1,
+                "explanation": "The book was written by Rajendra Prasad."
+            },
+            {
+                "text": "From which city did the Prime Minister release the 19th installment of the PM-KISAN Yojna?",
+                "options": ["Patna", "Rajgir", "Bhagalpur", "West Champaran"],
+                "correctAnswer": 2,
+                "explanation": "The Prime Minister released the 19th installment from Bhagalpur."
+            },
+            {
+                "text": "Shivdeep Lande launched which political party?",
+                "options": ["Jan Sena", "Hind Sena", "Bharat Sena", "Yuva Sena"],
+                "correctAnswer": 1,
+                "explanation": "Shivdeep Lande launched the Hind Sena party."
+            },
+            {
+                "text": "A Butterfly Rearing Centre has been established in which location?",
+                "options": ["Patna", "Nalanda", "Bodh Gaya", "Motihari"],
+                "correctAnswer": 2,
+                "explanation": "The Butterfly Rearing Centre has been established in Bodh Gaya."
+            },
+            {
+                "text": "What is the motto of Jeevika Nidhi, the cooperative bank for Jeevika Didi?",
+                "options": ["My Bank, My Future", "My Bank, My Strength", "My Bank, My Community", "My Bank, My Progress"],
+                "correctAnswer": 1,
+                "explanation": "The motto of Jeevika Nidhi is 'My Bank, My Strength'."
+            },
+            {
+                "text": "Bihar holds the distinction of being the first state in India to implement which of the following?",
+                "options": ["e-Passport services", "e-Gram Kachahari", "e-Health records", "e-Court proceedings"],
+                "correctAnswer": 1,
+                "explanation": "Bihar was the first state to implement e-Gram Kachahari."
+            },
+            {
+                "text": "The AI-based Robot PARI for assisting travellers is deployed at which railway station?",
+                "options": ["Gaya railway station", "Bhagalpur railway station", "Patna railway station", "Rajgir railway station"],
+                "correctAnswer": 2,
+                "explanation": "Robot PARI is deployed at Patna railway station."
+            },
+            {
+                "text": "Which district in Bihar is slated to have WIFI facilities in all its panchayats?",
+                "options": ["Patna", "Begusarai", "Nalanda", "Saran"],
+                "correctAnswer": 1,
+                "explanation": "Begusarai district will have WIFI facilities in all panchayats."
+            },
+            {
+                "text": "Who was the first person in Bihar to obtain citizenship under the Citizenship Amendment Act (CAA)?",
+                "options": ["Dulari Devi", "Sumitra Saha alias Rani Saha", "Khushi Yadav", "Maithili Mrinalini"],
+                "correctAnswer": 1,
+                "explanation": "Sumitra Saha alias Rani Saha was the first person."
+            },
+            {
+                "text": "The first JEEVIKA Didi Haat in Bihar was inaugurated in which location?",
+                "options": ["Bodh Gaya", "Telhada, Nalanda", "Bihta, Patna", "Lakhisarai"],
+                "correctAnswer": 1,
+                "explanation": "It was inaugurated at Telhada, Nalanda."
+            },
+            {
+                "text": "Bihar's first Supercomputer is named:",
+                "options": ["Param Ganga", "Param Budhha", "Param Bihar", "Param Shakti"],
+                "correctAnswer": 1,
+                "explanation": "The first Supercomputer is Param Budhha."
+            },
+            {
+                "text": "Where has India's largest solar energy storage battery plant been established?",
+                "options": ["Patna", "Motihari", "Lakhisarai", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "India's largest solar energy storage battery plant is at Lakhisarai."
+            },
+            {
+                "text": "A Centre of Excellence for indigenous cow breeds is being developed in which town?",
+                "options": ["Patna", "Motihari", "Nalanda", "Vaishali"],
+                "correctAnswer": 1,
+                "explanation": "It is being developed at Motihari."
+            },
+            {
+                "text": "The Statue of Wisdom is planned to be built at Ganga Ghat Patna, dedicated to whom?",
+                "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Rajendra Prasad", "Veer Kunwar Singh"],
+                "correctAnswer": 2,
+                "explanation": "The Statue of Wisdom is dedicated to Rajendra Prasad."
+            },
+            {
+                "text": "NORBU AI, an artificial intelligence system, has been launched at which institution to engage with readers?",
+                "options": ["Bihar Museum", "Patna University", "Nav Nalanda Mahavihara", "Chandragupta Institute of Management Patna"],
+                "correctAnswer": 2,
+                "explanation": "NORBU AI was launched at Nav Nalanda Mahavihara."
+            },
+            {
+                "text": "Which two countries are following Bihar's cycle scheme based on UN recommendations?",
+                "options": ["Nepal and Bhutan", "Zambia and Mali", "Bangladesh and Myanmar", "Sri Lanka and Maldives"],
+                "correctAnswer": 1,
+                "explanation": "Zambia and Mali are following Bihar's cycle scheme."
+            },
+            {
+                "text": "A replica of the Seven Wonders is being constructed near which location in Bihar?",
+                "options": ["Patna", "Vaishali", "Silaunja, Bodh Gaya", "Rajgir"],
+                "correctAnswer": 2,
+                "explanation": "It is being constructed near Silaunja, Bodh Gaya."
+            },
+            {
+                "text": "The diesel locomotive factory at Marhowrah, Saran, exported locomotives to which country?",
+                "options": ["Nigeria", "Ghana", "Guinea", "Kenya"],
+                "correctAnswer": 2,
+                "explanation": "Locomotives were exported to Guinea."
+            },
+            {
+                "text": "India won the gold medal in the Sepaktakraw World Cup 2025, which was held in which city?",
+                "options": ["Delhi", "Nagpur", "Patna", "Bangkok"],
+                "correctAnswer": 2,
+                "explanation": "The gold medal was won in Patna."
+            },
+            {
+                "text": "The Sepaktakraw World Cup 2025 was the how many edition of the ISTAF World Cup?",
+                "options": ["Third", "Fourth", "Fifth", "Sixth"],
+                "correctAnswer": 2,
+                "explanation": "It was the Fifth edition."
+            },
+            {
+                "text": "Sepaktakraw, a traditional Malaysian sport, was first introduced in India in which city?",
+                "options": ["Delhi", "Kolkata", "Mumbai", "Nagpur"],
+                "correctAnswer": 3,
+                "explanation": "It was first introduced in Nagpur."
+            },
+            {
+                "text": "The International Headquarters of Sepaktakraw is located in which city?",
+                "options": ["Kuala Lumpur, Malaysia", "Singapore City, Singapore", "Bangkok, Thailand", "Manila, Philippines"],
+                "correctAnswer": 2,
+                "explanation": "The headquarters is in Bangkok, Thailand."
+            },
+            {
+                "text": "The 7th Khelo India Youth Games 2025 were inaugurated virtually by whom?",
+                "options": ["President of India", "Prime Minister of India", "Sports Minister of India", "Chief Minister of Bihar"],
+                "correctAnswer": 1,
+                "explanation": "They were inaugurated by the Prime Minister of India."
+            },
+            {
+                "text": "In which year was the concept of the Khelo India Youth Games first started?",
+                "options": ["2015", "2016", "2017", "2018"],
+                "correctAnswer": 2,
+                "explanation": "The concept started in 2017."
+            },
+            {
+                "text": "The Khelo India Youth Games are organised in two categories based on age. What are these categories?",
+                "options": ["Under 15 and Under 20", "Under 17 and Under 21", "Under 16 and Under 20", "Under 18 and Under 22"],
+                "correctAnswer": 1,
+                "explanation": "The categories are Under 17 and Under 21."
+            },
+            {
+                "text": "What was the mascot for the 7th Khelo India Youth Games 2025?",
+                "options": ["Shera", "Gajsimha", "Vicky", "Khela"],
+                "correctAnswer": 1,
+                "explanation": "The mascot was Gajsimha."
+            },
+            {
+                "text": "How many total medals did Bihar secure in the 7th Khelo India Youth Games 2025?",
+                "options": ["32", "36", "40", "45"],
+                "correctAnswer": 1,
+                "explanation": "Bihar secured 36 total medals."
+            },
+            {
+                "text": "Khushi Yadav won a gold medal in which sport at the 7th Khelo India Youth Games 2025?",
+                "options": ["Shot Put", "Thangta", "Steeplechase", "Boxing"],
+                "correctAnswer": 2,
+                "explanation": "Khushi Yadav won gold in Steeplechase."
+            },
+            {
+                "text": "The fusion of elephant and lion sculptures, Gajsimha, dating from the Pala period, can be found in old temples of which two places?",
+                "options": ["Patna and Rajgir", "Nalanda and Bodh Gaya", "Vaishali and Bhagalpur", "Gaya and Motihari"],
+                "correctAnswer": 1,
+                "explanation": "Gajsimha sculptures are found in Nalanda and Bodh Gaya."
+            },
+            {
+                "text": "Who became the first Female President of Patna University Students’ Union?",
+                "options": ["Khushi Yadav", "Alka Singh", "Maithili Mrinalini", "Sumitra Saha"],
+                "correctAnswer": 2,
+                "explanation": "Maithili Mrinalini became the first female president."
+            },
+            {
+                "text": "How many units of free electricity have been approved in Bihar?",
+                "options": ["100 units", "125 units", "150 units", "200 units"],
+                "correctAnswer": 1,
+                "explanation": "125 units of free electricity have been approved."
+            },
+            {
+                "text": "Which two sites from Bihar have been sent for inclusion in the UNESCO tentative list?",
+                "options": ["Patna Sahib and Barabar Caves", "Lauriya Nandangarh and Rampurva", "Vikramshila and Nalanda Mahavihara", "Bodh Gaya Temple and Rajgir Caves"],
+                "correctAnswer": 1,
+                "explanation": "Lauriya Nandangarh and Rampurva have been sent for UNESCO tentative list."
+            },
+            {
+                "text": "Bihar's first Dry Port is located in which area?",
+                "options": ["Patna City", "Bihta", "Rajgir", "Begusarai"],
+                "correctAnswer": 1,
+                "explanation": "Bihar's first Dry Port is located at Bihta."
+            },
+            {
+                "text": "A dry port, also known as an inland container depot (ICD), primarily serves what function?",
+                "options": ["A residential facility for port workers", "A logistics facility for cargo handling away from a seaport or airport", "A specialised centre for ship repair", "A hub for passenger cruise ships"],
+                "correctAnswer": 1,
+                "explanation": "A dry port is a logistics facility for cargo handling away from a seaport or airport."
+            },
+            {
+                "text": "Bihar's first light vehicular suspension bridge is being constructed on which river in Patna?",
+                "options": ["Ganga River", "Sone River", "Punpun River", "Gandak River"],
+                "correctAnswer": 2,
+                "explanation": "The suspension bridge is on the Punpun River."
+            },
+            {
+                "text": "The newly constructed \"Buddha Samyak Darshan Museum and Memorial Stupa\" was inaugurated in which district?",
+                "options": ["Nalanda", "Vaishali", "Gaya", "Bhagalpur"],
+                "correctAnswer": 1,
+                "explanation": "The museum and memorial stupa were inaugurated in Vaishali district."
+            },
+            {
+                "text": "What was the total investment for the \"Buddha Samyak Darshan Museum and Memorial Stupa\"?",
+                "options": ["Rs 350 crore", "Rs 450 crore", "Rs 550 crore", "Rs 650 crore"],
+                "correctAnswer": 2,
+                "explanation": "The total investment was Rs 550 crore."
+            },
+            {
+                "text": "In the Asia Rugby U-20 Championship held in Rajgir, what medal did the Indian women's rugby team secure?",
+                "options": ["Gold", "Silver", "Bronze", "Participation Certificate"],
+                "correctAnswer": 2,
+                "explanation": "The Indian women's rugby team secured the Bronze medal."
+            },
+            {
+                "text": "The Women Hockey Championship 2024 was held at Rajgir. Which team did the Indian hockey team defeat to win the championship?",
+                "options": ["Japan", "South Korea", "China", "Malaysia"],
+                "correctAnswer": 2,
+                "explanation": "The Indian hockey team defeated China."
+            },
+            {
+                "text": "In the \"Ek Ped Maa ke Naam\" initiative, what position did Ara Municipality achieve at the India level?",
+                "options": ["3rd", "4th", "5th", "6th"],
+                "correctAnswer": 2,
+                "explanation": "Ara Municipality achieved 5th position."
+            },
+            {
+                "text": "The disaster management authority NITISH aims to provide alerts for which of the following natural phenomena?",
+                "options": ["Earthquakes and tsunamis", "Volcanic eruptions and wildfires", "Lightning, floods, heatwaves, and coldwaves", "Cyclones and landslides"],
+                "correctAnswer": 2,
+                "explanation": "NITISH provides alerts for lightning, floods, heatwaves, and coldwaves."
+            },
+            {
+                "text": "On which date did the 7th Khelo India Youth Games 2025 conclude?",
+                "options": ["4th May 2025", "10th May 2025", "15th May 2025", "20th May 2025"],
+                "correctAnswer": 2,
+                "explanation": "The games concluded on 15th May 2025."
+            },
+            {
+                "text": "Which famous personality was the chairman of Patna Municipality, to whom the Statue of Wisdom is dedicated?",
+                "options": ["Subhas Chandra Bose", "Sardar Vallabhbhai Patel", "Dr. Rajendra Prasad", "Jawaharlal Nehru"],
+                "correctAnswer": 2,
+                "explanation": "The statue is dedicated to Dr. Rajendra Prasad."
+            },
+            {
+                "text": "The Sepaktakraw Federation of India was formed in 1982 on the eve of which major sporting event?",
+                "options": ["Commonwealth Games", "Olympic Games", "Delhi Asian Games", "World University Games"],
+                "correctAnswer": 2,
+                "explanation": "It was formed on the eve of the Delhi Asian Games."
+            }
         ]
-
     },
     "Modern History": {
         "Advent of the Europeans in India": [{
