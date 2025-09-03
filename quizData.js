@@ -7882,2342 +7882,2006 @@ const allQuizData = {
             }
         ],
         "Bihar ES (Part-1)": [{
-                "text": "Which edition of the Bihar Economic Survey was presented recently?",
+                "text": "Which edition of the Economic Survey is referred to in the 2024-25 document?",
                 "options": ["17th", "18th", "19th", "20th"],
                 "correctAnswer": 2,
-                "explanation": "The 19th edition is the latest, reflecting annual reporting by the state."
+                "explanation": "The 19th edition of the Economic Survey is referred to in the 2024-25 document."
             },
             {
-                "text": "How many chapters are there in the 19th Bihar Economic Survey?",
-                "options": ["12", "13", "14", "15"],
+                "text": "Who presented the Economic Survey for the year 2024-25?",
+                "options": ["Chief Minister", "Finance Secretary", "Deputy CM & Finance Minister Samrat Chaudhary", "Governor"],
                 "correctAnswer": 2,
-                "explanation": "There are 14 chapters, each covering a sector relevant to Bihar’s economy."
+                "explanation": "Deputy CM & Finance Minister Samrat Chaudhary presented the Economic Survey for 2024-25."
             },
             {
-                "text": "The 19th Bihar Economic Survey contains data for which years?",
-                "options": ["2022-23 / 2021-22", "2023-24 / 2022-23", "2021-22 / 2020-21", "2024-25 / 2023-24"],
+                "text": "In which fiscal year was the Economic Survey first presented in Bihar?",
+                "options": ["2005-06", "2006-07", "2007-08", "2008-09"],
                 "correctAnswer": 1,
-                "explanation": "It covers latest financial years: 2023-24 and 2022-23."
+                "explanation": "The Economic Survey was first presented in Bihar in 2006-07."
             },
             {
-                "text": "Who presented the 19th Bihar Economic Survey?",
-                "options": ["Nitish Kumar", "Tejashwi Yadav", "Samrat Chaudhary", "Tarkishore Prasad"],
+                "text": "Who presented the first Economic Survey in Bihar in 2006-07?",
+                "options": ["Sri Nitish Kumar", "Sri Sushil Kumar Modi", "Sri Lalu Prasad Yadav", "Sri Rabri Devi"],
+                "correctAnswer": 1,
+                "explanation": "Sri Sushil Kumar Modi presented the first Economic Survey in Bihar in 2006-07."
+            },
+            {
+                "text": "What was Bihar's Credit-Deposit (CD) Ratio as of September 2024?",
+                "options": ["27.5%", "39.9%", "56.3%", "158.9%"],
                 "correctAnswer": 2,
-                "explanation": "Samrat Chaudhary, Bihar’s Finance Minister, presented the survey."
+                "explanation": "Bihar's Credit-Deposit (CD) Ratio as of September 2024 was 56.3%."
             },
             {
-                "text": "In which year was the Bihar Economic Survey presented for the first time?",
-                "options": ["2004-05", "2005-06", "2006-07", "2007-08"],
-                "correctAnswer": 2,
-                "explanation": "First survey was in 2006-07, marking the start of annual state reviews."
-            },
-            {
-                "text": "Who presented the first Bihar Economic Survey in 2006-07?",
-                "options": ["Nitish Kumar", "Sushil Kumar Modi", "Samrat Chaudhary", "Raghubar Das"],
-                "correctAnswer": 1,
-                "explanation": "Sushil Kumar Modi was the Finance Minister at that time."
-            },
-            {
-                "text": "As of September 2024, what is Bihar’s Credit-Deposit (CD) Ratio?",
-                "options": ["55.3%", "56.3%", "57.3%", "58.3%"],
-                "correctAnswer": 1,
-                "explanation": "56.3% shows how much of bank deposits are lent as credit."
-            },
-            {
-                "text": "What was Bihar’s Credit-to-GSDP Ratio in 2019-20?",
-                "options": ["27.5%", "28.5%", "29.5%", "30.5%"],
+                "text": "What was Bihar's Credit-to-GSDP Ratio in 2019-20?",
+                "options": ["27.5%", "39.9%", "56.3%", "38.9%"],
                 "correctAnswer": 0,
-                "explanation": "Credit as a share of GSDP was 27.5% in 2019-20."
+                "explanation": "Bihar's Credit-to-GSDP Ratio in 2019-20 was 27.5%."
             },
             {
-                "text": "What is Bihar’s Credit-to-GSDP Ratio in 2023-24?",
-                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
-                "correctAnswer": 2,
-                "explanation": "The ratio rose to 39.9%, indicating increased lending in Bihar."
-            },
-            {
-                "text": "Which state has the highest Credit-Deposit Ratio among the given options?",
-                "options": ["Telangana", "Tamil Nadu", "Andhra Pradesh", "Karnataka"],
-                "correctAnswer": 2,
-                "explanation": "Andhra Pradesh tops in CD Ratio among these states."
-            },
-            {
-                "text": "What is the Credit-Deposit Ratio of Andhra Pradesh?",
-                "options": ["157.9%", "158.9%", "159.9%", "160.9%"],
+                "text": "What was Bihar's Credit-to-GSDP Ratio in 2023-24?",
+                "options": ["27.5%", "39.9%", "56.3%", "38.9%"],
                 "correctAnswer": 1,
-                "explanation": "Credit-Deposit Ratio of Andhra Pradesh is 158.9%—one of the highest nationally."
+                "explanation": "Bihar's Credit-to-GSDP Ratio in 2023-24 was 39.9%."
             },
             {
-                "text": "What is the Credit-Deposit Ratio of Telangana?",
-                "options": ["117.4%", "118.4%", "119.4%", "120.4%"],
+                "text": "Which of the following states had a CD Ratio of 158.9%?",
+                "options": ["Telangana", "Tamil Nadu", "Andhra Pradesh", "Bihar"],
                 "correctAnswer": 2,
-                "explanation": "Telangana stands at 119.4% in CD Ratio."
+                "explanation": "Andhra Pradesh had a CD Ratio of 158.9%."
             },
             {
-                "text": "What is the Credit-Deposit Ratio of Tamil Nadu?",
-                "options": ["116.7%", "117.7%", "118.7%", "119.7%"],
+                "text": "What was the population of Bihar in 2011?",
+                "options": ["130,725,310", "104,099,945", "88,485,940", "112,456,789"],
                 "correctAnswer": 1,
-                "explanation": "Tamil Nadu banks deploy 117.7% of their deposits as credit."
+                "explanation": "The population of Bihar in 2011 was 104,099,945."
             },
             {
-                "text": "What was Bihar’s population as per the 2011 Census?",
-                "options": ["102,000,945", "103,099,945", "104,099,945", "105,099,945"],
+                "text": "What was the population of Bihar in 2022?",
+                "options": ["104,099,945", "120,500,000", "130,725,310", "140,000,000"],
                 "correctAnswer": 2,
-                "explanation": "Bihar’s Census 2011 population was 104,099,945."
+                "explanation": "The population of Bihar in 2022 was 130,725,310."
             },
             {
-                "text": "What is Bihar’s estimated population in 2022?",
-                "options": ["128,725,310", "129,725,310", "130,725,310", "131,725,310"],
+                "text": "The population of Bihar in 2022 was how much higher than in 2011?",
+                "options": ["15.6%", "20.6%", "25.6%", "30.6%"],
                 "correctAnswer": 2,
-                "explanation": "Estimates for 2022 put Bihar’s population above 130 million."
+                "explanation": "The population increase between 2011 and 2022 was 25.6%."
             },
             {
-                "text": "By what percentage did Bihar’s population increase from 2011 to 2022?",
-                "options": ["24.6%", "25.6%", "26.6%", "27.6%"],
+                "text": "What percentage of India's total population did Bihar account for in 2022?",
+                "options": ["8.6%", "9.4%", "10.2%", "11.0%"],
                 "correctAnswer": 1,
-                "explanation": "Population grew by 25.6% in about a decade."
+                "explanation": "Bihar accounted for 9.4% of India's population in 2022."
             },
             {
-                "text": "What percentage of India’s total population does Bihar account for in 2022?",
-                "options": ["8.6%", "9.0%", "9.2%", "9.4%"],
-                "correctAnswer": 3,
-                "explanation": "In 2022, Bihar accounted for 9.4% of India’s population."
-            },
-            {
-                "text": "What is Bihar’s rank by population in India as of 2022?",
-                "options": ["1st", "2nd", "3rd", "4th"],
-                "correctAnswer": 2,
-                "explanation": "Bihar ranks 3rd, after Uttar Pradesh and Maharashtra."
+                "text": "What is Bihar's rank by population among Indian states?",
+                "options": ["2nd", "3rd", "4th", "5th"],
+                "correctAnswer": 1,
+                "explanation": "Bihar is ranked 3rd by population among Indian states."
             },
             {
                 "text": "Which two states have a higher population than Bihar?",
-                "options": ["Uttar Pradesh and West Bengal", "Maharashtra and West Bengal", "Uttar Pradesh and Maharashtra", "Uttar Pradesh and Gujarat"],
+                "options": ["Uttar Pradesh and Rajasthan", "Uttar Pradesh and Madhya Pradesh", "Uttar Pradesh and Maharashtra", "Maharashtra and West Bengal"],
                 "correctAnswer": 2,
-                "explanation": "Only Uttar Pradesh and Maharashtra surpass Bihar in population."
+                "explanation": "Uttar Pradesh and Maharashtra have a higher population than Bihar."
             },
             {
-                "text": "What percentage of India’s population did Bihar have as per the 2011 Census?",
-                "options": ["8.4%", "8.5%", "8.6%", "8.7%"],
+                "text": "What was the population density of Bihar in 2011?",
+                "options": ["918", "953", "1106", "1388"],
                 "correctAnswer": 2,
-                "explanation": "In 2011, Bihar was 8.6% of the national population."
+                "explanation": "The population density of Bihar in 2011 was 1106 per square kilometre."
             },
             {
-                "text": "What was Bihar’s population density in 2011 (per sq km)?",
-                "options": ["1100", "1106", "1112", "1120"],
+                "text": "What was the population density of Bihar in 2022?",
+                "options": ["1106", "1388", "918", "953"],
                 "correctAnswer": 1,
-                "explanation": "Density was 1106 persons per sq km in 2011."
+                "explanation": "The population density of Bihar in 2022 was 1388 per square kilometre."
             },
             {
-                "text": "What was Bihar’s population density in 2022 (per sq km)?",
-                "options": ["1380", "1385", "1388", "1392"],
-                "correctAnswer": 2,
-                "explanation": "Density rose to 1388 per sq km in 2022."
+                "text": "What was the Sex Ratio of Bihar in 2011?",
+                "options": ["918", "953", "1106", "1388"],
+                "correctAnswer": 0,
+                "explanation": "The Sex Ratio of Bihar in 2011 was 918 females per 1000 males."
             },
             {
-                "text": "What was Bihar’s sex ratio in 2011 (females per 1000 males)?",
-                "options": ["915", "918", "920", "925"],
+                "text": "What was the Sex Ratio of Bihar in 2022?",
+                "options": ["918", "953", "1106", "1388"],
                 "correctAnswer": 1,
-                "explanation": "The ratio was 918 females per 1000 males in 2011."
-            },
-            {
-                "text": "What was Bihar’s sex ratio in 2022 (females per 1000 males)?",
-                "options": ["950", "951", "953", "955"],
-                "correctAnswer": 2,
-                "explanation": "In 2022, the ratio improved to 953 females per 1000 males."
+                "explanation": "The Sex Ratio of Bihar in 2022 was 953 females per 1000 males."
             },
             {
                 "text": "Who heads the National Commission on Population?",
-                "options": ["President of India", "Prime Minister", "Vice President", "Union Health Minister"],
-                "correctAnswer": 1,
-                "explanation": "Prime Minister leads the National Commission on Population."
-            },
-            {
-                "text": "NSDP is calculated as:",
-                "options": ["GSDP + Depreciation", "GSDP - Depreciation", "GDP - Depreciation", "NDP + Depreciation"],
-                "correctAnswer": 1,
-                "explanation": "Net State Domestic Product = GSDP minus depreciation."
-            },
-            {
-                "text": "The Biswanath Goldar Committee is related to:",
-                "options": ["Tax reforms", "Poverty estimation", "Revision of the base year", "GST policy"],
+                "options": ["President", "Vice President", "Prime Minister", "Health Minister"],
                 "correctAnswer": 2,
-                "explanation": "This committee revised the base year for economic calculations."
+                "explanation": "The Prime Minister heads the National Commission on Population."
             },
             {
-                "text": "In which sector of the economy are activities undertaken by directly using natural resources?",
-                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Quaternary sector"],
+                "text": "What is the formula to calculate Net State Domestic Product (NSDP)?",
+                "options": ["GSDP + Depreciation", "GSDP - Depreciation", "GSDP * Depreciation", "GSDP / Depreciation"],
+                "correctAnswer": 1,
+                "explanation": "NSDP = GSDP minus Depreciation."
+            },
+            {
+                "text": "The Biswanath Goldar Committee is related to which of the following?",
+                "options": ["Revision of tax policy", "Revision of the base year for economic calculations", "Agricultural reforms", "Industrial development"],
+                "correctAnswer": 1,
+                "explanation": "Biswanath Goldar Committee is related to revision of the base year for economic calculations."
+            },
+            {
+                "text": "Which economic sector involves activities undertaken by directly using natural resources?",
+                "options": ["Primary Sector", "Secondary Sector", "Tertiary Sector", "Quaternary Sector"],
                 "correctAnswer": 0,
-                "explanation": "The primary sector uses resources directly—like farming or mining."
+                "explanation": "The Primary Sector involves activities using natural resources."
             },
             {
-                "text": "Which of the following is NOT an example of the primary sector?",
-                "options": ["Agriculture", "Fishing", "Forestry", "Banking"],
+                "text": "Which of the following activities are examples of the Primary Sector?",
+                "options": ["Industrial production, construction", "Banking, finance, insurance", "Agriculture, mining, fishing", "Hotels, restaurants, tourism"],
+                "correctAnswer": 2,
+                "explanation": "Agriculture, mining, fishing are examples of the Primary Sector."
+            },
+            {
+                "text": "People working in the Primary Sector are called:",
+                "options": ["Blue collared professionals", "White collared professionals", "Red collared professionals", "Green collared professionals"],
+                "correctAnswer": 2,
+                "explanation": "People working in the Primary Sector are called Red collared professionals."
+            },
+            {
+                "text": "Which sector is responsible for making finished products from natural materials produced in the primary sector?",
+                "options": ["Primary Sector", "Secondary Sector", "Tertiary Sector", "Service Sector"],
+                "correctAnswer": 1,
+                "explanation": "Secondary Sector makes finished products."
+            },
+            {
+                "text": "Which of the following activities fall under the Secondary Sector?",
+                "options": ["Banking and Insurance", "Agriculture and Forestry", "Industrial production, electricity, manufacturing", "Hotels and Restaurants"],
+                "correctAnswer": 2,
+                "explanation": "Industrial production, electricity, manufacturing are Secondary Sector activities."
+            },
+            {
+                "text": "People working in the Secondary Sector are called:",
+                "options": ["Red collar workers", "Blue collar workers", "White collar workers", "Gold collar workers"],
+                "correctAnswer": 1,
+                "explanation": "People in Secondary Sector are called Blue collar workers."
+            },
+            {
+                "text": "Which sector primarily aids or supports the production in primary and secondary sectors without directly producing goods?",
+                "options": ["Primary Sector", "Secondary Sector", "Tertiary Sector", "Manufacturing Sector"],
+                "correctAnswer": 2,
+                "explanation": "Tertiary Sector supports production, provides services."
+            },
+            {
+                "text": "Examples of the Tertiary Sector include:",
+                "options": ["Agriculture, Dairy", "Industrial production, Manufacturing", "Banking, Finance, Insurance", "Mining, Quarrying"],
+                "correctAnswer": 2,
+                "explanation": "Banking, Finance, Insurance are Tertiary Sector activities."
+            },
+            {
+                "text": "People working in the Tertiary Sector are called:",
+                "options": ["Blue collared professionals", "Red collared professionals", "White collared professionals", "Pink collared professionals"],
+                "correctAnswer": 2,
+                "explanation": "People in Tertiary Sector are called White collared professionals."
+            },
+            {
+                "text": "What was the Gross State Domestic Product (GSDP) of Bihar at Current Price in 2023-24?",
+                "options": ["₹ 4,64,540 crore", "₹ 6,73,777 crore", "₹ 8,54,429 crore", "₹ 3,76,823 crore"],
+                "correctAnswer": 2,
+                "explanation": "GSDP at current price in 2023-24 was ₹ 8,54,429 crore."
+            },
+            {
+                "text": "The GSDP at Current Price in 2023-24 was how much higher than the previous year?",
+                "options": ["9.2%", "12.8%", "14.5%", "7.6%"],
+                "correctAnswer": 2,
+                "explanation": "GSDP at current price increased by 14.5% from previous year."
+            },
+            {
+                "text": "What was the GSDP of Bihar at Constant Price (2011-12) in 2023-24?",
+                "options": ["₹ 8,54,429 crore", "₹ 4,64,540 crore", "₹ 6,73,777 crore", "₹ 3,76,823 crore"],
+                "correctAnswer": 1,
+                "explanation": "GSDP at constant price (2011-12) in 2023-24 was ₹ 4,64,540 crore."
+            },
+            {
+                "text": "The GSDP at Constant Price in 2023-24 was how much higher than the previous year?",
+                "options": ["7.6%", "9.2%", "12.8%", "14.5%"],
+                "correctAnswer": 1,
+                "explanation": "GSDP at constant price increased by 9.2% from previous year."
+            },
+            {
+                "text": "What was the GSDP Per Capita at Current Price for Bihar in 2023-24?",
+                "options": ["₹ 36,333", "₹ 66,828", "₹ 1,06,744", "₹ 1,84,205"],
+                "correctAnswer": 1,
+                "explanation": "GSDP Per Capita at current price for Bihar was ₹ 66,828."
+            },
+            {
+                "text": "What was the GSDP Per Capita at Current Price for India in 2023-24?",
+                "options": ["₹ 36,333", "₹ 66,828", "₹ 1,06,744", "₹ 1,84,205"],
                 "correctAnswer": 3,
-                "explanation": "Banking is a service industry; not primary sector."
+                "explanation": "GSDP Per Capita at current price for India was ₹ 1,84,205."
             },
             {
-                "text": "People working in the primary sector are called:",
-                "options": ["Blue collar workers", "Red collared professionals", "White collared professionals", "Green collared workers"],
-                "correctAnswer": 1,
-                "explanation": "Red collar workers is a term for primary sector jobs."
-            },
-            {
-                "text": "The sector where finished products are made from materials produced in the primary sector is:",
-                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Informal sector"],
-                "correctAnswer": 1,
-                "explanation": "Secondary sector transforms raw materials—like manufacturing."
-            },
-            {
-                "text": "Which of the following is NOT a part of the secondary sector?",
-                "options": ["Industrial production", "Quarrying", "Banking", "Manufacturing"],
+                "text": "By what percentage did Bihar's GSDP Per Capita at Current Price increase?",
+                "options": ["7.6%", "9.2%", "12.8%", "14.5%"],
                 "correctAnswer": 2,
-                "explanation": "Banking is a tertiary sector activity."
+                "explanation": "Bihar's GSDP Per Capita at current price increased by 12.8%."
             },
             {
-                "text": "People working in the secondary sector are called:",
-                "options": ["Blue collar workers", "Red collared professionals", "White collared professionals", "Grey collar workers"],
+                "text": "What was the GSDP Per Capita at Constant Price for Bihar in 2023-24?",
+                "options": ["₹ 36,333", "₹ 66,828", "₹ 1,06,744", "₹ 1,84,205"],
                 "correctAnswer": 0,
-                "explanation": "Manufacturing jobs are usually called blue collar."
+                "explanation": "GSDP Per Capita at constant price for Bihar was ₹ 36,333."
             },
             {
-                "text": "Which sector aids in the development of primary and secondary sectors but does not produce goods itself?",
-                "options": ["Primary sector", "Secondary sector", "Tertiary sector", "Quaternary sector"],
+                "text": "What was the GSDP Per Capita at Constant Price for India in 2023-24?",
+                "options": ["₹ 36,333", "₹ 66,828", "₹ 1,06,744", "₹ 1,84,205"],
                 "correctAnswer": 2,
-                "explanation": "Tertiary sector provides services like transport, trade, banking, insurance."
+                "explanation": "GSDP Per Capita at constant price for India was ₹ 1,06,744."
             },
             {
-                "text": "Which of the following is an example of the tertiary sector?",
-                "options": ["Forestry", "Cotton fabric production", "Insurance", "Mining"],
-                "correctAnswer": 2,
-                "explanation": "Insurance is a service area, a classic tertiary activity."
-            },
-            {
-                "text": "What is Bihar’s GSDP at current prices for 2023?",
-                "options": ["₹8,40,000 crore", "₹8,54,429 crore", "₹8,60,000 crore", "₹8,50,000 crore"],
-                "correctAnswer": 1,
-                "explanation": "Bihar's Gross State Domestic Product at current prices is ₹8,54,429 crore for 2023."
-            },
-            {
-                "text": "By what percentage did Bihar’s GSDP at current prices grow in 2023?",
-                "options": ["13.5%", "14.5%", "15.5%", "16.5%"],
-                "correctAnswer": 1,
-                "explanation": "Bihar's GSDP grew 14.5% at current prices in 2023."
-            },
-            {
-                "text": "What is Bihar’s GSDP at constant (2011–12) prices for 2023?",
-                "options": ["₹4,60,000 crore", "₹4,64,540 crore", "₹4,70,000 crore", "₹4,68,500 crore"],
-                "correctAnswer": 1,
-                "explanation": "At constant prices, Bihar's GSDP is ₹4,64,540 crore for 2023."
-            },
-            {
-                "text": "By what percentage did Bihar’s GSDP at constant prices grow in 2023?",
-                "options": ["8.5%", "9.2%", "9.5%", "10%"],
-                "correctAnswer": 1,
-                "explanation": "Growth at constant prices was 9.2% in 2023."
-            },
-            {
-                "text": "What is Bihar’s per capita GSDP at current prices in 2023?",
-                "options": ["₹65,500", "₹66,000", "₹66,828", "₹67,000"],
-                "correctAnswer": 2,
-                "explanation": "Per capita GSDP at current prices is ₹66,828."
-            },
-            {
-                "text": "What is India’s per capita GSDP at current prices in 2023?",
-                "options": ["₹1,82,205", "₹1,83,205", "₹1,84,205", "₹1,85,205"],
-                "correctAnswer": 2,
-                "explanation": "India’s average per capita GSDP is ₹1,84,205 at current prices."
-            },
-            {
-                "text": "By what percentage did Bihar’s per capita GSDP at current prices increase in 2023?",
-                "options": ["12.5%", "12.8%", "13%", "13.5%"],
-                "correctAnswer": 1,
-                "explanation": "Per capita GSDP grew by 12.8% in 2023."
-            },
-            {
-                "text": "What is Bihar’s per capita GSDP at constant prices in 2023?",
-                "options": ["₹36,200", "₹36,333", "₹36,500", "₹36,800"],
-                "correctAnswer": 1,
-                "explanation": "Per capita GSDP at constant prices stands at ₹36,333."
-            },
-            {
-                "text": "What is India’s per capita GSDP at constant prices in 2023?",
-                "options": ["₹1,05,744", "₹1,06,744", "₹1,07,744", "₹1,08,744"],
-                "correctAnswer": 1,
-                "explanation": "India’s per capita GSDP at constant prices is ₹1,06,744."
-            },
-            {
-                "text": "By what percentage did Bihar’s per capita GSDP at constant prices increase in 2023?",
-                "options": ["7.4%", "7.5%", "7.6%", "7.8%"],
-                "correctAnswer": 2,
-                "explanation": "Growth in per capita GSDP at constant prices was 7.6%."
-            },
-            {
-                "text": "What is Bihar’s Gross Fiscal Deficit (GFD) as a percentage of GSDP in 2023?",
-                "options": ["4.0%", "4.1%", "4.2%", "4.3%"],
-                "correctAnswer": 2,
-                "explanation": "Fiscal deficit is 4.2% of GSDP, indicating state's borrowing needs."
-            },
-            {
-                "text": "What is the absolute amount of Bihar’s Gross Fiscal Deficit in 2023?",
-                "options": ["₹34,660 crore", "₹35,000 crore", "₹35,660 crore", "₹36,000 crore"],
-                "correctAnswer": 2,
-                "explanation": "The deficit in absolute terms is ₹35,660 crore."
-            },
-            {
-                "text": "What is Bihar’s Primary Deficit as a percentage of GSDP?",
-                "options": ["2.0%", "2.1%", "2.2%", "2.3%"],
-                "correctAnswer": 1,
-                "explanation": "Primary deficit stands at 2.1%, showing fiscal management."
-            },
-            {
-                "text": "What is Bihar’s NSDP at current prices?",
-                "options": ["₹67,3777 crore", "₹67,377 crore", "₹67,377.0 crore", "₹67,3770 crore"],
+                "text": "By what percentage did Bihar's GSDP Per Capita at Constant Price increase?",
+                "options": ["7.6%", "9.2%", "12.8%", "14.5%"],
                 "correctAnswer": 0,
-                "explanation": "Net State Domestic Product is ₹67,3777 crore (likely ₹6,73,777 crore)."
+                "explanation": "Bihar's GSDP Per Capita at constant price increased by 7.6%."
             },
             {
-                "text": "What is Bihar’s NSDP at constant prices?",
-                "options": ["₹37,682 crore", "₹37,6823 crore", "₹37,683 crore", "₹37,680 crore"],
+                "text": "What was the Gross Fiscal Deficit of Bihar in 2023-24 as a percentage of GSDP?",
+                "options": ["2.1%", "4.2%", "0.3%", "7.0%"],
                 "correctAnswer": 1,
-                "explanation": "Constant price NSDP is ₹37,6823 crore (likely ₹3,76,823 crore)."
+                "explanation": "Gross Fiscal Deficit was 4.2% of GSDP in 2023-24."
             },
             {
-                "text": "What is the share of the tertiary sector in Bihar’s GSDP for 2023?",
-                "options": ["56.8%", "57.6%", "58.6%", "59.6%"],
-                "correctAnswer": 2,
-                "explanation": "Tertiary sector contributes 58.6% to Bihar’s GSDP."
-            },
-            {
-                "text": "What is the projected growth of the tertiary sector?",
-                "options": ["10.2%", "10.5%", "10.8%", "11%"],
-                "correctAnswer": 2,
-                "explanation": "Growth expected at 10.8%, fastest among sectors."
-            },
-            {
-                "text": "In which sector is Bihar the fastest growing?",
-                "options": ["Primary", "Secondary", "Tertiary", "Manufacturing"],
-                "correctAnswer": 2,
-                "explanation": "Tertiary sector leads in growth rate."
-            },
-            {
-                "text": "What percentage of Bihar’s population is engaged in the tertiary sector?",
-                "options": ["21.2%", "22.2%", "23.2%", "24.2%"],
+                "text": "What was the amount of Gross Fiscal Deficit in Bihar in 2023-24?",
+                "options": ["₹ 2,833 crore", "₹ 35,660 crore", "₹ 61,568 crore", "₹ 1,90,514 crore"],
                 "correctAnswer": 1,
-                "explanation": "22.2% of people work in service sector."
+                "explanation": "Gross Fiscal Deficit was ₹ 35,660 crore in 2023-24."
             },
             {
-                "text": "What is the share of the secondary sector in Bihar’s GSDP?",
-                "options": ["20.5%", "21.5%", "22.5%", "23.5%"],
-                "correctAnswer": 1,
-                "explanation": "Secondary sector accounts for 21.5%."
-            },
-            {
-                "text": "What percentage of population works in secondary sector?",
-                "options": ["22.6%", "23.6%", "24.6%", "25.6%"],
-                "correctAnswer": 1,
-                "explanation": "23.6% are employed in manufacturing and industry."
-            },
-            {
-                "text": "Percentage of secondary sector contribution from construction?",
-                "options": ["48.2%", "49.2%", "50.2%", "51.2%"],
-                "correctAnswer": 2,
-                "explanation": "Construction contributes about half (50.2%) to the secondary sector."
-            },
-            {
-                "text": "Which state has the lowest secondary sector contribution?",
-                "options": ["Bihar", "Telangana", "Jharkhand", "Odisha"],
-                "correctAnswer": 1,
-                "explanation": "Telangana shows the lowest contribution in secondary sector."
-            },
-            {
-                "text": "What is the share of the primary sector in Bihar’s GSDP?",
-                "options": ["18.9%", "19.5%", "19.9%", "20.5%"],
-                "correctAnswer": 2,
-                "explanation": "Primary sector accounts for 19.9% of GSDP."
-            },
-            {
-                "text": "Which sector has lowest share in GSDP but highest employment?",
-                "options": ["Primary", "Secondary", "Tertiary", "Manufacturing"],
+                "text": "What was Bihar's Primary Deficit as a percentage of GSDP?",
+                "options": ["2.1%", "4.2%", "0.3%", "7.0%"],
                 "correctAnswer": 0,
-                "explanation": "Primary sector people form highest employment but contribute least to GSDP."
+                "explanation": "Primary Deficit was 2.1% of GSDP."
             },
             {
-                "text": "Percentage of population engaged in primary sector?",
-                "options": ["52.2%", "53.2%", "54.2%", "55.2%"],
+                "text": "What was the Net State Domestic Product (NSDP) at Current Price in Bihar?",
+                "options": ["Rs 67,3777 crore", "Rs 37,6823 crore", "Rs 8,54,429 crore", "Rs 4,64,540 crore"],
+                "correctAnswer": 0,
+                "explanation": "NSDP at current price in Bihar was Rs 67,3777 crore."
+            },
+            {
+                "text": "What was the Net State Domestic Product (NSDP) at Constant Price in Bihar?",
+                "options": ["Rs 67,3777 crore", "Rs 37,6823 crore", "Rs 8,54,429 crore", "Rs 4,64,540 crore"],
+                "correctAnswer": 1,
+                "explanation": "NSDP at constant price in Bihar was Rs 37,6823 crore."
+            },
+            {
+                "text": "What was the share of the Tertiary Sector in Gross State Value Added (GSVA) at constant (2011-12) prices in 2023-24?",
+                "options": ["19.9%", "21.5%", "58.6%", "10.8%"],
                 "correctAnswer": 2,
-                "explanation": "More than half (54.2%) of Bihar population works in primary sector."
+                "explanation": "The tertiary sector share was 58.6% in GSVA at constant prices."
             },
             {
-                "text": "What is Bihar’s Gross Fixed Capital Formation (GFCF) at current prices?",
-                "options": ["₹38,000 crore", "₹38,500 crore", "₹38,986 crore", "₹39,000 crore"],
+                "text": "What was the projected growth for Bihar's Tertiary Sector in 2023-24?",
+                "options": ["7.6%", "9.2%", "10.8%", "12.8%"],
                 "correctAnswer": 2,
-                "explanation": "Bihar’s GFCF is ₹38,986 crore indicating investment level."
+                "explanation": "Projected growth for the tertiary sector was 10.8%."
             },
             {
-                "text": "GFCF as percentage of GSDP?",
-                "options": ["4.4%", "4.5%", "4.6%", "4.7%"],
+                "text": "What percentage of Bihar's population was engaged in the Tertiary Sector?",
+                "options": ["19.9%", "22.2%", "23.6%", "54.2%"],
+                "correctAnswer": 1,
+                "explanation": "22.2% of Bihar's population was engaged in the tertiary sector."
+            },
+            {
+                "text": "What was the share of the Secondary Sector in Gross State Value Added (GSVA) at constant (2011-12) prices in 2023-24?",
+                "options": ["19.9%", "21.5%", "58.6%", "10.8%"],
+                "correctAnswer": 1,
+                "explanation": "Secondary sector share was 21.5% in GSVA at constant prices."
+            },
+            {
+                "text": "What percentage of Bihar's population was engaged in the Secondary Sector?",
+                "options": ["19.9%", "22.2%", "23.6%", "54.2%"],
                 "correctAnswer": 2,
-                "explanation": "GFCF is 4.6% of Bihar’s GSDP."
+                "explanation": "23.6% of Bihar's population was engaged in the secondary sector."
             },
             {
-                "text": "Which is NOT part of Gross Fixed Capital Formation?",
-                "options": ["Machinery purchase", "Road construction", "Land improvements", "Daily consumer goods"],
+                "text": "What percentage did Construction contribute to the Secondary Sector's share in Bihar?",
+                "options": ["19.8%", "23.6%", "50.2%", "58.6%"],
+                "correctAnswer": 2,
+                "explanation": "Construction contributed 50.2% to secondary sector share."
+            },
+            {
+                "text": "What was the share of the Primary Sector in Gross State Value Added (GSVA) at constant (2011-12) prices in 2023-24?",
+                "options": ["19.9%", "21.5%", "58.6%", "54.2%"],
+                "correctAnswer": 0,
+                "explanation": "Primary sector share in GSVA was 19.9%."
+            },
+            {
+                "text": "What percentage of Bihar's population was engaged in the Primary Sector?",
+                "options": ["22.2%", "23.6%", "54.2%", "58.6%"],
+                "correctAnswer": 2,
+                "explanation": "54.2% of Bihar's population was engaged in the primary sector."
+            },
+            {
+                "text": "The Primary Sector in Bihar has the lowest share in GSVA, but what is its significance?",
+                "options": ["Highest growth rate", "Maximum employment at both national and Bihar level", "Highest contribution to exports", "Fastest technological adoption"],
+                "correctAnswer": 1,
+                "explanation": "Primary sector provides maximum employment at both national and state levels."
+            },
+            {
+                "text": "What was the estimated Gross Fixed Capital Formation (GFCF) at current prices in Bihar in 2023-24?",
+                "options": ["₹ 35,660 crore", "₹ 38,986 crore", "₹ 61,568 crore", "₹ 2,52,082 crore"],
+                "correctAnswer": 1,
+                "explanation": "The estimated GFCF in Bihar in 2023-24 was ₹ 38,986 crore."
+            },
+            {
+                "text": "Gross Fixed Capital Formation (GFCF) in 2023-24 accounted for what percentage of Bihar's GSDP?",
+                "options": ["2.1%", "4.2%", "4.6%", "7.0%"],
+                "correctAnswer": 2,
+                "explanation": "GFCF in 2023-24 accounted for 4.6% of Bihar's GSDP."
+            },
+            {
+                "text": "GFCF (Investments) refers to the part of economic output that is:",
+                "options": ["Consumed by households", "Exported to other states", "Invested and not consumed", "Used for government welfare schemes"],
+                "correctAnswer": 2,
+                "explanation": "GFCF refers to the part of output that is invested and not consumed."
+            },
+            {
+                "text": "What was the CPI – Combined rate of inflation in Bihar according to the Central Statistical Office (CSO)?",
+                "options": ["7.1%", "7.5%", "7.6%", "6.9%"],
+                "correctAnswer": 1,
+                "explanation": "CPI – Combined rate of inflation was 7.5% in Bihar according to CSO."
+            },
+            {
+                "text": "What was the CPI – Urban rate of inflation in Bihar?",
+                "options": ["7.1%", "7.5%", "7.6%", "6.9%"],
+                "correctAnswer": 0,
+                "explanation": "CPI – Urban rate of inflation in Bihar was 7.1%."
+            },
+            {
+                "text": "What was the CPI – Rural rate of inflation in Bihar?",
+                "options": ["7.1%", "7.5%", "7.6%", "6.9%"],
+                "correctAnswer": 2,
+                "explanation": "CPI – Rural rate of inflation in Bihar was 7.6%."
+            },
+            {
+                "text": "Which district was identified as the most prosperous in Bihar based on per capita GDDP?",
+                "options": ["Begusarai", "Munger", "Patna", "Sheohar"],
+                "correctAnswer": 2,
+                "explanation": "Patna was the most prosperous district in Bihar based on GDDP per capita."
+            },
+            {
+                "text": "What was the per capita GDDP of Patna, the most prosperous district?",
+                "options": ["₹ 19,561", "₹ 49,064", "₹ 1,21,396", "₹ 66,828"],
+                "correctAnswer": 2,
+                "explanation": "Per capita GDDP of Patna was ₹ 1,21,396."
+            },
+            {
+                "text": "Which district was identified as the most impoverished in Bihar based on per capita GDDP?",
+                "options": ["Araria", "Sitamarhi", "Sheohar", "Begusarai"],
+                "correctAnswer": 2,
+                "explanation": "Sheohar was the most impoverished district in Bihar based on GDDP per capita."
+            },
+            {
+                "text": "What was the per capita GDDP of Sheohar, the most impoverished district?",
+                "options": ["₹ 19,561", "₹ 21,931", "₹ 22,204", "₹ 49,064"],
+                "correctAnswer": 0,
+                "explanation": "Per capita GDDP of Sheohar was ₹ 19,561."
+            },
+            {
+                "text": "Which district recorded the highest consumption of Petrol (MT per 1000 persons) in 2023-24?",
+                "options": ["Muzaffarpur", "Purnea", "Patna", "Lakhisarai"],
+                "correctAnswer": 2,
+                "explanation": "Patna recorded the highest petrol consumption in 2023-24."
+            },
+            {
+                "text": "Which district recorded the lowest consumption of Petrol (MT per 1000 persons) in 2023-24?",
+                "options": ["Banka", "Jehanabad", "Lakhisarai", "Patna"],
+                "correctAnswer": 2,
+                "explanation": "Lakhisarai recorded the lowest petrol consumption in 2023-24."
+            },
+            {
+                "text": "Which district recorded the highest consumption of Diesel (MT per 1000 persons) in 2023-24?",
+                "options": ["Sheikhpura", "Aurangabad", "Patna", "Sheohar"],
+                "correctAnswer": 2,
+                "explanation": "Patna recorded the highest diesel consumption in 2023-24."
+            },
+            {
+                "text": "Which district recorded the lowest consumption of Diesel (MT per 1000 persons) in 2023-24?",
+                "options": ["Siwan", "Gopalganj", "Sheohar", "Patna"],
+                "correctAnswer": 2,
+                "explanation": "Sheohar recorded the lowest diesel consumption in 2023-24."
+            },
+            {
+                "text": "Which district recorded the highest consumption of LPG (MT per 1000 persons) in 2023-24?",
+                "options": ["Begusarai", "Muzaffarpur", "Gopalganj", "Patna"],
                 "correctAnswer": 3,
-                "explanation": "Daily consumer goods are not capital formation."
+                "explanation": "Patna recorded the highest LPG consumption in 2023-24."
             },
             {
-                "text": "What is Bihar’s Consumer Price Index (CPI) combined inflation rate?",
-                "options": ["7.2%", "7.3%", "7.4%", "7.5%"],
-                "correctAnswer": 3,
-                "explanation": "Overall CPI inflation in Bihar is 7.5%."
-            },
-            {
-                "text": "What is Bihar’s CPI urban inflation rate?",
-                "options": ["7.0%", "7.1%", "7.2%", "7.3%"],
-                "correctAnswer": 1,
-                "explanation": "Urban inflation stands at 7.1%."
-            },
-            {
-                "text": "What is Bihar’s CPI rural inflation rate?",
-                "options": ["7.5%", "7.6%", "7.7%", "7.8%"],
-                "correctAnswer": 1,
-                "explanation": "Rural inflation is slightly higher at 7.6%."
-            },
-            {
-                "text": "Which district has highest per capita GDP in Bihar?",
-                "options": ["Begusarai", "Patna", "Munger", "Bhagalpur"],
-                "correctAnswer": 1,
-                "explanation": "Patna leads with the highest per capita GDP."
-            },
-            {
-                "text": "What is per capita GDP of Patna?",
-                "options": ["₹120,396", "₹121,396", "₹122,396", "₹123,396"],
-                "correctAnswer": 1,
-                "explanation": "Patna’s per capita GDP is ₹121,396."
-            },
-            {
-                "text": "District ranking second in per capita GDP?",
-                "options": ["Munger", "Patna", "Begusarai", "Gaya"],
+                "text": "Which district recorded the lowest consumption of LPG (MT per 1000 persons) in 2023-24?",
+                "options": ["Banka", "Kishanganj", "Araria", "Patna"],
                 "correctAnswer": 2,
-                "explanation": "Begusarai ranks second."
+                "explanation": "Araria recorded the lowest LPG consumption in 2023-24."
             },
             {
-                "text": "Per capita GDP of Begusarai?",
-                "options": ["₹48,064", "₹49,064", "₹50,064", "₹51,064"],
+                "text": "What was the Total Expenditure in Bihar in 2023-24?",
+                "options": ["₹ 61,568 crore", "₹ 1,90,514 crore", "₹ 2,52,082 crore", "₹ 2,833 crore"],
+                "correctAnswer": 2,
+                "explanation": "Total expenditure in Bihar in 2023-24 was ₹ 2,52,082 crore."
+            },
+            {
+                "text": "What was the Revenue Expenditure in Bihar in 2023-24?",
+                "options": ["₹ 61,568 crore", "₹ 1,90,514 crore", "₹ 2,52,082 crore", "₹ 2,833 crore"],
                 "correctAnswer": 1,
-                "explanation": "Begusarai’s per capita GDP is ₹49,064."
+                "explanation": "Revenue expenditure in Bihar in 2023-24 was ₹ 1,90,514 crore."
             },
             {
-                "text": "District ranking third in per capita GDP?",
-                "options": ["Munger", "Bhagalpur", "Gaya", "Muzaffarpur"],
+                "text": "What was the Capital Expenditure in Bihar in 2023-24?",
+                "options": ["₹ 61,568 crore", "₹ 1,90,514 crore", "₹ 2,52,082 crore", "₹ 2,833 crore"],
                 "correctAnswer": 0,
-                "explanation": "Munger holds third position."
+                "explanation": "Capital expenditure in Bihar in 2023-24 was ₹ 61,568 crore."
             },
             {
-                "text": "Per capita GDP of Munger?",
-                "options": ["₹46,295", "₹46,495", "₹46,795", "₹46,995"],
-                "correctAnswer": 2,
-                "explanation": "Munger’s per capita GDP is ₹46,795."
-            },
-            {
-                "text": "District with lowest per capita GDP?",
-                "options": ["Araria", "Sitamarhi", "Sheohar", "Kishanganj"],
-                "correctAnswer": 2,
-                "explanation": "Sheohar is lowest."
-            },
-            {
-                "text": "Per capita GDP of Sheohar?",
-                "options": ["₹19,461", "₹19,561", "₹19,661", "₹19,761"],
-                "correctAnswer": 1,
-                "explanation": "Sheohar’s per capita GDP is ₹19,561."
-            },
-            {
-                "text": "Second lowest district by per capita GDP?",
-                "options": ["Araria", "Sitamarhi", "Supaul", "Madhepura"],
-                "correctAnswer": 1,
-                "explanation": "Sitamarhi is second lowest."
-            },
-            {
-                "text": "Per capita GDP of Sitamarhi?",
-                "options": ["₹21,131", "₹21,231", "₹21,331", "₹21,931"],
-                "correctAnswer": 3,
-                "explanation": "Sitamarhi’s per capita GDP is ₹21,931."
-            },
-            {
-                "text": "Third lowest district by per capita GDP?",
-                "options": ["Kishanganj", "Araria", "Supaul", "Purnea"],
-                "correctAnswer": 1,
-                "explanation": "Araria ranks third lowest."
-            },
-            {
-                "text": "Per capita GDP of Araria?",
-                "options": ["₹22,004", "₹22,104", "₹22,204", "₹22,304"],
-                "correctAnswer": 2,
-                "explanation": "Araria’s per capita GDP is ₹22,204."
-            },
-            {
-                "text": "Total expenditure of Bihar in 2023?",
-                "options": ["₹2,50,000 crore", "₹2,51,082 crore", "₹2,52,082 crore", "₹2,53,082 crore"],
-                "correctAnswer": 2,
-                "explanation": "Total expenditure is ₹2,52,082 crore."
-            },
-            {
-                "text": "Revenue expenditure of Bihar in 2023?",
-                "options": ["₹1,89,514 crore", "₹1,90,514 crore", "₹1,91,514 crore", "₹1,92,514 crore"],
-                "correctAnswer": 1,
-                "explanation": "Revenue expenditure is ₹1,90,514 crore."
-            },
-            {
-                "text": "Capital expenditure of Bihar in 2023?",
-                "options": ["₹60,568 crore", "₹61,000 crore", "₹61,568 crore", "₹62,000 crore"],
-                "correctAnswer": 2,
-                "explanation": "Capital expenditure stands at ₹61,568 crore."
-            },
-            {
-                "text": "Bihar’s revenue surplus as a percentage of GSDP?",
-                "options": ["0.2%", "0.3%", "0.4%", "0.5%"],
-                "correctAnswer": 1,
-                "explanation": "Revenue surplus is 0.3% of GSDP."
-            },
-            {
-                "text": "Absolute revenue surplus amount?",
-                "options": ["₹2,733 crore", "₹2,833 crore", "₹2,933 crore", "₹3,033 crore"],
-                "correctAnswer": 1,
-                "explanation": "Surplus amount is ₹2,833 crore."
-            },
-            {
-                "text": "Total borrowing of Bihar as percentage of GSDP?",
-                "options": ["6%", "7%", "8%", "9%"],
-                "correctAnswer": 1,
-                "explanation": "Borrowings amount to 7% of GSDP."
-            },
-            {
-                "text": "Total outstanding debt to GSDP ratio?",
-                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
-                "correctAnswer": 1,
-                "explanation": "Debt ratio is 38.9%."
-            },
-            {
-                "text": "Net sown area of Bihar?",
-                "options": ["5012.8 thousand hectares", "5112.8 thousand hectares", "5212.8 thousand hectares", "5312.8 thousand hectares"],
-                "correctAnswer": 1,
-                "explanation": "Bihar’s net sown area is 5112.8 thousand hectares."
-            },
-            {
-                "text": "Percentage of land utilised for crop production?",
-                "options": ["53.2%", "54.2%", "55.2%", "56.2%"],
-                "correctAnswer": 1,
-                "explanation": "54.2% of land was used for crops."
-            },
-            {
-                "text": "Agriculture Roadmap period for Bihar?",
-                "options": ["2022–27", "2023–28", "2024–29", "2025–30"],
-                "correctAnswer": 1,
-                "explanation": "Roadmap spans 2023–28."
-            },
-            {
-                "text": "Percentage of population dependent on agriculture?",
-                "options": ["70%", "72%", "75%", "Over 75%"],
-                "correctAnswer": 3,
-                "explanation": "More than 75% people rely on agriculture."
-            },
-            {
-                "text": "District known as Rice Bowl of Bihar?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
-                "correctAnswer": 1,
-                "explanation": "Rohtas is known as the Rice Bowl due to its high rice production."
-            },
-            {
-                "text": "District with lowest rice production in Bihar?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Jehanabad"],
+                "text": "What was the Revenue Surplus of Bihar in 2023-24 as a percentage of GSDP?",
+                "options": ["0.3%", "2.1%", "4.2%", "7.0%"],
                 "correctAnswer": 0,
-                "explanation": "Begusarai has the lowest rice production."
+                "explanation": "Revenue surplus of Bihar was 0.3% of GSDP in 2023-24."
             },
             {
-                "text": "District with highest rice productivity?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
-                "correctAnswer": 1,
-                "explanation": "Rohtas leads in productivity per hectare for rice."
+                "text": "What was the amount of Revenue Surplus in Bihar in 2023-24?",
+                "options": ["₹ 2,833 crore", "₹ 35,660 crore", "₹ 61,568 crore", "₹ 1,90,514 crore"],
+                "correctAnswer": 0,
+                "explanation": "Amount of revenue surplus in Bihar was ₹ 2,833 crore."
             },
             {
-                "text": "Total expenditure of Bihar in 2023-24?",
-                "options": ["₹2,50,000 crore", "₹2,51,082 crore", "₹2,52,082 crore", "₹2,53,082 crore"],
-                "correctAnswer": 2,
-                "explanation": "Expenditure is ₹2,52,082 crore as per the survey."
-            },
-            {
-                "text": "Revenue expenditure of Bihar in 2023-24?",
-                "options": ["₹1,89,514 crore", "₹1,90,514 crore", "₹1,91,514 crore", "₹1,92,514 crore"],
-                "correctAnswer": 1,
-                "explanation": "Revenue expenditure stands at ₹1,90,514 crore."
-            },
-            {
-                "text": "Capital expenditure of Bihar in 2023-24?",
-                "options": ["₹60,568 crore", "₹61,000 crore", "₹61,568 crore", "₹62,000 crore"],
-                "correctAnswer": 2,
-                "explanation": "Capital spending is ₹61,568 crore."
-            },
-            {
-                "text": "Bihar’s revenue surplus as % of GSDP?",
-                "options": ["0.2%", "0.3%", "0.4%", "0.5%"],
-                "correctAnswer": 1,
-                "explanation": "Revenue surplus is 0.3% of GSDP, a positive fiscal indicator."
-            },
-            {
-                "text": "Revenue surplus amount?",
-                "options": ["₹2,733 crore", "₹2,833 crore", "₹2,933 crore", "₹3,033 crore"],
-                "correctAnswer": 1,
-                "explanation": "Surplus amount recorded as ₹2,833 crore."
-            },
-            {
-                "text": "Total borrowing as % of GSDP?",
-                "options": ["6%", "7%", "8%", "9%"],
-                "correctAnswer": 1,
-                "explanation": "Total borrowing is 7% of GSDP."
-            },
-            {
-                "text": "Total outstanding debt to GSDP ratio?",
-                "options": ["37.9%", "38.9%", "39.9%", "40.9%"],
-                "correctAnswer": 1,
-                "explanation": "Debt ratio is 38.9%, within manageable limits."
-            },
-            {
-                "text": "What is the net sown area in Bihar?",
-                "options": ["5012.8 thousand hectares", "5112.8 thousand hectares", "5212.8 thousand hectares", "5312.8 thousand hectares"],
-                "correctAnswer": 1,
-                "explanation": "Net sown area is 5112.8 thousand hectares."
-            },
-            {
-                "text": "Percentage of land utilised for crop production?",
-                "options": ["53.2%", "54.2%", "55.2%", "56.2%"],
-                "correctAnswer": 1,
-                "explanation": "54.2% of land is used for crops."
-            },
-            {
-                "text": "Agriculture Road Map period?",
-                "options": ["2022–27", "2023–28", "2024–29", "2025–30"],
-                "correctAnswer": 1,
-                "explanation": "Current roadmap spans 2023–28."
-            },
-            {
-                "text": "Percentage of population dependent on agriculture?",
-                "options": ["70%", "72%", "75%", "Over 75%"],
+                "text": "What was the Total Borrowing of the State in 2023-24 as a percentage of GSDP?",
+                "options": ["0.3%", "2.1%", "4.2%", "7.0%"],
                 "correctAnswer": 3,
-                "explanation": "Over 75% of population relies on agriculture."
+                "explanation": "Total borrowing of the state as a percentage of GSDP was 7.0%."
             },
             {
-                "text": "Contribution of Agriculture, Forestry & Fishing to GVA?",
-                "options": ["19.2%", "20.2%", "21.2%", "22.2%"],
+                "text": "What was the Total Outstanding Debt to GSDP in Bihar in 2023-24?",
+                "options": ["7%", "38.9%", "56.3%", "39.9%"],
                 "correctAnswer": 1,
-                "explanation": "Sector contributes 20.2% to Gross Value Added."
+                "explanation": "Total outstanding debt to GSDP in Bihar was 38.9% in 2023-24."
             },
             {
-                "text": "Overall cropping intensity in 2022-23?",
-                "options": ["1.40", "1.41", "1.42", "1.43"],
-                "correctAnswer": 2,
-                "explanation": "Cropping intensity is 1.42, indicating multiple cropping."
-            },
-            {
-                "text": "District with highest cropping intensity?",
-                "options": ["Supaul", "Jehanabad", "Rohtas", "Nalanda"],
+                "text": "What was the Net Sown Area in Bihar?",
+                "options": ["5112.8 thousand hectares", "54.2% of total land", "20.2% of GSVA", "75% of population dependent"],
                 "correctAnswer": 0,
-                "explanation": "Supaul tops in cropping intensity."
+                "explanation": "Net sown area in Bihar was 5112.8 thousand hectares."
             },
             {
-                "text": "Cropping intensity of Supaul?",
-                "options": ["1.80", "1.81", "1.82", "1.83"],
+                "text": "What percentage of land was utilized for crop production in Bihar in 2022-23?",
+                "options": ["20.2%", "54.2%", "75%", "5112.8 thousand hectares"],
+                "correctAnswer": 1,
+                "explanation": "54.2% of land was used for crop production in 2022-23."
+            },
+            {
+                "text": "Which of the following is the period for the Fourth Agriculture Road Map in Bihar?",
+                "options": ["2020–25", "2021–26", "2023–28", "2024–29"],
                 "correctAnswer": 2,
-                "explanation": "Supaul’s cropping intensity is 1.82."
+                "explanation": "The Fourth Agriculture Road Map covers the period 2023–28."
             },
             {
-                "text": "District with second highest cropping intensity?",
-                "options": ["Supaul", "Jehanabad", "Rohtas", "Gaya"],
-                "correctAnswer": 1,
-                "explanation": "Jehanabad ranks second."
-            },
-            {
-                "text": "Cropping intensity of Jehanabad?",
-                "options": ["1.73", "1.74", "1.75", "1.76"],
+                "text": "Approximately what percentage of Bihar's population depends on agriculture?",
+                "options": ["Over 50%", "Over 60%", "Over 75%", "Over 90%"],
                 "correctAnswer": 2,
-                "explanation": "Jehanabad’s cropping intensity is 1.75."
+                "explanation": "Over 75% of Bihar's population depends on agriculture."
             },
             {
-                "text": "Which district is known as the Rice Bowl of Bihar?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "text": "Agriculture, Forestry, and Fishing contributed what percentage of GSVA in Bihar in 2022–23?",
+                "options": ["19.9%", "20.2%", "21.5%", "58.6%"],
                 "correctAnswer": 1,
-                "explanation": "Rohtas is called the Rice Bowl due to abundant rice production."
+                "explanation": "Agriculture, Forestry, and Fishing contributed 20.2% of GSVA in 2022–23."
             },
             {
-                "text": "Which district has the lowest rice production?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Jehanabad"],
-                "correctAnswer": 0,
-                "explanation": "Begusarai has the lowest rice output."
-            },
-            {
-                "text": "Which district has the highest rice productivity?",
-                "options": ["Begusarai", "Rohtas", "Gopalganj", "Supaul"],
+                "text": "What was the overall Cropping Intensity in Bihar in 2022–23?",
+                "options": ["1.25", "1.42", "1.60", "1.82"],
                 "correctAnswer": 1,
-                "explanation": "Rohtas achieves highest yield per hectare."
+                "explanation": "Overall cropping intensity in Bihar was 1.42 in 2022–23."
+            },
+            {
+                "text": "Which district had the highest Cropping Intensity in Bihar in 2022–23?",
+                "options": ["Jehanabad", "Rohtas", "Supaul", "Begusarai"],
+                "correctAnswer": 2,
+                "explanation": "Supaul had the highest cropping intensity in Bihar."
+            },
+            {
+                "text": "Which district is known as the 'Rice Bowl of Bihar' due to its highest rice production?",
+                "options": ["Begusarai", "Gopalganj", "Rohtas", "Supaul"],
+                "correctAnswer": 2,
+                "explanation": "Rohtas is known as the 'Rice Bowl of Bihar' for its rice production."
+            },
+            {
+                "text": "Which district had the highest rice productivity in Bihar?",
+                "options": ["Begusarai", "Gopalganj", "Rohtas", "Supaul"],
+                "correctAnswer": 2,
+                "explanation": "Rohtas had the highest rice productivity in Bihar."
+            },
+            {
+                "text": "Which variety of rice is most produced in Bihar?",
+                "options": ["Basmati", "Aghani", "Sona Masuri", "Parmal"],
+                "correctAnswer": 1,
+                "explanation": "Aghani is the most produced rice variety in Bihar."
+            },
+            {
+                "text": "Which district had the highest wheat production in Bihar?",
+                "options": ["Kishanganj", "Aurangabad", "Begusarai", "Rohtas"],
+                "correctAnswer": 3,
+                "explanation": "Rohtas had the highest wheat production in Bihar."
+            },
+            {
+                "text": "Which district had the highest wheat productivity in Bihar?",
+                "options": ["Aurangabad", "Begusarai", "Rohtas", "Kishanganj"],
+                "correctAnswer": 1,
+                "explanation": "Begusarai had the highest wheat productivity in Bihar."
+            },
+            {
+                "text": "Which two districts are notable for almost no maize production in Bihar?",
+                "options": ["Purnea and Kishanganj", "Araria and Katihar", "Aurangabad and Rohtas", "Madhepura and Saharsa"],
+                "correctAnswer": 2,
+                "explanation": "Aurangabad and Rohtas are notable for almost no maize production."
+            },
+            {
+                "text": "Which district had the highest maize production in Bihar?",
+                "options": ["Kishanganj", "Araria", "Purnea", "Katihar"],
+                "correctAnswer": 2,
+                "explanation": "Purnea had the highest maize production in Bihar."
+            },
+            {
+                "text": "Which district had the highest maize productivity in Bihar?",
+                "options": ["Purnea", "Kishanganj", "Araria", "Katihar"],
+                "correctAnswer": 1,
+                "explanation": "Kishanganj had the highest maize productivity in Bihar."
+            },
+            {
+                "text": "Which district had the highest sugarcane production in Bihar?",
+                "options": ["Begusarai", "West Champaran", "Rohtas", "Sitamarhi"],
+                "correctAnswer": 1,
+                "explanation": "West Champaran had the highest sugarcane production in Bihar."
+            },
+            {
+                "text": "Which district had the highest sugarcane productivity in Bihar?",
+                "options": ["West Champaran", "Rohtas", "Begusarai", "Sitamarhi"],
+                "correctAnswer": 2,
+                "explanation": "Begusarai had the highest sugarcane productivity in Bihar."
+            },
+            {
+                "text": "Which fruit occupies the largest land area under production in Bihar?",
+                "options": ["Banana", "Mango", "Litchi", "Guava"],
+                "correctAnswer": 1,
+                "explanation": "Mango occupies the largest land area under fruit production in Bihar."
+            },
+            {
+                "text": "What percentage of total makhana production does Bihar account for?",
+                "options": ["65%", "75%", "85%", "95%"],
+                "correctAnswer": 2,
+                "explanation": "Bihar accounts for 85% of total makhana production in India."
+            },
+            {
+                "text": "Which of the following districts is NOT listed as a major makhana producing district in Bihar?",
+                "options": ["Madhepura", "Darbhanga", "Patna", "Khagaria"],
+                "correctAnswer": 2,
+                "explanation": "Patna is not listed as a major makhana producing district."
+            },
+            {
+                "text": "The GI Tag for Makhana is associated with which organisation?",
+                "options": [
+                    "Bihar State Agricultural University",
+                    "Mithilanchal Farmer Producer Organisation",
+                    "Makhana Development Board",
+                    "National Food Security Mission"
+                ],
+                "correctAnswer": 1,
+                "explanation": "GI Tag for Makhana is associated with Mithilanchal Farmer Producer Organisation."
+            },
+            {
+                "text": "Where is the Makhana Research Centre located in Bihar?",
+                "options": ["Purnea", "Darbhanga", "Madhubani", "Saharsa"],
+                "correctAnswer": 1,
+                "explanation": "Makhana Research Centre is located in Darbhanga, Bihar."
+            },
+            {
+                "text": "Which vegetable occupies the largest land under production in Bihar?",
+                "options": ["Onion", "Tomato", "Potato", "Cauliflower"],
+                "correctAnswer": 2,
+                "explanation": "Potato occupies the largest land under vegetable production in Bihar."
             }
         ],
         "Bihar ES (Part-2)": [{
-                "text": "What is the rice productivity of Rohtas?",
-                "options": [
-                    "4645 kg/hectare",
-                    "4647 kg/hectare",
-                    "4649 kg/hectare",
-                    "4650 kg/hectare"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Rohtas has a rice productivity of 4649 kg per hectare."
+                "text": "Which of the following is NOT among the top fish-producing districts in Bihar?",
+                "options": ["Madhubani", "Darbhanga", "East Champaran", "Patna"],
+                "correctAnswer": 3,
+                "explanation": "Patna is NOT among the top fish-producing districts in Bihar."
             },
             {
-                "text": "Which district has the lowest rice productivity in Bihar?",
-                "options": [
-                    "Begusarai",
-                    "Rohtas",
-                    "Gopalganj",
-                    "Nalanda"
-                ],
+                "text": "Which district in Bihar is known as the 'Darjeeling of Bihar' for tea production?",
+                "options": ["Purnea", "Katihar", "Kishanganj", "Araria"],
                 "correctAnswer": 2,
-                "explanation": "Gopalganj records the lowest rice productivity in Bihar."
+                "explanation": "Kishanganj is known as the 'Darjeeling of Bihar' for tea production."
             },
             {
-                "text": "Which district has the highest wheat production in Bihar?",
-                "options": [
-                    "Begusarai",
-                    "Rohtas",
-                    "Nalanda",
-                    "Purnea"
-                ],
+                "text": "The largest unit of Bihar Rajya Beej Nigam Ltd. is located in which district?",
+                "options": ["Patna", "Kaimur", "Rohtas", "Muzaffarpur"],
                 "correctAnswer": 1,
-                "explanation": "Rohtas leads in wheat production in Bihar."
+                "explanation": "The largest unit of Bihar Rajya Beej Nigam Ltd. is located in Kaimur."
             },
             {
-                "text": "Which district has the lowest wheat production in Bihar?",
-                "options": [
-                    "Kishanganj",
-                    "Aurangabad",
-                    "Supaul",
-                    "Bhagalpur"
-                ],
+                "text": "Which of the following crops is used as green manure in Jaivik Kheti Protsahan Yojana to retain nitrogen balance?",
+                "options": ["Rice", "Wheat", "Dhaincha", "Maize"],
+                "correctAnswer": 2,
+                "explanation": "Dhaincha is used as green manure in Jaivik Kheti Protsahan Yojana."
+            },
+            {
+                "text": "What is the subsidy percentage provided on seeds of Dhaincha under Jaivik Kheti Protsahan Yojana?",
+                "options": ["50%", "75%", "90%", "100%"],
+                "correctAnswer": 2,
+                "explanation": "A 90% subsidy is provided on seeds of Dhaincha under Jaivik Kheti Protsahan Yojana."
+            },
+            {
+                "text": "How many districts are covered under the Jaivik Kheti Protsahan Yojana?",
+                "options": ["13", "12", "11", "38"],
+                "correctAnswer": 3,
+                "explanation": "Jaivik Kheti Protsahan Yojana covers all 38 districts."
+            },
+            {
+                "text": "How many districts are covered under the Jaivik Corridor Yojana?",
+                "options": ["11", "12", "13", "38"],
+                "correctAnswer": 2,
+                "explanation": "Jaivik Corridor Yojana covers 13 districts."
+            },
+            {
+                "text": "How many districts are covered under the Namami Gange Scheme in Bihar?",
+                "options": ["11", "12", "13", "38"],
+                "correctAnswer": 1,
+                "explanation": "Namami Gange Scheme is implemented in 12 districts in Bihar."
+            },
+            {
+                "text": "How many districts is the Paramparagat Krishi Vikas Yojana implemented in?",
+                "options": ["11", "12", "13", "38"],
                 "correctAnswer": 0,
-                "explanation": "Kishanganj has the lowest wheat production."
+                "explanation": "Paramparagat Krishi Vikas Yojana is implemented in 11 districts."
             },
             {
-                "text": "Which district has the highest wheat productivity in Bihar?",
-                "options": [
-                    "Rohtas",
-                    "Nalanda",
-                    "Begusarai",
-                    "Patna"
-                ],
+                "text": "What is the recovery rate for sugar in Bihar's sugar industry?",
+                "options": ["9.50%", "10.16%", "11.25%", "12.00%"],
+                "correctAnswer": 1,
+                "explanation": "The recovery rate for sugar in Bihar is 10.16%."
+            },
+            {
+                "text": "How many sugar mills are currently operational in Bihar?",
+                "options": ["7", "8", "9", "10"],
                 "correctAnswer": 2,
-                "explanation": "Begusarai achieves the highest wheat productivity."
-            },
-            {
-                "text": "What is the wheat productivity of Begusarai?",
-                "options": [
-                    "4010 kg/hectare",
-                    "4011 kg/hectare",
-                    "4012 kg/hectare",
-                    "4013 kg/hectare"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Begusarai has a wheat productivity of 4012 kg per hectare."
-            },
-            {
-                "text": "Which district has the lowest wheat productivity in Bihar?",
-                "options": [
-                    "Aurangabad",
-                    "Kishanganj",
-                    "Nalanda",
-                    "Supaul"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Aurangabad records the lowest wheat productivity in Bihar."
-            },
-            {
-                "text": "Maize is produced in almost all districts of Bihar except:",
-                "options": [
-                    "Purnea & Kishanganj",
-                    "Aurangabad & Rohtas",
-                    "Supaul & Nalanda",
-                    "Begusarai & Munger"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Bihar districts Aurangabad & Rohtas do not produce maize."
-            },
-            {
-                "text": "Which four districts together contribute 53% of Bihar’s total maize production?",
-                "options": [
-                    "Purnea, Kishanganj, Araria, Katihar",
-                    "Begusarai, Nalanda, Rohtas, Supaul",
-                    "Patna, Munger, Bhagalpur, Saharsa",
-                    "Gaya, Jehanabad, Siwan, Buxar"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Purnea, Kishanganj, Araria and Katihar contribute over half of maize production."
-            },
-            {
-                "text": "Which district has the highest maize production in Bihar?",
-                "options": [
-                    "Kishanganj",
-                    "Purnea",
-                    "Katihar",
-                    "Araria"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Purnea leads in maize production in Bihar."
-            },
-            {
-                "text": "Which district has the highest maize productivity in Bihar?",
-                "options": [
-                    "Kishanganj",
-                    "Purnea",
-                    "Katihar",
-                    "Araria"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Kishanganj has the highest maize productivity."
-            },
-            {
-                "text": "Which district has the highest sugarcane production in Bihar?",
-                "options": [
-                    "Begusarai",
-                    "West Champaran",
-                    "Rohtas",
-                    "Gopalganj"
-                ],
-                "correctAnswer": 1,
-                "explanation": "West Champaran leads sugarcane production."
-            },
-            {
-                "text": "Which district has the highest sugarcane productivity in Bihar?",
-                "options": [
-                    "Begusarai",
-                    "West Champaran",
-                    "Rohtas",
-                    "Sitamarhi"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Begusarai has the highest sugarcane productivity."
-            },
-            {
-                "text": "Which fruit has the largest area under cultivation in Bihar?",
-                "options": [
-                    "Mango",
-                    "Banana",
-                    "Guava",
-                    "Litchi"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Mango is cultivated over the largest area among fruits."
-            },
-            {
-                "text": "Which fruit ranks second in area under cultivation in Bihar?",
-                "options": [
-                    "Mango",
-                    "Banana",
-                    "Papaya",
-                    "Guava"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Banana ranks second by area under cultivation."
-            },
-            {
-                "text": "Bihar accounts for what percentage of India’s total makhana production?",
-                "options": [
-                    "80%",
-                    "82%",
-                    "85%",
-                    "88%"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Bihar produces approximately 85% of India’s total makhana."
-            },
-            {
-                "text": "How many districts in Bihar are main producers of makhana?",
-                "options": [
-                    "8",
-                    "9",
-                    "10",
-                    "12"
-                ],
-                "correctAnswer": 2,
-                "explanation": "10 districts are main producers of makhana in Bihar."
-            },
-            {
-                "text": "Which district is NOT among the top 10 makhana-producing districts of Bihar?",
-                "options": [
-                    "Madhepura",
-                    "Saharsa",
-                    "Gaya",
-                    "Purnea"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Gaya is not among the top 10 makhana-producing districts."
-            },
-            {
-                "text": "The GI tag for Bihar’s makhana is associated with which organisation?",
-                "options": [
-                    "Bihar Agricultural University",
-                    "Mithilanchal Farmer Producer Organisation",
-                    "Bihar Makhana Cooperative",
-                    "Bihar State Agro Corporation"
-                ],
-                "correctAnswer": 1,
-                "explanation": "GI tag for Bihar’s makhana is associated with Mithilanchal Farmer Producer Organisation."
-            },
-            {
-                "text": "In which district is Bhola Paswan Shastri Agriculture College located?",
-                "options": [
-                    "Saharsa",
-                    "Purnea",
-                    "Darbhanga",
-                    "Khagaria"
-                ],
-                "correctAnswer": 1,
-                "explanation": "The Agriculture College is located in Purnea."
-            },
-            {
-                "text": "Where is the Makhana Research Centre located?",
-                "options": [
-                    "Purnea",
-                    "Darbhanga",
-                    "Madhubani",
-                    "Saharsa"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Makhana Research Centre is at Darbhanga."
-            },
-            {
-                "text": "Which crop occupies the largest land under vegetable production in Bihar?",
-                "options": [
-                    "Onion",
-                    "Potato",
-                    "Tomato",
-                    "Brinjal"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Potato occupies the largest vegetable cultivation area."
-            },
-            {
-                "text": "Which three districts are the top fish producers in Bihar?",
-                "options": [
-                    "Madhubani, Darbhanga, East Champaran",
-                    "Purnea, Katihar, Saharsa",
-                    "Begusarai, Khagaria, Nalanda",
-                    "Muzaffarpur, Gopalganj, Supaul"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Madhubani, Darbhanga and East Champaran lead in fish production."
-            },
-            {
-                "text": "Which district of Bihar is known as the 'Darjeeling of Bihar' for tea production?",
-                "options": [
-                    "Purnea",
-                    "Kishanganj",
-                    "Araria",
-                    "Katihar"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Kishanganj is famous for tea production, earning this nickname."
-            },
-            {
-                "text": "In which block of Kishanganj district is tea mainly produced?",
-                "options": [
-                    "Thakurganj Block",
-                    "Kochadhaman Block",
-                    "Bahadurganj Block",
-                    "Dighalbank Block"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Tea is primarily grown in Thakurganj Block."
-            },
-            {
-                "text": "The Gayaji Dam is notable for being:",
-                "options": [
-                    "India’s tallest concrete dam",
-                    "India’s longest rubber dam",
-                    "Asia’s largest barrage",
-                    "Bihar’s oldest dam"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Gayaji Dam is India’s longest rubber dam."
-            },
-            {
-                "text": "Where is the largest unit of Bihar Rajya Beej Nigam Ltd. located?",
-                "options": [
-                    "Purnea, Bihar",
-                    "Kudra, Kaimur",
-                    "Begusarai, Bihar",
-                    "Gaya, Bihar"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Largest unit of Bihar Rajya Beej Nigam Ltd is located in Kudra, Kaimur."
-            },
-            {
-                "text": "What is green manure?",
-                "options": [
-                    "Compost made from kitchen waste",
-                    "Undecomposed plant material used as natural fertiliser",
-                    "Animal waste converted into fertiliser",
-                    "Chemical fertiliser with added plant extracts"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Green manure is undecomposed plant material used to improve soil fertility."
-            },
-            {
-                "text": "What is the main purpose of green manure?",
-                "options": [
-                    "Increase soil acidity",
-                    "Retain nitrogen balance in soil",
-                    "Increase soil moisture",
-                    "Control pests"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Green manure helps retain nitrogen balance in soil."
-            },
-            {
-                "text": "Which crop is commonly used as green manure in Bihar?",
-                "options": [
-                    "Moong",
-                    "Dhaincha",
-                    "Sunhemp",
-                    "Gram"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Dhaincha is widely used as green manure."
-            },
-            {
-                "text": "What percentage subsidy is given on seeds of Dhaincha under Jaivik Kheti Protsahan Yojana?",
-                "options": [
-                    "80%",
-                    "85%",
-                    "90%",
-                    "95%"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Farmers get a 90% subsidy on Dhaincha seeds under the scheme."
-            },
-            {
-                "text": "How many districts are covered under Jaivik Kheti Protsahan Yojana?",
-                "options": [
-                    "35",
-                    "36",
-                    "38",
-                    "40"
-                ],
-                "correctAnswer": 2,
-                "explanation": "The scheme covers 38 districts in Bihar."
-            },
-            {
-                "text": "Dhaincha helps in:",
-                "options": [
-                    "Pest control",
-                    "Nitrogen fixation",
-                    "Increasing water table",
-                    "Weed control"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Dhaincha improves nitrogen fixation, enhancing soil health."
-            },
-            {
-                "text": "Jaivik Corridor Yojana is implemented in how many districts of Bihar?",
-                "options": [
-                    "11",
-                    "12",
-                    "13",
-                    "14"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Implemented across 13 districts."
-            },
-            {
-                "text": "Namami Gange Scheme is implemented in how many districts of Bihar?",
-                "options": [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Implemented in 12 districts of Bihar."
-            },
-            {
-                "text": "Paramparagat Krishi Vikas Yojana is implemented in how many districts of Bihar?",
-                "options": [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Implemented over 11 districts."
-            },
-            {
-                "text": "What is the recovery rate of the sugar industry in Bihar?",
-                "options": [
-                    "9.96%",
-                    "10.16%",
-                    "10.26%",
-                    "10.36%"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Recovery rate stands at 10.16%."
-            },
-            {
-                "text": "How many sugar mills are operational in Bihar?",
-                "options": [
-                    "8",
-                    "9",
-                    "10",
-                    "11"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Currently, 9 sugar mills operate in Bihar."
+                "explanation": "There are 9 operational sugar mills in Bihar."
             },
             {
                 "text": "Which is the newest sugar mill reopened in Bihar?",
-                "options": [
-                    "Harinagar Sugar Mill",
-                    "Sidhwalia Sugar Mill",
-                    "Riga Sugar Mill",
-                    "Manjhaulua Sugar Mill"
-                ],
+                "options": ["Harinagar Sugar Mill", "Manjhaulua Sugar Mill", "Riga Sugar Mill", "Sidhwalia Sugar Mill"],
                 "correctAnswer": 2,
-                "explanation": "Riga sugar mill is the newest reopened mill."
+                "explanation": "Riga Sugar Mill is the newest reopened sugar mill in Bihar."
             },
             {
-                "text": "Where is Harinagar Sugar Mill located?",
-                "options": [
-                    "Gopalganj",
-                    "Sitamarhi",
-                    "West Champaran",
-                    "Begusarai"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Harinagar Sugar Mill is in West Champaran district."
-            },
-            {
-                "text": "In which year was Manjhaulua Sugar Mill established?",
-                "options": [
-                    "1923",
-                    "1933",
-                    "1943",
-                    "1953"
-                ],
+                "text": "Harinagar Sugar Mill is located in which district?",
+                "options": ["East Champaran", "West Champaran", "Sitamarhi", "Gopalganj"],
                 "correctAnswer": 1,
-                "explanation": "Manjhaulua Sugar Mill was established in 1933."
+                "explanation": "Harinagar Sugar Mill is located in West Champaran."
             },
             {
-                "text": "In which district is Sidhwalia Sugar Mill located?",
-                "options": [
-                    "West Champaran",
-                    "Gopalganj",
-                    "Siwan",
-                    "Samastipur"
-                ],
+                "text": "Manjhaulua Sugar Mill, established in 1933, is located in which district?",
+                "options": ["West Champaran", "Gopalganj", "Sitamarhi", "Begusarai"],
                 "correctAnswer": 0,
-                "explanation": "Sidhwalia Sugar Mill is situated in West Champaran."
+                "explanation": "Manjhaulua Sugar Mill is located in West Champaran."
+            },
+            {
+                "text": "Sidhwalia Sugar Mill is located in which district?",
+                "options": ["Gopalganj", "Siwan", "West Champaran", "Saran"],
+                "correctAnswer": 2,
+                "explanation": "Sidhwalia Sugar Mill is located in West Champaran."
             },
             {
                 "text": "How many jaggery units are there in Bihar?",
-                "options": [
-                    "78",
-                    "80",
-                    "81",
-                    "83"
-                ],
+                "options": ["50", "65", "81", "95"],
                 "correctAnswer": 2,
-                "explanation": "Bihar has 81 jaggery units."
+                "explanation": "There are 81 jaggery units in Bihar."
             },
             {
                 "text": "In which year was COMFED established?",
-                "options": [
-                    "1981",
-                    "1982",
-                    "1983",
-                    "1984"
-                ],
-                "correctAnswer": 2,
+                "options": ["1978", "1983", "1988", "1993"],
+                "correctAnswer": 1,
                 "explanation": "COMFED was established in 1983."
             },
             {
-                "text": "Which national dairy brand is COMFED associated with?",
-                "options": [
-                    "Mother Dairy",
-                    "Nandini",
-                    "Amul",
-                    "Verka"
-                ],
-                "correctAnswer": 2,
-                "explanation": "COMFED is associated with Amul brand."
-            },
-            {
-                "text": "What is the brand name under which COMFED sells its products?",
-                "options": [
-                    "Mithila",
-                    "Sudha",
-                    "Shakti",
-                    "Bihar Dairy"
-                ],
+                "text": "What is the brand name of COMFED?",
+                "options": ["AMUL", "SUDHA", "MOTHER DAIRY", "NANDINI"],
                 "correctAnswer": 1,
-                "explanation": "COMFED products are sold under Sudha brand."
-            },
-            {
-                "text": "Which year was the Bihar Industrial Investment Promotion Policy launched?",
-                "options": [
-                    "2015",
-                    "2016",
-                    "2017",
-                    "2018"
-                ],
-                "correctAnswer": 1,
-                "explanation": "The policy was launched in 2016."
+                "explanation": "The brand name of COMFED is SUDHA."
             },
             {
                 "text": "The Bihar Industrial Investment Promotion Policy for Textile & Leather was introduced in which year?",
-                "options": [
-                    "2020",
-                    "2021",
-                    "2022",
-                    "2023"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Policy introduced in 2022."
-            },
-            {
-                "text": "The Bihar Start-up Policy was launched in which year?",
-                "options": [
-                    "2020",
-                    "2021",
-                    "2022",
-                    "2023"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Start-up policy launched in 2022."
-            },
-            {
-                "text": "In which year was the Bihar Biofuel Promotion Policy launched?",
-                "options": [
-                    "2021",
-                    "2022",
-                    "2023",
-                    "2024"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Biofuel Promotion Policy launched in 2023."
-            },
-            {
-                "text": "The Bihar Tourism Policy was introduced in which year?",
-                "options": [
-                    "2021",
-                    "2022",
-                    "2023",
-                    "2024"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Tourism policy introduced in 2023."
-            },
-            {
-                "text": "In which district is Punaura Dham located?",
-                "options": [
-                    "Gaya",
-                    "Sitamarhi",
-                    "Vaishali",
-                    "Darbhanga"
-                ],
+                "options": ["2016", "2022", "2023", "2024"],
                 "correctAnswer": 1,
-                "explanation": "Punaura Dham is located in Sitamarhi."
+                "explanation": "The policy was introduced in 2022."
             },
             {
-                "text": "Who performed the Bhoomi Pujan of Punaura Dham on 8th August?",
-                "options": [
-                    "Narendra Modi",
-                    "Nitish Kumar",
-                    "Amit Shah",
-                    "Ram Nath Kovind"
-                ],
+                "text": "Which policy was introduced by the Bihar government in 2023 related to energy?",
+                "options": ["Bihar Industrial Investment Promotion Policy", "Bihar Start-up Policy", "Bihar Biofuel Promotion Policy", "Bihar Tourism Policy"],
                 "correctAnswer": 2,
-                "explanation": "Union Minister Amit Shah performed Bhoomi Pujan."
+                "explanation": "Bihar Biofuel Promotion Policy was introduced in 2023."
             },
             {
-                "text": "Punaura Dham is dedicated to which deity?",
-                "options": [
-                    "Maa Durga",
-                    "Maa Sita",
-                    "Maa Parvati",
-                    "Maa Saraswati"
-                ],
-                "correctAnswer": 1,
+                "text": "Punaura Dham in Sitamarhi is dedicated to which deity?",
+                "options": ["Lord Rama", "Lord Shiva", "Maa Sita", "Lord Vishnu"],
+                "correctAnswer": 2,
                 "explanation": "Punaura Dham is dedicated to Maa Sita."
             },
             {
-                "text": "What is the total area of Punaura Dham?",
-                "options": [
-                    "57 acres",
-                    "62 acres",
-                    "67 acres",
-                    "72 acres"
-                ],
+                "text": "How many acres does Punaura Dham in Sitamarhi spread over?",
+                "options": ["47 acres", "57 acres", "67 acres", "77 acres"],
                 "correctAnswer": 2,
-                "explanation": "The project covers 67 acres."
+                "explanation": "Punaura Dham spreads over 67 acres."
             },
             {
-                "text": "What is the estimated cost of Punaura Dham project?",
-                "options": [
-                    "₹ 782 crore",
-                    "₹ 882 crore",
-                    "₹ 982 crore",
-                    "₹ 1,082 crore"
-                ],
+                "text": "As per Valmiki Ramayana, how did Sita emerge?",
+                "options": ["From the sky", "From a furrow when King Janaka was ploughing", "From a lotus flower", "From a mountain cave"],
                 "correctAnswer": 1,
-                "explanation": "Estimated cost is ₹ 882 crore."
+                "explanation": "Sita emerged from a furrow when King Janaka was ploughing."
             },
             {
-                "text": "As per Valmiki Ramayana, from where did Sita emerge?",
-                "options": [
-                    "Lotus pond",
-                    "Furrow while ploughing land",
-                    "River Ganga",
-                    "Temple sanctum"
-                ],
+                "text": "What is the meaning of the name 'Sita' in Sanskrit, as per the Valmiki Ramayana?",
+                "options": ["Earth", "Flower", "Furrow", "Goddess"],
+                "correctAnswer": 2,
+                "explanation": "The meaning of Sita is 'Furrow' in Sanskrit."
+            },
+            {
+                "text": "The Bihar State Government is opening Janaki Vihar in Sitamarhi at what cost?",
+                "options": ["₹ 19.87 crore", "₹ 29.87 crore", "₹ 39.87 crore", "₹ 49.87 crore"],
                 "correctAnswer": 1,
-                "explanation": "Sita emerged from the furrow during ploughing."
+                "explanation": "Janaki Vihar in Sitamarhi is being opened at a cost of ₹ 29.87 crore."
             },
             {
-                "text": "Who was ploughing the land when Sita emerged according to the Ramayana?",
-                "options": [
-                    "Dasharatha",
-                    "Vishwamitra",
-                    "King Janaka",
-                    "Shatananda"
-                ],
+                "text": "The Glass & Suspension Bridge in Rajgir is located at which two spots?",
+                "options": ["Ghora Katora and Venu Van", "Ghora Katora and Jayprakash Udyan", "Venu Van and Jayprakash Udyan", "Sonbhandar Caves and Ghora Katora"],
+                "correctAnswer": 1,
+                "explanation": "The bridge is at Ghora Katora and Jayprakash Udyan."
+            },
+            {
+                "text": "Mangala Gauri Sthan, located in Gaya, is one of how many Shaktipeethas?",
+                "options": ["12", "21", "51", "108"],
                 "correctAnswer": 2,
-                "explanation": "King Janaka was ploughing the land."
+                "explanation": "Mangala Gauri Sthan is one of 51 Shaktipeethas."
             },
             {
-                "text": "What is the meaning of the name “Sita” in Sanskrit?",
-                "options": [
-                    "Daughter",
-                    "Goddess of crops",
-                    "Furrow",
-                    "Light"
-                ],
+                "text": "Which district is known for producing Silk, Cotton, and Furnishing cloth, including export quality Silk?",
+                "options": ["Banka", "Gaya", "Bhagalpur", "Nalanda"],
                 "correctAnswer": 2,
-                "explanation": "Sita means 'furrow' in Sanskrit."
+                "explanation": "Bhagalpur is known for silk, cotton, furnishing cloth production."
             },
             {
-                "text": "What does the name “Janaki” mean?",
-                "options": [
-                    "Daughter of Janaka",
-                    "Daughter of Mithila",
-                    "Princess of Ayodhya",
-                    "One who ploughs the land"
-                ],
+                "text": "Tasar silk, along with export quality silk and cotton towel, is a product of which district?",
+                "options": ["Banka", "Bhagalpur", "Nalanda", "Madhubani"],
                 "correctAnswer": 0,
-                "explanation": "Janaki means 'daughter of Janaka'."
+                "explanation": "Banka produces Tasar silk, export quality silk, and cotton towel."
             },
             {
-                "text": "What is the cost of Janaki Vihar project in Sitamarhi?",
-                "options": [
-                    "₹ 28.87 crore",
-                    "₹ 29.87 crore",
-                    "₹ 30.87 crore",
-                    "₹ 31.87 crore"
-                ],
+                "text": "Bawan Buti sari is a distinct product from which district?",
+                "options": ["Gaya", "Nalanda", "Nawada", "Madhubani"],
                 "correctAnswer": 1,
-                "explanation": "The project costs ₹ 29.87 crore."
+                "explanation": "Bawan Buti sari is a distinct product of Nalanda."
             },
             {
-                "text": "Where is the Glass & Suspension Bridge located in Bihar?",
-                "options": [
-                    "Gaya",
-                    "Rajgir",
-                    "Nalanda",
-                    "Bodh Gaya"
-                ],
-                "correctAnswer": 1,
-                "explanation": "It is located in Rajgir."
-            },
-            {
-                "text": "The Bihar Kosi River Development Project is being carried out with assistance from:",
-                "options": [
-                    "Asian Development Bank",
-                    "World Bank",
-                    "JICA",
-                    "NABARD"
-                ],
-                "correctAnswer": 1,
-                "explanation": "The project is assisted by the World Bank."
-            },
-            {
-                "text": "Where is Mangala Gauri Sthan located?",
-                "options": [
-                    "Gaya",
-                    "Vaishali",
-                    "Sitamarhi",
-                    "Muzaffarpur"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Mangala Gauri Sthan is in Gaya."
-            },
-            {
-                "text": "Mangala Gauri Sthan is one of the:",
-                "options": [
-                    "12 Jyotirlingas",
-                    "4 Char Dham sites",
-                    "51 Shaktipeethas",
-                    "7 Wonders of India"
-                ],
+                "text": "Fine cotton long cloth, dhoti, and shirting are products of which district?",
+                "options": ["Nalanda", "Nawada", "Madhubani", "Aurangabad"],
                 "correctAnswer": 2,
-                "explanation": "It is one of the 51 Shaktipeethas."
+                "explanation": "Madhubani produces fine cotton cloth, dhoti, and shirting."
             },
             {
-                "text": "Which types of silk are produced in Bihar?",
-                "options": [
-                    "Mulberry, Tasar, Muga",
-                    "Mulberry, Tasar, Eri",
-                    "Tasar, Muga, Eri",
-                    "Mulberry, Eri, Muga"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Bihar produces mulberry, tasar, and eri silk."
-            },
-            {
-                "text": "Which of the following silk types is NOT produced in Bihar?",
-                "options": [
-                    "Muga",
-                    "Eri",
-                    "Mulberry",
-                    "Tasar"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Muga silk is not produced in Bihar."
-            },
-            {
-                "text": "Silk is made from silkworms that primarily feed on:",
-                "options": [
-                    "Banana leaves",
-                    "Bamboo leaves",
-                    "Mulberry leaves",
-                    "Lotus leaves"
-                ],
+                "text": "Woollen carpets and woollen blankets are known products of which two districts?",
+                "options": ["Patna, Siwan", "Purnea, Katihar", "Aurangabad, Rohtas", "West Champaran, Kaimur"],
                 "correctAnswer": 2,
-                "explanation": "Silkworms feed mainly on mulberry leaves."
+                "explanation": "Aurangabad and Rohtas are known for woollen carpets and blankets."
             },
             {
-                "text": "What do silkworms spin to produce silk?",
-                "options": [
-                    "Webs",
-                    "Cocoons",
-                    "Nets",
-                    "Fibres directly"
-                ],
+                "text": "Banarasi sari and woollen carpet are products of which district?",
+                "options": ["Gaya", "Kaimur", "Rohtas", "Nalanda"],
                 "correctAnswer": 1,
-                "explanation": "Silkworms spin cocoons, which are harvested for silk."
+                "explanation": "Kaimur produces Banarasi sari and woollen carpet."
             },
             {
-                "text": "Which country is the second-largest producer and consumer of silk in the world?",
-                "options": [
-                    "China",
-                    "India",
-                    "Thailand",
-                    "Japan"
-                ],
+                "text": "Jute bags and jute-blended material are key products from which two districts?",
+                "options": ["Patna, Siwan", "Purnea, Katihar", "West Champaran, Kaimur", "Bhagalpur, Banka"],
                 "correctAnswer": 1,
-                "explanation": "India is second after China in silk production and consumption."
+                "explanation": "Jute products come from Purnea and Katihar."
             },
             {
-                "text": "What is the term for the process of farming silkworms to produce silk?",
-                "options": [
-                    "Apiculture",
-                    "Sericulture",
-                    "Pisciculture",
-                    "Horticulture"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Sericulture is silk farming."
-            },
-            {
-                "text": "Mulberry silk comes from silkworms that eat only:",
-                "options": [
-                    "Castor leaves",
-                    "Mulberry leaves",
-                    "Oak leaves",
-                    "Arjun leaves"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Only mulberry leaves are eaten by mulberry silkworms."
-            },
-            {
-                "text": "Which of the following is NOT a characteristic of mulberry silk?",
-                "options": [
-                    "Soft and smooth texture",
-                    "Bright glow and shine",
-                    "Earthy, dull finish",
-                    "Suitable for luxury sarees"
-                ],
+                "text": "Which of the following types of silk is NOT produced in Bihar?",
+                "options": ["Mulberry", "Tasar", "Muga", "Eri"],
                 "correctAnswer": 2,
-                "explanation": "Mulberry silk is known for brightness, not dullness."
+                "explanation": "Muga silk is NOT produced in Bihar."
             },
             {
-                "text": "What percentage of India’s total raw silk production comes from mulberry silk?",
-                "options": [
-                    "82%",
-                    "88%",
-                    "90%",
-                    "92%"
-                ],
+                "text": "What do silkworms primarily eat to produce silk?",
+                "options": ["Oak leaves", "Castor leaves", "Arjun leaves", "Mulberry leaves"],
                 "correctAnswer": 3,
-                "explanation": "Mulberry silk accounts for about 92% of raw silk production."
+                "explanation": "Silkworms primarily eat Mulberry leaves."
             },
             {
-                "text": "Which of the following is NOT a major mulberry silk producing state in India?",
-                "options": [
-                    "Karnataka",
-                    "Tamil Nadu",
-                    "Odisha",
-                    "West Bengal"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Odisha is not a major mulberry producer."
+                "text": "India ranks as which number largest producer and consumer of silk globally?",
+                "options": ["First", "Second", "Third", "Fourth"],
+                "correctAnswer": 1,
+                "explanation": "India is the second largest producer and consumer of silk."
             },
             {
-                "text": "Non-mulberry silk is also called:",
-                "options": [
-                    "Wild silk",
-                    "Vanya silk",
-                    "Tussar silk",
-                    "Both A and B"
-                ],
+                "text": "What is the process of farming silkworms to make silk called?",
+                "options": ["Apiculture", "Sericulture", "Pisciculture", "Horticulture"],
+                "correctAnswer": 1,
+                "explanation": "Silkworm farming is called Sericulture."
+            },
+            {
+                "text": "Mulberry silk comes from silkworms that eat exclusively which type of leaves?",
+                "options": ["Oak", "Castor", "Arjun", "Mulberry"],
                 "correctAnswer": 3,
-                "explanation": "Non-mulberry silk is called both wild silk and vanya silk."
+                "explanation": "Mulberry silk silkworms eat only Mulberry leaves."
             },
             {
-                "text": "Non-mulberry silk comes from wild silkworms feeding on:",
+                "text": "What percentage of India's total raw silk production comes from mulberry silk?",
+                "options": ["52%", "72%", "92%", "100%"],
+                "correctAnswer": 2,
+                "explanation": "92% of India's raw silk is mulberry silk."
+            },
+            {
+                "text": "Which of the following is NOT a major producing state for mulberry silk mentioned in the source?",
+                "options": ["Karnataka", "Andhra Pradesh", "Bihar", "West Bengal"],
+                "correctAnswer": 2,
+                "explanation": "Bihar is NOT a major mulberry silk producer."
+            },
+            {
+                "text": "Non-mulberry silk, also known as Vanya silk, comes from wild silkworms feeding on which types of leaves?",
+                "options": ["Only Mulberry leaves", "Oak, castor, arjun leaves", "Only fig leaves", "Only bamboo leaves"],
+                "correctAnswer": 1,
+                "explanation": "Vanya silk comes from silkworms fed on oak, castor, arjun leaves."
+            },
+            {
+                "text": "Which of these characteristics describes non-mulberry silk?",
                 "options": [
-                    "Mulberry leaves only",
-                    "Oak, castor, arjun leaves",
-                    "Bamboo and lotus leaves",
-                    "Paddy and maize leaves"
+                    "Soft, smooth, shiny with a bright glow",
+                    "Natural, earthy texture; less shine; strong, durable",
+                    "Primarily used for luxury sarees",
+                    "Accounts for 92% of raw silk production"
                 ],
                 "correctAnswer": 1,
-                "explanation": "Wild silkworms feed on trees like oak, castor, and arjun."
-            },
-            {
-                "text": "Which of the following is NOT a characteristic of non-mulberry silk?",
-                "options": [
-                    "Earthy texture",
-                    "Less shine",
-                    "Strong and durable",
-                    "Very high gloss and bright glow"
-                ],
-                "correctAnswer": 3,
-                "explanation": "Non-mulberry silk has less shine, not very high gloss."
-            },
-            {
-                "text": "Which of the following is NOT a major producer of non-mulberry silk?",
-                "options": [
-                    "Jharkhand",
-                    "Chhattisgarh",
-                    "Karnataka",
-                    "Odisha"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Karnataka is not a major non-mulberry silk producer."
+                "explanation": "Non-mulberry silk has a natural texture; less shine; strong and durable."
             },
             {
                 "text": "Which country is the largest silk producer in the world?",
-                "options": [
-                    "India",
-                    "Thailand",
-                    "China",
-                    "Japan"
-                ],
-                "correctAnswer": 2,
-                "explanation": "China is the largest silk producer."
-            },
-            {
-                "text": "India ranks ______ in the world in silk production and consumption.",
-                "options": [
-                    "1st in production, 2nd in consumption",
-                    "2nd in both production and consumption",
-                    "1st in consumption, 2nd in production",
-                    "3rd in production, 2nd in consumption"
-                ],
+                "options": ["India", "China", "Japan", "Brazil"],
                 "correctAnswer": 1,
-                "explanation": "India is 2nd in both silk production and consumption."
+                "explanation": "China is the largest silk producer in the world."
             },
             {
-                "text": "How many operational ethanol units are there in Bihar?",
-                "options": [
-                    "10",
-                    "11",
-                    "12",
-                    "13"
-                ],
+                "text": "In which sector has Bihar received the maximum investment?",
+                "options": ["Textile sector", "Leather sector", "Food processing sector", "Tourism sector"],
+                "correctAnswer": 2,
+                "explanation": "Food processing sector has received maximum investment in Bihar."
+            },
+            {
+                "text": "How many clusters has BIADA created in Bihar?",
+                "options": ["5", "7", "9", "12"],
+                "correctAnswer": 2,
+                "explanation": "BIADA has created 9 clusters in Bihar."
+            },
+            {
+                "text": "How many operational Ethanol units are there in Bihar?",
+                "options": ["8", "10", "12", "15"],
                 "correctAnswer": 2,
                 "explanation": "There are 12 operational ethanol units in Bihar."
             },
             {
-                "text": "BIADA is a statutory body under which act?",
-                "options": [
-                    "BIADA Act, 1972",
-                    "BIADA Act, 1974",
-                    "Bihar Industries Act, 1976",
-                    "Bihar Development Act, 1978"
-                ],
+                "text": "BIADA (Bihar Industrial Area Development Authority) is a statutory body under which Act?",
+                "options": ["BIADA 1970", "BIADA 1974", "BIADA 1980", "BIADA 1984"],
                 "correctAnswer": 1,
-                "explanation": "BIADA was established under the 1974 Act."
+                "explanation": "BIADA is under the BIADA 1974 Act."
             },
             {
-                "text": "In which year did BIADA get statutory status?",
-                "options": [
-                    "2004",
-                    "2005",
-                    "2006",
-                    "2007"
-                ],
+                "text": "In which year did BIADA receive its statutory status?",
+                "options": ["1974", "1998", "2006", "2016"],
                 "correctAnswer": 2,
-                "explanation": "BIADA attained statutory status in 2006."
+                "explanation": "BIADA received statutory status in 2006."
             },
             {
-                "text": "How many industrial clusters has BIADA created in Bihar?",
-                "options": [
-                    "8",
-                    "9",
-                    "10",
-                    "11"
-                ],
+                "text": "Which of the following is NOT listed as a cluster created by BIADA?",
+                "options": ["Begusarai", "Hajipur", "Motihari", "Patna"],
+                "correctAnswer": 2,
+                "explanation": "Motihari is NOT listed as a BIADA cluster."
+            },
+            {
+                "text": "What is the theme for startups in Bihar?",
+                "options": ["INNOVATE", "GROW", "YUVA", "VISION"],
+                "correctAnswer": 2,
+                "explanation": "The theme for startups in Bihar is YUVA."
+            },
+            {
+                "text": "How many Startup Cells are established across 38 districts in Bihar?",
+                "options": ["38", "46", "50", "64"],
                 "correctAnswer": 1,
-                "explanation": "BIADA has created 9 industrial clusters."
+                "explanation": "There are 46 Startup Cells in Bihar."
             },
             {
-                "text": "Which of the following is NOT a BIADA cluster?",
+                "text": "A PG DM course related to startups has been started in which institute?",
                 "options": [
-                    "Begusarai",
-                    "Muzaffarpur",
-                    "Gaya",
-                    "Katihar"
-                ],
-                "correctAnswer": 3,
-                "explanation": "Katihar is not a BIADA cluster location."
-            },
-            {
-                "text": "The Bihar Startup initiative is based on which theme?",
-                "options": [
-                    "NAYA",
-                    "UDYOG",
-                    "YUVA",
-                    "NIRMAN"
-                ],
-                "correctAnswer": 2,
-                "explanation": "The initiative is themed as 'YUVA'."
-            },
-            {
-                "text": "How many Startup Cells are there in Bihar?",
-                "options": [
-                    "38",
-                    "40",
-                    "44",
-                    "46"
-                ],
-                "correctAnswer": 3,
-                "explanation": "There are 46 Startup Cells across Bihar."
-            },
-            {
-                "text": "In how many districts are Startup Cells present in Bihar?",
-                "options": [
-                    "36",
-                    "37",
-                    "38",
-                    "39"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Startup Cells exist in 38 districts."
-            },
-            {
-                "text": "Which institute started a PG DM course related to startups in Bihar?",
-                "options": [
-                    "IIM Bodh Gaya",
+                    "Bihar Institute of Public Administration",
+                    "Lalit Narayan Mithila University",
                     "Chandragupta Institute of Management",
-                    "Nalanda University",
-                    "Patna University"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Chandragupta Institute offers this course."
-            },
-            {
-                "text": "In the YUVA acronym, what does 'Y' stand for?",
-                "options": [
-                    "Youth innovation",
-                    "Yes to startup",
-                    "Young entrepreneurs",
-                    "Your startup vision"
-                ],
-                "correctAnswer": 1,
-                "explanation": "'Y' means 'Yes to startup'."
-            },
-            {
-                "text": "In the YUVA acronym, what does 'U' stand for?",
-                "options": [
-                    "Unite industries",
-                    "Use innovation",
-                    "Unleash regulatory enablers",
-                    "Upgrade economy"
+                    "Magadh University"
                 ],
                 "correctAnswer": 2,
-                "explanation": "'U' is for 'Unleash regulatory enablers'."
+                "explanation": "PG DM for startups is offered by Chandragupta Institute of Management."
             },
             {
-                "text": "In the YUVA acronym, what does 'V' stand for?",
-                "options": [
-                    "Vibrancy in education system",
-                    "Value creation in startups",
-                    "Vision for entrepreneurship",
-                    "Venture capital access"
-                ],
-                "correctAnswer": 0,
-                "explanation": "'V' means 'Vibrancy in education system to unleash startups.'"
-            },
-            {
-                "text": "In the YUVA acronym, what does 'A' stand for?",
-                "options": [
-                    "Accelerate funding",
-                    "Access to incubation and funds",
-                    "Achieve entrepreneurship goals",
-                    "Apply startup ideas"
-                ],
+                "text": "In the YUVA acronym for startups, what does 'Y' stand for?",
+                "options": ["Youth", "Yes to startup", "Yield", "Yearn"],
                 "correctAnswer": 1,
-                "explanation": "'A' represents 'Access to incubation and funds'."
+                "explanation": "'Y' in YUVA stands for Yes to startup."
             },
             {
-                "text": "Sankalp Yojna is funded by:",
+                "text": "The Sankalp Yojna is a centrally sponsored scheme funded by which international organization?",
                 "options": [
-                    "Asian Development Bank",
+                    "International Monetary Fund (IMF)",
+                    "Asian Development Bank (ADB)",
                     "World Bank",
-                    "IMF",
-                    "NITI Aayog"
+                    "United Nations Development Programme (UNDP)"
                 ],
-                "correctAnswer": 1,
-                "explanation": "World Bank funds Sankalp Yojna."
+                "correctAnswer": 2,
+                "explanation": "Sankalp Yojna is funded by World Bank."
             },
             {
-                "text": "Sankalp Yojna is a:",
+                "text": "The Sankalp Yojna provides skills such as:",
                 "options": [
-                    "State government scheme",
-                    "Centrally sponsored scheme",
-                    "Public-private partnership",
-                    "NGO-led initiative"
+                    "Software Development, Data Science",
+                    "Tyre Fitting, Street Vending",
+                    "Medical Assistance, Nursing",
+                    "Engineering, Architecture"
                 ],
                 "correctAnswer": 1,
-                "explanation": "It is a centrally sponsored scheme."
+                "explanation": "Tyre Fitting and Street Vending are skills under Sankalp Yojna."
             },
             {
-                "text": "Which skills are provided under Sankalp Yojna?",
-                "options": [
-                    "Computer programming and AI",
-                    "Tyre fitting and street vending",
-                    "Medical nursing and teaching",
-                    "Farming and irrigation techniques"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Vocational skills like tyre fitting and street vending are taught."
+                "text": "Where will the Mega Skills Centre open in Bihar?",
+                "options": ["Gaya", "Muzaffarpur", "Patna", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Mega Skills Centre will open in Patna, Bihar."
             },
             {
-                "text": "In which city will the Mega Skills Centre under Sankalp Yojna be opened?",
+                "text": "Which three districts accounted for 29% of passports issued in Bihar in 2023-24?",
                 "options": [
-                    "Siwan",
-                    "Patna",
-                    "Gopalganj",
-                    "Banka"
-                ],
-                "correctAnswer": 1,
-                "explanation": "Patna is the location for the Mega Skills Centre."
-            },
-            {
-                "text": "Which three districts accounted for 29% of passports issued in Bihar in 2023–24?",
-                "options": [
+                    "Patna, Gaya, Muzaffarpur",
                     "Siwan, Gopalganj, Patna",
-                    "Patna, Muzaffarpur, Gaya",
-                    "Siwan, Begusarai, Bhagalpur",
-                    "Patna, Darbhanga, Purnea"
+                    "Araria, Kishanganj, Purnea",
+                    "Banka, Jehanabad, Lakhisarai"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Siwan, Gopalganj, and Patna accounted for 29%."
+                "correctAnswer": 1,
+                "explanation": "Siwan, Gopalganj, Patna accounted for 29% of passports."
             },
             {
                 "text": "Which district registered the highest growth in passport applications in Bihar?",
-                "options": [
-                    "Patna",
-                    "Siwan",
-                    "Banka",
-                    "Gopalganj"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Banka recorded the highest growth."
+                "options": ["Patna", "Siwan", "Gopalganj", "Banka"],
+                "correctAnswer": 3,
+                "explanation": "Banka had the highest growth in passport applications."
             },
             {
-                "text": "As per PLFS 2023–24, what is the LFPR of Bihar?",
-                "options": [
-                    "45",
-                    "50",
-                    "55",
-                    "60"
-                ],
+                "text": "As per PLFS, what was the Labour Force Participation Rate (LFPR) of Bihar in 2023-24?",
+                "options": ["45%", "50%", "55%", "60%"],
                 "correctAnswer": 2,
-                "explanation": "Labour Force Participation Rate is 55%."
+                "explanation": "LFPR in Bihar was 55% in 2023-24 as per PLFS."
             },
             {
-                "text": "LFPR refers to:",
+                "text": "What does LFPR stand for?",
                 "options": [
-                    "Percentage of employed persons in urban areas only",
-                    "Percentage of persons in labour force (working or seeking work) in the population",
-                    "Ratio of labour to total employment",
-                    "Number of industries per 1,000 workers"
+                    "Local Financial Progress Rate",
+                    "Labour Force Productivity Ratio",
+                    "Labour Force Participation Rate",
+                    "Livelihood and Financial Planning Report"
+                ],
+                "correctAnswer": 2,
+                "explanation": "LFPR stands for Labour Force Participation Rate."
+            },
+            {
+                "text": "Bihar ranks 3rd in growth for which sector from 2011-12 to 2023-24?",
+                "options": ["Agriculture", "Manufacturing", "Transport communication & storage", "Financial services"],
+                "correctAnswer": 2,
+                "explanation": "Bihar ranks 3rd in Transport Communication & Storage growth."
+            },
+            {
+                "text": "What was Bihar's growth rate in the transport communication & storage sector from 2011-12 to 2023-24?",
+                "options": ["6.5%", "7.6%", "8.2%", "9.0%"],
+                "correctAnswer": 1,
+                "explanation": "Growth rate was 7.6% in that sector."
+            },
+            {
+                "text": "Which two states are ahead of Bihar in growth for the transport communication & storage sector?",
+                "options": [
+                    "Maharashtra and Gujarat",
+                    "Uttar Pradesh and Karnataka",
+                    "Tamil Nadu and Kerala",
+                    "Rajasthan and Madhya Pradesh"
                 ],
                 "correctAnswer": 1,
-                "explanation": "LFPR measures people working or seeking work in the population."
+                "explanation": "Uttar Pradesh and Karnataka are ahead of Bihar."
             },
             {
-                "text": "Bihar ranks ____ in growth for the transport, communication & storage sector (2011–12 to 2023–24).",
-                "options": [
-                    "1st",
-                    "2nd",
-                    "3rd",
-                    "4th"
-                ],
-                "correctAnswer": 2,
-                "explanation": "Bihar is ranked 3rd in growth for this sector."
+                "text": "What is Bihar's national rank in total road networks (data till 2019)?",
+                "options": ["5th", "8th", "10th", "12th"],
+                "correctAnswer": 1,
+                "explanation": "Bihar ranks 8th in total road networks."
             },
             {
-                "text": "What is Bihar’s growth rate in the transport, communication & storage sector from 2011–12 to 2023–24?",
+                "text": "What is the approximate total length of roads in Bihar as of 2019?",
+                "options": ["~2 lakh km", "~3 lakh km", "~4 lakh km", "~5 lakh km"],
+                "correctAnswer": 1,
+                "explanation": "Bihar's total road length is about 3 lakh km."
+            },
+            {
+                "text": "The Bihar State Highway Project aims to widen highways with assistance from which organisation?",
                 "options": [
-                    "6.5%",
-                    "7.0%",
-                    "7.6%",
-                    "8.2%"
+                    "World Bank",
+                    "International Monetary Fund (IMF)",
+                    "Asian Development Bank (ADB)",
+                    "Japan International Cooperation Agency (JICA)"
                 ],
                 "correctAnswer": 2,
-                "explanation": "Growth rate is approximately 7.6%."
+                "explanation": "Asian Development Bank (ADB) assists this project."
+            },
+            {
+                "text": "What is the objective of the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": [
+                    "To provide financial support for urban transportation",
+                    "To subsidize buses for rural transportation",
+                    "To promote electric vehicles",
+                    "To build new railway lines"
+                ],
+                "correctAnswer": 1,
+                "explanation": "The Yojna subsidizes buses for rural transportation."
+            },
+            {
+                "text": "What is the subsidy amount provided for each bus under Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["₹ 2 lakh", "₹ 3 lakh", "₹ 5 lakh", "₹ 7 lakh"],
+                "correctAnswer": 2,
+                "explanation": "Each bus gets ₹ 5 lakh subsidy."
+            },
+            {
+                "text": "What is the maximum number of buses for which subsidy is provided in each block (excluding Headquarter Block) under the scheme?",
+                "options": ["5", "7", "10", "12"],
+                "correctAnswer": 1,
+                "explanation": "Maximum 7 buses per block get subsidy."
+            },
+            {
+                "text": "How many buses are reserved for the ST/SC category under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "2 buses are reserved for ST/SC category."
+            },
+            {
+                "text": "Where is Bapu Tower located in Bihar?",
+                "options": ["Rajgir", "Gaya", "Patna", "Vaishali"],
+                "correctAnswer": 2,
+                "explanation": "Bapu Tower is located in Patna."
+            },
+            {
+                "text": "What is the capacity of the Rajgir Khel Academy?",
+                "options": ["10,000", "20,000", "30,000", "40,000"],
+                "correctAnswer": 3,
+                "explanation": "Rajgir Khel Academy capacity is 40,000."
+            },
+            {
+                "text": "Where is the Abdul Kalam Science City located?",
+                "options": ["Rajgir", "Gaya", "Rajendra Nagar, Patna", "Vaishali"],
+                "correctAnswer": 2,
+                "explanation": "It is in Rajendra Nagar, Patna."
+            },
+            {
+                "text": "Where is the Buddha Samyak Darshan Museum located?",
+                "options": ["Patna", "Rajgir", "Vaishali", "Gaya"],
+                "correctAnswer": 2,
+                "explanation": "Museum is located in Vaishali."
+            },
+            {
+                "text": "Where is the Bihar Animal Science University located?",
+                "options": ["Muzaffarpur", "Patna", "Darbhanga", "Bhagalpur"],
+                "correctAnswer": 1,
+                "explanation": "Bihar Animal Science University is located in Patna."
+            },
+            {
+                "text": "What was the peak power reached in Bihar in 2024?",
+                "options": ["6500 MW", "7000 MW", "8005 MW", "9000 MW"],
+                "correctAnswer": 2,
+                "explanation": "Peak power in Bihar reached 8005 MW."
+            },
+            {
+                "text": "What is the consumer base for power in Bihar as of now?",
+                "options": ["1.5 crore", "2.0 crore", "2.12 crore", "2.5 crore"],
+                "correctAnswer": 2,
+                "explanation": "Consumer base for power is 2.12 crore."
+            },
+            {
+                "text": "Bihar was the first state to implement which technology in its power sector?",
+                "options": ["Microgrids", "Smart meters", "Solar farms", "Wind turbines"],
+                "correctAnswer": 1,
+                "explanation": "Smart meters were first implemented in Bihar."
+            },
+            {
+                "text": "Since which year has Bihar achieved 100% household electrification?",
+                "options": ["2016", "2017", "2018", "2019"],
+                "correctAnswer": 2,
+                "explanation": "100% household electrification was achieved in 2018."
+            },
+            {
+                "text": "What is the expected percentage of power demand from the Domestic sector in Bihar in 2025-26?",
+                "options": ["13%", "25%", "41%", "50%"],
+                "correctAnswer": 2,
+                "explanation": "Domestic sector expected demand is 41%."
+            },
+            {
+                "text": "What is the expected percentage of power demand from the Agriculture sector in Bihar in 2025-26?",
+                "options": ["13%", "25%", "41%", "50%"],
+                "correctAnswer": 0,
+                "explanation": "Agriculture sector expected demand is 13%."
+            },
+            {
+                "text": "What was the per capita consumption of energy in Bihar in 2023-24?",
+                "options": ["250 kWh", "300 kWh", "363 kWh", "400 kWh"],
+                "correctAnswer": 2,
+                "explanation": "Per capita energy consumption was 363 kWh."
+            },
+            {
+                "text": "What percentage of energy in Bihar comes from Thermal sources?",
+                "options": ["33.4%", "50.0%", "66.6%", "75.0%"],
+                "correctAnswer": 2,
+                "explanation": "66.6% of energy is from Thermal sources."
+            },
+            {
+                "text": "What percentage of energy in Bihar comes from Renewable Energy sources?",
+                "options": ["33.4%", "50.0%", "66.6%", "75.0%"],
+                "correctAnswer": 0,
+                "explanation": "33.4% of energy is from Renewable sources."
+            },
+            {
+                "text": "Which of the following is NOT listed as a major Thermal Power Plant in Bihar?",
+                "options": ["Barauni", "Kanti", "Nabinagar", "Kahalgaon"],
+                "correctAnswer": 3,
+                "explanation": "Kahalgaon is NOT listed as a major Thermal Power Plant in Bihar."
+            },
+            {
+                "text": "The floating power plant project 'Neeche Machli Upar Bijli' is located in which two districts?",
+                "options": ["Gaya & Nawada", "Supaul & Darbhanga", "Lakhisarai & Nawada", "Rajgir & Patna"],
+                "correctAnswer": 1,
+                "explanation": "'Neeche Machli Upar Bijli' is in Supaul & Darbhanga."
+            },
+            {
+                "text": "Which floating solar plant project is planned at Phulwaria Dam?",
+                "options": ["Rajpokhar", "Kajra", "Phulwaria", "Supaul"],
+                "correctAnswer": 2,
+                "explanation": "Floating solar plant planned at Phulwaria Dam."
+            },
+            {
+                "text": "What is the name of the app used in Bihar to lodge power-related complaints online?",
+                "options": ["Bijli App", "Suvidha App", "Urja App", "Roshan App"],
+                "correctAnswer": 1,
+                "explanation": "Power-related complaints can be lodged via Suvidha App."
+            },
+            {
+                "text": "How many small and mini hydel projects are operational in Bihar?",
+                "options": ["10", "11", "12", "13"],
+                "correctAnswer": 3,
+                "explanation": "13 small and mini hydel projects are operational."
+            },
+            {
+                "text": "In which year was BRLPS (Bihar Rural Livelihood Promotion Society) established?",
+                "options": ["2004", "2006", "2008", "2010"],
+                "correctAnswer": 1,
+                "explanation": "BRLPS was established in 2006."
+            },
+            {
+                "text": "What is BRLPS locally known as?",
+                "options": ["Saheli", "Roshni", "Jeevika", "Shakti"],
+                "correctAnswer": 2,
+                "explanation": "BRLPS is commonly called Jeevika."
+            },
+            {
+                "text": "The Jeevika Mission is funded by which organization?",
+                "options": ["UNICEF", "World Bank", "Asian Development Bank", "UNESCO"],
+                "correctAnswer": 1,
+                "explanation": "World Bank funds the Jeevika Mission."
+            },
+            {
+                "text": "Under which department does BRLPS primarily work?",
+                "options": ["Social Welfare Department", "Rural Development Department", "Urban Development Department", "Finance Department"],
+                "correctAnswer": 1,
+                "explanation": "BRLPS works under Rural Development Department."
+            },
+            {
+                "text": "'Didi Ki Rasoi' is an initiative of which mission for canteens?",
+                "options": [
+                    "POSHAN Tracker",
+                    "Jeevika Mission",
+                    "Jal Jeevan Hariyali Abhiyaan",
+                    "Bihar Biofuel Promotion Policy"
+                ],
+                "correctAnswer": 1,
+                "explanation": "'Didi Ki Rasoi' is a Jeevika Mission canteen initiative."
+            },
+            {
+                "text": "'NEERA' is a drink made from palm sap, jaggery, etc., under which mission?",
+                "options": [
+                    "Paramparagat Krishi Vikas Yojana",
+                    "Jaivik Kheti Protsahan Yojana",
+                    "Jeevika Mission",
+                    "Mukhyamantri Prakhand Parivahan Yojna"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'NEERA' is produced under the Jeevika Mission."
+            },
+            {
+                "text": "Where is the bag manufacturing cluster located in Bihar?",
+                "options": ["Patna", "Muzaffarpur (Bela)", "Bhagalpur", "Gaya"],
+                "correctAnswer": 1,
+                "explanation": "Bag manufacturing cluster is located at Muzaffarpur (Bela)."
+            },
+            {
+                "text": "Gram Kachahari in Bihar was established under the Bihar Panchayat Raj Act, which was amended in which year?",
+                "options": ["1992", "1993", "2006", "2010"],
+                "correctAnswer": 2,
+                "explanation": "Gram Kachahari was established under the 2006 amendment."
+            },
+            {
+                "text": "Gram Kachahari establishment followed which Constitutional Amendment?",
+                "options": ["71st", "72nd", "73rd", "74th"],
+                "correctAnswer": 2,
+                "explanation": "Gram Kachahari establishment followed the 73rd Amendment."
+            },
+            {
+                "text": "Which of the following is NOT part of the three-tier Panchayati Raj structure in Bihar?",
+                "options": ["Village – Gram Panchayat", "Block – Panchayat Samiti", "District – Zila Parishad", "State – State Assembly"],
+                "correctAnswer": 3,
+                "explanation": "State Assembly is NOT a tier of Panchayati Raj in Bihar."
             }
         ],
         "Bihar ES (Part-3)": [{
-                "text": "Which two states are ahead of Bihar in the transport, communication & storage sector growth rate?",
-                "options": ["Maharashtra and Gujarat", "Uttar Pradesh and Karnataka", "Tamil Nadu and Rajasthan", "Punjab and Haryana"],
-                "correctAnswer": 1,
-                "explanation": "Uttar Pradesh and Karnataka lead in these sectors ahead of Bihar."
-            },
-            {
-                "text": "Bihar ranks ____ nationally in total road networks (as of 2019 data).",
-                "options": ["5th", "6th", "7th", "8th"],
-                "correctAnswer": 3,
-                "explanation": "Bihar stood 8th in total road networks nationally in 2019."
-            },
-            {
-                "text": "Approximately how many kilometres of roads does Bihar have?",
-                "options": ["2 lakh km", "2.5 lakh km", "3 lakh km", "3.5 lakh km"],
-                "correctAnswer": 2,
-                "explanation": "Bihar has roughly 3 lakh km of roads."
-            },
-            {
-                "text": "The Bihar State Highway Project aims to widen highways with assistance from which organisation?",
-                "options": ["World Bank", "NITI Aayog", "Asian Development Bank (ADB)", "Japan International Cooperation Agency (JICA)"],
-                "correctAnswer": 2,
-                "explanation": "Asian Development Bank is assisting in the highway widening."
-            },
-            {
-                "text": "What is the main objective of the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "text": "What is the primary purpose of Gram Kachahari?",
                 "options": [
-                    "Improve air travel facilities",
-                    "Provide financial support for rural transportation by subsidizing buses",
-                    "Promote electric vehicle manufacturing",
-                    "Expand metro rail services in Patna"
+                    "To provide agricultural loans",
+                    "To resolve local disputes via village court secretaries & Nyaya Mitras",
+                    "To manage rural development projects",
+                    "To conduct local elections"
                 ],
                 "correctAnswer": 1,
-                "explanation": "The scheme subsidizes buses to support rural transport."
+                "explanation": "Gram Kachahari's primary purpose is to resolve local disputes via village court secretaries and Nyaya Mitras."
             },
             {
-                "text": "What is the subsidy amount provided for each bus under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
-                "options": ["₹3 lakh", "₹4 lakh", "₹5 lakh", "₹6 lakh"],
-                "correctAnswer": 2,
-                "explanation": "Subsidy of ₹5 lakh per bus is given."
-            },
-            {
-                "text": "What is the maximum number of buses subsidized in each block under the scheme?",
-                "options": ["5 buses", "6 buses", "7 buses", "8 buses"],
-                "correctAnswer": 2,
-                "explanation": "Maximum 7 buses subsidized per block."
-            },
-            {
-                "text": "Which block is excluded from the maximum bus subsidy allocation under this scheme?",
-                "options": ["Rural blocks", "Headquarter Block", "Urban blocks", "Border blocks"],
-                "correctAnswer": 1,
-                "explanation": "Headquarter blocks are excluded."
-            },
-            {
-                "text": "Under the scheme, how many buses are reserved for the General category in each block?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 0,
-                "explanation": "One bus per block is reserved for General category."
-            },
-            {
-                "text": "How many buses are reserved for the ST/SC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 1,
-                "explanation": "Two buses are reserved for ST/SC."
-            },
-            {
-                "text": "How many buses are reserved for the EBC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 1,
-                "explanation": "Two buses reserved for EBC category."
-            },
-            {
-                "text": "How many buses are reserved for the Minority category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 0,
-                "explanation": "One bus is reserved for Minority category."
-            },
-            {
-                "text": "How many buses are reserved for the BC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 0,
-                "explanation": "One bus is reserved for BC category."
-            },
-            {
-                "text": "Where is Bapu Tower located?",
-                "options": ["Rajgir", "Patna", "Gaya", "Vaishali"],
-                "correctAnswer": 1,
-                "explanation": "Bapu Tower is located in Patna."
-            },
-            {
-                "text": "What is the seating capacity of Rajgir Khel Academy?",
-                "options": ["30,000", "35,000", "40,000", "45,000"],
-                "correctAnswer": 2,
-                "explanation": "Rajgir Khel Academy seats 40,000 spectators."
-            },
-            {
-                "text": "Where is the Abdul Kalam Science City located?",
-                "options": ["Rajgir", "Vaishali", "Rajendra Nagar, Patna", "Muzaffarpur"],
-                "correctAnswer": 2,
-                "explanation": "Located in Rajendra Nagar, Patna."
-            },
-            {
-                "text": "In which district is the Buddha Samyak Darshan Museum located?",
-                "options": ["Gaya", "Patna", "Vaishali", "Nalanda"],
-                "correctAnswer": 2,
-                "explanation": "Located in Vaishali district."
-            },
-            {
-                "text": "Where is Bihar Animal Science University located?",
-                "options": ["Rajgir", "Gaya", "Patna", "Bhagalpur"],
-                "correctAnswer": 2,
-                "explanation": "Located in Patna."
-            },
-            {
-                "text": "What was Bihar’s peak power in 2024?",
-                "options": ["7,505 MW", "7,805 MW", "8,005 MW", "8,205 MW"],
-                "correctAnswer": 2,
-                "explanation": "Peak power generation was 8,005 MW."
-            },
-            {
-                "text": "What is the current consumer base of Bihar’s power sector?",
-                "options": ["1.82 crore", "1.95 crore", "2.12 crore", "2.25 crore"],
-                "correctAnswer": 2,
-                "explanation": "Power sector serves around 2.12 crore consumers."
-            },
-            {
-                "text": "Which state is the first to have smart meters?",
-                "options": ["Gujarat", "Maharashtra", "Bihar", "Karnataka"],
-                "correctAnswer": 2,
-                "explanation": "Bihar is first state to adopt smart meters."
-            },
-            {
-                "text": "Since which year has Bihar achieved 100% household electrification?",
-                "options": ["2016", "2017", "2018", "2019"],
-                "correctAnswer": 2,
-                "explanation": "Achieved 100% electrification since 2018."
-            },
-            {
-                "text": "In 2025–26, what share of power demand is expected from the domestic sector in Bihar?",
-                "options": ["39%", "41%", "43%", "45%"],
-                "correctAnswer": 1,
-                "explanation": "Domestic sector expected to consume 41% power."
-            },
-            {
-                "text": "In 2025–26, what share of power demand is expected from agriculture in Bihar?",
-                "options": ["10%", "11%", "13%", "15%"],
-                "correctAnswer": 2,
-                "explanation": "Agriculture’s demand expected at 13%."
-            },
-            {
-                "text": "The remaining power demand in 2025–26 will come from?",
-                "options": ["Transport only", "Industries & other sectors", "Public lighting only", "Services only"],
-                "correctAnswer": 1,
-                "explanation": "Remaining demand estimated from industries and other sectors."
-            },
-            {
-                "text": "What was Bihar’s per capita energy consumption in 2023–24?",
-                "options": ["333 kWh", "353 kWh", "363 kWh", "373 kWh"],
-                "correctAnswer": 2,
-                "explanation": "Per capita energy consumption was approx. 363 kWh."
-            },
-            {
-                "text": "What is the share of thermal power in Bihar’s energy mix?",
-                "options": ["60.6%", "62.6%", "66.6%", "70.6%"],
-                "correctAnswer": 2,
-                "explanation": "Thermal power forms about 66.6% of the mix."
-            },
-            {
-                "text": "What is the share of renewable energy in Bihar’s energy mix?",
-                "options": ["30.4%", "31.4%", "33.4%", "35.4%"],
-                "correctAnswer": 2,
-                "explanation": "Renewable energy contribution is 33.4%."
-            },
-            {
-                "text": "Which two states are ahead of Bihar in the transport, communication & storage sector growth rate?",
-                "options": ["Maharashtra and Gujarat", "Uttar Pradesh and Karnataka", "Tamil Nadu and Rajasthan", "Punjab and Haryana"],
-                "correctAnswer": 1,
-                "explanation": "Uttar Pradesh and Karnataka lead in these sectors ahead of Bihar."
-            },
-            {
-                "text": "Bihar ranks ____ nationally in total road networks (as of 2019 data).",
-                "options": ["5th", "6th", "7th", "8th"],
-                "correctAnswer": 3,
-                "explanation": "Bihar stood 8th in total road networks nationally in 2019."
-            },
-            {
-                "text": "Approximately how many kilometres of roads does Bihar have?",
-                "options": ["2 lakh km", "2.5 lakh km", "3 lakh km", "3.5 lakh km"],
-                "correctAnswer": 2,
-                "explanation": "Bihar has roughly 3 lakh km of roads."
-            },
-            {
-                "text": "The Bihar State Highway Project aims to widen highways with assistance from which organisation?",
-                "options": ["World Bank", "NITI Aayog", "Asian Development Bank (ADB)", "Japan International Cooperation Agency (JICA)"],
-                "correctAnswer": 2,
-                "explanation": "Asian Development Bank is assisting in the highway widening."
-            },
-            {
-                "text": "What is the main objective of the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "text": "What types of jurisdiction do Gram Kachahari possess?",
                 "options": [
-                    "Improve air travel facilities",
-                    "Provide financial support for rural transportation by subsidizing buses",
-                    "Promote electric vehicle manufacturing",
-                    "Expand metro rail services in Patna"
+                    "Only Civil",
+                    "Only Criminal",
+                    "Both Criminal and Civil",
+                    "Only Administrative"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Gram Kachahari possess both criminal and civil jurisdiction."
+            },
+            {
+                "text": "What was the Urbanisation Rate in Bihar as per Census 2011?",
+                "options": ["11.3%", "31.2%", "15.6%", "20.8%"],
+                "correctAnswer": 0,
+                "explanation": "Urbanisation rate in Bihar as per Census 2011 was 11.3%."
+            },
+            {
+                "text": "What was the National Average Urbanisation Rate as per Census 2011?",
+                "options": ["11.3%", "31.2%", "15.6%", "20.8%"],
+                "correctAnswer": 1,
+                "explanation": "National Average Urbanisation Rate as per Census 2011 was 31.2%."
+            },
+            {
+                "text": "What is the target year for the Patna Master Plan?",
+                "options": ["2025", "2031", "2035", "2041"],
+                "correctAnswer": 1,
+                "explanation": "The target year for the Patna Master Plan is 2031."
+            },
+            {
+                "text": "How many Nagar Nigams are there in Bihar?",
+                "options": ["19", "88", "154", "261"],
+                "correctAnswer": 0,
+                "explanation": "There are 19 Nagar Nigams in Bihar."
+            },
+            {
+                "text": "How many Nagar Parishads are there in Bihar?",
+                "options": ["19", "88", "154", "261"],
+                "correctAnswer": 1,
+                "explanation": "There are 88 Nagar Parishads in Bihar."
+            },
+            {
+                "text": "How many Nagar Panchayats are there in Bihar?",
+                "options": ["19", "88", "154", "261"],
+                "correctAnswer": 2,
+                "explanation": "There are 154 Nagar Panchayats in Bihar."
+            },
+            {
+                "text": "What is the full form of NAMASTE in the context of urban development?",
+                "options": [
+                    "National Arrangement for Municipal Administration and Sanitation Tasks",
+                    "National Action for Mechanised Sanitation Ecosystem",
+                    "National Authority for Management and Sanitation Technology",
+                    "New Approach for Modernising Amenities and Services for Towns and Ecosystems"
                 ],
                 "correctAnswer": 1,
-                "explanation": "The scheme subsidizes buses to support rural transport."
+                "explanation": "NAMASTE stands for National Action for Mechanised Sanitation Ecosystem."
             },
             {
-                "text": "What is the subsidy amount provided for each bus under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
-                "options": ["₹3 lakh", "₹4 lakh", "₹5 lakh", "₹6 lakh"],
-                "correctAnswer": 2,
-                "explanation": "Subsidy of ₹5 lakh per bus is given."
-            },
-            {
-                "text": "What is the maximum number of buses subsidized in each block under the scheme?",
-                "options": ["5 buses", "6 buses", "7 buses", "8 buses"],
-                "correctAnswer": 2,
-                "explanation": "Maximum 7 buses subsidized per block."
-            },
-            {
-                "text": "Which block is excluded from the maximum bus subsidy allocation under this scheme?",
-                "options": ["Rural blocks", "Headquarter Block", "Urban blocks", "Border blocks"],
+                "text": "In which year was the NAMASTE initiative started?",
+                "options": ["2000", "2003", "2006", "2009"],
                 "correctAnswer": 1,
-                "explanation": "Headquarter blocks are excluded."
+                "explanation": "NAMASTE initiative was started in 2003."
             },
             {
-                "text": "Under the scheme, how many buses are reserved for the General category in each block?",
-                "options": ["1", "2", "3", "4"],
+                "text": "What is the objective of NAMASTE?",
+                "options": [
+                    "To promote smart cities",
+                    "To provide safety and dignity to sewer and septic tank workers",
+                    "To manage solid waste efficiently",
+                    "To ensure urban household electrification"
+                ],
+                "correctAnswer": 1,
+                "explanation": "NAMASTE aims to provide safety and dignity for sewer and septic tank workers."
+            },
+            {
+                "text": "How many Smart Cities are there in Bihar?",
+                "options": ["2", "3", "4", "5"],
+                "correctAnswer": 2,
+                "explanation": "There are 4 Smart Cities in Bihar."
+            },
+            {
+                "text": "Which of the following is NOT listed as a Smart City in Bihar?",
+                "options": ["Patna", "Gaya", "Bhagalpur", "Muzaffarpur"],
+                "correctAnswer": 1,
+                "explanation": "Gaya is NOT listed as a Smart City in Bihar."
+            },
+            {
+                "text": "What is the funding pattern for Smart City Mission in terms of Centre and State share?",
+                "options": [
+                    "Centre 75%, State 25%",
+                    "Centre 60%, State 40%",
+                    "Centre and State share equally",
+                    "Centre 25%, State 75%"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Centre and State share equally fund the Smart City Mission."
+            },
+            {
+                "text": "What amount is spent per city for five years under the Smart City Mission by both Centre and State?",
+                "options": ["₹ 50 crore", "₹ 100 crore", "₹ 150 crore", "₹ 200 crore"],
+                "correctAnswer": 1,
+                "explanation": "₹ 100 crore is spent per city for five years under Smart City Mission."
+            },
+            {
+                "text": "What is the funding pattern for the Patna Metro Project from the Centre?",
+                "options": ["10%", "20%", "30%", "40%"],
+                "correctAnswer": 1,
+                "explanation": "Centre provides 20% funding for the Patna Metro Project."
+            },
+            {
+                "text": "What is the funding pattern for the Patna Metro Project from the State?",
+                "options": ["10%", "20%", "30%", "40%"],
+                "correctAnswer": 1,
+                "explanation": "State provides 20% funding for the Patna Metro Project."
+            },
+            {
+                "text": "The remaining funding for the Patna Metro Project is through loans from which agency?",
+                "options": [
+                    "World Bank",
+                    "Asian Development Bank (ADB)",
+                    "Japan International Cooperation Agency (JICA)",
+                    "International Monetary Fund (IMF)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "The remaining funding for Patna Metro Project comes from JICA."
+            },
+            {
+                "text": "What is the length of Corridor 1 of the Patna Metro?",
+                "options": ["14.57 km", "17.93 km", "20.50 km", "22.10 km"],
+                "correctAnswer": 1,
+                "explanation": "Length of Corridor 1 of Patna Metro is 17.93 km."
+            },
+            {
+                "text": "What is the length of Corridor 2 of the Patna Metro?",
+                "options": ["14.57 km", "17.93 km", "20.50 km", "22.10 km"],
                 "correctAnswer": 0,
-                "explanation": "One bus per block is reserved for General category."
+                "explanation": "Length of Corridor 2 of Patna Metro is 14.57 km."
             },
             {
-                "text": "How many buses are reserved for the ST/SC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 1,
-                "explanation": "Two buses are reserved for ST/SC."
-            },
-            {
-                "text": "How many buses are reserved for the EBC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 1,
-                "explanation": "Two buses reserved for EBC category."
-            },
-            {
-                "text": "How many buses are reserved for the Minority category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 0,
-                "explanation": "One bus is reserved for Minority category."
-            },
-            {
-                "text": "How many buses are reserved for the BC category under the scheme?",
-                "options": ["1", "2", "3", "4"],
-                "correctAnswer": 0,
-                "explanation": "One bus is reserved for BC category."
-            },
-            {
-                "text": "Where is Bapu Tower located?",
-                "options": ["Rajgir", "Patna", "Gaya", "Vaishali"],
-                "correctAnswer": 1,
-                "explanation": "Bapu Tower is located in Patna."
-            },
-            {
-                "text": "What is the seating capacity of Rajgir Khel Academy?",
-                "options": ["30,000", "35,000", "40,000", "45,000"],
-                "correctAnswer": 2,
-                "explanation": "Rajgir Khel Academy seats 40,000 spectators."
-            },
-            {
-                "text": "Where is the Abdul Kalam Science City located?",
-                "options": ["Rajgir", "Vaishali", "Rajendra Nagar, Patna", "Muzaffarpur"],
-                "correctAnswer": 2,
-                "explanation": "Located in Rajendra Nagar, Patna."
-            },
-            {
-                "text": "In which district is the Buddha Samyak Darshan Museum located?",
-                "options": ["Gaya", "Patna", "Vaishali", "Nalanda"],
-                "correctAnswer": 2,
-                "explanation": "Located in Vaishali district."
-            },
-            {
-                "text": "Where is Bihar Animal Science University located?",
-                "options": ["Rajgir", "Gaya", "Patna", "Bhagalpur"],
-                "correctAnswer": 2,
-                "explanation": "Located in Patna."
-            },
-            {
-                "text": "What was Bihar’s peak power in 2024?",
-                "options": ["7,505 MW", "7,805 MW", "8,005 MW", "8,205 MW"],
-                "correctAnswer": 2,
-                "explanation": "Peak power generation was 8,005 MW."
-            },
-            {
-                "text": "What is the current consumer base of Bihar’s power sector?",
-                "options": ["1.82 crore", "1.95 crore", "2.12 crore", "2.25 crore"],
-                "correctAnswer": 2,
-                "explanation": "Power sector serves around 2.12 crore consumers."
-            },
-            {
-                "text": "Which state is the first to have smart meters?",
-                "options": ["Gujarat", "Maharashtra", "Bihar", "Karnataka"],
-                "correctAnswer": 2,
-                "explanation": "Bihar is first state to adopt smart meters."
-            },
-            {
-                "text": "Since which year has Bihar achieved 100% household electrification?",
-                "options": ["2016", "2017", "2018", "2019"],
-                "correctAnswer": 2,
-                "explanation": "Achieved 100% electrification since 2018."
-            },
-            {
-                "text": "In 2025–26, what share of power demand is expected from the domestic sector in Bihar?",
-                "options": ["39%", "41%", "43%", "45%"],
-                "correctAnswer": 1,
-                "explanation": "Domestic sector expected to consume 41% power."
-            },
-            {
-                "text": "In 2025–26, what share of power demand is expected from agriculture in Bihar?",
-                "options": ["10%", "11%", "13%", "15%"],
-                "correctAnswer": 2,
-                "explanation": "Agriculture’s demand expected at 13%."
-            },
-            {
-                "text": "The remaining power demand in 2025–26 will come from?",
-                "options": ["Transport only", "Industries & other sectors", "Public lighting only", "Services only"],
-                "correctAnswer": 1,
-                "explanation": "Remaining demand estimated from industries and other sectors."
-            },
-            {
-                "text": "What was Bihar’s per capita energy consumption in 2023–24?",
-                "options": ["333 kWh", "353 kWh", "363 kWh", "373 kWh"],
-                "correctAnswer": 2,
-                "explanation": "Per capita energy consumption was approx. 363 kWh."
-            },
-            {
-                "text": "What is the share of thermal power in Bihar’s energy mix?",
-                "options": ["60.6%", "62.6%", "66.6%", "70.6%"],
-                "correctAnswer": 2,
-                "explanation": "Thermal power forms about 66.6% of the mix."
-            },
-            {
-                "text": "What is the share of renewable energy in Bihar’s energy mix?",
-                "options": ["30.4%", "31.4%", "33.4%", "35.4%"],
-                "correctAnswer": 2,
-                "explanation": "Renewable energy contribution is 33.4%."
-            },
-            {
-                "text": "What is the maximum reservation percentage for women in government jobs in Bihar?",
-                "options": ["33%", "35%", "40%", "50%"],
-                "correctAnswer": 1,
-                "explanation": "Bihar provides 35% reservation for women in government jobs."
-            },
-            {
-                "text": "What is the reservation percentage for women in Municipal body and PRI elections in Bihar?",
-                "options": ["33%", "35%", "40%", "50%"],
+                "text": "Which of the following cities is NOT proposed for a metro project?",
+                "options": ["Muzaffarpur", "Darbhanga", "Gaya", "Patna"],
                 "correctAnswer": 3,
-                "explanation": "50% reservation is given for women in Municipal and PRI elections."
+                "explanation": "Patna is NOT proposed for a new metro project (It already has one planned)."
             },
             {
-                "text": "Under Civil Sewa Protsahan Yojna, how much is given for clearing BPSC Prelims?",
-                "options": ["₹25,000", "₹50,000", "₹75,000", "₹1,00,000"],
+                "text": "What percentage of bank branches in Bihar are located in Rural areas as of 31 March 2024?",
+                "options": ["21%", "32%", "47%", "55%"],
+                "correctAnswer": 2,
+                "explanation": "47% of bank branches are located in rural areas in Bihar."
+            },
+            {
+                "text": "What percentage of bank branches in Bihar are located in Semi-urban areas as of 31 March 2024?",
+                "options": ["21%", "32%", "47%", "55%"],
                 "correctAnswer": 1,
-                "explanation": "Successful candidates get ₹50,000."
+                "explanation": "32% of bank branches are in semi-urban areas."
             },
             {
-                "text": "Under Civil Sewa Protsahan Yojna, how much is given for clearing UPSC Prelims?",
-                "options": ["₹50,000", "₹75,000", "₹1,00,000", "₹1,50,000"],
-                "correctAnswer": 2,
-                "explanation": "Successful candidates get ₹1,00,000."
+                "text": "What percentage of bank branches in Bihar are located in Urban areas as of 31 March 2024?",
+                "options": ["21%", "32%", "47%", "55%"],
+                "correctAnswer": 0,
+                "explanation": "21% of bank branches are located in urban areas in Bihar."
             },
             {
-                "text": "What is the total percentage of religious minorities in Bihar?",
-                "options": ["15.8%", "16.9%", "17.3%", "18.5%"],
-                "correctAnswer": 2,
-                "explanation": "Religious minorities constitute 17.3% of Bihar's population."
-            },
-            {
-                "text": "What percentage of Bihar's population are Muslims?",
-                "options": ["15.5%", "16.5%", "16.9%", "17.3%"],
-                "correctAnswer": 2,
-                "explanation": "Muslims make up 16.9% of Bihar's population."
-            },
-            {
-                "text": "Which district has the highest percentage of Muslim population in Bihar?",
-                "options": ["Katihar", "Araria", "Kishanganj", "Purnea"],
-                "correctAnswer": 2,
-                "explanation": "Kishanganj has the highest Muslim population percentage."
-            },
-            {
-                "text": "What percentage of Muslim population does Kishanganj have?",
-                "options": ["42.9%", "44.5%", "68%", "38.5%"],
-                "correctAnswer": 2,
-                "explanation": "Muslim population in Kishanganj is approximately 68%."
-            },
-            {
-                "text": "Which district has 44.5% Muslim population in Bihar?",
-                "options": ["Araria", "Katihar", "Purnea", "Sheikhpura"],
+                "text": "PAHAL is an initiative by the State Government aimed at:",
+                "options": [
+                    "Promoting digital literacy",
+                    "Helping students of government schools prepare for competitive examinations",
+                    "Providing healthcare services in rural areas",
+                    "Supporting women entrepreneurs"
+                ],
                 "correctAnswer": 1,
-                "explanation": "Katihar district has 44.5% Muslim population."
+                "explanation": "PAHAL helps students of government schools prepare for competitive exams."
+            },
+            {
+                "text": "What is the loan amount provided to students under the Bihar Student Credit Card Yojna?",
+                "options": ["₹ 2 lakh", "₹ 3 lakh", "₹ 4 lakh", "₹ 5 lakh"],
+                "correctAnswer": 2,
+                "explanation": "₹ 4 lakh loan is provided under the Bihar Student Credit Card Yojna."
+            },
+            {
+                "text": "Where is the Regional Science Centre located in Bihar?",
+                "options": ["Patna", "Darbhanga", "Gaya", "Muzaffarpur"],
+                "correctAnswer": 2,
+                "explanation": "Regional Science Centre is located in Gaya."
+            },
+            {
+                "text": "Where is the Indira Gandhi Planetarium located in Bihar?",
+                "options": ["Gaya", "Darbhanga", "Patna", "Bhagalpur"],
+                "correctAnswer": 2,
+                "explanation": "Indira Gandhi Planetarium is located in Patna."
+            },
+            {
+                "text": "What is the maximum financial support provided for Film Production under the Bihar Film Promotion Policy – 2024?",
+                "options": ["₹ 1 crore", "₹ 1.5 crore", "₹ 3 crore", "₹ 4 crore"],
+                "correctAnswer": 3,
+                "explanation": "₹ 4 crore is maximum financial support for Film Production under Bihar Film Promotion Policy 2024."
+            },
+            {
+                "text": "What is the maximum financial support provided for Web Series (OTT Platform) under the Bihar Film Promotion Policy – 2024?",
+                "options": ["₹ 1 crore", "₹ 1.5 crore", "₹ 3 crore", "₹ 4 crore"],
+                "correctAnswer": 2,
+                "explanation": "₹ 3 crore is the maximum support for Web Series under Bihar Film Promotion Policy 2024."
+            },
+            {
+                "text": "What is the grant provided for establishing Film Studios under the Bihar Film Promotion Policy – 2024?",
+                "options": ["₹ 1 crore", "₹ 1.5 crore", "₹ 3 crore", "₹ 4 crore"],
+                "correctAnswer": 1,
+                "explanation": "₹ 1.5 crore is the grant for Film Studios under the policy."
+            },
+            {
+                "text": "The Tharuhat Area Development Initiative aims for the development of which tribe?",
+                "options": ["Santhal Tribe", "Munda Tribe", "Tharu Tribe", "Oraon Tribe"],
+                "correctAnswer": 2,
+                "explanation": "It aims for the development of the Tharu Tribe."
+            },
+            {
+                "text": "In which district is the Tharuhat Area Development Initiative primarily focused?",
+                "options": ["East Champaran", "West Champaran", "Sitamarhi", "Madhubani"],
+                "correctAnswer": 1,
+                "explanation": "It is focused in West Champaran district."
+            },
+            {
+                "text": "What percentage of reservation is provided for women in all Government jobs in Bihar?",
+                "options": ["25%", "30%", "35%", "50%"],
+                "correctAnswer": 2,
+                "explanation": "35% reservation for women in all government jobs in Bihar."
+            },
+            {
+                "text": "What percentage of reservation is provided for women in Municipal body & PRI elections in Bihar?",
+                "options": ["25%", "30%", "35%", "50%"],
+                "correctAnswer": 3,
+                "explanation": "50% reservation for women in municipal body & PRI elections in Bihar."
+            },
+            {
+                "text": "Under the Civil Sewa Protsahan Yojna, how much financial support is given for clearing BPSC Prelims?",
+                "options": ["₹ 50,000", "₹ 1,00,000", "₹ 1,50,000", "₹ 2,00,000"],
+                "correctAnswer": 0,
+                "explanation": "₹ 50,000 for clearing BPSC Prelims."
+            },
+            {
+                "text": "Under the Civil Sewa Protsahan Yojna, how much financial support is given for clearing UPSC Prelims?",
+                "options": ["₹ 50,000", "₹ 1,00,000", "₹ 1,50,000", "₹ 2,00,000"],
+                "correctAnswer": 1,
+                "explanation": "₹ 1,00,000 for clearing UPSC Prelims."
+            },
+            {
+                "text": "What is the total percentage of the religious minority population in Bihar?",
+                "options": ["16.9%", "17.3%", "18.5%", "20.0%"],
+                "correctAnswer": 1,
+                "explanation": "17.3% of Bihar's population is religious minority."
+            },
+            {
+                "text": "What is the Muslim population percentage in Bihar?",
+                "options": ["16.9%", "17.3%", "18.5%", "20.0%"],
+                "correctAnswer": 0,
+                "explanation": "Muslim population percentage in Bihar is 16.9%."
+            },
+            {
+                "text": "Which district in Bihar has the highest Muslim population percentage (68%)?",
+                "options": ["Katihar", "Araria", "Purnea", "Kishanganj"],
+                "correctAnswer": 3,
+                "explanation": "Kishanganj district has the highest Muslim population percentage of 68%."
             },
             {
                 "text": "What is the purpose of the POSHAN Tracker?",
-                "options": ["Monitor school attendance", "Track services delivered by Anganwadi Centres", "Record agricultural productivity", "Monitor rainfall patterns"],
+                "options": [
+                    "To track agricultural output",
+                    "To track various services delivered by Anganwadi Centres",
+                    "To monitor forest cover",
+                    "To record student attendance in schools"
+                ],
                 "correctAnswer": 1,
-                "explanation": "POSHAN Tracker monitors nutrition-related services from Anganwadi Centres."
+                "explanation": "POSHAN Tracker is to track Anganwadi service delivery."
             },
             {
-                "text": "As per 2011 Census, what percentage of Bihar's population are children (0–18 years)?",
-                "options": ["45%", "46%", "48%", "50%"],
+                "text": "According to the 2011 Census, what percentage of Bihar’s population consists of children (0–18 years)?",
+                "options": ["38%", "42%", "48%", "52%"],
                 "correctAnswer": 2,
-                "explanation": "Children aged 0–18 years make up approximately 48% of Bihar's population."
+                "explanation": "48% of Bihar's population consists of children (0–18 years)."
             },
             {
-                "text": "What percentage of India's child population does Bihar contribute?",
-                "options": ["9%", "10%", "11%", "12%"],
+                "text": "Bihar contributes what percentage of the total child population in India?",
+                "options": ["9%", "11%", "13%", "15%"],
+                "correctAnswer": 1,
+                "explanation": "Bihar contributes 11% of India's child population."
+            },
+            {
+                "text": "What was the Average Annual Rainfall in Bihar from 2011–2024?",
+                "options": ["850.5 mm", "1004.6 mm", "1200.0 mm", "2127.5 mm"],
+                "correctAnswer": 1,
+                "explanation": "Average annual rainfall in Bihar from 2011–2024 was 1004.6 mm."
+            },
+            {
+                "text": "Which district recorded the highest rainfall in Bihar (2127.5 mm)?",
+                "options": ["Vaishali", "Araria", "Kishanganj", "Purnea"],
                 "correctAnswer": 2,
-                "explanation": "Bihar contributes about 11% of the total child population of India."
+                "explanation": "Kishanganj recorded the highest rainfall (2127.5 mm)."
             },
             {
-                "text": "Average annual rainfall in Bihar between 2011–2024?",
-                "options": ["950 mm", "1004.6 mm", "1100 mm", "1200 mm"],
+                "text": "Which district recorded the lowest rainfall in Bihar (672.9 mm)?",
+                "options": ["Kishanganj", "Vaishali", "Patna", "Gaya"],
                 "correctAnswer": 1,
-                "explanation": "Average annual rainfall is 1004.6 mm."
-            },
-            {
-                "text": "Which district receives the highest annual rainfall in Bihar?",
-                "options": ["Purnea", "Kishanganj", "Araria", "Katihar"],
-                "correctAnswer": 1,
-                "explanation": "Kishanganj receives the highest annual rainfall."
-            },
-            {
-                "text": "How much rainfall does Kishanganj receive annually?",
-                "options": ["1672.9 mm", "1827.5 mm", "2127.5 mm", "2227.5 mm"],
-                "correctAnswer": 2,
-                "explanation": "Kishanganj receives about 2127.5 mm rainfall per year."
-            },
-            {
-                "text": "Which district has the lowest annual rainfall in Bihar?",
-                "options": ["Nalanda", "Vaishali", "Supaul", "Arwal"],
-                "correctAnswer": 1,
-                "explanation": "Vaishali district has the lowest annual rainfall."
-            },
-            {
-                "text": "Rainfall in Vaishali annually?",
-                "options": ["672.9 mm", "712.9 mm", "752.9 mm", "802.9 mm"],
-                "correctAnswer": 0,
-                "explanation": "Vaishali receives 672.9 mm rainfall yearly."
+                "explanation": "Vaishali recorded the lowest rainfall (672.9 mm)."
             },
             {
                 "text": "What percentage of Bihar's rainfall comes from the South-West Monsoon?",
-                "options": ["78%", "80%", "85%", "88%"],
-                "correctAnswer": 3,
-                "explanation": "South-West Monsoon contributes 88% of annual rainfall."
-            },
-            {
-                "text": "Bihar's average temperature in 2023?",
-                "options": ["23.7°C", "24.7°C", "25.2°C", "26.0°C"],
-                "correctAnswer": 1,
-                "explanation": "Average temperature recorded was 24.7°C."
-            },
-            {
-                "text": "Increase in Bihar's forest cover between 2011–2023?",
-                "options": ["587 sq. km", "627 sq. km", "687 sq. km", "707 sq. km"],
+                "options": ["75%", "80%", "88%", "95%"],
                 "correctAnswer": 2,
-                "explanation": "Forest cover increased by 687 square kilometers."
+                "explanation": "88% of Bihar's rainfall comes from the South-West Monsoon."
             },
             {
-                "text": "Since which year has Jal Jeevan Hariyali Abhiyan been implemented?",
+                "text": "What was the Average Annual Temperature in Bihar in 2023?",
+                "options": ["22.5°C", "24.7°C", "26.0°C", "28.1°C"],
+                "correctAnswer": 1,
+                "explanation": "24.7°C was the average annual temperature in Bihar in 2023."
+            },
+            {
+                "text": "What was the increase in forest cover in Bihar from 2011–2023?",
+                "options": ["450 sq. km", "580 sq. km", "687 sq. km", "750 sq. km"],
+                "correctAnswer": 2,
+                "explanation": "Forest cover increased by 687 sq. km in Bihar from 2011–2023."
+            },
+            {
+                "text": "Since which year has the Jal Jeevan Hariyali Abhiyaan been implemented?",
                 "options": ["2017", "2018", "2019", "2020"],
                 "correctAnswer": 2,
-                "explanation": "Implemented since 2019 to enhance water and greenery."
+                "explanation": "Jal Jeevan Hariyali Abhiyaan has been implemented since 2019."
             },
             {
-                "text": "Where is Vikramshila Dolphin Sanctuary located?",
-                "options": ["Patna", "Bhagalpur", "Gaya", "Darbhanga"],
+                "text": "Where is India’s only Dolphin Sanctuary located?",
+                "options": ["Patna", "Vikramshila (Bhagalpur)", "Kaimur", "Bettiah"],
                 "correctAnswer": 1,
-                "explanation": "Situated in Bhagalpur district."
+                "explanation": "India's only Dolphin Sanctuary is in Vikramshila (Bhagalpur)."
             },
             {
-                "text": "In which year was Vikramshila Dolphin Sanctuary established?",
-                "options": ["1989", "1990", "1991", "1992"],
+                "text": "In which year was the Vikramshila Dolphin Sanctuary established?",
+                "options": ["1985", "1991", "1998", "2003"],
+                "correctAnswer": 1,
+                "explanation": "Vikramshila Dolphin Sanctuary was established in 1991."
+            },
+            {
+                "text": "The Vikramshila Dolphin Sanctuary stretches for how many kilometres?",
+                "options": ["40 km", "50 km", "60 km", "70 km"],
                 "correctAnswer": 2,
-                "explanation": "Established in 1991 for dolphin conservation."
+                "explanation": "Vikramshila Dolphin Sanctuary stretches for 60 kilometres."
             },
             {
-                "text": "Vikramshila Dolphin Sanctuary extends between which two places?",
-                "options": ["Bhagalpur to Patna", "Sultanganj to Kahalgaon", "Darbhanga to Supaul", "Gaya to Nalanda"],
-                "correctAnswer": 1,
-                "explanation": "Stretch is from Sultanganj to Kahalgaon."
-            },
-            {
-                "text": "Length of Vikramshila Dolphin Sanctuary?",
-                "options": ["50 km", "55 km", "60 km", "65 km"],
+                "text": "Under which Act was the Vikramshila Dolphin Sanctuary declared?",
+                "options": [
+                    "Forest Rights Act, 2006",
+                    "Environment Protection Act, 1986",
+                    "Wildlife Protection Act, 1972",
+                    "Biodiversity Act, 2002"
+                ],
                 "correctAnswer": 2,
-                "explanation": "Sanctuary covers approximately 60 kilometers."
+                "explanation": "It was declared under the Wildlife Protection Act, 1972."
             },
             {
-                "text": "Under which act was Vikramshila Dolphin Sanctuary declared?",
-                "options": ["Environment Protection Act, 1986", "Wildlife Protection Act, 1972", "Forest Conservation Act, 1980", "Biological Diversity Act, 2002"],
-                "correctAnswer": 1,
-                "explanation": "Declared under Wildlife Protection Act, 1972."
+                "text": "What is the conservation status of Dolphins in India, as per the source?",
+                "options": [
+                    "Vulnerable",
+                    "Near Threatened",
+                    "Endangered",
+                    "Critically Endangered"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Dolphins are listed as Endangered in India."
             },
             {
-                "text": "Conservation status of dolphins in Vikramshila Sanctuary?",
-                "options": ["Vulnerable", "Endangered", "Near Threatened", "Critically Endangered"],
+                "text": "Where is the Dolphin Research Centre located in Bihar?",
+                "options": ["Bhagalpur", "Patna", "Araria", "Bettiah"],
                 "correctAnswer": 1,
-                "explanation": "Dolphins are classified as Endangered species."
+                "explanation": "The Dolphin Research Centre is in Patna."
             },
             {
-                "text": "Where is Dolphin Research Centre in Bihar?",
-                "options": ["Bhagalpur", "Patna", "Gaya", "Rajgir"],
+                "text": "Approval has been given for a Gharial Conservation Centre in which location?",
+                "options": ["Patna", "Bettiah", "Kaimur", "Rajgir"],
                 "correctAnswer": 1,
-                "explanation": "Located in Patna."
+                "explanation": "Approval given for Gharial Conservation Centre in Bettiah."
+            },
+            {
+                "text": "A Turtle Research & Monitoring Station is planned in which district?",
+                "options": ["Kishanganj", "Araria", "Supaul", "Darbhanga"],
+                "correctAnswer": 1,
+                "explanation": "Araria will get a Turtle Research & Monitoring Station."
+            },
+            {
+                "text": "Where is the Bird Ringing & Monitoring Station located, as per COP13 agreement?",
+                "options": ["Bhagalpur", "Kaimur", "Rohtas", "Araria"],
+                "correctAnswer": 0,
+                "explanation": "Bird Ringing & Monitoring Station is in Bhagalpur as per COP13 agreement."
+            },
+            {
+                "text": "Which wildlife sanctuary is approved to be declared as a Tiger Reserve?",
+                "options": [
+                    "Valmiki Tiger Reserve",
+                    "Kaimur Wildlife Sanctuary",
+                    "Vikramshila Dolphin Sanctuary",
+                    "Pant Wildlife Sanctuary"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Kaimur Wildlife Sanctuary is to be declared a Tiger Reserve."
+            },
+            {
+                "text": "The Kaimur Wildlife Sanctuary spreads across which two districts?",
+                "options": ["Kaimur and Aurangabad", "Kaimur and Rohtas", "Rohtas and Gaya", "Kaimur and Buxar"],
+                "correctAnswer": 1,
+                "explanation": "Kaimur Wildlife Sanctuary spreads across Kaimur and Rohtas."
+            },
+            {
+                "text": "Where is the third zoo planned to be set up in Bihar?",
+                "options": ["Patna", "Rajgir", "Araria (Raniganj Zoo Centre)", "Muzaffarpur"],
+                "correctAnswer": 2,
+                "explanation": "Third zoo to be set up at Araria (Raniganj Zoo Centre)."
+            },
+            {
+                "text": "Where is the Black Buck rescue & rehabilitation centre located?",
+                "options": ["Nawanagar, Buxar", "Bettiah", "Rajgir", "Patna"],
+                "correctAnswer": 0,
+                "explanation": "Black Buck rescue & rehab centre is at Nawanagar, Buxar."
+            },
+            {
+                "text": "Which of the following towns is NOT part of Phase 1 of the Ganga Jal Apoorti Scheme?",
+                "options": ["Gaya", "Bodh Gaya", "Rajgir", "Bihar Sharif"],
+                "correctAnswer": 3,
+                "explanation": "Bihar Sharif is not part of Phase 1 of Ganga Jal Apoorti Scheme."
+            },
+            {
+                "text": "Where is water pumped and stored under the Ganga Jal Apoorti Scheme before treatment and distribution?",
+                "options": ["Rajgir", "Bodh Gaya", "Maranchi Village (near Mokama)", "Nawada"],
+                "correctAnswer": 2,
+                "explanation": "Water is stored at Maranchi Village before distribution."
+            },
+            {
+                "text": "Under Phase 2 of the Ganga Jal Apoorti Scheme, water supply was extended to which town?",
+                "options": ["Gaya", "Rajgir", "Bihar Sharif", "Nawada"],
+                "correctAnswer": 2,
+                "explanation": "Phase 2 extended water supply to Bihar Sharif."
+            },
+            {
+                "text": "What is the name of India’s longest rubber dam, located on the Falgu River?",
+                "options": ["Kosi Dam", "Gandak Dam", "Gayaji Dam", "Sone Dam"],
+                "correctAnswer": 2,
+                "explanation": "Gayaji Dam is India's longest rubber dam on Falgu river."
+            },
+            {
+                "text": "The Bihar Kosi River Development Project receives assistance from which organization?",
+                "options": [
+                    "Asian Development Bank (ADB)",
+                    "Japan International Cooperation Agency (JICA)",
+                    "World Bank",
+                    "International Monetary Fund (IMF)"
+                ],
+                "correctAnswer": 2,
+                "explanation": "World Bank assists the Kosi River Development Project."
+            },
+            {
+                "text": "The number of chapters in the 2024-25 Economic Survey document is:",
+                "options": ["12", "14", "16", "18"],
+                "correctAnswer": 1,
+                "explanation": "2024-25 Economic Survey document has 14 chapters."
+            },
+            {
+                "text": "Data for the 2024-25 Economic Survey is primarily based on which fiscal years?",
+                "options": [
+                    "2021-22 / 2022-23",
+                    "2022-23 / 2023-24",
+                    "2023-24 / 2022-23",
+                    "2020-21 / 2021-22"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Data is primarily based on 2023-24 and 2022-23."
+            },
+            {
+                "text": "Which of the following states has a CD Ratio of 119.4%?",
+                "options": ["Andhra Pradesh", "Telangana", "Tamil Nadu", "Bihar"],
+                "correctAnswer": 1,
+                "explanation": "Telangana has a CD Ratio of 119.4%."
+            },
+            {
+                "text": "Which of the following states has a CD Ratio of 117.7%?",
+                "options": ["Andhra Pradesh", "Telangana", "Tamil Nadu", "Bihar"],
+                "correctAnswer": 2,
+                "explanation": "Tamil Nadu has a CD Ratio of 117.7%."
+            },
+            {
+                "text": "What are the key concepts described by Rohit sir that require watching the Bihar Economic Survey video for understanding?",
+                "options": [
+                    "Fiscal policy",
+                    "Economic survey",
+                    "Monetary policy",
+                    "Trade balance"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Economic survey is the key concept requiring a video."
+            },
+            {
+                "text": "Cropping intensity refers to:",
+                "options": [
+                    "The total area under cultivation in a year.",
+                    "The number of crops cultivated on the same land within a single agricultural year.",
+                    "The yield per hectare of a single crop.",
+                    "The amount of fertilizer used per crop."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Cropping intensity is the number of crops grown on same land in a year."
+            },
+            {
+                "text": "Aghani rice is mentioned as:",
+                "options": [
+                    "The highest yielding rice variety in Bihar.",
+                    "The most produced rice in Bihar.",
+                    "The lowest produced rice in Bihar.",
+                    "A variety exclusively grown in Rohtas."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Aghani rice is the most produced rice in Bihar."
+            },
+            {
+                "text": "Green manure is described as:",
+                "options": [
+                    "A type of synthetic fertilizer.",
+                    "Undecomposed plant material used as natural fertiliser.",
+                    "A pest control method.",
+                    "A method of crop rotation."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Green manure is undecomposed plant material used for soil fertility."
+            },
+            {
+                "text": "The purpose of using green manure like Dhaincha is to:",
+                "options": [
+                    "Increase water retention in soil.",
+                    "Retain nitrogen balance in soil.",
+                    "Prevent soil erosion.",
+                    "Enhance soil drainage."
+                ],
+                "correctAnswer": 1,
+                "explanation": "Dhaincha is used to retain nitrogen balance in soil."
+            },
+            {
+                "text": "Which policy was introduced in Bihar in 2022?",
+                "options": [
+                    "Bihar Tourism Policy",
+                    "Bihar Biofuel Promotion Policy",
+                    "Bihar Industrial Investment Promotion Policy for Textile & Leather",
+                    "Bihar Industrial Investment Promotion Policy 2016"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar Industrial Investment Promotion Policy for Textile & Leather was introduced in 2022."
+            },
+            {
+                "text": "Which policy was introduced in Bihar in 2023?",
+                "options": [
+                    "Bihar Industrial Investment Promotion Policy 2016",
+                    "Bihar Start-up Policy 2022",
+                    "Bihar Biofuel Promotion Policy 2023",
+                    "Bihar Industrial Investment Promotion Policy for Textile & Leather 2022"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Bihar Biofuel Promotion Policy 2023 was introduced."
+            },
+            {
+                "text": "What does 'Janaki' mean, referring to Sita?",
+                "options": [
+                    "Daughter of Earth",
+                    "Daughter of Janaka",
+                    "Daughter of Mithila",
+                    "Daughter of Furrow"
+                ],
+                "correctAnswer": 1,
+                "explanation": "'Janaki' means Daughter of Janaka."
+            },
+            {
+                "text": "What type of silk is soft, smooth, shiny with a bright glow, and suitable for luxury sarees?",
+                "options": [
+                    "Tasar silk",
+                    "Eri silk",
+                    "Muga silk",
+                    "Mulberry silk"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Mulberry silk is soft, shiny, and suited for luxury sarees."
+            },
+            {
+                "text": "Which of the following major producing states for mulberry silk is not mentioned?",
+                "options": ["Karnataka", "Andhra Pradesh", "Tamil Nadu", "Odisha"],
+                "correctAnswer": 3,
+                "explanation": "Odisha is not mentioned as a major mulberry silk producer."
+            },
+            {
+                "text": "Which of the following is a producing state for non-mulberry (Vanya) silk?",
+                "options": ["Karnataka", "Jharkhand", "Tamil Nadu", "West Bengal"],
+                "correctAnswer": 1,
+                "explanation": "Jharkhand is a major non-mulberry silk producing state."
+            },
+            {
+                "text": "Which BIADA cluster covers Bhagalpur, Purnia & Saharsa?",
+                "options": ["Cluster 1", "Cluster 2", "Cluster 3", "Cluster 4"],
+                "correctAnswer": 1,
+                "explanation": "Cluster 2 includes Bhagalpur, Purnia & Saharsa."
+            },
+            {
+                "text": "In the YUVA acronym for startups, what does 'U' stand for?",
+                "options": [
+                    "Unify regulations",
+                    "Understand market",
+                    "Unleash regulatory enablers",
+                    "Utilise resources"
+                ],
+                "correctAnswer": 2,
+                "explanation": "In YUVA, 'U' stands for Unleash regulatory enablers."
+            },
+            {
+                "text": "In the YUVA acronym for startups, what does 'V' stand for?",
+                "options": [
+                    "Venture capital",
+                    "Vibrant economy",
+                    "Vibrancy in education system to unleash startups",
+                    "Vision for growth"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'V' stands for Vibrancy in education system to unleash startups."
+            },
+            {
+                "text": "In the YUVA acronym for startups, what does 'A' stand for?",
+                "options": [
+                    "Accelerate growth",
+                    "Achieve targets",
+                    "Access to incubation and funds",
+                    "Advance technology"
+                ],
+                "correctAnswer": 2,
+                "explanation": "'A' stands for Access to incubation and funds."
+            },
+            {
+                "text": "Which initiative aims to provide financial support for rural transportation by subsidizing buses?",
+                "options": [
+                    "Bihar Industrial Investment Promotion Policy",
+                    "Mukhyamantri Prakhand Parivahan Yojna",
+                    "Bihar Student Credit Card Yojna",
+                    "Jaivik Kheti Protsahan Yojana"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mukhyamantri Prakhand Parivahan Yojna supports rural buses."
+            },
+            {
+                "text": "How many buses are reserved for the EBC category under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 1,
+                "explanation": "2 buses are reserved for EBC category."
+            },
+            {
+                "text": "How many buses are reserved for the Minority category under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "1 bus is reserved for Minority category."
+            },
+            {
+                "text": "How many buses are reserved for the BC category under the Mukhyamantri Prakhand Parivahan Yojna 2024?",
+                "options": ["1", "2", "3", "4"],
+                "correctAnswer": 0,
+                "explanation": "1 bus is reserved for BC category."
+            },
+            {
+                "text": "Which two states are mentioned as being ahead of Bihar in terms of transport communication & storage sector growth?",
+                "options": [
+                    "Rajasthan and Gujarat",
+                    "Madhya Pradesh and Andhra Pradesh",
+                    "Uttar Pradesh and Karnataka",
+                    "West Bengal and Odisha"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Uttar Pradesh and Karnataka are ahead in transport sector growth."
+            },
+            {
+                "text": "What is the amount of financial support for TV Serials under the Bihar Film Promotion Policy – 2024?",
+                "options": ["₹ 1 crore", "₹ 1.5 crore", "₹ 3 crore", "₹ 4 crore"],
+                "correctAnswer": 0,
+                "explanation": "₹ 1 crore is the support for TV Serials under the film policy."
+            },
+            {
+                "text": "What is the purpose of the Tharuhat Area Development Initiative?",
+                "options": [
+                    "Promote tourism",
+                    "Preserve ancient heritage",
+                    "Develop the Tharu Tribe",
+                    "Improve agricultural practices"
+                ],
+                "correctAnswer": 2,
+                "explanation": "It aims to develop the Tharu Tribe."
+            },
+            {
+                "text": "Approval for a Gharial Conservation Centre has been given for which location?",
+                "options": ["Kaimur", "Bettiah", "Araria", "Bhagalpur"],
+                "correctAnswer": 1,
+                "explanation": "Approval given for Gharial Centre in Bettiah."
+            },
+            {
+                "text": "A planned Turtle Research & Monitoring Station will be located in which district?",
+                "options": ["Bhagalpur", "Araria", "Supaul", "Darbhanga"],
+                "correctAnswer": 1,
+                "explanation": "Turtle Research Centre is planned at Araria."
+            },
+            {
+                "text": "Which district has a Muslim population percentage of 44.5%?",
+                "options": ["Kishanganj", "Araria", "Katihar", "Purnea"],
+                "correctAnswer": 2,
+                "explanation": "Katihar has 44.5% Muslim population."
+            },
+            {
+                "text": "Which district has a Muslim population percentage of 42.9%?",
+                "options": ["Kishanganj", "Araria", "Katihar", "Purnea"],
+                "correctAnswer": 1,
+                "explanation": "Araria has 42.9% Muslim population."
+            },
+            {
+                "text": "Which district has a Muslim population percentage of 38.5%?",
+                "options": ["Kishanganj", "Araria", "Katihar", "Purnea"],
+                "correctAnswer": 3,
+                "explanation": "Purnea has 38.5% Muslim population."
+            },
+            {
+                "text": "Which river is the Gayaji Dam, India’s longest rubber dam, built on?",
+                "options": ["Ganga River", "Kosi River", "Falgu River", "Gandak River"],
+                "correctAnswer": 2,
+                "explanation": "Gayaji Dam is built on the Falgu River."
             }
         ],
         "Bihar CA - Set 1": [{
