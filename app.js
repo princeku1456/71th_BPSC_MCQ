@@ -149,6 +149,7 @@ function renderQuizLayout(chapterName) {
         <div id="question-container"></div>
         <div class="d-flex justify-content-between mt-3">
             <button id="prev-btn" class="btn btn-secondary">Previous</button>
+            <button id="clear-btn" class="btn btn-warning">Clear Selection</button>
             <button id="next-btn" class="btn btn-primary">Next</button>
         </div>
         <div id="result" class="mt-3 text-center"></div>
@@ -162,8 +163,20 @@ function renderQuizLayout(chapterName) {
     `;
 
     document.getElementById('prev-btn').addEventListener('click', navigateQuestions.bind(null, -1));
+    document.getElementById('clear-btn').addEventListener('click', clearSelection);
     document.getElementById('next-btn').addEventListener('click', navigateQuestions.bind(null, 1));
     document.getElementById('final-submit-btn').addEventListener('click', submitAll);
+}
+
+function clearSelection() {
+    if (!quizSubmitted) {
+        const selectedOption = document.querySelector(`input[name="q${currentQuestionIndex}"]:checked`);
+        if (selectedOption) {
+            selectedOption.checked = false;
+        }
+        delete userAnswers[currentQuestionIndex];
+        updateNavHighlights();
+    }
 }
 
 function renderQuestion() {
